@@ -1,0 +1,22 @@
+{
+  "lastBuildDate": "Wed, 09 Sep 2026 12:00:00 +0900",
+  "total": 2,
+  "start": 1,
+  "display": 2,
+  "items": [
+    {
+      "title": "<b>두두원</b>, 5G 코어 솔루션 공급 확대",
+      "originallink": "https://example.com/news/1",
+      "link": "https://news.naver.com/link/1",
+      "description": "<b>두두원</b>이 5G 코어 솔루션 공급을 확대한다고 밝혔다.",
+      "pubDate": "Wed, 09 Sep 2026 09:00:00 +0900"
+    },
+    {
+      "title": "두두원 6G 공동개발 착수",
+      "originallink": "",
+      "link": "https://news.naver.com/link/2",
+      "description": "두두원이 ETRI와 6G 공동개발에 착수했다.",
+      "pubDate": "Wed, 09 Sep 2026 08:00:00 +0900"
+    }
+  ]
+}
