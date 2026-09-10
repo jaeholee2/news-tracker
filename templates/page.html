@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News Tracker &ndash; {{ date }}</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1a1a1a;
+    --bg: #ffffff;
+    --muted: #6b6b6b;
+    --border: #e2e2e2;
+    --accent: #1a5fb4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e8e8e8;
+      --bg: #1a1a1a;
+      --muted: #9a9a9a;
+      --border: #333333;
+      --accent: #7aa9e8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px 16px 64px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Segoe UI", sans-serif;
+    line-height: 1.5;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 1.4rem;
+    margin: 0 0 4px;
+  }
+  header h1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  header .date {
+    color: var(--muted);
+    margin: 0 0 16px;
+    font-size: 0.95rem;
+  }
+  nav.archive-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: baseline;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  nav.archive-nav .label {
+    color: var(--muted);
+    margin-right: 4px;
+  }
+  nav.archive-nav a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  nav.archive-nav a:hover {
+    text-decoration: underline;
+  }
+  nav.archive-nav .current {
+    color: var(--fg);
+    font-weight: 600;
+  }
+  ul.articles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul.articles li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  ul.articles li:last-child {
+    border-bottom: none;
+  }
+  ul.articles a.title {
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  ul.articles a.title:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .meta {
+    display: block;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  .empty {
+    color: var(--muted);
+    padding: 32px 0;
+    text-align: center;
+  }
+  footer {
+    margin-top: 32px;
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  {% if password_hash %}
+  #gate-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    padding: 16px;
+    z-index: 10;
+  }
+  #gate-box {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+  #gate-box p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 16px;
+  }
+  #gate-box form {
+    display: flex;
+    gap: 8px;
+  }
+  #gate-password {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+  }
+  #gate-box button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background: var(--accent);
+    color: var(--bg);
+    cursor: pointer;
+  }
+  #gate-error {
+    color: #c0392b;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  {% endif %}
+</style>
+</head>
+<body>
+{% if password_hash %}
+<div id="gate-overlay">
+  <div id="gate-box">
+    <p>비밀번호를 입력하세요</p>
+    <form id="gate-form" autocomplete="off">
+      <input type="password" id="gate-password" autocomplete="current-password" required>
+      <button type="submit">열기</button>
+    </form>
+    <p id="gate-error" hidden>비밀번호가 올바르지 않습니다.</p>
+  </div>
+</div>
+{% endif %}
+<div class="page" id="site-content"{% if password_hash %} style="display: none;"{% endif %}>
+  <header>
+    <h1><a href="{{ home_link }}">News Tracker</a></h1>
+    <p class="date">{{ date }}</p>
+  </header>
+
+  {% if archive_dates %}
+  <nav class="archive-nav">
+    <span class="label">지난 기록</span>
+    {% for d in archive_dates %}
+      {% if d == date %}
+        <span class="current">{{ d }}</span>
+      {% else %}
+        <a href="{{ archive_link_prefix }}{{ d }}.html">{{ d }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+  {% endif %}
+
+  <main>
+    {% if articles %}
+    <ul class="articles">
+      {% for article in articles %}
+      <li>
+        <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+        <span class="meta">
+          {{ article.sources|join(', ') }}{% if article.published_at %} · {{ article.published_at }}{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty">기사 없음</p>
+    {% endif %}
+  </main>
+
+  <footer>News Tracker &middot; generated {{ date }}</footer>
+</div>
+{% if password_hash %}
+<script>
+(function () {
+  var EXPECTED_HASH = "{{ password_hash }}";
+  var STORAGE_KEY = "news-tracker-gate";
+  var overlay = document.getElementById("gate-overlay");
+  var content = document.getElementById("site-content");
+  var form = document.getElementById("gate-form");
+  var input = document.getElementById("gate-password");
+  var error = document.getElementById("gate-error");
+
+  function sha256Hex(text) {
+    var data = new TextEncoder().encode(text);
+    return crypto.subtle.digest("SHA-256", data).then(function (digest) {
+      return Array.prototype.map
+        .call(new Uint8Array(digest), function (b) { return b.toString(16).padStart(2, "0"); })
+        .join("");
+    });
+  }
+
+  function unlock() {
+    overlay.style.display = "none";
+    content.style.display = "block";
+  }
+
+  // Web Crypto (crypto.subtle) requires a secure context (https, or
+  // localhost) -- unavailable when opened as a local file:// page. There's
+  // nothing to unlock in that case anyway (this gate only matters for the
+  // hosted site), so just leave the gate showing rather than erroring.
+  if (!window.isSecureContext || !crypto.subtle) {
+    return;
+  }
+
+  try {
+    if (localStorage.getItem(STORAGE_KEY) === EXPECTED_HASH) {
+      unlock();
+    }
+  } catch (e) {
+    // localStorage can throw in some private-browsing modes; the user just
+    // has to re-enter the password every visit in that case.
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    sha256Hex(input.value).then(function (hash) {
+      if (hash === EXPECTED_HASH) {
+        error.hidden = true;
+        try {
+          localStorage.setItem(STORAGE_KEY, EXPECTED_HASH);
+        } catch (e) {
+          // ignore -- unlock still works for this page view
+        }
+        unlock();
+      } else {
+        error.hidden = false;
+        input.select();
+      }
+    });
+  });
+})();
+</script>
+{% endif %}
+</body>
+</html>
