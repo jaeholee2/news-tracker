@@ -1,0 +1,69 @@
+name: Daily news update
+
+# Runs once a day even if your laptop is off, then publishes the result to
+# GitHub Pages. See README.md "GitHub Pages로 배포하기" for one-time setup
+# (repo secrets, Pages source, workflow permissions).
+
+on:
+  schedule:
+    # 23:00 UTC = 08:00 KST (Asia/Seoul). Cron is always UTC; adjust here if
+    # you want a different local run time.
+    - cron: "0 23 * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write # to commit the day's data/ + output/archive/ back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect, dedupe, render
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+          # config.yaml (with real credentials) is gitignored and never
+          # committed -- CI uses this secrets-free config file instead and
+          # gets the Naver credentials from the env vars above.
+          NEWS_TRACKER_CONFIG_PATH: config.ci.yaml
+        run: python -m news_tracker.main
+
+      - name: Commit updated data & archive
+        run: |
+          git config user.name "news-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- data output
+          git diff --cached --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
