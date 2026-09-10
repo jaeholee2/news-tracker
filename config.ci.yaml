@@ -1,0 +1,12 @@
+# GitHub Actions용 설정 파일 (커밋되어 공개 저장소에 올라갑니다).
+# 여기에는 Naver API 키를 넣지 마세요 -- 자격 증명은 저장소의
+# Settings > Secrets and variables > Actions 에서 NAVER_CLIENT_ID /
+# NAVER_CLIENT_SECRET / SITE_PASSWORD 로 설정하고, 워크플로가 환경변수로
+# 주입합니다 (.github/workflows/daily.yml 참고).
+#
+# 로컬에서 실행할 때는 이 파일 대신 config.yaml(gitignore됨, 실제 키 포함)을
+# 사용하세요 -- config.yaml.example을 복사해서 만들면 됩니다.
+
+keywords:
+  - "두두원"
+retention_days: 90
