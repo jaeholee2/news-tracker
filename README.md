@@ -81,6 +81,7 @@ naver:
   client_id: "발급받은 CLIENT_ID"
   client_secret: "발급받은 CLIENT_SECRET"
 retention_days: 90
+max_article_age_days: 3
 ```
 
 - `keywords`: 검색어 목록 (여러 개 지정 시 결과를 합쳐서 보여줍니다)
@@ -89,6 +90,11 @@ retention_days: 90
   우선합니다 (GitHub Actions에서 이 방식을 씁니다 — 아래 6번 참고).
 - `retention_days`: 보관/링크할 과거 기록 일수 (기본 90일). 이보다 오래된
   `data/*.json`, `output/archive/*.html` 파일은 실행할 때마다 자동 삭제됩니다.
+- `max_article_age_days`: 실제 기사 발행일 기준으로, 오늘로부터 이 일수보다
+  오래된 기사는 결과에서 제외합니다 (기본 3일). Google 뉴스는 검색어와의
+  관련도로 결과를 주기 때문에 필터링이 없으면 "두두" 같은 단어가 우연히
+  들어간 몇 년 전 기사까지 매일 섞여 나올 수 있어, 이를 걸러내기 위한
+  값입니다.
 
 `config.yaml`은 `.gitignore`에 포함되어 있어 git에 커밋되지 않습니다 (실제 API
 키가 들어있기 때문). GitHub Actions용 설정은 별도의 `config.ci.yaml`을 씁니다
@@ -152,8 +158,15 @@ GitHub Actions + GitHub Pages를 씁니다. 아래는 한 번만 하면 되는 �
 
 ### 6-1. GitHub 저장소 만들고 푸시
 
-(이 저장소는 이미 만들어져 있고, 코드는 Claude가 GitHub 웹 에디터를 통해
-직접 커밋했습니다.)
+```bash
+cd /Users/nakta/projects/news-tracker
+git remote add origin git@github.com:<your-username>/news-tracker.git   # 저장소는 GitHub에서 미리 생성
+git add -A
+git commit -m "Add news tracker implementation + GitHub Pages deployment"
+git push -u origin main
+```
+
+(SSH 대신 HTTPS로 쓰고 있다면 `https://github.com/<your-username>/news-tracker.git`)
 
 ### 6-2. `config.ci.yaml` 키워드 확인/수정
 
@@ -164,34 +177,46 @@ GitHub Actions + GitHub Pages를 씁니다. 아래는 한 번만 하면 되는 �
 keywords:
   - "두두원"
 retention_days: 90
+max_article_age_days: 3
 ```
 
 ### 6-3. GitHub Secrets 등록
 
 저장소 페이지 → **Settings → Secrets and variables → Actions → New repository
-secret** 에서 아래를 등록합니다 (SITE_PASSWORD는 이미 등록되어 있습니다):
+secret** 에서 아래 세 개를 등록합니다:
 
 | Name | 값 |
 |---|---|
-| `NAVER_CLIENT_ID` | Naver API HUB에서 발급받은 Client ID |
-| `NAVER_CLIENT_SECRET` | Naver API HUB에서 발급받은 Client Secret |
+| `NAVER_CLIENT_ID` | Naver에서 발급받은 Client ID |
+| `NAVER_CLIENT_SECRET` | Naver에서 발급받은 Client Secret |
+| `SITE_PASSWORD` | 사이트 접속 시 요구할 비밀번호 (원하는 문자열 아무거나) |
 
-### 6-4. Workflow 권한 / Pages 소스
+`SITE_PASSWORD`를 등록하지 않으면 비밀번호 게이트 없이 사이트가 그대로
+공개됩니다.
 
-이미 설정되어 있습니다 (Workflow permissions: Read and write, Pages source:
-GitHub Actions).
+### 6-4. Workflow 권한을 "읽기/쓰기"로 설정
 
-### 6-5. 첫 실행 확인
+매일 실행 결과(`data/`, `output/`)를 저장소에 커밋해서 기록을 남기기 때문에,
+Actions에 쓰기 권한이 필요합니다. **Settings → Actions → General → Workflow
+permissions** 에서 **"Read and write permissions"** 를 선택하고 저장하세요.
 
-Naver API 키를 Secrets에 등록한 뒤, 저장소의 **Actions** 탭 → **Daily news
-update** 워크플로 → **Run workflow** 버튼으로 수동 실행해 보세요. 성공하면:
+### 6-5. Pages 소스를 "GitHub Actions"로 설정
+
+**Settings → Pages → Build and deployment → Source** 에서 **"GitHub
+Actions"** 를 선택합니다 (브랜치를 고르는 기존 방식이 아닙니다).
+
+### 6-6. 첫 실행 확인
+
+저장소의 **Actions** 탭 → **Daily news update** 워크플로 → **Run workflow**
+버튼으로 수동 실행해 보세요. 성공하면:
 
 - `data/`, `output/`에 오늘 날짜 파일이 추가된 커밋이 저장소에 생깁니다.
 - **Settings → Pages** 상단에 사이트 URL이 표시됩니다
-  (`https://jaeholee2.github.io/news-tracker/`).
+  (`https://<your-username>.github.io/news-tracker/`).
 
 이후에는 `.github/workflows/daily.yml`에 설정된 시각(기본 매일 08:00 KST)에
-자동으로 실행됩니다.
+자동으로 실행됩니다. 시각을 바꾸려면 그 파일의 `cron:` 줄을 수정하세요 (UTC
+기준이므로 KST에서 9시간을 빼서 넣습니다).
 
 ### 로컬 cron과 같이 쓸 때 주의
 
