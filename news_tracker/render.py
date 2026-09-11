@@ -82,7 +82,6 @@ def _render_page(
     keywords: list[str],
     *,
     is_index: bool,
-    password_hash: str | None,
 ) -> str:
     template = env.get_template("page.html")
     return template.render(
@@ -97,10 +96,6 @@ def _render_page(
         # to its siblings directly and back up to ../index.html.
         archive_link_prefix="archive/" if is_index else "",
         home_link="index.html" if is_index else "../index.html",
-        # When set, the template shows a client-side password gate. See
-        # main.resolve_site_password_hash -- this is a deterrent against
-        # casual visitors on a public URL, not real access control.
-        password_hash=password_hash,
     )
 
 
@@ -111,7 +106,6 @@ def render(
     templates_dir: Path,
     retention_days: int,
     keywords: list[str],
-    password_hash: str | None = None,
 ) -> None:
     """Render today's index page and its permanent archive copy."""
     output_dir = Path(output_dir)
@@ -133,7 +127,6 @@ def render(
             discover_archive_dates(archive_dir, today, retention_days),
             keywords,
             is_index=False,
-            password_hash=password_hash,
         ),
         encoding="utf-8",
     )
@@ -141,8 +134,6 @@ def render(
     archive_dates = discover_archive_dates(archive_dir, today, retention_days)
     index_page = output_dir / "index.html"
     index_page.write_text(
-        _render_page(
-            env, date_str, articles, archive_dates, keywords, is_index=True, password_hash=password_hash
-        ),
+        _render_page(env, date_str, articles, archive_dates, keywords, is_index=True),
         encoding="utf-8",
     )
