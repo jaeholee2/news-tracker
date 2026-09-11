@@ -47,9 +47,24 @@ pip install -r requirements.txt
 
 ## 2. Naver API 키 발급
 
-1. https://developers.naver.com/apps/#/register 에서 애플리케이션 등록
-2. 사용 API에서 "검색" 선택
-3. 발급받은 Client ID / Client Secret을 아래 설정에 입력 (무료)
+**2026년 7월 31일부로 뉴스 검색 API 신규 발급이 개발자센터(developers.naver.com)에서
+NAVER Cloud Platform의 "NAVER API HUB"로 이전되었습니다.** 기존 개발자센터에서 발급한
+키는 이 API HUB에서 사용할 수 없고, 별도로 새로 발급받아야 합니다.
+
+1. https://www.ncloud.com (NAVER Cloud Platform) 에 접속해 NCP 계정으로 로그인
+   (일반 네이버 계정과는 별도 — 없으면 회원가입 필요, 이 API는 무료 티어로 충분함:
+   일 25,000건까지 무료)
+2. 콘솔 메뉴 → **전체 서비스 → Application Service → NAVER API HUB** 이동
+3. **신청하기** → 서비스 이용 신청 (약관 동의)
+4. **Application** 메뉴 → **Application 등록** → 사용할 API로 **뉴스 검색(Search - News)**
+   선택 → 이름 입력 후 등록
+5. 등록된 Application 선택 → **인증 정보** 에서 Client ID / Client Secret 확인
+
+발급받은 값을 아래 설정에 입력하세요.
+
+(참고: 요청 형식·응답 형식 자체는 예전 API와 동일하지만, 엔드포인트와 인증 헤더가
+바뀌었습니다 — `collect.py`에 이미 새 엔드포인트/헤더로 반영되어 있으니 신경 쓰지
+않으셔도 됩니다.)
 
 ## 3. 로컬 설정 (`config.yaml`)
 
@@ -158,8 +173,8 @@ secret** 에서 아래를 등록합니다 (SITE_PASSWORD는 이미 등록되어 
 
 | Name | 값 |
 |---|---|
-| `NAVER_CLIENT_ID` | Naver에서 발급받은 Client ID |
-| `NAVER_CLIENT_SECRET` | Naver에서 발급받은 Client Secret |
+| `NAVER_CLIENT_ID` | Naver API HUB에서 발급받은 Client ID |
+| `NAVER_CLIENT_SECRET` | Naver API HUB에서 발급받은 Client Secret |
 
 ### 6-4. Workflow 권한 / Pages 소스
 
