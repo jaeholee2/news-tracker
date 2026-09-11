@@ -286,74 +286,10 @@
     header.masthead { padding-top: 36px; }
     ul.articles a.title { font-size: 16.5px; }
   }
-  {% if password_hash %}
-  #gate-overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    background: var(--bg);
-  }
-  #gate-box { width: 100%; max-width: 340px; text-align: center; }
-  #gate-box .gate-title {
-    font-family: var(--serif);
-    font-size: 30px;
-    letter-spacing: -0.01em;
-    margin: 0 0 10px;
-  }
-  #gate-box .gate-rule { width: 34px; height: 1px; background: var(--accent); margin: 0 auto 12px; }
-  #gate-box p { margin: 0 0 22px; font-size: 13px; color: var(--muted); }
-  #gate-box form { display: flex; flex-direction: column; gap: 10px; }
-  #gate-password {
-    width: 100%;
-    padding: 13px 16px;
-    font-size: 15px;
-    font-family: inherit;
-    text-align: center;
-    letter-spacing: 0.2em;
-    color: var(--fg);
-    background: var(--paper);
-    border: 1px solid #dfd8c9;
-    border-radius: 2px;
-    outline: none;
-  }
-  #gate-password:focus { border-color: var(--accent); }
-  #gate-box button {
-    padding: 13px 16px;
-    font-size: 14px;
-    font-family: inherit;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    color: var(--paper);
-    background: var(--fg);
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  #gate-box button:hover { background: var(--accent); }
-  #gate-error { color: #a8342f; font-size: 12.5px; margin: 12px 0 0; }
-  {% endif %}
-</style>
+  </style>
 </head>
 <body>
-{% if password_hash %}
-<div id="gate-overlay">
-  <div id="gate-box">
-    <div class="gate-title">News Tracker</div>
-    <div class="gate-rule"></div>
-    <p>비밀번호를 입력하세요</p>
-    <form id="gate-form" autocomplete="off">
-      <input type="password" id="gate-password" autocomplete="current-password" placeholder="••••••••" required>
-      <button type="submit">열기</button>
-    </form>
-    <p id="gate-error" hidden>비밀번호가 올바르지 않습니다.</p>
-  </div>
-</div>
-{% endif %}
-<div class="page" id="site-content"{% if password_hash %} style="display: none;"{% endif %}>
+<div class="page" id="site-content">
   <header class="masthead">
     <div class="brand">
       <div class="eyebrow">Daily Clipping</div>
@@ -593,67 +529,5 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
   apply();
 })();
 </script>
-{% if password_hash %}
-<script>
-(function () {
-  var EXPECTED_HASH = "{{ password_hash }}";
-  var STORAGE_KEY = "news-tracker-gate";
-  var overlay = document.getElementById("gate-overlay");
-  var content = document.getElementById("site-content");
-  var form = document.getElementById("gate-form");
-  var input = document.getElementById("gate-password");
-  var error = document.getElementById("gate-error");
-
-  function sha256Hex(text) {
-    var data = new TextEncoder().encode(text);
-    return crypto.subtle.digest("SHA-256", data).then(function (digest) {
-      return Array.prototype.map
-        .call(new Uint8Array(digest), function (b) { return b.toString(16).padStart(2, "0"); })
-        .join("");
-    });
-  }
-
-  function unlock() {
-    overlay.style.display = "none";
-    content.style.display = "block";
-  }
-
-  // Web Crypto (crypto.subtle) requires a secure context (https, or
-  // localhost) -- unavailable when opened as a local file:// page. There's
-  // nothing to unlock in that case anyway (this gate only matters for the
-  // hosted site), so just leave the gate showing rather than erroring.
-  if (!window.isSecureContext || !crypto.subtle) {
-    return;
-  }
-
-  try {
-    if (localStorage.getItem(STORAGE_KEY) === EXPECTED_HASH) {
-      unlock();
-    }
-  } catch (e) {
-    // localStorage can throw in some private-browsing modes; the user just
-    // has to re-enter the password every visit in that case.
-  }
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    sha256Hex(input.value).then(function (hash) {
-      if (hash === EXPECTED_HASH) {
-        error.hidden = true;
-        try {
-          localStorage.setItem(STORAGE_KEY, EXPECTED_HASH);
-        } catch (e) {
-          // ignore -- unlock still works for this page view
-        }
-        unlock();
-      } else {
-        error.hidden = false;
-        input.select();
-      }
-    });
-  });
-})();
-</script>
-{% endif %}
 </body>
 </html>
