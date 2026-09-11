@@ -4,147 +4,214 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>News Tracker &ndash; {{ date }}</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" as="style" crossorigin
+  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
 <style>
   :root {
     color-scheme: light dark;
-    --fg: #1a1a1a;
-    --bg: #ffffff;
-    --muted: #6b6b6b;
-    --border: #e2e2e2;
-    --accent: #1a5fb4;
+    --fg: #17181c;
+    --bg: #f4f5f7;
+    --card-bg: #ffffff;
+    --muted: #6d7178;
+    --border: #e5e7eb;
+    --accent: #2f5fe0;
+    --accent-fg: #ffffff;
+    --accent-soft: #e9edfd;
+    --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --fg: #e8e8e8;
-      --bg: #1a1a1a;
-      --muted: #9a9a9a;
-      --border: #333333;
-      --accent: #7aa9e8;
+      --fg: #edeef1;
+      --bg: #101114;
+      --card-bg: #1a1b1f;
+      --muted: #9a9ea6;
+      --border: #2c2e33;
+      --accent: #7fa1ff;
+      --accent-fg: #0d1220;
+      --accent-soft: #1d2740;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.35);
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    padding: 24px 16px 64px;
+    padding: 28px 16px 72px;
     background: var(--bg);
     color: var(--fg);
-    font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Segoe UI", sans-serif;
-    line-height: 1.5;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",
+      "Malgun Gothic", "Segoe UI", sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
   }
   .page {
     max-width: 720px;
     margin: 0 auto;
   }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    margin-bottom: 18px;
+  }
   header h1 {
-    font-size: 1.4rem;
-    margin: 0 0 4px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0;
   }
   header h1 a {
     color: inherit;
     text-decoration: none;
   }
-  header .date {
-    color: var(--muted);
-    margin: 0 0 16px;
-    font-size: 0.95rem;
-  }
-  nav.archive-nav {
+  header .meta-line {
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px 10px;
     align-items: baseline;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    font-size: 0.85rem;
-  }
-  nav.archive-nav .label {
+    gap: 8px;
     color: var(--muted);
-    margin-right: 4px;
+    font-size: 0.88rem;
   }
-  nav.archive-nav a {
+  header .meta-line .count {
+    background: var(--accent-soft);
     color: var(--accent);
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+  }
+  nav.tab-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 6px;
+    padding: 4px 0 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+    scrollbar-width: thin;
+  }
+  nav.tab-row::-webkit-scrollbar {
+    height: 4px;
+  }
+  nav.tab-row .tab-label {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-right: 2px;
+    white-space: nowrap;
+  }
+  nav.tab-row a,
+  nav.tab-row span.tab-current {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 13px;
+    border-radius: 999px;
+    font-size: 0.85rem;
     text-decoration: none;
   }
-  nav.archive-nav a:hover {
-    text-decoration: underline;
+  nav.tab-row a {
+    color: var(--muted);
+    background: transparent;
+    border: 1px solid var(--border);
   }
-  nav.archive-nav .current {
-    color: var(--fg);
-    font-weight: 600;
+  nav.tab-row a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  nav.tab-row span.tab-current {
+    background: var(--accent);
+    color: var(--accent-fg);
+    font-weight: 700;
+    border: 1px solid var(--accent);
   }
   nav.keyword-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 10px;
-    align-items: baseline;
-    padding: 0 0 16px;
+    gap: 8px;
+    padding-bottom: 20px;
     margin-bottom: 4px;
-    font-size: 0.85rem;
-  }
-  nav.keyword-nav .label {
-    color: var(--muted);
-    margin-right: 4px;
   }
   nav.keyword-nav a {
-    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--fg);
+    background: var(--card-bg);
     text-decoration: none;
-    padding: 3px 9px;
+    padding: 6px 12px;
     border: 1px solid var(--border);
-    border-radius: 999px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: var(--shadow);
   }
   nav.keyword-nav a:hover {
-    text-decoration: underline;
+    border-color: var(--accent);
+    color: var(--accent);
   }
-  nav.keyword-nav .count {
+  nav.keyword-nav a .count {
     color: var(--muted);
+    font-weight: 500;
+    font-size: 0.78rem;
   }
   section.keyword-group {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
   section.keyword-group:last-child {
     margin-bottom: 0;
   }
   h2.keyword-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 1.05rem;
-    margin: 0 0 4px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid var(--accent);
+    font-weight: 800;
+    margin: 0 0 12px;
+    padding-left: 11px;
+    border-left: 4px solid var(--accent);
+    scroll-margin-top: 16px;
   }
   h2.keyword-heading .count {
     color: var(--muted);
-    font-weight: 400;
-    font-size: 0.85rem;
-  }
-  .empty.small {
-    padding: 12px 0;
-    text-align: left;
+    font-weight: 500;
+    font-size: 0.82rem;
   }
   ul.articles {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
   ul.articles li {
-    padding: 12px 0;
-    border-bottom: 1px solid var(--border);
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+    transition: border-color 0.15s ease, transform 0.15s ease;
   }
-  ul.articles li:last-child {
-    border-bottom: none;
+  ul.articles li:hover {
+    border-color: var(--accent);
   }
   ul.articles a.title {
     color: var(--fg);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.4;
   }
   ul.articles a.title:hover {
     color: var(--accent);
-    text-decoration: underline;
   }
   .meta {
     display: block;
-    margin-top: 4px;
+    margin-top: 6px;
     color: var(--muted);
     font-size: 0.8rem;
   }
@@ -152,9 +219,17 @@
     color: var(--muted);
     padding: 32px 0;
     text-align: center;
+    background: var(--card-bg);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+  }
+  .empty.small {
+    padding: 14px 16px;
+    text-align: left;
+    margin: 0;
   }
   footer {
-    margin-top: 32px;
+    margin-top: 40px;
     color: var(--muted);
     font-size: 0.75rem;
     text-align: center;
@@ -174,6 +249,11 @@
     width: 100%;
     max-width: 320px;
     text-align: center;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 24px;
+    box-shadow: var(--shadow);
   }
   #gate-box p {
     color: var(--muted);
@@ -190,21 +270,22 @@
     padding: 10px 12px;
     font-size: 1rem;
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: 8px;
     background: var(--bg);
     color: var(--fg);
   }
   #gate-box button {
     padding: 10px 16px;
     font-size: 1rem;
+    font-weight: 700;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     background: var(--accent);
-    color: var(--bg);
+    color: var(--accent-fg);
     cursor: pointer;
   }
   #gate-error {
-    color: #c0392b;
+    color: #d64545;
     font-size: 0.85rem;
     margin-top: 10px;
   }
@@ -227,15 +308,17 @@
 <div class="page" id="site-content"{% if password_hash %} style="display: none;"{% endif %}>
   <header>
     <h1><a href="{{ home_link }}">News Tracker</a></h1>
-    <p class="date">{{ date }}</p>
+    <p class="meta-line">
+      {{ date }} <span class="count">{{ article_count }}건</span>
+    </p>
   </header>
 
   {% if archive_dates %}
-  <nav class="archive-nav">
-    <span class="label">지난 기록</span>
+  <nav class="tab-row" aria-label="지난 기록">
+    <span class="tab-label">지난 기록</span>
     {% for d in archive_dates %}
       {% if d == date %}
-        <span class="current">{{ d }}</span>
+        <span class="tab-current">{{ d }}</span>
       {% else %}
         <a href="{{ archive_link_prefix }}{{ d }}.html">{{ d }}</a>
       {% endif %}
@@ -244,10 +327,9 @@
   {% endif %}
 
   {% if keyword_groups %}
-  <nav class="keyword-nav">
-    <span class="label">검색어</span>
+  <nav class="keyword-nav" aria-label="검색어">
     {% for group in keyword_groups %}
-      <a href="#kw-{{ loop.index }}">{{ group.keyword }} <span class="count">({{ group.articles|length }})</span></a>
+      <a href="#kw-{{ loop.index }}">{{ group.keyword }} <span class="count">{{ group.articles|length }}</span></a>
     {% endfor %}
   </nav>
   {% endif %}
@@ -256,7 +338,7 @@
     {% if keyword_groups %}
       {% for group in keyword_groups %}
       <section class="keyword-group" id="kw-{{ loop.index }}">
-        <h2 class="keyword-heading">{{ group.keyword }} <span class="count">({{ group.articles|length }})</span></h2>
+        <h2 class="keyword-heading">{{ group.keyword }} <span class="count">{{ group.articles|length }}건</span></h2>
         {% if group.articles %}
         <ul class="articles">
           {% for article in group.articles %}
