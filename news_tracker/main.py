@@ -25,6 +25,12 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 
 DEFAULT_RETENTION_DAYS = 90
+# Google News RSS search matches by keyword relevance, not recency -- a
+# search for "두두원" can return a story from years ago that merely contains
+# "두두". Since this is meant to be checked daily for *new* news, articles
+# published more than this many days before the collection day are dropped
+# before saving/rendering. See filter_recent().
+DEFAULT_MAX_ARTICLE_AGE_DAYS = 3
 DATE_FORMAT = "%Y-%m-%d"
 
 # Env var names. Naver credentials given this way take priority over
@@ -106,11 +112,16 @@ def load_config(path: Path | None = None) -> dict:
     if not isinstance(retention_days, int) or retention_days <= 0:
         raise ConfigError("'retention_days' must be a positive integer")
 
+    max_article_age_days = raw.get("max_article_age_days", DEFAULT_MAX_ARTICLE_AGE_DAYS)
+    if not isinstance(max_article_age_days, int) or max_article_age_days <= 0:
+        raise ConfigError("'max_article_age_days' must be a positive integer")
+
     return {
         "keywords": keywords,
         "naver_client_id": client_id,
         "naver_client_secret": client_secret,
         "retention_days": retention_days,
+        "max_article_age_days": max_article_age_days,
     }
 
 
@@ -121,6 +132,32 @@ def save_articles(articles: list[dict], date_str: str, data_dir: Path = DATA_DIR
     path = data_dir / f"{date_str}.json"
     path.write_text(json.dumps(articles, ensure_ascii=False, indent=2), encoding="utf-8")
     return path
+
+
+def filter_recent(articles: list[dict], today: date, max_age_days: int) -> list[dict]:
+    """Drop articles published more than `max_age_days` before `today`.
+
+    Google News RSS search ranks by keyword match, not recency, so it
+    regularly surfaces stories from years ago that merely contain the
+    search term -- not useful on a page meant to show *today's* news. An
+    article whose `published_at` couldn't be parsed (empty string) is kept
+    rather than dropped, since there's no date to judge it by.
+    """
+    cutoff = today - timedelta(days=max_age_days)
+    kept = []
+    for article in articles:
+        published_at = article.get("published_at", "")
+        if not published_at:
+            kept.append(article)
+            continue
+        try:
+            published_date = datetime.fromisoformat(published_at).date()
+        except ValueError:
+            kept.append(article)
+            continue
+        if published_date >= cutoff:
+            kept.append(article)
+    return kept
 
 
 def prune_old_files(
@@ -163,12 +200,19 @@ def run(today: date | None = None) -> int:
         config["keywords"], config["naver_client_id"], config["naver_client_secret"]
     )
     deduped = dedupe.dedupe(articles)
-    logger.info("Collected %d article(s), %d after dedup", len(articles), len(deduped))
+    recent = filter_recent(deduped, today, config["max_article_age_days"])
+    logger.info(
+        "Collected %d article(s), %d after dedup, %d after dropping items older than %d day(s)",
+        len(articles),
+        len(deduped),
+        len(recent),
+        config["max_article_age_days"],
+    )
 
-    save_articles(deduped, date_str)
+    save_articles(recent, date_str)
     render.render(
         date_str,
-        deduped,
+        recent,
         OUTPUT_DIR,
         TEMPLATES_DIR,
         config["retention_days"],
