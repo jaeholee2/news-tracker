@@ -5,369 +5,265 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>News Tracker &ndash; {{ date }}</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" as="style" crossorigin
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
 <style>
   :root {
-    --bg: #f6f3ec;
-    --paper: #fffdf8;
-    --fg: #241f19;
-    --fg-soft: #5e574c;
-    --muted: #8a8175;
-    --faint: #a39a8b;
-    --rule: #e3dccc;
-    --rule-soft: #ebe5d7;
-    --accent: #b4552c;
-    --accent-soft: #f3e3da;
-    --accent-line: #e5c3b1;
-    --serif: "Gowun Batang", "Nanum Myeongjo", serif;
+    --fg: #15171c;
+    --fg-2: #374151;
+    --muted: #6b7280;
+    --faint: #9ca3af;
+    --line: #e5e7eb;
+    --line-soft: #eef0f3;
+    --chip: #f0f1f4;
+    --tag: #f3f4f6;
+    --accent: #1b68e0;
+    --accent-dark: #1454bc;
+    --accent-soft: #e8f0fd;
+    --accent-line: #b9d2f8;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    padding: 0 20px 100px;
-    background: var(--bg);
+    background: #fff;
     color: var(--fg);
     font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",
       "Malgun Gothic", "Segoe UI", sans-serif;
-    line-height: 1.55;
+    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  ::selection { background: var(--accent-soft); }
-  .page { max-width: 880px; margin: 0 auto; }
+  ::selection { background: #d6e4fb; }
+  a { color: var(--fg); text-decoration: none; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 28px; }
 
-  header.masthead {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 56px 0 22px;
-    border-bottom: 2px solid var(--fg);
-  }
-  .masthead .brand { display: flex; flex-direction: column; gap: 6px; }
-  .masthead .eyebrow {
-    font-size: 11px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    color: var(--accent);
-    font-weight: 600;
-  }
-  .masthead h1 {
-    margin: 0;
-    font-family: var(--serif);
-    font-weight: 700;
-    font-size: clamp(32px, 7vw, 44px);
-    line-height: 1;
-    letter-spacing: -0.02em;
-  }
-  .masthead h1 a { color: inherit; text-decoration: none; }
-  .masthead .meta-line {
-    display: flex;
-    align-items: baseline;
-    gap: 14px;
-    margin: 0;
-    font-size: 13px;
-    color: var(--fg-soft);
-    font-variant-numeric: tabular-nums;
-  }
-  .masthead .meta-line .divider {
-    width: 1px; height: 11px; background: #d6cebe; display: inline-block;
+  /* ---- top bar ---- */
+  .topbar { border-bottom: 1px solid var(--line); }
+  .topbar .wrap { height: 56px; display: flex; align-items: center; gap: 22px; }
+  .logo { font-size: 17px; font-weight: 800; letter-spacing: -0.04em; color: var(--accent); }
+  .logo a { color: inherit; }
+  .vr { width: 1px; height: 18px; background: var(--line); }
+  .section-name { font-size: 14.5px; font-weight: 600; color: var(--fg-2); }
+  .stamp {
+    margin-left: auto; font-size: 12.5px; color: var(--muted);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
   }
 
-  nav.tab-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    overflow-x: auto;
-    padding: 16px 0 0;
-    scrollbar-width: thin;
+  /* ---- archive tabs ---- */
+  .archive-row { display: flex; align-items: center; gap: 8px; padding-top: 18px; overflow-x: auto; }
+  .archive-row .row-label {
+    flex: 0 0 auto; font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px;
   }
-  nav.tab-row::-webkit-scrollbar { height: 4px; }
-  nav.tab-row .tab-label {
-    flex: 0 0 auto;
-    margin-right: 6px;
-    font-size: 10.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--faint);
+  .archive-row a, .archive-row .current {
+    flex: 0 0 auto; padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 600;
+    font-variant-numeric: tabular-nums; border: 1px solid var(--line); color: var(--muted);
   }
-  nav.tab-row a, nav.tab-row span.tab-current {
-    flex: 0 0 auto;
-    white-space: nowrap;
-    padding: 5px 11px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-variant-numeric: tabular-nums;
-    text-decoration: none;
-    border: 1px solid var(--rule);
-    color: var(--muted);
-  }
-  nav.tab-row a:hover { border-color: var(--accent-line); color: var(--accent); }
-  nav.tab-row span.tab-current {
-    background: var(--fg); border-color: var(--fg); color: var(--paper); font-weight: 600;
+  .archive-row a:hover { border-color: var(--accent-line); color: var(--accent); }
+  .archive-row .current {
+    background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent);
   }
 
-  nav.keyword-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 18px 0 0; }
-  .kw-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 14px;
-    font: inherit;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    color: var(--fg-soft);
-    background: var(--paper);
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    cursor: pointer;
-    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  /* ---- keyword pills ---- */
+  .kw-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding-top: 26px; }
+  .kw-row .lead { font-size: 15px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px;
+    font: inherit; font-size: 14px; font-weight: 700; letter-spacing: -0.02em; white-space: nowrap;
+    color: var(--fg-2); background: var(--chip); border: none; border-radius: 999px; cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
   }
-  .kw-chip:hover { border-color: var(--accent-line); }
-  .kw-chip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--paper); }
-  .kw-chip .dot { width: 7px; height: 7px; border-radius: 50%; flex: 0 0 auto; }
-  .kw-chip .count { opacity: 0.55; font-variant-numeric: tabular-nums; }
+  .pill .count { opacity: 0.6; font-variant-numeric: tabular-nums; }
+  .pill:hover { background: #e6e8ec; }
+  .pill[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  .pill[aria-pressed="true"]:hover { background: var(--accent-dark); }
 
-  .filter-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    padding: 14px 0 0;
-    font-size: 12.5px;
-  }
-  .filter-row .row-label {
-    font-size: 10.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--faint);
-    margin-right: 2px;
-  }
+  /* ---- source filter ---- */
+  .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 14px; }
+  .src-row .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
   .src-chip {
-    padding: 5px 11px;
-    font: inherit;
-    font-size: 12px;
-    color: var(--fg-soft);
-    background: transparent;
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    cursor: pointer;
+    padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 600; color: var(--muted);
+    background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
   }
   .src-chip:hover { border-color: var(--accent-line); color: var(--accent); }
   .src-chip[aria-pressed="true"] {
     color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line);
   }
+
+  /* ---- summary line ---- */
+  .summary-row {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 10px; padding-top: 18px; font-size: 12.5px; color: var(--muted);
+  }
+  .summary-row b { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .summary-row b.plain { color: var(--fg-2); }
+  .summary-row .actions { display: flex; gap: 14px; }
   .link-btn {
-    padding: 4px 0;
-    font: inherit;
-    font-size: 12px;
-    color: var(--muted);
-    background: none;
-    border: none;
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    padding: 0; font: inherit; font-size: 12.5px; color: var(--muted); background: none;
+    border: none; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
   }
   .link-btn:hover { color: var(--accent); }
   .link-btn.accent { color: var(--accent); }
 
-  .read-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 26px 0 0;
-    font-size: 12px;
-    color: var(--muted);
-  }
-  .read-row strong { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+  /* ---- groups + cards ---- */
+  main.wrap { padding-top: 24px; padding-bottom: 90px; display: flex; flex-direction: column; gap: 44px; }
+  .group-head { display: flex; align-items: center; gap: 10px; padding-bottom: 16px; }
+  .group-head .bar { width: 4px; height: 17px; border-radius: 2px; background: var(--kw-color); }
+  .group-head h2 { margin: 0; font-size: 18px; font-weight: 800; letter-spacing: -0.035em; }
+  .group-head .count { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
-  section.keyword-group { padding: 38px 0 0; }
-  h2.keyword-heading {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 0;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--rule);
-    font-family: var(--serif);
-    font-weight: 700;
-    font-size: 23px;
-    letter-spacing: -0.01em;
-    scroll-margin-top: 16px;
+  ul.cards {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 32px 26px;
   }
-  h2.keyword-heading .dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
-  h2.keyword-heading .count {
-    font-family: "Pretendard Variable", Pretendard, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--muted);
-    font-variant-numeric: tabular-nums;
-  }
-
-  ul.articles { list-style: none; margin: 0; padding: 0; }
-  ul.articles li {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 14px;
-    align-items: start;
-    padding: 17px 0;
-    border-bottom: 1px solid var(--rule-soft);
+  ul.cards li {
+    display: flex; flex-direction: column; gap: 11px; min-width: 0;
     transition: opacity 0.2s ease;
   }
+  .thumb {
+    position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden;
+    background: repeating-linear-gradient(135deg, #edeff2 0 8px, #f5f6f8 8px 16px);
+  }
+  .thumb span {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 10.5px; letter-spacing: 0.08em; color: var(--faint);
+  }
+  a.title {
+    font-size: 16.5px; font-weight: 700; line-height: 1.42; letter-spacing: -0.03em;
+    text-wrap: pretty; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+    overflow: hidden; min-height: calc(1.42em * 3);
+  }
+  a.title:hover { color: var(--accent); }
+  .card-meta {
+    margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12.5px;
+  }
+  .card-meta .src { font-weight: 700; color: var(--fg-2); }
+  .card-meta .tag {
+    padding: 2px 8px; background: var(--tag); border-radius: 4px; color: var(--muted); font-size: 11.5px;
+  }
+  .card-foot {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    font-size: 12px; color: var(--muted);
+  }
+  .card-foot time { font-variant-numeric: tabular-nums; }
   .read-toggle {
-    margin-top: 7px;
-    width: 11px;
-    height: 11px;
-    padding: 0;
-    border-radius: 50%;
-    border: 1.5px solid #d6cebe;
-    background: transparent;
-    cursor: pointer;
-    flex: 0 0 auto;
+    padding: 3px 10px; font: inherit; font-size: 11.5px; font-weight: 600; color: var(--muted);
+    background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
+    white-space: nowrap;
   }
-  .read-toggle:hover { border-color: var(--accent); }
-  .article-body { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
-  ul.articles a.title {
-    font-family: var(--serif);
-    font-size: 17.5px;
-    line-height: 1.5;
-    letter-spacing: -0.01em;
-    color: var(--fg);
-    text-decoration: none;
-    text-wrap: pretty;
-  }
-  ul.articles a.title:hover { color: var(--accent); }
-  .meta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 9px;
-    font-size: 12px;
-    color: var(--muted);
-  }
-  .meta .src { color: var(--fg-soft); font-weight: 600; }
-  .meta .sep { width: 2px; height: 2px; border-radius: 50%; background: #c6bdac; }
-  .meta time { font-variant-numeric: tabular-nums; }
-
-  li.is-read { opacity: 0.45; }
-  li.is-read a.title { text-decoration: line-through; text-decoration-color: #c6bdac; }
-  li.is-read .read-toggle { background: currentColor; border-color: currentColor; }
+  .read-toggle:hover { color: var(--accent); border-color: var(--accent-line); }
+  li.is-read { opacity: 0.5; }
+  li.is-read a.title { text-decoration: line-through; text-decoration-color: #c3c8d0; }
+  li.is-read .read-toggle { color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line); }
 
   .empty {
-    margin: 0;
-    padding: 26px 0;
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 13.5px;
-    color: var(--faint);
+    margin: 0; padding: 40px 0; border-top: 1px solid var(--line-soft);
+    text-align: center; font-size: 13.5px; color: var(--muted);
   }
-
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-    margin-top: 64px;
-    padding-top: 18px;
-    border-top: 1px solid var(--rule);
-    font-size: 11.5px;
-    letter-spacing: 0.04em;
-    color: var(--faint);
+  footer.wrap {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px;
+    padding-top: 8px; font-size: 11.5px; color: var(--muted);
   }
+  footer.wrap { border-top: 1px solid var(--line-soft); max-width: 1280px; }
 
   [hidden] { display: none !important; }
 
   @media (max-width: 560px) {
-    header.masthead { padding-top: 36px; }
-    ul.articles a.title { font-size: 16.5px; }
+    .wrap { padding: 0 18px; }
+    ul.cards { grid-template-columns: 1fr; gap: 26px; }
+    a.title { font-size: 16px; }
   }
   </style>
 </head>
 <body>
-<div class="page" id="site-content">
-  <header class="masthead">
-    <div class="brand">
-      <div class="eyebrow">Daily Clipping</div>
-      <h1><a href="{{ home_link }}">News Tracker</a></h1>
+<div id="site-content">
+  <div class="topbar">
+    <div class="wrap">
+      <span class="logo"><a href="{{ home_link }}">NEWS TRACKER</a></span>
+      <span class="vr"></span>
+      <span class="section-name">최신뉴스</span>
+      <span class="stamp">자동 갱신 {{ date }}</span>
     </div>
-    <p class="meta-line">
-      <span>{{ date }}</span>
-      <span class="divider"></span>
-      <span>총 {{ article_count }}건</span>
-    </p>
-  </header>
+  </div>
 
   {% if archive_dates %}
-  <nav class="tab-row" aria-label="지난 기록">
-    <span class="tab-label">지난 기록</span>
-    {% for d in archive_dates %}
-      {% if d == date %}
-        <span class="tab-current">{{ d }}</span>
-      {% else %}
-        <a href="{{ archive_link_prefix }}{{ d }}.html">{{ d }}</a>
-      {% endif %}
-    {% endfor %}
-  </nav>
+  <div class="wrap">
+    <nav class="archive-row" aria-label="지난 기록">
+      <span class="row-label">지난 기록</span>
+      {% for d in archive_dates %}
+        {% if d == date %}
+          <span class="current">{{ d }}</span>
+        {% else %}
+          <a href="{{ archive_link_prefix }}{{ d }}.html">{{ d }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
   {% endif %}
 
   {% if keyword_groups %}
-  <nav class="keyword-nav" aria-label="검색어">
-    {% for group in keyword_groups %}
-      <button type="button" class="kw-chip" data-kw="{{ group.keyword }}" aria-pressed="false">
-        <span class="dot" style="background: var(--kw-color-{{ loop.index0 % 5 }});"></span>
-        <span>{{ group.keyword }}</span>
-        <span class="count">{{ group.articles|length }}</span>
-      </button>
-    {% endfor %}
-  </nav>
+  <div class="wrap">
+    <nav class="kw-row" aria-label="검색어">
+      <span class="lead">검색어(<span id="kw-selected">{{ keyword_groups|length }}</span>/{{ keyword_groups|length }})</span>
+      <div class="pills">
+        <button type="button" class="pill" id="kw-all" aria-pressed="true">전체</button>
+        {% for group in keyword_groups %}
+        <button type="button" class="pill" data-kw="{{ group.keyword }}" aria-pressed="false">
+          <span>{{ group.keyword }}</span>
+          <span class="count">{{ group.articles|length }}</span>
+        </button>
+        {% endfor %}
+      </div>
+    </nav>
 
-  <div class="filter-row" id="source-row" hidden>
-    <span class="row-label">언론사</span>
-    <span id="source-chips" style="display: flex; flex-wrap: wrap; gap: 8px;"></span>
-    <button type="button" class="link-btn accent" id="reset-filters" hidden>필터 해제</button>
-  </div>
+    <div class="src-row" id="source-row" hidden>
+      <span class="row-label">언론사</span>
+      <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
+      <span id="source-chips" style="display: flex; flex-wrap: wrap; gap: 8px;"></span>
+    </div>
 
-  <div class="read-row">
-    <span>읽음 <strong id="read-count">0</strong> / <span id="visible-count">{{ article_count }}</span></span>
-    <button type="button" class="link-btn" id="clear-read">읽음 초기화</button>
+    <div class="summary-row">
+      <span>총 <b id="visible-count">{{ article_count }}</b>건 · 읽음 <b class="plain" id="read-count">0</b>건</span>
+      <div class="actions">
+        <button type="button" class="link-btn accent" id="reset-filters" hidden>필터 초기화</button>
+        <button type="button" class="link-btn" id="clear-read">읽음 초기화</button>
+      </div>
+    </div>
   </div>
   {% endif %}
 
-  <main>
+  <main class="wrap">
     {% if keyword_groups %}
       {% for group in keyword_groups %}
       <section class="keyword-group" id="kw-{{ loop.index }}" data-kw="{{ group.keyword }}"
                style="--kw-color: var(--kw-color-{{ loop.index0 % 5 }});">
-        <h2 class="keyword-heading">
-          <span class="dot" style="background: var(--kw-color);"></span>
-          <span>{{ group.keyword }}</span>
+        <div class="group-head">
+          <span class="bar"></span>
+          <h2>{{ group.keyword }}</h2>
           <span class="count"><span class="group-count">{{ group.articles|length }}</span>건</span>
-        </h2>
+        </div>
         {% if group.articles %}
-        <ul class="articles">
+        <ul class="cards">
           {% for article in group.articles %}
-          <li data-link="{{ article.link }}" data-source="{{ article.sources|first|default('', true) }}"
-              style="color: var(--kw-color);">
-            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
-            <div class="article-body">
-              <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
-              <span class="meta">
-                <span class="src">{{ article.sources|join(', ') }}</span>
-                {% if article.published_at %}
-                <span class="sep"></span>
-                <time datetime="{{ article.published_at }}">{{ article.published_at }}</time>
-                {% endif %}
-              </span>
+          <li data-link="{{ article.link }}" data-source="{{ article.sources|first|default('', true) }}">
+            <div class="thumb"><span>기사 썸네일</span></div>
+            <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+            <div class="card-meta">
+              <span class="src">{{ article.sources|join(', ') }}</span>
+              <span class="tag">{{ group.keyword }}</span>
+            </div>
+            <div class="card-foot">
+              {% if article.published_at %}
+              <time datetime="{{ article.published_at }}">{{ article.published_at }}</time>
+              {% else %}
+              <time></time>
+              {% endif %}
+              <button type="button" class="read-toggle">읽음</button>
             </div>
           </li>
           {% endfor %}
         </ul>
-        <p class="empty group-empty" hidden>조건에 맞는 기사 없음</p>
+        <p class="empty group-empty" hidden>해당 조건의 기사가 없습니다.</p>
         {% else %}
         <p class="empty">기사 없음</p>
         {% endif %}
@@ -378,24 +274,25 @@
     {% endif %}
   </main>
 
-  <footer>
-    <span>News Tracker</span>
+  <footer class="wrap">
+    <span>수집 출처 · Google News RSS</span>
     <span>generated {{ date }}</span>
   </footer>
 </div>
 
 <script>
-document.documentElement.style.setProperty("--kw-color-0", "#1f5e4a");
-document.documentElement.style.setProperty("--kw-color-1", "#2f4b8f");
-document.documentElement.style.setProperty("--kw-color-2", "#b4552c");
-document.documentElement.style.setProperty("--kw-color-3", "#6b4e9e");
-document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
+(function () {
+  var palette = ["#0e9f6e", "#1b68e0", "#f05252", "#9061f9", "#c27803"];
+  palette.forEach(function (c, i) {
+    document.documentElement.style.setProperty("--kw-color-" + i, c);
+  });
+})();
 </script>
 
 <script>
 (function () {
   var READ_KEY = "news-tracker-read";
-  var items = Array.prototype.slice.call(document.querySelectorAll("ul.articles li"));
+  var items = Array.prototype.slice.call(document.querySelectorAll("ul.cards li"));
   if (!items.length) { return; }
 
   var state = { kw: null, src: null, read: {} };
@@ -405,10 +302,10 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
     try { localStorage.setItem(READ_KEY, JSON.stringify(state.read)); } catch (e) {}
   }
 
-  // Local time, short form -- published_at arrives as a UTC ISO string.
+  // published_at arrives as a UTC ISO string -- show it in the reader's local time.
   items.forEach(function (li) {
     var t = li.querySelector("time");
-    if (!t) { return; }
+    if (!t || !t.getAttribute("datetime")) { return; }
     var d = new Date(t.getAttribute("datetime"));
     if (isNaN(d)) { return; }
     var p = function (n) { return String(n).padStart(2, "0"); };
@@ -418,11 +315,14 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
 
   var sourceRow = document.getElementById("source-row");
   var sourceChips = document.getElementById("source-chips");
+  var srcAll = document.getElementById("src-all");
+  var kwAll = document.getElementById("kw-all");
+  var kwChips = Array.prototype.slice.call(document.querySelectorAll(".pill[data-kw]"));
   var resetBtn = document.getElementById("reset-filters");
+  var clearReadBtn = document.getElementById("clear-read");
   var readCountEl = document.getElementById("read-count");
   var visibleCountEl = document.getElementById("visible-count");
-  var clearReadBtn = document.getElementById("clear-read");
-  var kwChips = Array.prototype.slice.call(document.querySelectorAll(".kw-chip"));
+  var kwSelectedEl = document.getElementById("kw-selected");
 
   var sources = [];
   items.forEach(function (li) {
@@ -445,6 +345,8 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
   });
   if (sources.length > 1) { sourceRow.hidden = false; }
 
+  srcAll.addEventListener("click", function () { state.src = null; apply(); });
+  kwAll.addEventListener("click", function () { state.kw = null; apply(); });
   kwChips.forEach(function (chip) {
     chip.addEventListener("click", function () {
       var kw = chip.getAttribute("data-kw");
@@ -467,32 +369,25 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
     });
   });
 
-  clearReadBtn.addEventListener("click", function () {
-    state.read = {};
-    saveRead();
-    apply();
-  });
-
-  resetBtn.addEventListener("click", function () {
-    state.kw = null;
-    state.src = null;
-    apply();
-  });
+  clearReadBtn.addEventListener("click", function () { state.read = {}; saveRead(); apply(); });
+  resetBtn.addEventListener("click", function () { state.kw = null; state.src = null; apply(); });
 
   function apply() {
     var visible = 0;
     var read = 0;
     var seen = {};
 
-    document.querySelectorAll("section.keyword-group").forEach(function (section) {
+    Array.prototype.forEach.call(document.querySelectorAll("section.keyword-group"), function (section) {
       var kwMatch = !state.kw || section.getAttribute("data-kw") === state.kw;
       section.hidden = !kwMatch;
 
       var shown = 0;
-      section.querySelectorAll("ul.articles li").forEach(function (li) {
+      Array.prototype.forEach.call(section.querySelectorAll("ul.cards li"), function (li) {
         var link = li.getAttribute("data-link");
         var isRead = !!state.read[link];
         li.classList.toggle("is-read", isRead);
+        li.querySelector(".read-toggle").textContent = isRead ? "읽음 해제" : "읽음";
+
         var srcMatch = !state.src || li.getAttribute("data-source") === state.src;
         var show = kwMatch && srcMatch;
         li.hidden = !show;
@@ -510,17 +405,20 @@ document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
       if (countEl) { countEl.textContent = shown; }
       var emptyEl = section.querySelector(".group-empty");
       if (emptyEl) { emptyEl.hidden = shown !== 0; }
-      var list = section.querySelector("ul.articles");
+      var list = section.querySelector("ul.cards");
       if (list) { list.hidden = shown === 0; }
     });
 
+    kwAll.setAttribute("aria-pressed", state.kw ? "false" : "true");
     kwChips.forEach(function (chip) {
       chip.setAttribute("aria-pressed", state.kw === chip.getAttribute("data-kw") ? "true" : "false");
     });
-    sourceChips.querySelectorAll(".src-chip").forEach(function (chip) {
+    srcAll.setAttribute("aria-pressed", state.src ? "false" : "true");
+    Array.prototype.forEach.call(sourceChips.querySelectorAll(".src-chip"), function (chip) {
       chip.setAttribute("aria-pressed", state.src === chip.getAttribute("data-src") ? "true" : "false");
     });
 
+    if (kwSelectedEl) { kwSelectedEl.textContent = state.kw ? 1 : kwChips.length; }
     resetBtn.hidden = !(state.kw || state.src);
     visibleCountEl.textContent = visible;
     readCountEl.textContent = read;
