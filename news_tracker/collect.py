@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import requests
 
@@ -228,6 +228,19 @@ def fetch_article_image(url: str, timeout: int = IMAGE_FETCH_TIMEOUT_SECONDS) ->
     """Fetch `url` and return its og:image/twitter:image URL, or "" on any
     failure (network error, non-200, no such tag, etc). Never raises."""
     if not url:
+        return ""
+    # Google News RSS <link> values are opaque news.google.com redirect
+    # pages, not the article itself: resolving them to the real publisher
+    # URL happens client-side via JS, which a plain HTTP GET never runs.
+    # Fetching one anyway doesn't fail -- it returns Google News's own
+    # generic app-icon meta tag, identical for every single article,
+    # which is worse than no image at all. Skip these outright rather
+    # than fetch a page whose og:image can never be the article's own.
+    try:
+        host = urlparse(url).hostname or ""
+    except ValueError:
+        host = ""
+    if host == "news.google.com":
         return ""
     try:
         response = requests.get(
