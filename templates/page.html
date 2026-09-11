@@ -78,8 +78,13 @@
   .pill[aria-pressed="true"]:hover { background: var(--accent-dark); }
 
   /* ---- source filter ---- */
-  .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 14px; }
-  .src-row .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
+  .src-row { padding-top: 14px; }
+  .src-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .src-row-head .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
+  .source-chips {
+    display: flex; flex-wrap: wrap; gap: 8px; overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
   .src-chip {
     padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 600; color: var(--muted);
     background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
@@ -88,6 +93,11 @@
   .src-chip[aria-pressed="true"] {
     color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line);
   }
+  .src-toggle-btn {
+    margin-top: 8px; padding: 0; font: inherit; font-size: 12.5px; font-weight: 600;
+    color: var(--accent); background: none; border: none; cursor: pointer;
+  }
+  .src-toggle-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 
   /* ---- summary line ---- */
   .summary-row {
@@ -216,9 +226,12 @@
     </nav>
 
     <div class="src-row" id="source-row" hidden>
-      <span class="row-label">언론사</span>
-      <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
-      <span id="source-chips" style="display: flex; flex-wrap: wrap; gap: 8px;"></span>
+      <div class="src-row-head">
+        <span class="row-label">언론사</span>
+        <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
+      </div>
+      <div id="source-chips" class="source-chips"></div>
+      <button type="button" class="src-toggle-btn" id="src-toggle" aria-expanded="false" hidden>언론사 더보기</button>
     </div>
 
     <div class="summary-row">
@@ -347,7 +360,35 @@
     });
     sourceChips.appendChild(b);
   });
-  if (sources.length > 1) { sourceRow.hidden = false; }
+
+  if (sources.length > 1) {
+    sourceRow.hidden = false;
+    setupSourceToggle();
+  }
+
+  // Collapse the publisher chip list to two rows when it's long enough to
+  // need it, with a button to expand/collapse -- otherwise a busy day's
+  // full source list (dozens of outlets) dominates the page before you
+  // even reach the articles.
+  function setupSourceToggle() {
+    var toggle = document.getElementById("src-toggle");
+    var firstChip = sourceChips.querySelector(".src-chip");
+    if (!toggle || !firstChip) { return; }
+    var rowHeight = firstChip.getBoundingClientRect().height;
+    var gap = 8;
+    var collapsedHeight = Math.round(rowHeight * 2 + gap);
+    if (sourceChips.scrollHeight <= collapsedHeight + 4) { return; } // already fits in two rows
+
+    var collapsed = true;
+    sourceChips.style.maxHeight = collapsedHeight + "px";
+    toggle.hidden = false;
+    toggle.addEventListener("click", function () {
+      collapsed = !collapsed;
+      sourceChips.style.maxHeight = collapsed ? collapsedHeight + "px" : sourceChips.scrollHeight + "px";
+      toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+      toggle.textContent = collapsed ? "언론사 더보기" : "접기";
+    });
+  }
 
   srcAll.addEventListener("click", function () { state.src = null; apply(); });
   kwAll.addEventListener("click", function () { state.kw = null; apply(); });
