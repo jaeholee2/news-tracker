@@ -78,8 +78,13 @@
   .pill[aria-pressed="true"]:hover { background: var(--accent-dark); }
 
   /* ---- source filter ---- */
-  .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 14px; }
-  .src-row .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
+  .src-row { padding-top: 14px; }
+  .src-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .src-row-head .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
+  .source-chips {
+    display: flex; flex-wrap: wrap; gap: 8px; overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
   .src-chip {
     padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 600; color: var(--muted);
     background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
@@ -88,6 +93,11 @@
   .src-chip[aria-pressed="true"] {
     color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line);
   }
+  .src-toggle-btn {
+    margin-top: 8px; padding: 0; font: inherit; font-size: 12.5px; font-weight: 600;
+    color: var(--accent); background: none; border: none; cursor: pointer;
+  }
+  .src-toggle-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 
   /* ---- summary line ---- */
   .summary-row {
@@ -244,9 +254,12 @@
     </nav>
 
     <div class="src-row" id="source-row" hidden>
-      <span class="row-label">언론사</span>
-      <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
-      <span id="source-chips" style="display: flex; flex-wrap: wrap; gap: 8px;"></span>
+      <div class="src-row-head">
+        <span class="row-label">언론사</span>
+        <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
+      </div>
+      <div id="source-chips" class="source-chips"></div>
+      <button type="button" class="src-toggle-btn" id="src-toggle" aria-expanded="false" hidden>언론사 더보기</button>
     </div>
 
     <div class="summary-row">
@@ -485,16 +498,16 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" data-source="네이트">
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KeDQ1aTJJRVg1NzJ4Y2t6WXVidDVhMDQydjQ0dWpGU0pzRHlFeFNRWnFRNnlDMDlrZUREUkM4WkRTTFI2Sl9iVDNlYTVBT0RwT2lN?oc=5" data-source="네이트">
             
-            <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" target="_blank" rel="noopener noreferrer">SAR 레이다 한계 넘었다? 한화시스템, &#39;0.15m 위성 대응&#39; 우주 AI 첫 공개</a>
+            <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KeDQ1aTJJRVg1NzJ4Y2t6WXVidDVhMDQydjQ0dWpGU0pzRHlFeFNRWnFRNnlDMDlrZUREUkM4WkRTTFI2Sl9iVDNlYTVBT0RwT2lN?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 수주공시 - 단일판매·공급계약체결</a>
             <div class="card-meta">
               <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
               
-              <time datetime="2026-09-10T04:16:00+00:00">2026-09-10T04:16:00+00:00</time>
+              <time datetime="2026-09-11T08:01:00+00:00">2026-09-11T08:01:00+00:00</time>
               
               <button type="button" class="read-toggle">읽음</button>
             </div>
@@ -770,11 +783,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" data-source="ddaily.co.kr">
+          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" data-source="디지털데일리">
             
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, `우주 AI 솔루션` 첫 공개…&#34;AI가 위성 영상 실시간 분석&#34;</a>
             <div class="card-meta">
-              <span class="src">ddaily.co.kr</span>
+              <span class="src">디지털데일리</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -785,11 +798,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" data-source="munhwa.com">
+          <li data-link="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" data-source="문화일보">
             
             <a class="title" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" target="_blank" rel="noopener noreferrer">위성 기반 실시간 AI영상 분석… 한화시스템, MSPO서 첫 공개</a>
             <div class="card-meta">
-              <span class="src">munhwa.com</span>
+              <span class="src">문화일보</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -965,21 +978,6 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" data-source="매일산업뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 공개… 폴란드 MSPO서 첫 시연</a>
-            <div class="card-meta">
-              <span class="src">매일산업뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T08:52:16+00:00">2026-09-10T08:52:16+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YdXpvR1lydnhrTEZLeF9id3p1OTQ0NUhUdDZEYlZqY0NKdDI2aFVkcWpzNnhUN0RSeThadE9jMUpDVVhiUksyZVBxbEQwU0k?oc=5" data-source="v.daum.net">
             
             <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YdXpvR1lydnhrTEZLeF9id3p1OTQ0NUhUdDZEYlZqY0NKdDI2aFVkcWpzNnhUN0RSeThadE9jMUpDVVhiUksyZVBxbEQwU0k?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드서 &#39;우주 AI&#39; 공개…실제 위성영상 분석 시연</a>
@@ -990,6 +988,21 @@
             <div class="card-foot">
               
               <time datetime="2026-09-09T23:58:00+00:00">2026-09-09T23:58:00+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" data-source="매일산업뉴스">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 공개… 폴란드 MSPO서 첫 시연</a>
+            <div class="card-meta">
+              <span class="src">매일산업뉴스</span>
+              <span class="tag">한화시스템</span>
+            </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T08:52:16+00:00">2026-09-10T08:52:16+00:00</time>
               
               <button type="button" class="read-toggle">읽음</button>
             </div>
@@ -1325,11 +1338,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmNlVNV0xjN2w1SFhvM3lTd0hIYWxDdEtvUVhmdG5MNng1X2w1dkEwamhNX2k5VU82SVcydXhId1ZBSnY3THQ0RkdtMm85OTRBblFkcHByMFNaZlQ0eHBtZFVQZGZmVnPSAWtBVV95cUxQSGJzQVlTaDRYZlNrYTZIYVhkTlVpOVRjM3RaNHVlRmVVOW1iVjFjZnNjUWNBVUMxZHIteWZCN3pJQ1lBSGkzazBRQjR1ZWpzSUdJcFAybkRuRkcyZ1lxNm5OZVhNLURPUEVUVQ?oc=5" data-source="민주신문">
+          <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmNlVNV0xjN2w1SFhvM3lTd0hIYWxDdEtvUVhmdG5MNng1X2w1dkEwamhNX2k5VU82SVcydXhId1ZBSnY3THQ0RkdtMm85OTRBblFkcHByMFNaZlQ0eHBtZFVQZGZmVnPSAWtBVV95cUxQSGJzQVlTaDRYZlNrYTZIYVhkTlVpOVRjM3RaNHVlRmVVOW1iVjFjZnNjUWNBVUMxZHIteWZCN3pJQ1lBSGkzazBRQjR1ZWpzSUdJcFAybkRuRkcyZ1lxNm5OZVhNLURPUEVUVQ?oc=5" data-source="iminju.net">
             
             <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmNlVNV0xjN2w1SFhvM3lTd0hIYWxDdEtvUVhmdG5MNng1X2w1dkEwamhNX2k5VU82SVcydXhId1ZBSnY3THQ0RkdtMm85OTRBblFkcHByMFNaZlQ0eHBtZFVQZGZmVnPSAWtBVV95cUxQSGJzQVlTaDRYZlNrYTZIYVhkTlVpOVRjM3RaNHVlRmVVOW1iVjFjZnNjUWNBVUMxZHIteWZCN3pJQ1lBSGkzazBRQjR1ZWpzSUdJcFAybkRuRkcyZ1lxNm5OZVhNLURPUEVUVQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성 제조 넘어 우주 밸류체인 구축…사업 영토 넓힐까</a>
             <div class="card-meta">
-              <span class="src">민주신문</span>
+              <span class="src">iminju.net</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1670,6 +1683,21 @@
             </div>
           </li>
           
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" data-source="네이트">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" target="_blank" rel="noopener noreferrer">SAR 레이다 한계 넘었다? 한화시스템, &#39;0.15m 위성 대응&#39; 우주 AI 첫 공개</a>
+            <div class="card-meta">
+              <span class="src">네이트</span>
+              <span class="tag">한화시스템</span>
+            </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T04:16:00+00:00">2026-09-10T04:16:00+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
           <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5" data-source="네이트">
             
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 위성영상 분석 기술 첫 공개</a>
@@ -1725,21 +1753,6 @@
             <div class="card-foot">
               
               <time datetime="2026-09-11T01:17:05+00:00">2026-09-11T01:17:05+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMickFVX3lxTFBlWVB1YVZ2c3dDN3RQZzQ5d0tUMWFQNW9ucWpBanpwd1YwQ1hHWFNpT2NMb2hzcHRCMTVWb1VmTU9lcFA4SXFNQXhxdks2S214Tl9TN211ajcwZ0dkTW9KMmtHUGNmRG53RnRWQ3d5ejV0QQ?oc=5" data-source="joongangenews.com">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBlWVB1YVZ2c3dDN3RQZzQ5d0tUMWFQNW9ucWpBanpwd1YwQ1hHWFNpT2NMb2hzcHRCMTVWb1VmTU9lcFA4SXFNQXhxdks2S214Tl9TN211ajcwZ0dkTW9KMmtHUGNmRG53RnRWQ3d5ejV0QQ?oc=5" target="_blank" rel="noopener noreferrer">위성영상 AI가 초 단위 분석...한화시스템, ‘우주 AI 솔루션’ 해외 첫선</a>
-            <div class="card-meta">
-              <span class="src">joongangenews.com</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T02:35:00+00:00">2026-09-10T02:35:00+00:00</time>
               
               <button type="button" class="read-toggle">읽음</button>
             </div>
@@ -1834,7 +1847,35 @@
     });
     sourceChips.appendChild(b);
   });
-  if (sources.length > 1) { sourceRow.hidden = false; }
+
+  if (sources.length > 1) {
+    sourceRow.hidden = false;
+    setupSourceToggle();
+  }
+
+  // Collapse the publisher chip list to two rows when it's long enough to
+  // need it, with a button to expand/collapse -- otherwise a busy day's
+  // full source list (dozens of outlets) dominates the page before you
+  // even reach the articles.
+  function setupSourceToggle() {
+    var toggle = document.getElementById("src-toggle");
+    var firstChip = sourceChips.querySelector(".src-chip");
+    if (!toggle || !firstChip) { return; }
+    var rowHeight = firstChip.getBoundingClientRect().height;
+    var gap = 8;
+    var collapsedHeight = Math.round(rowHeight * 2 + gap);
+    if (sourceChips.scrollHeight <= collapsedHeight + 4) { return; } // already fits in two rows
+
+    var collapsed = true;
+    sourceChips.style.maxHeight = collapsedHeight + "px";
+    toggle.hidden = false;
+    toggle.addEventListener("click", function () {
+      collapsed = !collapsed;
+      sourceChips.style.maxHeight = collapsed ? collapsedHeight + "px" : sourceChips.scrollHeight + "px";
+      toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+      toggle.textContent = collapsed ? "언론사 더보기" : "접기";
+    });
+  }
 
   srcAll.addEventListener("click", function () { state.src = null; apply(); });
   kwAll.addEventListener("click", function () { state.kw = null; apply(); });
