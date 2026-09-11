@@ -1,8 +1,8 @@
 name: Daily news update
 
 # Runs once a day even if your laptop is off, then publishes the result to
-# GitHub Pages. See README.md "GitHub Pages로 배포하기" for one-time setup
-# (repo secrets, Pages source, workflow permissions).
+# Cloudflare Pages. See README.md "Cloudflare Pages로 배포하기" for one-time
+# setup (repo secrets, Cloudflare Pages project).
 
 on:
   schedule:
@@ -13,12 +13,7 @@ on:
 
 permissions:
   contents: write # to commit the day's data/ + output/archive/ back to the repo
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  deployments: write # for the Cloudflare Pages deploy step below
 
 jobs:
   build:
@@ -37,7 +32,6 @@ jobs:
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
           # config.yaml (with real credentials) is gitignored and never
           # committed -- CI uses this secrets-free config file instead and
           # gets the Naver credentials from the env vars above.
@@ -52,18 +46,13 @@ jobs:
           git diff --cached --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
           git push
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./output
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          # Creates the project on the very first run only; on later runs
+          # it already exists, so this step's failure is expected and safe
+          # to ignore.
+          npx --yes wrangler@4 pages project create news-tracker --production-branch=main || true
+          npx --yes wrangler@4 pages deploy ./output --project-name=news-tracker --branch=main
