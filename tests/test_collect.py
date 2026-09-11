@@ -164,6 +164,18 @@ class FetchArticleImageTests(unittest.TestCase):
         self.assertEqual(collect.fetch_article_image(""), "")
 
     @patch("news_tracker.collect.requests.get")
+    def test_skips_google_news_redirect_links_without_fetching(self, mock_get):
+        # news.google.com/rss/articles/... is a JS-driven redirect page,
+        # not the article -- its og:image is Google's own generic icon,
+        # identical for every article, so it must never be fetched at all.
+        result = collect.fetch_article_image(
+            "https://news.google.com/rss/articles/CBMiXyJvc0Fmb28?oc=5"
+        )
+
+        self.assertEqual(result, "")
+        mock_get.assert_not_called()
+
+    @patch("news_tracker.collect.requests.get")
     def test_returns_empty_string_on_request_failure(self, mock_get):
         mock_get.side_effect = requests.exceptions.ConnectionError("boom")
 
