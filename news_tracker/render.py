@@ -88,6 +88,10 @@ def _render_page(
     return template.render(
         date=date_str,
         keyword_groups=group_by_keyword(articles, keywords),
+        # Distinct-story count (post-dedup) shown next to the date, e.g.
+        # "오늘 12건의 기사" -- separate from each keyword group's count,
+        # which can double-count a story matched under multiple keywords.
+        article_count=len(articles),
         archive_dates=archive_dates,
         # index.html links into archive/<date>.html; an archive page links
         # to its siblings directly and back up to ../index.html.
