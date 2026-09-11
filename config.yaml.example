@@ -5,3 +5,7 @@ naver:
   client_id: "YOUR_NAVER_CLIENT_ID"
   client_secret: "YOUR_NAVER_CLIENT_SECRET"
 retention_days: 90
+# 이 날짜보다 오래 전에 발행된 기사는 결과에서 제외합니다 (기본값 3일).
+# Google 뉴스는 검색어 관련도로 결과를 주기 때문에, 필터링하지 않으면
+# 검색어가 우연히 들어간 몇 년 전 기사까지 매일 섞여 나올 수 있습니다.
+max_article_age_days: 3
