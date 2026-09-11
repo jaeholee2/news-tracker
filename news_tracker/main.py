@@ -172,6 +172,7 @@ def run(today: date | None = None) -> int:
         OUTPUT_DIR,
         TEMPLATES_DIR,
         config["retention_days"],
+        config["keywords"],
         password_hash=resolve_site_password_hash(),
     )
     prune_old_files(today, config["retention_days"])
