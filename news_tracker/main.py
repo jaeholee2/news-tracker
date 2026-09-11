@@ -6,7 +6,6 @@ render -> prune. Intended to be invoked once daily by cron.
 
 from __future__ import annotations
 
-import hashlib
 import json
 import logging
 import os
@@ -39,10 +38,6 @@ DATE_FORMAT = "%Y-%m-%d"
 # below for pointing at that public config file in CI.
 ENV_NAVER_CLIENT_ID = "NAVER_CLIENT_ID"
 ENV_NAVER_CLIENT_SECRET = "NAVER_CLIENT_SECRET"
-# Optional: if set, the rendered site is gated behind this password
-# (client-side only -- see templates/page.html). Unset by default, which
-# renders the site with no gate, same as before this existed.
-ENV_SITE_PASSWORD = "SITE_PASSWORD"
 # Optional: overrides which config file to load (relative paths resolve
 # against PROJECT_ROOT). Used in CI to point at a secrets-free config file.
 ENV_CONFIG_PATH = "NEWS_TRACKER_CONFIG_PATH"
@@ -63,14 +58,6 @@ def resolve_config_path() -> Path:
         return CONFIG_PATH
     override_path = Path(override)
     return override_path if override_path.is_absolute() else PROJECT_ROOT / override_path
-
-
-def resolve_site_password_hash() -> str | None:
-    """SHA-256 hex digest of SITE_PASSWORD, or None if it's not set (no
-    password gate). Only the hash ever leaves this function -- the plain
-    password is never written to disk or embedded in the rendered page."""
-    password = os.environ.get(ENV_SITE_PASSWORD)
-    return hashlib.sha256(password.encode("utf-8")).hexdigest() if password else None
 
 
 def load_config(path: Path | None = None) -> dict:
@@ -217,7 +204,6 @@ def run(today: date | None = None) -> int:
         TEMPLATES_DIR,
         config["retention_days"],
         config["keywords"],
-        password_hash=resolve_site_password_hash(),
     )
     prune_old_files(today, config["retention_days"])
 
