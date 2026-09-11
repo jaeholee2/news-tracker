@@ -13,3 +13,5 @@ keywords:
   - "5G 특화망"
   - "P5G"
 retention_days: 90
+# 이 날짜보다 오래 전에 발행된 기사는 결과에서 제외합니다 (기본값 3일).
+max_article_age_days: 3
