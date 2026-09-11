@@ -1,4 +1,3 @@
-import hashlib
 import tempfile
 import unittest
 from datetime import date
@@ -76,6 +75,26 @@ class LoadConfigTests(unittest.TestCase):
 
         self.assertEqual(config["retention_days"], news_main.DEFAULT_RETENTION_DAYS)
 
+    def test_defaults_max_article_age_days_when_absent(self):
+        path = self.tmp_path / "config.yaml"
+        path.write_text(
+            yaml.safe_dump(
+                {"keywords": ["x"], "naver": {"client_id": "id", "client_secret": "secret"}},
+                allow_unicode=True,
+            ),
+            encoding="utf-8",
+        )
+
+        config = news_main.load_config(path)
+
+        self.assertEqual(config["max_article_age_days"], news_main.DEFAULT_MAX_ARTICLE_AGE_DAYS)
+
+    def test_invalid_max_article_age_days_is_fatal(self):
+        path = write_config(self.tmp_path / "config.yaml", max_article_age_days=0)
+
+        with self.assertRaises(news_main.ConfigError):
+            news_main.load_config(path)
+
 
 class NaverCredentialEnvOverrideTests(unittest.TestCase):
     """Env vars exist so a public (secrets-free) config.yaml can be used in
@@ -138,18 +157,35 @@ class ResolveConfigPathTests(unittest.TestCase):
         self.assertEqual(news_main.resolve_config_path(), Path("/etc/somewhere/config.yaml"))
 
 
-class ResolveSitePasswordHashTests(unittest.TestCase):
-    def test_returns_none_when_unset(self):
-        with patch.dict("os.environ", {}, clear=False):
-            import os
+class FilterRecentTests(unittest.TestCase):
+    TODAY = date(2026, 9, 11)
 
-            os.environ.pop("SITE_PASSWORD", None)
-            self.assertIsNone(news_main.resolve_site_password_hash())
+    def test_drops_articles_older_than_max_age(self):
+        articles = [
+            {"title": "old", "published_at": "2020-01-01T09:00:00+09:00"},
+            {"title": "recent", "published_at": "2026-09-10T09:00:00+09:00"},
+        ]
 
-    @patch.dict("os.environ", {"SITE_PASSWORD": "hunter2"})
-    def test_returns_sha256_hex_digest(self):
-        expected = hashlib.sha256(b"hunter2").hexdigest()
-        self.assertEqual(news_main.resolve_site_password_hash(), expected)
+        kept = news_main.filter_recent(articles, self.TODAY, max_age_days=3)
+
+        self.assertEqual([a["title"] for a in kept], ["recent"])
+
+    def test_keeps_articles_exactly_at_the_cutoff(self):
+        articles = [{"title": "edge", "published_at": "2026-09-08T00:00:00+09:00"}]
+
+        kept = news_main.filter_recent(articles, self.TODAY, max_age_days=3)
+
+        self.assertEqual([a["title"] for a in kept], ["edge"])
+
+    def test_keeps_articles_with_unparseable_or_missing_date(self):
+        articles = [
+            {"title": "no date", "published_at": ""},
+            {"title": "missing key"},
+        ]
+
+        kept = news_main.filter_recent(articles, self.TODAY, max_age_days=3)
+
+        self.assertEqual(len(kept), 2)
 
 
 class PruneOldFilesTests(unittest.TestCase):
