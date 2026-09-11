@@ -128,6 +128,10 @@
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     font-size: 10.5px; letter-spacing: 0.08em; color: var(--faint);
   }
+  .thumb img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover;
+  }
   a.title {
     font-size: 16.5px; font-weight: 700; line-height: 1.42; letter-spacing: -0.03em;
     text-wrap: pretty; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
@@ -246,7 +250,15 @@
         <ul class="cards">
           {% for article in group.articles %}
           <li data-link="{{ article.link }}" data-source="{{ article.sources|first|default('', true) }}">
-            <div class="thumb"><span>기사 썸네일</span></div>
+            <div class="thumb">
+              {% if article.image %}
+              <img src="{{ article.image }}" alt="" loading="lazy" referrerpolicy="no-referrer"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span style="display: none;">기사 썸네일</span>
+              {% else %}
+              <span>기사 썸네일</span>
+              {% endif %}
+            </div>
             <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
             <div class="card-meta">
               <span class="src">{{ article.sources|join(', ') }}</span>
