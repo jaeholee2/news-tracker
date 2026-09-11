@@ -74,6 +74,53 @@
     color: var(--fg);
     font-weight: 600;
   }
+  nav.keyword-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: baseline;
+    padding: 0 0 16px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+  }
+  nav.keyword-nav .label {
+    color: var(--muted);
+    margin-right: 4px;
+  }
+  nav.keyword-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 3px 9px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+  }
+  nav.keyword-nav a:hover {
+    text-decoration: underline;
+  }
+  nav.keyword-nav .count {
+    color: var(--muted);
+  }
+  section.keyword-group {
+    margin-bottom: 28px;
+  }
+  section.keyword-group:last-child {
+    margin-bottom: 0;
+  }
+  h2.keyword-heading {
+    font-size: 1.05rem;
+    margin: 0 0 4px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+  }
+  h2.keyword-heading .count {
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 0.85rem;
+  }
+  .empty.small {
+    padding: 12px 0;
+    text-align: left;
+  }
   ul.articles {
     list-style: none;
     margin: 0;
@@ -196,18 +243,36 @@
   </nav>
   {% endif %}
 
+  {% if keyword_groups %}
+  <nav class="keyword-nav">
+    <span class="label">검색어</span>
+    {% for group in keyword_groups %}
+      <a href="#kw-{{ loop.index }}">{{ group.keyword }} <span class="count">({{ group.articles|length }})</span></a>
+    {% endfor %}
+  </nav>
+  {% endif %}
+
   <main>
-    {% if articles %}
-    <ul class="articles">
-      {% for article in articles %}
-      <li>
-        <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
-        <span class="meta">
-          {{ article.sources|join(', ') }}{% if article.published_at %} · {{ article.published_at }}{% endif %}
-        </span>
-      </li>
+    {% if keyword_groups %}
+      {% for group in keyword_groups %}
+      <section class="keyword-group" id="kw-{{ loop.index }}">
+        <h2 class="keyword-heading">{{ group.keyword }} <span class="count">({{ group.articles|length }})</span></h2>
+        {% if group.articles %}
+        <ul class="articles">
+          {% for article in group.articles %}
+          <li>
+            <a class="title" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+            <span class="meta">
+              {{ article.sources|join(', ') }}{% if article.published_at %} · {{ article.published_at }}{% endif %}
+            </span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty small">기사 없음</p>
+        {% endif %}
+      </section>
       {% endfor %}
-    </ul>
     {% else %}
     <p class="empty">기사 없음</p>
     {% endif %}
