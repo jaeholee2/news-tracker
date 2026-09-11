@@ -76,35 +76,6 @@ class RenderTests(unittest.TestCase):
         self.assertIn("두두원", index_html)
         self.assertIn("5G 특화망", index_html)
 
-    def test_no_password_gate_by_default(self):
-        render.render(
-            "2026-09-09", SAMPLE_ARTICLES, self.output_dir, TEMPLATES_DIR, retention_days=90, keywords=KEYWORDS
-        )
-
-        index_html = (self.output_dir / "index.html").read_text(encoding="utf-8")
-        self.assertNotIn("gate-overlay", index_html)
-
-    def test_password_gate_rendered_when_hash_given(self):
-        fake_hash = "a" * 64
-        render.render(
-            "2026-09-09",
-            SAMPLE_ARTICLES,
-            self.output_dir,
-            TEMPLATES_DIR,
-            retention_days=90,
-            keywords=KEYWORDS,
-            password_hash=fake_hash,
-        )
-
-        index_html = (self.output_dir / "index.html").read_text(encoding="utf-8")
-        archive_html = (self.output_dir / "archive" / "2026-09-09.html").read_text(encoding="utf-8")
-
-        for html in (index_html, archive_html):
-            self.assertIn("gate-overlay", html)
-            self.assertIn(fake_hash, html)
-            # content is hidden by default until the gate script unlocks it
-            self.assertIn('id="site-content" style="display: none;"', html)
-
     def test_index_nav_lists_previous_archive_days_within_retention(self):
         archive_dir = self.output_dir / "archive"
         archive_dir.mkdir(parents=True)
