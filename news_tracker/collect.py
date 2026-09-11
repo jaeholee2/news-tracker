@@ -164,12 +164,39 @@ def fetch_google_news_rss(keyword: str) -> list[dict]:
     return articles
 
 
+def _title_has_all_terms(title: str, terms: list[str]) -> bool:
+    """Case-insensitive check that every term appears somewhere in title."""
+    lowered = title.lower()
+    return all(term.lower() in lowered for term in terms)
+
+
 def collect(keywords: list[str], naver_client_id: str, naver_client_secret: str) -> list[dict]:
     """Collect articles for every keyword from both sources and merge them
     into one flat list. Individual source failures are logged (see the
-    fetchers above) and simply contribute no articles."""
+    fetchers above) and simply contribute no articles.
+
+    A keyword made of several space-separated terms (e.g. "방사청 5G") is
+    meant as "articles mentioning all of these", not just one of them. The
+    two upstream APIs don't reliably guarantee that: Google News RSS does
+    document space-separated terms as an implicit AND, but Naver's News
+    Search API does not document its matching behavior at all, so its
+    results for a multi-term query may include articles that only match
+    one term. To make the "all terms" guarantee hold regardless of what
+    either API actually did internally, results for any multi-term keyword
+    are filtered here to keep only articles whose title contains every
+    term (case-insensitive substring match). Single-term keywords are
+    unaffected -- there's nothing to filter.
+    """
     articles: list[dict] = []
     for keyword in keywords:
-        articles.extend(fetch_naver(keyword, naver_client_id, naver_client_secret))
-        articles.extend(fetch_google_news_rss(keyword))
+        keyword_articles = fetch_naver(keyword, naver_client_id, naver_client_secret)
+        keyword_articles += fetch_google_news_rss(keyword)
+
+        terms = keyword.split()
+        if len(terms) > 1:
+            keyword_articles = [
+                a for a in keyword_articles if _title_has_all_terms(a["title"], terms)
+            ]
+
+        articles.extend(keyword_articles)
     return articles
