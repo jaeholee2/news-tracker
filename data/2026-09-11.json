@@ -1,1 +1,455 @@
-[]
+[
+  {
+    "title": "IDC Illuminates Modern 5G Private Network Opportunity – download the new spotlight and infographic",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdTRwRHVGckVaXzRiUlBxYTF6XzhTMVlpbFhxT1JFLXpCbmJMRkh1N1dkV0g4NmdxLWhocHQ2dEw3ZWRUVkxrOUNEdFRCZTdWZ0JLYTVOaU5yNFhwcDEzVkptUk9sdFZkQnFKb1NmSkhia3hGYzIwNXlRcGtoenZ1LUs3QWhZaFF4aU9QMkhaQUdTX3JJWjlOY0Vxbzh6T1dmVEg5dm5aT3BxQQ?oc=5",
+    "published_at": "2022-10-04T07:00:00+00:00",
+    "sources": [
+      "qualcomm.com"
+    ],
+    "keywords": [
+      "이음5G",
+      "5G 특화망"
+    ]
+  },
+  {
+    "title": "Qualcomm Simplifies Private 5G Network Deployment and Management with New RAN Automation Platform and Partner Program",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb1RfOXdtQklYSTlhZ1l5VmxMLVl0YjQwMmxqakw1cnV3Tk1XR3p1bHVGYm04SS1NVjBlQnNaX1BUVWdSSVVYb3BXNU5RVnRudUlQS3NxbkQyejZ5STlOMmlVZWQzYkhtV2l4SVk4MXdLR1UyMy1rcUdJYWQ0VDd1Yy1CVTJCcTE3OHNEQS1yVFV0eHAyRDNFV041Z2pzMzBxdnllN052b1o2dC0tRFdEb3RoTlNad0lmY3JB?oc=5",
+    "published_at": "2022-02-27T08:00:00+00:00",
+    "sources": [
+      "qualcomm.com"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ]
+  },
+  {
+    "title": "Friday (telco diary) | Telco reset, RAN reboot, P5G reality check",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGdWT09DckZkMVExenR4S3k4UmRjeUtfY3NTM3d4M2IwaXp1c0VSUkdQeXZLRjRHaWxvNDM2M2xJdzQ1dEhUZUFXTVNzRElpWWZNcFRMWENpdUFaa3JQd1BwMERxcnN2T1NZb1pjdVcxTS1lV2ZRUGM2VW1LUy1VY3JHOUlYZnc?oc=5",
+    "published_at": "2026-07-13T07:00:00+00:00",
+    "sources": [
+      "rcrwireless.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "There’s no show without spectrum: Neutral Wireless shares the challenges around P5G adoption and where progress is being made",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNN2lKTm5oV3lHblZKT1Qwck84eEFYZU1wMTBHeVhfRE5NRW5NOC1NcVVHU05PT0pqZUpMMTVEYVVuLWs1YkMwNmJYZDNiQmpOcnpReUc1WmxiSUpFSzJDc01NcnJqVXpPV3FZcVRjMUxmRVpYeUtRU1BKVnNOWW8wb19WV0ZPRTdqN1RLX2xVVE85eUdGWGFONjdHQzdjYWw3WGtSa2JoUndKejBGOUt4cFNMNkNwaEJYUTNuak1yM05QenRCVHoxV2RMd1ZJUjVEcUxLaTJZbEtaQV9SSDZrQ1pIVzI2cnBZdE5JLUVjRmFNM1p0M00zcA?oc=5",
+    "published_at": "2025-12-18T08:00:00+00:00",
+    "sources": [
+      "SVG Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Solving the profit puzzle of P5G neworks | Research Report",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV1VnLTUtNjNYM0FoY29vUmxWTHF0dS14aVl0RUZINThqQXhwVlpaZzd3UFhVNC05SHFEaU9Kd21HZ2pUeFZmUDNKYTd0OTlmdTdMSGJ3QzlSVV91SmhZSjhyX0Z1N3Z0VFE5WFlVWHhLUDNmQ1hoS3ZRSldNMGtqdlZGOUlTR3FYQmk3MU0wczdKTzhJRTJQWnMwdDJhdw?oc=5",
+    "published_at": "2026-03-08T01:24:12+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Celanese Deploys NTT DATA's Private 5G Network to Transform Manufacturing at the Edge",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1UwSzNiWHIyX1JYaEcwZzI4VTlJMVhONmUwOHpwalR1QW5jUW5fQWhKYTI2ek1pN1BTNjl6Q2FhVUtZRG16ZndmTFF5cE1LWC1SRHk0M2UyMnJTZUlMN2VKcXZJOWJDVXkzUHFzWTdYQnptMzIyYXR6MFhRNDFDeXdmeDdtRGE0TEFDWWtB?oc=5",
+    "published_at": "2025-09-23T07:00:00+00:00",
+    "sources": [
+      "NTT Data",
+      "NTT, Inc."
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Nokia – ‘We’re not quitting the private 5G sector’",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOclNEV3B3SHlPTDFMX00zdnBTTzQ4VHZ0NC1rdjZOZkh4Z08zdDdMUGc5VC1uaTU1M2hiVldFU0xTRG95YW5waWY0NzhpNGd1NXNLYkx1LVdiTzZFQk1JaXVodTEwb3RGM0MtYUtwNW9PeHh2dmt3NGpkSGJxS1RGT09KY2tEbGk0YkZtVWVfbklhNlhJUVY3akp5bHJ1bnd1bDB2WHZhVdIBrAFBVV95cUxOcEFneHdsMlJFdl9kZ28tNXYzUDdTUXpDakFYQ1BwbG1BLWpoeWRvQUlwOG1fTEdLVW5YbHRrZWljQm5xRVloNDJkay13Z09INng5QnV5UzFQUnJ3U0RhX3ExQUZ3V1NhUHF1ZlBja2lfRWI2TEdCVmo0OXQyUjZlc1lKQXYxcmhGNmd6MmJodEN5OFhlWThsS2tyUFpoNWQ2cnFsN0JxcXp5dGJt?oc=5",
+    "published_at": "2025-11-20T08:00:00+00:00",
+    "sources": [
+      "telecomtv.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Brownsville CIO Discusses Smart City Growth, AI Factory, 5G Plans",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXE0Sm9JX1g5QnJUd1JXdTdfZWM2SVhnaXdUa1ZCQVlrTjFXcVRGZmcxNGVKa0gzSHdhUzVMekpzR3Vpc2hPZVFnUjNqbHV4X1VxT1ZPbzlTUHltbVBocjZKbUJQazA0NW9TeWRYS2JPdHk3b2pIdG5icUNSNk1EZ01TVkJDcl8yWmVLNWd2R2hPYTVyNUFpMzE1Ylh1czFaeXFRYg?oc=5",
+    "published_at": "2026-01-09T08:00:00+00:00",
+    "sources": [
+      "GovTech"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "P5G Evolution in the Enterprise Going Forward",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DNTE0SVFDbExDTm45c1E5ZTNjdDBzZmxxWG15QmxyM084VDVEd0UxT3VOYzVKUnRJalVXaWZVbzJqU2c5LXBPaEo4MVZjVlJJOF9IejNoMFl4MlBhVEYyYkNWZXpEOGd1dlJWS3RLcFZPLXJlU2NUN0x4MlA?oc=5",
+    "published_at": "2023-01-16T08:00:00+00:00",
+    "sources": [
+      "blogs.cisco.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Omantel to deploy P5G to boost Port of Salalah’s automation drive",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUd5aHItUjl5YlZuNmZFTHNCV0hubGlwclhoNHJrYTR0ajdwaUN4Y3dnSnl6TGVOVXlwTHZ2THZIRlhKRm9nT2lJZzdWTGQ5dkZMdkh1QjRKaDlRMGc4QTJBQmt4QU1yaU5DLTJ3TUhhRlkyMGZ2cU1OeHB2cWVYUmZ2WTY1Tkw5LXBpOWJvLW1STk8zd3pfMTh3TFo?oc=5",
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "AmpliTech Group To Hold Its Annual Shareholder Meeting And Showcase Its ORAN 5G Network Performance To Attendees",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQMGx5UmxpMXQ3QndJZXUwU01hVGJvcnNCTjFLcEFYTjFWaDlSQkdWSmMweFUzQy1OQTBCVnhLNFBZdXJ0TzNpTnBaZkN4Z0hpR2RKNy03aGtWQzAwanBpa2VjQzg4d2Q2UnpBeU5qNVUxWTM0MFdPeHQtMzY4NzE4cUFtNHhfQ3RrUFp2NUlfLU85eXNWMC1mcjdxb2p0Y0FxVk92cVBaVDJXR0ZYN2JjTmc0dkw1UjVnc243aU5yQUR5QnNOejhpdFpIU2lyV2l0SVZGRDItLWJ4T2hiVjJpN2NxVldOaTlOSzlDLTJ1czlCRlpOVGFJWU0zR1RSaTlOMUx4cVc5UHo4X1JDOVc0bEVnbU_SAZoCQVVfeXFMTktobjZNeHVsd2JYSFZvTWJzbWFGNXIzN3RocGNEZHFNVnRVcE1yNWVhWk9SNTVnTGRIbGNOUmxib0hvRkRMVEltX0I4dVhYaHJrZFgwQmJ5b0E2SnVmQnF2dTR6NVV0MHJES29mUWZiNVI2QnpfcnVwTFRzaUZJcFFfY0dMNW1pTVlyWGJrZWYxTWhVZnpqVlRNdUo5VWFQZERRa0xBMVVXMXZ4ZmIxc19DdXM4Sy1aMUVNV2IzdjRvU1N6R2E0bmgyZGxlUVY0RjYyV19iTEttWEM3NmctN3RKbVQ5QW1GNEozdERWMzRkQjhoS0FXenVQd1lHWkY1cTFjMWNrRzZvT3o0T3kwXzFzTk1URkkycFdn?oc=5",
+    "published_at": "2025-12-04T08:00:00+00:00",
+    "sources": [
+      "The Manila Times"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "New clinical trial network gives Atrium Health Wake Forest Baptist patients more options",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc01WejMzWFc4X05fekZFck9uRUVfMU5ZOTFvNHdIb1BwQUNDdEtVVVVxSEhmbDZBTnRSbEdjZURWMDRUN05rY0ZMblhiaXRsZnJWSmJiSDFjRHZkTk1xdEthSXJkWGtfd1FaT0ZfZ0xiand6aG5MQy1BVlVjeUJ2ZFprNmUwNGdlRU5GU3VQWnJxRVRZSjFseGxhT1JVMHlDVzRUNjBVSQ?oc=5",
+    "published_at": "2025-11-23T08:00:00+00:00",
+    "sources": [
+      "Winston-Salem Journal"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Wretched Messiah: The Tragedy of The God-Emperor",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqdk1yN001ckFPeHQ4UFU1SnBDdTByMDF6NmRXaWdhczRjUmxJTVVYUUlNNWRHRGhsdGxMMldaeUh5UW0wRFBNYVJOZzlpUF91UlJ1UUk4Q3R6V1VT?oc=5",
+    "published_at": "2026-05-25T07:00:00+00:00",
+    "sources": [
+      "youtu.be"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Why I’m Excited about Cisco Private 5G for Partners",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNnZERHpIeXJ5MHY0ZWtlcnU3THZDVlh0SzdBcU1JZVNZNWVtaW1CSzhSR3R2d2pZSzFyTGZ4WDI3NUtJMEFTa2FqUEo1TndGOEZlc1F6eFRhVkZrNGV6OUVwMDc4SzdDWUVsYmhPMDd3UFRPdTdKT2NXZ3FyOTFmV1dXajBaX1ZIOHc?oc=5",
+    "published_at": "2022-03-01T08:00:00+00:00",
+    "sources": [
+      "blogs.cisco.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Solving the economic puzzle of private 5G",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01Ukl2V1pLbVc4R0FXRHk2TTd2YlRFMmd2LUMzNk41cER6bjhfclZJSTRwWmpDREVJSms3SWRXQ2l4Z0VZNjBsaXkwZmtjdUd2dm80RjhOTHdxQ25ONE44OUJ4MWhLZ0x4RGZ4OGltT0duZ2poWTBTQnlDVFUxQQ?oc=5",
+    "published_at": "2026-03-25T07:00:00+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "City of Las Vegas working with NTT to deploy largest Private 5G network in the US",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3VNeFY3blc3X0FxZ2xGbWhGcEQ1aWZ0YWhtY2d0TTBMSzdwRGZyRl9kRnhpRlViR1ZkdmswOG53akpIdWRkMUx4d2NBRUxRazROZGNMMzVTc2I4b1R6M1VaeUY1eGI0M19nZ09kVnBtZktBOV94b1RkZzF2ZmhJcDZVaFRaY1JrREo3VEd1X3V3Mm5xM18wUDZjdWd6UUxLcEc3bUdjQ1Jxc2k1ZVVRbFEwdldkTVlYcEJESDdn?oc=5",
+    "published_at": "2022-09-28T07:00:00+00:00",
+    "sources": [
+      "NTT, Inc."
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "City of Brownsville, Texas Taps NTT DATA to Build Connected City with Smart Solutions Powered by Private 5G",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZEdjMG1VZDlfeUhKS0phOVphRl9PdlNaVkNIQkVHUF9BUzY0VFExRnYwWEhaaTQxUVQ4c2VfTU5EWmtkZGRmVnZ0SmxUNVJCY3BhWFZodG1vVEJUd1lVZk5VbVY5UnFkU0RLMzdSUjlnd0ZXZElVLXFPVTdmcFdYMllIa2FVM3VGRkx0bUxCLXJTb0RvX0hTWERRZGE4UmUybmVNWUhn?oc=5",
+    "published_at": "2024-09-02T07:00:00+00:00",
+    "sources": [
+      "NTT Data"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Private 5G Delivered on Your Terms",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHdUdwbkJFbFRCVm9YZ2ptSE5kdmZhLXUyZmVBQ0xLUnZxU09NYzF5NGNyc3FBcFZyWm1oTC1hcW9NR2ZENnV2ODhFclQ4dGRoUzlHQ0tkS2k3a2t6blpXazlOOVRwREF2TXBuZXRB?oc=5",
+    "published_at": "2022-02-03T08:00:00+00:00",
+    "sources": [
+      "blogs.cisco.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Private 5G is just getting started but telcos’ business model needs fixing",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVUNkNXBneTVHQ0tqemNUT2M0TGF0UTl2a2o0aTIxa0R3VnhpU0NUWjJtSy1oMzdYQmVNRjdwT2FBRkdBUW16blRwZHdrdXgtZmVrUlhkQ2U2RDJHNkVMZHBrUWxKTnVxNWZYS3ItMmM2LXl6U1kzTVJDWVB5Umd4VVlHVGtIeFRzb3psUllEYWN5cUM4OTNwUjdQVzFyNWhsbmhhREVPaks?oc=5",
+    "published_at": "2026-03-10T07:00:00+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Showcasing Powerful Private 5G Use Cases at Cisco Live EMEA!",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNanVGWEZXcWxBUHkteXNUN1NnLTkzcG5Bb3Vob1hZU0U3SzliUzViUXJ6OFoyN2RwSVIwM2RIZ2NQcHBTSHNWcEdoTm5Fc2RBZ2NWS2xQNThPUHA5eEIwZ0lrVm8zTWsyX240RDZTYm92NDE1Z1BnTnNzQWRXVVRjekFUbGtRaWVlMXlYc29wZw?oc=5",
+    "published_at": "2024-02-28T08:00:00+00:00",
+    "sources": [
+      "blogs.cisco.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT DATA, Ericsson partner on private 5G, edge and physical AI",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnJ2NHlfSmt4NGdUSTZOWUg3dlIydzZBQ3ZKd3BkUjZIMTkwSU9XMkxtZ3JYOExjNGRsdTZjNURkdEQzbl9XbEZkczVyZDhoVkhvajQycng0Qm5od2c1RzltSndqRDVJM0Z5czRqcFNFTFlmQ21RVHRYaTVsSG1uX2ExQXc4dkpERE5Sd19iUUN2Wk9sWGFZ?oc=5",
+    "published_at": "2026-02-27T08:00:00+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Partnering with ServiceNow, and the benefits of private 5G.",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSnpvT2tROTJIdW1tQnV3NXBQSmp2NUJTOGhCeHB2R2Y0Z005Zy1hTzBoOFhpbm1PVzJlWnlzZVNFOHBRTlFwQWRudmQzX3hrcmxOQjNWMGQ5cTBXMEtZV3hBMm1hdF9RcVFrQmo3YlFyX0g4ckg2YTRha1pPUHdRNF96YVdaZHNtOWZfQ0VPY3ZyTjJRTlE?oc=5",
+    "published_at": "2022-02-09T08:00:00+00:00",
+    "sources": [
+      "NTT, Inc."
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT, ServiceNow partner for enterprise private 5G deployments",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcHlaRzdjdnJVSFpHR3UzNzV4djlmN1lJN09jVzlvOHdiRFlEd1JxcWQyYXNsaTdUNUNYTVRfTDU4UWpPejlmR0U3WHlMODBzX1ZHemJBVjRoUUpaRDFxN19qX2tTRGF1MVlZQ1R3TW0wR1JnYnN3VTBrb2xXd1lUNzhLOXFWUnA2SHZleFpMYk1aVnBsZDZIWU5lZURJWUN6UDdFTW1CX1FnVXZkMmNv?oc=5",
+    "published_at": "2022-02-09T08:00:00+00:00",
+    "sources": [
+      "zdnet.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT and Schneider Electric join forces to power IoT environments with Private Wireless Network trials",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTFxeWFJQVY2QjlhZDRSZEtJeFRGU0U5d0k2YUNGMDhNdWRWWThEYUJtcnRaQWdlY1RTRTI4SVpTT3Uyb0lHVlF3X1p3ZFpfT1AtT044R1FITHRfcUMyLVc3N25IVk9fRFgzY2tzNGNobm9FdERXTkpzTlk3c1QzREtVZVdHQlRrUDNPRjNWSEtuQU90U0ZJVHIwNHpWdGVLMWlLeTBVTVVUaVU?oc=5",
+    "published_at": "2022-03-16T07:00:00+00:00",
+    "sources": [
+      "NTT, Inc."
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Brownsville, Texas: The Smart City SpaceX Built?",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1VCV0o1b2VER2hja1hHczZIMEV4VGxzalBvUVpqU1VUejY1b2RMQ2s1UDU0TDF6THo2NWxZYlp4VGxZaENZWkJHTnRXMkJDWGJoR2cxbEJZNVB0M0FlNE1tWnVfbVJGVHlRRTVjcEQyVmx4azZLMXhvMmpzcVZodE1wLWE?oc=5",
+    "published_at": "2024-09-30T07:00:00+00:00",
+    "sources": [
+      "CDOTrends"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT taps Celona to enable private 5G for enterprises",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMWhLamJFNE91QjBIMkJ4N291ak5uVEJqUzlrTFhUamtING00VUNFWnhLVW5uUl84UTEwOENmSmhfaVE5N0I0MVNVSkh3bk1SYmUyR0VWalYyZEY2eXdEOFhQd2I5aWZ2ZU1rME9vTW03WXBjVWhaYmJxYkpfRGkyNkE5MHh0SjFPMTd4ZzZXdkJhd1pKemc?oc=5",
+    "published_at": "2021-08-18T07:00:00+00:00",
+    "sources": [
+      "IT Pro"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Private 5G Connectivity and AI Technologies Accelerate the Transformation From Automation to Autonomy",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNemZ2NnBWS3A1aUVvUXVnMFZEV2d5MVNiTDR5Q3RFTmtybUs0ZE5FQzRrQVByMGROVWZMbjljZTc1bzZOLVYtVWRHT05oZzZYWHF1RTI1eUZsNkl5ZTFLc3hZMG83VUFRNUF2ZV8weE4tRjRuM1M0dnZKQkprV2d3Xy1BS01rNkt0dzk5TklvZzZjZTFfcGZMb09BbjRNRWFaNnVPdXN4eFpZOEdJMzdTUWFlbWRpYk55Ulpxa1gzVElQd3BHODNWa3pSMHJoVG85VjJHNElrZEdQVXE1RXUtQ3B4cmRNd3EzNTYyNA?oc=5",
+    "published_at": "2022-02-02T08:00:00+00:00",
+    "sources": [
+      "Robotics Tomorrow"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "5G Use Cases",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBWE1fVUdPTmtMNFNFNkotZHpfSmdPc3ZpLUNFd0R6bVNMZU81OVhnODViekhSQUEwb1JEYVNVaHJCNHlTOTlhdWkwcVFKNzZSNWc?oc=5",
+    "published_at": "2023-11-08T19:58:09+00:00",
+    "sources": [
+      "5G Americas"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Parm Sandhu",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xb2xmUjlINElIV2ttbkNQc2NGQ3AxdDQyOUM5bWU2NUVYYU9OckE3NGxCWUZ5U1ZsdlY1ajlGZTBBWGFPVHJ3aS1Ja29PWnFKOHI3YlRfTThZbXU0ZHVWM181MA?oc=5",
+    "published_at": "2024-10-04T07:00:00+00:00",
+    "sources": [
+      "Data Centre Magazine"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT Honored as Most Outstanding Private 5G Network Service Provider of the Year",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2VZVEVrZEN5MW5QVGdoQnBRQUlQQ3h1NTEyQTFQa0k4em5UME0tRzM4TDN5YXNJempmZGlFbnhoUFNWMi1PMlg0RXZfdXF3bkRMV1pLeHlFaU51cFZHaWlpTTczRllySVdDZy12MTJwZEFkTXVtLTdDRkZCMlJKWXh3Q3JEWVVsNHhNV2lySFhlbzFmMEw1bEpIMllzUDFWMGZoekpaUkRUQQ?oc=5",
+    "published_at": "2024-10-03T07:00:00+00:00",
+    "sources": [
+      "Macau Business"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT unveils “global” private 5G network",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUDBaTWtlZUQxXzRvdVM4aS1URi1zRmhiZVJTS0VwSnNCNThvci1uNUdrRm11UFlLWk5lS2lWdTQ4MFhWTjJXUS0zTDg4VlB6d0pCd3pwV3dON1cxbkp5MWVZanVVSXFfTEM2ZTNjVHFrUEtXSmg1eTc5aTR1UHdOU2pjYlRLNDBtaUE?oc=5",
+    "published_at": "2021-08-12T07:00:00+00:00",
+    "sources": [
+      "telecoms.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Nokia’s anyRAN broadens options for commercial Cloud RAN deployment and targets enterprises with partners Cisco, Hewlett Packard Enterprise and Microsoft",
+    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOMDlLTXJKMlNoTTJaRFBWNXlFeVozVlJCRmVHWDlYVTJaZ1VYbzRGZ1ZtSGhHR2pNZ29mbzRqOEJ0Zm1yVkVDSFJjUjVCZ3dDT1ktckdIOGs0bnQtNFdEY0g1NUtYWVlzbEhmMDF6dmdocTdVdlZkZ19JYTNndWlpOWV2aXl1Mm9qLXNwbDZWSnFBell1a3lUVmdUMHBhVXVuS2p3U3JYWE5Zd1NLbFpSTEZ2QnJsd3NyZ1VwS25rbldrQWFoczFaNkNZR3JoNXpWcE9RM0hvWURLaThRX3pxOTJUbTd6RnJuZ0lnYnhSS01pOWRuZGdKTEJ6LUphZHJKNmpLQ0ZwUUJOOGttNXpCUg?oc=5",
+    "published_at": "2024-02-26T08:00:00+00:00",
+    "sources": [
+      "Nokia"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT Drives Hong Kong Smart City Innovation With Private 5G For New Use Cases",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNajhILVdXZHd5NWtLOFI3RGRMT1Q0SVlzVVR1TW9UYzZwMF9pYS1lQkN1ZXNyTzEtZlBPdEFpTjNncWxpdzJtWk4zaUZacjNvVjB4Zm9DZG4xdm9GaHRCRE1KSEtqR09yVWpsWFY2RkQzaWlfdHVkY3g0LTVDZHU2M0tWempoVDEyVWxFbl80R0RQdDFTd3AtMWRHZm9UX1FzUmVFX3lZbGlrNjBTMlNrZjNHdkXSAboBQVVfeXFMTXgxWE1jM0dhYnhNdEZNMHdKYUF6TXdZQXZScHdNVEctLXVJaEhrb3g0MTdtd3dGRTYwUERFQXFURThXYkgtUTA1SHFNRUFvU0VvMkZ1dVpZNE9VRUk2T25Nekp2MGRJU3FQenN5YTlXMG9zRlBrV3VYdnh6MkU3QzBhcXoxWG9Ia0xSRnMyVGlGQ09OWWFFaGpweF9USkZIOEhnWnMzejhkclp4RjJYVTVKRndEOVBvVlFn?oc=5",
+    "published_at": "2024-08-22T07:00:00+00:00",
+    "sources": [
+      "en.antaranews.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "NTT Launches First Globally Available Private 5G Network-as-a-Service Platform",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZF9COVBuQnIwTzhCY096Y0JacW5VYzFteDh2X2tRUUlhNmpOcENHMFJ6aXZNTTJaWmtzYmVwTVktVkJubjlTU3ItcEV0QVROUlVmM0lMRElKQ2RQaHdLWVp4emxyNmgtd3B5Rko3SU9DWk1QakVYNjBEZVBOV1BGQ3ZxNF9KZzZmNTgzWmstbjZqbUYwYkRtbVhFSXdhN09PTVFTcWRCM2U?oc=5",
+    "published_at": "2021-08-11T07:00:00+00:00",
+    "sources": [
+      "Macau Business"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "HPE Discover 2024: Aruba Networking moves to center stage",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTXZOQk9xQ0dKc2J4SlVjRW9OeDBaaWRjd1YxZGk1V1UzSzNBZ2NNQkpudTg2STFKVGJ0SEtCaVF5RkZDNDJlWkllVWdXUnhSenlTdzBtLVYtNnBIRUc2eThMY2ZxZzB6N25YX3diVFNKaVZMRTg0MmpFeTM1U09ITlpwdElqdjQ2RnlHYWhILXJPSGhwLXBIakg2SjV0Z0l3QUF3dmhpcWE4YUlqbGc?oc=5",
+    "published_at": "2024-07-01T07:00:00+00:00",
+    "sources": [
+      "TechTarget"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Candidate bio: Lisa Phelps",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb0dCb1NLUjdSLWhXczZHUWlIS0lBSl90bEstOGpOVHVlZGd2amg1N3NFSWFrSnNYQTN4LTF1NW5YZnkyaFV0MF9aaXhIVVZ5VFZyTWlWSEY4ZmRnQjlQa29kMGZHOEE2NkJ4VkE3VjBnZC1qTERKUTJCUEtJOGJySGdINk9ad3NKQk9peS1OdWE?oc=5",
+    "published_at": "2021-10-25T07:00:00+00:00",
+    "sources": [
+      "Fredericksburg.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "HTC intros Viverse for Business, new portable 5G network at MWC",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXA3WVZrRGt4c0VjOHZqZE5oR2h5VTh4VXBuTFY0U2FwZWt3M2ZJWWlvN0F6X2tBU0g4Q0hOOEhRVlltd29tS0hZaHRQdVAxSngxQ011aUJLTWdFTC1jcWNzZFZpZUNiSm1fYW9tS3pnanh0Mk1hdHlKYkZhaUhHQjFpQnBXYUQwdElzNkFMQlZYX3Z6d2lsNVpNUktJXzMwT2ZBbWZKRzM?oc=5",
+    "published_at": "2023-03-02T08:00:00+00:00",
+    "sources": [
+      "Telecompaper"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Hutchison Ports completes 5G roll-out at UK hubs",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMms4NWFZSGZ6WEp3WEphNVJFUVhuUmtSSHlpN0x6ZTlmS2ZsZEtGU0l3eTY1VnNOSXowWTZiYlBud3lrVnh2bGtfYzNHUzktWEpEUUlQTkViTkhfLS12TFA4NTNiYlh0emo3ZXRmTEVUc2tFUE9zUDE2QmlnNkxCT3oxekZQbVNMSkN3dEJpeEVpQjNIN1NXa3paZ2tfbkxfNnBVNGlxX0ZMczQ?oc=5",
+    "published_at": "2025-07-10T07:00:00+00:00",
+    "sources": [
+      "Port Technology"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "'Persona' Series Honest Trailer Full Of Waifu Goodness And Goth Pokémon",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQktpZXBEcW16RzcwWTRiZWN3ZnlSSlkzY1lIZnJ0MnE1RFFvTk8xRmMwZ1Y0VFNwWHFWcV9SLTg2VGcxOHk4U0NrbmxzTHU5QUZsTVAzT3c1TU85TjBxNEYxUkpBRGFCZkw4YXUtRFp3QjVwbnAyYUdsNjVWX2hmbnNBRXpCLVNWWE1SLVVsR0swMXlZcDhweGJBQl8?oc=5",
+    "published_at": "2017-04-26T07:00:00+00:00",
+    "sources": [
+      "player.one"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "22% of European telcos active in D2D as commercialisation starts",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU2lnTjYzaEZtV3c3VFpSU24zZ20xUWhGZzRfY0hJdWYwMGpkczkxVlpBNWNUQUY4V1BadnJaS2V4V2RBazRKMFE1cG8wdkliTlVSLVB4ZjhHMFRVSlJuczRJNUhPRWlkbmY1dG9WdmhtMk1BQzJGX2xHTU9DU0s3a3oteEplNTUwX1Z0bFZ1WlR1cm9LRkEzMlFNTQ?oc=5",
+    "published_at": "2026-04-30T07:00:00+00:00",
+    "sources": [
+      "Mobile Europe"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  },
+  {
+    "title": "Who do you remember from these 2009 South Ayrshire primary school photos?",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMDZMY3BBbE9KNUFpdDZZaTc0S3kyR01jb1hGRzh4NGVJd0RNaC1CdlRJeEQxNFUycUZkVlFJd19YZlB3U24tLWstS0FhalItd25LbVJQeGtLYUFfV2xENkE2Tm44V3cwTHpnUUV3NnpHbTFxSHBQQm11dE4xNkllcmp6S2c4eFRrMDZEcmtmalVqSWNJQmVEcA?oc=5",
+    "published_at": "2024-05-18T07:00:00+00:00",
+    "sources": [
+      "ayradvertiser.com"
+    ],
+    "keywords": [
+      "P5G"
+    ]
+  }
+]
