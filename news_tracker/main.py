@@ -196,6 +196,11 @@ def run(today: date | None = None) -> int:
         config["max_article_age_days"],
     )
 
+    # Thumbnails: one extra page fetch per story actually being shown, so
+    # this runs last -- after dedup and date-filtering have already
+    # thrown away everything that won't end up on the page.
+    recent = collect.enrich_with_images(recent)
+
     save_articles(recent, date_str)
     render.render(
         date_str,
