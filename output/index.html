@@ -5,38 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>News Tracker &ndash; 2026-09-11</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" as="style" crossorigin
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
 <style>
   :root {
-    color-scheme: light dark;
-    --fg: #17181c;
-    --bg: #f4f5f7;
-    --card-bg: #ffffff;
-    --muted: #6d7178;
-    --border: #e5e7eb;
-    --accent: #2f5fe0;
-    --accent-fg: #ffffff;
-    --accent-soft: #e9edfd;
-    --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --fg: #edeef1;
-      --bg: #101114;
-      --card-bg: #1a1b1f;
-      --muted: #9a9ea6;
-      --border: #2c2e33;
-      --accent: #7fa1ff;
-      --accent-fg: #0d1220;
-      --accent-soft: #1d2740;
-      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.35);
-    }
+    --bg: #f6f3ec;
+    --paper: #fffdf8;
+    --fg: #241f19;
+    --fg-soft: #5e574c;
+    --muted: #8a8175;
+    --faint: #a39a8b;
+    --rule: #e3dccc;
+    --rule-soft: #ebe5d7;
+    --accent: #b4552c;
+    --accent-soft: #f3e3da;
+    --accent-line: #e5c3b1;
+    --serif: "Gowun Batang", "Nanum Myeongjo", serif;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    padding: 28px 16px 72px;
+    padding: 0 20px 100px;
     background: var(--bg);
     color: var(--fg);
     font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",
@@ -44,251 +35,306 @@
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
-  .page {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-  header {
+  ::selection { background: var(--accent-soft); }
+  .page { max-width: 880px; margin: 0 auto; }
+
+  header.masthead {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 4px 12px;
-    margin-bottom: 18px;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 56px 0 22px;
+    border-bottom: 2px solid var(--fg);
   }
-  header h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
+  .masthead .brand { display: flex; flex-direction: column; gap: 6px; }
+  .masthead .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .masthead h1 {
     margin: 0;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(32px, 7vw, 44px);
+    line-height: 1;
+    letter-spacing: -0.02em;
   }
-  header h1 a {
-    color: inherit;
-    text-decoration: none;
-  }
-  header .meta-line {
+  .masthead h1 a { color: inherit; text-decoration: none; }
+  .masthead .meta-line {
     display: flex;
     align-items: baseline;
-    gap: 8px;
-    color: var(--muted);
-    font-size: 0.88rem;
+    gap: 14px;
+    margin: 0;
+    font-size: 13px;
+    color: var(--fg-soft);
+    font-variant-numeric: tabular-nums;
   }
-  header .meta-line .count {
-    background: var(--accent-soft);
-    color: var(--accent);
-    font-weight: 700;
-    padding: 2px 9px;
-    border-radius: 999px;
-    font-size: 0.78rem;
+  .masthead .meta-line .divider {
+    width: 1px; height: 11px; background: #d6cebe; display: inline-block;
   }
+
   nav.tab-row {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    align-items: center;
     gap: 6px;
-    padding: 4px 0 14px;
-    margin-bottom: 14px;
-    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    padding: 16px 0 0;
     scrollbar-width: thin;
   }
-  nav.tab-row::-webkit-scrollbar {
-    height: 4px;
-  }
+  nav.tab-row::-webkit-scrollbar { height: 4px; }
   nav.tab-row .tab-label {
     flex: 0 0 auto;
-    display: flex;
-    align-items: center;
-    color: var(--muted);
-    font-size: 0.78rem;
-    font-weight: 600;
-    margin-right: 2px;
-    white-space: nowrap;
+    margin-right: 6px;
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
   }
-  nav.tab-row a,
-  nav.tab-row span.tab-current {
+  nav.tab-row a, nav.tab-row span.tab-current {
     flex: 0 0 auto;
     white-space: nowrap;
-    padding: 6px 13px;
+    padding: 5px 11px;
     border-radius: 999px;
-    font-size: 0.85rem;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
     text-decoration: none;
-  }
-  nav.tab-row a {
+    border: 1px solid var(--rule);
     color: var(--muted);
-    background: transparent;
-    border: 1px solid var(--border);
   }
-  nav.tab-row a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
+  nav.tab-row a:hover { border-color: var(--accent-line); color: var(--accent); }
   nav.tab-row span.tab-current {
-    background: var(--accent);
-    color: var(--accent-fg);
-    font-weight: 700;
-    border: 1px solid var(--accent);
+    background: var(--fg); border-color: var(--fg); color: var(--paper); font-weight: 600;
   }
-  nav.keyword-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding-bottom: 20px;
-    margin-bottom: 4px;
-  }
-  nav.keyword-nav a {
+
+  nav.keyword-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 18px 0 0; }
+  .kw-chip {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    color: var(--fg);
-    background: var(--card-bg);
-    text-decoration: none;
-    padding: 6px 12px;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    font-size: 0.85rem;
+    gap: 8px;
+    padding: 8px 14px;
+    font: inherit;
+    font-size: 13px;
     font-weight: 600;
-    box-shadow: var(--shadow);
+    letter-spacing: -0.01em;
+    color: var(--fg-soft);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
-  nav.keyword-nav a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
+  .kw-chip:hover { border-color: var(--accent-line); }
+  .kw-chip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--paper); }
+  .kw-chip .dot { width: 7px; height: 7px; border-radius: 50%; flex: 0 0 auto; }
+  .kw-chip .count { opacity: 0.55; font-variant-numeric: tabular-nums; }
+
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 0 0;
+    font-size: 12.5px;
   }
-  nav.keyword-nav a .count {
+  .filter-row .row-label {
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-right: 2px;
+  }
+  .src-chip {
+    padding: 5px 11px;
+    font: inherit;
+    font-size: 12px;
+    color: var(--fg-soft);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .src-chip:hover { border-color: var(--accent-line); color: var(--accent); }
+  .src-chip[aria-pressed="true"] {
+    color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line);
+  }
+  .link-btn {
+    padding: 4px 0;
+    font: inherit;
+    font-size: 12px;
     color: var(--muted);
-    font-weight: 500;
-    font-size: 0.78rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
-  section.keyword-group {
-    margin-bottom: 30px;
+  .link-btn:hover { color: var(--accent); }
+  .link-btn.accent { color: var(--accent); }
+
+  .read-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 26px 0 0;
+    font-size: 12px;
+    color: var(--muted);
   }
-  section.keyword-group:last-child {
-    margin-bottom: 0;
-  }
+  .read-row strong { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  section.keyword-group { padding: 38px 0 0; }
   h2.keyword-heading {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 1.05rem;
-    font-weight: 800;
-    margin: 0 0 12px;
-    padding-left: 11px;
-    border-left: 4px solid var(--accent);
+    gap: 12px;
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: -0.01em;
     scroll-margin-top: 16px;
   }
+  h2.keyword-heading .dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
   h2.keyword-heading .count {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: var(--muted);
-    font-weight: 500;
-    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
   }
-  ul.articles {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
+
+  ul.articles { list-style: none; margin: 0; padding: 0; }
   ul.articles li {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 14px 16px;
-    box-shadow: var(--shadow);
-    transition: border-color 0.15s ease, transform 0.15s ease;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 17px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    transition: opacity 0.2s ease;
   }
-  ul.articles li:hover {
-    border-color: var(--accent);
+  .read-toggle {
+    margin-top: 7px;
+    width: 11px;
+    height: 11px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1.5px solid #d6cebe;
+    background: transparent;
+    cursor: pointer;
+    flex: 0 0 auto;
   }
+  .read-toggle:hover { border-color: var(--accent); }
+  .article-body { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
   ul.articles a.title {
+    font-family: var(--serif);
+    font-size: 17.5px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
     color: var(--fg);
     text-decoration: none;
-    font-size: 0.98rem;
-    font-weight: 600;
-    line-height: 1.4;
+    text-wrap: pretty;
   }
-  ul.articles a.title:hover {
-    color: var(--accent);
-  }
+  ul.articles a.title:hover { color: var(--accent); }
   .meta {
-    display: block;
-    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 9px;
+    font-size: 12px;
     color: var(--muted);
-    font-size: 0.8rem;
   }
+  .meta .src { color: var(--fg-soft); font-weight: 600; }
+  .meta .sep { width: 2px; height: 2px; border-radius: 50%; background: #c6bdac; }
+  .meta time { font-variant-numeric: tabular-nums; }
+
+  li.is-read { opacity: 0.45; }
+  li.is-read a.title { text-decoration: line-through; text-decoration-color: #c6bdac; }
+  li.is-read .read-toggle { background: currentColor; border-color: currentColor; }
+
   .empty {
-    color: var(--muted);
-    padding: 32px 0;
-    text-align: center;
-    background: var(--card-bg);
-    border: 1px dashed var(--border);
-    border-radius: 12px;
-  }
-  .empty.small {
-    padding: 14px 16px;
-    text-align: left;
     margin: 0;
+    padding: 26px 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 13.5px;
+    color: var(--faint);
   }
+
   footer {
-    margin-top: 40px;
-    color: var(--muted);
-    font-size: 0.75rem;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 64px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    color: var(--faint);
+  }
+
+  [hidden] { display: none !important; }
+
+  @media (max-width: 560px) {
+    header.masthead { padding-top: 36px; }
+    ul.articles a.title { font-size: 16.5px; }
   }
   
   #gate-overlay {
     position: fixed;
     inset: 0;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--bg);
     padding: 16px;
-    z-index: 10;
-  }
-  #gate-box {
-    width: 100%;
-    max-width: 320px;
-    text-align: center;
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 28px 24px;
-    box-shadow: var(--shadow);
-  }
-  #gate-box p {
-    color: var(--muted);
-    font-size: 0.9rem;
-    margin: 0 0 16px;
-  }
-  #gate-box form {
-    display: flex;
-    gap: 8px;
-  }
-  #gate-password {
-    flex: 1;
-    min-width: 0;
-    padding: 10px 12px;
-    font-size: 1rem;
-    border: 1px solid var(--border);
-    border-radius: 8px;
     background: var(--bg);
-    color: var(--fg);
   }
+  #gate-box { width: 100%; max-width: 340px; text-align: center; }
+  #gate-box .gate-title {
+    font-family: var(--serif);
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+  }
+  #gate-box .gate-rule { width: 34px; height: 1px; background: var(--accent); margin: 0 auto 12px; }
+  #gate-box p { margin: 0 0 22px; font-size: 13px; color: var(--muted); }
+  #gate-box form { display: flex; flex-direction: column; gap: 10px; }
+  #gate-password {
+    width: 100%;
+    padding: 13px 16px;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: var(--fg);
+    background: var(--paper);
+    border: 1px solid #dfd8c9;
+    border-radius: 2px;
+    outline: none;
+  }
+  #gate-password:focus { border-color: var(--accent); }
   #gate-box button {
-    padding: 10px 16px;
-    font-size: 1rem;
-    font-weight: 700;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--paper);
+    background: var(--fg);
     border: none;
-    border-radius: 8px;
-    background: var(--accent);
-    color: var(--accent-fg);
+    border-radius: 2px;
     cursor: pointer;
   }
-  #gate-error {
-    color: #d64545;
-    font-size: 0.85rem;
-    margin-top: 10px;
-  }
+  #gate-box button:hover { background: var(--accent); }
+  #gate-error { color: #a8342f; font-size: 12.5px; margin: 12px 0 0; }
   
 </style>
 </head>
@@ -296,9 +342,11 @@
 
 <div id="gate-overlay">
   <div id="gate-box">
+    <div class="gate-title">News Tracker</div>
+    <div class="gate-rule"></div>
     <p>비밀번호를 입력하세요</p>
     <form id="gate-form" autocomplete="off">
-      <input type="password" id="gate-password" autocomplete="current-password" required>
+      <input type="password" id="gate-password" autocomplete="current-password" placeholder="••••••••" required>
       <button type="submit">열기</button>
     </form>
     <p id="gate-error" hidden>비밀번호가 올바르지 않습니다.</p>
@@ -306,10 +354,15 @@
 </div>
 
 <div class="page" id="site-content" style="display: none;">
-  <header>
-    <h1><a href="index.html">News Tracker</a></h1>
+  <header class="masthead">
+    <div class="brand">
+      <div class="eyebrow">Daily Clipping</div>
+      <h1><a href="index.html">News Tracker</a></h1>
+    </div>
     <p class="meta-line">
-      2026-09-11 <span class="count">9건</span>
+      <span>2026-09-11</span>
+      <span class="divider"></span>
+      <span>총 9건</span>
     </p>
   </header>
 
@@ -327,122 +380,391 @@
   
   <nav class="keyword-nav" aria-label="검색어">
     
-      <a href="#kw-1">두두원 <span class="count">0</span></a>
+      <button type="button" class="kw-chip" data-kw="두두원" aria-pressed="false">
+        <span class="dot" style="background: var(--kw-color-0);"></span>
+        <span>두두원</span>
+        <span class="count">0</span>
+      </button>
     
-      <a href="#kw-2">이음5G <span class="count">0</span></a>
+      <button type="button" class="kw-chip" data-kw="이음5G" aria-pressed="false">
+        <span class="dot" style="background: var(--kw-color-1);"></span>
+        <span>이음5G</span>
+        <span class="count">0</span>
+      </button>
     
-      <a href="#kw-3">5G 특화망 <span class="count">9</span></a>
+      <button type="button" class="kw-chip" data-kw="5G 특화망" aria-pressed="false">
+        <span class="dot" style="background: var(--kw-color-2);"></span>
+        <span>5G 특화망</span>
+        <span class="count">9</span>
+      </button>
     
-      <a href="#kw-4">P5G <span class="count">0</span></a>
+      <button type="button" class="kw-chip" data-kw="P5G" aria-pressed="false">
+        <span class="dot" style="background: var(--kw-color-3);"></span>
+        <span>P5G</span>
+        <span class="count">0</span>
+      </button>
     
   </nav>
+
+  <div class="filter-row" id="source-row" hidden>
+    <span class="row-label">언론사</span>
+    <span id="source-chips" style="display: flex; flex-wrap: wrap; gap: 8px;"></span>
+    <button type="button" class="link-btn accent" id="reset-filters" hidden>필터 해제</button>
+  </div>
+
+  <div class="read-row">
+    <span>읽음 <strong id="read-count">0</strong> / <span id="visible-count">9</span></span>
+    <button type="button" class="link-btn" id="clear-read">읽음 초기화</button>
+  </div>
   
 
   <main>
     
       
-      <section class="keyword-group" id="kw-1">
-        <h2 class="keyword-heading">두두원 <span class="count">0건</span></h2>
+      <section class="keyword-group" id="kw-1" data-kw="두두원"
+               style="--kw-color: var(--kw-color-0);">
+        <h2 class="keyword-heading">
+          <span class="dot" style="background: var(--kw-color);"></span>
+          <span>두두원</span>
+          <span class="count"><span class="group-count">0</span>건</span>
+        </h2>
         
-        <p class="empty small">기사 없음</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-2">
-        <h2 class="keyword-heading">이음5G <span class="count">0건</span></h2>
-        
-        <p class="empty small">기사 없음</p>
+        <p class="empty">기사 없음</p>
         
       </section>
       
-      <section class="keyword-group" id="kw-3">
-        <h2 class="keyword-heading">5G 특화망 <span class="count">9건</span></h2>
+      <section class="keyword-group" id="kw-2" data-kw="이음5G"
+               style="--kw-color: var(--kw-color-1);">
+        <h2 class="keyword-heading">
+          <span class="dot" style="background: var(--kw-color);"></span>
+          <span>이음5G</span>
+          <span class="count"><span class="group-count">0</span>건</span>
+        </h2>
+        
+        <p class="empty">기사 없음</p>
+        
+      </section>
+      
+      <section class="keyword-group" id="kw-3" data-kw="5G 특화망"
+               style="--kw-color: var(--kw-color-2);">
+        <h2 class="keyword-heading">
+          <span class="dot" style="background: var(--kw-color);"></span>
+          <span>5G 특화망</span>
+          <span class="count"><span class="group-count">9</span>건</span>
+        </h2>
         
         <ul class="articles">
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TX2o1REpUNkhJOUIzNmlqZm9nTFV1bGNNMXA3b2ZCS0tVNkVmMFE1ZFdKZnhra0FUazhFaEhUZnl4d2lXb2RUMjJYaHdwTUF0YlNfY2h6bm9OaXpEcHdn?oc=5" target="_blank" rel="noopener noreferrer">[PNT FAIR 2026 참가기업] 에티버스이피에이, 5G 특화망·산업용 점검 로봇 솔루션 집중 조명</a>
-            <span class="meta">
-              헬로티 · 2026-09-11T03:19:12+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TX2o1REpUNkhJOUIzNmlqZm9nTFV1bGNNMXA3b2ZCS0tVNkVmMFE1ZFdKZnhra0FUazhFaEhUZnl4d2lXb2RUMjJYaHdwTUF0YlNfY2h6bm9OaXpEcHdn?oc=5" data-source="헬로티"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TX2o1REpUNkhJOUIzNmlqZm9nTFV1bGNNMXA3b2ZCS0tVNkVmMFE1ZFdKZnhra0FUazhFaEhUZnl4d2lXb2RUMjJYaHdwTUF0YlNfY2h6bm9OaXpEcHdn?oc=5" target="_blank" rel="noopener noreferrer">[PNT FAIR 2026 참가기업] 에티버스이피에이, 5G 특화망·산업용 점검 로봇 솔루션 집중 조명</a>
+              <span class="meta">
+                <span class="src">헬로티</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-11T03:19:12+00:00">2026-09-11T03:19:12+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" target="_blank" rel="noopener noreferrer">방송통신전파진흥원, 5G 특화망에 AI·양자 입힌다</a>
-            <span class="meta">
-              주간한국 · 2026-09-09T05:32:22+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" data-source="주간한국"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" target="_blank" rel="noopener noreferrer">방송통신전파진흥원, 5G 특화망에 AI·양자 입힌다</a>
+              <span class="meta">
+                <span class="src">주간한국</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-09T05:32:22+00:00">2026-09-09T05:32:22+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE15WG83b0tUX1Zrd2pXODhsVnFPR2ZITFpDaHIyTXZWMS1sTlM3dU0tbUctR0lFWGMtcEJIMzk3RklZZElwWGlLOEJRcC1Bdw?oc=5" target="_blank" rel="noopener noreferrer">AI시대 新유형 특화망 발굴 착수…이용지침 만든다</a>
-            <span class="meta">
-              전자신문 · 2026-09-10T04:36:13+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdzNLUHdpME55X1FheWNnMmx5ZGk1alEwZDJwUkFkREhIeml5ZmM2UVNFelRxb2hvTFU5RDNaNmlkd1JJeXFVVGNtcmhoYjZFSkFUWnRB?oc=5" data-source="지디넷코리아"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdzNLUHdpME55X1FheWNnMmx5ZGk1alEwZDJwUkFkREhIeml5ZmM2UVNFelRxb2hvTFU5RDNaNmlkd1JJeXFVVGNtcmhoYjZFSkFUWnRB?oc=5" target="_blank" rel="noopener noreferrer">KCA, 5G 특화망에 AI 입힌다...오픈랜·양자보안까지 확장</a>
+              <span class="meta">
+                <span class="src">지디넷코리아</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-09T05:34:37+00:00">2026-09-09T05:34:37+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE9idFNmejV3cWtLd1llUFcxWkJjRjBjZjRQOVRSY2NtNGt0d3JqQ3IzSnkzQ1VsVldvVXlaai1ueHFpbi16SHc?oc=5" target="_blank" rel="noopener noreferrer">KCA, 5G 특화망에 AI 입힌다...오픈랜·양자보안까지 확장</a>
-            <span class="meta">
-              v.daum.net · 2026-09-09T05:35:49+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiTkFVX3lxTE15WG83b0tUX1Zrd2pXODhsVnFPR2ZITFpDaHIyTXZWMS1sTlM3dU0tbUctR0lFWGMtcEJIMzk3RklZZElwWGlLOEJRcC1Bdw?oc=5" data-source="전자신문"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE15WG83b0tUX1Zrd2pXODhsVnFPR2ZITFpDaHIyTXZWMS1sTlM3dU0tbUctR0lFWGMtcEJIMzk3RklZZElwWGlLOEJRcC1Bdw?oc=5" target="_blank" rel="noopener noreferrer">AI시대 新유형 특화망 발굴 착수…이용지침 만든다</a>
+              <span class="meta">
+                <span class="src">전자신문</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-10T04:36:13+00:00">2026-09-10T04:36:13+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vTHVvV2RLVFo5d3dIQW1ySFdKQ3lJOHNiWUdIUk44ellTZGVoZ1R3VlljWVA3cnVzZkx0Y01zSmRTVG56c2Z2cmxDZ3o0bl9VX0I5TE5PdEM1Q0U1bFV1cndFQ3FCZw?oc=5" target="_blank" rel="noopener noreferrer">‘PNT FAIR 2026’ 컨퍼런스 ‘AI 특화망 중소기업 스케일업 세미나’ 개최</a>
-            <span class="meta">
-              벤처타임즈 · 2026-09-08T00:00:00+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vTHVvV2RLVFo5d3dIQW1ySFdKQ3lJOHNiWUdIUk44ellTZGVoZ1R3VlljWVA3cnVzZkx0Y01zSmRTVG56c2Z2cmxDZ3o0bl9VX0I5TE5PdEM1Q0U1bFV1cndFQ3FCZw?oc=5" data-source="벤처타임즈"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vTHVvV2RLVFo5d3dIQW1ySFdKQ3lJOHNiWUdIUk44ellTZGVoZ1R3VlljWVA3cnVzZkx0Y01zSmRTVG56c2Z2cmxDZ3o0bl9VX0I5TE5PdEM1Q0U1bFV1cndFQ3FCZw?oc=5" target="_blank" rel="noopener noreferrer">‘PNT FAIR 2026’ 컨퍼런스 ‘AI 특화망 중소기업 스케일업 세미나’ 개최</a>
+              <span class="meta">
+                <span class="src">벤처타임즈</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-08T00:00:00+00:00">2026-09-08T00:00:00+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5ScnNpbW9PYTd0UFAzaUlpclRsMGlKbHUtV0xzcFVOMjFOTmhjb1l3ZkRjeUt2c1VPczNIVVVPMEMzNVBtUVHSAWJBVV95cUxNOURpTUVnSmxpekdXWklySHo2ZFJicDNzMjdQT3ZnaDdqWmdJNHFHeUNwbEw5RGh1Wmhhek56Tnd1cGdNdUg3TmxJa0h2OHNBWDE3QjNhUFNPNkVpV3p1QjFVQQ?oc=5" target="_blank" rel="noopener noreferrer">‘AI 특화망 중소기업 스케일업 세미나’ 9일 개최…PNT FAIR 연계:동아경제신문 &amp; daenews.co.kr</a>
-            <span class="meta">
-              동아경제 · 2026-09-08T10:38:00+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5ScnNpbW9PYTd0UFAzaUlpclRsMGlKbHUtV0xzcFVOMjFOTmhjb1l3ZkRjeUt2c1VPczNIVVVPMEMzNVBtUVHSAWJBVV95cUxNOURpTUVnSmxpekdXWklySHo2ZFJicDNzMjdQT3ZnaDdqWmdJNHFHeUNwbEw5RGh1Wmhhek56Tnd1cGdNdUg3TmxJa0h2OHNBWDE3QjNhUFNPNkVpV3p1QjFVQQ?oc=5" data-source="동아경제"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5ScnNpbW9PYTd0UFAzaUlpclRsMGlKbHUtV0xzcFVOMjFOTmhjb1l3ZkRjeUt2c1VPczNIVVVPMEMzNVBtUVHSAWJBVV95cUxNOURpTUVnSmxpekdXWklySHo2ZFJicDNzMjdQT3ZnaDdqWmdJNHFHeUNwbEw5RGh1Wmhhek56Tnd1cGdNdUg3TmxJa0h2OHNBWDE3QjNhUFNPNkVpV3p1QjFVQQ?oc=5" target="_blank" rel="noopener noreferrer">‘AI 특화망 중소기업 스케일업 세미나’ 9일 개최…PNT FAIR 연계:동아경제신문 &amp; daenews.co.kr</a>
+              <span class="meta">
+                <span class="src">동아경제</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-08T10:38:00+00:00">2026-09-08T10:38:00+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oZXA0dUd0dWwwbUVkQzFPRWFldWRZNVdXNlpQbWZwcTBLMnM4Z1lRdUhtZmdoLXY5MU9naU5BVW9lTE4zWEVwcEVwRTFiSHllWTBVZmtIdzl4d3gxbTJV?oc=5" target="_blank" rel="noopener noreferrer">넷큐브, PNT FAIR 2026 참가…5G 특화망 보안 생태계 완성</a>
-            <span class="meta">
-              헬로티 · 2026-09-08T06:09:10+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oZXA0dUd0dWwwbUVkQzFPRWFldWRZNVdXNlpQbWZwcTBLMnM4Z1lRdUhtZmdoLXY5MU9naU5BVW9lTE4zWEVwcEVwRTFiSHllWTBVZmtIdzl4d3gxbTJV?oc=5" data-source="헬로티"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oZXA0dUd0dWwwbUVkQzFPRWFldWRZNVdXNlpQbWZwcTBLMnM4Z1lRdUhtZmdoLXY5MU9naU5BVW9lTE4zWEVwcEVwRTFiSHllWTBVZmtIdzl4d3gxbTJV?oc=5" target="_blank" rel="noopener noreferrer">넷큐브, PNT FAIR 2026 참가…5G 특화망 보안 생태계 완성</a>
+              <span class="meta">
+                <span class="src">헬로티</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-08T06:09:10+00:00">2026-09-08T06:09:10+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tWElwX0NETER6NURiUjlzR2phck5OaWJqcUxJT3ZrVWhPaUJUR2lZVmdZNlZQdDBIYTlQQnpudVY1c0doUnFwZnpET2h1QQ?oc=5" target="_blank" rel="noopener noreferrer">한국방송통신전파진흥원, 5G 특화망에 AI·양자보안 접목…4대 R&amp;D 성과 공개</a>
-            <span class="meta">
-              전자신문 · 2026-09-09T04:18:25+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tWElwX0NETER6NURiUjlzR2phck5OaWJqcUxJT3ZrVWhPaUJUR2lZVmdZNlZQdDBIYTlQQnpudVY1c0doUnFwZnpET2h1QQ?oc=5" data-source="전자신문"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tWElwX0NETER6NURiUjlzR2phck5OaWJqcUxJT3ZrVWhPaUJUR2lZVmdZNlZQdDBIYTlQQnpudVY1c0doUnFwZnpET2h1QQ?oc=5" target="_blank" rel="noopener noreferrer">한국방송통신전파진흥원, 5G 특화망에 AI·양자보안 접목…4대 R&amp;D 성과 공개</a>
+              <span class="meta">
+                <span class="src">전자신문</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-09T04:18:25+00:00">2026-09-09T04:18:25+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
-          <li>
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE02SWd4NUk0QmdoUUIwZF90bzN3ZHJHd29NSmlOZHBMUmNncWdoblJWZWpmV2JfcGRRXzgwLTBONmxlZkI3R3RZQUs1NlBkRUxmQ2xIclFLNnVMdkhXd2djTGZ4eGlUVl82dDRnYnB0cTNrUi05?oc=5" target="_blank" rel="noopener noreferrer">&#39;공장 통신망&#39;서 &#39;AI 자율망&#39;으로… 방송통신전파진흥원, 차세대 R&amp;D 성과 공개</a>
-            <span class="meta">
-              파이낸셜포스트 · 2026-09-09T05:10:31+00:00
-            </span>
+          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE02SWd4NUk0QmdoUUIwZF90bzN3ZHJHd29NSmlOZHBMUmNncWdoblJWZWpmV2JfcGRRXzgwLTBONmxlZkI3R3RZQUs1NlBkRUxmQ2xIclFLNnVMdkhXd2djTGZ4eGlUVl82dDRnYnB0cTNrUi05?oc=5" data-source="파이낸셜포스트"
+              style="color: var(--kw-color);">
+            <button type="button" class="read-toggle" title="읽음 표시" aria-label="읽음 표시"></button>
+            <div class="article-body">
+              <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE02SWd4NUk0QmdoUUIwZF90bzN3ZHJHd29NSmlOZHBMUmNncWdoblJWZWpmV2JfcGRRXzgwLTBONmxlZkI3R3RZQUs1NlBkRUxmQ2xIclFLNnVMdkhXd2djTGZ4eGlUVl82dDRnYnB0cTNrUi05?oc=5" target="_blank" rel="noopener noreferrer">&#39;공장 통신망&#39;서 &#39;AI 자율망&#39;으로… 방송통신전파진흥원, 차세대 R&amp;D 성과 공개</a>
+              <span class="meta">
+                <span class="src">파이낸셜포스트</span>
+                
+                <span class="sep"></span>
+                <time datetime="2026-09-09T05:10:31+00:00">2026-09-09T05:10:31+00:00</time>
+                
+              </span>
+            </div>
           </li>
           
         </ul>
+        <p class="empty group-empty" hidden>조건에 맞는 기사 없음</p>
         
       </section>
       
-      <section class="keyword-group" id="kw-4">
-        <h2 class="keyword-heading">P5G <span class="count">0건</span></h2>
+      <section class="keyword-group" id="kw-4" data-kw="P5G"
+               style="--kw-color: var(--kw-color-3);">
+        <h2 class="keyword-heading">
+          <span class="dot" style="background: var(--kw-color);"></span>
+          <span>P5G</span>
+          <span class="count"><span class="group-count">0</span>건</span>
+        </h2>
         
-        <p class="empty small">기사 없음</p>
+        <p class="empty">기사 없음</p>
         
       </section>
       
     
   </main>
 
-  <footer>News Tracker &middot; generated 2026-09-11</footer>
+  <footer>
+    <span>News Tracker</span>
+    <span>generated 2026-09-11</span>
+  </footer>
 </div>
 
 <script>
+document.documentElement.style.setProperty("--kw-color-0", "#1f5e4a");
+document.documentElement.style.setProperty("--kw-color-1", "#2f4b8f");
+document.documentElement.style.setProperty("--kw-color-2", "#b4552c");
+document.documentElement.style.setProperty("--kw-color-3", "#6b4e9e");
+document.documentElement.style.setProperty("--kw-color-4", "#8a6a1f");
+</script>
+
+<script>
 (function () {
-  var EXPECTED_HASH = "1530222239bc839276c3b773f5e904a779b85fe6e11a782a5a2e8e4862b57aef";
+  var READ_KEY = "news-tracker-read";
+  var items = Array.prototype.slice.call(document.querySelectorAll("ul.articles li"));
+  if (!items.length) { return; }
+
+  var state = { kw: null, src: null, read: {} };
+  try { state.read = JSON.parse(localStorage.getItem(READ_KEY) || "{}") || {}; } catch (e) {}
+
+  function saveRead() {
+    try { localStorage.setItem(READ_KEY, JSON.stringify(state.read)); } catch (e) {}
+  }
+
+  // Local time, short form -- published_at arrives as a UTC ISO string.
+  items.forEach(function (li) {
+    var t = li.querySelector("time");
+    if (!t) { return; }
+    var d = new Date(t.getAttribute("datetime"));
+    if (isNaN(d)) { return; }
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    t.textContent = d.getFullYear() + "." + p(d.getMonth() + 1) + "." + p(d.getDate()) +
+      " " + p(d.getHours()) + ":" + p(d.getMinutes());
+  });
+
+  var sourceRow = document.getElementById("source-row");
+  var sourceChips = document.getElementById("source-chips");
+  var resetBtn = document.getElementById("reset-filters");
+  var readCountEl = document.getElementById("read-count");
+  var visibleCountEl = document.getElementById("visible-count");
+  var clearReadBtn = document.getElementById("clear-read");
+  var kwChips = Array.prototype.slice.call(document.querySelectorAll(".kw-chip"));
+
+  var sources = [];
+  items.forEach(function (li) {
+    var s = li.getAttribute("data-source");
+    if (s && sources.indexOf(s) === -1) { sources.push(s); }
+  });
+  sources.sort();
+  sources.forEach(function (name) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "src-chip";
+    b.setAttribute("aria-pressed", "false");
+    b.setAttribute("data-src", name);
+    b.textContent = name;
+    b.addEventListener("click", function () {
+      state.src = state.src === name ? null : name;
+      apply();
+    });
+    sourceChips.appendChild(b);
+  });
+  if (sources.length > 1) { sourceRow.hidden = false; }
+
+  kwChips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      var kw = chip.getAttribute("data-kw");
+      state.kw = state.kw === kw ? null : kw;
+      apply();
+    });
+  });
+
+  items.forEach(function (li) {
+    var link = li.getAttribute("data-link");
+    li.querySelector(".read-toggle").addEventListener("click", function () {
+      if (state.read[link]) { delete state.read[link]; } else { state.read[link] = 1; }
+      saveRead();
+      apply();
+    });
+    li.querySelector("a.title").addEventListener("click", function () {
+      state.read[link] = 1;
+      saveRead();
+      apply();
+    });
+  });
+
+  clearReadBtn.addEventListener("click", function () {
+    state.read = {};
+    saveRead();
+    apply();
+  });
+
+  resetBtn.addEventListener("click", function () {
+    state.kw = null;
+    state.src = null;
+    apply();
+  });
+
+  function apply() {
+    var visible = 0;
+    var read = 0;
+    var seen = {};
+
+    document.querySelectorAll("section.keyword-group").forEach(function (section) {
+      var kwMatch = !state.kw || section.getAttribute("data-kw") === state.kw;
+      section.hidden = !kwMatch;
+
+      var shown = 0;
+      section.querySelectorAll("ul.articles li").forEach(function (li) {
+        var link = li.getAttribute("data-link");
+        var isRead = !!state.read[link];
+        li.classList.toggle("is-read", isRead);
+        var srcMatch = !state.src || li.getAttribute("data-source") === state.src;
+        var show = kwMatch && srcMatch;
+        li.hidden = !show;
+        if (show) {
+          shown++;
+          if (!seen[link]) {
+            seen[link] = 1;
+            visible++;
+            if (isRead) { read++; }
+          }
+        }
+      });
+
+      var countEl = section.querySelector(".group-count");
+      if (countEl) { countEl.textContent = shown; }
+      var emptyEl = section.querySelector(".group-empty");
+      if (emptyEl) { emptyEl.hidden = shown !== 0; }
+      var list = section.querySelector("ul.articles");
+      if (list) { list.hidden = shown === 0; }
+    });
+
+    kwChips.forEach(function (chip) {
+      chip.setAttribute("aria-pressed", state.kw === chip.getAttribute("data-kw") ? "true" : "false");
+    });
+    sourceChips.querySelectorAll(".src-chip").forEach(function (chip) {
+      chip.setAttribute("aria-pressed", state.src === chip.getAttribute("data-src") ? "true" : "false");
+    });
+
+    resetBtn.hidden = !(state.kw || state.src);
+    visibleCountEl.textContent = visible;
+    readCountEl.textContent = read;
+  }
+
+  apply();
+})();
+</script>
+
+<script>
+(function () {
+  var EXPECTED_HASH = "64a482194d7af2670b259901b33af1e711f0c145d9d5d4bc3f99143dc91af479";
   var STORAGE_KEY = "news-tracker-gate";
   var overlay = document.getElementById("gate-overlay");
   var content = document.getElementById("site-content");
