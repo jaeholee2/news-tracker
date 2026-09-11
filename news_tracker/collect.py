@@ -29,7 +29,11 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-NAVER_NEWS_SEARCH_URL = "https://openapi.naver.com/v1/search/news.json"
+# Naver retired the old openapi.naver.com Search API on 2026-07-31 and moved
+# it to NAVER API HUB (NAVER Cloud Platform) -- new endpoint + new auth
+# header names, but the same request params and response schema. See
+# README.md "2. Naver API 키 발급" for how to get NAVER API HUB credentials.
+NAVER_NEWS_SEARCH_URL = "https://naverapihub.apigw.ntruss.com/search/v1/news"
 GOOGLE_NEWS_RSS_URL = "https://news.google.com/rss/search?q={query}"
 
 _TAG_RE = re.compile(r"<[^>]+>")
@@ -66,8 +70,8 @@ def fetch_naver(
     rather than raising, per the design's error-handling policy.
     """
     headers = {
-        "X-Naver-Client-Id": client_id,
-        "X-Naver-Client-Secret": client_secret,
+        "X-NCP-APIGW-API-KEY-ID": client_id,
+        "X-NCP-APIGW-API-KEY": client_secret,
     }
     params = {"query": keyword, "display": display, "sort": "date"}
 
