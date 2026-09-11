@@ -7,13 +7,16 @@
 
 1. **로컬 전용** (원래 설계): 내 맥에서 cron으로 매일 실행, `output/index.html`을
    브라우저로 직접 열어봄. 외부 배포 없음.
-2. **GitHub Pages 배포**: GitHub Actions가 매일 자동으로 수집+배포해서, 노트북이
-   꺼져 있어도 휴대폰/다른 기기에서 URL로 접속해서 볼 수 있음. 간단한 클라이언트
-   측 비밀번호 보호가 걸려 있습니다 (완전한 보안은 아니고, 우연히 링크를 본
-   사람이 바로 들어오지 못하게 하는 정도).
+2. **Cloudflare Pages 배포**: GitHub Actions가 매일 자동으로 수집한 뒤 결과를
+   Cloudflare Pages로 배포해서, 노트북이 꺼져 있어도 휴대폰/다른 기기에서 URL로
+   바로 접속해서 볼 수 있음. 별도 로그인/비밀번호 없이 누구나 URL만 알면 볼 수
+   있는 완전 공개 상태입니다 (수집 대상 자체가 이미 공개된 뉴스라 비공개로 막을
+   필요가 없다는 판단).
 
-둘 중 하나만 골라도 되고, 로컬 실행으로 먼저 동작을 확인한 뒤 GitHub Pages를
+둘 중 하나만 골라도 되고, 로컬 실행으로 먼저 동작을 확인한 뒤 Cloudflare Pages를
 추가해도 됩니다.
+
+현재 실제 배포된 사이트: `https://news-tracker-7gg.pages.dev` (인증 없음, 바로 접속 가능)
 
 ## 구조
 
@@ -22,11 +25,11 @@ news-tracker/
 ├── config.yaml          # (직접 생성, git에 커밋 안 됨) 로컬용: 키워드+Naver 키+보관기간
 ├── config.yaml.example  # config.yaml 작성 예시
 ├── config.ci.yaml        # (커밋됨) GitHub Actions용: 키워드+보관기간만, 키 없음
-├── .github/workflows/daily.yml  # GitHub Actions: 매일 수집 + Pages 배포
+├── .github/workflows/daily.yml  # GitHub Actions: 매일 수집 + Cloudflare Pages 배포
 ├── news_tracker/
 │   ├── collect.py       # Naver API + Google News RSS 수집
 │   ├── dedupe.py        # 제목 정규화 기반 중복 제거
-│   ├── render.py        # Jinja2 HTML 렌더링 (+선택적 비밀번호 게이트)
+│   ├── render.py        # Jinja2 HTML 렌더링
 │   └── main.py          # collect -> dedupe -> save -> render 오케스트레이션
 ├── data/YYYY-MM-DD.json # 해당 날짜의 원본 수집 결과
 ├── output/
@@ -121,7 +124,7 @@ open output/index.html
 
 ## 5. 로컬에서만 매일 자동 실행 (crontab)
 
-GitHub Pages 배포(6번) 없이 로컬에서만 쓰려면 이 방법으로 충분합니다. 먼저
+Cloudflare Pages 배포(6번) 없이 로컬에서만 쓰려면 이 방법으로 충분합니다. 먼저
 가상환경의 python 경로를 확인합니다:
 
 ```bash
@@ -142,77 +145,63 @@ which python3
 - `>> cron.log 2>&1`은 실행 로그를 프로젝트 폴더의 `cron.log`에 남겨,
   cron이 조용히 실패했을 때 원인을 확인할 수 있게 해줍니다.
 - macOS는 노트북이 잠자기 상태거나 꺼져 있으면 cron이 그 시각에 실행되지 않고
-  건너뜁니다. 매일 반드시 갱신되길 원하면 아래 6번(GitHub Pages)을 쓰세요.
+  건너뜁니다. 매일 반드시 갱신되길 원하면 아래 6번(Cloudflare Pages)을 쓰세요.
 
-## 6. GitHub Pages로 배포하기 (다른 기기에서 접속)
+## 6. Cloudflare Pages로 배포하기 (다른 기기에서 접속)
 
 노트북이 꺼져 있어도 매일 자동으로 갱신되고, URL로 어디서든 볼 수 있게 하려면
-GitHub Actions + GitHub Pages를 씁니다. 아래는 한 번만 하면 되는 설정입니다.
+GitHub Actions가 매일 수집을 실행한 뒤 결과를 Cloudflare Pages로 올리는 방식을
+씁니다. 아래는 한 번만 하면 되는 설정입니다 (이미 이 저장소에는 설정이 끝나
+있고, 새로 처음부터 설정할 때 참고용입니다).
 
-**주의**: 저장소를 공개(public)로 만들어야 무료로 GitHub Pages를 쓸 수
-있습니다. 공개 저장소에는 검색 키워드(`config.ci.yaml`의 `keywords`, 예:
-"두두원")와 수집된 기사 제목·링크가 그대로 남습니다 — 둘 다 이미 공개된 뉴스
-정보라 내용 자체는 민감하지 않지만, 저장소 URL을 아무 데도 링크하지 않고
-비밀번호 게이트(아래)를 켜두는 것으로 우연한 방문을 막습니다. Naver API 키는
-절대 저장소에 들어가지 않고 GitHub Secrets에만 저장됩니다.
+**참고**: 저장소는 Public으로 되어 있습니다. 수집되는 검색 키워드와 기사
+제목·링크는 어차피 공개된 뉴스 정보라 민감하지 않다고 판단해, 별도 비공개
+처리나 사이트 접속 인증 없이 편의성 위주로 운영하기로 했습니다. Naver API
+키는 저장소에 들어가지 않고 GitHub Secrets에만 저장됩니다.
 
-### 6-1. GitHub 저장소 만들고 푸시
+### 6-1. Cloudflare 계정 및 API 토큰 준비
 
-```bash
-cd /Users/nakta/projects/news-tracker
-git remote add origin git@github.com:<your-username>/news-tracker.git   # 저장소는 GitHub에서 미리 생성
-git add -A
-git commit -m "Add news tracker implementation + GitHub Pages deployment"
-git push -u origin main
-```
+1. https://dash.cloudflare.com 에서 무료 계정 생성 후 로그인 (이메일 인증 필요)
+2. 대시보드 우측 상단 프로필 → **API Tokens** → **Create Token**
+3. **Edit Cloudflare Workers** 템플릿 선택 (Pages 편집 권한 포함) → 필요 없는
+   "Workers Routes" 관련 정책은 제거해도 무방 → 토큰 생성
+4. 대시보드 우측 사이드바 또는 URL(`dash.cloudflare.com/<account-id>/...`)에서
+   **계정 ID(Account ID)** 확인
 
-(SSH 대신 HTTPS로 쓰고 있다면 `https://github.com/<your-username>/news-tracker.git`)
+Cloudflare Pages는 별도 도메인이 없어도 프로젝트마다 무료로
+`<project-name>.pages.dev` 서브도메인을 자동으로 줍니다 — 도메인 구매는
+필수가 아닙니다.
 
-### 6-2. `config.ci.yaml` 키워드 확인/수정
-
-저장소에 커밋되는 `config.ci.yaml`에는 API 키가 없고 키워드/보관기간만
-들어갑니다. 실제 원하는 키워드로 수정한 뒤 다시 커밋/푸시하세요.
-
-```yaml
-keywords:
-  - "두두원"
-retention_days: 90
-max_article_age_days: 3
-```
-
-### 6-3. GitHub Secrets 등록
+### 6-2. GitHub Secrets 등록
 
 저장소 페이지 → **Settings → Secrets and variables → Actions → New repository
-secret** 에서 아래 세 개를 등록합니다:
+secret** 에서 아래를 등록합니다:
 
 | Name | 값 |
 |---|---|
 | `NAVER_CLIENT_ID` | Naver에서 발급받은 Client ID |
 | `NAVER_CLIENT_SECRET` | Naver에서 발급받은 Client Secret |
-| `SITE_PASSWORD` | 사이트 접속 시 요구할 비밀번호 (원하는 문자열 아무거나) |
+| `CLOUDFLARE_API_TOKEN` | 위에서 만든 Cloudflare API 토큰 |
+| `CLOUDFLARE_ACCOUNT_ID` | 위에서 확인한 Cloudflare 계정 ID |
 
-`SITE_PASSWORD`를 등록하지 않으면 비밀번호 게이트 없이 사이트가 그대로
-공개됩니다.
-
-### 6-4. Workflow 권한을 "읽기/쓰기"로 설정
+### 6-3. Workflow 권한을 "읽기/쓰기"로 설정
 
 매일 실행 결과(`data/`, `output/`)를 저장소에 커밋해서 기록을 남기기 때문에,
 Actions에 쓰기 권한이 필요합니다. **Settings → Actions → General → Workflow
 permissions** 에서 **"Read and write permissions"** 를 선택하고 저장하세요.
 
-### 6-5. Pages 소스를 "GitHub Actions"로 설정
-
-**Settings → Pages → Build and deployment → Source** 에서 **"GitHub
-Actions"** 를 선택합니다 (브랜치를 고르는 기존 방식이 아닙니다).
-
-### 6-6. 첫 실행 확인
+### 6-4. 첫 실행 확인
 
 저장소의 **Actions** 탭 → **Daily news update** 워크플로 → **Run workflow**
 버튼으로 수동 실행해 보세요. 성공하면:
 
 - `data/`, `output/`에 오늘 날짜 파일이 추가된 커밋이 저장소에 생깁니다.
-- **Settings → Pages** 상단에 사이트 URL이 표시됩니다
-  (`https://<your-username>.github.io/news-tracker/`).
+- 워크플로 로그의 "Deploy to Cloudflare Pages" 단계에 배포된 실제 URL이
+  출력됩니다 (`<project-name>.pages.dev` 또는 이름이 이미 다른 계정에서
+  쓰이고 있으면 `<project-name>-xxxx.pages.dev`처럼 임의 접미사가 붙을 수
+  있음 — 반드시 로그에서 실제 URL을 확인하세요).
+- Cloudflare 대시보드 **Workers 및 Pages** 목록에서도 프로젝트와 URL을
+  확인할 수 있습니다.
 
 이후에는 `.github/workflows/daily.yml`에 설정된 시각(기본 매일 08:00 KST)에
 자동으로 실행됩니다. 시각을 바꾸려면 그 파일의 `cron:` 줄을 수정하세요 (UTC
