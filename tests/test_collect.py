@@ -127,6 +127,45 @@ class CollectTests(unittest.TestCase):
         self.assertEqual(len(articles), 2)
         self.assertTrue(all(a["keyword"] == KEYWORD for a in articles))
 
+    @patch("news_tracker.collect.fetch_google_news_rss")
+    @patch("news_tracker.collect.fetch_naver")
+    def test_single_term_keyword_is_not_filtered(self, mock_naver, mock_google):
+        # Neither source is documented to guarantee anything for a plain
+        # single-word keyword, so collect() must not touch these results.
+        mock_naver.return_value = [
+            {"title": "관련 없는 제목", "link": "l1", "source": "Naver", "published_at": "", "keyword": KEYWORD}
+        ]
+        mock_google.return_value = []
+
+        articles = collect.collect([KEYWORD], "id", "secret")
+
+        self.assertEqual(len(articles), 1)
+
+    @patch("news_tracker.collect.fetch_google_news_rss")
+    @patch("news_tracker.collect.fetch_naver")
+    def test_multi_term_keyword_requires_all_terms_in_title(self, mock_naver, mock_google):
+        # Naver's News Search API doesn't document how it matches a
+        # multi-word query (it may be relevance-ranked rather than a
+        # strict AND), so a keyword like "방사청 5G" must be enforced here:
+        # only articles whose title contains every term survive, regardless
+        # of what either upstream source actually returned.
+        keyword = "방사청 5G"
+        mock_naver.return_value = [
+            {"title": "방사청, 5G 국방망 사업 발주", "link": "both", "source": "Naver", "published_at": "", "keyword": keyword},
+            {"title": "방사청 예산안 국회 통과", "link": "only-first-term", "source": "Naver", "published_at": "", "keyword": keyword},
+        ]
+        mock_google.return_value = [
+            {"title": "5G 특화망 확산 전망", "link": "only-second-term", "source": "Google News", "published_at": "", "keyword": keyword},
+        ]
+
+        articles = collect.collect([keyword], "id", "secret")
+
+        self.assertEqual([a["link"] for a in articles], ["both"])
+
+    def test_title_has_all_terms_is_case_insensitive(self):
+        self.assertTrue(collect._title_has_all_terms("Hanwha 5g network launch", ["hanwha", "5G"]))
+        self.assertFalse(collect._title_has_all_terms("Hanwha network launch", ["hanwha", "5G"]))
+
 
 if __name__ == "__main__":
     unittest.main()
