@@ -21,9 +21,10 @@ KEYWORD = "두두원"
 class FakeResponse:
     """Minimal stand-in for requests.Response."""
 
-    def __init__(self, *, json_data=None, content=b"", status_code=200):
+    def __init__(self, *, json_data=None, content=b"", text="", status_code=200):
         self._json_data = json_data
         self.content = content
+        self.text = text
         self.status_code = status_code
 
     def raise_for_status(self):
@@ -110,6 +111,105 @@ class FetchGoogleNewsRssTests(unittest.TestCase):
         mock_get.return_value = FakeResponse(content=b"<rss><channel><item><oops")
 
         self.assertEqual(collect.fetch_google_news_rss(KEYWORD), [])
+
+
+class ExtractOgImageTests(unittest.TestCase):
+    def test_finds_og_image_regardless_of_attribute_order(self):
+        html_doc = (
+            "<html><head>"
+            '<meta content="https://example.com/a.jpg" property="og:image">'
+            "</head><body></body></html>"
+        )
+        self.assertEqual(collect._extract_og_image(html_doc), "https://example.com/a.jpg")
+
+    def test_falls_back_to_twitter_image_when_no_og_image(self):
+        html_doc = (
+            "<html><head>"
+            '<meta name="twitter:image" content="https://example.com/b.jpg">'
+            "</head><body></body></html>"
+        )
+        self.assertEqual(collect._extract_og_image(html_doc), "https://example.com/b.jpg")
+
+    def test_prefers_og_image_over_twitter_image(self):
+        html_doc = (
+            "<html><head>"
+            '<meta property="og:image" content="https://example.com/og.jpg">'
+            '<meta name="twitter:image" content="https://example.com/tw.jpg">'
+            "</head><body></body></html>"
+        )
+        self.assertEqual(collect._extract_og_image(html_doc), "https://example.com/og.jpg")
+
+    def test_returns_empty_string_when_no_image_tag_present(self):
+        html_doc = "<html><head><title>no image here</title></head><body></body></html>"
+        self.assertEqual(collect._extract_og_image(html_doc), "")
+
+    def test_does_not_raise_on_malformed_html(self):
+        self.assertEqual(collect._extract_og_image("<html><head><meta property="), "")
+
+
+class FetchArticleImageTests(unittest.TestCase):
+    @patch("news_tracker.collect.requests.get")
+    def test_returns_extracted_image_url(self, mock_get):
+        mock_get.return_value = FakeResponse(
+            text='<html><head><meta property="og:image" content="https://example.com/x.jpg">'
+            "</head></html>"
+        )
+
+        self.assertEqual(
+            collect.fetch_article_image("https://example.com/article"),
+            "https://example.com/x.jpg",
+        )
+
+    def test_returns_empty_string_for_empty_url(self):
+        self.assertEqual(collect.fetch_article_image(""), "")
+
+    @patch("news_tracker.collect.requests.get")
+    def test_returns_empty_string_on_request_failure(self, mock_get):
+        mock_get.side_effect = requests.exceptions.ConnectionError("boom")
+
+        self.assertEqual(collect.fetch_article_image("https://example.com/article"), "")
+
+    @patch("news_tracker.collect.requests.get")
+    def test_returns_empty_string_on_http_error(self, mock_get):
+        mock_get.return_value = FakeResponse(text="", status_code=404)
+
+        self.assertEqual(collect.fetch_article_image("https://example.com/article"), "")
+
+
+class EnrichWithImagesTests(unittest.TestCase):
+    @patch("news_tracker.collect.fetch_article_image")
+    def test_attaches_image_key_to_every_article_preserving_order(self, mock_fetch):
+        mock_fetch.side_effect = lambda link, timeout=None: f"img-for-{link}"
+        articles = [
+            {"title": "a", "link": "l1"},
+            {"title": "b", "link": "l2"},
+            {"title": "c", "link": "l3"},
+        ]
+
+        result = collect.enrich_with_images(articles)
+
+        self.assertEqual([a["image"] for a in result], ["img-for-l1", "img-for-l2", "img-for-l3"])
+        # mutates in place
+        self.assertIs(result, articles)
+
+    @patch("news_tracker.collect.fetch_article_image")
+    def test_one_failed_fetch_does_not_affect_others(self, mock_fetch):
+        def fake_fetch(link, timeout=None):
+            if link == "l2":
+                raise AssertionError("should never propagate")
+            return "ok"
+
+        # fetch_article_image itself never raises (it catches everything
+        # internally); simulate that contract directly rather than a raise.
+        mock_fetch.side_effect = lambda link, timeout=None: "" if link == "l2" else "ok"
+        articles = [{"link": "l1"}, {"link": "l2"}, {"link": "l3"}]
+
+        result = collect.enrich_with_images(articles)
+
+        self.assertEqual([a["image"] for a in result], ["ok", "", "ok"])
+
+    def test_empty_list_is_a_no_op(self):
+        self.assertEqual(collect.enrich_with_images([]), [])
 
 
 class CollectTests(unittest.TestCase):
