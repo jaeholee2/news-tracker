@@ -1,17 +1,18 @@
 name: Daily news update
 
-# Runs once a day even if your laptop is off, then publishes the result to
-# Cloudflare Pages AND GitHub Pages at the same time. See README.md
-# "Cloudflare Pages로 배포하기" for the Cloudflare one-time setup (repo
-# secrets, Cloudflare Pages project). GitHub Pages needs no secrets -- it's
-# enabled via Settings > Pages > Source: GitHub Actions, and this workflow
-# deploys straight to it.
+# Runs every hour on the hour, even if your laptop is off, then publishes
+# the result to Cloudflare Pages AND GitHub Pages at the same time. See
+# README.md "Cloudflare Pages로 배포하기" for the Cloudflare one-time setup
+# (repo secrets, Cloudflare Pages project). GitHub Pages needs no secrets --
+# it's enabled via Settings > Pages > Source: GitHub Actions, and this
+# workflow deploys straight to it.
 
 on:
   schedule:
-    # 23:00 UTC = 08:00 KST (Asia/Seoul). Cron is always UTC; adjust here if
-    # you want a different local run time.
-    - cron: "0 23 * * *"
+    # Every hour, on the hour (UTC -- cron is always UTC). GitHub Actions
+    # can delay a scheduled run by a few minutes under load, so treat this
+    # as "about once an hour" rather than exact.
+    - cron: "0 * * * *"
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:
@@ -51,7 +52,7 @@ jobs:
           git config user.name "news-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A -- data output
-          git diff --cached --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "Update $(date -u +'%Y-%m-%d %H:00 UTC')"
           git push
 
       - name: Deploy to Cloudflare Pages
