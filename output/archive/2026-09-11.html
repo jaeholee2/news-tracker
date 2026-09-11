@@ -123,11 +123,6 @@
     position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden;
     background: repeating-linear-gradient(135deg, #edeff2 0 8px, #f5f6f8 8px 16px);
   }
-  .thumb span {
-    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: 10.5px; letter-spacing: 0.08em; color: var(--faint);
-  }
   .thumb img {
     position: absolute; inset: 0; width: 100%; height: 100%;
     object-fit: cover;
@@ -237,7 +232,7 @@
         
         <button type="button" class="pill" data-kw="한화시스템" aria-pressed="false">
           <span>한화시스템</span>
-          <span class="count">88</span>
+          <span class="count">89</span>
         </button>
         
         <button type="button" class="pill" data-kw="해수부 IoT" aria-pressed="false">
@@ -255,7 +250,7 @@
     </div>
 
     <div class="summary-row">
-      <span>총 <b id="visible-count">93</b>건 · 읽음 <b class="plain" id="read-count">0</b>건</span>
+      <span>총 <b id="visible-count">94</b>건 · 읽음 <b class="plain" id="read-count">0</b>건</span>
       <div class="actions">
         <button type="button" class="link-btn accent" id="reset-filters" hidden>필터 초기화</button>
         <button type="button" class="link-btn" id="clear-read">읽음 초기화</button>
@@ -302,11 +297,7 @@
         <ul class="cards">
           
           <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TX2o1REpUNkhJOUIzNmlqZm9nTFV1bGNNMXA3b2ZCS0tVNkVmMFE1ZFdKZnhra0FUazhFaEhUZnl4d2lXb2RUMjJYaHdwTUF0YlNfY2h6bm9OaXpEcHdn?oc=5" data-source="헬로티">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TX2o1REpUNkhJOUIzNmlqZm9nTFV1bGNNMXA3b2ZCS0tVNkVmMFE1ZFdKZnhra0FUazhFaEhUZnl4d2lXb2RUMjJYaHdwTUF0YlNfY2h6bm9OaXpEcHdn?oc=5" target="_blank" rel="noopener noreferrer">[PNT FAIR 2026 참가기업] 에티버스이피에이, 5G 특화망·산업용 점검 로봇 솔루션 집중 조명</a>
             <div class="card-meta">
               <span class="src">헬로티</span>
@@ -320,15 +311,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" data-source="주간한국">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" data-source="weekly.hankooki.com">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3BMcllhRS1OeF9zVUNCd0FCRG1xaDdQNnNaMHJFeG1GTjBZNm9tMTZuZUdLMXJUeko0aGtsdE82THNzRTBZdE9DckhEdDUweDZieTFhWmRUdE5Xenh1S1RlOWJfano0ZC1UUnczS0pyQ3FK0gF0QVVfeXFMT3l3cExyWWFFLU54X3NVQ0J3QUJEbXFoN1A2c1owckV4bUZOMFk2b20xNm5lR0sxclR6SjRoa2x0TzZMc3NFMFl0T0NySER0NTB4NmJ5MWFaZFR0Tld6eHVLVGU5Yl9qejRkLVRSdzNLSnJDcUo?oc=5" target="_blank" rel="noopener noreferrer">방송통신전파진흥원, 5G 특화망에 AI·양자 입힌다</a>
             <div class="card-meta">
-              <span class="src">주간한국</span>
+              <span class="src">weekly.hankooki.com</span>
               <span class="tag">5G 특화망</span>
             </div>
             <div class="card-foot">
@@ -339,15 +326,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdzNLUHdpME55X1FheWNnMmx5ZGk1alEwZDJwUkFkREhIeml5ZmM2UVNFelRxb2hvTFU5RDNaNmlkd1JJeXFVVGNtcmhoYjZFSkFUWnRB?oc=5" data-source="zdnet.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdzNLUHdpME55X1FheWNnMmx5ZGk1alEwZDJwUkFkREhIeml5ZmM2UVNFelRxb2hvTFU5RDNaNmlkd1JJeXFVVGNtcmhoYjZFSkFUWnRB?oc=5" data-source="지디넷코리아">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdzNLUHdpME55X1FheWNnMmx5ZGk1alEwZDJwUkFkREhIeml5ZmM2UVNFelRxb2hvTFU5RDNaNmlkd1JJeXFVVGNtcmhoYjZFSkFUWnRB?oc=5" target="_blank" rel="noopener noreferrer">KCA, 5G 특화망에 AI 입힌다...오픈랜·양자보안까지 확장</a>
             <div class="card-meta">
-              <span class="src">zdnet.co.kr</span>
+              <span class="src">지디넷코리아</span>
               <span class="tag">5G 특화망</span>
             </div>
             <div class="card-foot">
@@ -359,11 +342,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oZXA0dUd0dWwwbUVkQzFPRWFldWRZNVdXNlpQbWZwcTBLMnM4Z1lRdUhtZmdoLXY5MU9naU5BVW9lTE4zWEVwcEVwRTFiSHllWTBVZmtIdzl4d3gxbTJV?oc=5" data-source="헬로티">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oZXA0dUd0dWwwbUVkQzFPRWFldWRZNVdXNlpQbWZwcTBLMnM4Z1lRdUhtZmdoLXY5MU9naU5BVW9lTE4zWEVwcEVwRTFiSHllWTBVZmtIdzl4d3gxbTJV?oc=5" target="_blank" rel="noopener noreferrer">넷큐브, PNT FAIR 2026 참가…5G 특화망 보안 생태계 완성</a>
             <div class="card-meta">
               <span class="src">헬로티</span>
@@ -378,11 +357,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tWElwX0NETER6NURiUjlzR2phck5OaWJqcUxJT3ZrVWhPaUJUR2lZVmdZNlZQdDBIYTlQQnpudVY1c0doUnFwZnpET2h1QQ?oc=5" data-source="전자신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tWElwX0NETER6NURiUjlzR2phck5OaWJqcUxJT3ZrVWhPaUJUR2lZVmdZNlZQdDBIYTlQQnpudVY1c0doUnFwZnpET2h1QQ?oc=5" target="_blank" rel="noopener noreferrer">한국방송통신전파진흥원, 5G 특화망에 AI·양자보안 접목…4대 R&amp;D 성과 공개</a>
             <div class="card-meta">
               <span class="src">전자신문</span>
@@ -430,20 +405,16 @@
         <div class="group-head">
           <span class="bar"></span>
           <h2>한화시스템</h2>
-          <span class="count"><span class="group-count">88</span>건</span>
+          <span class="count"><span class="group-count">89</span>건</span>
         </div>
         
         <ul class="cards">
           
           <li data-link="https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxVXllV3hFS2IxVlN0REpSd3l5NjlNVTROLVdENUViNXpvSTFxX29rdHlNdm5kdEx1NFA0MEExbUdNb1NVMmRjbEdibEZwb3VQNjh1V1RzZ1VoU3FwVHc?oc=5" data-source="YTN">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxVXllV3hFS2IxVlN0REpSd3l5NjlNVTROLVdENUViNXpvSTFxX29rdHlNdm5kdEx1NFA0MEExbUdNb1NVMmRjbEdibEZwb3VQNjh1V1RzZ1VoU3FwVHc?oc=5" target="_blank" rel="noopener noreferrer">[기업] 한화시스템 우주 AI 솔루션 공개...위성영상 실시간 분석</a>
             <div class="card-meta">
-              <span class="src">YTN</span>
+              <span class="src">YTN, 네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -454,15 +425,26 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE80SlU3Vm5UbERsUHFJZVE5ZEJTOE41dGNVMW5NLW9XM0tBSTdza1JpX014Ylc4OGlCVVpRYzlvM3lYZDJPXzB4TW9LTklBRFpPSE5tM3lNOGtaZlU5TTFCVmVWQW9hMGFoVEthLUlia3FtOGs?oc=5" data-source="marketin.edaily.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxZTZQdVl1dmRLNjdOdzVvc25mY0ROT0sxNlNCN0xmM0RpS2JwbXNzYTFCY0J6QnVnR2o5MWpCaUZOQVpmN2xFa1pPbFk3YzQtLWRMeQ?oc=5" data-source="이투데이">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxZTZQdVl1dmRLNjdOdzVvc25mY0ROT0sxNlNCN0xmM0RpS2JwbXNzYTFCY0J6QnVnR2o5MWpCaUZOQVpmN2xFa1pPbFk3YzQtLWRMeQ?oc=5" target="_blank" rel="noopener noreferrer">[오늘의 주요공시] 롯데쇼핑·KT·한화시스템·LS·기아 등</a>
+            <div class="card-meta">
+              <span class="src">이투데이</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-11T08:09:00+00:00">2026-09-11T08:09:00+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE80SlU3Vm5UbERsUHFJZVE5ZEJTOE41dGNVMW5NLW9XM0tBSTdza1JpX014Ylc4OGlCVVpRYzlvM3lYZDJPXzB4TW9LTklBRFpPSE5tM3lNOGtaZlU5TTFCVmVWQW9hMGFoVEthLUlia3FtOGs?oc=5" data-source="마켓인">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE80SlU3Vm5UbERsUHFJZVE5ZEJTOE41dGNVMW5NLW9XM0tBSTdza1JpX014Ylc4OGlCVVpRYzlvM3lYZDJPXzB4TW9LTklBRFpPSE5tM3lNOGtaZlU5TTFCVmVWQW9hMGFoVEthLUlia3FtOGs?oc=5" target="_blank" rel="noopener noreferrer">케이앤에스아이앤씨, 한화시스템과 군용 저궤도 맨팩 안테나 개발·납품</a>
             <div class="card-meta">
-              <span class="src">marketin.edaily.co.kr, edaily.co.kr</span>
+              <span class="src">마켓인, edaily.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -473,15 +455,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5COVFOXzZsYldNZTBXV3RXUmdlbWk2NE00b2RiZHdFOXhkR1F6dU5vaWduXzh6Qk9IcDFDVWtidUVyb2JSMXpSMWNGM0lTaTNyLW5pVGV2X1FaM0R6QktJSzVvZw?oc=5" data-source="더구루">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5COVFOXzZsYldNZTBXV3RXUmdlbWk2NE00b2RiZHdFOXhkR1F6dU5vaWduXzh6Qk9IcDFDVWtidUVyb2JSMXpSMWNGM0lTaTNyLW5pVGV2X1FaM0R6QktJSzVvZw?oc=5" data-source="theguru.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5COVFOXzZsYldNZTBXV3RXUmdlbWk2NE00b2RiZHdFOXhkR1F6dU5vaWduXzh6Qk9IcDFDVWtidUVyb2JSMXpSMWNGM0lTaTNyLW5pVGV2X1FaM0R6QktJSzVvZw?oc=5" target="_blank" rel="noopener noreferrer">[단독] 한화시스템 &#34;&#39;레이저 무기&#39; 천광, 유럽·아시아·중동과 수출협상 진행&#34;… 탑재 장갑차도 내년 양산</a>
             <div class="card-meta">
-              <span class="src">더구루</span>
+              <span class="src">theguru.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -493,11 +471,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE0waE1FNlpTbGtVUzdxeG9yeHY4NUlqcElVay14VFp6NG5XVERSWW9sU2gxSUJjVy1UZm1UZnBtSENzbWVZenhJc3BmYnZCYmt3SmZQY0dLVFo0Z3JyaFhuc0FaY1B3ZUt1Rnk1d05VNFPSAXRBVV95cUxON1BpalFwTjM3VmRidGJOSmxWeEMzVnYyenNMTk5BN3hQVTh4ZFRlODV1YXNnajh3N2NfMTN6cThZcXMzQm5XNnZBVklUNnVaUnIyd2Z5WmU5dUtCckM5U1FUUE1wVVpRMWk4OUc0TS0wd0twOA?oc=5" data-source="IT조선">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE0waE1FNlpTbGtVUzdxeG9yeHY4NUlqcElVay14VFp6NG5XVERSWW9sU2gxSUJjVy1UZm1UZnBtSENzbWVZenhJc3BmYnZCYmt3SmZQY0dLVFo0Z3JyaFhuc0FaY1B3ZUt1Rnk1d05VNFPSAXRBVV95cUxON1BpalFwTjM3VmRidGJOSmxWeEMzVnYyenNMTk5BN3hQVTh4ZFRlODV1YXNnajh3N2NfMTN6cThZcXMzQm5XNnZBVklUNnVaUnIyd2Z5WmU5dUtCckM5U1FUUE1wVVpRMWk4OUc0TS0wd0twOA?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 설루션’ 해외서 첫 공개</a>
             <div class="card-meta">
               <span class="src">IT조선</span>
@@ -511,15 +485,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" data-source="news.nate.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" data-source="네이트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5" target="_blank" rel="noopener noreferrer">SAR 레이다 한계 넘었다? 한화시스템, &#39;0.15m 위성 대응&#39; 우주 AI 첫 공개</a>
             <div class="card-meta">
-              <span class="src">news.nate.com, 브릿지경제</span>
+              <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -531,11 +501,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE1PWmpZVVkyYVZocjhPbjhGaTR5aF9RRmJ3c1UzNi1Qb25GcldhQ0J1aUpsV0lNWGhLVW4tZEpXb01raTRSWFMteFptWW14WjFJeU1LZV8yZ0xWQ21kbFhLenlZZng4T3Jta3NSZ2I5eVk?oc=5" data-source="나우뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1PWmpZVVkyYVZocjhPbjhGaTR5aF9RRmJ3c1UzNi1Qb25GcldhQ0J1aUpsV0lNWGhLVW4tZEpXb01raTRSWFMteFptWW14WjFJeU1LZV8yZ0xWQ21kbFhLenlZZng4T3Jta3NSZ2I5eVk?oc=5" target="_blank" rel="noopener noreferrer">한 발 2000원 ‘드론 킬러’가 장갑차에…한화가 50㎾ 레이저 싣는 이유 [밀리터리+]</a>
             <div class="card-meta">
               <span class="src">나우뉴스</span>
@@ -550,11 +516,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTFBSbXFlRGlZQll0ZVNFUWQzdkdaVDRQa3R0V1VhakZ4TXA2UFIwSW9QbDdEN29Vb19mM0d5aFVWZmM1UDlleWQwLUZDRTFoVDlfM3BMZHJsZ043TEpRQTFjY05hN0lPUlhHc0FZS9IBckFVX3lxTE91V0QtRTBJdmtmSjNHcm9wZ2kxTDc2UUFfNWtzZ1R1SWhfM0RweDRMLVlfYTVsbFVNajRTRkpGZHBCaUo0eS1PbjRTelVuaDA5RDhNaE1LMnYxenpYRzVVYVhES0kzdzN2czRxeWlfUXlMUQ?oc=5" data-source="머니투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBSbXFlRGlZQll0ZVNFUWQzdkdaVDRQa3R0V1VhakZ4TXA2UFIwSW9QbDdEN29Vb19mM0d5aFVWZmM1UDlleWQwLUZDRTFoVDlfM3BMZHJsZ043TEpRQTFjY05hN0lPUlhHc0FZS9IBckFVX3lxTE91V0QtRTBJdmtmSjNHcm9wZ2kxTDc2UUFfNWtzZ1R1SWhfM0RweDRMLVlfYTVsbFVNajRTRkpGZHBCaUo0eS1PbjRTelVuaDA5RDhNaE1LMnYxenpYRzVVYVhES0kzdzN2czRxeWlfUXlMUQ?oc=5" target="_blank" rel="noopener noreferrer">위성이 보고 AI가 읽는다…한화시스템, &#39;우주 AI 솔루션&#39; 첫 공개 - 머니투데이</a>
             <div class="card-meta">
               <span class="src">머니투데이</span>
@@ -569,11 +531,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZT0tlY25iNHdSSndQTzFpVVFKOU5NUFNzeV9pY1JYTDJMOERTdjBuZG9MMzZ1U0Q4TTBzeFQ3TkdVSFN2T3BweWN1QVBYaU9QeUlEdUlpZ1lmU3RGeGVWemxkaFR2OXV5WWRr?oc=5" data-source="라이센스뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZT0tlY25iNHdSSndQTzFpVVFKOU5NUFNzeV9pY1JYTDJMOERTdjBuZG9MMzZ1U0Q4TTBzeFQ3TkdVSFN2T3BweWN1QVBYaU9QeUlEdUlpZ1lmU3RGeGVWemxkaFR2OXV5WWRr?oc=5" target="_blank" rel="noopener noreferrer">[산업 Pick] 한화시스템·LS일렉트릭·포스코, 기술 혁신과 현장 맞춤형 실행력</a>
             <div class="card-meta">
               <span class="src">라이센스뉴스</span>
@@ -587,31 +545,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE11RXkzUUdOSVg3ZlAwSnhkQkNPQUI3eExEeDVzMWlIRFVPNHFsYlYxYUZ1U3prRTluSE5PLXNoeEV1emNkQ3phSGd4ekJOZGN3dVNZc0c1alM3UmlkeU9QaVdvNi1iUXNtNEp6S215NmNXcU5B?oc=5" data-source="이투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE11RXkzUUdOSVg3ZlAwSnhkQkNPQUI3eExEeDVzMWlIRFVPNHFsYlYxYUZ1U3prRTluSE5PLXNoeEV1emNkQ3phSGd4ekJOZGN3dVNZc0c1alM3UmlkeU9QaVdvNi1iUXNtNEp6S215NmNXcU5B?oc=5" target="_blank" rel="noopener noreferrer">[오늘의 주요공시] 롯데쇼핑·KT·한화시스템·LS·기아 등</a>
-            <div class="card-meta">
-              <span class="src">이투데이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-11T08:09:00+00:00">2026-09-11T08:09:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iN0R6Q0hoTGx5MlJva1NMU1RXMjhBWDdMQXFsOFRvc2txeHhzVldEQi15ZXVXVV9mWnhyVVJyMlZGSU1fT3JMX0ZKMXhvRFJTQ08yNjZLX1dGYm1a?oc=5" data-source="뉴스핌">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iN0R6Q0hoTGx5MlJva1NMU1RXMjhBWDdMQXFsOFRvc2txeHhzVldEQi15ZXVXVV9mWnhyVVJyMlZGSU1fT3JMX0ZKMXhvRFJTQ08yNjZLX1dGYm1a?oc=5" target="_blank" rel="noopener noreferrer">케이앤에스아이앤씨, 한화시스템과 &#39;군용 맨팩 안테나&#39; 시제품 개발·납품</a>
             <div class="card-meta">
               <span class="src">뉴스핌</span>
@@ -626,11 +561,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tbGttU3JmZnFrT2taTkE4ZTdQVjhiendhYS1EdC05VUdfeDJub0JxdWNPRHRyYk12b3NaQmNIeFpoNW8tR1Bib0tqaHg1MS1IZnAza3JLSHJuT2YzVF9LR204MzdYM0Z3?oc=5" data-source="테크월드">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tbGttU3JmZnFrT2taTkE4ZTdQVjhiendhYS1EdC05VUdfeDJub0JxdWNPRHRyYk12b3NaQmNIeFpoNW8tR1Bib0tqaHg1MS1IZnAza3JLSHJuT2YzVF9LR204MzdYM0Z3?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…위성영상 실시간 분석</a>
             <div class="card-meta">
               <span class="src">테크월드</span>
@@ -645,11 +576,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oUnNQUlpWeW1TVkhQaVNpMFQzckJ5WnliY3VFMFpFQ3NpblNBckVXMHY0dkxEZkdIOXJ5blNORC01QzlVTktkdEM2aEE0bXI0U09USjhIQUxBQ0wyME1GNUhuM0Q?oc=5" data-source="PRESS9">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oUnNQUlpWeW1TVkhQaVNpMFQzckJ5WnliY3VFMFpFQ3NpblNBckVXMHY0dkxEZkdIOXJ5blNORC01QzlVTktkdEM2aEE0bXI0U09USjhIQUxBQ0wyME1GNUhuM0Q?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드 소버린 클라우드 기업과 위성·감시정찰·AI 협력</a>
             <div class="card-meta">
               <span class="src">PRESS9</span>
@@ -663,15 +590,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOHRXZjN5eVNMb0pGSnpOUFhSZjg2LWJsbXJOX21nRVZVYjVSMUZJR3U3a3c0MWxqdF9scnJUY0VVb08wb2U0ZmNkS2VQbkJtVHN5LWFOdmN6aDlubW9GYjFxZU1HQjBjQ3oyag?oc=5" data-source="나눔경제뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOHRXZjN5eVNMb0pGSnpOUFhSZjg2LWJsbXJOX21nRVZVYjVSMUZJR3U3a3c0MWxqdF9scnJUY0VVb08wb2U0ZmNkS2VQbkJtVHN5LWFOdmN6aDlubW9GYjFxZU1HQjBjQ3oyag?oc=5" data-source="nanumy.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOHRXZjN5eVNMb0pGSnpOUFhSZjg2LWJsbXJOX21nRVZVYjVSMUZJR3U3a3c0MWxqdF9scnJUY0VVb08wb2U0ZmNkS2VQbkJtVHN5LWFOdmN6aDlubW9GYjFxZU1HQjBjQ3oyag?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…“위성이 보고 AI가 읽는다”</a>
             <div class="card-meta">
-              <span class="src">나눔경제뉴스, v.daum.net, news.nate.com</span>
+              <span class="src">nanumy.co.kr, v.daum.net, 네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -683,11 +606,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oNF9jb2drQU9qcm9RNFljQmpnbk5wVFZ2cG9hemEzdkhsZlk0dXBpWGZaT3RqaWRzWEk2azRkVkMyQ05ZTm81Z1QtUV85elk0MDE5bkF5OXJ3S3dXTjFsUHExMThRdw?oc=5" data-source="여성소비자신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oNF9jb2drQU9qcm9RNFljQmpnbk5wVFZ2cG9hemEzdkhsZlk0dXBpWGZaT3RqaWRzWEk2azRkVkMyQ05ZTm81Z1QtUV85elk0MDE5bkF5OXJ3S3dXTjFsUHExMThRdw?oc=5" target="_blank" rel="noopener noreferrer">한화에어로스페이스·한화시스템, 유럽 시장 공략 박차</a>
             <div class="card-meta">
               <span class="src">여성소비자신문</span>
@@ -702,11 +621,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hMW5uRUstQ2RMa2hpa1htWjRhNVVmZW1TS1Q1dEt4ZHI2aXNfd2FoNVhiUXhLQUxVemNUV3FRYWIzZU1ydGNUOHptbnVZT3NqVFdBTGZZUVdTampvd0pXRQ?oc=5" data-source="프라임경제">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hMW5uRUstQ2RMa2hpa1htWjRhNVVmZW1TS1Q1dEt4ZHI2aXNfd2FoNVhiUXhLQUxVemNUV3FRYWIzZU1ydGNUOHptbnVZT3NqVFdBTGZZUVdTampvd0pXRQ?oc=5" target="_blank" rel="noopener noreferrer">[카드] &#39;우주 AI 솔루션 개발&#39; 한화시스템, 해외서 첫선</a>
             <div class="card-meta">
               <span class="src">프라임경제</span>
@@ -721,11 +636,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiSkFVX3lxTE9HRWZfUlBtcjl3a2FWdi01MEFPZWR1WFdzWjI2YWFLcUxlM2tOUUhUeU9sLW1LNDd4U3g2SFNtRW1MWVlYeDlpemln?oc=5" data-source="얼리어답터뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE9HRWZfUlBtcjl3a2FWdi01MEFPZWR1WFdzWjI2YWFLcUxlM2tOUUhUeU9sLW1LNDd4U3g2SFNtRW1MWVlYeDlpemln?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, MSPO 2026서 차세대 우주 AI 솔루션 전격 공개!</a>
             <div class="card-meta">
               <span class="src">얼리어답터뉴스</span>
@@ -740,11 +651,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE0yXzRTeVVCeFBId1F4YVRQNEMxbUtubXc2bW1neFdoS2I4QTRmQUVnaW9GUFdXQThIMHl0eG9qcXB1ejRUNDJWd1llTlNCUWhzV2Rnek9neEhxVWw4QWRLeEtLOTdOM0djMXZHd2Nn?oc=5" data-source="디펜스투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE0yXzRTeVVCeFBId1F4YVRQNEMxbUtubXc2bW1neFdoS2I4QTRmQUVnaW9GUFdXQThIMHl0eG9qcXB1ejRUNDJWd1llTlNCUWhzV2Rnek9neEhxVWw4QWRLeEtLOTdOM0djMXZHd2Nn?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성이 보고, AI가 판독하는, ‘우주 AI 솔루션’ 해외서 첫 공개</a>
             <div class="card-meta">
               <span class="src">디펜스투데이</span>
@@ -759,11 +666,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5abTllbHQ5NzRpRi1LVWR5QzlSdDlQTnVqVDlCRFBDdk9mVUF3OGM3cTA5U21vOEJvNVdJYlVJeDVUSjZyYWRHalFBb1Z3dURhWEVMbE1INW9tOVBZd05faFFOU3k?oc=5" data-source="서울대학교">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5abTllbHQ5NzRpRi1LVWR5QzlSdDlQTnVqVDlCRFBDdk9mVUF3OGM3cTA5U21vOEJvNVdJYlVJeDVUSjZyYWRHalFBb1Z3dURhWEVMbE1INW9tOVBZd05faFFOU3k?oc=5" target="_blank" rel="noopener noreferrer">[경력개발센터]한화시스템 방산부문 채용설명회 안내,9/15 - 전체 행사 - SNU 캘린더 - 서울대 소식</a>
             <div class="card-meta">
               <span class="src">서울대학교</span>
@@ -778,11 +681,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMif0FVX3lxTE1DcVdIOWFuRFdidXQ5eHc3TER0a2ZTbk1KVDRDbjhVQ1ZrOW1sYjJIWUx3RHpFaW84cVVrX014TExsRk5odDBJZTZjOTloTW1QdnNNVmU0VkJRSHFWd0FSWVVySHpUdTNMXzBVZUs0X2ZBX0VqcGFCRlFOcWpfSUU?oc=5" data-source="한화그룹">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1DcVdIOWFuRFdidXQ5eHc3TER0a2ZTbk1KVDRDbjhVQ1ZrOW1sYjJIWUx3RHpFaW84cVVrX014TExsRk5odDBJZTZjOTloTW1QdnNNVmU0VkJRSHFWd0FSWVVySHpUdTNMXzBVZUs0X2ZBX0VqcGFCRlFOcWpfSUU?oc=5" target="_blank" rel="noopener noreferrer">위성이 보고, AI가 읽는다…한화시스템, &#39;우주 AI 솔루션&#39; 해외서 첫 공개</a>
             <div class="card-meta">
               <span class="src">한화그룹</span>
@@ -796,31 +695,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE90VFlqeUE4ZzdNNW1ab3BBX0hLeDBDYUI4N0tjdFIySy0zN2xHUFlJbXhQT2QyWWw1MEdyZW5fTzN2UFdpdG5ZWnUxbHdmQXFpekpPMlU4aVdXcnBaUXJQZGJxNVJ2ajZNbVE?oc=5" data-source="sisaworld.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE90VFlqeUE4ZzdNNW1ab3BBX0hLeDBDYUI4N0tjdFIySy0zN2xHUFlJbXhQT2QyWWw1MEdyZW5fTzN2UFdpdG5ZWnUxbHdmQXFpekpPMlU4aVdXcnBaUXJQZGJxNVJ2ajZNbVE?oc=5" target="_blank" rel="noopener noreferrer">우주 AI 솔루션 해외 첫 공개… 한화시스템, 실시간 위성 분석 기술 시연</a>
-            <div class="card-meta">
-              <span class="src">sisaworld.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T11:52:48+00:00">2026-09-10T11:52:48+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE1vM25SdG41cHI5WTU3ZmNpNXRkM3kzTTJPVWZEanBtTVUxTGpvWWtFS3FLR19aVFR3VnFtT28ySnhyLUhINXlpR2VvTXA3VVVvV3ZTZ3hyRTI2OTZENi1PRVQ0SlgwNjRicU00b0h4UUJKbnNQ?oc=5" data-source="연합인포맥스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1vM25SdG41cHI5WTU3ZmNpNXRkM3kzTTJPVWZEanBtTVUxTGpvWWtFS3FLR19aVFR3VnFtT28ySnhyLUhINXlpR2VvTXA3VVVvV3ZTZ3hyRTI2OTZENi1PRVQ0SlgwNjRicU00b0h4UUJKbnNQ?oc=5" target="_blank" rel="noopener noreferrer">위성이 보고, AI가 읽는다…한화시스템, &#39;우주 AI 솔루션&#39; 첫 공개 |</a>
             <div class="card-meta">
               <span class="src">연합인포맥스</span>
@@ -834,12 +710,38 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE9iRVhRYlpZV3RWSXBkdEItWWxVdzVyZ2VuT1gzRUZpd2J6RWo3cVJLZXppNnlrVGpjQlAtUkNMOHhTXzVhRmpiMm9zSDhhZWlUSGd6ZExMNy1mc2Y4VGZkaWpBamRsOXFPVi1j?oc=5" data-source="SPN 서울평양뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE90VFlqeUE4ZzdNNW1ab3BBX0hLeDBDYUI4N0tjdFIySy0zN2xHUFlJbXhQT2QyWWw1MEdyZW5fTzN2UFdpdG5ZWnUxbHdmQXFpekpPMlU4aVdXcnBaUXJQZGJxNVJ2ajZNbVE?oc=5" data-source="sisaworld.kr">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE90VFlqeUE4ZzdNNW1ab3BBX0hLeDBDYUI4N0tjdFIySy0zN2xHUFlJbXhQT2QyWWw1MEdyZW5fTzN2UFdpdG5ZWnUxbHdmQXFpekpPMlU4aVdXcnBaUXJQZGJxNVJ2ajZNbVE?oc=5" target="_blank" rel="noopener noreferrer">우주 AI 솔루션 해외 첫 공개… 한화시스템, 실시간 위성 분석 기술 시연</a>
+            <div class="card-meta">
+              <span class="src">sisaworld.kr</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T11:52:48+00:00">2026-09-10T11:52:48+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTFBRWDY0ZDlQR19peXhHREdmd3VEU1ByMVBVM3FSRThjamh6VXBhbXRYVVJuRm9vNDdCR2EzNzd3a1BYV21DS0djV2hsUldvRUR3LWM3YnpodXF0emU0UTNKMWU2cWVMc3ZuVElrNUp3?oc=5" data-source="이지경제">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBRWDY0ZDlQR19peXhHREdmd3VEU1ByMVBVM3FSRThjamh6VXBhbXRYVVJuRm9vNDdCR2EzNzd3a1BYV21DS0djV2hsUldvRUR3LWM3YnpodXF0emU0UTNKMWU2cWVMc3ZuVElrNUp3?oc=5" target="_blank" rel="noopener noreferrer">[창간기획] ③ AI DC, 결국 짓고 운영하는 자가 이긴다…LG CNS vs 한화시스템</a>
+            <div class="card-meta">
+              <span class="src">이지경제</span>
+              <span class="tag">한화시스템</span>
+            </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-11T08:15:31+00:00">2026-09-11T08:15:31+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE9iRVhRYlpZV3RWSXBkdEItWWxVdzVyZ2VuT1gzRUZpd2J6RWo3cVJLZXppNnlrVGpjQlAtUkNMOHhTXzVhRmpiMm9zSDhhZWlUSGd6ZExMNy1mc2Y4VGZkaWpBamRsOXFPVi1j?oc=5" data-source="SPN 서울평양뉴스">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9iRVhRYlpZV3RWSXBkdEItWWxVdzVyZ2VuT1gzRUZpd2J6RWo3cVJLZXppNnlrVGpjQlAtUkNMOHhTXzVhRmpiMm9zSDhhZWlUSGd6ZExMNy1mc2Y4VGZkaWpBamRsOXFPVi1j?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드 방산전시회에 차세대 위성영상 분석 기술 시연</a>
             <div class="card-meta">
               <span class="src">SPN 서울평양뉴스</span>
@@ -854,11 +756,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMihAFBVV95cUxPYk1lb1V5bFZRUTNYVU0yc212c0R4SG9WQWRZbUtSbFg0cEh4VXljR3N2a1ZmajExT0JCck1GaUZJbl85MG1XaUxYUmZEVUtiZzkxOG9rR2xOdVFxQzE0UHVlWkFydWFVM05ZYnBRMG1Xb0NuWkVSNlAwcGE5Z0owZkpmaDjSAZgBQVVfeXFMTWF2cEtCbHNDMWdUMklnT2R6Z2plbEFlajZFOWNIR1dqejgtaHhYdEE5M0xodUs2WW9IMjQzZnVEVmtDb3pzbVdxdzd0dGZNMm5JLVpnOW5PaUlUY3JGU2JuMEZlUmpzSlZGazF2X2hQQjdrcVBsOGlLa2xkcU93TERJQk5jZ3VLcW9yTTRSbGFfZDdqZ2Vuek8?oc=5" data-source="Chosunbiz">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPYk1lb1V5bFZRUTNYVU0yc212c0R4SG9WQWRZbUtSbFg0cEh4VXljR3N2a1ZmajExT0JCck1GaUZJbl85MG1XaUxYUmZEVUtiZzkxOG9rR2xOdVFxQzE0UHVlWkFydWFVM05ZYnBRMG1Xb0NuWkVSNlAwcGE5Z0owZkpmaDjSAZgBQVVfeXFMTWF2cEtCbHNDMWdUMklnT2R6Z2plbEFlajZFOWNIR1dqejgtaHhYdEE5M0xodUs2WW9IMjQzZnVEVmtDb3pzbVdxdzd0dGZNMm5JLVpnOW5PaUlUY3JGU2JuMEZlUmpzSlZGazF2X2hQQjdrcVBsOGlLa2xkcU93TERJQk5jZ3VLcW9yTTRSbGFfZDdqZ2Vuek8?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석 ‘우주 AI 솔루션’ 해외 첫 공개 - 조선비즈</a>
             <div class="card-meta">
               <span class="src">Chosunbiz</span>
@@ -872,15 +770,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" data-source="디지털데일리">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" data-source="ddaily.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EbGhCZ1N1d1plT0NZX3R5T2tFR2JfeFRfcVdjUzJyUGhaOGowdnpKR2ZTVmlORGh4UWVfZTZ4UXNLaDZzSDNXZ0pQdGZMdHpJU0dtNzF3SEZSUUVKWTBGY253Wks?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, `우주 AI 솔루션` 첫 공개…&#34;AI가 위성 영상 실시간 분석&#34;</a>
             <div class="card-meta">
-              <span class="src">디지털데일리</span>
+              <span class="src">ddaily.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -891,15 +785,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" data-source="문화일보">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" data-source="munhwa.com">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wTXpWMjJtOFRjNUxOSFdJM0ZJZ1ZIU3RTU2hsbjR6b2lDVzMwMXgxc2dQNnJ3R3B0RmFSZ1lVM1YteEVqVEhWZmE1Smx3eUx1?oc=5" target="_blank" rel="noopener noreferrer">위성 기반 실시간 AI영상 분석… 한화시스템, MSPO서 첫 공개</a>
             <div class="card-meta">
-              <span class="src">문화일보</span>
+              <span class="src">munhwa.com</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -910,31 +800,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmZEJMc2NTTjVCTGU1OVF2NGFoSDNyZ2s5Mk9KZGhuc3FVSnZmVGNQWjJDWmVjaFZyeWx5R0toeGZDZGFFMk02WHRMN0daV3Vmc1NqTjdjUWpDdFHSAWBBVV95cUxQSDlmTkhUZ0VRaEx0UzRzaVJOR2ROZURIbUNkMk5Ia3BMV29MTmhOVV9MLTliM3YxMER1SmtIck9pVm9lai1jUFRkNUxKRVdHam5sT3BRNkt3M0g4dUM3Nmk?oc=5" data-source="연합뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmZEJMc2NTTjVCTGU1OVF2NGFoSDNyZ2s5Mk9KZGhuc3FVSnZmVGNQWjJDWmVjaFZyeWx5R0toeGZDZGFFMk02WHRMN0daV3Vmc1NqTjdjUWpDdFHSAWBBVV95cUxQSDlmTkhUZ0VRaEx0UzRzaVJOR2ROZURIbUNkMk5Ia3BMV29MTmhOVV9MLTliM3YxMER1SmtIck9pVm9lai1jUFRkNUxKRVdHam5sT3BRNkt3M0g4dUM3Nmk?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, &#39;우주 AI 솔루션&#39; 해외서 첫 공개</a>
-            <div class="card-meta">
-              <span class="src">연합뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T00:57:11+00:00">2026-09-10T00:57:11+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUWHJiSWlYU3ZuZnRmLUEwcGU5STlsNnJlZXhfQ2JRbHFmMGtNNjdsWlZfTkp5ZFBvV1ZESU5lTXRoZ3lBNzh5dUQ0MGxOUlBCOWNCeE1DdXlrZURPT20wOA?oc=5" data-source="아시아경제">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUWHJiSWlYU3ZuZnRmLUEwcGU5STlsNnJlZXhfQ2JRbHFmMGtNNjdsWlZfTkp5ZFBvV1ZESU5lTXRoZ3lBNzh5dUQ0MGxOUlBCOWNCeE1DdXlrZURPT20wOA?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석 &#39;우주 AI 솔루션&#39; 공개</a>
             <div class="card-meta">
               <span class="src">아시아경제</span>
@@ -948,31 +815,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5keDFOZGtGMEdyOXhjMUpNdDBIV0syUGxEbXFfalUtS0Ffb1F0QmV6enRxa0dCNWdOYWczbTlEdWFfZkNIVjJmalRuYU9fcTNUTnRNT3FMdWtuQWRzWGp2TFQwQk9NZVVZ?oc=5" data-source="CBC뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5keDFOZGtGMEdyOXhjMUpNdDBIV0syUGxEbXFfalUtS0Ffb1F0QmV6enRxa0dCNWdOYWczbTlEdWFfZkNIVjJmalRuYU9fcTNUTnRNT3FMdWtuQWRzWGp2TFQwQk9NZVVZ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템·한화에어로스페이스 공동 출격… 레이저 대공무기 &#39;천광&#39; 및 &#39;K9A2&#39; 유럽 첫선</a>
-            <div class="card-meta">
-              <span class="src">CBC뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T15:10:00+00:00">2026-09-10T15:10:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KOHVvTFB1RndrbDlDUmpfMUwwdGJRNGtRSEk0N2JfTE9Qbmt1TjhhZnpSY2hzQmVwbU5Qdm8tbExfVEl3U0JRVnpJdkJZRnJsd1UzMFJJZTl5ZlJK?oc=5" data-source="뉴스핌">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KOHVvTFB1RndrbDlDUmpfMUwwdGJRNGtRSEk0N2JfTE9Qbmt1TjhhZnpSY2hzQmVwbU5Qdm8tbExfVEl3U0JRVnpJdkJZRnJsd1UzMFJJZTl5ZlJK?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드서 &#39;우주 AI 솔루션&#39; 첫 공개</a>
             <div class="card-meta">
               <span class="src">뉴스핌</span>
@@ -986,12 +830,23 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE9WSUk5cXpCcXJic09zdTZFdDMzcE85NFFmeWhNUHpsaVBidkxYUC03N252MDJNLTI1V2NGX0hmWFBxalNiYVJBTzhCQjBGclJWd2xRTmwzT0cxODZOWXJ3SjN4a2cxZjQ4S3c?oc=5" data-source="파이낸스스코프">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5keDFOZGtGMEdyOXhjMUpNdDBIV0syUGxEbXFfalUtS0Ffb1F0QmV6enRxa0dCNWdOYWczbTlEdWFfZkNIVjJmalRuYU9fcTNUTnRNT3FMdWtuQWRzWGp2TFQwQk9NZVVZ?oc=5" data-source="cbci.co.kr">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5keDFOZGtGMEdyOXhjMUpNdDBIV0syUGxEbXFfalUtS0Ffb1F0QmV6enRxa0dCNWdOYWczbTlEdWFfZkNIVjJmalRuYU9fcTNUTnRNT3FMdWtuQWRzWGp2TFQwQk9NZVVZ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템·한화에어로스페이스 공동 출격… 레이저 대공무기 &#39;천광&#39; 및 &#39;K9A2&#39; 유럽 첫선</a>
+            <div class="card-meta">
+              <span class="src">cbci.co.kr</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T15:10:00+00:00">2026-09-10T15:10:00+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE9WSUk5cXpCcXJic09zdTZFdDMzcE85NFFmeWhNUHpsaVBidkxYUC03N252MDJNLTI1V2NGX0hmWFBxalNiYVJBTzhCQjBGclJWd2xRTmwzT0cxODZOWXJ3SjN4a2cxZjQ4S3c?oc=5" data-source="파이낸스스코프">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9WSUk5cXpCcXJic09zdTZFdDMzcE85NFFmeWhNUHpsaVBidkxYUC03N252MDJNLTI1V2NGX0hmWFBxalNiYVJBTzhCQjBGclJWd2xRTmwzT0cxODZOWXJ3SjN4a2cxZjQ4S3c?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드 &#39;MSPO 2026&#39;서 차세대 &#39;우주 AI 솔루션&#39; 최초 공개</a>
             <div class="card-meta">
               <span class="src">파이낸스스코프</span>
@@ -1006,11 +861,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vN2dhcFhyY1NHZlVTVVNKZmdFYkZLcGE3TzFNVW95SWhMZkxGUUxIOHJ1Z1dEWFUwRDljUnpySXhuVDRzMjZWZU5yaThPSlJyTWZQRmtJQTVNSHFaem5sbVlsd20?oc=5" data-source="서울경제TV">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vN2dhcFhyY1NHZlVTVVNKZmdFYkZLcGE3TzFNVW95SWhMZkxGUUxIOHJ1Z1dEWFUwRDljUnpySXhuVDRzMjZWZU5yaThPSlJyTWZQRmtJQTVNSHFaem5sbVlsd20?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, MSPO 2026서 ‘우주 AI 솔루션’ 첫 공개</a>
             <div class="card-meta">
               <span class="src">서울경제TV</span>
@@ -1025,11 +876,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE01MGlIU2NBVHc0ODhwMTB3UkFUV0Y4bXUyUFM3Q01DZGRBdV9IY2VSNzZFQW12LVZ5aVQ0ZUV3a2oyRnM2R3liR2R1ZDV1MFRZOUFpLS1lQXJQTzJFNy1mUjhabUpvYkRRU1lF?oc=5" data-source="파이낸셜신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE01MGlIU2NBVHc0ODhwMTB3UkFUV0Y4bXUyUFM3Q01DZGRBdV9IY2VSNzZFQW12LVZ5aVQ0ZUV3a2oyRnM2R3liR2R1ZDV1MFRZOUFpLS1lQXJQTzJFNy1mUjhabUpvYkRRU1lF?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, &#39;우주 AI 솔루션&#39; 해외 첫 공개…&#34;AI로 위성영상 실시간 분석&#34;</a>
             <div class="card-meta">
               <span class="src">파이낸셜신문</span>
@@ -1044,11 +891,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTFBjMWFlYmhSeG1vb2hCMUZYb2M1NmEteFlYbkFyTUZ1NHlBZ09WMUtwdjVjdHdoTWJ5MWhqUmFkQk0yd2pvSFNIVl9SRTlwaHlhSHlCREVxQmZHNF80amIwekJyamU1ZG1tUkpMYTkwWGQ?oc=5" data-source="신아일보">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBjMWFlYmhSeG1vb2hCMUZYb2M1NmEteFlYbkFyTUZ1NHlBZ09WMUtwdjVjdHdoTWJ5MWhqUmFkQk0yd2pvSFNIVl9SRTlwaHlhSHlCREVxQmZHNF80amIwekJyamU1ZG1tUkpMYTkwWGQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략</a>
             <div class="card-meta">
               <span class="src">신아일보</span>
@@ -1063,11 +906,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE81UDNJQkUzaF9sYV9va0FhRnp0QWpkRERmOTNMQjNsdVhGNzlJaW5EMHN5cFhONERIWVh3VER6LUtPNGwyYWg0WERyeHpWQURGX2pic2o3bS1pT2tDOER6eTJKSHdRVUNV0gFsQVVfeXFMUDRUangzZ1ExS3hlcFNpdnhGM0J0XzEtUzB6M2tVWjJJcXlIak11S0ZnS1BONmFWVFl1TWJZOUlRRnRyUVBQNHRZeUdvWnB6dkUwMXNJSGhIOTdsRHQ2ZVZHNDBXd2czb20zVUtZ?oc=5" data-source="정보통신신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE81UDNJQkUzaF9sYV9va0FhRnp0QWpkRERmOTNMQjNsdVhGNzlJaW5EMHN5cFhONERIWVh3VER6LUtPNGwyYWg0WERyeHpWQURGX2pic2o3bS1pT2tDOER6eTJKSHdRVUNV0gFsQVVfeXFMUDRUangzZ1ExS3hlcFNpdnhGM0J0XzEtUzB6M2tVWjJJcXlIak11S0ZnS1BONmFWVFl1TWJZOUlRRnRyUVBQNHRZeUdvWnB6dkUwMXNJSGhIOTdsRHQ2ZVZHNDBXd2czb20zVUtZ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…위성영상 분석 고도화</a>
             <div class="card-meta">
               <span class="src">정보통신신문</span>
@@ -1082,11 +921,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE14d2dKNVNzY0xQLUNQazl1SlFaVERHU0diTk1QRHd1MXNoZ2pyeTV6SG51ZjJfWm1XdjhzTTNMNUpDR2MzMU5ja2szVUpPWGQ0b3lWMlNjTjNra3A2all5TW94QkLSAWhBVV95cUxQUl9pYXcwc2I1SkZRMnk1RTFEUnR4QVN3Wm5kSGNfckJZSlFsVXI1VDFNdHVVcDZUZG9YVXZSRlQ3dzBSQ1dZQTRfcWFMWXB5aUtQYnZiRGI4cGhCZXpmT0czRGxiX2ZfVA?oc=5" data-source="매일일보">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE14d2dKNVNzY0xQLUNQazl1SlFaVERHU0diTk1QRHd1MXNoZ2pyeTV6SG51ZjJfWm1XdjhzTTNMNUpDR2MzMU5ja2szVUpPWGQ0b3lWMlNjTjNra3A2all5TW94QkLSAWhBVV95cUxQUl9pYXcwc2I1SkZRMnk1RTFEUnR4QVN3Wm5kSGNfckJZSlFsVXI1VDFNdHVVcDZUZG9YVXZSRlQ3dzBSQ1dZQTRfcWFMWXB5aUtQYnZiRGI4cGhCZXpmT0czRGxiX2ZfVA?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 우주 AI로 ‘정찰-타격’ 연결…위성정보 전장 활용 넓힌다</a>
             <div class="card-meta">
               <span class="src">매일일보</span>
@@ -1100,31 +935,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" data-source="매일산업뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 공개… 폴란드 MSPO서 첫 시연</a>
-            <div class="card-meta">
-              <span class="src">매일산업뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T08:52:16+00:00">2026-09-10T08:52:16+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE95anU4N28wRXRhNTBvVWR4c19iemRaZ1VfZzF3N09MRGFYRjBEQUdocXlYQURhbEZXTGl3X053XzNZa3hjQzVMMVNoTjZVZmNjcmNEbnhlYVlGQjJwUkVDeFlpcV9mSU9UeThOYjhR?oc=5" data-source="아시아투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE95anU4N28wRXRhNTBvVWR4c19iemRaZ1VfZzF3N09MRGFYRjBEQUdocXlYQURhbEZXTGl3X053XzNZa3hjQzVMMVNoTjZVZmNjcmNEbnhlYVlGQjJwUkVDeFlpcV9mSU9UeThOYjhR?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI’ 첫 공개…위성 영상 ‘정밀 분석’</a>
             <div class="card-meta">
               <span class="src">아시아투데이</span>
@@ -1139,11 +951,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVcHN1b2Q0Y3Rla3o0WmxiUHdNVEJIXzBOWTctN29JcUF1eVozeTdFWjcweHBNQ1lvbjJ4eGFYWjZIWTJiRkRNSnNSX3JsRDVMQm1hRjFlN1haM3ZFcFJtelJyQ1FTWFk?oc=5" data-source="기계신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVcHN1b2Q0Y3Rla3o0WmxiUHdNVEJIXzBOWTctN29JcUF1eVozeTdFWjcweHBNQ1lvbjJ4eGFYWjZIWTJiRkRNSnNSX3JsRDVMQm1hRjFlN1haM3ZFcFJtelJyQ1FTWFk?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 위성영상 ‘우주 AI 솔루션’ 개발 완료… MSPO 2026서 첫 공개</a>
             <div class="card-meta">
               <span class="src">기계신문</span>
@@ -1157,15 +965,26 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YdXpvR1lydnhrTEZLeF9id3p1OTQ0NUhUdDZEYlZqY0NKdDI2aFVkcWpzNnhUN0RSeThadE9jMUpDVVhiUksyZVBxbEQwU0k?oc=5" data-source="v.daum.net">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" data-source="매일산업뉴스">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Wmg0S0NnUW9yZGdPWlAzWkgxZ05UMVFFWTJ4OFhDbjVsVi02LXdFbWxVYXNScWkwVjY0Z1RUOTY3cURkYlVSTmxuYnlrN2prV0RkM0JpRkVoeW9uSzNmSm1Vcw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 공개… 폴란드 MSPO서 첫 시연</a>
+            <div class="card-meta">
+              <span class="src">매일산업뉴스</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T08:52:16+00:00">2026-09-10T08:52:16+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YdXpvR1lydnhrTEZLeF9id3p1OTQ0NUhUdDZEYlZqY0NKdDI2aFVkcWpzNnhUN0RSeThadE9jMUpDVVhiUksyZVBxbEQwU0k?oc=5" data-source="v.daum.net">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YdXpvR1lydnhrTEZLeF9id3p1OTQ0NUhUdDZEYlZqY0NKdDI2aFVkcWpzNnhUN0RSeThadE9jMUpDVVhiUksyZVBxbEQwU0k?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드서 &#39;우주 AI&#39; 공개…실제 위성영상 분석 시연</a>
             <div class="card-meta">
-              <span class="src">v.daum.net, zdnet.co.kr</span>
+              <span class="src">v.daum.net, 지디넷코리아</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1177,11 +996,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTE5qQnNmX1pzQ0pZeUoyOHlaVkk0SkdVLU5sWWFwTElmYnMyY05XY2ZnZmdvZWNQZFc0d2Q3b3UwSU9CMHNrZHItblFzeWs3VTkxcklINEtFdHFBYTFkQXFTdmdYOG91X1JFeWtUWXNtcw?oc=5" data-source="뉴스웍스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5qQnNmX1pzQ0pZeUoyOHlaVkk0SkdVLU5sWWFwTElmYnMyY05XY2ZnZmdvZWNQZFc0d2Q3b3UwSU9CMHNrZHItblFzeWs3VTkxcklINEtFdHFBYTFkQXFTdmdYOG91X1JFeWtUWXNtcw?oc=5" target="_blank" rel="noopener noreferrer">&#34;AI로 위성 영상 실시간 분석&#34;…한화시스템, &#39;우주AI 솔루션&#39; 첫 선</a>
             <div class="card-meta">
               <span class="src">뉴스웍스</span>
@@ -1196,11 +1011,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE84X1FPOWN5SmRQZHQtMGVlcHFGLWp2SGVJVXFrQjg3VVIxQXdmUG9Ia19nOHJjVDNseGNPYllURVdDR3NEM0h4Y25FdFd2QzNmOC1qdWNzYUpSeVpCT2hRdFF5ZVdGdEFJWV81Q1hn0gFzQVVfeXFMTmlzNVp5eG9CQmRLaktPNU9ZQXpDejFTb1E1WTVheXJkWlVDWTFKeXhQYllVdzZaYlZrWkdXTVlPT21xVTA4eWNDMnppcklueVN2RlZ4RjRDeGxwZTdGSDRMNDNhS2F2MFhJSHAwcUJiR0ltaw?oc=5" data-source="한국일보">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE84X1FPOWN5SmRQZHQtMGVlcHFGLWp2SGVJVXFrQjg3VVIxQXdmUG9Ia19nOHJjVDNseGNPYllURVdDR3NEM0h4Y25FdFd2QzNmOC1qdWNzYUpSeVpCT2hRdFF5ZVdGdEFJWV81Q1hn0gFzQVVfeXFMTmlzNVp5eG9CQmRLaktPNU9ZQXpDejFTb1E1WTVheXJkWlVDWTFKeXhQYllVdzZaYlZrWkdXTVlPT21xVTA4eWNDMnppcklueVN2RlZ4RjRDeGxwZTdGSDRMNDNhS2F2MFhJSHAwcUJiR0ltaw?oc=5" target="_blank" rel="noopener noreferrer">위성이 보고 AI가 분석… 한화시스템, 우주 AI 솔루션 최초 공개</a>
             <div class="card-meta">
               <span class="src">한국일보</span>
@@ -1215,11 +1026,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE9maUFYWU1iV25aZDhQTlZSMUpzU3VLVHJiSlk3OWhVeVZudUhPblAydFZnWGZaaGFTYlBtUDlIbVo2R2lNbFYxU1cwUFdqTENsaFhNcDdNdlpPY1JUa2M4ZDVjb3dvc1N2RV92alRhandpa2ty?oc=5" data-source="부산일보">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9maUFYWU1iV25aZDhQTlZSMUpzU3VLVHJiSlk3OWhVeVZudUhPblAydFZnWGZaaGFTYlBtUDlIbVo2R2lNbFYxU1cwUFdqTENsaFhNcDdNdlpPY1JUa2M4ZDVjb3dvc1N2RV92alRhandpa2ty?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 AI 분석 솔루션 공개…“정찰부터 타격까지 연결”</a>
             <div class="card-meta">
               <span class="src">부산일보</span>
@@ -1234,14 +1041,10 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE53WWNoSXVWSnJ3T2lZbFBUTmN3b01GaDRBa3AyMVhWSWlyODhqTTBuQnBzVTNvYjZocDhUOHpyNzNRZlpIaGRQUDZqSF83WEE?oc=5" data-source="v.daum.net">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE53WWNoSXVWSnJ3T2lZbFBUTmN3b01GaDRBa3AyMVhWSWlyODhqTTBuQnBzVTNvYjZocDhUOHpyNzNRZlpIaGRQUDZqSF83WEE?oc=5" target="_blank" rel="noopener noreferrer">&#34;위성 영상 자동 판독&#34;…한화시스템, 우주 AI 설루션 개발해 첫선</a>
             <div class="card-meta">
-              <span class="src">v.daum.net, news.nate.com</span>
+              <span class="src">v.daum.net, 네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1253,11 +1056,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE05dFg3NHFaakx2eG81NU8zRVQ3TXFiUFRRVnpzc0hGdG15bS1QM2xyOTZCNHlFX0JYOU1EdWhJR2tDb1RIOXkxMDd1cU14T2xJbzg3a2hGaUU0SFJRbE1Fb0RVRWdtMGdvTjBnMVlB0gFyQVVfeXFMUENXWi1zeU9BM0MxaXp4UXNnb0ZMNktDTW5hNVp5UU1iU2JCM042ajg3UjgtZi1ZNm1CSDJiQm1la295TEgycGRHTVpiRVRkNDFkaTZfRVlaUllqV1hudHYxSWt2NjF3cThiZG10NjRFUU1n?oc=5" data-source="popcornnews.net">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE05dFg3NHFaakx2eG81NU8zRVQ3TXFiUFRRVnpzc0hGdG15bS1QM2xyOTZCNHlFX0JYOU1EdWhJR2tDb1RIOXkxMDd1cU14T2xJbzg3a2hGaUU0SFJRbE1Fb0RVRWdtMGdvTjBnMVlB0gFyQVVfeXFMUENXWi1zeU9BM0MxaXp4UXNnb0ZMNktDTW5hNVp5UU1iU2JCM042ajg3UjgtZi1ZNm1CSDJiQm1la295TEgycGRHTVpiRVRkNDFkaTZfRVlaUllqV1hudHYxSWt2NjF3cThiZG10NjRFUU1n?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, MSPO서 ‘우주 AI 솔루션’ 첫 공개</a>
             <div class="card-meta">
               <span class="src">popcornnews.net</span>
@@ -1272,11 +1071,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE01el96Tk1GQUZmclcyVDZBS21XZFNwQm1mazZuT2h0RjNOcHBuY2d0UWltWGM0VXlETUxHQ052RDUtbmUwSWdFS0RaUVI3YlUwQUU3LVFwa3g1MnlnV0FLUFZrSEpENndQN2FfZA?oc=5" data-source="데일리비즈온">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE01el96Tk1GQUZmclcyVDZBS21XZFNwQm1mazZuT2h0RjNOcHBuY2d0UWltWGM0VXlETUxHQ052RDUtbmUwSWdFS0RaUVI3YlUwQUU3LVFwa3g1MnlnV0FLUFZrSEpENndQN2FfZA?oc=5" target="_blank" rel="noopener noreferrer">[D-BIZ AI 분석 솔루션] 한화시스템, 위성영상 AI 분석 솔루션 해외 첫 공개…“정찰→분석→타격” 원스톱 지원</a>
             <div class="card-meta">
               <span class="src">데일리비즈온</span>
@@ -1291,11 +1086,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tZDJxUTQ0Q2t5SEVyS2FscUZZX3BSX1Bic1hXdjhIR1RWNXh2QmJLZHVkbGJwNlJYWjkwLTQxbXQzeXFtazIxNWktV0VDZ1dxUlVleQ?oc=5" data-source="더글로벌기빙뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tZDJxUTQ0Q2t5SEVyS2FscUZZX3BSX1Bic1hXdjhIR1RWNXh2QmJLZHVkbGJwNlJYWjkwLTQxbXQzeXFtazIxNWktV0VDZ1dxUlVleQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석하는 ‘우주 AI 솔루션’ 공개</a>
             <div class="card-meta">
               <span class="src">더글로벌기빙뉴스</span>
@@ -1309,31 +1100,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE41eng1d1FMaG1SeWp3dHE0eDIwTG5ZWE50T3ljMFBoUW5wZVl0NEJMRFNqNXItTU0tYVB3SXg5N2RjTXRaTWhSX3ctLXlIOEhUNG82MkFSaTE3WEk5c2lMdktDWWZrMHkwc0Z1VFln?oc=5" data-source="이지경제">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE41eng1d1FMaG1SeWp3dHE0eDIwTG5ZWE50T3ljMFBoUW5wZVl0NEJMRFNqNXItTU0tYVB3SXg5N2RjTXRaTWhSX3ctLXlIOEhUNG82MkFSaTE3WEk5c2lMdktDWWZrMHkwc0Z1VFln?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드 방위산업 전시회서 우주 AI 솔루션 해외 첫 공개</a>
-            <div class="card-meta">
-              <span class="src">이지경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T08:24:29+00:00">2026-09-10T08:24:29+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE5Jc0dmN3BrMHJNV1BrMjY2UkVMSkYzUlFWVGl1SFplTUstTkNMaDhZX1hTczlMSElEaXJiRmNSUGZHRWNFRUFiQjVuN095WjNYek93U1RrbkpxRTBjVkhnaDVPVGRVT0JiOUwzQ3BWaHgtVjQ?oc=5" data-source="비즈니스포스트">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5Jc0dmN3BrMHJNV1BrMjY2UkVMSkYzUlFWVGl1SFplTUstTkNMaDhZX1hTczlMSElEaXJiRmNSUGZHRWNFRUFiQjVuN095WjNYek93U1RrbkpxRTBjVkhnaDVPVGRVT0JiOUwzQ3BWaHgtVjQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 자동 분석 &#39;우주 AI 솔루션&#39; 공개</a>
             <div class="card-meta">
               <span class="src">비즈니스포스트</span>
@@ -1348,11 +1116,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTFBMVjB1ZXRMczR3OXVhMl9SNnIzbHFJVFRQNERWZ3poazVjcHo3NWgyWG5penlldXpMaFZydzVmT0JQbTlaWXhTcEh0WlVxN0RCTzRyUjk2UlR1aVZVc3JEYkpKMTdYblBXY2UzOVl3?oc=5" data-source="이지경제">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBMVjB1ZXRMczR3OXVhMl9SNnIzbHFJVFRQNERWZ3poazVjcHo3NWgyWG5penlldXpMaFZydzVmT0JQbTlaWXhTcEh0WlVxN0RCTzRyUjk2UlR1aVZVc3JEYkpKMTdYblBXY2UzOVl3?oc=5" target="_blank" rel="noopener noreferrer">[창간기획] ① 방산캐시로 AI데이터센터 짓는다…한화시스템, 그룹 미래투자 핵심축 부상</a>
             <div class="card-meta">
               <span class="src">이지경제</span>
@@ -1366,12 +1130,23 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE90WUh4T3JMVUNJaHlJOW52TVRQWFVkVkJ3c3BQczVQZDI2YXdWaExfX2FGYngxbDNCNDB4ZzVGUng0S0M2bEo3eENzQXdka0JRa3pqazlqY0JHZWpJUmZKcF9Dam9ZdFBXeFNpSWZHSk8?oc=5" data-source="Korea IT Times">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE41eng1d1FMaG1SeWp3dHE0eDIwTG5ZWE50T3ljMFBoUW5wZVl0NEJMRFNqNXItTU0tYVB3SXg5N2RjTXRaTWhSX3ctLXlIOEhUNG82MkFSaTE3WEk5c2lMdktDWWZrMHkwc0Z1VFln?oc=5" data-source="이지경제">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE41eng1d1FMaG1SeWp3dHE0eDIwTG5ZWE50T3ljMFBoUW5wZVl0NEJMRFNqNXItTU0tYVB3SXg5N2RjTXRaTWhSX3ctLXlIOEhUNG82MkFSaTE3WEk5c2lMdktDWWZrMHkwc0Z1VFln?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드 방위산업 전시회서 우주 AI 솔루션 해외 첫 공개</a>
+            <div class="card-meta">
+              <span class="src">이지경제</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T08:24:29+00:00">2026-09-10T08:24:29+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE90WUh4T3JMVUNJaHlJOW52TVRQWFVkVkJ3c3BQczVQZDI2YXdWaExfX2FGYngxbDNCNDB4ZzVGUng0S0M2bEo3eENzQXdka0JRa3pqazlqY0JHZWpJUmZKcF9Dam9ZdFBXeFNpSWZHSk8?oc=5" data-source="Korea IT Times">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE90WUh4T3JMVUNJaHlJOW52TVRQWFVkVkJ3c3BQczVQZDI2YXdWaExfX2FGYngxbDNCNDB4ZzVGUng0S0M2bEo3eENzQXdka0JRa3pqazlqY0JHZWpJUmZKcF9Dam9ZdFBXeFNpSWZHSk8?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상에 AI 입힌다… ‘우주 데이터’ 전장 정보로 전환</a>
             <div class="card-meta">
               <span class="src">Korea IT Times</span>
@@ -1386,11 +1161,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qSmFJX0dzTzZfWjR4Um9jdExTOURBRDc4dXN5ZFl6blZTN0RUNDRUUHZXWnF1cEY3NGNYMFloMHFhby1xLU9BVVZac2tGOHJSMzJWQXRaYWZzV2tWZG1mTA?oc=5" data-source="메트로신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qSmFJX0dzTzZfWjR4Um9jdExTOURBRDc4dXN5ZFl6blZTN0RUNDRUUHZXWnF1cEY3NGNYMFloMHFhby1xLU9BVVZac2tGOHJSMzJWQXRaYWZzV2tWZG1mTA?oc=5" target="_blank" rel="noopener noreferrer">위성이 보고 AI가 분석…한화시스템, &#39;우주 AI 솔루션&#39; 첫 공개</a>
             <div class="card-meta">
               <span class="src">메트로신문</span>
@@ -1405,11 +1176,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE11WFpjemFfOEZDODNaS0FyaHFtZWJoX1Bkd0FqNVdoTFVTMk9EWnBxQW9OWFFBZGRrNTJycjJOakZDOGozOGY1M0c4SVFsOHdIV1FYREZWeW04ZF9TQjcxMmc5NWM3V01pNC1N?oc=5" data-source="일간투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE11WFpjemFfOEZDODNaS0FyaHFtZWJoX1Bkd0FqNVdoTFVTMk9EWnBxQW9OWFFBZGRrNTJycjJOakZDOGozOGY1M0c4SVFsOHdIV1FYREZWeW04ZF9TQjcxMmc5NWM3V01pNC1N?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 해외서 첫선</a>
             <div class="card-meta">
               <span class="src">일간투데이</span>
@@ -1424,11 +1191,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sX01VaHZabndjYTI0ZmZBRUJxU3FBTE83Um02bjUyTHFpMWNXdTF2aE56QnU1dTU2MVg3ZExGZk9EdjdNOC1LQTU2djhERHBmam50cTNZUFZQSHlpQnpz?oc=5" data-source="스마트투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sX01VaHZabndjYTI0ZmZBRUJxU3FBTE83Um02bjUyTHFpMWNXdTF2aE56QnU1dTU2MVg3ZExGZk9EdjdNOC1LQTU2djhERHBmam50cTNZUFZQSHlpQnpz?oc=5" target="_blank" rel="noopener noreferrer">우주에서 찍고 AI가 실시간 해독…한화시스템, 차세대 &#39;우주 AI 솔루션&#39; 공개</a>
             <div class="card-meta">
               <span class="src">스마트투데이</span>
@@ -1442,31 +1205,8 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QVUl5WmpSRWdRd3oxS3h2T001aGRFZGpPNzBtZm51d3BBNWtfMVBVOXZuWkJ5MV9VOS0xTm9HQWlHd1dqRElSMURJWjh5bzE5Nm9reFB2ejJoRUJ4U3lJclIydmhRNlZ0?oc=5" data-source="팍스경제TV">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QVUl5WmpSRWdRd3oxS3h2T001aGRFZGpPNzBtZm51d3BBNWtfMVBVOXZuWkJ5MV9VOS0xTm9HQWlHd1dqRElSMURJWjh5bzE5Nm9reFB2ejJoRUJ4U3lJclIydmhRNlZ0?oc=5" target="_blank" rel="noopener noreferrer">한화이센셜, ‘대한민국 일자리 으뜸기업’ 2년 연속 선정</a>
-            <div class="card-meta">
-              <span class="src">팍스경제TV</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-11T02:30:26+00:00">2026-09-11T02:30:26+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
           <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE5Gd1RURHRlZkRETnZJQU13TC1uam1MV2xGd0tnLU5MY1BnUng3UDlIVUM3eE1yMWg2OGpEUlVHcjNjTndqNUFLb0QySkxMYm8wV3FIbVJrRk5EbGFNU0xvU3RVaFV6VktUQmwtVHZrUWE?oc=5" data-source="시장경제신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5Gd1RURHRlZkRETnZJQU13TC1uam1MV2xGd0tnLU5MY1BnUng3UDlIVUM3eE1yMWg2OGpEUlVHcjNjTndqNUFLb0QySkxMYm8wV3FIbVJrRk5EbGFNU0xvU3RVaFV6VktUQmwtVHZrUWE?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 솔루션’ 해외서 첫 공개... HD현대중공업, 발전엔진·SMR 미래 사업에 1조원 투자[시경Today-방산·중공업]</a>
             <div class="card-meta">
               <span class="src">시장경제신문</span>
@@ -1480,12 +1220,23 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTFB2SEFrSWRLSEhRazZPNHFhaEl0T2JtVEdFOXVuVkcydjd5OEFzQ2l4WVhfMXZJejhuTVJHSjN4N0Rvbk5tUERPNDF4X25sWVlWbEtEazQ3NnlyRlNkSUZFZDZjelpZTmRqb20wVnktN3h3WHc?oc=5" data-source="디지털투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QVUl5WmpSRWdRd3oxS3h2T001aGRFZGpPNzBtZm51d3BBNWtfMVBVOXZuWkJ5MV9VOS0xTm9HQWlHd1dqRElSMURJWjh5bzE5Nm9reFB2ejJoRUJ4U3lJclIydmhRNlZ0?oc=5" data-source="팍스경제TV">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QVUl5WmpSRWdRd3oxS3h2T001aGRFZGpPNzBtZm51d3BBNWtfMVBVOXZuWkJ5MV9VOS0xTm9HQWlHd1dqRElSMURJWjh5bzE5Nm9reFB2ejJoRUJ4U3lJclIydmhRNlZ0?oc=5" target="_blank" rel="noopener noreferrer">한화이센셜, ‘대한민국 일자리 으뜸기업’ 2년 연속 선정</a>
+            <div class="card-meta">
+              <span class="src">팍스경제TV</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-11T02:30:26+00:00">2026-09-11T02:30:26+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTFB2SEFrSWRLSEhRazZPNHFhaEl0T2JtVEdFOXVuVkcydjd5OEFzQ2l4WVhfMXZJejhuTVJHSjN4N0Rvbk5tUERPNDF4X25sWVlWbEtEazQ3NnlyRlNkSUZFZDZjelpZTmRqb20wVnktN3h3WHc?oc=5" data-source="디지털투데이">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTFB2SEFrSWRLSEhRazZPNHFhaEl0T2JtVEdFOXVuVkcydjd5OEFzQ2l4WVhfMXZJejhuTVJHSjN4N0Rvbk5tUERPNDF4X25sWVlWbEtEazQ3NnlyRlNkSUZFZDZjelpZTmRqb20wVnktN3h3WHc?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, &#39;우주 AI 솔루션&#39;…폴란드서 첫 공개</a>
             <div class="card-meta">
               <span class="src">디지털투데이</span>
@@ -1500,11 +1251,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE52aHl2LWhsSHAxS3RGd01JMVpMVThZR0lWZzhHTExXZUIyOE5oY0d5ZmlaN1pSLTExelVBYlFCR09GN1c1WkhwYm1qZE1RZ0p6S281UWlleV8wWWZkOWVGRTdQMUNfdHAyZnlqN0hR?oc=5" data-source="뉴스타운">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE52aHl2LWhsSHAxS3RGd01JMVpMVThZR0lWZzhHTExXZUIyOE5oY0d5ZmlaN1pSLTExelVBYlFCR09GN1c1WkhwYm1qZE1RZ0p6S281UWlleV8wWWZkOWVGRTdQMUNfdHAyZnlqN0hR?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석 ‘우주 AI 솔루션’ 해외 첫 공개</a>
             <div class="card-meta">
               <span class="src">뉴스타운</span>
@@ -1518,15 +1265,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE9BT0M2dG1aazExY3B1RlZhX3RGdVlSM3FKSDZDSkROMF8xaERpbWdpVkdUb0xySXVYMnZkTFc2X3B1a0FVTmI1cHdwYkZlNzVSRnR4Z1ktTDZySFQ0T0JOMGRoYVU4bmV3NlFreg?oc=5" data-source="worktoday.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE9BT0M2dG1aazExY3B1RlZhX3RGdVlSM3FKSDZDSkROMF8xaERpbWdpVkdUb0xySXVYMnZkTFc2X3B1a0FVTmI1cHdwYkZlNzVSRnR4Z1ktTDZySFQ0T0JOMGRoYVU4bmV3NlFreg?oc=5" data-source="워크투데이">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9BT0M2dG1aazExY3B1RlZhX3RGdVlSM3FKSDZDSkROMF8xaERpbWdpVkdUb0xySXVYMnZkTFc2X3B1a0FVTmI1cHdwYkZlNzVSRnR4Z1ktTDZySFQ0T0JOMGRoYVU4bmV3NlFreg?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석 ‘우주 AI 솔루션’ 해외서 첫 공개 … 글로벌 시장 공략</a>
             <div class="card-meta">
-              <span class="src">worktoday.co.kr</span>
+              <span class="src">워크투데이</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1538,11 +1281,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMirgJBVV95cUxQZFdMcXpRcGlmM19OSlRKQmZEbmE4d3h3STB2amFoQ09xd0tsODdUUW5HMHBlb1RTaURFT04zemF4WjZZdEd2UkMwcm5aY3B6UUFGZzBaUDg5WHlZaGJuR3hJRU9HX0REUm4yd20tRzNDYlZSMXhUTmU0Rm9aWkxFOWJ2NHlwdkhmYzdNQjRTeFhNTnYyLVR3WTZVRWdhS1hHZU1kd0d2QWJUTUhxQVNUWnZuNnZTaXRET3ZaSk9PVmFES25Pb0JkbEJkNGVLQ0tBLTV3cV9uVTBJaUZqb0F4WWdtUmR0Q0czZ1RVV0x4VlRmakd2RzNxU1YyeDRSNzhDcFpHMktVX0lyTTVmRWsxaTZkRUxZc29ubTlTREp4eDBydENndDJQN0cwOFJKZw?oc=5" data-source="데일리안">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMirgJBVV95cUxQZFdMcXpRcGlmM19OSlRKQmZEbmE4d3h3STB2amFoQ09xd0tsODdUUW5HMHBlb1RTaURFT04zemF4WjZZdEd2UkMwcm5aY3B6UUFGZzBaUDg5WHlZaGJuR3hJRU9HX0REUm4yd20tRzNDYlZSMXhUTmU0Rm9aWkxFOWJ2NHlwdkhmYzdNQjRTeFhNTnYyLVR3WTZVRWdhS1hHZU1kd0d2QWJUTUhxQVNUWnZuNnZTaXRET3ZaSk9PVmFES25Pb0JkbEJkNGVLQ0tBLTV3cV9uVTBJaUZqb0F4WWdtUmR0Q0czZ1RVV0x4VlRmakd2RzNxU1YyeDRSNzhDcFpHMktVX0lyTTVmRWsxaTZkRUxZc29ubTlTREp4eDBydENndDJQN0cwOFJKZw?oc=5" target="_blank" rel="noopener noreferrer">항공기·선박까지 자동 식별…한화시스템, ‘우주 AI 솔루션’ 공개</a>
             <div class="card-meta">
               <span class="src">데일리안</span>
@@ -1557,11 +1296,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VZnhhOTBxdUM3SGtuU29JaHNfTkhRTVB4UnVyRHp5Zk1nQ0NQWFN0cmlONUlEbTkyTktnZ3ZsM1ZpZjZPQ3NsYTVPWDNkSU4tbmp2Zg?oc=5" data-source="이투데이">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VZnhhOTBxdUM3SGtuU29JaHNfTkhRTVB4UnVyRHp5Zk1nQ0NQWFN0cmlONUlEbTkyTktnZ3ZsM1ZpZjZPQ3NsYTVPWDNkSU4tbmp2Zg?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…위성이 찍고 AI가 분석</a>
             <div class="card-meta">
               <span class="src">이투데이</span>
@@ -1575,15 +1310,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE1QeDl4bmFNc3o3bUZtaVNyenNGanJQb0JvREpLdjFKWVRCbV9sS19lTTVyMU9oNEMzUEEyYjY4MVYtZ0w0ZUgyZktkQ285a2MzbDZmRGlyN0d0YklYSlNtWFV0Nk5qMDY4aWFFYnl4Z3fSAXRBVV95cUxNSlI2Y1hOV2x6amRfVnZETTYzbmU5T3Rtd2V5WjYzOHV3em9USUdlUS1tTlkzcXJxamlHTmNTU0VvSmVEdEtRTmNGS0tYdHFwdy02c2wzaDhOWTBDa000eVJTelZBWHhQQ2xDcTAwTk5Dd29XTw?oc=5" data-source="enewstoday.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE1QeDl4bmFNc3o3bUZtaVNyenNGanJQb0JvREpLdjFKWVRCbV9sS19lTTVyMU9oNEMzUEEyYjY4MVYtZ0w0ZUgyZktkQ285a2MzbDZmRGlyN0d0YklYSlNtWFV0Nk5qMDY4aWFFYnl4Z3fSAXRBVV95cUxNSlI2Y1hOV2x6amRfVnZETTYzbmU5T3Rtd2V5WjYzOHV3em9USUdlUS1tTlkzcXJxamlHTmNTU0VvSmVEdEtRTmNGS0tYdHFwdy02c2wzaDhOWTBDa000eVJTelZBWHhQQ2xDcTAwTk5Dd29XTw?oc=5" data-source="이뉴스투데이">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1QeDl4bmFNc3o3bUZtaVNyenNGanJQb0JvREpLdjFKWVRCbV9sS19lTTVyMU9oNEMzUEEyYjY4MVYtZ0w0ZUgyZktkQ285a2MzbDZmRGlyN0d0YklYSlNtWFV0Nk5qMDY4aWFFYnl4Z3fSAXRBVV95cUxNSlI2Y1hOV2x6amRfVnZETTYzbmU5T3Rtd2V5WjYzOHV3em9USUdlUS1tTlkzcXJxamlHTmNTU0VvSmVEdEtRTmNGS0tYdHFwdy02c2wzaDhOWTBDa000eVJTelZBWHhQQ2xDcTAwTk5Dd29XTw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드서 ‘우주 AI 솔루션’ 공개···첨단 R&amp;D 기술력 공유</a>
             <div class="card-meta">
-              <span class="src">enewstoday.co.kr</span>
+              <span class="src">이뉴스투데이</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1595,11 +1326,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmNlVNV0xjN2w1SFhvM3lTd0hIYWxDdEtvUVhmdG5MNng1X2w1dkEwamhNX2k5VU82SVcydXhId1ZBSnY3THQ0RkdtMm85OTRBblFkcHByMFNaZlQ0eHBtZFVQZGZmVnPSAWtBVV95cUxQSGJzQVlTaDRYZlNrYTZIYVhkTlVpOVRjM3RaNHVlRmVVOW1iVjFjZnNjUWNBVUMxZHIteWZCN3pJQ1lBSGkzazBRQjR1ZWpzSUdJcFAybkRuRkcyZ1lxNm5OZVhNLURPUEVUVQ?oc=5" data-source="민주신문">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmNlVNV0xjN2w1SFhvM3lTd0hIYWxDdEtvUVhmdG5MNng1X2w1dkEwamhNX2k5VU82SVcydXhId1ZBSnY3THQ0RkdtMm85OTRBblFkcHByMFNaZlQ0eHBtZFVQZGZmVnPSAWtBVV95cUxQSGJzQVlTaDRYZlNrYTZIYVhkTlVpOVRjM3RaNHVlRmVVOW1iVjFjZnNjUWNBVUMxZHIteWZCN3pJQ1lBSGkzazBRQjR1ZWpzSUdJcFAybkRuRkcyZ1lxNm5OZVhNLURPUEVUVQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성 제조 넘어 우주 밸류체인 구축…사업 영토 넓힐까</a>
             <div class="card-meta">
               <span class="src">민주신문</span>
@@ -1613,15 +1340,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yUXNlWEpjR2dFa3lwMzhYcnduc3k4YjRJUlhDdzdCY3g5OV9VNlMwVUtJRjhhckpYcjJlVThyMHMzVW9mdFg4RnNPTUpmQ2JNN2RGUWcyVE5KQdIBVEFVX3lxTE9SbEhtUTFYT05SaUFaMlBqSXoybVFqR0lNaEplOFotNjhjOXZ1NzBSRERtdEJPN0RxVGRnYXRVa0gtNTAyWnBaU3dNSU1iVnp1cm1JMg?oc=5" data-source="news.tf.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yUXNlWEpjR2dFa3lwMzhYcnduc3k4YjRJUlhDdzdCY3g5OV9VNlMwVUtJRjhhckpYcjJlVThyMHMzVW9mdFg4RnNPTUpmQ2JNN2RGUWcyVE5KQdIBVEFVX3lxTE9SbEhtUTFYT05SaUFaMlBqSXoybVFqR0lNaEplOFotNjhjOXZ1NzBSRERtdEJPN0RxVGRnYXRVa0gtNTAyWnBaU3dNSU1iVnp1cm1JMg?oc=5" data-source="더팩트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yUXNlWEpjR2dFa3lwMzhYcnduc3k4YjRJUlhDdzdCY3g5OV9VNlMwVUtJRjhhckpYcjJlVThyMHMzVW9mdFg4RnNPTUpmQ2JNN2RGUWcyVE5KQdIBVEFVX3lxTE9SbEhtUTFYT05SaUFaMlBqSXoybVFqR0lNaEplOFotNjhjOXZ1NzBSRERtdEJPN0RxVGRnYXRVa0gtNTAyWnBaU3dNSU1iVnp1cm1JMg?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 분석 &#39;우주 AI 솔루션&#39; 해외 첫 공개</a>
             <div class="card-meta">
-              <span class="src">news.tf.co.kr</span>
+              <span class="src">더팩트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1633,11 +1356,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTFBreUdQaEVmQzA3VEZmOE9MTnJlR2FCUnJ6OWVaUEUyZnpnT1gxZ0dYWGVHMFdsWGZyVXRIMWt3QnlFTkhVQWlFRWl0TXFlYzMzYWhfOTBuR290eVh0QTlJS3g4U2JmYWEzTWF30gFvQVVfeXFMTUVwRTkzMV9Qa3Q4Z3drbnV6OGo3NGV5NEdSeWtiNnlzMXFPQU9DOUJqSl9jalBzTS1HT3BVSGUzUEtrSmh1UTdCc3ViQUtmRkRFbjZVT2loV0lFenpPQlg3TXVpSU5SMU9FSlVHdEtZ?oc=5" data-source="뉴스로드">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBreUdQaEVmQzA3VEZmOE9MTnJlR2FCUnJ6OWVaUEUyZnpnT1gxZ0dYWGVHMFdsWGZyVXRIMWt3QnlFTkhVQWlFRWl0TXFlYzMzYWhfOTBuR290eVh0QTlJS3g4U2JmYWEzTWF30gFvQVVfeXFMTUVwRTkzMV9Qa3Q4Z3drbnV6OGo3NGV5NEdSeWtiNnlzMXFPQU9DOUJqSl9jalBzTS1HT3BVSGUzUEtrSmh1UTdCc3ViQUtmRkRFbjZVT2loV0lFenpPQlg3TXVpSU5SMU9FSlVHdEtZ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 우주 AI 해외 첫 공개… 위성영상 분석부터 지휘체계 연동까지</a>
             <div class="card-meta">
               <span class="src">뉴스로드</span>
@@ -1652,11 +1371,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZQUY1c19qdVMybjgzMUVreFpWTHdROWtZellJRXh4S21tT2VxUGEwbmtPeFg2YlRDY2UxSzlua0NUYnhYd2VsU0FDcUkyeDVqWnNTX19kc1Z4NkFRSjVCTVA3REJLdlJkSHBuLW1MWlItaDg3?oc=5" data-source="파이낸셜포스트">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZQUY1c19qdVMybjgzMUVreFpWTHdROWtZellJRXh4S21tT2VxUGEwbmtPeFg2YlRDY2UxSzlua0NUYnhYd2VsU0FDcUkyeDVqWnNTX19kc1Z4NkFRSjVCTVA3REJLdlJkSHBuLW1MWlItaDg3?oc=5" target="_blank" rel="noopener noreferrer">&#34;해외 시장서 처음 선보인다&#34;…한화시스템, &#39;우주 AI 솔루션&#39; 공개</a>
             <div class="card-meta">
               <span class="src">파이낸셜포스트</span>
@@ -1671,11 +1386,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE5VQzJRNFdfcWNrdzZ3MmQ4SkR2VG5kUjJjdWp1cGdiUGZ5ZFdqSDVncmR5cjNUeFdja0pkRWROalgzSFc1Q3pvMnFrSWJvT1BHSm5GdDhfSUJhRDV3VmJQcnhyWFpwVC1mejlJWmdn?oc=5" data-source="위클리오늘">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5VQzJRNFdfcWNrdzZ3MmQ4SkR2VG5kUjJjdWp1cGdiUGZ5ZFdqSDVncmR5cjNUeFdja0pkRWROalgzSFc1Q3pvMnFrSWJvT1BHSm5GdDhfSUJhRDV3VmJQcnhyWFpwVC1mejlJWmdn?oc=5" target="_blank" rel="noopener noreferrer">[위클리오늘] 산업일반 소식_ADT캡스, 한화시스템(9.10)</a>
             <div class="card-meta">
               <span class="src">위클리오늘</span>
@@ -1689,15 +1400,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTE52ZWw4Vm53dzV3clFQVlJQalByM19vellvMmltN2JIOVpWbEpXRnJ6NWdiS3dxR0lMYm1KR1JlS0xFZjdDREpQLXdncHN6elo1RnIyLVBBQk1ZRGczeHh6Wkg5VE1MWmppakt4WnVKaw?oc=5" data-source="뉴스퀘스트">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTE52ZWw4Vm53dzV3clFQVlJQalByM19vellvMmltN2JIOVpWbEpXRnJ6NWdiS3dxR0lMYm1KR1JlS0xFZjdDREpQLXdncHN6elo1RnIyLVBBQk1ZRGczeHh6Wkg5VE1MWmppakt4WnVKaw?oc=5" data-source="newsquest.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE52ZWw4Vm53dzV3clFQVlJQalByM19vellvMmltN2JIOVpWbEpXRnJ6NWdiS3dxR0lMYm1KR1JlS0xFZjdDREpQLXdncHN6elo1RnIyLVBBQk1ZRGczeHh6Wkg5VE1MWmppakt4WnVKaw?oc=5" target="_blank" rel="noopener noreferrer">위성 정찰정보 K9·천무까지 잇는다…한화시스템, 우주 AI 해외 첫 공개</a>
             <div class="card-meta">
-              <span class="src">뉴스퀘스트</span>
+              <span class="src">newsquest.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1708,15 +1415,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE43SElMY3plRzYwSkZ5TjBHcG9lV19kbHBiSGxVV25hT2duVS1ZdWRQY1FjTW1aQnNPY3pvOE9kNUFLX2FSSUlTVlJEVFRub0xNYmRRNmx3b2w3UkVucG1tbEhCWjB4QXptMUE?oc=5" data-source="콕스뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTE43SElMY3plRzYwSkZ5TjBHcG9lV19kbHBiSGxVV25hT2duVS1ZdWRQY1FjTW1aQnNPY3pvOE9kNUFLX2FSSUlTVlJEVFRub0xNYmRRNmx3b2w3UkVucG1tbEhCWjB4QXptMUE?oc=5" data-source="coxnews.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE43SElMY3plRzYwSkZ5TjBHcG9lV19kbHBiSGxVV25hT2duVS1ZdWRQY1FjTW1aQnNPY3pvOE9kNUFLX2FSSUlTVlJEVFRub0xNYmRRNmx3b2w3UkVucG1tbEhCWjB4QXptMUE?oc=5" target="_blank" rel="noopener noreferrer">&#34;위성이 보고 AI가 판단한다&#34;…한화시스템, 우주 AI 솔루션 폴란드서 첫 공개</a>
             <div class="card-meta">
-              <span class="src">콕스뉴스</span>
+              <span class="src">coxnews.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1728,11 +1431,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HLTA5dkFDbHpyWkwxVHlscEdQZXc0aFAwZHRrc3dVN1ZvV1YzSWsyM25oVEI3dlBuMkdlZy1fZFNtdnBKZ1E2RWF0NmxvcHJhTHZ3Q3BCU240TUtyRUdfcFhUaGRaVE0?oc=5" data-source="문화저널21">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HLTA5dkFDbHpyWkwxVHlscEdQZXc0aFAwZHRrc3dVN1ZvV1YzSWsyM25oVEI3dlBuMkdlZy1fZFNtdnBKZ1E2RWF0NmxvcHJhTHZ3Q3BCU240TUtyRUdfcFhUaGRaVE0?oc=5" target="_blank" rel="noopener noreferrer">&#34;﻿﻿위성이 보고, AI가 읽고&#34;…한화시스템, 차세대 분석 기술 해외 첫 선</a>
             <div class="card-meta">
               <span class="src">문화저널21</span>
@@ -1747,11 +1446,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiUkFVX3lxTE55b2V5SWRMeTNoVXplRFFoZUljSFJTb1dab1R1SFpJYzNzNjVyQnptQnVLTzRBcll4cEFJZzRjNk9QX0VXeTUzWDY3aklJNEVBbnfSAVNBVV95cUxQeXhUWThzMG9KdlFUUEJUUzRjbWJpTU1Fb2p0NWlzWC12blUzdVRCb185Z3RrTDVHVnRfeDBrNVFwV25qeUMwRW10cUg0akMxVUdtbw?oc=5" data-source="서울경제">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE55b2V5SWRMeTNoVXplRFFoZUljSFJTb1dab1R1SFpJYzNzNjVyQnptQnVLTzRBcll4cEFJZzRjNk9QX0VXeTUzWDY3aklJNEVBbnfSAVNBVV95cUxQeXhUWThzMG9KdlFUUEJUUzRjbWJpTU1Fb2p0NWlzWC12blUzdVRCb185Z3RrTDVHVnRfeDBrNVFwV25qeUMwRW10cUg0akMxVUdtbw?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 ‘우주 AI 솔루션’ 해외 첫 공개…위성영상 실시간 판독·분석</a>
             <div class="card-meta">
               <span class="src">서울경제</span>
@@ -1766,11 +1461,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDa3pnbnZReEpiekVaV1RSZ2NHcXlNVF94Vl9iV1R2NzRHZzhpckktd0NNT3ZOc0Z5cUQ1MXpoSktyY2tUUnBDVGUwNA?oc=5" data-source="뉴스1">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDa3pnbnZReEpiekVaV1RSZ2NHcXlNVF94Vl9iV1R2NzRHZzhpckktd0NNT3ZOc0Z5cUQ1MXpoSktyY2tUUnBDVGUwNA?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 분석 &#39;우주 AI 솔루션&#39; 공개</a>
             <div class="card-meta">
               <span class="src">뉴스1</span>
@@ -1785,11 +1476,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xaFpLRW9tWmh4QVhEaEdjeTFlamI5ZmQ1RWpvdXVDU1duaXNjS01hZFNSckZ6SXhYMEVjM2dOREFaaGRiUEpQQmNpbw?oc=5" data-source="뉴스1">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xaFpLRW9tWmh4QVhEaEdjeTFlamI5ZmQ1RWpvdXVDU1duaXNjS01hZFNSckZ6SXhYMEVjM2dOREFaaGRiUEpQQmNpbw?oc=5" target="_blank" rel="noopener noreferrer">&#39;한화시스템의 우주 AI 솔루션은&#39;</a>
             <div class="card-meta">
               <span class="src">뉴스1</span>
@@ -1804,11 +1491,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FN2JzOWJWLTBKMzJIdTh1d2NIQkJ5SjItRE1CaERvd0xKR3VTV195LWxSRjhSVmtnZTA5ei16cVV0TUl3MExiVVlaLXpOTU90dFkza3pQczBWcHV2MmcwZVdVY0lqbWM?oc=5" data-source="투데이e코노믹">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FN2JzOWJWLTBKMzJIdTh1d2NIQkJ5SjItRE1CaERvd0xKR3VTV195LWxSRjhSVmtnZTA5ei16cVV0TUl3MExiVVlaLXpOTU90dFkza3pQczBWcHV2MmcwZVdVY0lqbWM?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 폴란드서 ‘우주 AI 솔루션’ 첫 공개…위성 영상 실시간 분석</a>
             <div class="card-meta">
               <span class="src">투데이e코노믹</span>
@@ -1823,11 +1506,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE5fMS0xTWJVUGN5V0JNa2tvemdaanlNN3ExeV95dnN4SnVvYnI4M2QwMS0yZzk1Wng2M3U2NmQ5enhoM3pqdXJKbzMyTkpOMU1GeTdIZVQ5b3UySXJKTVJNcDA5enpkQXNCcmJsTGUyaUvSAXRBVV95cUxONTQ5SGwtWThPaXhwVmMtV2VRZENCMlh1aUxmUDllNXM1OVZhZjRlaTdSX2lsaGx1NDFaZG5QX0ZoMTh0TXdtSjg2ZTZKTW14dUx0VVVTWEE4WmxxRTRvV2E1RTVGN1hmSno4OERvODJRV1oyVg?oc=5" data-source="포인트데일리">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5fMS0xTWJVUGN5V0JNa2tvemdaanlNN3ExeV95dnN4SnVvYnI4M2QwMS0yZzk1Wng2M3U2NmQ5enhoM3pqdXJKbzMyTkpOMU1GeTdIZVQ5b3UySXJKTVJNcDA5enpkQXNCcmJsTGUyaUvSAXRBVV95cUxONTQ5SGwtWThPaXhwVmMtV2VRZENCMlh1aUxmUDllNXM1OVZhZjRlaTdSX2lsaGx1NDFaZG5QX0ZoMTh0TXdtSjg2ZTZKTW14dUx0VVVTWEE4WmxxRTRvV2E1RTVGN1hmSno4OERvODJRV1oyVg?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 실시간 분석 ‘우주 AI 솔루션’ 글로벌 첫선</a>
             <div class="card-meta">
               <span class="src">포인트데일리</span>
@@ -1842,11 +1521,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMif0FVX3lxTE51MmU1bmtVMVotTEFMQ3l2VmxlUzBkcmFiR1E0ekRnS2pTREd1UGxCendQZFJQZ0x2S0dEQmRSNkZ5TGxLQjRXLWRONkRJZDQtWWVUVTNvV2hMZVRnODQtbVRCeS1fUHduMm1YblU4Qjc4R1ZfZDlzNXZpVjJmSWM?oc=5" data-source="한화그룹">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE51MmU1bmtVMVotTEFMQ3l2VmxlUzBkcmFiR1E0ekRnS2pTREd1UGxCendQZFJQZ0x2S0dEQmRSNkZ5TGxLQjRXLWRONkRJZDQtWWVUVTNvV2hMZVRnODQtbVRCeS1fUHduMm1YblU4Qjc4R1ZfZDlzNXZpVjJmSWM?oc=5" target="_blank" rel="noopener noreferrer">한화, &#39;다층방공망·우주 AI&#39;로 유럽시장 공략 확대</a>
             <div class="card-meta">
               <span class="src">한화그룹</span>
@@ -1861,11 +1536,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE8tWlpYYUREQWdObXIzNHVBSndyd3RjaXdySmhOZVRjNmlnRDV5bG9XWWJXZGRGWFJSQUMwQ0Y5QUZkU2RUSVhxdUZvaDhqVW9ha0RZUnhFTWlqNFcxa0ZIbC1XeTRtbU96UjBwTg?oc=5" data-source="데이터넷">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8tWlpYYUREQWdObXIzNHVBSndyd3RjaXdySmhOZVRjNmlnRDV5bG9XWWJXZGRGWFJSQUMwQ0Y5QUZkU2RUSVhxdUZvaDhqVW9ha0RZUnhFTWlqNFcxa0ZIbC1XeTRtbU96UjBwTg?oc=5" target="_blank" rel="noopener noreferrer">케이앤에스아이앤씨·한화시스템, 군용 저궤도 맨팩 안테나 시제품 개발·납품</a>
             <div class="card-meta">
               <span class="src">데이터넷</span>
@@ -1880,11 +1551,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHY0xRZGp3MVhrWk1QM2MxamdfLWMtYnNYdTRjdTNnZGFvTkR5Y3AtMGg3NkNhUERXN3E5QUpsWllmLUxHRU1rUi1YM3Noa1FRS2t3TkxVbVE?oc=5" data-source="뷰어스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHY0xRZGp3MVhrWk1QM2MxamdfLWMtYnNYdTRjdTNnZGFvTkR5Y3AtMGg3NkNhUERXN3E5QUpsWllmLUxHRU1rUi1YM3Noa1FRS2t3TkxVbVE?oc=5" target="_blank" rel="noopener noreferrer">[KAI의 선택②] 한화, 어디까지 들어올까…이사회보다 민감한 ‘정보 접근’</a>
             <div class="card-meta">
               <span class="src">뷰어스</span>
@@ -1898,15 +1565,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE5KV1ZhTFVLckljRmZwUTU1aEJlYTc2dUdpVTIwVDR3M3phMEpkbFh1Nm9IU3VUcm8yQ1B3OF9hTUk5RUIxanBlcWxiMFpGS3h0LVQwTlRWZG8yNXRSRV8zcWpkSWwtU0Y2MmlrNFNtLWlNUTjSAXdBVV95cUxOX2FGcXg2RzV2M2dmcWNwN3FFcE5sOG12X3pVOEx5OVVYdFdkaThMUXhzQUdsT3ZoeElvc0V2SHI5OVFzcUpBRFZVbDVGNlNEV0NERTZnWVdnRTFaeEtva1otVjBoa2Z3M3pyS01xVFBqOHZZVHlEWQ?oc=5" data-source="핀포인트뉴스">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE5KV1ZhTFVLckljRmZwUTU1aEJlYTc2dUdpVTIwVDR3M3phMEpkbFh1Nm9IU3VUcm8yQ1B3OF9hTUk5RUIxanBlcWxiMFpGS3h0LVQwTlRWZG8yNXRSRV8zcWpkSWwtU0Y2MmlrNFNtLWlNUTjSAXdBVV95cUxOX2FGcXg2RzV2M2dmcWNwN3FFcE5sOG12X3pVOEx5OVVYdFdkaThMUXhzQUdsT3ZoeElvc0V2SHI5OVFzcUpBRFZVbDVGNlNEV0NERTZnWVdnRTFaeEtva1otVjBoa2Z3M3pyS01xVFBqOHZZVHlEWQ?oc=5" data-source="pinpointnews.co.kr">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5KV1ZhTFVLckljRmZwUTU1aEJlYTc2dUdpVTIwVDR3M3phMEpkbFh1Nm9IU3VUcm8yQ1B3OF9hTUk5RUIxanBlcWxiMFpGS3h0LVQwTlRWZG8yNXRSRV8zcWpkSWwtU0Y2MmlrNFNtLWlNUTjSAXdBVV95cUxOX2FGcXg2RzV2M2dmcWNwN3FFcE5sOG12X3pVOEx5OVVYdFdkaThMUXhzQUdsT3ZoeElvc0V2SHI5OVFzcUpBRFZVbDVGNlNEV0NERTZnWVdnRTFaeEtva1otVjBoa2Z3M3pyS01xVFBqOHZZVHlEWQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 위성영상 분석 기술 ‘우주 AI 솔루션’ 첫 해외 공개</a>
             <div class="card-meta">
-              <span class="src">핀포인트뉴스</span>
+              <span class="src">pinpointnews.co.kr</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1917,34 +1580,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DcnJHRnFUR3NHWjFTSF9ydDVRZjYzNk1BTHVVdC03UHVwemoxS0xtaU9qNEczZ0xWZS1HTEEzQVRnSlFJWGM5ejFsdmluSU41Z3czU1pBTXZHRnF5emFQZjB4eXB3VHRI?oc=5" data-source="데일리팝">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DcnJHRnFUR3NHWjFTSF9ydDVRZjYzNk1BTHVVdC03UHVwemoxS0xtaU9qNEczZ0xWZS1HTEEzQVRnSlFJWGM5ejFsdmluSU41Z3czU1pBTXZHRnF5emFQZjB4eXB3VHRI?oc=5" target="_blank" rel="noopener noreferrer">위성사진, 사람이 아닌 AI가 분석한다…한화시스템 &#39;우주 A&#39; 해외 첫 공개</a>
-            <div class="card-meta">
-              <span class="src">데일리팝</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-10T08:52:00+00:00">2026-09-10T08:52:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE8wd09xeUROY3RocW5xTmhURlkyWVpNT1JaZTExd0RfWjNZc0pUVWNpSlFsZW9WbEMtQU5WWlBRRmRtRE1abDQ4V1VpWHhvSTRGYUZfeXh3aEktTDg3UWtnTllOUkt1eklyT05UNg?oc=5" data-source="econovill.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE8wd09xeUROY3RocW5xTmhURlkyWVpNT1JaZTExd0RfWjNZc0pUVWNpSlFsZW9WbEMtQU5WWlBRRmRtRE1abDQ4V1VpWHhvSTRGYUZfeXh3aEktTDg3UWtnTllOUkt1eklyT05UNg?oc=5" data-source="ER 이코노믹리뷰">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8wd09xeUROY3RocW5xTmhURlkyWVpNT1JaZTExd0RfWjNZc0pUVWNpSlFsZW9WbEMtQU5WWlBRRmRtRE1abDQ4V1VpWHhvSTRGYUZfeXh3aEktTDg3UWtnTllOUkt1eklyT05UNg?oc=5" target="_blank" rel="noopener noreferrer">[진격의 K방산, 글로벌 경쟁의 날개를 달아라④] 한화가 그리는 한국판 스페이스X, 그리고 함께 걷는 길</a>
             <div class="card-meta">
-              <span class="src">econovill.com</span>
+              <span class="src">ER 이코노믹리뷰</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1955,12 +1595,23 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE8yQTd3QVJ3V0MwRDVRWVc5ampid25fYzAtTGVrXzZxalRnUkI4Zy1BWXBOZjYtSXB0ejVOTnh4djRkSTFtZ09BY0dkU2p4bHZmajFDM0Z0dm41MElob0lTdG1LejR4NjdBa1V5clR3?oc=5" data-source="gukjenews.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
+          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DcnJHRnFUR3NHWjFTSF9ydDVRZjYzNk1BTHVVdC03UHVwemoxS0xtaU9qNEczZ0xWZS1HTEEzQVRnSlFJWGM5ejFsdmluSU41Z3czU1pBTXZHRnF5emFQZjB4eXB3VHRI?oc=5" data-source="dailypop.kr">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DcnJHRnFUR3NHWjFTSF9ydDVRZjYzNk1BTHVVdC03UHVwemoxS0xtaU9qNEczZ0xWZS1HTEEzQVRnSlFJWGM5ejFsdmluSU41Z3czU1pBTXZHRnF5emFQZjB4eXB3VHRI?oc=5" target="_blank" rel="noopener noreferrer">위성사진, 사람이 아닌 AI가 분석한다…한화시스템 &#39;우주 A&#39; 해외 첫 공개</a>
+            <div class="card-meta">
+              <span class="src">dailypop.kr</span>
+              <span class="tag">한화시스템</span>
             </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T08:52:00+00:00">2026-09-10T08:52:00+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE8yQTd3QVJ3V0MwRDVRWVc5ampid25fYzAtTGVrXzZxalRnUkI4Zy1BWXBOZjYtSXB0ejVOTnh4djRkSTFtZ09BY0dkU2p4bHZmajFDM0Z0dm41MElob0lTdG1LejR4NjdBa1V5clR3?oc=5" data-source="gukjenews.com">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE8yQTd3QVJ3V0MwRDVRWVc5ampid25fYzAtTGVrXzZxalRnUkI4Zy1BWXBOZjYtSXB0ejVOTnh4djRkSTFtZ09BY0dkU2p4bHZmajFDM0Z0dm41MElob0lTdG1LejR4NjdBa1V5clR3?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, &#39;우주 AI 솔루션&#39; 해외 전시회서 첫 공개</a>
             <div class="card-meta">
               <span class="src">gukjenews.com</span>
@@ -1974,15 +1625,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NE1sZTNLUnI4YjE1M2liZVBUNGRQTGJIaTNodmRJdU5pbW1wNy02MHZqbHFwdXJ4eTEwbE1uVnpHdUpLdHNQa0VHQkRsanZwMW00?oc=5" data-source="news.nate.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NE1sZTNLUnI4YjE1M2liZVBUNGRQTGJIaTNodmRJdU5pbW1wNy02MHZqbHFwdXJ4eTEwbE1uVnpHdUpLdHNQa0VHQkRsanZwMW00?oc=5" data-source="네이트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NE1sZTNLUnI4YjE1M2liZVBUNGRQTGJIaTNodmRJdU5pbW1wNy02MHZqbHFwdXJ4eTEwbE1uVnpHdUpLdHNQa0VHQkRsanZwMW00?oc=5" target="_blank" rel="noopener noreferrer">[방산 &amp; Now] 한화시스템, &#39;우주 AI 솔루션&#39; 첫 해외 공개 등</a>
             <div class="card-meta">
-              <span class="src">news.nate.com</span>
+              <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -1994,11 +1641,7 @@
           </li>
           
           <li data-link="https://news.google.com/rss/articles/CBMigAFBVV95cUxOanVlbkIzeERudUZnS0pBbk5tbWFKTkVHRkROdzNPanVnc2t2LUNyYjhvUXltRi15dTQ4MWpTd0hLVnRHQWNfbXdJcDh3TldndkFLREEtanpCQzJxX3pnSXBrVDl3RnlaS0dUdXV3bjA2ZXc1cUh3S1kxR3ZGR2tYVg?oc=5" data-source="edaily.co.kr">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxOanVlbkIzeERudUZnS0pBbk5tbWFKTkVHRkROdzNPanVnc2t2LUNyYjhvUXltRi15dTQ4MWpTd0hLVnRHQWNfbXdJcDh3TldndkFLREEtanpCQzJxX3pnSXBrVDl3RnlaS0dUdXV3bjA2ZXc1cUh3S1kxR3ZGR2tYVg?oc=5" target="_blank" rel="noopener noreferrer">&#34;위성이 찍고 AI가 분석&#34;…한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개</a>
             <div class="card-meta">
               <span class="src">edaily.co.kr</span>
@@ -2012,15 +1655,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE1GNEZsZXYtcHZBSHpuWXpWLWVsNDV3SHdqYnZnRjhndEdwTFZkbFBQc0QxbkFGNVdFUTVGSkQ1ZVZZbUpwX3lud0ZiNUZzMU9ucHhGTUZoRGhVZ0NmME5GNzcxOHVLVWk4SnpoOQ?oc=5" data-source="econovill.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE1GNEZsZXYtcHZBSHpuWXpWLWVsNDV3SHdqYnZnRjhndEdwTFZkbFBQc0QxbkFGNVdFUTVGSkQ1ZVZZbUpwX3lud0ZiNUZzMU9ucHhGTUZoRGhVZ0NmME5GNzcxOHVLVWk4SnpoOQ?oc=5" data-source="ER 이코노믹리뷰">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1GNEZsZXYtcHZBSHpuWXpWLWVsNDV3SHdqYnZnRjhndEdwTFZkbFBQc0QxbkFGNVdFUTVGSkQ1ZVZZbUpwX3lud0ZiNUZzMU9ucHhGTUZoRGhVZ0NmME5GNzcxOHVLVWk4SnpoOQ?oc=5" target="_blank" rel="noopener noreferrer">[진격의 K방산, 글로벌 경쟁의 날개를 달아라①] 한화의 KAI 인수 시계, 다시 움직이다</a>
             <div class="card-meta">
-              <span class="src">econovill.com</span>
+              <span class="src">ER 이코노믹리뷰</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -2031,15 +1670,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5" data-source="news.nate.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5" data-source="네이트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 차세대 위성영상 분석 기술 첫 공개</a>
             <div class="card-meta">
-              <span class="src">news.nate.com</span>
+              <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -2050,15 +1685,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE53bmUyUzZ2dGhWZHVnejcwaHYxdDBfblFNQko0X1NHNXBlZ2c5QmY0TUdPdHpyajRaSjdndURsRVluQlZjQzdaVVEweHpfeE52U3Rz?oc=5" data-source="news.nate.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE53bmUyUzZ2dGhWZHVnejcwaHYxdDBfblFNQko0X1NHNXBlZ2c5QmY0TUdPdHpyajRaSjdndURsRVluQlZjQzdaVVEweHpfeE52U3Rz?oc=5" data-source="네이트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE53bmUyUzZ2dGhWZHVnejcwaHYxdDBfblFNQko0X1NHNXBlZ2c5QmY0TUdPdHpyajRaSjdndURsRVluQlZjQzdaVVEweHpfeE52U3Rz?oc=5" target="_blank" rel="noopener noreferrer">위성이 찍자 AI가 표적 포착…한화시스템 &#39;우주 정찰의 눈&#39; 첫 공개</a>
             <div class="card-meta">
-              <span class="src">news.nate.com</span>
+              <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -2069,15 +1700,11 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbzI5OHJpdVRzVlhzVDZNZHRWZFJMcEZkS0xQRnp2bmFnVGw2dzBnMkZOZnZZZEpEQlRQU08tR2VnQnlSVkEwdV9PbGl1c2F1eG5J?oc=5" data-source="news.nate.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbzI5OHJpdVRzVlhzVDZNZHRWZFJMcEZkS0xQRnp2bmFnVGw2dzBnMkZOZnZZZEpEQlRQU08tR2VnQnlSVkEwdV9PbGl1c2F1eG5J?oc=5" data-source="네이트">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbzI5OHJpdVRzVlhzVDZNZHRWZFJMcEZkS0xQRnp2bmFnVGw2dzBnMkZOZnZZZEpEQlRQU08tR2VnQnlSVkEwdV9PbGl1c2F1eG5J?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 &#39;AI 위성영상 분석기술&#39; 공개…K9·천무 연동해 정밀타격</a>
             <div class="card-meta">
-              <span class="src">news.nate.com</span>
+              <span class="src">네이트</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
@@ -2088,20 +1715,31 @@
             </div>
           </li>
           
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE9zdTFfeXFtcGU3MnRMWG9PQ3FFNFc4R1NzQ0NsNTJJWEIwTWRLMVBkc0xpdFdwOXUwMThMV3RFMDUyVEJkM3VqVzhXUDVLZkZ6SXRFRm5MM2FVbHZnZUlsVXRKek1xekhSSnVwbA?oc=5" data-source="econovill.com">
-            <div class="thumb">
-              
-              <span>기사 썸네일</span>
-              
-            </div>
+          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE9zdTFfeXFtcGU3MnRMWG9PQ3FFNFc4R1NzQ0NsNTJJWEIwTWRLMVBkc0xpdFdwOXUwMThMV3RFMDUyVEJkM3VqVzhXUDVLZkZ6SXRFRm5MM2FVbHZnZUlsVXRKek1xekhSSnVwbA?oc=5" data-source="ER 이코노믹리뷰">
+            
             <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9zdTFfeXFtcGU3MnRMWG9PQ3FFNFc4R1NzQ0NsNTJJWEIwTWRLMVBkc0xpdFdwOXUwMThMV3RFMDUyVEJkM3VqVzhXUDVLZkZ6SXRFRm5MM2FVbHZnZUlsVXRKek1xekhSSnVwbA?oc=5" target="_blank" rel="noopener noreferrer">[진격의 K방산, 글로벌 경쟁의 날개를 달아라⑥] &#34;보잉 적자는 2019년, 합병은 1997년&#34; KAI 노조 팩트체크 해보니</a>
             <div class="card-meta">
-              <span class="src">econovill.com</span>
+              <span class="src">ER 이코노믹리뷰</span>
               <span class="tag">한화시스템</span>
             </div>
             <div class="card-foot">
               
               <time datetime="2026-09-11T01:17:05+00:00">2026-09-11T01:17:05+00:00</time>
+              
+              <button type="button" class="read-toggle">읽음</button>
+            </div>
+          </li>
+          
+          <li data-link="https://news.google.com/rss/articles/CBMickFVX3lxTFBlWVB1YVZ2c3dDN3RQZzQ5d0tUMWFQNW9ucWpBanpwd1YwQ1hHWFNpT2NMb2hzcHRCMTVWb1VmTU9lcFA4SXFNQXhxdks2S214Tl9TN211ajcwZ0dkTW9KMmtHUGNmRG53RnRWQ3d5ejV0QQ?oc=5" data-source="joongangenews.com">
+            
+            <a class="title" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBlWVB1YVZ2c3dDN3RQZzQ5d0tUMWFQNW9ucWpBanpwd1YwQ1hHWFNpT2NMb2hzcHRCMTVWb1VmTU9lcFA4SXFNQXhxdks2S214Tl9TN211ajcwZ0dkTW9KMmtHUGNmRG53RnRWQ3d5ejV0QQ?oc=5" target="_blank" rel="noopener noreferrer">위성영상 AI가 초 단위 분석...한화시스템, ‘우주 AI 솔루션’ 해외 첫선</a>
+            <div class="card-meta">
+              <span class="src">joongangenews.com</span>
+              <span class="tag">한화시스템</span>
+            </div>
+            <div class="card-foot">
+              
+              <time datetime="2026-09-10T02:35:00+00:00">2026-09-10T02:35:00+00:00</time>
               
               <button type="button" class="read-toggle">읽음</button>
             </div>
