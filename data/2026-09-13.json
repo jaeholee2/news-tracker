@@ -41,7 +41,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sSDI4THFGYzJUMHVXalVXZ3NtZWhOTHlTWGlsTkpVSjRrZVZzVWN4b3FSV1JRZDhtYWtkYVVXMFl2ekd6WUlqUFZ3TEtBRDBOZ2dz?oc=5",
     "published_at": "2026-09-10T00:33:00+00:00",
     "sources": [
-      "news.nate.com",
+      "네이트",
       "뉴스핌"
     ],
     "keywords": [
@@ -74,35 +74,11 @@
     "image": ""
   },
   {
-    "title": "위성이 보고, AI가 읽는다…한화시스템, '우주 AI 솔루션' 해외서 첫 공개",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DcVdIOWFuRFdidXQ5eHc3TER0a2ZTbk1KVDRDbjhVQ1ZrOW1sYjJIWUx3RHpFaW84cVVrX014TExsRk5odDBJZTZjOTloTW1QdnNNVmU0VkJRSHFWd0FSWVVySHpUdTNMXzBVZUs0X2ZBX0VqcGFCRlFOcWpfSUU?oc=5",
-    "published_at": "2026-09-10T00:43:24+00:00",
-    "sources": [
-      "한화그룹"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화시스템, '우주 AI 솔루션' 해외 전시회서 첫 공개",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yQTd3QVJ3V0MwRDVRWVc5ampid25fYzAtTGVrXzZxalRnUkI4Zy1BWXBOZjYtSXB0ejVOTnh4djRkSTFtZ09BY0dkU2p4bHZmajFDM0Z0dm41MElob0lTdG1LejR4NjdBa1V5clR3?oc=5",
-    "published_at": "2026-09-10T10:17:38+00:00",
-    "sources": [
-      "gukjenews.com"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화시스템 수주공시 - 단일판매·공급계약체결",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KeDQ1aTJJRVg1NzJ4Y2t6WXVidDVhMDQydjQ0dWpGU0pzRHlFeFNRWnFRNnlDMDlrZUREUkM4WkRTTFI2Sl9iVDNlYTVBT0RwT2lN?oc=5",
     "published_at": "2026-09-11T08:01:00+00:00",
     "sources": [
-      "news.nate.com"
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -114,7 +90,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wbWxockt5ZDEwcWJ4a1laMlhqQ1ppWEt0eUFhaGEzYnQxdHk2bU1pc3FxdXotRnVIbjRMNHVvZUpEOEZXejBTbUhsc1k3cFB3WXV3?oc=5",
     "published_at": "2026-09-10T04:16:00+00:00",
     "sources": [
-      "news.nate.com",
+      "네이트",
       "브릿지경제"
     ],
     "keywords": [
@@ -128,7 +104,7 @@
     "published_at": "2026-09-13T02:24:37+00:00",
     "sources": [
       "edaily.co.kr",
-      "news.nate.com"
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -140,7 +116,31 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aa3E3Zl9QeUFULWxkT0ZTdW80MHJQbkRCOVZHdlRKQlhnXy1yaWphTVlaeXNHMGRKUG1kSDlaYjVJSC1uVVRMdmswaVZ4SDJpVjVn?oc=5",
     "published_at": "2026-09-10T00:50:00+00:00",
     "sources": [
-      "news.nate.com"
+      "네이트"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화시스템 'AI 위성영상 분석기술' 공개…K9·천무 연동해 정밀타격",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbzI5OHJpdVRzVlhzVDZNZHRWZFJMcEZkS0xQRnp2bmFnVGw2dzBnMkZOZnZZZEpEQlRQU08tR2VnQnlSVkEwdV9PbGl1c2F1eG5J?oc=5",
+    "published_at": "2026-09-10T01:06:00+00:00",
+    "sources": [
+      "네이트"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "위성이 찍자 AI가 표적 포착…한화시스템 '우주 정찰의 눈' 첫 공개",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53bmUyUzZ2dGhWZHVnejcwaHYxdDBfblFNQko0X1NHNXBlZ2c5QmY0TUdPdHpyajRaSjdndURsRVluQlZjQzdaVVEweHpfeE52U3Rz?oc=5",
+    "published_at": "2026-09-10T04:48:00+00:00",
+    "sources": [
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -152,7 +152,19 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIOWZOSFRnRVFoTHRTNHNpUk5HZE5lREhtQ2QyTkhrcExXb0xOaE5VX0wtOWIzdjEwRHVKa0hyT2lWb2VqLWNQVGQ1TEpFV0dqbmxPcFE2S3czSDh1Qzc2adIBYEFVX3lxTFBIOWZOSFRnRVFoTHRTNHNpUk5HZE5lREhtQ2QyTkhrcExXb0xOaE5VX0wtOWIzdjEwRHVKa0hyT2lWb2VqLWNQVGQ1TEpFV0dqbmxPcFE2S3czSDh1Qzc2aQ?oc=5",
     "published_at": "2026-09-10T00:57:11+00:00",
     "sources": [
-      "연합뉴스"
+      "yna.co.kr"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "게임에 쓰인 소재가 궁금할 때 보는 한화 시스템 블록 체인",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb1l0aUdrZUhwckY4VS1JSDg0bm5kSUVhOVlpaEZBbnU3MEc3UUFtbTNCQmhaVEVuamF2WDQ0Z3g0SnJFSFlZNEpHNWlXSUxvbEQwUDNHZW9IejMxUG1ZTk9ac1FvemV2aTNsZUdfRF9XQWhnYlVtbnE4VkxaS0ZyTldJRzc2cFFHdGU1NUNiVnF4YXp4NkZNT3U5SVpEaDVZcXdXVGY3TmNSRHdqTVA5RXNadUlKeWc?oc=5",
+    "published_at": "2026-09-13T06:29:36+00:00",
+    "sources": [
+      "Calgary Roughnecks"
     ],
     "keywords": [
       "한화시스템"
@@ -164,7 +176,19 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5abTllbHQ5NzRpRi1LVWR5QzlSdDlQTnVqVDlCRFBDdk9mVUF3OGM3cTA5U21vOEJvNVdJYlVJeDVUSjZyYWRHalFBb1Z3dURhWEVMbE1INW9tOVBZd05faFFOU3k?oc=5",
     "published_at": "2026-09-10T05:05:16+00:00",
     "sources": [
-      "서울대학교"
+      "snu.ac.kr"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "위성이 보고, AI가 읽는다…한화시스템, '우주 AI 솔루션' 해외서 첫 공개",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DcVdIOWFuRFdidXQ5eHc3TER0a2ZTbk1KVDRDbjhVQ1ZrOW1sYjJIWUx3RHpFaW84cVVrX014TExsRk5odDBJZTZjOTloTW1QdnNNVmU0VkJRSHFWd0FSWVVySHpUdTNMXzBVZUs0X2ZBX0VqcGFCRlFOcWpfSUU?oc=5",
+    "published_at": "2026-09-10T00:43:24+00:00",
+    "sources": [
+      "한화그룹"
     ],
     "keywords": [
       "한화시스템"
@@ -176,7 +200,7 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80ckY5SlljR0kzajI1VWttckFRTXl3VzF0RzE0RTU4N1oyWmdsb1ZNb29lWkpNQTUySjNEM0M0bUIyMXNLYkNSR3dPVUZ6SjhnODFsaG9teWRUWU1uUUMzaENkZEhydk5Hc29jb3VuNW8?oc=5",
     "published_at": "2026-09-10T00:05:17+00:00",
     "sources": [
-      "news.einfomax.co.kr"
+      "연합인포맥스"
     ],
     "keywords": [
       "한화시스템"
@@ -189,7 +213,7 @@
     "published_at": "2026-09-10T08:12:00+00:00",
     "sources": [
       "YTN",
-      "news.nate.com"
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -353,11 +377,13 @@
     "image": ""
   },
   {
-    "title": "한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjMWFlYmhSeG1vb2hCMUZYb2M1NmEteFlYbkFyTUZ1NHlBZ09WMUtwdjVjdHdoTWJ5MWhqUmFkQk0yd2pvSFNIVl9SRTlwaHlhSHlCREVxQmZHNF80amIwekJyamU1ZG1tUkpMYTkwWGQ?oc=5",
-    "published_at": "2026-09-10T00:02:02+00:00",
+    "title": "한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…“위성이 보고 AI가 읽는다”",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOHRXZjN5eVNMb0pGSnpOUFhSZjg2LWJsbXJOX21nRVZVYjVSMUZJR3U3a3c0MWxqdF9scnJUY0VVb08wb2U0ZmNkS2VQbkJtVHN5LWFOdmN6aDlubW9GYjFxZU1HQjBjQ3oyag?oc=5",
+    "published_at": "2026-09-11T05:12:03+00:00",
     "sources": [
-      "신아일보"
+      "nanumy.co.kr",
+      "v.daum.net",
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -365,13 +391,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개…“위성이 보고 AI가 읽는다”",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOHRXZjN5eVNMb0pGSnpOUFhSZjg2LWJsbXJOX21nRVZVYjVSMUZJR3U3a3c0MWxqdF9scnJUY0VVb08wb2U0ZmNkS2VQbkJtVHN5LWFOdmN6aDlubW9GYjFxZU1HQjBjQ3oyag?oc=5",
-    "published_at": "2026-09-11T05:12:03+00:00",
+    "title": "한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjMWFlYmhSeG1vb2hCMUZYb2M1NmEteFlYbkFyTUZ1NHlBZ09WMUtwdjVjdHdoTWJ5MWhqUmFkQk0yd2pvSFNIVl9SRTlwaHlhSHlCREVxQmZHNF80amIwekJyamU1ZG1tUkpMYTkwWGQ?oc=5",
+    "published_at": "2026-09-10T00:02:02+00:00",
     "sources": [
-      "nanumy.co.kr",
-      "v.daum.net",
-      "news.nate.com"
+      "신아일보"
     ],
     "keywords": [
       "한화시스템"
@@ -467,7 +491,7 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maUFYWU1iV25aZDhQTlZSMUpzU3VLVHJiSlk3OWhVeVZudUhPblAydFZnWGZaaGFTYlBtUDlIbVo2R2lNbFYxU1cwUFdqTENsaFhNcDdNdlpPY1JUa2M4ZDVjb3dvc1N2RV92alRhandpa2ty?oc=5",
     "published_at": "2026-09-10T01:19:52+00:00",
     "sources": [
-      "부산일보"
+      "busan.com"
     ],
     "keywords": [
       "한화시스템"
@@ -480,7 +504,7 @@
     "published_at": "2026-09-10T00:44:43+00:00",
     "sources": [
       "v.daum.net",
-      "news.nate.com"
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -516,7 +540,7 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01el96Tk1GQUZmclcyVDZBS21XZFNwQm1mazZuT2h0RjNOcHBuY2d0UWltWGM0VXlETUxHQ052RDUtbmUwSWdFS0RaUVI3YlUwQUU3LVFwa3g1MnlnV0FLUFZrSEpENndQN2FfZA?oc=5",
     "published_at": "2026-09-10T04:44:43+00:00",
     "sources": [
-      "dailybizon.com"
+      "데일리비즈온"
     ],
     "keywords": [
       "한화시스템"
@@ -644,18 +668,6 @@
     "image": ""
   },
   {
-    "title": "한화시스템, '우주 AI 솔루션'…폴란드서 첫 공개",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2SEFrSWRLSEhRazZPNHFhaEl0T2JtVEdFOXVuVkcydjd5OEFzQ2l4WVhfMXZJejhuTVJHSjN4N0Rvbk5tUERPNDF4X25sWVlWbEtEazQ3NnlyRlNkSUZFZDZjelpZTmRqb20wVnktN3h3WHc?oc=5",
-    "published_at": "2026-09-10T01:09:55+00:00",
-    "sources": [
-      "디지털투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화시스템, 우주 AI 해외 첫 공개… 위성영상 분석부터 지휘체계 연동까지",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBreUdQaEVmQzA3VEZmOE9MTnJlR2FCUnJ6OWVaUEUyZnpnT1gxZ0dYWGVHMFdsWGZyVXRIMWt3QnlFTkhVQWlFRWl0TXFlYzMzYWhfOTBuR290eVh0QTlJS3g4U2JmYWEzTWF30gFvQVVfeXFMTUVwRTkzMV9Qa3Q4Z3drbnV6OGo3NGV5NEdSeWtiNnlzMXFPQU9DOUJqSl9jalBzTS1HT3BVSGUzUEtrSmh1UTdCc3ViQUtmRkRFbjZVT2loV0lFenpPQlg3TXVpSU5SMU9FSlVHdEtZ?oc=5",
     "published_at": "2026-09-10T03:24:14+00:00",
@@ -756,7 +768,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52ZWw4Vm53dzV3clFQVlJQalByM19vellvMmltN2JIOVpWbEpXRnJ6NWdiS3dxR0lMYm1KR1JlS0xFZjdDREpQLXdncHN6elo1RnIyLVBBQk1ZRGczeHh6Wkg5VE1MWmppakt4WnVKaw?oc=5",
     "published_at": "2026-09-10T00:34:52+00:00",
     "sources": [
-      "뉴스퀘스트"
+      "newsquest.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -781,7 +793,7 @@
     "published_at": "2026-09-11T05:23:05+00:00",
     "sources": [
       "얼리어답터뉴스",
-      "youthassembly.kr"
+      "유스연합"
     ],
     "keywords": [
       "한화시스템"
@@ -861,18 +873,6 @@
     "image": ""
   },
   {
-    "title": "[방산 & Now] 한화시스템, '우주 AI 솔루션' 첫 해외 공개 등",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NE1sZTNLUnI4YjE1M2liZVBUNGRQTGJIaTNodmRJdU5pbW1wNy02MHZqbHFwdXJ4eTEwbE1uVnpHdUpLdHNQa0VHQkRsanZwMW00?oc=5",
-    "published_at": "2026-09-10T06:34:00+00:00",
-    "sources": [
-      "news.nate.com"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "\"위성이 찍고 AI가 분석\"…한화시스템, ‘우주 AI 솔루션’ 해외 첫 공개",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanVlbkIzeERudUZnS0pBbk5tbWFKTkVHRkROdzNPanVnc2t2LUNyYjhvUXltRi15dTQ4MWpTd0hLVnRHQWNfbXdJcDh3TldndkFLREEtanpCQzJxX3pnSXBrVDl3RnlaS0dUdXV3bjA2ZXc1cUh3S1kxR3ZGR2tYVg?oc=5",
     "published_at": "2026-09-10T00:32:32+00:00",
@@ -885,11 +885,11 @@
     "image": ""
   },
   {
-    "title": "위성이 찍자 AI가 표적 포착…한화시스템 '우주 정찰의 눈' 첫 공개",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53bmUyUzZ2dGhWZHVnejcwaHYxdDBfblFNQko0X1NHNXBlZ2c5QmY0TUdPdHpyajRaSjdndURsRVluQlZjQzdaVVEweHpfeE52U3Rz?oc=5",
-    "published_at": "2026-09-10T04:48:00+00:00",
+    "title": "[방산 & Now] 한화시스템, '우주 AI 솔루션' 첫 해외 공개 등",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NE1sZTNLUnI4YjE1M2liZVBUNGRQTGJIaTNodmRJdU5pbW1wNy02MHZqbHFwdXJ4eTEwbE1uVnpHdUpLdHNQa0VHQkRsanZwMW00?oc=5",
+    "published_at": "2026-09-10T06:34:00+00:00",
     "sources": [
-      "news.nate.com"
+      "네이트"
     ],
     "keywords": [
       "한화시스템"
@@ -897,11 +897,23 @@
     "image": ""
   },
   {
-    "title": "한화시스템 'AI 위성영상 분석기술' 공개…K9·천무 연동해 정밀타격",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbzI5OHJpdVRzVlhzVDZNZHRWZFJMcEZkS0xQRnp2bmFnVGw2dzBnMkZOZnZZZEpEQlRQU08tR2VnQnlSVkEwdV9PbGl1c2F1eG5J?oc=5",
-    "published_at": "2026-09-10T01:06:00+00:00",
+    "title": "한화시스템, '우주 AI 솔루션'…폴란드서 첫 공개",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NTHdnV003X3d5bHQteUllRnFVVnlZU1pabVBTZlNaOGV1akVkblY2UnVWUkN1Mzk1cWkzQzh6UmlLc0FLT2VvVDJvRXVlMGtMOHpZ?oc=5",
+    "published_at": "2026-09-10T01:10:00+00:00",
     "sources": [
-      "news.nate.com"
+      "네이트"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화시스템, '우주 AI 솔루션' 해외 전시회서 첫 공개",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yQTd3QVJ3V0MwRDVRWVc5ampid25fYzAtTGVrXzZxalRnUkI4Zy1BWXBOZjYtSXB0ejVOTnh4djRkSTFtZ09BY0dkU2p4bHZmajFDM0Z0dm41MElob0lTdG1LejR4NjdBa1V5clR3?oc=5",
+    "published_at": "2026-09-10T10:17:38+00:00",
+    "sources": [
+      "gukjenews.com"
     ],
     "keywords": [
       "한화시스템"
