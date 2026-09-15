@@ -40,7 +40,7 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Fdm9zTHVNZTlzN0FicVhzNU5UdWhOQnIxaE16bkZHeE00SFE4dEZQcmp1VHZyeG5MOWhadHRZXzBOUTBEOXJSbjhGb1UyOTQ3UFgtLUdDalFrVXRYR1VJ0gFkQVVfeXFMTXV3bUxuM0QwaTRKMnViaVY4U2tVbU9UbVktRXgzbEZfbDEzdGxYUnFYZUZnVVJZZU1oeDhwNnc5YktETUI2NnM2aU53NE5yVW1aZDBIM05wOVJLM0VWWWRrbVRXRA?oc=5",
     "published_at": "2026-09-14T07:45:09+00:00",
     "sources": [
-      "뉴스1",
+      "news1.kr",
       "v.daum.net"
     ],
     "keywords": [
@@ -73,11 +73,24 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가, 9월 14일 74,100원 4.51% 상승",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tRm5wY185eVVVUXM0ZWZBVnZxallJbFhqWEhxVjBILUhrMjhPVU1NcHZrc2RKb1ktXzBnWDNMTWMtR1pHNmgxd1g2Y3A0ZDVwbGxCSzdpTjRkcEtzMkZScmtDN0RvbVNocWRKLTZGYm1wdw?oc=5",
-    "published_at": "2026-09-14T07:22:14+00:00",
+    "title": "한화시스템 주가, 9월 15일 장중 70,400원 6.13% 하락",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hTmwwSVZlQ0tEQV9OUmcybGduNTZfZ2x6NVJObFl0amN0NkNBenVqVzN1eW5IZ3JCclJ4RFpDWDliYlVDZVlVTDJtQkY4NXdTWVoxTGhBVGstUTFyVE1YS205MTBpUGNkNTNfUmVHYkZMdw?oc=5",
+    "published_at": "2026-09-15T02:00:13+00:00",
     "sources": [
       "톱스타뉴스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "위성이 표적 찾고 AI가 분석…K9·천무까지 잇는 한화 ‘우주전’",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ2dHOTczY2ROSnZ4QmxDZlpLUUR1UWNsYlhTMGc2VTJxMXJNY1pxSjVseTRmZEJWTjZ3TldudFlRaVNoTV9jeTNKNmd4d3d4Yk9heExabkduNklQelVuUXNGbXV5SHZTV1BVYUZ3OUFnZGowanBrZWliZ3d3c2s2dg?oc=5",
+    "published_at": "2026-09-13T02:24:37+00:00",
+    "sources": [
+      "edaily.co.kr",
+      "Nate News"
     ],
     "keywords": [
       "한화시스템"
@@ -97,19 +110,6 @@
     "image": ""
   },
   {
-    "title": "위성이 표적 찾고 AI가 분석…K9·천무까지 잇는 한화 ‘우주전’",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ2dHOTczY2ROSnZ4QmxDZlpLUUR1UWNsYlhTMGc2VTJxMXJNY1pxSjVseTRmZEJWTjZ3TldudFlRaVNoTV9jeTNKNmd4d3d4Yk9heExabkduNklQelVuUXNGbXV5SHZTV1BVYUZ3OUFnZGowanBrZWliZ3d3c2s2dg?oc=5",
-    "published_at": "2026-09-13T02:24:37+00:00",
-    "sources": [
-      "edaily.co.kr",
-      "네이트"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "[영상][단독] 한 발에 2천원…한화 레이저, 장갑차에 올라탔다",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfd2dXY2Rxa3RmVER1VlJ0NHNkRDkzSW1IX01kVUZCOFlEcDlkUlpubTIwYXNRcWpMaFplRDBvM0tnRlJKZ2Y5bkVSX29UNUQ4QTRjYXdEaTF1QXZxVUE2M3U2QQ?oc=5",
     "published_at": "2026-09-12T23:00:01+00:00",
@@ -122,11 +122,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가, 9월 15일 장중 70,400원 6.13% 하락",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hTmwwSVZlQ0tEQV9OUmcybGduNTZfZ2x6NVJObFl0amN0NkNBenVqVzN1eW5IZ3JCclJ4RFpDWDliYlVDZVlVTDJtQkY4NXdTWVoxTGhBVGstUTFyVE1YS205MTBpUGNkNTNfUmVHYkZMdw?oc=5",
-    "published_at": "2026-09-15T02:00:13+00:00",
+    "title": "[속보] 한화시스템 VI 발동, 주가 도약",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nRnNrOTNtSWI5NUNXYXFpNk0tc3JvSjVtOHRsU1V2N1dNLW5MMnpZM1JlRVVSS1pyTXFXQmJIeXB5TmJZRElBR0hHaUZ0QmgyYl9xakpIVmU4MEU5eG9EYzA2dk10YmlE?oc=5",
+    "published_at": "2026-09-14T04:55:02+00:00",
     "sources": [
-      "톱스타뉴스"
+      "CBC뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -134,11 +134,11 @@
     "image": ""
   },
   {
-    "title": "[속보] 한화시스템 VI 발동, 주가 도약",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nRnNrOTNtSWI5NUNXYXFpNk0tc3JvSjVtOHRsU1V2N1dNLW5MMnpZM1JlRVVSS1pyTXFXQmJIeXB5TmJZRElBR0hHaUZ0QmgyYl9xakpIVmU4MEU5eG9EYzA2dk10YmlE?oc=5",
-    "published_at": "2026-09-14T04:55:02+00:00",
+    "title": "한화시스템 주가, 9월 14일 74,100원 4.51% 상승",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tRm5wY185eVVVUXM0ZWZBVnZxallJbFhqWEhxVjBILUhrMjhPVU1NcHZrc2RKb1ktXzBnWDNMTWMtR1pHNmgxd1g2Y3A0ZDVwbGxCSzdpTjRkcEtzMkZScmtDN0RvbVNocWRKLTZGYm1wdw?oc=5",
+    "published_at": "2026-09-14T07:22:14+00:00",
     "sources": [
-      "cbci.co.kr"
+      "톱스타뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -162,7 +162,19 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WbjN6enhfYzRvanNLclpaYldjYkhMdktVZmp3bEp4N3d4VV9OLTBnc29qb2xmaEoyOHE1MU9iMFM3Q1RFNDA2UC0tLWVYemQzdkxoUGZoYi1RRkVMNk80QWhIdVRwNjdzcnfSAW5BVV95cUxQcU56MWpIWmhNQURMck1Dc2k1bWxBcXoxdDJ5bmdOREd3cEZQSE9sZVJUQmZvUUdGblV4cXg4dEhEdUdVbHNkWDlaRWdKcW00UWxvZjItXzJiX01YQ0lDQ3RqQXJNYmUtbzZRa0VmZw?oc=5",
     "published_at": "2026-09-13T22:48:55+00:00",
     "sources": [
-      "퍼블릭타임스"
+      "public25.com"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화에어로 6% 강세…천무 크로아티아 수출 '유럽 3번째'[핫종목]",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yc3pkQVJVQXhnWk0wQWxRVFV1cWNtVjM3WjY3eUg3S1BCX3Bmc2l3cW82TUxTTzRBeS1sR3laOTRuSW4zcFhPV0lfY1RsWW9ZVU53WEZSajQ5aDR0YTg00gFkQVVfeXFMUGlFQlhXS1BwelJkSTNZMlN6MUlKYzk3dmNKVDItTFlVSTEyQ2dvV1czS2pER0wzQlJwWmduTDJnY1NKUXlZaTh6Y3h5cVJZSDVrQ1dGQzEyRk9rVDVzVzZ4TFhpLQ?oc=5",
+    "published_at": "2026-09-14T05:23:43+00:00",
+    "sources": [
+      "news1.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -175,18 +187,6 @@
     "published_at": "2026-09-14T23:13:00+00:00",
     "sources": [
       "이투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화에어로 6% 강세…천무 크로아티아 수출 '유럽 3번째'[핫종목]",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yc3pkQVJVQXhnWk0wQWxRVFV1cWNtVjM3WjY3eUg3S1BCX3Bmc2l3cW82TUxTTzRBeS1sR3laOTRuSW4zcFhPV0lfY1RsWW9ZVU53WEZSajQ5aDR0YTg00gFkQVVfeXFMUGlFQlhXS1BwelJkSTNZMlN6MUlKYzk3dmNKVDItTFlVSTEyQ2dvV1czS2pER0wzQlJwWmduTDJnY1NKUXlZaTh6Y3h5cVJZSDVrQ1dGQzEyRk9rVDVzVzZ4TFhpLQ?oc=5",
-    "published_at": "2026-09-14T05:23:43+00:00",
-    "sources": [
-      "뉴스1"
     ],
     "keywords": [
       "한화시스템"
