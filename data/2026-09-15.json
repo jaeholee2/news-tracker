@@ -40,7 +40,8 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Fdm9zTHVNZTlzN0FicVhzNU5UdWhOQnIxaE16bkZHeE00SFE4dEZQcmp1VHZyeG5MOWhadHRZXzBOUTBEOXJSbjhGb1UyOTQ3UFgtLUdDalFrVXRYR1VJ0gFkQVVfeXFMTXV3bUxuM0QwaTRKMnViaVY4U2tVbU9UbVktRXgzbEZfbDEzdGxYUnFYZUZnVVJZZU1oeDhwNnc5YktETUI2NnM2aU53NE5yVW1aZDBIM05wOVJLM0VWWWRrbVRXRA?oc=5",
     "published_at": "2026-09-14T07:45:09+00:00",
     "sources": [
-      "뉴스1"
+      "뉴스1",
+      "v.daum.net"
     ],
     "keywords": [
       "한화시스템"
@@ -72,11 +73,23 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가, 9월 15일 장중 70,400원 6.13% 하락",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hTmwwSVZlQ0tEQV9OUmcybGduNTZfZ2x6NVJObFl0amN0NkNBenVqVzN1eW5IZ3JCclJ4RFpDWDliYlVDZVlVTDJtQkY4NXdTWVoxTGhBVGstUTFyVE1YS205MTBpUGNkNTNfUmVHYkZMdw?oc=5",
-    "published_at": "2026-09-15T02:00:13+00:00",
+    "title": "한화시스템 주가, 9월 14일 74,100원 4.51% 상승",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tRm5wY185eVVVUXM0ZWZBVnZxallJbFhqWEhxVjBILUhrMjhPVU1NcHZrc2RKb1ktXzBnWDNMTWMtR1pHNmgxd1g2Y3A0ZDVwbGxCSzdpTjRkcEtzMkZScmtDN0RvbVNocWRKLTZGYm1wdw?oc=5",
+    "published_at": "2026-09-14T07:22:14+00:00",
     "sources": [
-      "톱스타뉴스"
+      "topstarnews.net"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화그룹株 장초반 동반 약세…한화시스템 6%대↓ [종목NOW]",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZalM4WXplQkNsZW9KUnQzTHZwU2RHWm45WnN1QXpmTlJwSS1VOUZQNGpwM0ctUnBDcXN3ZWNCWHgzOWx4U05hWGt1UzBTSWxHMWdzeTg5SEo5UQ?oc=5",
+    "published_at": "2026-09-15T00:50:08+00:00",
+    "sources": [
+      "파이낸셜뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -109,11 +122,11 @@
     "image": ""
   },
   {
-    "title": "한화그룹株 장초반 동반 약세…한화시스템 6%대↓ [종목NOW]",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZalM4WXplQkNsZW9KUnQzTHZwU2RHWm45WnN1QXpmTlJwSS1VOUZQNGpwM0ctUnBDcXN3ZWNCWHgzOWx4U05hWGt1UzBTSWxHMWdzeTg5SEo5UQ?oc=5",
-    "published_at": "2026-09-15T00:50:08+00:00",
+    "title": "한화시스템 주가, 9월 15일 장중 70,400원 6.13% 하락",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hTmwwSVZlQ0tEQV9OUmcybGduNTZfZ2x6NVJObFl0amN0NkNBenVqVzN1eW5IZ3JCclJ4RFpDWDliYlVDZVlVTDJtQkY4NXdTWVoxTGhBVGstUTFyVE1YS205MTBpUGNkNTNfUmVHYkZMdw?oc=5",
+    "published_at": "2026-09-15T02:00:13+00:00",
     "sources": [
-      "파이낸셜뉴스"
+      "topstarnews.net"
     ],
     "keywords": [
       "한화시스템"
@@ -133,11 +146,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가, 9월 14일 74,100원 4.51% 상승",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tRm5wY185eVVVUXM0ZWZBVnZxallJbFhqWEhxVjBILUhrMjhPVU1NcHZrc2RKb1ktXzBnWDNMTWMtR1pHNmgxd1g2Y3A0ZDVwbGxCSzdpTjRkcEtzMkZScmtDN0RvbVNocWRKLTZGYm1wdw?oc=5",
-    "published_at": "2026-09-14T07:22:14+00:00",
+    "title": "게임에 쓰인 소재가 궁금할 때 보는 한화 시스템 블록 체인",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb1l0aUdrZUhwckY4VS1JSDg0bm5kSUVhOVlpaEZBbnU3MEc3UUFtbTNCQmhaVEVuamF2WDQ0Z3g0SnJFSFlZNEpHNWlXSUxvbEQwUDNHZW9IejMxUG1ZTk9ac1FvemV2aTNsZUdfRF9XQWhnYlVtbnE4VkxaS0ZyTldJRzc2cFFHdGU1NUNiVnF4YXp4NkZNT3U5SVpEaDVZcXdXVGY3TmNSRHdqTVA5RXNadUlKeWc?oc=5",
+    "published_at": "2026-09-13T06:29:36+00:00",
     "sources": [
-      "톱스타뉴스"
+      "calgaryroughnecks.com"
     ],
     "keywords": [
       "한화시스템"
@@ -145,11 +158,11 @@
     "image": ""
   },
   {
-    "title": "게임에 쓰인 소재가 궁금할 때 보는 한화 시스템 블록 체인",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb1l0aUdrZUhwckY4VS1JSDg0bm5kSUVhOVlpaEZBbnU3MEc3UUFtbTNCQmhaVEVuamF2WDQ0Z3g0SnJFSFlZNEpHNWlXSUxvbEQwUDNHZW9IejMxUG1ZTk9ac1FvemV2aTNsZUdfRF9XQWhnYlVtbnE4VkxaS0ZyTldJRzc2cFFHdGU1NUNiVnF4YXp4NkZNT3U5SVpEaDVZcXdXVGY3TmNSRHdqTVA5RXNadUlKeWc?oc=5",
-    "published_at": "2026-09-13T06:29:36+00:00",
+    "title": "[코스피·코스닥,삼성E&A 한화에어로스페이스 LGCNS 동부건설 한화시스템 신동빈 회장 기아 인티큐브등 11일 주요공시]",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WbjN6enhfYzRvanNLclpaYldjYkhMdktVZmp3bEp4N3d4VV9OLTBnc29qb2xmaEoyOHE1MU9iMFM3Q1RFNDA2UC0tLWVYemQzdkxoUGZoYi1RRkVMNk80QWhIdVRwNjdzcnfSAW5BVV95cUxQcU56MWpIWmhNQURMck1Dc2k1bWxBcXoxdDJ5bmdOREd3cEZQSE9sZVJUQmZvUUdGblV4cXg4dEhEdUdVbHNkWDlaRWdKcW00UWxvZjItXzJiX01YQ0lDQ3RqQXJNYmUtbzZRa0VmZw?oc=5",
+    "published_at": "2026-09-13T22:48:55+00:00",
     "sources": [
-      "Calgary Roughnecks"
+      "퍼블릭타임스"
     ],
     "keywords": [
       "한화시스템"
@@ -169,11 +182,11 @@
     "image": ""
   },
   {
-    "title": "[코스피·코스닥,삼성E&A 한화에어로스페이스 LGCNS 동부건설 한화시스템 신동빈 회장 기아 인티큐브등 11일 주요공시]",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WbjN6enhfYzRvanNLclpaYldjYkhMdktVZmp3bEp4N3d4VV9OLTBnc29qb2xmaEoyOHE1MU9iMFM3Q1RFNDA2UC0tLWVYemQzdkxoUGZoYi1RRkVMNk80QWhIdVRwNjdzcnfSAW5BVV95cUxQcU56MWpIWmhNQURMck1Dc2k1bWxBcXoxdDJ5bmdOREd3cEZQSE9sZVJUQmZvUUdGblV4cXg4dEhEdUdVbHNkWDlaRWdKcW00UWxvZjItXzJiX01YQ0lDQ3RqQXJNYmUtbzZRa0VmZw?oc=5",
-    "published_at": "2026-09-13T22:48:55+00:00",
+    "title": "한화에어로 6% 강세…천무 크로아티아 수출 '유럽 3번째'[핫종목]",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yc3pkQVJVQXhnWk0wQWxRVFV1cWNtVjM3WjY3eUg3S1BCX3Bmc2l3cW82TUxTTzRBeS1sR3laOTRuSW4zcFhPV0lfY1RsWW9ZVU53WEZSajQ5aDR0YTg00gFkQVVfeXFMUGlFQlhXS1BwelJkSTNZMlN6MUlKYzk3dmNKVDItTFlVSTEyQ2dvV1czS2pER0wzQlJwWmduTDJnY1NKUXlZaTh6Y3h5cVJZSDVrQ1dGQzEyRk9rVDVzVzZ4TFhpLQ?oc=5",
+    "published_at": "2026-09-14T05:23:43+00:00",
     "sources": [
-      "퍼블릭타임스"
+      "뉴스1"
     ],
     "keywords": [
       "한화시스템"
