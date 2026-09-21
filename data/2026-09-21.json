@@ -28,7 +28,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qMkNDUndGdmEyRk85QU1vNFZqZ05ENDRCN3ZFN2JpRGUwVjdEV0szdEdVdjJpRjFKcmtIRmtTRFNIeUF0Sm0xMks2QTRaQkF2Tm5PUVQwcUpvdzFJNjRrYmtkamfSAWhBVV95cUxPc1hlY0ZBbkpaTEJvU1JMNE11ZkpXN1haa3Y0YUdwc2JzNl91VGFhd2twNHB3S2pzNFI3c0o3MFVKVEJraG1FcWowRS1KS3htdUpjNVhneEVoUUNzQjBmNFRjYkdlVUhRMA?oc=5",
     "published_at": "2026-09-19T07:00:00+00:00",
     "sources": [
-      "m-i.kr"
+      "매일일보"
     ],
     "keywords": [
       "한화시스템"
@@ -48,42 +48,6 @@
     "image": ""
   },
   {
-    "title": "한화, UAE 방공체계 확대…개별 무기서 ’통합대공망’으로 By EBN",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55Y0NXNk1uTC1lYmxxMVh4SlNMYlBhdnN6TE91MEJTdkR3S1M0WnJUeDA3ZUhuRW9lZnBhcWNZcS1jVmFWZ2FCUGdOUV9tNm4tOE1EeDNPNUUyQ0I3Rk91dWI3TkZNSC1WNzRBT0o5cmE?oc=5",
-    "published_at": "2026-09-21T06:12:00+00:00",
-    "sources": [
-      "Investing.com 한국어"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화, 美 지상·해양방산 한데 묶는다…한화에어로 자회사로 중심축 재편",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vYkN5VVRIX1F6cTJrdkZweFVUU1FnZzFweWtEeFpOOFBGdWJySjJOZWVyS0tqamstUEJsa1NSSFpwMk9YM0h4bE94TTg3UWs?oc=5",
-    "published_at": "2026-09-21T08:37:04+00:00",
-    "sources": [
-      "v.daum.net"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "[개장 전 주요 공시] 삼성물산·한화시스템·SK하이닉스·카카오모빌리티 등",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEYzOS1DMkExcW1JOW8xZFZJZ3BkbjhMcFBELVpDS3c3aHMzMlBTRW1PR19TWWM5RUUyRUNKSEQyUmF1Y2NzTXFIQlZTMWxzVkJNYlEyVnhuMlBvWmZfc3liQzRMVmF4SkFfNW5CSW92Sm4ya3RjOHBGQ19qSjdpZTBJWHlJMFp6?oc=5",
-    "published_at": "2026-09-20T23:28:56+00:00",
-    "sources": [
-      "글로벌이코노믹"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화시스템, 2조 실탄 어디에 쓰나…설비·연구개발 투자 ‘고삐’",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4cU5GeDZvYVlIbnR3c2tyQXFNdjhDV0t2bE5OaHpDT1pMVmdkYjFlYklxQ3hMQk14SmQxdGZpMkNyemFIelE0ckVleE5hRUo2RUhYSTVKejFUMGMxb3FNSGdOTkRwUkNYbHd4TG5B?oc=5",
     "published_at": "2026-09-21T07:39:21+00:00",
@@ -96,11 +60,24 @@
     "image": ""
   },
   {
-    "title": "한화시스템, 천문연과 우주감시위성 개발 계약 체결",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiQm5xbzVWa0hBVExZS2lXXzdKYjJENEVjWmNXLU90UmdzRWpjakNrdUQ5QUphcUgwLWhiMGJNX3RLb3JXbjZHTVM5MHBWdlEyZVJNU2F6Q0tNVGI0WG10UGptWTdOZWpBbDdZT0h3?oc=5",
-    "published_at": "2026-09-20T11:20:26+00:00",
+    "title": "한화, UAE 방공체계 확대…개별 무기서 ’통합대공망’으로 By EBN",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55Y0NXNk1uTC1lYmxxMVh4SlNMYlBhdnN6TE91MEJTdkR3S1M0WnJUeDA3ZUhuRW9lZnBhcWNZcS1jVmFWZ2FCUGdOUV9tNm4tOE1EeDNPNUUyQ0I3Rk91dWI3TkZNSC1WNzRBT0o5cmE?oc=5",
+    "published_at": "2026-09-21T06:12:00+00:00",
     "sources": [
-      "gukjenews.com"
+      "kr.investing.com"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화, 美 지상·해양방산 한데 묶는다…한화에어로 자회사로 중심축 재편",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vYkN5VVRIX1F6cTJrdkZweFVUU1FnZzFweWtEeFpOOFBGdWJySjJOZWVyS0tqamstUEJsa1NSSFpwMk9YM0h4bE94TTg3UWs?oc=5",
+    "published_at": "2026-09-21T08:37:04+00:00",
+    "sources": [
+      "v.daum.net",
+      "이투데이"
     ],
     "keywords": [
       "한화시스템"
@@ -120,6 +97,42 @@
     "image": ""
   },
   {
+    "title": "[개장 전 주요 공시] 삼성물산·한화시스템·SK하이닉스·카카오모빌리티 등",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEYzOS1DMkExcW1JOW8xZFZJZ3BkbjhMcFBELVpDS3c3aHMzMlBTRW1PR19TWWM5RUUyRUNKSEQyUmF1Y2NzTXFIQlZTMWxzVkJNYlEyVnhuMlBvWmZfc3liQzRMVmF4SkFfNW5CSW92Sm4ya3RjOHBGQ19qSjdpZTBJWHlJMFp6?oc=5",
+    "published_at": "2026-09-20T23:28:56+00:00",
+    "sources": [
+      "글로벌이코노믹"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "안 먹히는 정부 지침…현대重·한화시스템·LS전선 N% 성과급 달라",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iQkRnY1VobEZHeFJndDdueDBaVzFqTjdhRnN1RGtnaXlNWk9lRE9qQWNuZkVoY1c0UEZWb1c1bjBZWm1HQVNRSHo4dXQ1dWdrT0V30gFYQVVfeXFMTUg5RGhOVlJZOHdPeUZ2Z0tOdXJLWTFUcDdfU1ZJeWdGakFxaDhIS2dFd3NEWmpOblZoRTZ5cUlOZmo2bXhtYTNLOHJzUGtGZDR4UU1EZnhVUg?oc=5",
+    "published_at": "2026-09-21T08:47:00+00:00",
+    "sources": [
+      "SBS Biz"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화시스템, 천문연과 우주감시위성 개발 계약 체결",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiQm5xbzVWa0hBVExZS2lXXzdKYjJENEVjWmNXLU90UmdzRWpjakNrdUQ5QUphcUgwLWhiMGJNX3RLb3JXbjZHTVM5MHBWdlEyZVJNU2F6Q0tNVGI0WG10UGptWTdOZWpBbDdZT0h3?oc=5",
+    "published_at": "2026-09-20T11:20:26+00:00",
+    "sources": [
+      "gukjenews.com"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "title": "한화시스템, 필리조선소 지분 60% 한화디펜스USA 자회사에 매각",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN21vaWdIeGh1SlpnaG14OUx6MU92LTQ1eXFwYllQV05lSmRXcWZFUEFhRmx6emVVVlROQktfSVZoUVJjVTBvT2hwYWhXQVdyT3M3NGwwMGJDTXRjMm1jYm1hN09fS1pnd3RiLVVIOVFlS25VV05pcTdqSmkxOFR4alQtcw?oc=5",
     "published_at": "2026-09-18T10:26:00+00:00",
@@ -132,35 +145,11 @@
     "image": ""
   },
   {
-    "title": "한화, 300억 R&D·890억 성과급…협력사와 함께하는 K방산 [상생경영]",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKak14cjFMOWhjeHJBVmtKSnVyWUt2RndudGNOcHQ1ei1QTXNWbnlGcHdGYjJOWXFOc1hLQWVIZ28yenVTaTV0V1J0WmhiQ2Y5T0YtSg?oc=5",
-    "published_at": "2026-09-20T20:00:00+00:00",
-    "sources": [
-      "이투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "L-SAM·천광 새 성장축 될까···한화시스템, 방공사업 확장 가속",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95dFVuV3dYLTVOcUdRN0FNQmlnNUZTVFIxQkJKMF82R2dBY0VjY3JpQjhOQ1EyUE1OdUhoWFlYV1M3R3Z4OXBxM00zb1VGaHYwNGVxOUh6RzFNQXNqdjhpbGMtcW9EblE4N0lESWt5N2tXZ9IBdkFVX3lxTE1iWmF0TlVvNnhrQ2ItYTJLc2Q3eWo0d1RjdTNlWnotUVZGdmVMd3pQcmE2WC0xVW9jOS0wR2ZOZEhlb1JycVh4dVpqdlE0blpRZWZHRHRzMDlkSk5fOUprd0k4WnlwVFptcTFiSGZCLVJoanZhWlE?oc=5",
-    "published_at": "2026-09-21T07:20:05+00:00",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iWmF0TlVvNnhrQ2ItYTJLc2Q3eWo0d1RjdTNlWnotUVZGdmVMd3pQcmE2WC0xVW9jOS0wR2ZOZEhlb1JycVh4dVpqdlE0blpRZWZHRHRzMDlkSk5fOUprd0k4WnlwVFptcTFiSGZCLVJoanZhWlHSAXZBVV95cUxNYlphdE5VbzZ4a0NiLWEyS3NkN3lqNHdUY3UzZVp6LVFWRnZlTHd6UHJhNlgtMVVvYzktMEdmTmRIZW9ScnFYeHVaanZRNG5aUWVmR0R0czA5ZEpOXzlKa3dJOFp5cFRabXExYkhmQi1SaGp2YVpR?oc=5",
+    "published_at": "2026-09-21T07:24:48+00:00",
     "sources": [
-      "sisajournal-e.com"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화시스템, 미국 필리조선소 지분 매각 결정...미국 조선ㆍ해양방산 사업이 한화에어로스페이스 축으로 재편",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uaElxX2VOa0JieDlneDBqR3cyeGhtRktEUnJhekxQRl9LVGd3eWZnOVRXYWFRRGxnUzBzQWlQWTFkaTlpSk1yTDltc2R5VklhYzE4TWI2ZW1RNWd5WnRxNjY4elJJNnlwem1vSi04M1ByTkk?oc=5",
-    "published_at": "2026-09-21T02:35:57+00:00",
-    "sources": [
-      "쉬핑뉴스넷"
+      "시사저널e"
     ],
     "keywords": [
       "한화시스템"
@@ -180,11 +169,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템, 2거래일 연속 급등...방산·우주 수주가 향방 가른다",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40b2M3ZGlmb0tKR2xOTlhzU0Q4T1dzWlhlaXlSQS1JcEhIcmM5eDgtaWhmMmtBRGk5d1ljekQwTURtOVUzVnVoSV9valo3c0pMS1FBUXZRd2xqM0gzWktQMw?oc=5",
-    "published_at": "2026-09-20T22:55:00+00:00",
+    "title": "한화시스템, 미국 필리조선소 지분 매각 결정...미국 조선ㆍ해양방산 사업이 한화에어로스페이스 축으로 재편",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uaElxX2VOa0JieDlneDBqR3cyeGhtRktEUnJhekxQRl9LVGd3eWZnOVRXYWFRRGxnUzBzQWlQWTFkaTlpSk1yTDltc2R5VklhYzE4TWI2ZW1RNWd5WnRxNjY4elJJNnlwem1vSi04M1ByTkk?oc=5",
+    "published_at": "2026-09-21T02:35:57+00:00",
     "sources": [
-      "증권일보"
+      "shippingnewsnet.com"
     ],
     "keywords": [
       "한화시스템"
@@ -204,23 +193,11 @@
     "image": ""
   },
   {
-    "title": "[위클리오늘] 한화시스템, 한화큐셀(9.21)",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xdFhXaUZDV3ZKVkFITGlCRmgwbmNWdzQ4S1ViUldKc2N1dTNPeWQxdjR5ZHRhZEh3eGhSR0Z0bFZOUXptVGJtZU85Mmh1dlNtVmE0eFU2OGpHT1h6SkpjN05zV0lpSlpuUU9IWU9R?oc=5",
-    "published_at": "2026-09-21T01:30:00+00:00",
+    "title": "한화시스템, 2거래일 연속 급등...방산·우주 수주가 향방 가른다",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40b2M3ZGlmb0tKR2xOTlhzU0Q4T1dzWlhlaXlSQS1JcEhIcmM5eDgtaWhmMmtBRGk5d1ljekQwTURtOVUzVnVoSV9valo3c0pMS1FBUXZRd2xqM0gzWktQMw?oc=5",
+    "published_at": "2026-09-20T22:55:00+00:00",
     "sources": [
-      "위클리오늘"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화시스템 3.50% 하락…방산 수출과 신규 수주 점검",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xRmNkZnFscUhXLVp3VTU3TDVGSnZDcEJvTmRBVWJNZ3RpeG5fQzh6bnA0X185cmxiV2VuRnU0MWlsOV9Cek1xRXF4YWd0Snh4VGcxU0hzcmpGTTAxMTFXVTI5YXMwcl9RVWlOX0h30gFyQVVfeXFMUGtwaXEyU2szYkF2blZZYV9pcXc1bkdvUDNnZVFnUEp4bVhTcVVpb01FdHcwMENIbUJVS2doNHlxNnNVNE5FYkpYdXdvNlVOSnpvem1QbVFvU29JSm5mRGY4QWNfQS12NTNmWE1BTm14S1BR?oc=5",
-    "published_at": "2026-09-21T06:03:36+00:00",
-    "sources": [
-      "잡포스트"
+      "s-d.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -240,11 +217,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가, 9월 21일 장중 78,100원 2.37% 하락",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBbW0yNWNjZEVsdVBqOWFncm5ubkU5Q1haMzlwaGdHNEtHWnoxVkR2Vkc4SDBmeTVkT2FCT1dJTlRNQk5wOENTZlZlX3lkM2FCZTRxQ2NLMFhJOGlTbjZQdXVfdXVDb05lNV9Ob05sMlZCZw?oc=5",
-    "published_at": "2026-09-21T04:58:07+00:00",
+    "title": "한화시스템 3.50% 하락…방산 수출과 신규 수주 점검",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xRmNkZnFscUhXLVp3VTU3TDVGSnZDcEJvTmRBVWJNZ3RpeG5fQzh6bnA0X185cmxiV2VuRnU0MWlsOV9Cek1xRXF4YWd0Snh4VGcxU0hzcmpGTTAxMTFXVTI5YXMwcl9RVWlOX0h30gFyQVVfeXFMUGtwaXEyU2szYkF2blZZYV9pcXc1bkdvUDNnZVFnUEp4bVhTcVVpb01FdHcwMENIbUJVS2doNHlxNnNVNE5FYkpYdXdvNlVOSnpvem1QbVFvU29JSm5mRGY4QWNfQS12NTNmWE1BTm14S1BR?oc=5",
+    "published_at": "2026-09-21T06:03:36+00:00",
     "sources": [
-      "중앙이코노미뉴스"
+      "잡포스트"
     ],
     "keywords": [
       "한화시스템"
@@ -264,11 +241,11 @@
     "image": ""
   },
   {
-    "title": "무기만 팔던 K방산은 옛말…UAE서 ‘통합 방공망’ 승부",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WOEtSejNzM3Y3Unh3ZXZEVHdrNENmVzVqTnFibFFTR0xjcFJ5b0htemZja19DTGZKVlh3U2RMQ0lsMkRKeWhZSHVBODZxUHM?oc=5",
-    "published_at": "2026-09-21T06:03:08+00:00",
+    "title": "한화시스템 주가, 9월 21일 장중 78,100원 2.37% 하락",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBbW0yNWNjZEVsdVBqOWFncm5ubkU5Q1haMzlwaGdHNEtHWnoxVkR2Vkc4SDBmeTVkT2FCT1dJTlRNQk5wOENTZlZlX3lkM2FCZTRxQ2NLMFhJOGlTbjZQdXVfdXVDb05lNV9Ob05sMlZCZw?oc=5",
+    "published_at": "2026-09-21T04:58:07+00:00",
     "sources": [
-      "딜사이트"
+      "joongangenews.com"
     ],
     "keywords": [
       "한화시스템"
@@ -276,11 +253,11 @@
     "image": ""
   },
   {
-    "title": "한화시스템 주가 하락 중",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Q2VkMTJVdVdES3lVSGs0eDVkZjBPTHU5dEcxbzdJakZQa1FCRGo4eS1RUVZWZ01hLWtEdC1lYXFuZUxjbjdHTnFOdkV0V1hscUFlREdNNjUxSEFabGM0UWVELWNwZDRKTkx3dEE5QXR0VmNS?oc=5",
-    "published_at": "2026-09-21T00:36:44+00:00",
+    "title": "[AINEX 2026] 한화시스템 “독자 위성망, 민간이 주도하고 정부가 뒷받침해야”",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Uc3h1VHVvc24zU2JOZk5SRVNJaXotdXZXeUJoeS1QWHliX2xDeTFtczZ4Q1lwUExLcF8tMjdNNUQ1RmpZakI1WTRZb25zZw?oc=5",
+    "published_at": "2026-09-19T23:00:00+00:00",
     "sources": [
-      "아시아뉴스통신"
+      "전자신문"
     ],
     "keywords": [
       "한화시스템"
@@ -301,11 +278,23 @@
     "image": ""
   },
   {
-    "title": "한화시스템, 주가 9월 21일 장중 79,100원 1.13% 하락",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UTnlDaVJqMEpZWkYxYkdQWlZpLWt5ZU1YLXVlb3c1QldXY2lJZWZQVHRtOGdyb2l1akxTMU1uakVSTFQ1WHdBZDJ0eDNjckV3UTNDODM1TFRQN3YwV2pnS05ndG50QWdaT1hKN2lEZ1dpdw?oc=5",
-    "published_at": "2026-09-21T01:35:31+00:00",
+    "title": "한화시스템, AI 우주상황인식체계 개발 착수…국가 우주안보 구축",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wM0Znc3J2bVRzbjNDcHdIQmpWSmw2aGRxenJtTnZDYXhqVy1mSnRRSTUtaVR5amtxZjdhd01hMXFNMEZGTEhhZ0l0NGZpaTlvTjNhS2ZuLTNINlNLaFo4enpjbm11REl00gFoQVVfeXFMTXAzRmdzcnZtVHNuM0Nwd0hCalZKbDZoZHF6cm1OdkNheGpXLWZKdFFJNS1pVHlqa3FmN2F3TWExcU0wRkZMSGFnSXQ0ZmlpOW9OM2FLZm4tM0g2U0toWjh6emNubXVESXQ?oc=5",
+    "published_at": "2026-09-18T04:34:23+00:00",
     "sources": [
-      "톱스타뉴스"
+      "매일일보"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "무기만 팔던 K방산은 옛말…UAE서 ‘통합 방공망’ 승부",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WOEtSejNzM3Y3Unh3ZXZEVHdrNENmVzVqTnFibFFTR0xjcFJ5b0htemZja19DTGZKVlh3U2RMQ0lsMkRKeWhZSHVBODZxUHM?oc=5",
+    "published_at": "2026-09-21T06:03:08+00:00",
+    "sources": [
+      "딜사이트"
     ],
     "keywords": [
       "한화시스템"
@@ -318,18 +307,6 @@
     "published_at": "2026-09-18T02:16:32+00:00",
     "sources": [
       "뉴시스"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "위성이 찾고 AI가 분석…한화시스템, 우주 충돌위험 감시체계 개발",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5MkJ0bjg2RS1oUDlvTUhvTi1weGttYjJFNTVQdzc1eGFmcTZZRHhKRlRMd1Y5NWU3RFVmZjhzRWhVa3pnX1ZOVnp3T2FNX2huVzU2U3RB?oc=5",
-    "published_at": "2026-09-18T00:02:14+00:00",
-    "sources": [
-      "zdnet.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -385,35 +362,11 @@
     "image": ""
   },
   {
-    "title": "안 먹히는 정부 지침…현대重·한화시스템·LS전선 \"N% 성과급 달라\"",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14ZDRXMkotWXotRmZwLTBZM0dRY3pZV056dUQzeDBxdTVYN3NwU0hTUk9WcU9BNWtjc0NjMFdMMk5hZGVMYVdDM21yVDh6MGRxdzJ1YWdNdXdVcTZY?oc=5",
-    "published_at": "2026-09-21T09:26:32+00:00",
-    "sources": [
-      "supple.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화 방산 새 진용…이부환 한화에어로·양기원 한화시스템 대표 선임",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBralNiVEN0NllINlktTHNsd0RadDZvbENlbDBqRklFbzlsY2l5Zy12YndISkJfSDhqTGZabnl3TzBJV096TDNvUm4tLWpMRVJBRVFteXFHNU02dTBEbGE2cFhOVHU?oc=5",
     "published_at": "2026-09-18T09:36:02+00:00",
     "sources": [
       "디지털데일리"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화시스템, AI 우주상황인식체계 개발 착수..우주 안전 지킨다 - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kS3ExN2MwQmhaODdNQnJNWkxWTzNDbEdUaC1sMEZfMXJ6SVVxbG5heXpMRUNHc0puOF9KZ3BiSTE5X0xPbUNZWXZUZnVXX2sxaDZBTWlYR1pFSER2Vk1HX010aXFyeDFqMmJ0enBqZmRuU3hCR0pWUmF30gF_QVVfeXFMTjBwVW9jS3plZ0xEOEEtb1VDWXdFclVEWVhFU21hSnBibm5CM01LRmdacWkzS2VQZm9yZ21ZSTQ4azdrRzZUY2NESDY3RjVTdmNIQkhfX1lLRDR6VlBGekU4WkNBY1R1NHZYeHc5VGpSdHBIYWczSE1qU0ZSeklUcw?oc=5",
-    "published_at": "2026-09-18T01:04:41+00:00",
-    "sources": [
-      "머니투데이"
     ],
     "keywords": [
       "한화시스템"
@@ -433,11 +386,35 @@
     "image": ""
   },
   {
+    "title": "한화시스템, AI 우주상황인식체계 개발 착수..우주 안전 지킨다 - 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kS3ExN2MwQmhaODdNQnJNWkxWTzNDbEdUaC1sMEZfMXJ6SVVxbG5heXpMRUNHc0puOF9KZ3BiSTE5X0xPbUNZWXZUZnVXX2sxaDZBTWlYR1pFSER2Vk1HX010aXFyeDFqMmJ0enBqZmRuU3hCR0pWUmF30gF_QVVfeXFMTjBwVW9jS3plZ0xEOEEtb1VDWXdFclVEWVhFU21hSnBibm5CM01LRmdacWkzS2VQZm9yZ21ZSTQ4azdrRzZUY2NESDY3RjVTdmNIQkhfX1lLRDR6VlBGekU4WkNBY1R1NHZYeHc5VGpSdHBIYWczSE1qU0ZSeklUcw?oc=5",
+    "published_at": "2026-09-18T01:04:41+00:00",
+    "sources": [
+      "머니투데이"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "title": "비핵심 덜고 3251억 베팅…한화시스템 '우주·스마트시티' 대전환",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NdlB4MW8tNzFjeWdlaUlyT25KVkYyc0puS3YyUElrcjhXSlMyMm8tbC0zVko5Wjlwd3JqUzZSUUhtZVBKbERUUmtzb043Q1NYaXJZam1uWl9wR2ZKcm1PZC1sZHMxV2NDRExJTnpxSEpuN3li?oc=5",
     "published_at": "2026-09-18T23:00:00+00:00",
     "sources": [
       "파이낸셜포스트"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "위성이 찾고 AI가 분석…한화시스템, 우주 충돌위험 감시체계 개발",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBNVNOV0NNR2syUHE1S2NCbHhRM2ZQSV95dUNadmlpVEFNRDhoSUtqOEZSS3ZFLU8ybGlCaDZJTmpMSTBTb2tPRDgyQXhocEU?oc=5",
+    "published_at": "2026-09-18T00:03:50+00:00",
+    "sources": [
+      "v.daum.net"
     ],
     "keywords": [
       "한화시스템"
@@ -457,11 +434,35 @@
     "image": ""
   },
   {
+    "title": "한화시스템 주가 하락 중",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Q2VkMTJVdVdES3lVSGs0eDVkZjBPTHU5dEcxbzdJakZQa1FCRGo4eS1RUVZWZ01hLWtEdC1lYXFuZUxjbjdHTnFOdkV0V1hscUFlREdNNjUxSEFabGM0UWVELWNwZDRKTkx3dEE5QXR0VmNS?oc=5",
+    "published_at": "2026-09-21T00:36:44+00:00",
+    "sources": [
+      "아시아뉴스통신"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "title": "AI로 궤도 분석…한화시스템 ‘우주 관제탑’ 만든다",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lWXZRbDhlSUF6ZHJ2dC13QlFpS0JyVW5GRVJVSWV2VGx2M0puQkdSd2w1TUdMRzlMOFA4Uk5RN19CWGltYlJ5WWVSWThTbHREMXfSAVNBVV95cUxNQ1FITGF3UFkxeXV6aTBjc2FkNlgxLWZLUUZaZVRkYVlwVGNtQlpSeU4yUlJ6dTJubVl3MExuaVVFVm8tVGxEbU5iU08zVzVPN1I5OA?oc=5",
     "published_at": "2026-09-18T08:29:18+00:00",
     "sources": [
       "서울경제"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "title": "한화시스템, 주가 9월 21일 장중 79,100원 1.13% 하락",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UTnlDaVJqMEpZWkYxYkdQWlZpLWt5ZU1YLXVlb3c1QldXY2lJZWZQVHRtOGdyb2l1akxTMU1uakVSTFQ1WHdBZDJ0eDNjckV3UTNDODM1TFRQN3YwV2pnS05ndG50QWdaT1hKN2lEZ1dpdw?oc=5",
+    "published_at": "2026-09-21T01:35:31+00:00",
+    "sources": [
+      "톱스타뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -505,18 +506,6 @@
     "image": ""
   },
   {
-    "title": "한화에 방산 팔았던 삼성, ‘군 지휘통제’ 수주전서 다시 맞붙나",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmRDZsM0poaU4yV0xrdGo0WkYzS183Z0U3QUdLdFpVcDI4OTUyQnEzaWVIQWozNG5lS0JlVUVwamc4ZGxSaW5fSjVYOEU2eTRpSjNzMk04VDFQSWUwWTRaN1p0R3diU0RCLXpkZVNKcXBkQdIBdEFVX3lxTE9XN0JwRnJZSUpUTnNLQ1FtTl9NbWlhcm0zbXBWQTBNeWl4SUNCWWdIamwxVWY1UlBJMzJKRml3aWZ6YU56TEJmXzdKbzlxMFdSdEVCTi1hVUJ4aEM1aWxGUExXQ1BFOEhQeTBrNENGZFlKR3NY?oc=5",
-    "published_at": "2026-09-21T06:16:38+00:00",
-    "sources": [
-      "이뉴스투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화시스템 '국가 우주상황인식시스템' 개발사업 계약, 초소형 감시위성과 분석체계 개발 착수",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5odnZzdUlkSDRVQ0lIQ29aSExNUHNUVEdxUW9TZ29KMGVwVXZwMnRuWnV5cTU2bDBfVngwWUExVHduUFVEMEJLdGp3SGpBRmRiRG9rUnlrMjJENHpzaFFEZmtFdkQ0QzNiUGdiNkc3eml3MTA?oc=5",
     "published_at": "2026-09-18T01:33:37+00:00",
@@ -545,7 +534,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oZ3VzcGxMMDNkVUQ4VFY3dEk5WG8tal9GeXpFTDVJMW9hSkdWc0g1OFJ2UUFUVzZvaVZ4dXJHQWtUUFM1SFotQWFFNDdpQndkelptUlBIMGdQRkhiNk5RNUlhb2HSAWhBVV95cUxQNVFQY2dYQnFSUkxJOHhjUU54aG1uZnFHVHhmd2RMSVdrcWxkQXRSX1ZYYldIZ1poSjdEM3NLMkxpZ0dRb3hxVlpMT1VRSTZLTFlZLVpHSjZHUEl1Z0tCVGxlQUFNaHNEZQ?oc=5",
     "published_at": "2026-09-18T09:26:38+00:00",
     "sources": [
-      "m-i.kr"
+      "매일일보"
     ],
     "keywords": [
       "한화시스템"
@@ -589,18 +578,6 @@
     "image": ""
   },
   {
-    "title": "한화시스템, AI 우주상황인식체계 개발 착수…국가 우주안보 구축",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85dnEyOWV3UnA4WERneHJqMXBQMHVBbERpLW1GU3hVdXFMQnczUnVGN01FelAxVG5HakJJcVZCaTdvY25wZ2g2Ti1xdTdla1RVaTIwVVFNWXc4cnlaZG9VVFFYeETSAWhBVV95cUxNcDNGZ3Nydm1Uc24zQ3B3SEJqVkpsNmhkcXpybU52Q2F4alctZkp0UUk1LWlUeWprcWY3YXdNYTFxTTBGRkxIYWdJdDRmaWk5b04zYUtmbi0zSDZTS2haOHp6Y25tdURJdA?oc=5",
-    "published_at": "2026-09-18T04:28:53+00:00",
-    "sources": [
-      "m-i.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "title": "한화시스템, 종속회사 HS USA가 필리조선소 지분 3251억원에 처분 결정",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10bVA4NnMwQldIODVScVU3cjVsS18xcUtORUdlWGlXaE9xRkVkN094ekRFbVNOZU1RZWlDdUZQMTR4VUlfX3dLcWc2ek1wV2ZqX25VVl9iLVprSGFVZVhFcXcwa2NyNTlBd3BmX0oxTjlsdjQ?oc=5",
     "published_at": "2026-09-18T09:32:21+00:00",
@@ -637,11 +614,11 @@
     "image": ""
   },
   {
-    "title": "[류스픽] 한화오션 3,600t 잠수함 '서희함'···자주국방은 최강의 외교력",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqbVV2N1ZuS2J3VHhFa2sxRHU3XzlRQzAyX3RKcDBLSkVrMV9aQnRQbURRZGZtUktsWm9wX3IxWWlyQWlvcDBidmpKV21iRml3QWc4OEhYYVlGemRtUnBnZEJTeTBTTk1ob2lz0gFvQVVfeXFMT3A0VGQyeXlQdnFFYy0xZnV6cG5kMXBNWWMtWkZXT0Zmb2llLU5JMWxHYkpadjdTZHA1bTNFMFhXdFdoX0xOaTVCbTNmWFprd3V0MWJjeWt5NVZ3cXNpU0VsMENHdHcxZkZqckJnR0dv?oc=5",
-    "published_at": "2026-09-21T09:24:49+00:00",
+    "title": "한화에 방산 팔았던 삼성, ‘군 지휘통제’ 수주전서 다시 맞붙나",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmRDZsM0poaU4yV0xrdGo0WkYzS183Z0U3QUdLdFpVcDI4OTUyQnEzaWVIQWozNG5lS0JlVUVwamc4ZGxSaW5fSjVYOEU2eTRpSjNzMk04VDFQSWUwWTRaN1p0R3diU0RCLXpkZVNKcXBkQdIBdEFVX3lxTE9XN0JwRnJZSUpUTnNLQ1FtTl9NbWlhcm0zbXBWQTBNeWl4SUNCWWdIamwxVWY1UlBJMzJKRml3aWZ6YU56TEJmXzdKbzlxMFdSdEVCTi1hVUJ4aEM1aWxGUExXQ1BFOEhQeTBrNENGZFlKR3NY?oc=5",
+    "published_at": "2026-09-21T06:16:38+00:00",
     "sources": [
-      "글로벌E"
+      "이뉴스투데이"
     ],
     "keywords": [
       "한화시스템"
@@ -701,7 +678,7 @@
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03RTh0YktWZGxuaWF1ekpCT0dKaXdGRFNWM0pSN0hoSHpCTTRzM2pIZlVnRG54dEJNbGNhaW44VXA2LXJyMlFlcnhEQmlrNHdhWTZjemtR?oc=5",
     "published_at": "2026-09-18T00:26:00+00:00",
     "sources": [
-      "e4ds news"
+      "e4ds.com"
     ],
     "keywords": [
       "한화시스템"
@@ -733,11 +710,11 @@
     "image": ""
   },
   {
-    "title": "한화그룹, 추석 맞이 협력사 대금 1850억원 조기 지급",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3NVFDY1dfbnJYWnc3dVFnZ3BhUkluS3NkMkhzWFZVRDFlcDFCcnR4UFFaVHNGNWpfTU5GMTQ4QkhPcFRfUXgwbVVyRGI1OE1icHfSAVNBVV95cUxPM3dqcjdLQjZVM01Mc19mWGN6WDBXSnlMM1Brb1NMTHY1NlF3enNoVXJRYnVWc1d0dVlNTVB2YlZpdGRhSmdNMG1pVVhSajNuMlprTQ?oc=5",
-    "published_at": "2026-09-20T22:00:05+00:00",
+    "title": "위성이 보고, AI가 읽는다… 한화시스템 ‘우주 AI 솔루션’ 해외서 첫 공개",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IY2lfOENBY01JQ3g1OUMycldFWm1VNGdsR1BaVGdrUmNkOVdpQjczcTczVjNtc2ZTUWlUWDhudUNIZmFkYnlsOE9pMnBNZkNuVTFzZnFZR09iRjhza2R6WTlpY9IBZ0FVX3lxTE9NS1lsSDgwbDkwajFjbzRLMFFhbzBQbHNRRG1jbGJ1ejZEb0xkQUdsOEZDYVU3UmdtNjBUU3pSbGE1RGtkdDh0cWJYa2ppR2xIbkdUNFU3LXZhaXRuMzNuRE1RSWZSa28?oc=5",
+    "published_at": "2026-09-19T08:00:00+00:00",
     "sources": [
-      "서울경제"
+      "국민기자뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -757,38 +734,14 @@
     "image": ""
   },
   {
-    "title": "위성이 보고, AI가 읽는다… 한화시스템 ‘우주 AI 솔루션’ 해외서 첫 공개",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IY2lfOENBY01JQ3g1OUMycldFWm1VNGdsR1BaVGdrUmNkOVdpQjczcTczVjNtc2ZTUWlUWDhudUNIZmFkYnlsOE9pMnBNZkNuVTFzZnFZR09iRjhza2R6WTlpY9IBZ0FVX3lxTE9NS1lsSDgwbDkwajFjbzRLMFFhbzBQbHNRRG1jbGJ1ejZEb0xkQUdsOEZDYVU3UmdtNjBUU3pSbGE1RGtkdDh0cWJYa2ppR2xIbkdUNFU3LXZhaXRuMzNuRE1RSWZSa28?oc=5",
-    "published_at": "2026-09-19T08:00:00+00:00",
+    "title": "[산업 Pick] 한화시스템·LS마린솔루션, 우주 안보 및 해저 인프라 사업",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsM1NWeXlDTmxLMHlDOWxyT1RCaHhrNlAyeHo2bzViandsS3dfUUpjRHVuR0RObHpFVmloV2UxQmdnaDNvR3ZfM1BjRmp2eXgyR3UtWHFQMDJ4MDNfZnFiaFpYeWxzU1YxVWY4?oc=5",
+    "published_at": "2026-09-18T07:30:00+00:00",
     "sources": [
-      "국민기자뉴스"
+      "라이센스뉴스"
     ],
     "keywords": [
       "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "한화는 UAE 통합대공망, LIG D&A는 공급망 보안…K-방산, 수출 이후를 준비한다",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fZFB2Mlp6R1pWRE9Pal9SbThqYXY2ZXoya1VJa1Y3eWxkazh3VHhzTnBxYVJfYkVmd1Jfc28yNWpnd2htSllKNlVrZFVzeDlqZGowbXNUa25lS29TcFZ1VklVR0puZU1y?oc=5",
-    "published_at": "2026-09-21T00:54:00+00:00",
-    "sources": [
-      "데일리팝"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "title": "해수부·ETRI, 부울경 해역에 ‘해양 IoT’ 시범망 구축...200억원 투입",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wdFZtZ1p1eEEtYmlhdzNSLTgtNEFUeDVzRzZDa0VVajh4cUtZNWlseUEySjZFQjBnenZoNGhOSGl3LXdaZ2lNc0V4ZXd4SWE1T1VGYXBTcEHSAWhBVV95cUxNUXloWWFqRGZvQjZEeUNWdXdTaEVYV05jNWZ4UHRXdEIwemNna2g4X2hxMjhBUGtxUU5LWDdwWDBlUnpFdjNRZC1uYVhtejhYUTVYV2s4MTAxc2xaNDNtWEJkeEtsQkZsVw?oc=5",
-    "published_at": "2026-09-21T06:20:30+00:00",
-    "sources": [
-      "매일안전신문"
-    ],
-    "keywords": [
-      "해수부 IoT"
     ],
     "image": ""
   },
@@ -799,6 +752,18 @@
     "sources": [
       "뉴스1",
       "v.daum.net"
+    ],
+    "keywords": [
+      "해수부 IoT"
+    ],
+    "image": ""
+  },
+  {
+    "title": "해수부·ETRI, 부울경 해역에 ‘해양 IoT’ 시범망 구축...200억원 투입",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wdFZtZ1p1eEEtYmlhdzNSLTgtNEFUeDVzRzZDa0VVajh4cUtZNWlseUEySjZFQjBnenZoNGhOSGl3LXdaZ2lNc0V4ZXd4SWE1T1VGYXBTcEHSAWhBVV95cUxNUXloWWFqRGZvQjZEeUNWdXdTaEVYV05jNWZ4UHRXdEIwemNna2g4X2hxMjhBUGtxUU5LWDdwWDBlUnpFdjNRZC1uYVhtejhYUTVYV2s4MTAxc2xaNDNtWEJkeEtsQkZsVw?oc=5",
+    "published_at": "2026-09-21T06:20:30+00:00",
+    "sources": [
+      "매일안전신문"
     ],
     "keywords": [
       "해수부 IoT"
