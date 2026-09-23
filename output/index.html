@@ -1,1968 +1,1054 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html lang="ko" data-theme="dark">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>News Tracker &ndash; 2026-09-23</title>
-<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" as="style" crossorigin
-  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>News Tracker</title>
+<meta name="description" content="키워드별 뉴스 수집 · 두두원" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 <style>
-  :root {
-    --fg: #15171c;
-    --fg-2: #374151;
-    --muted: #6b7280;
-    --faint: #9ca3af;
-    --line: #e5e7eb;
-    --line-soft: #eef0f3;
-    --chip: #f0f1f4;
-    --tag: #f3f4f6;
-    --accent: #1b68e0;
-    --accent-dark: #1454bc;
-    --accent-soft: #e8f0fd;
-    --accent-line: #b9d2f8;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: #fff;
-    color: var(--fg);
-    font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",
-      "Malgun Gothic", "Segoe UI", sans-serif;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  ::selection { background: #d6e4fb; }
-  a { color: var(--fg); text-decoration: none; }
-  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 28px; }
+/* ============================== Nocturne tokens ============================== */
+:root {
+  --color-bg: #161826;
+  --color-surface: #232532;
+  --color-text: #e9e9ed;
+  --color-accent: #9184d9;
+  --color-accent-2: #a7a1db;
+  --color-divider: color-mix(in srgb, #e9e9ed 16%, transparent);
 
-  /* ---- top bar ---- */
-  .topbar { border-bottom: 1px solid var(--line); }
-  .topbar .wrap { height: 56px; display: flex; align-items: center; gap: 22px; }
-  .logo { font-size: 17px; font-weight: 800; letter-spacing: -0.04em; color: var(--accent); }
-  .logo a { color: inherit; }
-  .vr { width: 1px; height: 18px; background: var(--line); }
-  .section-name { font-size: 14.5px; font-weight: 600; color: var(--fg-2); }
-  .stamp {
-    margin-left: auto; font-size: 12.5px; color: var(--muted);
-    font-variant-numeric: tabular-nums; white-space: nowrap;
-  }
+  --color-neutral-100: #f3f5fe; --color-neutral-200: #e4e7f5; --color-neutral-300: #cfd3e5;
+  --color-neutral-400: #b2b6ca; --color-neutral-500: #9397ab; --color-neutral-600: #75798c;
+  --color-neutral-700: #595d6c; --color-neutral-800: #3f424d; --color-neutral-900: #292b31;
 
-  /* ---- archive tabs ---- */
-  .archive-row { display: flex; align-items: center; gap: 8px; padding-top: 18px; overflow-x: auto; }
-  .archive-row .row-label {
-    flex: 0 0 auto; font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px;
-  }
-  .archive-row a, .archive-row .current {
-    flex: 0 0 auto; padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 600;
-    font-variant-numeric: tabular-nums; border: 1px solid var(--line); color: var(--muted);
-  }
-  .archive-row a:hover { border-color: var(--accent-line); color: var(--accent); }
-  .archive-row .current {
-    background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent);
-  }
+  --color-accent-100: #f5f4ff; --color-accent-200: #e7e5fe; --color-accent-300: #d2cefd;
+  --color-accent-400: #b5abfc; --color-accent-500: #968ae0; --color-accent-600: #796cbf;
+  --color-accent-700: #5d5294; --color-accent-800: #423a6a; --color-accent-900: #2b2741;
 
-  /* ---- keyword pills ---- */
-  .kw-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding-top: 26px; }
-  .kw-row .lead { font-size: 15px; font-weight: 700; color: var(--accent); white-space: nowrap; }
-  .pills { display: flex; flex-wrap: wrap; gap: 8px; }
-  .pill {
-    display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px;
-    font: inherit; font-size: 14px; font-weight: 700; letter-spacing: -0.02em; white-space: nowrap;
-    color: var(--fg-2); background: var(--chip); border: none; border-radius: 999px; cursor: pointer;
-    transition: background 0.15s ease, color 0.15s ease;
-  }
-  .pill .count { opacity: 0.6; font-variant-numeric: tabular-nums; }
-  .pill:hover { background: #e6e8ec; }
-  .pill[aria-pressed="true"] { background: var(--accent); color: #fff; }
-  .pill[aria-pressed="true"]:hover { background: var(--accent-dark); }
+  --font-heading: "Inter", "Pretendard", system-ui, sans-serif;
+  --font-heading-weight: 500;
+  --font-body: "Inter", "Pretendard", system-ui, sans-serif;
 
-  /* ---- source filter ---- */
-  .src-row { padding-top: 14px; }
-  .src-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 8px; }
-  .src-row-head .row-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-right: 4px; }
-  .source-chips {
-    display: flex; flex-wrap: wrap; gap: 8px; overflow: hidden;
-    transition: max-height 0.2s ease;
-  }
-  .src-chip {
-    padding: 5px 12px; font: inherit; font-size: 12px; font-weight: 600; color: var(--muted);
-    background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
-  }
-  .src-chip:hover { border-color: var(--accent-line); color: var(--accent); }
-  .src-chip[aria-pressed="true"] {
-    color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line);
-  }
-  .src-toggle-btn {
-    margin-top: 8px; padding: 0; font: inherit; font-size: 12.5px; font-weight: 600;
-    color: var(--accent); background: none; border: none; cursor: pointer;
-  }
-  .src-toggle-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+  --space-1: 2.8px; --space-2: 5.6px; --space-3: 8.4px; --space-4: 11.2px; --space-6: 16.8px; --space-8: 22.4px;
+  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 14px;
 
-  /* ---- summary line ---- */
-  .summary-row {
-    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-    gap: 10px; padding-top: 18px; font-size: 12.5px; color: var(--muted);
-  }
-  .summary-row b { color: var(--accent); font-variant-numeric: tabular-nums; }
-  .summary-row b.plain { color: var(--fg-2); }
-  .summary-row .actions { display: flex; gap: 14px; }
-  .link-btn {
-    padding: 0; font: inherit; font-size: 12.5px; color: var(--muted); background: none;
-    border: none; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
-  }
-  .link-btn:hover { color: var(--accent); }
-  .link-btn.accent { color: var(--accent); }
+  --shadow-sm: 0 0 0 1px #3f424d;
+  --shadow-md: 0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,0.55);
+  --shadow-lg: 0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,0.65);
 
-  /* ---- groups + cards ---- */
-  main.wrap { padding-top: 24px; padding-bottom: 90px; display: flex; flex-direction: column; gap: 44px; }
-  .group-head { display: flex; align-items: center; gap: 10px; padding-bottom: 16px; }
-  .group-head .bar { width: 4px; height: 17px; border-radius: 2px; background: var(--kw-color); }
-  .group-head h2 { margin: 0; font-size: 18px; font-weight: 800; letter-spacing: -0.035em; }
-  .group-head .count { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  --nt-stripe-a: #262833; --nt-stripe-b: #2b2d39;
+  --nt-fb-a: #2a2c3a; --nt-fb-b: #20222d;
+  --nt-backdrop: rgba(22,24,38,.55);
+  --nt-rule: rgba(233,233,237,.08);
+  --nt-knob: #f3f5fe; --nt-track-off: #595d6c;
+}
+:root[data-theme="light"] {
+  --color-bg: #f3f5fe; --color-surface: #fbfbff; --color-text: #292b31; --color-accent: #796cbf;
+  --color-divider: color-mix(in srgb, #292b31 14%, transparent);
 
-  ul.cards {
-    list-style: none; margin: 0; padding: 0;
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 32px 26px;
-  }
-  ul.cards li {
-    display: flex; flex-direction: column; gap: 11px; min-width: 0;
-    transition: opacity 0.2s ease;
-  }
-  .thumb {
-    position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden;
-    background: repeating-linear-gradient(135deg, #edeff2 0 8px, #f5f6f8 8px 16px);
-  }
-  .thumb img {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    object-fit: cover;
-  }
-  a.title {
-    font-size: 16.5px; font-weight: 700; line-height: 1.42; letter-spacing: -0.03em;
-    text-wrap: pretty; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
-    overflow: hidden; min-height: calc(1.42em * 3);
-  }
-  a.title:hover { color: var(--accent); }
-  .card-meta {
-    margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12.5px;
-  }
-  .card-meta .src { font-weight: 700; color: var(--fg-2); }
-  .card-meta .tag {
-    padding: 2px 8px; background: var(--tag); border-radius: 4px; color: var(--muted); font-size: 11.5px;
-  }
-  .card-foot {
-    display: flex; align-items: center; justify-content: space-between; gap: 10px;
-    font-size: 12px; color: var(--muted);
-  }
-  .card-foot time { font-variant-numeric: tabular-nums; }
-  .read-toggle {
-    padding: 3px 10px; font: inherit; font-size: 11.5px; font-weight: 600; color: var(--muted);
-    background: #fff; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
-    white-space: nowrap;
-  }
-  .read-toggle:hover { color: var(--accent); border-color: var(--accent-line); }
-  li.is-read { opacity: 0.5; }
-  li.is-read a.title { text-decoration: line-through; text-decoration-color: #c3c8d0; }
-  li.is-read .read-toggle { color: var(--accent); background: var(--accent-soft); border-color: var(--accent-line); }
+  --color-neutral-100: #292b31; --color-neutral-200: #292b31; --color-neutral-300: #3f424d;
+  --color-neutral-400: #3f424d; --color-neutral-500: #595d6c; --color-neutral-600: #75798c;
+  --color-neutral-700: #b2b6ca; --color-neutral-800: #cfd3e5; --color-neutral-900: #e4e7f5;
 
-  .empty {
-    margin: 0; padding: 40px 0; border-top: 1px solid var(--line-soft);
-    text-align: center; font-size: 13.5px; color: var(--muted);
-  }
-  footer.wrap {
-    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px;
-    padding-top: 8px; font-size: 11.5px; color: var(--muted);
-  }
-  footer.wrap { border-top: 1px solid var(--line-soft); max-width: 1280px; }
+  --color-accent-100: #423a6a; --color-accent-200: #4f4676; --color-accent-300: #5d5294;
+  --color-accent-400: #796cbf; --color-accent-500: #796cbf; --color-accent-600: #796cbf;
+  --color-accent-700: #6a5fa5; --color-accent-800: #e7e5fe; --color-accent-900: #e7e5fe;
 
-  [hidden] { display: none !important; }
+  --shadow-sm: 0 0 0 1px #e4e7f5;
+  --shadow-md: 0 0 0 1px #cfd3e5, 0 6px 18px rgba(41,43,49,.10);
+  --shadow-lg: 0 0 0 1px #cfd3e5, 0 16px 40px rgba(41,43,49,.16);
 
-  @media (max-width: 560px) {
-    .wrap { padding: 0 18px; }
-    ul.cards { grid-template-columns: 1fr; gap: 26px; }
-    a.title { font-size: 16px; }
-  }
-  </style>
+  --nt-stripe-a: #eceef8; --nt-stripe-b: #e0e3f0;
+  --nt-fb-a: #eef0fa; --nt-fb-b: #e4e7f5;
+  --nt-backdrop: rgba(41,43,49,.28);
+  --nt-rule: rgba(41,43,49,.08);
+  --nt-knob: #fbfbff; --nt-track-off: #cfd3e5;
+}
+
+* , *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400;
+  background: var(--color-bg); color: var(--color-text); font-family: var(--font-body);
+  word-break: keep-all; transition: background 200ms;
+}
+h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); font-weight: var(--font-heading-weight); line-height: 1.12; letter-spacing: -0.015em; margin: 0; }
+a { color: var(--color-accent); text-underline-offset: 3px; }
+img { display:block; max-width:100%; }
+button { font: inherit; color: inherit; }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+.tabular { font-variant-numeric: tabular-nums; }
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+/* ============================== layout ============================== */
+#app { min-height: 100%; }
+.header {
+  position: sticky; top: 0; z-index: 20; height: 56px; display: flex; align-items: center; gap: 14px;
+  padding: 0 22px; background: var(--color-bg); box-shadow: 0 1px 0 var(--color-divider);
+}
+.brand { display:flex; align-items:center; gap:8px; font: 16px/1 var(--font-heading); font-weight:500; letter-spacing:-0.01em; flex: none; }
+.brand .ph { font-size:20px; color: var(--color-accent); }
+.screen-tabs { display:flex; gap:4px; flex:none; }
+.screen-tab {
+  height:32px; padding:0 12px; border-radius:8px; font-size:14px; font-weight:500; border:0; background:transparent;
+  color: var(--color-neutral-400); cursor:pointer; display:flex; align-items:center; gap:6px;
+}
+.screen-tab.active { background: var(--color-neutral-900); color: var(--color-text); }
+.screen-tab:hover:not(.active) { color: var(--color-text); }
+
+.datenav { display:flex; align-items:center; gap:2px; border:1px solid var(--color-divider); border-radius:8px; padding:2px; flex:none; position:relative; }
+.datenav button.nav-arrow { width:28px; height:28px; border:0; background:transparent; border-radius:6px; cursor:pointer; display:flex; align-items:center; justify-content:center; color: var(--color-neutral-400); }
+.datenav button.nav-arrow:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); color: var(--color-text); }
+.datenav button.nav-arrow:disabled { opacity:.35; cursor:not-allowed; }
+.datenav .datebtn { display:flex; align-items:center; gap:6px; height:28px; padding:0 8px; border:0; background:transparent; border-radius:6px; cursor:pointer; font-size:13px; color: var(--color-text); }
+.datenav .datebtn:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.datenav .tag-today { font-size:11px; color: var(--color-accent-300); }
+.date-popover {
+  position:absolute; top:calc(100% + 6px); left:50%; transform:translateX(-50%); width:240px; max-height: 60vh; overflow:auto;
+  background: var(--color-surface); border-radius:14px; box-shadow: var(--shadow-md); padding:6px; z-index:30;
+}
+.date-popover .dp-item { display:flex; align-items:center; justify-content:space-between; padding:7px 10px; border-radius:8px; cursor:pointer; font-size:13px; }
+.date-popover .dp-item:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.date-popover .dp-item.active { background: var(--color-accent-900); color: var(--color-accent-300); }
+.date-popover .dp-count { color: var(--color-neutral-500); font-size:12px; }
+
+.searchwrap { flex:1 1 auto; max-width:380px; min-width:150px; height:36px; border-radius:8px; background: var(--color-surface); border:1px solid var(--color-divider); display:flex; align-items:center; gap:8px; padding:0 10px; }
+.searchwrap .ph { font-size:16px; color: var(--color-neutral-500); flex:none; }
+.searchwrap input { flex:1; min-width:0; border:0; background:transparent; color:var(--color-text); font:inherit; font-size:13px; }
+.searchwrap input::placeholder { color: var(--color-neutral-500); }
+
+.refresh-status { margin-left:auto; display:flex; align-items:center; gap:7px; font-size:12px; color: var(--color-neutral-400); flex:none; cursor:default; }
+.refresh-dot { width:6px; height:6px; border-radius:50%; background: var(--color-accent); box-shadow: 0 0 8px var(--color-accent); }
+.theme-toggle { width:32px; height:32px; border-radius:8px; border:1px solid var(--color-divider); background:transparent; cursor:pointer; display:flex; align-items:center; justify-content:center; flex:none; color:var(--color-text); }
+.theme-toggle:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+
+/* ---- feed layout ---- */
+.feed-layout { display:flex; align-items:flex-start; }
+.sidebar {
+  width:228px; flex:none; position:sticky; top:56px; height:calc(100vh - 56px); overflow:auto;
+  padding:22px 12px; display:flex; flex-direction:column; gap:26px;
+}
+.sb-section-head { display:flex; align-items:center; gap:6px; padding:0 10px; margin-bottom:6px; }
+.sb-section-head .ph { font-size:13px; color: var(--color-neutral-500); }
+.sb-section-head span.label { font-size:12px; color: var(--color-neutral-500); flex:1; }
+.sb-manage-btn { font-size:12px; font-weight:500; color: var(--color-accent); background:transparent; border:0; cursor:pointer; border-radius:6px; padding:3px 6px; display:flex; align-items:center; gap:4px; }
+.sb-manage-btn:hover { background: var(--color-accent-900); }
+.sb-item { height:36px; border-radius:8px; padding:0 10px; display:flex; align-items:center; gap:8px; cursor:pointer; color:var(--color-text); }
+.sb-item:hover { background: color-mix(in srgb, var(--color-text) 6%, transparent); }
+.sb-item.active { background: var(--color-neutral-900); box-shadow: inset 2px 0 0 var(--color-accent); }
+.sb-item .ph { font-size:15px; color: var(--color-neutral-500); flex:none; }
+.sb-item .name { font-size:14px; font-weight:500; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.sb-badge { min-width:20px; height:18px; padding:0 5px; border-radius:5px; background: var(--color-accent-800); color: var(--color-accent-100); font-size:11px; font-weight:600; display:flex; align-items:center; justify-content:center; flex:none; }
+.sb-badge:empty, .sb-badge[hidden] { display:none; }
+.sb-total { font-size:12px; color: var(--color-neutral-500); flex:none; }
+.sb-empty-item { height:30px; display:flex; align-items:center; gap:8px; padding:0 10px; font-size:13px; color: var(--color-neutral-600); cursor:default; }
+
+.main { flex:1; min-width:0; padding:26px 28px 72px 12px; display:flex; flex-direction:column; gap:22px; }
+.toolbar { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; flex-wrap:wrap; }
+.toolbar h1 { font-size:28px; letter-spacing:-0.015em; }
+.toolbar .summary { font-size:13px; color: var(--color-neutral-400); margin-top:4px; }
+.toolbar-right { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.seg2 { display:flex; align-items:center; border:1px solid var(--color-divider); border-radius:8px; overflow:hidden; }
+.seg2 button { height:32px; padding:0 12px; border:0; border-left:1px solid var(--color-divider); background:transparent; cursor:pointer; font-size:13px; color:var(--color-text); display:flex; align-items:center; gap:6px; }
+.seg2 button:first-child { border-left:0; }
+.seg2 button .cnt { color: var(--color-neutral-500); font-size:12px; }
+.seg2 button.active { color: var(--color-accent); box-shadow: inset 0 0 0 1px var(--color-accent); }
+.switch-btn { display:flex; align-items:center; gap:8px; font-size:13px; background:transparent; border:0; cursor:pointer; color: var(--color-text); }
+.switch { width:30px; height:18px; border-radius:9px; background: var(--nt-track-off); position:relative; transition: background 150ms; flex:none; }
+.switch.on { background: var(--color-accent-600); }
+.switch .knob { position:absolute; top:2px; left:2px; width:14px; height:14px; border-radius:50%; background: var(--nt-knob); transition: left 150ms; }
+.switch.on .knob { left:14px; }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:6px; cursor:pointer; text-decoration:none; font-family: var(--font-heading); font-weight:500; font-size:14px; line-height:1.2; color: var(--color-text); background:transparent; border:1px solid transparent; padding: 6px 10px; border-radius: var(--radius-md); }
+.btn-primary { color: var(--color-accent); border-color: var(--color-accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+.btn-secondary { border-color: var(--color-divider); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.btn-ghost { color: var(--color-accent); padding-inline: 4px; border:0; }
+.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn:disabled { opacity:.45; cursor:not-allowed; }
+
+.date-section { display:flex; flex-direction:column; gap:14px; }
+.date-head { position:sticky; top:56px; z-index:6; background: var(--color-bg); padding:10px 0 8px; display:flex; align-items:baseline; gap:10px; }
+.date-head h2 { font-size:15px; }
+.date-head .cnt { font-size:12px; color: var(--color-neutral-500); flex:none; }
+.date-head .fade-rule { flex:1; height:1px; background: linear-gradient(to right, var(--color-divider), transparent); }
+
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:14px; }
+.card { border-radius:8px; background: var(--color-surface); box-shadow: var(--shadow-sm); overflow:hidden; cursor:pointer; transition: box-shadow 150ms; display:flex; flex-direction:column; }
+.card:hover { box-shadow: var(--shadow-md); }
+.card.selected { box-shadow: 0 0 0 1px var(--color-accent); }
+.card-img-wrap { aspect-ratio: 16/9; background: var(--color-surface); overflow:hidden; position:relative; }
+.card-img-wrap img { width:100%; height:100%; object-fit:cover; }
+.card.read .card-img-wrap img { opacity:.55; }
+.card-img-fallback { width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; background: linear-gradient(135deg, var(--nt-fb-a), var(--nt-fb-b)); }
+.card-img-fallback .initial { width:34px; height:34px; border-radius:8px; background: var(--color-accent-800); color: var(--color-accent-100); display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:600; }
+.card-img-fallback .cap { font-size:11px; color: var(--color-neutral-500); }
+.card-body { padding:12px 14px; display:flex; flex-direction:column; gap:8px; flex:1; }
+.card-meta { display:flex; flex-wrap:wrap; align-items:center; gap:4px 6px; font-size:12px; color: var(--color-neutral-400); }
+.card-meta .unread-dot { width:6px; height:6px; border-radius:50%; background: var(--color-accent); flex:none; }
+.card-meta .src { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:3em; }
+.card-meta .kwtag { margin-left:auto; font-size:11px; background: var(--color-neutral-900); color: var(--color-neutral-300); border-radius:6px; padding:2px 8px; }
+.card-title { font: 500 15px/1.42 var(--font-heading); max-height:4.26em; overflow:hidden; color: var(--color-text); }
+.card.read .card-title { color: var(--color-neutral-500); }
+.card-footer { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:auto; }
+.card-cluster { font-size:12px; color: var(--color-accent-300); display:flex; align-items:center; gap:5px; }
+.card-bm { width:28px; height:28px; border-radius:6px; border:0; background:transparent; cursor:pointer; display:flex; align-items:center; justify-content:center; color: var(--color-neutral-500); margin-left:auto; }
+.card-bm:hover { background: color-mix(in srgb, var(--color-text) 8%, transparent); }
+.card-bm.on { color: var(--color-accent); }
+
+.skeleton-card { border-radius:8px; overflow:hidden; background:var(--color-surface); box-shadow: var(--shadow-sm); }
+.skeleton-card .card-img-wrap { background: linear-gradient(100deg, var(--nt-stripe-a) 40%, var(--nt-stripe-b) 50%, var(--nt-stripe-a) 60%); background-size:200% 100%; animation: sk 1.4s infinite; }
+.skeleton-bar { height:10px; border-radius:4px; background: var(--color-neutral-900); margin:12px 14px; }
+.skeleton-bar.w60 { width:60%; }
+@keyframes sk { 0%{background-position:200% 0;} 100%{background-position:-200% 0;} }
+
+.sentinel-wrap { display:flex; flex-direction:column; align-items:center; gap:12px; padding:18px 0; color: var(--color-neutral-500); font-size:13px; }
+.sentinel-wrap .lbl { display:flex; align-items:center; gap:6px; }
+
+.empty-state { border:1px dashed var(--color-neutral-800); border-radius:14px; padding:48px 20px; display:flex; flex-direction:column; align-items:center; gap:10px; color: var(--color-neutral-500); text-align:center; }
+.empty-state .ph { font-size:28px; }
+.empty-state .t1 { font-size:14px; color: var(--color-text); }
+.empty-state .t2 { font-size:13px; }
+
+.totop { position:fixed; right:24px; bottom:24px; z-index:15; background: var(--color-surface); box-shadow: var(--shadow-md); border:0; border-radius:8px; padding:10px 14px; display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; color: var(--color-text); }
+.totop[hidden] { display:none; }
+
+.kbd-hint { display:flex; align-items:center; gap:6px; font-size:11px; color: var(--color-neutral-600); }
+
+/* ---- drawer ---- */
+.drawer-backdrop { position:fixed; inset:0; background: var(--nt-backdrop); z-index:40; }
+.drawer-backdrop[hidden] { display:none; }
+.drawer { position:fixed; top:0; right:0; bottom:0; width:min(460px, 100vw); background: var(--color-surface); box-shadow: var(--shadow-lg); overflow:auto; z-index:41; display:flex; flex-direction:column; }
+.drawer[hidden] { display:none; }
+.drawer-top { position:sticky; top:0; background: var(--color-surface); padding:10px 12px; display:flex; align-items:center; gap:8px; border-bottom:1px solid var(--nt-rule); z-index:1; }
+.drawer-top .pos { font-size:12px; color: var(--color-neutral-500); margin-right:auto; }
+.drawer-top button { width:30px; height:30px; border-radius:6px; border:0; background:transparent; cursor:pointer; display:flex; align-items:center; justify-content:center; color: var(--color-text); }
+.drawer-top button:hover:not(:disabled) { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.drawer-top button:disabled { opacity:.35; cursor:not-allowed; }
+.drawer-body { padding:18px 20px 28px; display:flex; flex-direction:column; gap:16px; }
+.drawer-body .dimg { aspect-ratio:16/9; border-radius:8px; overflow:hidden; background: var(--color-bg); }
+.drawer-body .dimg img { width:100%; height:100%; object-fit:cover; }
+.drawer-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:12px; color: var(--color-neutral-400); }
+.drawer-meta .tag-kw { background: var(--color-accent-800); color: var(--color-accent-100); font-size:11px; border-radius:6px; padding:3px 8px; }
+.drawer-meta .ph { font-size:13px; }
+.drawer-title { font: 500 21px/1.4 var(--font-heading); }
+.drawer-actions { display:flex; gap:8px; flex-wrap:wrap; }
+.related-box { display:flex; flex-direction:column; gap:8px; }
+.related-head { display:flex; align-items:center; gap:6px; font-size:13px; color: var(--color-neutral-300); }
+.related-head .ph { color: var(--color-accent-300); }
+.related-sum { font-size:12px; color: var(--color-neutral-500); }
+.related-item { padding:8px 10px; border-radius:8px; cursor:pointer; }
+.related-item:hover { background: var(--color-neutral-900); }
+.related-item .rm { font-size:12px; color: var(--color-neutral-500); }
+.related-item .rt { font-size:14px; color: var(--color-neutral-200); margin-top:2px; }
+
+/* ---- keywords screen ---- */
+.kw-screen { max-width:1040px; padding:30px 28px 72px; margin:0 auto; }
+.kw-screen h1 { font-size:28px; margin-bottom:6px; }
+.kw-screen .desc { font-size:13px; color: var(--color-neutral-400); margin-bottom:22px; }
+.kw-add-row { display:flex; align-items:flex-end; gap:10px; margin-bottom:20px; }
+.kw-add-row .field { flex:1; max-width:320px; }
+.kw-add-row label { display:block; font-size:12px; margin-bottom:5px; color: color-mix(in srgb, var(--color-text) 70%, transparent); }
+.input { width:100%; min-height:36px; padding:6px 10px; font:inherit; font-size:14px; color:var(--color-text); caret-color: var(--color-accent); background: var(--color-surface); border:1px solid var(--color-divider); border-radius: var(--radius-md); }
+.input:hover { border-color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.input:focus-visible { border-color: var(--color-accent); }
+.kw-table { display:flex; flex-direction:column; }
+.kw-row { display:grid; grid-template-columns: 1.4fr 1.6fr 150px 64px 56px 36px; gap:14px; align-items:center; padding:10px 12px; position:relative; }
+.kw-row::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background: linear-gradient(to right, transparent, var(--nt-rule) 48px, var(--nt-rule) calc(100% - 48px), transparent); }
+.kw-row.head { color: var(--color-neutral-500); font-size:11px; letter-spacing:0.06em; text-transform:uppercase; }
+.kw-row.inactive { opacity:.5; }
+.kw-name { font-size:14px; font-weight:500; }
+.kw-src-chips { display:flex; gap:6px; }
+.chip-toggle { height:26px; padding:0 9px; border-radius:6px; font-size:12px; display:flex; align-items:center; gap:4px; cursor:pointer; border:1px solid var(--color-neutral-800); color: var(--color-neutral-500); background:transparent; }
+.chip-toggle.on { border-color: var(--color-accent); color: var(--color-accent-300); }
+.kw-today { font-size:13px; color: var(--color-neutral-400); text-align:right; }
+.kw-del { width:30px; height:30px; border:0; background:transparent; border-radius:6px; cursor:pointer; color: var(--color-neutral-500); display:flex; align-items:center; justify-content:center; }
+.kw-del:hover { color: #e2726b; background: color-mix(in srgb, #e2726b 12%, transparent); }
+.kw-info { margin-top:22px; display:flex; gap:10px; padding:14px; border-radius:8px; background: var(--color-surface); font-size:13px; color: var(--color-neutral-400); }
+.kw-info .ph { color: var(--color-accent); font-size:16px; flex:none; }
+.kw-admin-row { margin-top:16px; display:flex; align-items:center; gap:10px; font-size:12px; color: var(--color-neutral-500); }
+.kw-admin-row .input { max-width:260px; }
+.kw-status { font-size:12px; }
+.kw-status.err { color:#e2726b; }
+.kw-status.ok { color: var(--color-accent-300); }
+
+@media (max-width: 860px) {
+  .feed-layout { flex-direction:column; }
+  .sidebar { position:static; width:100%; height:auto; }
+  .header { padding:0 12px; gap:8px; }
+  .searchwrap { display:none; }
+  .kw-row { grid-template-columns: 1.2fr 1fr 60px 34px; }
+  .kw-row > :nth-child(2), .kw-row > :nth-child(3) { display:none; }
+}
+</style>
 </head>
 <body>
-<div id="site-content">
-  <div class="topbar">
-    <div class="wrap">
-      <span class="logo"><a href="index.html">NEWS TRACKER</a></span>
-      <span class="vr"></span>
-      <span class="section-name">최신뉴스</span>
-      <span class="stamp">자동 갱신 2026-09-23</span>
-    </div>
-  </div>
-
-  
-  <div class="wrap">
-    <nav class="archive-row" aria-label="지난 기록">
-      <span class="row-label">지난 기록</span>
-      
-        
-          <span class="current">2026-09-23</span>
-        
-      
-        
-          <a href="archive/2026-09-22.html">2026-09-22</a>
-        
-      
-        
-          <a href="archive/2026-09-21.html">2026-09-21</a>
-        
-      
-        
-          <a href="archive/2026-09-20.html">2026-09-20</a>
-        
-      
-        
-          <a href="archive/2026-09-19.html">2026-09-19</a>
-        
-      
-        
-          <a href="archive/2026-09-18.html">2026-09-18</a>
-        
-      
-        
-          <a href="archive/2026-09-17.html">2026-09-17</a>
-        
-      
-        
-          <a href="archive/2026-09-16.html">2026-09-16</a>
-        
-      
-        
-          <a href="archive/2026-09-15.html">2026-09-15</a>
-        
-      
-        
-          <a href="archive/2026-09-14.html">2026-09-14</a>
-        
-      
-        
-          <a href="archive/2026-09-13.html">2026-09-13</a>
-        
-      
-        
-          <a href="archive/2026-09-12.html">2026-09-12</a>
-        
-      
-        
-          <a href="archive/2026-09-11.html">2026-09-11</a>
-        
-      
+<div id="app">
+  <header class="header">
+    <div class="brand"><i class="ph ph-newspaper-clipping" aria-hidden="true"></i><span>News Tracker</span></div>
+    <nav class="screen-tabs">
+      <button type="button" class="screen-tab" data-screen="feed"><i class="ph ph-squares-four" aria-hidden="true"></i>피드</button>
+      <button type="button" class="screen-tab" data-screen="keywords"><i class="ph ph-sliders-horizontal" aria-hidden="true"></i>키워드 관리</button>
     </nav>
-  </div>
-  
-
-  
-  <div class="wrap">
-    <nav class="kw-row" aria-label="검색어">
-      <span class="lead">검색어(<span id="kw-selected">7</span>/7)</span>
-      <div class="pills">
-        <button type="button" class="pill" id="kw-all" aria-pressed="true">전체</button>
-        
-        <button type="button" class="pill" data-kw="두두원" aria-pressed="false">
-          <span>두두원</span>
-          <span class="count">0</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="이음5G" aria-pressed="false">
-          <span>이음5G</span>
-          <span class="count">1</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="5G 특화망" aria-pressed="false">
-          <span>5G 특화망</span>
-          <span class="count">0</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="P5G" aria-pressed="false">
-          <span>P5G</span>
-          <span class="count">0</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="방사청 5G" aria-pressed="false">
-          <span>방사청 5G</span>
-          <span class="count">0</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="한화시스템" aria-pressed="false">
-          <span>한화시스템</span>
-          <span class="count">86</span>
-        </button>
-        
-        <button type="button" class="pill" data-kw="해수부 IoT" aria-pressed="false">
-          <span>해수부 IoT</span>
-          <span class="count">4</span>
-        </button>
-        
-      </div>
-    </nav>
-
-    <div class="src-row" id="source-row" hidden>
-      <div class="src-row-head">
-        <span class="row-label">언론사</span>
-        <button type="button" class="src-chip" id="src-all" aria-pressed="true">전체</button>
-      </div>
-      <div id="source-chips" class="source-chips"></div>
-      <button type="button" class="src-toggle-btn" id="src-toggle" aria-expanded="false" hidden>언론사 더보기</button>
+    <div class="datenav" id="datenav">
+      <button type="button" class="nav-arrow" id="date-prev" aria-label="이전 날짜"><i class="ph ph-caret-left" aria-hidden="true"></i></button>
+      <button type="button" class="datebtn" id="date-btn"><i class="ph ph-calendar-blank" aria-hidden="true"></i><span id="date-label">2026-09-23</span><span class="tag-today" id="date-tag">오늘</span></button>
+      <button type="button" class="nav-arrow" id="date-next" aria-label="다음 날짜"><i class="ph ph-caret-right" aria-hidden="true"></i></button>
+      <div class="date-popover" id="date-popover" hidden></div>
     </div>
-
-    <div class="summary-row">
-      <span>총 <b id="visible-count">91</b>건 · 읽음 <b class="plain" id="read-count">0</b>건</span>
-      <div class="actions">
-        <button type="button" class="link-btn accent" id="reset-filters" hidden>필터 초기화</button>
-        <button type="button" class="link-btn" id="clear-read">읽음 초기화</button>
-      </div>
+    <div class="searchwrap">
+      <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+      <input type="text" id="search-input" placeholder="제목·언론사 검색" autocomplete="off" />
     </div>
-  </div>
-  
+    <div class="refresh-status" id="refresh-status" title="">
+      <span class="refresh-dot"></span><span id="refresh-label">2026-09-23</span>
+    </div>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="테마 전환">
+      <i class="ph ph-sun" aria-hidden="true"></i>
+    </button>
+  </header>
 
-  <main class="wrap">
-    
-      
-      <section class="keyword-group" id="kw-1" data-kw="두두원"
-               style="--kw-color: var(--kw-color-0);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>두두원</h2>
-          <span class="count"><span class="group-count">0</span>건</span>
+  <section class="feed-layout" id="screen-feed">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main" id="feed-main">
+      <div class="toolbar">
+        <div>
+          <h1 id="feed-title">전체 뉴스</h1>
+          <div class="summary" id="feed-summary"></div>
         </div>
-        
-        <p class="empty">기사 없음</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-2" data-kw="이음5G"
-               style="--kw-color: var(--kw-color-1);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>이음5G</h2>
-          <span class="count"><span class="group-count">1</span>건</span>
+        <div class="toolbar-right">
+          <div class="seg2" id="tab-seg">
+            <button type="button" data-tab="all"><i class="ph ph-list" aria-hidden="true"></i>전체 <span class="cnt" id="cnt-all"></span></button>
+            <button type="button" data-tab="unread"><i class="ph ph-envelope-simple" aria-hidden="true"></i>안 읽음 <span class="cnt" id="cnt-unread"></span></button>
+            <button type="button" data-tab="bm"><i class="ph ph-bookmark-simple" aria-hidden="true"></i>북마크 <span class="cnt" id="cnt-bm"></span></button>
+          </div>
+          <button type="button" class="switch-btn" id="group-toggle"><span class="switch" id="group-switch"><span class="knob"></span></span>같은 소식 묶기</button>
+          <button type="button" class="btn btn-primary" id="mark-all-read"><i class="ph ph-checks" aria-hidden="true"></i>모두 읽음</button>
         </div>
-        
-        <ul class="cards">
-          
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTFAzUDVYc21NZ0F1d3ZQUllLMGlhRVk2Q2FKQVpaVW1scUFONU1RQ0dlcGY0RnhWVnNpZ1FKVlRSUkFUM1EtU3BzSTUzZDJqT05jM0ZXU1BHRkFEOFI0Y1N1bExiYzE1M3BJc21ONlF0b9IBb0FVX3lxTFAzUDVYc21NZ0F1d3ZQUllLMGlhRVk2Q2FKQVpaVW1scUFONU1RQ0dlcGY0RnhWVnNpZ1FKVlRSUkFUM1EtU3BzSTUzZDJqT05jM0ZXU1BHRkFEOFI0Y1N1bExiYzE1M3BJc21ONlF0bw?oc=5" data-source="mt.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTFAzUDVYc21NZ0F1d3ZQUllLMGlhRVk2Q2FKQVpaVW1scUFONU1RQ0dlcGY0RnhWVnNpZ1FKVlRSUkFUM1EtU3BzSTUzZDJqT05jM0ZXU1BHRkFEOFI0Y1N1bExiYzE1M3BJc21ONlF0b9IBb0FVX3lxTFAzUDVYc21NZ0F1d3ZQUllLMGlhRVk2Q2FKQVpaVW1scUFONU1RQ0dlcGY0RnhWVnNpZ1FKVlRSUkFUM1EtU3BzSTUzZDJqT05jM0ZXU1BHRkFEOFI0Y1N1bExiYzE1M3BJc21ONlF0bw?oc=5" target="_blank" rel="noopener noreferrer">콘텔라, &#39;그로윈&#39;과 중소기업용 5G 통합 장비 &#39;5G S-Box&#39; 출시 - 머니투데이</a>
-            <div class="card-meta">
-              <span class="src">mt.co.kr</span>
-              <span class="tag">이음5G</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T07:40:03+00:00">2026-09-21T07:40:03+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-        </ul>
-        <p class="empty group-empty" hidden>해당 조건의 기사가 없습니다.</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-3" data-kw="5G 특화망"
-               style="--kw-color: var(--kw-color-2);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>5G 특화망</h2>
-          <span class="count"><span class="group-count">0</span>건</span>
-        </div>
-        
-        <p class="empty">기사 없음</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-4" data-kw="P5G"
-               style="--kw-color: var(--kw-color-3);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>P5G</h2>
-          <span class="count"><span class="group-count">0</span>건</span>
-        </div>
-        
-        <p class="empty">기사 없음</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-5" data-kw="방사청 5G"
-               style="--kw-color: var(--kw-color-4);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>방사청 5G</h2>
-          <span class="count"><span class="group-count">0</span>건</span>
-        </div>
-        
-        <p class="empty">기사 없음</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-6" data-kw="한화시스템"
-               style="--kw-color: var(--kw-color-0);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>한화시스템</h2>
-          <span class="count"><span class="group-count">86</span>건</span>
-        </div>
-        
-        <ul class="cards">
-          
-          <li data-link="https://news.google.com/rss/articles/CBMigwFBVV95cUxQdkpueWN5aUJRREF5YXNGNjd1YXBxSlYtWExjODlLdW94SDlpcDFxYklwOXowdkJtVzVzaXNnM0hLZ1FuVzd3bU5LWnhyQkJWcmEzRzBWNE82V2pYYnZOLUw1SFZUMTNGUGdrZmVHcFFOaVkyWUQwQVhKU0VlZUJRa1Fvaw?oc=5" data-source="인베스트조선">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQdkpueWN5aUJRREF5YXNGNjd1YXBxSlYtWExjODlLdW94SDlpcDFxYklwOXowdkJtVzVzaXNnM0hLZ1FuVzd3bU5LWnhyQkJWcmEzRzBWNE82V2pYYnZOLUw1SFZUMTNGUGdrZmVHcFFOaVkyWUQwQVhKU0VlZUJRa1Fvaw?oc=5" target="_blank" rel="noopener noreferrer">美 방산 핵심축 된 한화에어로, 기업가치에 &#39;조선&#39;도 얹힌다</a>
-            <div class="card-meta">
-              <span class="src">인베스트조선</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T02:58:00+00:00">2026-09-22T02:58:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTFBwWEx5OS11RzV6TjBXd3BQNTdUeG1nd0pEVVdTRTVqQ1JaaFJjTkJsYnkyWVByQjQ2dl9sQ0JXYnRUVUljdFBBUGRDZ2tCWEdzeVZrbmhjajVDejg5OElBTE1HY0FYQU5WOENHZ3J5YXQ?oc=5" data-source="연합인포맥스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBwWEx5OS11RzV6TjBXd3BQNTdUeG1nd0pEVVdTRTVqQ1JaaFJjTkJsYnkyWVByQjQ2dl9sQ0JXYnRUVUljdFBBUGRDZ2tCWEdzeVZrbmhjajVDejg5OElBTE1HY0FYQU5WOENHZ3J5YXQ?oc=5" target="_blank" rel="noopener noreferrer">필리조선소 떼낸 한화시스템…美 조선·방산 &#39;에어로 축&#39;으로 재편</a>
-            <div class="card-meta">
-              <span class="src">연합인포맥스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T00:41:41+00:00">2026-09-22T00:41:41+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PNVFyX2lnX2VodHVFOC1OSEM5UnlLVnF0THZRWTI4cm5jTHpkQVRCU2FmcGVldTFvcWtEZmt4SG96dHE4VFk0dGRFcVM2aGM?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PNVFyX2lnX2VodHVFOC1OSEM5UnlLVnF0THZRWTI4cm5jTHpkQVRCU2FmcGVldTFvcWtEZmt4SG96dHE4VFk0dGRFcVM2aGM?oc=5" target="_blank" rel="noopener noreferrer">한화시스템에 무슨 일이…&#39;반토막&#39; 주가도 살아날까 [B급기자의 B급리포트]</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T21:01:51+00:00">2026-09-21T21:01:51+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSWZla19jS25IaC05RnB1TW5FMXRjdW9NWWdrRmRONDlCdHFOTzM2enZwcEdRZ0Itdm1HU0o3TW5GLUtaSXJTTzNybFJYMTg1ZDhtUTZCeFRnUdIBX0FVX3lxTE1RNDJlQ0w4bnFwc0V0NElhOG9Cc1IxRENzcWZxcDJQQjhxZThlNXBVRDRWN2k1bXdHdmJrY1pxV3E1N2NPZGJlTE8zaTJGWENaVDRzUWxScDFOejVnVlBJ?oc=5" data-source="경향신문">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSWZla19jS25IaC05RnB1TW5FMXRjdW9NWWdrRmRONDlCdHFOTzM2enZwcEdRZ0Itdm1HU0o3TW5GLUtaSXJTTzNybFJYMTg1ZDhtUTZCeFRnUdIBX0FVX3lxTE1RNDJlQ0w4bnFwc0V0NElhOG9Cc1IxRENzcWZxcDJQQjhxZThlNXBVRDRWN2k1bXdHdmJrY1pxV3E1N2NPZGJlTE8zaTJGWENaVDRzUWxScDFOejVnVlBJ?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미사업장 방문 “독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">경향신문, 열린뉴스통신</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:39:00+00:00">2026-09-22T07:39:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE1ORlE2OEl4RTVOY0pPSGlLTm1Xc2tkVkRTM0RFQ0MtYnRFcTRJTzlxbUxCbzRvdTZlZjNKdVV1b3FaRnFqM1hLZndqZkEtSjlsa3BsMnB0aFpZaHNxVkNTa3pBRUhSQWNULXU40gFUQVVfeXFMTVJZX1VBU0c3dmxTcWZrc09acmVPajNST3ViYURHUWs5dUpZZ25JUXRIYVVMRF93VncwMWRSdjZUZW1LZ3VGeDExOHlFUVBId3JaNGFB?oc=5" data-source="세계일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1ORlE2OEl4RTVOY0pPSGlLTm1Xc2tkVkRTM0RFQ0MtYnRFcTRJTzlxbUxCbzRvdTZlZjNKdVV1b3FaRnFqM1hLZndqZkEtSjlsa3BsMnB0aFpZaHNxVkNTa3pBRUhSQWNULXU40gFUQVVfeXFMTVJZX1VBU0c3dmxTcWZrc09acmVPajNST3ViYURHUWs5dUpZZ25JUXRIYVVMRF93VncwMWRSdjZUZW1LZ3VGeDExOHlFUVBId3JaNGFB?oc=5" target="_blank" rel="noopener noreferrer">한화, 美에 탄약 생산기지 조성… “對美 간접적 군사 기여”</a>
-            <div class="card-meta">
-              <span class="src">세계일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T10:20:00+00:00">2026-09-22T10:20:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTFBFS2xWd284MDVINXVSU2ZEejFfRUNaV19jQzJHTkJzeXRVX3RpSVFab25VVUlDakNIRmZlQ2lobkhhellIMWpGRmdJUDBwQ3VYbFQ3MXFEREJubFRxVWwyT0xMSVhKSmlsb0VDLWtaZ9IBc0FVX3lxTE5MbnoxeVh3djBqdU45cnpPTkF0ZHVZVUFQSUlzN3dkY2hGenFST2UzRG0wMDZ3eENyX3l0WVdKQXVpSXpMWW5qdVg2dXllWlJERF9oZ2NtRXNYU3FIbDAzVHl5enNIRXBMT0pmUGRiVndkUXM?oc=5" data-source="데일리한국">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBFS2xWd284MDVINXVSU2ZEejFfRUNaV19jQzJHTkJzeXRVX3RpSVFab25VVUlDakNIRmZlQ2lobkhhellIMWpGRmdJUDBwQ3VYbFQ3MXFEREJubFRxVWwyT0xMSVhKSmlsb0VDLWtaZ9IBc0FVX3lxTE5MbnoxeVh3djBqdU45cnpPTkF0ZHVZVUFQSUlzN3dkY2hGenFST2UzRG0wMDZ3eENyX3l0WVdKQXVpSXpMWW5qdVg2dXllWlJERF9oZ2NtRXNYU3FIbDAzVHl5enNIRXBMT0pmUGRiVndkUXM?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 레이저 무기 &#39;체급&#39;↑…고출력·이동형 진화</a>
-            <div class="card-meta">
-              <span class="src">데일리한국</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T06:00:46+00:00">2026-09-21T06:00:46+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrRVBnaUU3VzR0T1JsdDNKLVNhWHo5UmpIS3ZUQU9EbTcxeWhKajlqM0s5SGJYaFpZamF0SkJid25LRnZzTXBrLTJlLTFLMlRvVk1vbE1R?oc=5" data-source="매일경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrRVBnaUU3VzR0T1JsdDNKLVNhWHo5UmpIS3ZUQU9EbTcxeWhKajlqM0s5SGJYaFpZamF0SkJid25LRnZzTXBrLTJlLTFLMlRvVk1vbE1R?oc=5" target="_blank" rel="noopener noreferrer">한화, 3조원 투자 … 美아칸소서 탄약 만든다</a>
-            <div class="card-meta">
-              <span class="src">매일경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:51:21+00:00">2026-09-22T08:51:21+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEYzOS1DMkExcW1JOW8xZFZJZ3BkbjhMcFBELVpDS3c3aHMzMlBTRW1PR19TWWM5RUUyRUNKSEQyUmF1Y2NzTXFIQlZTMWxzVkJNYlEyVnhuMlBvWmZfc3liQzRMVmF4SkFfNW5CSW92Sm4ya3RjOHBGQ19qSjdpZTBJWHlJMFp6?oc=5" data-source="글로벌이코노믹">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEYzOS1DMkExcW1JOW8xZFZJZ3BkbjhMcFBELVpDS3c3aHMzMlBTRW1PR19TWWM5RUUyRUNKSEQyUmF1Y2NzTXFIQlZTMWxzVkJNYlEyVnhuMlBvWmZfc3liQzRMVmF4SkFfNW5CSW92Sm4ya3RjOHBGQ19qSjdpZTBJWHlJMFp6?oc=5" target="_blank" rel="noopener noreferrer">[개장 전 주요 공시] 삼성물산·한화시스템·SK하이닉스·카카오모빌리티 등</a>
-            <div class="card-meta">
-              <span class="src">글로벌이코노믹</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-20T23:28:56+00:00">2026-09-20T23:28:56+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMihwFBVV95cUxOTjgwNTR6UmxvRENTaTZmblRnWkpNWVdfZ1BOOWpVdGVRdDlubXBTdWpHaTVkOGUxZTF3cXA2QzJYVEptRFktTmZMbHBRc1ZvWlFqUlVqSEE1dXNxYWY0enJIUGhyUnlSZDd1bWVpMDVWanplUUFZYjhpNG9CS3NaYVpicTJXQkXSAWxBVV95cUxNeTBjN043RkVKVUpJbDZ2Rl85TVdqRjFiUWk2OUFubTJ4MGEtblJiVXduR2tJRHVSNXB1bkdtazZzdGRVNWhZcWJGZzgtazY5dW4tWGZjakE2TzItNFllWTBVQUNaYldYZzd1WUk?oc=5" data-source="국민일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOTjgwNTR6UmxvRENTaTZmblRnWkpNWVdfZ1BOOWpVdGVRdDlubXBTdWpHaTVkOGUxZTF3cXA2QzJYVEptRFktTmZMbHBRc1ZvWlFqUlVqSEE1dXNxYWY0enJIUGhyUnlSZDd1bWVpMDVWanplUUFZYjhpNG9CS3NaYVpicTJXQkXSAWxBVV95cUxNeTBjN043RkVKVUpJbDZ2Rl85TVdqRjFiUWk2OUFubTJ4MGEtblJiVXduR2tJRHVSNXB1bkdtazZzdGRVNWhZcWJGZzgtazY5dW4tWGZjakE2TzItNFllWTBVQUNaYldYZzd1WUk?oc=5" target="_blank" rel="noopener noreferrer">“K-방산 AI 혁신의 출발점”… 김승연, 한화시스템 구미 거점 챙겼다</a>
-            <div class="card-meta">
-              <span class="src">국민일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:06:00+00:00">2026-09-22T09:06:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ITzdNR1gyc1FOaVJlb0I1UHcxb1E0d0tnbWdfS3V4NS0zYm50MmZCRjFXU19mNHNlN2d3R0pjNHBhd3Vjazh3WWQ4bGotMTRwZEFwME9MTnF5Z1kxQl9patIBeEFVX3lxTE4wSENCakh2Z1pXU2NPSnpRNFU2enVIT3RfSllDTmZ0NDZhUW1VVFVVMXBqVUJtT2RzTWZUQkRTVW1YZURMb1liUXlaM1BwWlFla1B4cFlVQkNsNmxFUk5NMEVPa2tOcmY4Z2ttQVJjZERxejNRZGZRTg?oc=5" data-source="뉴시스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ITzdNR1gyc1FOaVJlb0I1UHcxb1E0d0tnbWdfS3V4NS0zYm50MmZCRjFXU19mNHNlN2d3R0pjNHBhd3Vjazh3WWQ4bGotMTRwZEFwME9MTnF5Z1kxQl9patIBeEFVX3lxTE4wSENCakh2Z1pXU2NPSnpRNFU2enVIT3RfSllDTmZ0NDZhUW1VVFVVMXBqVUJtT2RzTWZUQkRTVW1YZURMb1liUXlaM1BwWlFla1B4cFlVQkNsNmxFUk5NMEVPa2tOcmY4Z2ttQVJjZERxejNRZGZRTg?oc=5" target="_blank" rel="noopener noreferrer">왜 &#39;한화시스템 구미사업장&#39;이었을까…김승연 회장, 추석직전 &#39;콕 집어&#39; 찾아간 까닭</a>
-            <div class="card-meta">
-              <span class="src">뉴시스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:05:21+00:00">2026-09-22T07:05:21+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE11WGFqWUl0T3hPWmo4clpsTVBJbGg4cGpEZUxuLWVLeEg1RXNsUVg0Ni1va1REbDZNczJrSFFfVG9LRmo1TURJMFZKdFdFbTFRSWpZRnY3eDVpenM4dnJlZVdBN0jSAWpBVV95cUxNWTExdndkckZVbDRKbi0tOW9iSERNUDVMbmt3Szl4VmpBR2puNzdzbnRzSllUVHZzMFdybE15ZnZsTk1pLVZMSHA1RGRLVzFoYldrREZBNDliR3NCUkVhV2xJVWx3V0p4cEln?oc=5" data-source="news1.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE11WGFqWUl0T3hPWmo4clpsTVBJbGg4cGpEZUxuLWVLeEg1RXNsUVg0Ni1va1REbDZNczJrSFFfVG9LRmo1TURJMFZKdFdFbTFRSWpZRnY3eDVpenM4dnJlZVdBN0jSAWpBVV95cUxNWTExdndkckZVbDRKbi0tOW9iSERNUDVMbmt3Szl4VmpBR2puNzdzbnRzSllUVHZzMFdybE15ZnZsTk1pLVZMSHA1RGRLVzFoYldrREZBNDliR3NCUkVhV2xJVWx3V0p4cEln?oc=5" target="_blank" rel="noopener noreferrer">한화, 美 방산 &#39;컨트롤타워&#39; 윤곽…지상 K9부터 핵잠 사업까지 통합</a>
-            <div class="card-meta">
-              <span class="src">news1.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T22:00:00+00:00">2026-09-21T22:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTFB4cU5GeDZvYVlIbnR3c2tyQXFNdjhDV0t2bE5OaHpDT1pMVmdkYjFlYklxQ3hMQk14SmQxdGZpMkNyemFIelE0ckVleE5hRUo2RUhYSTVKejFUMGMxb3FNSGdOTkRwUkNYbHd4TG5B?oc=5" data-source="아시아투데이">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTFB4cU5GeDZvYVlIbnR3c2tyQXFNdjhDV0t2bE5OaHpDT1pMVmdkYjFlYklxQ3hMQk14SmQxdGZpMkNyemFIelE0ckVleE5hRUo2RUhYSTVKejFUMGMxb3FNSGdOTkRwUkNYbHd4TG5B?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 2조 실탄 어디에 쓰나…설비·연구개발 투자 ‘고삐’</a>
-            <div class="card-meta">
-              <span class="src">아시아투데이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T07:39:21+00:00">2026-09-21T07:39:21+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE9idzNYSEFBRnkwUjNyZnFKYjUycUpERXNoUHFFOExDYWY2YzNaZW5ENmgzNHY0eTc0ZWlwbHBoQ3NXVm1uUkNYLVM3bUFMWEtCTzVMNUNLSEpYWW0tYjdLQXlNMGJ4WUxoelZPdktvdTVzN0tx?oc=5" data-source="연합인포맥스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9idzNYSEFBRnkwUjNyZnFKYjUycUpERXNoUHFFOExDYWY2YzNaZW5ENmgzNHY0eTc0ZWlwbHBoQ3NXVm1uUkNYLVM3bUFMWEtCTzVMNUNLSEpYWW0tYjdLQXlNMGJ4WUxoelZPdktvdTVzN0tx?oc=5" target="_blank" rel="noopener noreferrer">김승연, 한화시스템 구미사업장 방문…&#34;독보적 국방 AI 역량 키워야&#34; |</a>
-            <div class="card-meta">
-              <span class="src">연합인포맥스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:38:02+00:00">2026-09-22T06:38:02+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTE1KbW9PWkwxdC1WMDdERjhXSDlvZVRwSlA3amtyanpLVlE5TXdSOXRYTGNxaGFvcnZNb05EbC1GR1FnX0pHUkZEeTZNM1g0Nk1EUTVNQ2hIWGRINlFXVGlVX1hiVlMyT2pXcWc4ZA?oc=5" data-source="nanumy.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1KbW9PWkwxdC1WMDdERjhXSDlvZVRwSlA3amtyanpLVlE5TXdSOXRYTGNxaGFvcnZNb05EbC1GR1FnX0pHUkZEeTZNM1g0Nk1EUTVNQ2hIWGRINlFXVGlVX1hiVlMyT2pXcWc4ZA?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 한화시스템 구미사업장 방문…“독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">nanumy.co.kr, 파이낸셜신문</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T21:11:11+00:00">2026-09-22T21:11:11+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMid0FVX3lxTE5JVVJGQ2hER0k3YlUybTBUdkNWenNwSXBXVkUxVWtJYlpha1IydHc4cjBSUFM1dDh6TlhCTHJKSGlzNGpNc0FnY2JBcmJZc1N2dkNPU1RIWmFiQzdyZUx5S1ZGRDZnMlBfM3JOX2g3cTM2TE50UUdr0gF3QVVfeXFMTklVUkZDaERHSTdiVTJtMFR2Q1Z6c3BJcFdWRTFVa0liWmFrUjJ0dzhyMFJQUzV0OHpOWEJMckpIaXM0ak1zQWdjYkFyYllzU3Z2Q09TVEhaYWJDN3JlTHlLVkZENmcyUF8zck5faDdxMzZMTnRRR2s?oc=5" data-source="스트레이트뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5JVVJGQ2hER0k3YlUybTBUdkNWenNwSXBXVkUxVWtJYlpha1IydHc4cjBSUFM1dDh6TlhCTHJKSGlzNGpNc0FnY2JBcmJZc1N2dkNPU1RIWmFiQzdyZUx5S1ZGRDZnMlBfM3JOX2g3cTM2TE50UUdr0gF3QVVfeXFMTklVUkZDaERHSTdiVTJtMFR2Q1Z6c3BJcFdWRTFVa0liWmFrUjJ0dzhyMFJQUzV0OHpOWEJMckpIaXM0ak1zQWdjYkFyYllzU3Z2Q09TVEhaYWJDN3JlTHlLVkZENmcyUF8zck5faDdxMzZMTnRRR2s?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 한화시스템 구미사업장 찾아 “독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">스트레이트뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:44:42+00:00">2026-09-22T09:44:42+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yT0F0eEJpTEdMZW90UDhoS3hKRHVIemItN2RaZWRQUTNUQW9ESnRDZmlpSDJDTUdLUHBZU0pwY0FzMzRraTh5VUtUXzdZUm8?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yT0F0eEJpTEdMZW90UDhoS3hKRHVIemItN2RaZWRQUTNUQW9ESnRDZmlpSDJDTUdLUHBZU0pwY0FzMzRraTh5VUtUXzdZUm8?oc=5" target="_blank" rel="noopener noreferrer">김승연 “한화시스템은 방산의 두뇌·신경망…독보적 AI 키워야”</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net, dt.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:34:00+00:00">2026-09-22T06:34:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxPb25VdEhYQlAtLVRGNi1ZQ2RwLVlDVGJKMTduazBvTElhMDFCbkZaVWZ2WFREZkpwdDhnTkRxTUxBMFdLeXdDTE1yZGxZYjh2dWZ6Z0JLWExycnc1WmxoZ1VDNVV0VU9tUGhYUnFRakJ4MXhiU29tY3kxbWZXN3FpMHFjR2Zudw?oc=5" data-source="글로벌이코노믹">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPb25VdEhYQlAtLVRGNi1ZQ2RwLVlDVGJKMTduazBvTElhMDFCbkZaVWZ2WFREZkpwdDhnTkRxTUxBMFdLeXdDTE1yZGxZYjh2dWZ6Z0JLWExycnc1WmxoZ1VDNVV0VU9tUGhYUnFRakJ4MXhiU29tY3kxbWZXN3FpMHFjR2Zudw?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화그룹 회장, 구미서 방산 AI 점검…“한화시스템이 두뇌이자 신경망”</a>
-            <div class="card-meta">
-              <span class="src">글로벌이코노믹</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:17:01+00:00">2026-09-22T09:17:01+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sa0Jfa2JTNXp6WEpzNmRmcllTSkIxTmV4Z044R0phUF9JMG9zVG9wUFctLWNXeG5lbS1XR2QwV1JGQjduU3ZZSmNQc0kzemh6QnZvdlB3?oc=5" data-source="지디넷코리아">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sa0Jfa2JTNXp6WEpzNmRmcllTSkIxTmV4Z044R0phUF9JMG9zVG9wUFctLWNXeG5lbS1XR2QwV1JGQjduU3ZZSmNQc0kzemh6QnZvdlB3?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;그룹 방산 경쟁력 AI가 좌우&#34;…한화시스템 역할 강조</a>
-            <div class="card-meta">
-              <span class="src">지디넷코리아</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:35:11+00:00">2026-09-22T06:35:11+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTFB6aURXZllXQXA5eWx5V0x6Y3NaTlY1c0NGakZZZFJoTlNwbjhyWDJNZXJ2TXU4VXFmRlJadWo5WEZIRm5xTEVEZF9DazZuR0tYT2JRRlZTdEJZQy1uQXlOU1VRdWE3T1FhcVpQM0EyQQ?oc=5" data-source="서울신문">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTFB6aURXZllXQXA5eWx5V0x6Y3NaTlY1c0NGakZZZFJoTlNwbjhyWDJNZXJ2TXU4VXFmRlJadWo5WEZIRm5xTEVEZF9DazZuR0tYT2JRRlZTdEJZQy1uQXlOU1VRdWE3T1FhcVpQM0EyQQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 찾아 AI 강조한 김승연 회장</a>
-            <div class="card-meta">
-              <span class="src">서울신문</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:45:11+00:00">2026-09-22T08:45:11+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sUDdrRG8zWnFGU2dXT0lqLXRoZkRuQ1RIQ2VyT3RobEhwam9HWDA4dktKSER1VmFOWU11aFpiNklFYTlodDlHSjEyX0RmVUE?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sUDdrRG8zWnFGU2dXT0lqLXRoZkRuQ1RIQ2VyT3RobEhwam9HWDA4dktKSER1VmFOWU11aFpiNklFYTlodDlHSjEyX0RmVUE?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 구미사업장 찾은 김승연 회장 “국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net, osen.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:33:09+00:00">2026-09-22T08:33:09+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LQVNGc1FGNmk4WV8wbkJPdTBMaVlBdHprdG5EX1hGYXRaYVFxRWxaZUt3X05wRU9jNG9QaGtFWFlyNXZZSXc?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LQVNGc1FGNmk4WV8wbkJPdTBMaVlBdHprdG5EX1hGYXRaYVFxRWxaZUt3X05wRU9jNG9QaGtFWFlyNXZZSXc?oc=5" target="_blank" rel="noopener noreferrer">김승연, 한화시스템서 현장경영…&#34;한화 방산 경쟁력 핵심은 AI&#34;</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:19:12+00:00">2026-09-22T06:19:12+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0V0tPd2NQQ2tfd0YxY21aQXpDaWhoR2Y5R1BFSkZMcC1qUkI3TGJfdUUyQUFMUVpjbXc1TEVKZ3M4cVFfR0RaX2drWUZGMGc?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0V0tPd2NQQ2tfd0YxY21aQXpDaWhoR2Y5R1BFSkZMcC1qUkI3TGJfdUUyQUFMUVpjbXc1TEVKZ3M4cVFfR0RaX2drWUZGMGc?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;독보적 국방 AI 역량 키워야&#34;…한화시스템 구미 방문</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:10:42+00:00">2026-09-22T06:10:42+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMimAFBVV95cUxOaEVfS2xMTGtSWGVHX1dnZE9FRllWVnBDZ1E3WjkybW1HYTM1V0w3cHJPSTd0bjltVXpoUDZ4VXdWU2ZfTXY3QUtRM0N3dlFzVVh5N2NuUWtfS1BRRGJ2TVhBVHQ5YTI1a3Z0NFZRSngwTHNsa0dnaEF1UHJSZnltdm9uOXFvakQ4eUN0cXdfT0hTZVQtd0dLY9IBmAFBVV95cUxOaEVfS2xMTGtSWGVHX1dnZE9FRllWVnBDZ1E3WjkybW1HYTM1V0w3cHJPSTd0bjltVXpoUDZ4VXdWU2ZfTXY3QUtRM0N3dlFzVVh5N2NuUWtfS1BRRGJ2TVhBVHQ5YTI1a3Z0NFZRSngwTHNsa0dnaEF1UHJSZnltdm9uOXFvakQ4eUN0cXdfT0hTZVQtd0dLYw?oc=5" data-source="Chosunbiz">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOaEVfS2xMTGtSWGVHX1dnZE9FRllWVnBDZ1E3WjkybW1HYTM1V0w3cHJPSTd0bjltVXpoUDZ4VXdWU2ZfTXY3QUtRM0N3dlFzVVh5N2NuUWtfS1BRRGJ2TVhBVHQ5YTI1a3Z0NFZRSngwTHNsa0dnaEF1UHJSZnltdm9uOXFvakQ4eUN0cXdfT0hTZVQtd0dLY9IBmAFBVV95cUxOaEVfS2xMTGtSWGVHX1dnZE9FRllWVnBDZ1E3WjkybW1HYTM1V0w3cHJPSTd0bjltVXpoUDZ4VXdWU2ZfTXY3QUtRM0N3dlFzVVh5N2NuUWtfS1BRRGJ2TVhBVHQ5YTI1a3Z0NFZRSngwTHNsa0dnaEF1UHJSZnltdm9uOXFvakQ4eUN0cXdfT0hTZVQtd0dLYw?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미사업장 찾아 “대체 불가한 국방 AI 역량 키워야” - 조선비즈</a>
-            <div class="card-meta">
-              <span class="src">Chosunbiz</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:59:00+00:00">2026-09-22T06:59:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMieEFVX3lxTE8xQkgtaldoNEdlQmE1M2Qta0FpQlBoc3BuVlFvQWhPbHlXYmxaOTNhWDBDZnVzemNwaVNHNHV2LUlLZ1BYMkhPNEpDLUZscUh0STZNLU1qZG56T0VqQ3FLQ01QVk8zbElUVWo2UjJUMnRkUGVfWlI1Z9IBeEFVX3lxTE8xQkgtaldoNEdlQmE1M2Qta0FpQlBoc3BuVlFvQWhPbHlXYmxaOTNhWDBDZnVzemNwaVNHNHV2LUlLZ1BYMkhPNEpDLUZscUh0STZNLU1qZG56T0VqQ3FLQ01QVk8zbElUVWo2UjJUMnRkUGVfWlI1Zw?oc=5" data-source="뉴시스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE8xQkgtaldoNEdlQmE1M2Qta0FpQlBoc3BuVlFvQWhPbHlXYmxaOTNhWDBDZnVzemNwaVNHNHV2LUlLZ1BYMkhPNEpDLUZscUh0STZNLU1qZG56T0VqQ3FLQ01QVk8zbElUVWo2UjJUMnRkUGVfWlI1Z9IBeEFVX3lxTE8xQkgtaldoNEdlQmE1M2Qta0FpQlBoc3BuVlFvQWhPbHlXYmxaOTNhWDBDZnVzemNwaVNHNHV2LUlLZ1BYMkhPNEpDLUZscUh0STZNLU1qZG56T0VqQ3FLQ01QVk8zbElUVWo2UjJUMnRkUGVfWlI1Zw?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화그룹 회장, 한화시스템 구미사업장 전격 방문…&#34;AI가 방산 경쟁력 좌우&#34;</a>
-            <div class="card-meta">
-              <span class="src">뉴시스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:41:11+00:00">2026-09-22T06:41:11+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZ1NsUThuRzl1UjQyQ3h4YjBoRVRHQ0NqeGlkMVNPUF9WSERCcEphbnBzQXNpUlI2LVJ1OTRtVWYxUkE2cy1nY2hIT3ZNOWFkV0l5Q2VIMWo5NVE1dUtIbQ?oc=5" data-source="뉴스토마토">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZ1NsUThuRzl1UjQyQ3h4YjBoRVRHQ0NqeGlkMVNPUF9WSERCcEphbnBzQXNpUlI2LVJ1OTRtVWYxUkE2cy1nY2hIT3ZNOWFkV0l5Q2VIMWo5NVE1dUtIbQ?oc=5" target="_blank" rel="noopener noreferrer">김승연, 한화시스템 구미사업장 점검…“방산 경쟁력 핵심은 AI”</a>
-            <div class="card-meta">
-              <span class="src">뉴스토마토</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:20:10+00:00">2026-09-22T07:20:10+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xZE01TlJzYmJlOVpxekIyOE5XSkhUUnY4dzA0LUIyVEk3TktZWTM4Tll5RG5meE9lTWMwdm5nTVFjOXdGSUcyM0NqQnZaMk0?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xZE01TlJzYmJlOVpxekIyOE5XSkhUUnY4dzA0LUIyVEk3TktZWTM4Tll5RG5meE9lTWMwdm5nTVFjOXdGSUcyM0NqQnZaMk0?oc=5" target="_blank" rel="noopener noreferrer">&#39;한화 방산의 두뇌&#39; 찾은 김승연 &#34;독보적 국방 AI 역량 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:16:00+00:00">2026-09-22T06:16:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMickFVX3lxTE90dDBHdlFSTWdOWm9SRm9XdlRxbnJmMW1tLTBPbVBuVXNPZkFiLV82TTgtXzg1S0ZUdmItUjduNDNTeTVxYTFRTW9pcE9DMzVLNXlFckVxOXBJMWZadzZ1cThGZVpwRUNJYkgyY0xIQ2ZlUdIBckFVX3lxTE90dDBHdlFSTWdOWm9SRm9XdlRxbnJmMW1tLTBPbVBuVXNPZkFiLV82TTgtXzg1S0ZUdmItUjduNDNTeTVxYTFRTW9pcE9DMzVLNXlFckVxOXBJMWZadzZ1cThGZVpwRUNJYkgyY0xIQ2ZlUQ?oc=5" data-source="mt.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMickFVX3lxTE90dDBHdlFSTWdOWm9SRm9XdlRxbnJmMW1tLTBPbVBuVXNPZkFiLV82TTgtXzg1S0ZUdmItUjduNDNTeTVxYTFRTW9pcE9DMzVLNXlFckVxOXBJMWZadzZ1cThGZVpwRUNJYkgyY0xIQ2ZlUdIBckFVX3lxTE90dDBHdlFSTWdOWm9SRm9XdlRxbnJmMW1tLTBPbVBuVXNPZkFiLV82TTgtXzg1S0ZUdmItUjduNDNTeTVxYTFRTW9pcE9DMzVLNXlFckVxOXBJMWZadzZ1cThGZVpwRUNJYkgyY0xIQ2ZlUQ?oc=5" target="_blank" rel="noopener noreferrer">&#39;현장경영&#39; 김승연 한화 회장 &#34;방산 경쟁력 좌우하는 핵심은 AI&#34; - 머니투데이</a>
-            <div class="card-meta">
-              <span class="src">mt.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:34:36+00:00">2026-09-22T06:34:36+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE9CNVd5OFZralRzdU1aQ1c5QXZfVHpiOHVSanhNaGFfcWFpZHlUVmt3dVpERUtZb3pubS1uVWZuMUV4ZEg1N2c2UGN1OU53M1FDRi0tNDhRQmlrc29rWjFPNVRVb2owTXpDTUkybW9oU0p1ekHSAXNBVV95cUxPQjVXeThWa2pUc3VNWkNXOUF2X1R6Yjh1Ump4TWhhX3FhaWR5VFZrd3VaREVLWW96bm0tblVmbjFFeGRINTdnNlBjdTlOdzNRQ0YtLTQ4UUJpa3Nva1oxTzVUVW9qME16Q01JMm1vaFNKdXpB?oc=5" data-source="hankookilbo.com">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9CNVd5OFZralRzdU1aQ1c5QXZfVHpiOHVSanhNaGFfcWFpZHlUVmt3dVpERUtZb3pubS1uVWZuMUV4ZEg1N2c2UGN1OU53M1FDRi0tNDhRQmlrc29rWjFPNVRVb2owTXpDTUkybW9oU0p1ekHSAXNBVV95cUxPQjVXeThWa2pUc3VNWkNXOUF2X1R6Yjh1Ump4TWhhX3FhaWR5VFZrd3VaREVLWW96bm0tblVmbjFFeGRINTdnNlBjdTlOdzNRQ0YtLTQ4UUJpa3Nva1oxTzVUVW9qME16Q01JMm1vaFNKdXpB?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;독보적 국방 AI 역량 키워야&#34; 한화시스템 현장 경영</a>
-            <div class="card-meta">
-              <span class="src">hankookilbo.com</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:30:00+00:00">2026-09-22T07:30:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMia0FVX3lxTE1RQVFHVkFVVUhybnpWcUxHeDBJUERkcHpJMHRIUmRMcER6TW8xTy1laENtSkhwc3J1WUN0SjNiNklWVGxrV2NieVNZdzczcHRvX2gzcGcybHh5VXF0LTZvUWU0Zk43VlJ0ejg4?oc=5" data-source="뉴스저널리즘">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1RQVFHVkFVVUhybnpWcUxHeDBJUERkcHpJMHRIUmRMcER6TW8xTy1laENtSkhwc3J1WUN0SjNiNklWVGxrV2NieVNZdzczcHRvX2gzcGcybHh5VXF0LTZvUWU0Zk43VlJ0ejg4?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;독보적 국방 AI 역량 키워야&#34;…한화시스템 구미사업장 방문</a>
-            <div class="card-meta">
-              <span class="src">뉴스저널리즘</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T15:09:51+00:00">2026-09-22T15:09:51+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sWjdlTjAxVmF0ZUo5RmlQc0xNOFJscWNWOVdHbTBzdEdHV0xXZkFPa3UwVW5ITDZpcE43ZVNzcDg5LU1TY0N3bVhmYzRZam02cjdMeGdjUXFQQW1qRDNwMFlXWHhnd1FX0gFoQVVfeXFMTmxaN2VOMDFWYXRlSjlGaVBzTE04UmxxY1Y5V0dtMHN0R0dXTFdmQU9rdTBVbkhMNmlwTjdlU3NwODktTVNjQ3dtWGZjNFlqbTZyN0x4Z2NRcVBBbWpEM3AwWVdYeGd3UVc?oc=5" data-source="매일일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sWjdlTjAxVmF0ZUo5RmlQc0xNOFJscWNWOVdHbTBzdEdHV0xXZkFPa3UwVW5ITDZpcE43ZVNzcDg5LU1TY0N3bVhmYzRZam02cjdMeGdjUXFQQW1qRDNwMFlXWHhnd1FX0gFoQVVfeXFMTmxaN2VOMDFWYXRlSjlGaVBzTE04UmxxY1Y5V0dtMHN0R0dXTFdmQU9rdTBVbkhMNmlwTjdlU3NwODktTVNjQ3dtWGZjNFlqbTZyN0x4Z2NRcVBBbWpEM3AwWVdYeGd3UVc?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미 찾아…레이다·무기체계 AI 연동 점검</a>
-            <div class="card-meta">
-              <span class="src">매일일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:53:01+00:00">2026-09-22T07:53:01+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUQ2RWpJaE9hekNZY2VLRGRWNVpHRG9RSzZiOU5ONkF3Rk0xS09Kd0xJYTJXbXdhZ2pLblRGbkFIdUF0N2dEMGdJdjZqSHd3eXhiaUFsbldnUFBCSldZT2ZtSlFFX0t5REQ1emRxaVdUMzBDVkZRdkhBTlRGcUMwUWVralE5WnpoNzVTX3pyOA?oc=5" data-source="조선일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUQ2RWpJaE9hekNZY2VLRGRWNVpHRG9RSzZiOU5ONkF3Rk0xS09Kd0xJYTJXbXdhZ2pLblRGbkFIdUF0N2dEMGdJdjZqSHd3eXhiaUFsbldnUFBCSldZT2ZtSlFFX0t5REQ1emRxaVdUMzBDVkZRdkhBTlRGcUMwUWVralE5WnpoNzVTX3pyOA?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;한화 방산 경쟁력 좌우하는 핵심은 AI&#34;</a>
-            <div class="card-meta">
-              <span class="src">조선일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T15:33:00+00:00">2026-09-22T15:33:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80LUo3WWJwc18xZXB2d3pTajh6OENESmw3c1psYWVYcHJRQnlPSHBTNDNuT2ktdmRUcEhnVFdEMzM4QXBrd3lzUXM3NER0WjNEblB6c1BTM3U5SEJmWkRsaHBoNzZ6dEE?oc=5" data-source="연합뉴스TV">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80LUo3WWJwc18xZXB2d3pTajh6OENESmw3c1psYWVYcHJRQnlPSHBTNDNuT2ktdmRUcEhnVFdEMzM4QXBrd3lzUXM3NER0WjNEblB6c1BTM3U5SEJmWkRsaHBoNzZ6dEE?oc=5" target="_blank" rel="noopener noreferrer">한화 구미사업장 찾은 김승연 &#34;독보적 국방 AI 역량 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">연합뉴스TV</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:44:00+00:00">2026-09-22T07:44:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sRjExUnBwRWFTWGxSZ0NxN0hjd0U1V2xZVm54bW45MmttYXRPdzRiOVg2cXpfSXBsbDVPX3hmQVQydGU2bGxGQlpDVmpQWUNhd21LQmlXVnk5aHlFZlFLSGVCRU1GNUto?oc=5" data-source="fetv.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sRjExUnBwRWFTWGxSZ0NxN0hjd0U1V2xZVm54bW45MmttYXRPdzRiOVg2cXpfSXBsbDVPX3hmQVQydGU2bGxGQlpDVmpQWUNhd21LQmlXVnk5aHlFZlFLSGVCRU1GNUto?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, &#34;한화시스템, 한화 방산의 핵심 축&#34;</a>
-            <div class="card-meta">
-              <span class="src">fetv.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:48:39+00:00">2026-09-22T06:48:39+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMie0FVX3lxTE1udnA0ckNwYkFob2dMVU1IcGp0aFhGUHNlcW45Nk1TNEpsMWdJTF91TDdTT2liVndwaXlsS19rZmFETnBuc3YyNEVBMG5ERUt2Q2NBNFdTRmtMMkU0QVJldEl1SjFwcU9rSktnRTZFNkRTOHh1ci0zMjBRWQ?oc=5" data-source="서울신문">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1udnA0ckNwYkFob2dMVU1IcGp0aFhGUHNlcW45Nk1TNEpsMWdJTF91TDdTT2liVndwaXlsS19rZmFETnBuc3YyNEVBMG5ERUt2Q2NBNFdTRmtMMkU0QVJldEl1SjFwcU9rSktnRTZFNkRTOHh1ci0zMjBRWQ?oc=5" target="_blank" rel="noopener noreferrer">구미 한화시스템 찾은 김승연 “독보적 국방 AI 키우자”</a>
-            <div class="card-meta">
-              <span class="src">서울신문</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T14:55:35+00:00">2026-09-22T14:55:35+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VSC1wbW94aE45OHBHVWhjT3BvTkppVXZPNlNwSEQ0ZFA1aXRsRjB0dXpqWlpfejN6TGg5RXFabG95YklIOUkzRDZZZHc5TEU?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VSC1wbW94aE45OHBHVWhjT3BvTkppVXZPNlNwSEQ0ZFA1aXRsRjB0dXpqWlpfejN6TGg5RXFabG95YklIOUkzRDZZZHc5TEU?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;독보적 국방 AI 역량 키워야&#34;…핵심기술 현장경영 행보</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net, asiae.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:39:00+00:00">2026-09-22T06:39:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1JbXFSeHpWVTJ4YlcyOWNpaXhIeEdoczI4VTRKbGxXRTRFMGh3V1lIWm14Yk9GTW9rbE52Uks1LWhKdEhXWkJ0SEhoTUs1UkRYc3pnTmY5OXRYYWJOcjh2N3FFbXNEc0ZfMjdMWERrZjFQcS1GTWYtZ01ocEdIUEZuQWh0a2pJa2tpc2Uwaw?oc=5" data-source="조선일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1JbXFSeHpWVTJ4YlcyOWNpaXhIeEdoczI4VTRKbGxXRTRFMGh3V1lIWm14Yk9GTW9rbE52Uks1LWhKdEhXWkJ0SEhoTUs1UkRYc3pnTmY5OXRYYWJOcjh2N3FFbXNEc0ZfMjdMWERrZjFQcS1GTWYtZ01ocEdIUEZuQWh0a2pJa2tpc2Uwaw?oc=5" target="_blank" rel="noopener noreferrer">방산 AI 현장 찾은 김승연 회장…&#34;한화 방산 경쟁력, AI가 좌우&#34;</a>
-            <div class="card-meta">
-              <span class="src">조선일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:37:29+00:00">2026-09-22T06:37:29+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zRkQxOVo5bDFvZmRaOUlEbk91OGtnZWc5bEotbUdhb0ZLelRvejhOa21qaXVaNkVBTmRpbWZ2aUljdEE4bzFKZVl4Qk50WUt2TzR1M0hYZVJweldDdjQ3Y3hRTzMwa1k1?oc=5" data-source="ebn.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zRkQxOVo5bDFvZmRaOUlEbk91OGtnZWc5bEotbUdhb0ZLelRvejhOa21qaXVaNkVBTmRpbWZ2aUljdEE4bzFKZVl4Qk50WUt2TzR1M0hYZVJweldDdjQ3Y3hRTzMwa1k1?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;독보적 국방 AI 역량 키워야&#34;…한화시스템 구미사업장 점검</a>
-            <div class="card-meta">
-              <span class="src">ebn.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:03:34+00:00">2026-09-22T07:03:34+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNmluM3VzMUpvMFNFUE43Tk5OTm5nU2k0cGpUSXRjTDA4WGZtZEtkZzRHZUJ4a1UzUm4wSHRzSF9SRjNITlI0LWJyUUc1YzlIejJ3SmZBM2R3enZBSUlFdA?oc=5" data-source="마이데일리">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNmluM3VzMUpvMFNFUE43Tk5OTm5nU2k0cGpUSXRjTDA4WGZtZEtkZzRHZUJ4a1UzUm4wSHRzSF9SRjNITlI0LWJyUUc1YzlIejJ3SmZBM2R3enZBSUlFdA?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미사업장 찾아…“AI가 한화 방산 경쟁력 좌우”</a>
-            <div class="card-meta">
-              <span class="src">마이데일리</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:31:31+00:00">2026-09-22T08:31:31+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BakdmZUUxaWYyR29NM190eUNMeVFNbW5XZHAtaV9Zc3JWdXM3TVBEQ0N0eTh6SWxpOU1fTFhyNTlSOVM1WURkdzVST2J2WVVCY3pKSg?oc=5" data-source="이투데이">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BakdmZUUxaWYyR29NM190eUNMeVFNbW5XZHAtaV9Zc3JWdXM3TVBEQ0N0eTh6SWxpOU1fTFhyNTlSOVM1WURkdzVST2J2WVVCY3pKSg?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 한화시스템 구미사업장 찾아…“AI가 경쟁력 좌우”</a>
-            <div class="card-meta">
-              <span class="src">이투데이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:44:00+00:00">2026-09-22T06:44:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sSGxQck9BWHlESWphMzNvRHExbFpGZEpfNVFtYkJpN2NPOVEwQi0yckJBUUFBM2ltWjNZdjZPTFRHVndDNmk5eTdpWmJRNU1VOTIwWjhOVzNzUdIBVEFVX3lxTFBVTG9TZkpjZG50R3UyNDQwNHFJSFJJc09TTGJXbDlCSmx3aEtfX2swMmd2bWg0R2FSTkp0a1VXeXVPSERHQWNRNllKRUo1Q0RuRUt3bQ?oc=5" data-source="더팩트">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sSGxQck9BWHlESWphMzNvRHExbFpGZEpfNVFtYkJpN2NPOVEwQi0yckJBUUFBM2ltWjNZdjZPTFRHVndDNmk5eTdpWmJRNU1VOTIwWjhOVzNzUdIBVEFVX3lxTFBVTG9TZkpjZG50R3UyNDQwNHFJSFJJc09TTGJXbDlCSmx3aEtfX2swMmd2bWg0R2FSTkp0a1VXeXVPSERHQWNRNllKRUo1Q0RuRUt3bQ?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미사업장 찾아 국방 AI 강조</a>
-            <div class="card-meta">
-              <span class="src">더팩트</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:29:01+00:00">2026-09-22T06:29:01+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE1lRkF5NGdmTjR5bjNvcVVyak9GZmQtMUpacDZvYmxyWjdEbVk4Y2k3czNWX1ozbTdabkVxZGIzb0JNUjZybnlhWDFSSTZCRHAxMUl2UDBEWVQtQTVDNDVhcmlGeXRUQ3h4MjdEaTdvSGlka1Bp?oc=5" data-source="부산일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1lRkF5NGdmTjR5bjNvcVVyak9GZmQtMUpacDZvYmxyWjdEbVk4Y2k3czNWX1ozbTdabkVxZGIzb0JNUjZybnlhWDFSSTZCRHAxMUl2UDBEWVQtQTVDNDVhcmlGeXRUQ3h4MjdEaTdvSGlka1Bp?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미行…“독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">부산일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:18:16+00:00">2026-09-22T08:18:16+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMigAFBVV95cUxPTmY1TGVPbzYxZjN5UjlXcXNaam82OEN2X1JHSHE0TzgzX09kTmVta0w3WC1YQ2ZjbnY5QXJzUV9RYnkwR2tsVHI3dFdLV2FGVzI5dEJudDRTbVNyeUJjY19sTDRnMWZzdVM2SVdZT2JDek8yeU5KSzJoU3lrT3NSLQ?oc=5" data-source="edaily.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPTmY1TGVPbzYxZjN5UjlXcXNaam82OEN2X1JHSHE0TzgzX09kTmVta0w3WC1YQ2ZjbnY5QXJzUV9RYnkwR2tsVHI3dFdLV2FGVzI5dEJudDRTbVNyeUJjY19sTDRnMWZzdVM2SVdZT2JDek8yeU5KSzJoU3lrT3NSLQ?oc=5" target="_blank" rel="noopener noreferrer">&#39;현장경영&#39; 김승연 한화 회장…한화시스템 찾아 &#34;독보적 국방 AI 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">edaily.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:45:15+00:00">2026-09-22T07:45:15+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE93dHZRelpIVXlvOGxoQnEzeWhoenYtSjd5NmFmQjR6dmlDQWRWbDNSdTh2eHJWNmJIVlFBbjFFMGZsMERJODBWd28tQVNWOFJwbmlpcXFtUDROUFdEendrMkxhQjVBOXp6TENEd0JTdjbSAXRBVV95cUxOanIwaks3ZC1hSkJKV0JyTVVTY3FteHRETWR2X0k4MmxzZzhGRTlxT1pqNWhrQ0tkc2hhZjFOWWh6RWZiZERkOHRDUms1UTk3dEtOekJPZDZtUkpobWRoMGpRanRfYzNZbXktMllJOUNMV2g5Ug?oc=5" data-source="주간한국">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE93dHZRelpIVXlvOGxoQnEzeWhoenYtSjd5NmFmQjR6dmlDQWRWbDNSdTh2eHJWNmJIVlFBbjFFMGZsMERJODBWd28tQVNWOFJwbmlpcXFtUDROUFdEendrMkxhQjVBOXp6TENEd0JTdjbSAXRBVV95cUxOanIwaks3ZC1hSkJKV0JyTVVTY3FteHRETWR2X0k4MmxzZzhGRTlxT1pqNWhrQ0tkc2hhZjFOWWh6RWZiZERkOHRDUms1UTk3dEtOekJPZDZtUkpobWRoMGpRanRfYzNZbXktMllJOUNMV2g5Ug?oc=5" target="_blank" rel="noopener noreferrer">방산 힘 싣는 김승연…한화시스템 구미사업장서 올해 두번째 현장경영</a>
-            <div class="card-meta">
-              <span class="src">주간한국</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:35:24+00:00">2026-09-22T08:35:24+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMifEFVX3lxTFBSMWZBTEVDc0VKNXA5a2FRUXlXdXIzWmJVRXFvT000bVNNc1JiWDRjV0JIUU5Od0o1WU1hOGJKSjFtb0czeVdQNGVud21ydHljUkZvVDBRdTlhV25Wa3ZZX05HSWZVVUJlUXljZ1lYc2Y1QXBhSjc1UjVNWEY?oc=5" data-source="fntimes.com">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMifEFVX3lxTFBSMWZBTEVDc0VKNXA5a2FRUXlXdXIzWmJVRXFvT000bVNNc1JiWDRjV0JIUU5Od0o1WU1hOGJKSjFtb0czeVdQNGVud21ydHljUkZvVDBRdTlhV25Wa3ZZX05HSWZVVUJlUXljZ1lYc2Y1QXBhSjc1UjVNWEY?oc=5" target="_blank" rel="noopener noreferrer">한화 김승연·김동관, ‘그룹 방산 두뇌 겸 신경망’ 한화시스템 구미사업장 방문</a>
-            <div class="card-meta">
-              <span class="src">fntimes.com</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:01:42+00:00">2026-09-22T08:01:42+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTFBFNTMxM3F3VkxUR3g1Y0g4T3RiM0ZXZXQ2U0c1Mk5YMWo0Nnp0MmNZOHJzQjhMUmRMcTlHMk9COWpucDhxUVZjX2EtdVFEaVRHYXZRUVBpT0sxazBhaFZDa1N3aWZibm1HbWc?oc=5" data-source="뉴스밸류">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBFNTMxM3F3VkxUR3g1Y0g4T3RiM0ZXZXQ2U0c1Mk5YMWo0Nnp0MmNZOHJzQjhMUmRMcTlHMk9COWpucDhxUVZjX2EtdVFEaVRHYXZRUVBpT0sxazBhaFZDa1N3aWZibm1HbWc?oc=5" target="_blank" rel="noopener noreferrer">[심층분석] 한화 방산의 ‘두뇌’로 부상한 한화시스템…구미서 국방 AI·레이다 생산체계 고도화</a>
-            <div class="card-meta">
-              <span class="src">뉴스밸류</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:00:00+00:00">2026-09-22T06:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VbkJVTEhBeHVoU3dSWXZQSUxBdjdBWEtvVGdfMTNiN1Z2Skh4WDdTNHBwUVdBNnpuNVY3UXRWY040cWZwN1d6TUhqY2NRcDNSR0VscjZhRGF6NDU5aEhDNFZRVE5WUQ?oc=5" data-source="thelec.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VbkJVTEhBeHVoU3dSWXZQSUxBdjdBWEtvVGdfMTNiN1Z2Skh4WDdTNHBwUVdBNnpuNVY3UXRWY040cWZwN1d6TUhqY2NRcDNSR0VscjZhRGF6NDU5aEhDNFZRVE5WUQ?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 구미사업장서 국방 AI 기술 점검</a>
-            <div class="card-meta">
-              <span class="src">thelec.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:04:51+00:00">2026-09-22T09:04:51+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3UzNreFJvcUhOWk9VX1owc0ZwQ1dCbEpLRmhZdDhvUzlmUU05Ympab0tJLXF5ZnltUllxdThUWlVtOXg1TG4tNGh2Y0ZjVUp4ZjVHcmZibnLSAVhBVV95cUxQN1Mza3hSb3FITlpPVV9aMHNGcENXQmxKS0ZoWXQ4b1M5ZlFNOWJqWm9LSS1xeWZ5bVJZcXU4VFpVbTl4NUxuLTRodmNGY1VKeGY1R3JmYm5y?oc=5" data-source="SBS Biz">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3UzNreFJvcUhOWk9VX1owc0ZwQ1dCbEpLRmhZdDhvUzlmUU05Ympab0tJLXF5ZnltUllxdThUWlVtOXg1TG4tNGh2Y0ZjVUp4ZjVHcmZibnLSAVhBVV95cUxQN1Mza3hSb3FITlpPVV9aMHNGcENXQmxKS0ZoWXQ4b1M5ZlFNOWJqWm9LSS1xeWZ5bVJZcXU4VFpVbTl4NUxuLTRodmNGY1VKeGY1R3JmYm5y?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미사업장 방문…독보적 국방 AI 역량 키워야</a>
-            <div class="card-meta">
-              <span class="src">SBS Biz</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:21:00+00:00">2026-09-22T06:21:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5ajVGTTNJOUtKSVJKbi1wLVhHdGwycVVoT3Z3LTMzeTRxR1VhU1l1cVdZQzVhUVNDT0ZoS0dqc19Bd1VqcnVVNFlvb0V3Y2FBOU01X0hqSTVGZw?oc=5" data-source="한국경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5ajVGTTNJOUtKSVJKbi1wLVhHdGwycVVoT3Z3LTMzeTRxR1VhU1l1cVdZQzVhUVNDT0ZoS0dqc19Bd1VqcnVVNFlvb0V3Y2FBOU01X0hqSTVGZw?oc=5" target="_blank" rel="noopener noreferrer">구미 사업장 찾은 김승연 &#34;독보적 국방 AI 역량 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">한국경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:26:42+00:00">2026-09-22T08:26:42+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VTdrZExyM3FRRWVueVFIZjFzY1JlMmVTcElZZG5vaWVjZEwxeTlsSHg5eEV0anVPMmRtOWF5VU5KN1l3UDloT1ZfRjJyNjgzUGZraFZQMjRXUQ?oc=5" data-source="fnnews.com">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VTdrZExyM3FRRWVueVFIZjFzY1JlMmVTcElZZG5vaWVjZEwxeTlsSHg5eEV0anVPMmRtOWF5VU5KN1l3UDloT1ZfRjJyNjgzUGZraFZQMjRXUQ?oc=5" target="_blank" rel="noopener noreferrer">김승연, 한화시스템 현장경영…&#34;한화 방산 경쟁력 핵심은 AI&#34;</a>
-            <div class="card-meta">
-              <span class="src">fnnews.com</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:00:00+00:00">2026-09-22T06:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE50b1RzcnFvYVJxc3BYRDNPQ3hfUUEzOWlIamMteWZjcXNZSjFiZUJ1YXd6SXcwcWE2WU14aE51STM0aG9VS1lpVnFTMVRYVm1DY0NlQ0NTVnNSVERSN2sxSnU0ZHlXVFdzcDNlODNn?oc=5" data-source="이지경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE50b1RzcnFvYVJxc3BYRDNPQ3hfUUEzOWlIamMteWZjcXNZSjFiZUJ1YXd6SXcwcWE2WU14aE51STM0aG9VS1lpVnFTMVRYVm1DY0NlQ0NTVnNSVERSN2sxSnU0ZHlXVFdzcDNlODNn?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 한화시스템 구미 찾아 ‘국방 AI’ 점검…“독보적 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">이지경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:40:31+00:00">2026-09-22T08:40:31+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTE44UFFTVnBiX0NIZ3VBWmx6WmMzM3FsUDB3N2VNUHBRUXI0djBqOFBuMFJuVWJKU0FHc3ZJU0ZTdWItMHZyUkVOVW1XaHJIcjFSZ0lZZFBxV21VeUNOVmR4dGczZjJZTENPUndHUDNkTQ?oc=5" data-source="뉴스웍스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE44UFFTVnBiX0NIZ3VBWmx6WmMzM3FsUDB3N2VNUHBRUXI0djBqOFBuMFJuVWJKU0FHc3ZJU0ZTdWItMHZyUkVOVW1XaHJIcjFSZ0lZZFBxV21VeUNOVmR4dGczZjJZTENPUndHUDNkTQ?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 공장 찾은 김승연 회장 &#34;독보적 국방 AI 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">뉴스웍스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:29:01+00:00">2026-09-22T06:29:01+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VT28wbmp1VGhiQ3YzdmdJSG1MTHExbEk0bjR6ME44VFFNVmdNNWozSkNuX2RVUlR4dlRCcUpuS2I5RGVfd0t5VjhtYzgzUURyRUFINzRxcFhab0tRQmgyYWVwRTE?oc=5" data-source="ddaily.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VT28wbmp1VGhiQ3YzdmdJSG1MTHExbEk0bjR6ME44VFFNVmdNNWozSkNuX2RVUlR4dlRCcUpuS2I5RGVfd0t5VjhtYzgzUURyRUFINzRxcFhab0tRQmgyYWVwRTE?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 올해 두 번째 현장경영…&#34;한화그룹 방산 경쟁력 AI가 좌우&#34;</a>
-            <div class="card-meta">
-              <span class="src">ddaily.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:42:30+00:00">2026-09-22T07:42:30+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTE81ZVZnTEZFaGZmN3lBZE8xX1RJaEFIbzJLRTlpRzFXaXR5VFFNUXhTSklTeW5GcFR6WG9waDdkOVlaRzFOU0dkMDh1ZHJHdzRNUklqYXpEODhieDBvU1c3OTNvbw?oc=5" data-source="매일산업뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE81ZVZnTEZFaGZmN3lBZE8xX1RJaEFIbzJLRTlpRzFXaXR5VFFNUXhTSklTeW5GcFR6WG9waDdkOVlaRzFOU0dkMDh1ZHJHdzRNUklqYXpEODhieDBvU1c3OTNvbw?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 한화시스템 구미 찾아 “독보적 국방 AI로 육·해·공 묶어라”</a>
-            <div class="card-meta">
-              <span class="src">매일산업뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:02:22+00:00">2026-09-22T07:02:22+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTFA5NTlFaHV2cHVVWVVUZjFRWjdaaEFTM1RHODh1QkpoMGlMOW9xNDVXc2Ezdy00OUkybnVmbzVZNm81S3pmS2RyMmI2VnFSZFZ0MEF5aFhnQ0gtbTNQSTZ2QXVIQ1VrRThaWEhzam42V0tIUHBI0gF0QVVfeXFMT2tTZEh2RGFHM1A2bXM2TEZmUkhqZGtuaXNmaTFubHNLODR3ZC1wV3VaX1BtZndabDg2ck5tQUF6Q2hSUG10cjZFSmdSdGR1YVBaVS1zRVI0bFlCYnFBZGJMRGtnQ1BFcFRjVmV4OTVMaVdSNks?oc=5" data-source="MBC 뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFA5NTlFaHV2cHVVWVVUZjFRWjdaaEFTM1RHODh1QkpoMGlMOW9xNDVXc2Ezdy00OUkybnVmbzVZNm81S3pmS2RyMmI2VnFSZFZ0MEF5aFhnQ0gtbTNQSTZ2QXVIQ1VrRThaWEhzam42V0tIUHBI0gF0QVVfeXFMT2tTZEh2RGFHM1A2bXM2TEZmUkhqZGtuaXNmaTFubHNLODR3ZC1wV3VaX1BtZndabDg2ck5tQUF6Q2hSUG10cjZFSmdSdGR1YVBaVS1zRVI0bFlCYnFBZGJMRGtnQ1BFcFRjVmV4OTVMaVdSNks?oc=5" target="_blank" rel="noopener noreferrer">한화 김승연, 구미사업장서 방산기술 점검‥&#34;국방 AI 역량 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">MBC 뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:47:34+00:00">2026-09-22T07:47:34+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtb1U3bnhFRDEwUEZrbFBJYXg0cnJtQWowNUVTdTluTFhSQ2o5eGk4SFdtS01Bd1FLeWhtRXFWcU5xaTdQVkNzZ0NxcUhoNFZ5SzduaTczY09DZk1xb0lWMkpR?oc=5" data-source="미주중앙일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtb1U3bnhFRDEwUEZrbFBJYXg0cnJtQWowNUVTdTluTFhSQ2o5eGk4SFdtS01Bd1FLeWhtRXFWcU5xaTdQVkNzZ0NxcUhoNFZ5SzduaTczY09DZk1xb0lWMkpR?oc=5" target="_blank" rel="noopener noreferrer">김승연, 방산 특명…“누구도 대체 못할 국방 AI역량 강화”</a>
-            <div class="card-meta">
-              <span class="src">미주중앙일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T15:02:00+00:00">2026-09-22T15:02:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KUnFhT0JWcXJkemVpYXpUS1FDdENmSGl6X04xaXhuNUxiaC03YUNsNkktWnBmeVpYajZKTGhBcTAtTTQ1MFlnZV8zWG9QZjNiZ1ZpTGxfQzRsSE9WMzFza0ZJVQ?oc=5" data-source="포쓰저널">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KUnFhT0JWcXJkemVpYXpUS1FDdENmSGl6X04xaXhuNUxiaC03YUNsNkktWnBmeVpYajZKTGhBcTAtTTQ1MFlnZV8zWG9QZjNiZ1ZpTGxfQzRsSE9WMzFza0ZJVQ?oc=5" target="_blank" rel="noopener noreferrer">김승연 &#34;한화 방산 핵심은 AI&#34;..한화시스템에 &#39;체계통합 허브&#39; 주문</a>
-            <div class="card-meta">
-              <span class="src">포쓰저널</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:16:57+00:00">2026-09-22T08:16:57+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tMDBYRGNORHVaYTYtdERMeUFIMXA0VVh1b0NCOXBkMmFuamdodlZZSEZHbHdlSTNGbWhJZFJhcEN3WkhMa1hweDZvaVFUMGNMMjViUFZvVThCUjBSdUdv?oc=5" data-source="스마트투데이">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tMDBYRGNORHVaYTYtdERMeUFIMXA0VVh1b0NCOXBkMmFuamdodlZZSEZHbHdlSTNGbWhJZFJhcEN3WkhMa1hweDZvaVFUMGNMMjViUFZvVThCUjBSdUdv?oc=5" target="_blank" rel="noopener noreferrer">구미 현장 방문한 한화 김승연 회장 “미래 전장 이끌 국방 AI 역량 키워라”</a>
-            <div class="card-meta">
-              <span class="src">스마트투데이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:44:00+00:00">2026-09-22T07:44:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vX3Y0Vkh6QlFVRmNhbTd1NHJCdjBMVmtMdHZVc0pKS2FqWVcwX05vNXN2SGVhbVM0T3JxbVRUM1pjWHdlR1Z3TnJRdGxCelk?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vX3Y0Vkh6QlFVRmNhbTd1NHJCdjBMVmtMdHZVc0pKS2FqWVcwX05vNXN2SGVhbVM0T3JxbVRUM1pjWHdlR1Z3TnJRdGxCelk?oc=5" target="_blank" rel="noopener noreferrer">美 방산 영토 넓히는 한화…김승연 &#34;독보적 국방 AI 키워라&#34;</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net, 뉴스웨이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:12:07+00:00">2026-09-22T09:12:07+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMickFVX3lxTFBsbThOVlVEVkJ4Nm5jRU1ieXlPdDJ3a3FXZVJOUUtZNUhCbjJwdmE2Z0UxQjREZzEzV0JqdnoyWll5bGpESnJGNjFZMUZsb1JLb2F1ZGVIQ1VFbzVZSkRSTjNZWWFPZDZSZHNhSFc0Nmpfdw?oc=5" data-source="인더스트리뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBsbThOVlVEVkJ4Nm5jRU1ieXlPdDJ3a3FXZVJOUUtZNUhCbjJwdmE2Z0UxQjREZzEzV0JqdnoyWll5bGpESnJGNjFZMUZsb1JLb2F1ZGVIQ1VFbzVZSkRSTjNZWWFPZDZSZHNhSFc0Nmpfdw?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 구미사업장 방문 “국방 AI는 방산 경쟁력의 핵심… 독보적 역량 갖춰야”</a>
-            <div class="card-meta">
-              <span class="src">인더스트리뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:06:29+00:00">2026-09-22T07:06:29+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ua3ZNVHFGMlRaV1N5M0NsWUQ4OXFXcmt2WGpwVG9rTFJDd283UXhwT3F4MFRzeFlKS0pPZGp3NlNLNHdrZ3Z0d2JJMkRqekFQVWlwdnRRcVJGX0t0VEsxc3ZfX3kyUQ?oc=5" data-source="issuetoday.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ua3ZNVHFGMlRaV1N5M0NsWUQ4OXFXcmt2WGpwVG9rTFJDd283UXhwT3F4MFRzeFlKS0pPZGp3NlNLNHdrZ3Z0d2JJMkRqekFQVWlwdnRRcVJGX0t0VEsxc3ZfX3kyUQ?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화그룹 회장, 한화시스템 구미사업장 방문해 미래 방산 기술 점검</a>
-            <div class="card-meta">
-              <span class="src">issuetoday.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:57:37+00:00">2026-09-22T06:57:37+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVpJV2JDdVFaNVAwTnRhQmJMYkRERlpHMDR3N2VBTmhaM1JkUHYwV25PeGJTQThPa0RJWU5zOVdPYWdDRHV2VE1QU2VJakc0UjRQTHVod1BMd01TcHlRTWhMMUNReEZjTGY5cm84WFpaMmFqcEpReFViaER2SE81bGhkVlRkQdIBbEFVX3lxTFBjWTk0RWFBQ0xwcGtHU1psLVRMR3FPQ1JzY3VfVUhibG9IeVc2MXpNY2o3Z21sRTVQZ0thTUdZblF6b01KSmhNNVNMekZkLTRQeWk0N0Z0S29MazZ6cWZSU1prMTE5Q2lkRFlqdQ?oc=5" data-source="국민일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVpJV2JDdVFaNVAwTnRhQmJMYkRERlpHMDR3N2VBTmhaM1JkUHYwV25PeGJTQThPa0RJWU5zOVdPYWdDRHV2VE1QU2VJakc0UjRQTHVod1BMd01TcHlRTWhMMUNReEZjTGY5cm84WFpaMmFqcEpReFViaER2SE81bGhkVlRkQdIBbEFVX3lxTFBjWTk0RWFBQ0xwcGtHU1psLVRMR3FPQ1JzY3VfVUhibG9IeVc2MXpNY2o3Z21sRTVQZ0thTUdZblF6b01KSmhNNVNMekZkLTRQeWk0N0Z0S29MazZ6cWZSU1prMTE5Q2lkRFlqdQ?oc=5" target="_blank" rel="noopener noreferrer">“독보적 국방 AI 역량 키워야”… ‘천궁 레이더’ 살핀 김승연 회장</a>
-            <div class="card-meta">
-              <span class="src">국민일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T15:29:00+00:00">2026-09-22T15:29:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uZ3Y1a0M0SzZxTElDNGM3Wi0ycUtFMXB4ZG9CZTg3RTc1dmhjXy04NjNpTVlEUHNHYWJ2cDlZQmQ3czJTakhzM0VSbFRzc194UjYxRmFaWmFFaWM4?oc=5" data-source="뉴스핌">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uZ3Y1a0M0SzZxTElDNGM3Wi0ycUtFMXB4ZG9CZTg3RTc1dmhjXy04NjNpTVlEUHNHYWJ2cDlZQmQ3czJTakhzM0VSbFRzc194UjYxRmFaWmFFaWM4?oc=5" target="_blank" rel="noopener noreferrer">천궁-II·KF-21 레이다 점검한 김승연 회장 &#34;독보적 국방 AI 역량 강화&#34; 주문</a>
-            <div class="card-meta">
-              <span class="src">뉴스핌</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:49:00+00:00">2026-09-22T06:49:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidkFVX3lxTE1iWmF0TlVvNnhrQ2ItYTJLc2Q3eWo0d1RjdTNlWnotUVZGdmVMd3pQcmE2WC0xVW9jOS0wR2ZOZEhlb1JycVh4dVpqdlE0blpRZWZHRHRzMDlkSk5fOUprd0k4WnlwVFptcTFiSGZCLVJoanZhWlHSAXZBVV95cUxNYlphdE5VbzZ4a0NiLWEyS3NkN3lqNHdUY3UzZVp6LVFWRnZlTHd6UHJhNlgtMVVvYzktMEdmTmRIZW9ScnFYeHVaanZRNG5aUWVmR0R0czA5ZEpOXzlKa3dJOFp5cFRabXExYkhmQi1SaGp2YVpR?oc=5" data-source="시사저널e">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1iWmF0TlVvNnhrQ2ItYTJLc2Q3eWo0d1RjdTNlWnotUVZGdmVMd3pQcmE2WC0xVW9jOS0wR2ZOZEhlb1JycVh4dVpqdlE0blpRZWZHRHRzMDlkSk5fOUprd0k4WnlwVFptcTFiSGZCLVJoanZhWlHSAXZBVV95cUxNYlphdE5VbzZ4a0NiLWEyS3NkN3lqNHdUY3UzZVp6LVFWRnZlTHd6UHJhNlgtMVVvYzktMEdmTmRIZW9ScnFYeHVaanZRNG5aUWVmR0R0czA5ZEpOXzlKa3dJOFp5cFRabXExYkhmQi1SaGp2YVpR?oc=5" target="_blank" rel="noopener noreferrer">L-SAM·천광 새 성장축 될까···한화시스템, 방공사업 확장 가속</a>
-            <div class="card-meta">
-              <span class="src">시사저널e</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T07:24:48+00:00">2026-09-21T07:24:48+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DbkgyZy1PcF94LWdCX3hrcXJnN21ILVBtUGZ3cUJNa2hUcmItd0cxV29RWjFJNVJRd0VFZGlMWERNLXk3MTVxdmdQcnZKTjd3eGNyYWMtdHh4dw?oc=5" data-source="fnnews.com">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DbkgyZy1PcF94LWdCX3hrcXJnN21ILVBtUGZ3cUJNa2hUcmItd0cxV29RWjFJNVJRd0VFZGlMWERNLXk3MTVxdmdQcnZKTjd3eGNyYWMtdHh4dw?oc=5" target="_blank" rel="noopener noreferrer">&#39;한화방산 두뇌&#39; 찾은 김승연 &#34;AI지휘통제로 국방역량 강화&#34;</a>
-            <div class="card-meta">
-              <span class="src">fnnews.com</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:00:00+00:00">2026-09-22T06:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VQzNzaHROa28tZEI0eWh6d19sakFhSzhTeVJvcl9sblJSeUQzNXo4WjA3bnMwa1NfWXRHbWpmUWtfTlgtLWZSb1c1QVY4aEFiSE0xY1BJLVZGUFdkekE?oc=5" data-source="뉴스투데이">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VQzNzaHROa28tZEI0eWh6d19sakFhSzhTeVJvcl9sblJSeUQzNXo4WjA3bnMwa1NfWXRHbWpmUWtfTlgtLWZSb1c1QVY4aEFiSE0xY1BJLVZGUFdkekE?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 구미서 방산 AI 점검...독보적 역량 강화 주문</a>
-            <div class="card-meta">
-              <span class="src">뉴스투데이</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:54:00+00:00">2026-09-22T07:54:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiekFVX3lxTFBxdnNnc3J6WXl4WDhhVlkwRVdNZjdDMTRoR0F0RmZSMlBXZ05jWk1BUXRVTEdsUC1FRWxEMXRXU1cxLXJhanhkc090bUxrYWlNRzBBNC1kR09SRWF1N2QzLWZSS1RmVmJNbUM5WUtmSVc1Q3pXb083TFdB?oc=5" data-source="로이슈">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiekFVX3lxTFBxdnNnc3J6WXl4WDhhVlkwRVdNZjdDMTRoR0F0RmZSMlBXZ05jWk1BUXRVTEdsUC1FRWxEMXRXU1cxLXJhanhkc090bUxrYWlNRzBBNC1kR09SRWF1N2QzLWZSS1RmVmJNbUM5WUtmSVc1Q3pXb083TFdB?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 한화시스템 구미사업장 방문</a>
-            <div class="card-meta">
-              <span class="src">로이슈</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:23:34+00:00">2026-09-22T08:23:34+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pVnB1dEE1b0tCM25UYlVpcWhfZkloZm9EaWhzUU1HNVVGYldjS0VTTFpaNFlCdG9COV9zQlJIUGpPMlh3Y0RUeXBoVmJKdTM1Y2cwOHhn?oc=5" data-source="헤럴드경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pVnB1dEE1b0tCM25UYlVpcWhfZkloZm9EaWhzUU1HNVVGYldjS0VTTFpaNFlCdG9COV9zQlJIUGpPMlh3Y0RUeXBoVmJKdTM1Y2cwOHhn?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장 “대체불가한 독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">헤럴드경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:56:30+00:00">2026-09-22T06:56:30+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RenpNVlRPZWJCMnF6bFRkT3lob29TWjBBRXBuQ1hTRnFIUldTSnRnWUtjY2htOTU2VXlFeV9Yd1N6NHZCbVBnMmptdXdZQUZtQUHSAVNBVV95cUxOQlFNLW1LYkRyZFgwZFpscXJtRTl4QzFxaHNlczVtNXdoU01QbUZ3TWhheFNRdzZtNC1LY0RDZDBRZHFwYnk5Q29HU3VXLUUwUE0yTQ?oc=5" data-source="서울경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RenpNVlRPZWJCMnF6bFRkT3lob29TWjBBRXBuQ1hTRnFIUldTSnRnWUtjY2htOTU2VXlFeV9Yd1N6NHZCbVBnMmptdXdZQUZtQUHSAVNBVV95cUxOQlFNLW1LYkRyZFgwZFpscXJtRTl4QzFxaHNlczVtNXdoU01QbUZ3TWhheFNRdzZtNC1LY0RDZDBRZHFwYnk5Q29HU3VXLUUwUE0yTQ?oc=5" target="_blank" rel="noopener noreferrer">한화, 美에 3조 탄약공장 구축…김승연 “독보적 국방 AI 키워라”</a>
-            <div class="card-meta">
-              <span class="src">서울경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:35:48+00:00">2026-09-22T08:35:48+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiT0FVX3lxTE16eklJdG4xbGZaUEExTlJQOWxTRkZSUWM3OEp4ajc1aVpqUWtwUGJ2Y2xaeEZZRWpnVjZnTmZGY2k0YWszZU9TZVdWTS1lc2s?oc=5" data-source="톱데일리">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE16eklJdG4xbGZaUEExTlJQOWxTRkZSUWM3OEp4ajc1aVpqUWtwUGJ2Y2xaeEZZRWpnVjZnTmZGY2k0YWszZU9TZVdWTS1lc2s?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장 &#34;독보적 국방 AI 역량 키워야&#34; 外</a>
-            <div class="card-meta">
-              <span class="src">톱데일리</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:51:00+00:00">2026-09-22T06:51:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wenpUaHk5RkpMOVhlejFndXRSSnd0QnEzQm1jVENEdmlFY1drQnZjVlE0TmdQa214TWxfdkhuS3huZ1NOaTVHTno2M2xtT2UwZ2h2OWp1ZVc4MVRlUExDOTEtQllhOVp2WG9na3VqdWlJVnozcGfSAWZBVV95cUxNWlB2UjFORG1aMTBTZU1hV0FTQTZzaV9HcVA5dTJacWl6S0M1TGM0bTkwY1R3ZFA0SEVpYUlyRWt5NkFPcmxPYVFWdGFtcFBjcTNYdnZHWnBkdm9kR3kzMnVvTkJLV0E?oc=5" data-source="동아일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wenpUaHk5RkpMOVhlejFndXRSSnd0QnEzQm1jVENEdmlFY1drQnZjVlE0TmdQa214TWxfdkhuS3huZ1NOaTVHTno2M2xtT2UwZ2h2OWp1ZVc4MVRlUExDOTEtQllhOVp2WG9na3VqdWlJVnozcGfSAWZBVV95cUxNWlB2UjFORG1aMTBTZU1hV0FTQTZzaV9HcVA5dTJacWl6S0M1TGM0bTkwY1R3ZFA0SEVpYUlyRWt5NkFPcmxPYVFWdGFtcFBjcTNYdnZHWnBkdm9kR3kzMnVvTkJLV0E?oc=5" target="_blank" rel="noopener noreferrer">방산 거점 찾은 김승연 “독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">동아일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T15:30:00+00:00">2026-09-22T15:30:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE90aUxrOTQ4ZUl0RklzaWNtODdxUUpyWHBsb1RMaTBPMW80ZnFLaE5HX0RQSUc4ZmlmTHZOVUVhd29lX3YzRW0zaURFRFlPTEt1NGpGNFFBbFV5a29VRWRJR2h6ajJTOVNPeC1QNkh3VkQ?oc=5" data-source="신아일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE90aUxrOTQ4ZUl0RklzaWNtODdxUUpyWHBsb1RMaTBPMW80ZnFLaE5HX0RQSUc4ZmlmTHZOVUVhd29lX3YzRW0zaURFRFlPTEt1NGpGNFFBbFV5a29VRWRJR2h6ajJTOVNPeC1QNkh3VkQ?oc=5" target="_blank" rel="noopener noreferrer">한화 김승연 &#34;방산 경쟁력 핵심은 AI&#34;…구미서 통합방공·레이다 점검</a>
-            <div class="card-meta">
-              <span class="src">신아일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:21:34+00:00">2026-09-22T06:21:34+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMicEFVX3lxTE1NU3B2MXNqcFJOZXhRX2JTSGp5cW1STmZtRzVQX0toVHg5d1g1dFJnbENxajBRUjVzQWoxTWdmYWYwX3J5cGJneGFSYXdsTWZXVFF5YXhlQzRPOXFfS0hRX2x2ZHlxazB3M2FOLTNiRUo?oc=5" data-source="코리아리포트">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1NU3B2MXNqcFJOZXhRX2JTSGp5cW1STmZtRzVQX0toVHg5d1g1dFJnbENxajBRUjVzQWoxTWdmYWYwX3J5cGJneGFSYXdsTWZXVFF5YXhlQzRPOXFfS0hRX2x2ZHlxazB3M2FOLTNiRUo?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장 “독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">코리아리포트, 동행미디어 시대</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:20:42+00:00">2026-09-22T07:20:42+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBucVFjWWhIZTVSY3U5MGU4eDR1ajlVU0RlZHJodzN5SkZtczlVY3cydm81ekpZcWVVNkhhTG9TT2lNNGZkN0hRRHFNRTRCVzBxSW0xekhUclo1RHZ1M3hzMHV6ZUY?oc=5" data-source="서울경제TV">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBucVFjWWhIZTVSY3U5MGU4eDR1ajlVU0RlZHJodzN5SkZtczlVY3cydm81ekpZcWVVNkhhTG9TT2lNNGZkN0hRRHFNRTRCVzBxSW0xekhUclo1RHZ1M3hzMHV6ZUY?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 구미사업장 방문…“AI가 방산 경쟁력”</a>
-            <div class="card-meta">
-              <span class="src">서울경제TV</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:35:23+00:00">2026-09-22T06:35:23+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE04dDJFTzFoVEI1ZGE0MTd1bWZLeEtCeVJ0Mld0RklwZlJxNFdxMG0tVExsSkhQblNyTC1yRW1CVGVCdHRvRUV1bTVNMnBpOTBSYVhxSG5BYml1Z9IBWEFVX3lxTE1qMWp6OGdvX192NF9pOGdNMmd6N1ZKZUNHMzZUM1pCVnFOVllTeWlRRFBXSXVDU3lNcGxTOHdTa2hqU0N1OU5IY2VQVEQzU3VzNzllYkZEeVA?oc=5" data-source="아주경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE04dDJFTzFoVEI1ZGE0MTd1bWZLeEtCeVJ0Mld0RklwZlJxNFdxMG0tVExsSkhQblNyTC1yRW1CVGVCdHRvRUV1bTVNMnBpOTBSYVhxSG5BYml1Z9IBWEFVX3lxTE1qMWp6OGdvX192NF9pOGdNMmd6N1ZKZUNHMzZUM1pCVnFOVllTeWlRRFBXSXVDU3lNcGxTOHdTa2hqU0N1OU5IY2VQVEQzU3VzNzllYkZEeVA?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 방산의 핵심은 AI…독보적 역량 키워야</a>
-            <div class="card-meta">
-              <span class="src">아주경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:07:48+00:00">2026-09-22T07:07:48+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMigwJBVV95cUxNUzJUSGVDUWdvRWtKSUNOQmtuRUlhT19TZnl2WGw5cmo2Ql93UE5JRXBQQUI2SThyR3M4T2lnbkZYYnhFOGhZUkt0aXVXVG9xTktabmMwQnRFenV1MkhFV2hqSGNOXzBYMWZjbDQ4YWxNUmhnR3dTZG1RNzduVmVBY2UzeHUyVnNaMDlrQmNYMFFpSzB0dXZIdWZaeFdFSGhDYWswbnR6SmlwaVZNcUZvRVNTcll4VUFjRHBTYmxMeXliUUpIREMxb2FObDlranZuLU9KYzZUajlvbXZRVGsyaXQtR2Z6M3llRkpZd0lEZGhJUXhPOS1OUUZBYVE4STU1cFpn?oc=5" data-source="dailian.co.kr">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMigwJBVV95cUxNUzJUSGVDUWdvRWtKSUNOQmtuRUlhT19TZnl2WGw5cmo2Ql93UE5JRXBQQUI2SThyR3M4T2lnbkZYYnhFOGhZUkt0aXVXVG9xTktabmMwQnRFenV1MkhFV2hqSGNOXzBYMWZjbDQ4YWxNUmhnR3dTZG1RNzduVmVBY2UzeHUyVnNaMDlrQmNYMFFpSzB0dXZIdWZaeFdFSGhDYWswbnR6SmlwaVZNcUZvRVNTcll4VUFjRHBTYmxMeXliUUpIREMxb2FObDlranZuLU9KYzZUajlvbXZRVGsyaXQtR2Z6M3llRkpZd0lEZGhJUXhPOS1OUUZBYVE4STU1cFpn?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장 &#34;한화 방산 핵심은 AI…독보적 역량 키워야&#34;</a>
-            <div class="card-meta">
-              <span class="src">dailian.co.kr</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:28:00+00:00">2026-09-22T06:28:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sdmlxWTZlSjZ5ME9uSVhRNHJ3a3A3RE00NDBua2dfRXYyM1otQ2pGQ0x1WHZsTnBET2ZhNkVYVmJxNFptX0NKQkk5TW1Cbm9GN29ma2dhbzEtSW1mWTFNZjNB?oc=5" data-source="미주중앙일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sdmlxWTZlSjZ5ME9uSVhRNHJ3a3A3RE00NDBua2dfRXYyM1otQ2pGQ0x1WHZsTnBET2ZhNkVYVmJxNFptX0NKQkk5TW1Cbm9GN29ma2dhbzEtSW1mWTFNZjNB?oc=5" target="_blank" rel="noopener noreferrer">K방산 현장경영 나선 김승연 회장 “독보적 국방AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">미주중앙일보</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:55:00+00:00">2026-09-22T06:55:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMib0FVX3lxTE91bHc1ZXJKMGhJTFg3dzdtdmt5NnI3QzBubkNGWmU4Nml0NFVSV2lMa1lpbFJkWEZ4WjVCd3hhcTE4a3l2X3hYXzRSbXBCQXBGRXRkbHQ1Mm4wSTJSZUdITWJBYl85VURycnBQbzFud9IBc0FVX3lxTE4tbFI0X1lIRFpHcERBMFExSWpNODlxNDQ3blZkYmxhTms0cnowZHQtRWw1elJCcTdXRjFyV1dPZWs5M3ZBdmkyWkFPWWl5T0dxeWg0cVd5ZnZVYlAydzNCc1ZPRGtqWUI5WWwzcEhjOXVZQms?oc=5" data-source="데일리한국">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMib0FVX3lxTE91bHc1ZXJKMGhJTFg3dzdtdmt5NnI3QzBubkNGWmU4Nml0NFVSV2lMa1lpbFJkWEZ4WjVCd3hhcTE4a3l2X3hYXzRSbXBCQXBGRXRkbHQ1Mm4wSTJSZUdITWJBYl85VURycnBQbzFud9IBc0FVX3lxTE4tbFI0X1lIRFpHcERBMFExSWpNODlxNDQ3blZkYmxhTms0cnowZHQtRWw1elJCcTdXRjFyV1dPZWs5M3ZBdmkyWkFPWWl5T0dxeWg0cVd5ZnZVYlAydzNCc1ZPRGtqWUI5WWwzcEhjOXVZQms?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 구미사업장 방문…&#39;독보적 국방 AI 역량 키워야&#39;</a>
-            <div class="card-meta">
-              <span class="src">데일리한국</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:34:24+00:00">2026-09-22T06:34:24+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibEFVX3lxTFBKTjFuUEJLS01lOFg2dVdMcGM5QUV4M0sxcEhDZHhMU05tT0QzZ0FOU3BOT2RoMmhBQm9vQWE1TzBOdFg1V2RxbkwxZXhSYWVMZkNIem5qZmtCRTJ0a1o2dGRQUUt5MVhna0lWZg?oc=5" data-source="뉴스락">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBKTjFuUEJLS01lOFg2dVdMcGM5QUV4M0sxcEhDZHhMU05tT0QzZ0FOU3BOT2RoMmhBQm9vQWE1TzBOdFg1V2RxbkwxZXhSYWVMZkNIem5qZmtCRTJ0a1o2dGRQUUt5MVhna0lWZg?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, 구미 방산사업장 방문…“국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">뉴스락</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T08:44:50+00:00">2026-09-22T08:44:50+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiakFVX3lxTFA0VjVuU0ZISXF1Z2NNSzVLYjRaVEZEYVd3MHM4ZTZqTDVaNF9nZXpienp5TXdCT0JfdjFmYkQzdldKd0h0WGplcFJHX01YdDFJNTB4SjJPOVphbWo2WVNkNDVUR2ZRYjhnUUE?oc=5" data-source="한국M&amp;A경제신문">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFA0VjVuU0ZISXF1Z2NNSzVLYjRaVEZEYVd3MHM4ZTZqTDVaNF9nZXpienp5TXdCT0JfdjFmYkQzdldKd0h0WGplcFJHX01YdDFJNTB4SjJPOVphbWo2WVNkNDVUR2ZRYjhnUUE?oc=5" target="_blank" rel="noopener noreferrer">한화시스템 필리조선소 매각, 순유입 2,938억 원은 우주 투자의 1.5%</a>
-            <div class="card-meta">
-              <span class="src">한국M&amp;A경제신문</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T01:18:55+00:00">2026-09-22T01:18:55+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5RDA4dkxGLTB0b0dKU1BOR2x1OUttMVUyLVlnc1JPMS1meUFpZ0pGZjhNY0hMQUlqTUphc0pKNS0wSThSUHE1YkxmdHhmM1U1VVJ2cmRqMThOZk5RM0E?oc=5" data-source="아시아타임즈">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5RDA4dkxGLTB0b0dKU1BOR2x1OUttMVUyLVlnc1JPMS1meUFpZ0pGZjhNY0hMQUlqTUphc0pKNS0wSThSUHE1YkxmdHhmM1U1VVJ2cmRqMThOZk5RM0E?oc=5" target="_blank" rel="noopener noreferrer">한화 방산 ‘집안 거래’… 맏형 에어로 ‘투자 쏠림’ 우려</a>
-            <div class="card-meta">
-              <span class="src">아시아타임즈</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T05:29:00+00:00">2026-09-22T05:29:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMidEFVX3lxTE9naDByUkE5dlgxSHJYbzRoa05SZE80NXotek9SQktoYnhMblRmQzdmaFd2YWhaRTBGYjMtSlU4QWMyQTZ1M0tVYXRSUWZEaWVfLXFZZUlJemYwTkh2eVp2YkJDcTlUcnFKc21QckV4bXduRzh5?oc=5" data-source="파이낸셜포스트">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9naDByUkE5dlgxSHJYbzRoa05SZE80NXotek9SQktoYnhMblRmQzdmaFd2YWhaRTBGYjMtSlU4QWMyQTZ1M0tVYXRSUWZEaWVfLXFZZUlJemYwTkh2eVp2YkJDcTlUcnFKc21QckV4bXduRzh5?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장·김동관 부회장, K-방산 거점 구미사업장 찾은 까닭</a>
-            <div class="card-meta">
-              <span class="src">파이낸셜포스트</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:58:01+00:00">2026-09-22T06:58:01+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DNkVvTjNiX1l4UnJfbWdGc2pRVVBvaURCTVdReU1PbjhyZlB0OExveXNHLUxtdy1YWTM5VkJrdVZ1QUNTYXd4UFZkTkxLX0hHV1ZPNzNrSGhXOUNPaWc0?oc=5" data-source="뉴스와이어">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DNkVvTjNiX1l4UnJfbWdGc2pRVVBvaURCTVdReU1PbjhyZlB0OExveXNHLUxtdy1YWTM5VkJrdVZ1QUNTYXd4UFZkTkxLX0hHV1ZPNzNrSGhXOUNPaWc0?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화그룹 회장 “독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">뉴스와이어</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T06:36:04+00:00">2026-09-22T06:36:04+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tLWgxWnFEQzdrX0VVQ2RZeGxTcWluOFdrNjAwSW11clM0bzFPX0pEVFpUVlYwUkZpQVN4bUVNdUpmMEZldzYxem1tUlV3NXg5cU96WFZyWGhXY1hWOTNKTW1sT2lJVzQ?oc=5" data-source="투데이e코노믹">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tLWgxWnFEQzdrX0VVQ2RZeGxTcWluOFdrNjAwSW11clM0bzFPX0pEVFpUVlYwUkZpQVN4bUVNdUpmMEZldzYxem1tUlV3NXg5cU96WFZyWGhXY1hWOTNKTW1sT2lJVzQ?oc=5" target="_blank" rel="noopener noreferrer">김승연 한화 회장, K-방산 AI 직접 챙겼다…“독보적 국방 AI 역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">투데이e코노믹</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T09:16:13+00:00">2026-09-22T09:16:13+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMic0FVX3lxTE5uaElxX2VOa0JieDlneDBqR3cyeGhtRktEUnJhekxQRl9LVGd3eWZnOVRXYWFRRGxnUzBzQWlQWTFkaTlpSk1yTDltc2R5VklhYzE4TWI2ZW1RNWd5WnRxNjY4elJJNnlwem1vSi04M1ByTkk?oc=5" data-source="쉬핑뉴스넷">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5uaElxX2VOa0JieDlneDBqR3cyeGhtRktEUnJhekxQRl9LVGd3eWZnOVRXYWFRRGxnUzBzQWlQWTFkaTlpSk1yTDltc2R5VklhYzE4TWI2ZW1RNWd5WnRxNjY4elJJNnlwem1vSi04M1ByTkk?oc=5" target="_blank" rel="noopener noreferrer">한화시스템, 미국 필리조선소 지분 매각 결정...미국 조선ㆍ해양방산 사업이 한화에어로스페이스 축으로 재편</a>
-            <div class="card-meta">
-              <span class="src">쉬핑뉴스넷</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T02:35:57+00:00">2026-09-21T02:35:57+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMickFVX3lxTE5EYXBGeXhqMEdxcGxfUmNHWG5hRi1BbG9oRWktYi03Vi1xVDd6d2ZrZW9RWlU5SkV4bmRJcTZMVkZ0Uy1YRWNFV0xETGZTY3hrMFN3VnNld3hTX3Yzalc3NXgzd2o3Rl9qV093YmczalZkQQ?oc=5" data-source="오피니언뉴스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMickFVX3lxTE5EYXBGeXhqMEdxcGxfUmNHWG5hRi1BbG9oRWktYi03Vi1xVDd6d2ZrZW9RWlU5SkV4bmRJcTZMVkZ0Uy1YRWNFV0xETGZTY3hrMFN3VnNld3hTX3Yzalc3NXgzd2o3Rl9qV093YmczalZkQQ?oc=5" target="_blank" rel="noopener noreferrer">[이번주 관심주] 한화시스템, 다계층 방공망 구축 박차...레이저 요격무기 &#39;천광&#39; 주목</a>
-            <div class="card-meta">
-              <span class="src">오피니언뉴스</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-20T00:00:00+00:00">2026-09-20T00:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YWhFbU9QT1ZRQm1tQlZhZHhaMXlvRmI0dGJfSTFEZzRYUXk3aGUzZ3dJWHY4amJPX0R2cFhtbVQtcHZ5SG92end6MXhJbmVOcjZjdmNn?oc=5" data-source="매일경제">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YWhFbU9QT1ZRQm1tQlZhZHhaMXlvRmI0dGJfSTFEZzRYUXk3aGUzZ3dJWHY4amJPX0R2cFhtbVQtcHZ5SG92end6MXhJbmVOcjZjdmNn?oc=5" target="_blank" rel="noopener noreferrer">김승연 회장, 장남과 ‘방산 두뇌’ 찾아…구미 공장서 “독보적 국방 AI역량 키워야”</a>
-            <div class="card-meta">
-              <span class="src">매일경제</span>
-              <span class="tag">한화시스템</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-22T07:07:44+00:00">2026-09-22T07:07:44+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-        </ul>
-        <p class="empty group-empty" hidden>해당 조건의 기사가 없습니다.</p>
-        
-      </section>
-      
-      <section class="keyword-group" id="kw-7" data-kw="해수부 IoT"
-               style="--kw-color: var(--kw-color-1);">
-        <div class="group-head">
-          <span class="bar"></span>
-          <h2>해수부 IoT</h2>
-          <span class="count"><span class="group-count">4</span>건</span>
-        </div>
-        
-        <ul class="cards">
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QTHNNNERsWVRsZ1hGeDNRSWVobGUySXVRZVlUaFlieV9IRDduYWc1QXBlVDRNTnJUaHNKbkgtSU81a1lIdXU2NTFwdw?oc=5" data-source="v.daum.net">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QTHNNNERsWVRsZ1hGeDNRSWVobGUySXVRZVlUaFlieV9IRDduYWc1QXBlVDRNTnJUaHNKbkgtSU81a1lIdXU2NTFwdw?oc=5" target="_blank" rel="noopener noreferrer">&#39;어구 유실 예방부터 조업 안전까지&#39;…해수부, 해양 IoT 시범망 구축 추진</a>
-            <div class="card-meta">
-              <span class="src">v.daum.net, news1.kr</span>
-              <span class="tag">해수부 IoT</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-20T02:02:18+00:00">2026-09-20T02:02:18+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiYEFVX3lxTE80U1AySlpwZm5lcVVwbDd2dXF4SmFGbEpqaWFfQjZaOTFHcjNiZlJZcTFYSS0zTnpVaGlZTldTYkFrdVE0Z19YNkxRZ0JTMGVhSjctTnpBNmoyaWI1cS1rQtIBeEFVX3lxTE81aEM2Nmprc0JFVFBGRXJrRVJUNmZoUklQcDNHWldvZnBqZ1V2NnpTOERQQXZTb1VIV2lpTTRncVNBaHlWWnBQQ3U5WXFJZ0JuRFBXc0g1X2ozQ1NkSktjN2dnVExaanAzMTYtZTFmRzRHLUF0SlQxMw?oc=5" data-source="뉴시스">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE80U1AySlpwZm5lcVVwbDd2dXF4SmFGbEpqaWFfQjZaOTFHcjNiZlJZcTFYSS0zTnpVaGlZTldTYkFrdVE0Z19YNkxRZ0JTMGVhSjctTnpBNmoyaWI1cS1rQtIBeEFVX3lxTE81aEM2Nmprc0JFVFBGRXJrRVJUNmZoUklQcDNHWldvZnBqZ1V2NnpTOERQQXZTb1VIV2lpTTRncVNBaHlWWnBQQ3U5WXFJZ0JuRFBXc0g1X2ozQ1NkSktjN2dnVExaanAzMTYtZTFmRzRHLUF0SlQxMw?oc=5" target="_blank" rel="noopener noreferrer">해수부, 부울경 해역에 해양 IoT 시범망 구축</a>
-            <div class="card-meta">
-              <span class="src">뉴시스, 아시아투데이</span>
-              <span class="tag">해수부 IoT</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-20T02:00:00+00:00">2026-09-20T02:00:00+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMibkFVX3lxTE40a0V2MmxkZ1I2Z05hQnFINThfYlZ4U0k0OUotZ242a2wtcmZ0ejFTcFliWWNBUTR6ajJPVTlCYUgzM1N1V29FQ1RQR010S3ZCc3lpNGpaRnZDS2pJQTh5alhWaFpGbVBtV3BBUHhB?oc=5" data-source="울산일보">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE40a0V2MmxkZ1I2Z05hQnFINThfYlZ4U0k0OUotZ242a2wtcmZ0ejFTcFliWWNBUTR6ajJPVTlCYUgzM1N1V29FQ1RQR010S3ZCc3lpNGpaRnZDS2pJQTh5alhWaFpGbVBtV3BBUHhB?oc=5" target="_blank" rel="noopener noreferrer">해수부, 울·부·경 ‘해양 IoT 무선통신 시범망’ 협업기관 모집</a>
-            <div class="card-meta">
-              <span class="src">울산일보</span>
-              <span class="tag">해수부 IoT</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-20T15:01:06+00:00">2026-09-20T15:01:06+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-          <li data-link="https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wdFZtZ1p1eEEtYmlhdzNSLTgtNEFUeDVzRzZDa0VVajh4cUtZNWlseUEySjZFQjBnenZoNGhOSGl3LXdaZ2lNc0V4ZXd4SWE1T1VGYXBTcEHSAWhBVV95cUxNUXloWWFqRGZvQjZEeUNWdXdTaEVYV05jNWZ4UHRXdEIwemNna2g4X2hxMjhBUGtxUU5LWDdwWDBlUnpFdjNRZC1uYVhtejhYUTVYV2s4MTAxc2xaNDNtWEJkeEtsQkZsVw?oc=5" data-source="매일안전신문">
-            
-            <a class="title" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wdFZtZ1p1eEEtYmlhdzNSLTgtNEFUeDVzRzZDa0VVajh4cUtZNWlseUEySjZFQjBnenZoNGhOSGl3LXdaZ2lNc0V4ZXd4SWE1T1VGYXBTcEHSAWhBVV95cUxNUXloWWFqRGZvQjZEeUNWdXdTaEVYV05jNWZ4UHRXdEIwemNna2g4X2hxMjhBUGtxUU5LWDdwWDBlUnpFdjNRZC1uYVhtejhYUTVYV2s4MTAxc2xaNDNtWEJkeEtsQkZsVw?oc=5" target="_blank" rel="noopener noreferrer">해수부·ETRI, 부울경 해역에 ‘해양 IoT’ 시범망 구축...200억원 투입</a>
-            <div class="card-meta">
-              <span class="src">매일안전신문</span>
-              <span class="tag">해수부 IoT</span>
-            </div>
-            <div class="card-foot">
-              
-              <time datetime="2026-09-21T06:20:30+00:00">2026-09-21T06:20:30+00:00</time>
-              
-              <button type="button" class="read-toggle">읽음</button>
-            </div>
-          </li>
-          
-        </ul>
-        <p class="empty group-empty" hidden>해당 조건의 기사가 없습니다.</p>
-        
-      </section>
-      
-    
-  </main>
+      </div>
+      <div id="feed-sections"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+        <div class="t1">조건에 맞는 기사가 없습니다</div>
+        <div class="t2">필터를 바꾸거나 검색어를 지워보세요.</div>
+      </div>
+      <div class="kbd-hint"><i class="ph ph-keyboard" aria-hidden="true"></i>단축키 — J/K 다음·이전 기사 · O 원문 열기 · B 북마크 · Esc 닫기</div>
+    </main>
+  </section>
 
-  <footer class="wrap">
-    <span>수집 출처 · Google News RSS</span>
-    <span>generated 2026-09-23</span>
-  </footer>
+  <button type="button" class="totop" id="totop" hidden><i class="ph ph-arrow-up" aria-hidden="true"></i>맨 위로 · 오늘</button>
+
+  <section class="kw-screen" id="screen-keywords" hidden>
+    <h1>키워드 관리</h1>
+    <p class="desc">추적할 검색어와 수집 소스를 정합니다. 매 시간 정각에 수집합니다.</p>
+    <div class="kw-add-row">
+      <div class="field"><label for="kw-new-input">새 키워드</label><input type="text" id="kw-new-input" class="input" placeholder="예: 5G 특화망" /></div>
+      <button type="button" class="btn btn-primary" id="kw-add-btn"><i class="ph ph-plus" aria-hidden="true"></i>추가</button>
+    </div>
+    <div class="kw-table" id="kw-table"></div>
+    <div class="kw-admin-row">
+      <label for="kw-admin-key">관리자 키</label>
+      <input type="password" id="kw-admin-key" class="input" placeholder="변경 사항을 저장하려면 입력" autocomplete="off" />
+      <span class="kw-status" id="kw-status"></span>
+    </div>
+    <div class="kw-info"><i class="ph ph-info" aria-hidden="true"></i><div>수집 방식: 네이버 뉴스 검색 API + Google 뉴스 RSS를 매 시간 조회해 제목이 같은 기사를 하나로 합칩니다. 여기서 바꾼 목록은 다음 수집부터 반영됩니다 (최대 1시간 소요). 원문 기사 본문은 저장하지 않고 제목·언론사·링크·대표 이미지만 보관합니다.</div></div>
+  </section>
 </div>
 
+<div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+<aside class="drawer" id="drawer" hidden>
+  <div class="drawer-top">
+    <button type="button" id="drawer-prev" aria-label="이전 K"><i class="ph ph-caret-up" aria-hidden="true"></i></button>
+    <button type="button" id="drawer-next" aria-label="다음 J"><i class="ph ph-caret-down" aria-hidden="true"></i></button>
+    <span class="pos" id="drawer-pos"></span>
+    <button type="button" id="drawer-close" aria-label="닫기 Esc"><i class="ph ph-x" aria-hidden="true"></i></button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
+<script id="nt-keyword-specs" type="application/json">[{"active": true, "exclude": [], "google": true, "name": "\ub450\ub450\uc6d0", "naver": true, "today_count": 0}, {"active": true, "exclude": [], "google": true, "name": "\uc774\uc74c5G", "naver": true, "today_count": 1}, {"active": true, "exclude": [], "google": true, "name": "5G \ud2b9\ud654\ub9dd", "naver": true, "today_count": 0}, {"active": true, "exclude": [], "google": true, "name": "P5G", "naver": true, "today_count": 0}, {"active": true, "exclude": [], "google": true, "name": "\ubc29\uc0ac\uccad 5G", "naver": true, "today_count": 0}, {"active": true, "exclude": [], "google": true, "name": "\ud55c\ud654\uc2dc\uc2a4\ud15c", "naver": true, "today_count": 86}, {"active": true, "exclude": [], "google": true, "name": "\ud574\uc218\ubd80 IoT", "naver": true, "today_count": 4}]</script>
 <script>
-(function () {
-  var palette = ["#0e9f6e", "#1b68e0", "#f05252", "#9061f9", "#c27803"];
-  palette.forEach(function (c, i) {
-    document.documentElement.style.setProperty("--kw-color-" + i, c);
-  });
-})();
+window.NT_CONFIG = {
+  keywordsApiBase: "",
+  buildDate: "2026-09-23",
+  oldestDate: "2026-09-08",
+  dataUrl: "data/articles.json"
+};
 </script>
-
 <script>
 (function () {
-  var READ_KEY = "news-tracker-read";
-  var items = Array.prototype.slice.call(document.querySelectorAll("ul.cards li"));
-  if (!items.length) { return; }
+"use strict";
 
-  var state = { kw: null, src: null, read: {} };
-  try { state.read = JSON.parse(localStorage.getItem(READ_KEY) || "{}") || {}; } catch (e) {}
+var CFG = window.NT_CONFIG;
+var STORE_KEY = "nt-state-v1";
 
-  function saveRead() {
-    try { localStorage.setItem(READ_KEY, JSON.stringify(state.read)); } catch (e) {}
+function loadState() {
+  var defaults = { grouped: true, read: {}, bm: {}, theme: null, keywordsCache: null };
+  try {
+    var raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return defaults;
+    var parsed = JSON.parse(raw);
+    return Object.assign({}, defaults, parsed);
+  } catch (e) { return defaults; }
+}
+function saveState() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({
+      grouped: S.grouped, read: S.read, bm: S.bm, theme: S.theme, keywordsCache: S.keywordSpecs
+    }));
+  } catch (e) { /* private mode / quota -- state just won't persist */ }
+}
+
+var persisted = loadState();
+var S = {
+  screen: "feed",
+  kw: "all",
+  tab: "all",
+  q: "",
+  grouped: persisted.grouped !== false,
+  read: persisted.read || {},
+  bm: persisted.bm || {},
+  theme: persisted.theme || (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"),
+  sel: null,
+  loadedDays: 6,
+  articles: [],
+  keywordSpecs: (function () {
+    try { return JSON.parse(document.getElementById("nt-keyword-specs").textContent) || []; }
+    catch (e) { return persisted.keywordsCache || []; }
+  })(),
+  adminKey: "",
+  dateFilter: null, // null = all history; a "YYYY-MM-DD" pins one day (from the date popover)
+};
+try { S.adminKey = sessionStorage.getItem("nt-admin-key") || ""; } catch (e) {}
+
+document.documentElement.setAttribute("data-theme", S.theme);
+
+/* ---------------------------- utilities ---------------------------- */
+function el(tag, attrs, children) {
+  var n = document.createElement(tag);
+  attrs = attrs || {};
+  for (var k in attrs) {
+    if (k === "class") n.className = attrs[k];
+    else if (k === "html") n.innerHTML = attrs[k];
+    else if (k.indexOf("on") === 0 && typeof attrs[k] === "function") n.addEventListener(k.slice(2), attrs[k]);
+    else if (attrs[k] !== null && attrs[k] !== undefined) n.setAttribute(k, attrs[k]);
+  }
+  (children || []).forEach(function (c) {
+    if (c === null || c === undefined) return;
+    n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  });
+  return n;
+}
+function esc(s) { return String(s === undefined || s === null ? "" : s); }
+function initials(name) {
+  name = (name || "?").trim();
+  return name.slice(0, 1).toUpperCase();
+}
+function relTime(iso) {
+  if (!iso) return "";
+  var d = new Date(iso);
+  if (isNaN(d.getTime())) return "";
+  var now = new Date();
+  var diffMin = Math.floor((now - d) / 60000);
+  if (diffMin < 1) return "방금 전";
+  if (diffMin < 60) return diffMin + "분 전";
+  var diffH = Math.floor(diffMin / 60);
+  if (diffH < 24) return diffH + "시간 전";
+  return (d.getMonth() + 1) + "월 " + d.getDate() + "일 " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+}
+function pad2(n) { return n < 10 ? "0" + n : "" + n; }
+function dayKey(dateStr) { return dateStr; } // article.date is already "YYYY-MM-DD" KST-ish from the build
+function todayStr() {
+  var d = new Date();
+  return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+}
+function yesterdayStr() {
+  var d = new Date(); d.setDate(d.getDate() - 1);
+  return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+}
+function dayLabel(dateStr) {
+  if (dateStr === todayStr()) return "오늘";
+  if (dateStr === yesterdayStr()) return "어제";
+  var parts = dateStr.split("-");
+  var d = new Date(+parts[0], +parts[1] - 1, +parts[2]);
+  var wd = ["일", "월", "화", "수", "목", "금", "토"][d.getDay()];
+  return (+parts[1]) + "월 " + (+parts[2]) + "일 (" + wd + ")";
+}
+function debounce(fn, ms) {
+  var t;
+  return function () { var a = arguments; clearTimeout(t); t = setTimeout(function () { fn.apply(null, a); }, ms); };
+}
+
+/* ---------------------------- data load ---------------------------- */
+function boot() {
+  fetch(CFG.dataUrl, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (data) {
+    S.articles = data || [];
+    afterLoad();
+  }).catch(function () {
+    S.articles = [];
+    afterLoad();
+  });
+  refreshLiveKeywords();
+}
+
+function afterLoad() {
+  render();
+  setupObserver();
+}
+
+function refreshLiveKeywords() {
+  if (!CFG.keywordsApiBase) return;
+  fetch(CFG.keywordsApiBase.replace(/\/$/, "") + "/api/keywords", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("bad status"); return r.json(); })
+    .then(function (specs) {
+      if (Array.isArray(specs) && specs.length) {
+        S.keywordSpecs = specs;
+        saveState();
+        renderSidebar();
+        if (S.screen === "keywords") renderKeywordScreen();
+      }
+    })
+    .catch(function () { /* keep whatever we rendered from the build-time snapshot */ });
+}
+
+/* ---------------------------- derived views ---------------------------- */
+function activeKeywordNames() {
+  return S.keywordSpecs.filter(function (k) { return k.active !== false; }).map(function (k) { return k.name; });
+}
+
+function matchesFilters(a) {
+  if (S.kw !== "all" && (a.keywords || []).indexOf(S.kw) === -1) return false;
+  if (S.tab === "unread" && S.read[a.id]) return false;
+  if (S.tab === "bm" && !S.bm[a.id]) return false;
+  if (S.dateFilter && a.date !== S.dateFilter) return false;
+  if (S.q) {
+    var q = S.q.toLowerCase();
+    var hay = (a.title || "").toLowerCase() + " " + (a.sources || []).join(" ").toLowerCase();
+    if (hay.indexOf(q) === -1) return false;
+  }
+  return true;
+}
+
+function visibleArticles() {
+  var arr = S.articles.filter(matchesFilters);
+  if (S.grouped) arr = arr.filter(function (a) { return a.is_representative !== false; });
+  return arr;
+}
+
+function bucketByDay(arr, limitDays) {
+  var order = [];
+  var map = {};
+  arr.forEach(function (a) {
+    var d = a.date || "";
+    if (!map[d]) { map[d] = []; order.push(d); }
+    map[d].push(a);
+  });
+  order.sort(function (a, b) { return a < b ? 1 : a > b ? -1 : 0; });
+  if (limitDays) order = order.slice(0, limitDays);
+  return order.map(function (d) { return { date: d, articles: map[d] }; });
+}
+
+/* ---------------------------- rendering: sidebar ---------------------------- */
+function renderSidebar() {
+  var sb = document.getElementById("sidebar");
+  sb.innerHTML = "";
+
+  var unreadByKw = {}, totalByKw = {}, totalUnread = 0, totalAll = 0;
+  S.articles.forEach(function (a) {
+    if (S.grouped && a.is_representative === false) return;
+    totalAll++;
+    if (!S.read[a.id]) totalUnread++;
+    (a.keywords || []).forEach(function (k) {
+      totalByKw[k] = (totalByKw[k] || 0) + 1;
+      if (!S.read[a.id]) unreadByKw[k] = (unreadByKw[k] || 0) + 1;
+    });
+  });
+
+  var head1 = el("div", { class: "sb-section-head" }, [
+    el("i", { class: "ph ph-hash" }),
+    el("span", { class: "label" }, ["키워드"]),
+    el("button", { class: "sb-manage-btn", type: "button", onclick: function () { setScreen("keywords"); } }, [el("i", { class: "ph ph-gear-six" }), "관리"]),
+  ]);
+  sb.appendChild(head1);
+
+  var allItem = sbItem("stack", "전체", totalUnread, totalAll, S.kw === "all", function () { setKw("all"); });
+  sb.appendChild(allItem);
+
+  var activeWithData = [];
+  var noData = [];
+  S.keywordSpecs.forEach(function (spec) {
+    if (spec.active === false) return;
+    if (totalByKw[spec.name]) activeWithData.push(spec.name);
+    else noData.push(spec.name);
+  });
+  activeWithData.forEach(function (name) {
+    sb.appendChild(sbItem("hash", name, unreadByKw[name] || 0, totalByKw[name] || 0, S.kw === name, function () { setKw(name); }));
+  });
+
+  if (noData.length) {
+    var head2 = el("div", { class: "sb-section-head", style: "margin-top:2px" }, [
+      el("i", { class: "ph ph-moon-stars" }), el("span", { class: "label" }, ["오늘 수집 없음"]),
+    ]);
+    sb.appendChild(head2);
+    noData.forEach(function (name) {
+      sb.appendChild(el("div", { class: "sb-empty-item" }, [el("i", { class: "ph ph-hash" }), name]));
+    });
+  }
+}
+function sbItem(icon, name, unread, total, active, onclick) {
+  return el("div", { class: "sb-item" + (active ? " active" : ""), onclick: onclick }, [
+    el("i", { class: "ph ph-" + icon }),
+    el("span", { class: "name" }, [name]),
+    el("span", { class: "sb-badge", hidden: unread ? null : "hidden" }, [String(unread)]),
+    el("span", { class: "sb-total tabular" }, [String(total)]),
+  ]);
+}
+function setKw(kw) { S.kw = kw; render(); }
+
+/* ---------------------------- rendering: toolbar + feed ---------------------------- */
+function render() {
+  if (S.screen === "keywords") { renderKeywordScreen(); return; }
+  renderSidebar();
+  renderToolbar();
+  renderFeed();
+}
+
+function renderToolbar() {
+  document.getElementById("feed-title").textContent = S.kw === "all" ? "전체 뉴스" : S.kw;
+
+  var visibleAll = S.articles.filter(function (a) { return matchesFiltersIgnoring(a, "tab"); });
+  var base = S.grouped ? visibleAll.filter(function (a) { return a.is_representative !== false; }) : visibleAll;
+  var unread = base.filter(function (a) { return !S.read[a.id]; }).length;
+  var bm = base.filter(function (a) { return S.bm[a.id]; }).length;
+
+  var summary;
+  if (S.grouped) {
+    var storyCount = visibleAll.filter(function (a) { return a.is_representative !== false; }).length;
+    var articleCount = visibleAll.length;
+    summary = "기사 " + articleCount + "건 · 소식 " + storyCount + "개로 묶음 · 안 읽음 " + unread + "개";
+  } else {
+    summary = "기사 " + visibleAll.length + "건 · 안 읽음 " + unread + "건";
+  }
+  document.getElementById("feed-summary").textContent = summary;
+
+  document.getElementById("cnt-all").textContent = String(base.length);
+  document.getElementById("cnt-unread").textContent = String(unread);
+  document.getElementById("cnt-bm").textContent = String(bm);
+  Array.prototype.forEach.call(document.querySelectorAll("#tab-seg button"), function (b) {
+    b.classList.toggle("active", b.getAttribute("data-tab") === S.tab);
+  });
+  document.getElementById("group-switch").classList.toggle("on", S.grouped);
+}
+function matchesFiltersIgnoring(a, skip) {
+  if (skip !== "kw" && S.kw !== "all" && (a.keywords || []).indexOf(S.kw) === -1) return false;
+  if (S.dateFilter && a.date !== S.dateFilter) return false;
+  if (S.q) {
+    var q = S.q.toLowerCase();
+    var hay = (a.title || "").toLowerCase() + " " + (a.sources || []).join(" ").toLowerCase();
+    if (hay.indexOf(q) === -1) return false;
+  }
+  return true;
+}
+
+var sentinelObserver = null;
+function renderFeed() {
+  var container = document.getElementById("feed-sections");
+  container.innerHTML = "";
+  var arr = visibleArticles();
+  var empty = document.getElementById("empty-state");
+
+  if (!arr.length) {
+    empty.hidden = false;
+    document.getElementById("totop").hidden = true;
+    return;
+  }
+  empty.hidden = true;
+
+  var buckets = bucketByDay(arr, S.loadedDays);
+  buckets.forEach(function (b) {
+    var section = el("div", { class: "date-section" });
+    section.appendChild(el("div", { class: "date-head" }, [
+      el("h2", {}, [dayLabel(b.date) + (dayLabel(b.date).indexOf("(") === -1 && b.date !== todayStr() && b.date !== yesterdayStr() ? "" : "")]),
+      el("span", { class: "cnt" }, [b.articles.length + "개 소식"]),
+      el("span", { class: "fade-rule" }),
+    ]));
+    var grid = el("div", { class: "grid" });
+    b.articles.forEach(function (a) { grid.appendChild(renderCard(a)); });
+    section.appendChild(grid);
+    container.appendChild(section);
+  });
+
+  var allBuckets = bucketByDay(arr, null);
+  if (S.loadedDays < allBuckets.length) {
+    var nextDate = allBuckets[S.loadedDays].date;
+    var wrap = el("div", { class: "sentinel-wrap", id: "sentinel" }, [
+      el("div", { class: "lbl" }, [el("i", { class: "ph ph-clock-counter-clockwise" }), nextDate + " 기사 불러오는 중…"]),
+    ]);
+    var skelGrid = el("div", { class: "grid" });
+    for (var i = 0; i < 3; i++) {
+      skelGrid.appendChild(el("div", { class: "skeleton-card" }, [
+        el("div", { class: "card-img-wrap" }), el("div", { class: "skeleton-bar" }), el("div", { class: "skeleton-bar w60" }),
+      ]));
+    }
+    wrap.appendChild(skelGrid);
+    container.appendChild(wrap);
+  } else if (allBuckets.length) {
+    container.appendChild(el("div", { class: "sentinel-wrap" }, [
+      el("div", { class: "lbl" }, [el("i", { class: "ph ph-flag" }), (CFG.oldestDate || allBuckets[allBuckets.length - 1].date) + " 이전 기록은 없습니다"]),
+    ]));
   }
 
-  // published_at arrives as a UTC ISO string -- show it in the reader's local time.
-  items.forEach(function (li) {
-    var t = li.querySelector("time");
-    if (!t || !t.getAttribute("datetime")) { return; }
-    var d = new Date(t.getAttribute("datetime"));
-    if (isNaN(d)) { return; }
-    var p = function (n) { return String(n).padStart(2, "0"); };
-    t.textContent = d.getFullYear() + "." + p(d.getMonth() + 1) + "." + p(d.getDate()) +
-      " " + p(d.getHours()) + ":" + p(d.getMinutes());
-  });
+  document.getElementById("totop").hidden = window.scrollY < 900;
+  attachObserverTarget();
+}
 
-  var sourceRow = document.getElementById("source-row");
-  var sourceChips = document.getElementById("source-chips");
-  var srcAll = document.getElementById("src-all");
-  var kwAll = document.getElementById("kw-all");
-  var kwChips = Array.prototype.slice.call(document.querySelectorAll(".pill[data-kw]"));
-  var resetBtn = document.getElementById("reset-filters");
-  var clearReadBtn = document.getElementById("clear-read");
-  var readCountEl = document.getElementById("read-count");
-  var visibleCountEl = document.getElementById("visible-count");
-  var kwSelectedEl = document.getElementById("kw-selected");
+function renderCard(a) {
+  var isRead = !!S.read[a.id];
+  var card = el("div", { class: "card" + (isRead ? " read" : "") + (S.sel === a.id ? " selected" : ""), onclick: function () { openDrawer(a.id); } });
 
-  var sources = [];
-  items.forEach(function (li) {
-    var s = li.getAttribute("data-source");
-    if (s && sources.indexOf(s) === -1) { sources.push(s); }
-  });
-  sources.sort();
-  sources.forEach(function (name) {
-    var b = document.createElement("button");
-    b.type = "button";
-    b.className = "src-chip";
-    b.setAttribute("aria-pressed", "false");
-    b.setAttribute("data-src", name);
-    b.textContent = name;
-    b.addEventListener("click", function () {
-      state.src = state.src === name ? null : name;
-      apply();
+  var imgWrap = el("div", { class: "card-img-wrap" });
+  if (a.image) {
+    imgWrap.appendChild(el("img", { src: a.image, loading: "lazy", alt: "", onerror: function (ev) { swapFallback(ev.target.parentNode, a); } }));
+  } else {
+    imgWrap.appendChild(fallbackImg(a));
+  }
+  card.appendChild(imgWrap);
+
+  var body = el("div", { class: "card-body" });
+  var meta = el("div", { class: "card-meta" });
+  if (!isRead) meta.appendChild(el("span", { class: "unread-dot" }));
+  meta.appendChild(el("span", { class: "src" }, [(a.sources || [])[0] || "언론사"]));
+  meta.appendChild(document.createTextNode("·"));
+  meta.appendChild(el("span", { class: "nowrap" }, [relTime(a.published_at)]));
+  if (S.kw === "all" && a.keywords && a.keywords.length) {
+    meta.appendChild(el("span", { class: "kwtag" }, [a.keywords[0]]));
+  }
+  body.appendChild(meta);
+  body.appendChild(el("h3", { class: "card-title" }, [a.title || ""]));
+
+  var footer = el("div", { class: "card-footer" });
+  if (S.grouped && a.cluster_size > 1) {
+    footer.appendChild(el("div", { class: "card-cluster" }, [el("i", { class: "ph ph-stack" }), "같은 소식 " + a.cluster_size + "건"]));
+  }
+  var bmBtn = el("button", {
+    class: "card-bm" + (S.bm[a.id] ? " on" : ""), type: "button", "aria-label": "북마크",
+    onclick: function (ev) { ev.stopPropagation(); toggleBookmark(a.id); },
+  }, [el("i", { class: "ph " + (S.bm[a.id] ? "ph-fill ph-bookmark-simple" : "ph-bookmark-simple") })]);
+  footer.appendChild(bmBtn);
+  body.appendChild(footer);
+  card.appendChild(body);
+  return card;
+}
+function fallbackImg(a) {
+  return el("div", { class: "card-img-fallback" }, [
+    el("div", { class: "initial" }, [initials((a.sources || [])[0])]),
+    el("div", { class: "cap" }, ["이미지 없음 · 언론사 대체"]),
+  ]);
+}
+function swapFallback(wrap, a) { wrap.innerHTML = ""; wrap.appendChild(fallbackImg(a)); }
+
+function attachObserverTarget() {
+  var sentinel = document.getElementById("sentinel");
+  if (!sentinel || !sentinelObserver) return;
+  sentinelObserver.observe(sentinel);
+}
+function setupObserver() {
+  sentinelObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        sentinelObserver.disconnect();
+        S.loadedDays += 1;
+        renderFeed();
+      }
     });
-    sourceChips.appendChild(b);
-  });
+  }, { rootMargin: "200px" });
+}
 
-  if (sources.length > 1) {
-    sourceRow.hidden = false;
-    setupSourceToggle();
+/* ---------------------------- read / bookmark actions ---------------------------- */
+function markRead(id) { if (!S.read[id]) { S.read[id] = 1; saveState(); } }
+function toggleBookmark(id) { if (S.bm[id]) delete S.bm[id]; else S.bm[id] = 1; saveState(); render(); if (S.sel === id) renderDrawerActions(); }
+function markAllVisibleRead() {
+  visibleArticles().forEach(function (a) { S.read[a.id] = 1; });
+  saveState(); render();
+}
+
+/* ---------------------------- drawer ---------------------------- */
+function orderedIds() { return visibleArticles().map(function (a) { return a.id; }); }
+function findArticle(id) { for (var i = 0; i < S.articles.length; i++) if (S.articles[i].id === id) return S.articles[i]; return null; }
+
+function openDrawer(id) {
+  S.sel = id;
+  markRead(id);
+  renderDrawer();
+  document.getElementById("drawer-backdrop").hidden = false;
+  document.getElementById("drawer").hidden = false;
+  renderFeed(); renderSidebar(); renderToolbar();
+}
+function closeDrawer() {
+  S.sel = null;
+  document.getElementById("drawer-backdrop").hidden = true;
+  document.getElementById("drawer").hidden = true;
+  renderFeed();
+}
+function stepDrawer(dir) {
+  var ids = orderedIds();
+  if (!ids.length) return;
+  var idx = ids.indexOf(S.sel);
+  if (idx === -1) { openDrawer(ids[0]); return; }
+  var next = idx + dir;
+  if (next < 0 || next >= ids.length) return;
+  openDrawer(ids[next]);
+}
+function renderDrawer() {
+  var a = findArticle(S.sel);
+  if (!a) return;
+  var ids = orderedIds();
+  var idx = ids.indexOf(S.sel);
+  document.getElementById("drawer-pos").textContent = (idx === -1 ? "" : (idx + 1) + " / " + ids.length);
+  document.getElementById("drawer-prev").disabled = idx <= 0;
+  document.getElementById("drawer-next").disabled = idx === -1 || idx >= ids.length - 1;
+
+  var body = document.getElementById("drawer-body");
+  body.innerHTML = "";
+  var imgBox = el("div", { class: "dimg" });
+  if (a.image) imgBox.appendChild(el("img", { src: a.image, alt: "" }));
+  else imgBox.appendChild(fallbackImg(a));
+  body.appendChild(imgBox);
+
+  var meta = el("div", { class: "drawer-meta" });
+  (a.keywords || []).forEach(function (k) { meta.appendChild(el("span", { class: "tag-kw" }, [k])); });
+  meta.appendChild(el("span", {}, [el("i", { class: "ph ph-buildings" }), " " + (a.sources || []).join(", ")]));
+  meta.appendChild(el("span", {}, [el("i", { class: "ph ph-clock" }), " " + fullDate(a.published_at) + (relTime(a.published_at) ? " · " + relTime(a.published_at) : "")]));
+  body.appendChild(meta);
+  body.appendChild(el("h3", { class: "drawer-title" }, [a.title || ""]));
+
+  var actions = el("div", { class: "drawer-actions", id: "drawer-actions" });
+  body.appendChild(actions);
+
+  if (a.related && a.related.length) {
+    var relBox = el("div", { class: "related-box" });
+    var srcList = uniq((a.sources || []).concat(a.related.map(function (r) { return (r.sources || [])[0]; }).filter(Boolean)));
+    relBox.appendChild(el("div", { class: "related-head" }, [el("i", { class: "ph ph-stack" }), "같은 소식"]));
+    relBox.appendChild(el("div", { class: "related-sum" }, [(a.related.length + 1) + "건 · " + srcList.slice(0, 3).join(", ") + (srcList.length > 3 ? " 외" : "")]));
+    a.related.forEach(function (r) {
+      relBox.appendChild(el("div", { class: "related-item", onclick: function () { if (r.id) openDrawer(r.id); } }, [
+        el("div", { class: "rm" }, [(r.sources || []).join(", ") + " · " + relTime(r.published_at)]),
+        el("div", { class: "rt" }, [r.title || ""]),
+      ]));
+    });
+    body.appendChild(relBox);
   }
 
-  // Collapse the publisher chip list to two rows when it's long enough to
-  // need it, with a button to expand/collapse -- otherwise a busy day's
-  // full source list (dozens of outlets) dominates the page before you
-  // even reach the articles.
-  function setupSourceToggle() {
-    var toggle = document.getElementById("src-toggle");
-    var firstChip = sourceChips.querySelector(".src-chip");
-    if (!toggle || !firstChip) { return; }
-    var rowHeight = firstChip.getBoundingClientRect().height;
-    var gap = 8;
-    var collapsedHeight = Math.round(rowHeight * 2 + gap);
-    if (sourceChips.scrollHeight <= collapsedHeight + 4) { return; } // already fits in two rows
+  renderDrawerActions();
+}
+function renderDrawerActions() {
+  var a = findArticle(S.sel);
+  if (!a) return;
+  var actions = document.getElementById("drawer-actions");
+  if (!actions) return;
+  actions.innerHTML = "";
+  actions.appendChild(el("a", { class: "btn btn-primary", href: a.link || "#", target: "_blank", rel: "noopener" }, [el("i", { class: "ph ph-arrow-square-out" }), "원문 열기"]));
+  var bmOn = !!S.bm[a.id];
+  actions.appendChild(el("button", { class: "btn btn-secondary", type: "button", onclick: function () { toggleBookmark(a.id); } }, [
+    el("i", { class: "ph " + (bmOn ? "ph-fill ph-bookmark-simple" : "ph-bookmark-simple") }), bmOn ? "북마크 해제" : "북마크",
+  ]));
+  actions.appendChild(el("button", { class: "btn btn-secondary", type: "button", onclick: function () { delete S.read[a.id]; saveState(); closeDrawer(); render(); } }, [
+    el("i", { class: "ph ph-envelope-simple" }), "안 읽음으로",
+  ]));
+}
+function fullDate(iso) {
+  if (!iso) return "";
+  var d = new Date(iso);
+  if (isNaN(d.getTime())) return "";
+  return d.getFullYear() + "." + pad2(d.getMonth() + 1) + "." + pad2(d.getDate()) + " " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+}
+function uniq(arr) { var seen = {}, out = []; arr.forEach(function (x) { if (x && !seen[x]) { seen[x] = 1; out.push(x); } }); return out; }
 
-    var collapsed = true;
-    sourceChips.style.maxHeight = collapsedHeight + "px";
-    toggle.hidden = false;
-    toggle.addEventListener("click", function () {
-      collapsed = !collapsed;
-      sourceChips.style.maxHeight = collapsed ? collapsedHeight + "px" : sourceChips.scrollHeight + "px";
-      toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
-      toggle.textContent = collapsed ? "언론사 더보기" : "접기";
-    });
-  }
-
-  srcAll.addEventListener("click", function () { state.src = null; apply(); });
-  kwAll.addEventListener("click", function () { state.kw = null; apply(); });
-  kwChips.forEach(function (chip) {
-    chip.addEventListener("click", function () {
-      var kw = chip.getAttribute("data-kw");
-      state.kw = state.kw === kw ? null : kw;
-      apply();
-    });
+/* ---------------------------- date popover ---------------------------- */
+function renderDatePopover() {
+  var pop = document.getElementById("date-popover");
+  var byDay = bucketByDay(S.articles, null);
+  pop.innerHTML = "";
+  byDay.slice(0, 12).forEach(function (b) {
+    pop.appendChild(el("div", { class: "dp-item" + (S.dateFilter === b.date ? " active" : ""), onclick: function () {
+      S.dateFilter = (S.dateFilter === b.date) ? null : b.date;
+      pop.hidden = true;
+      render();
+    } }, [
+      el("span", {}, [dayLabel(b.date)]),
+      el("span", { class: "dp-count tabular" }, [b.articles.length + "건"]),
+    ]));
   });
+}
 
-  items.forEach(function (li) {
-    var link = li.getAttribute("data-link");
-    li.querySelector(".read-toggle").addEventListener("click", function () {
-      if (state.read[link]) { delete state.read[link]; } else { state.read[link] = 1; }
-      saveRead();
-      apply();
-    });
-    li.querySelector("a.title").addEventListener("click", function () {
-      state.read[link] = 1;
-      saveRead();
-      apply();
-    });
+/* ---------------------------- screens ---------------------------- */
+function setScreen(name) {
+  S.screen = name;
+  document.getElementById("screen-feed").hidden = name !== "feed";
+  document.getElementById("totop").hidden = name !== "feed" || window.scrollY < 900;
+  document.getElementById("screen-keywords").hidden = name !== "keywords";
+  Array.prototype.forEach.call(document.querySelectorAll(".screen-tab"), function (b) {
+    b.classList.toggle("active", b.getAttribute("data-screen") === name);
   });
+  render();
+}
 
-  clearReadBtn.addEventListener("click", function () { state.read = {}; saveRead(); apply(); });
-  resetBtn.addEventListener("click", function () { state.kw = null; state.src = null; apply(); });
+function renderKeywordScreen() {
+  var table = document.getElementById("kw-table");
+  table.innerHTML = "";
+  table.appendChild(el("div", { class: "kw-row head" }, ["키워드", "제외어", "수집 소스", "오늘", "사용", ""]));
+  S.keywordSpecs.forEach(function (spec, idx) {
+    table.appendChild(kwRow(spec, idx));
+  });
+}
+function kwRow(spec, idx) {
+  var row = el("div", { class: "kw-row" + (spec.active === false ? " inactive" : "") });
+  row.appendChild(el("div", { class: "kw-name" }, [spec.name]));
 
-  function apply() {
-    var visible = 0;
-    var read = 0;
-    var seen = {};
+  var excludeInput = el("input", {
+    class: "input", type: "text", value: (spec.exclude || []).join(", "), placeholder: "제외할 단어, 쉼표로 구분",
+    onchange: function (ev) {
+      spec.exclude = ev.target.value.split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+      saveKeywords();
+    },
+  });
+  row.appendChild(el("div", {}, [excludeInput]));
 
-    Array.prototype.forEach.call(document.querySelectorAll("section.keyword-group"), function (section) {
-      var kwMatch = !state.kw || section.getAttribute("data-kw") === state.kw;
-      section.hidden = !kwMatch;
+  var chips = el("div", { class: "kw-src-chips" });
+  ["naver", "google"].forEach(function (src) {
+    var on = spec[src] !== false;
+    chips.appendChild(el("button", {
+      type: "button", class: "chip-toggle" + (on ? " on" : ""),
+      onclick: function () { spec[src] = !on; saveKeywords(); },
+    }, [el("i", { class: "ph " + (on ? "ph-check" : "ph-plus") }), src === "naver" ? "네이버" : "Google"]));
+  });
+  row.appendChild(chips);
 
-      var shown = 0;
-      Array.prototype.forEach.call(section.querySelectorAll("ul.cards li"), function (li) {
-        var link = li.getAttribute("data-link");
-        var isRead = !!state.read[link];
-        li.classList.toggle("is-read", isRead);
-        li.querySelector(".read-toggle").textContent = isRead ? "읽음 해제" : "읽음";
+  row.appendChild(el("div", { class: "kw-today tabular" }, [String(spec.today_count || 0)]));
 
-        var srcMatch = !state.src || li.getAttribute("data-source") === state.src;
-        var show = kwMatch && srcMatch;
-        li.hidden = !show;
-        if (show) {
-          shown++;
-          if (!seen[link]) {
-            seen[link] = 1;
-            visible++;
-            if (isRead) { read++; }
-          }
-        }
-      });
+  var sw = el("span", { class: "switch" + (spec.active !== false ? " on" : "") }, [el("span", { class: "knob" })]);
+  row.appendChild(el("button", { class: "switch-btn", type: "button", onclick: function () { spec.active = spec.active === false; saveKeywords(); } }, [sw]));
 
-      var countEl = section.querySelector(".group-count");
-      if (countEl) { countEl.textContent = shown; }
-      var emptyEl = section.querySelector(".group-empty");
-      if (emptyEl) { emptyEl.hidden = shown !== 0; }
-      var list = section.querySelector("ul.cards");
-      if (list) { list.hidden = shown === 0; }
-    });
+  row.appendChild(el("button", { class: "kw-del", type: "button", "aria-label": "삭제", onclick: function () {
+    S.keywordSpecs.splice(idx, 1); saveKeywords();
+  } }, [el("i", { class: "ph ph-trash" })]));
 
-    kwAll.setAttribute("aria-pressed", state.kw ? "false" : "true");
-    kwChips.forEach(function (chip) {
-      chip.setAttribute("aria-pressed", state.kw === chip.getAttribute("data-kw") ? "true" : "false");
-    });
-    srcAll.setAttribute("aria-pressed", state.src ? "false" : "true");
-    Array.prototype.forEach.call(sourceChips.querySelectorAll(".src-chip"), function (chip) {
-      chip.setAttribute("aria-pressed", state.src === chip.getAttribute("data-src") ? "true" : "false");
-    });
+  return row;
+}
+var saveKeywords = debounce(function () {
+  renderKeywordScreen();
+  renderSidebar();
+  var status = document.getElementById("kw-status");
+  var key = document.getElementById("kw-admin-key").value || S.adminKey;
+  if (!CFG.keywordsApiBase) { status.textContent = "저장됨 (이 브라우저에만, API 미설정)"; status.className = "kw-status"; return; }
+  if (!key) { status.textContent = "관리자 키를 입력해야 저장됩니다"; status.className = "kw-status err"; return; }
+  S.adminKey = key;
+  try { sessionStorage.setItem("nt-admin-key", key); } catch (e) {}
+  status.textContent = "저장 중…"; status.className = "kw-status";
+  fetch(CFG.keywordsApiBase.replace(/\/$/, "") + "/api/keywords", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json", "X-Admin-Key": key },
+    body: JSON.stringify(S.keywordSpecs.map(function (s) { return { name: s.name, exclude: s.exclude || [], naver: s.naver !== false, google: s.google !== false, active: s.active !== false }; })),
+  }).then(function (r) {
+    if (!r.ok) throw new Error("save failed (" + r.status + ")");
+    return r.json();
+  }).then(function () {
+    status.textContent = "저장됨 · 다음 수집부터 반영"; status.className = "kw-status ok";
+    saveState();
+  }).catch(function (err) {
+    status.textContent = "저장 실패: " + err.message; status.className = "kw-status err";
+  });
+}, 500);
 
-    if (kwSelectedEl) { kwSelectedEl.textContent = state.kw ? 1 : kwChips.length; }
-    resetBtn.hidden = !(state.kw || state.src);
-    visibleCountEl.textContent = visible;
-    readCountEl.textContent = read;
+document.getElementById("kw-add-btn").addEventListener("click", addKeywordFromInput);
+document.getElementById("kw-new-input").addEventListener("keydown", function (ev) { if (ev.key === "Enter") addKeywordFromInput(); });
+function addKeywordFromInput() {
+  var input = document.getElementById("kw-new-input");
+  var name = input.value.trim();
+  if (!name) return;
+  if (S.keywordSpecs.some(function (s) { return s.name === name; })) { input.value = ""; return; }
+  S.keywordSpecs.unshift({ name: name, exclude: [], naver: true, google: true, active: true, today_count: 0 });
+  input.value = "";
+  saveKeywords();
+}
+
+/* ---------------------------- global events ---------------------------- */
+document.querySelectorAll(".screen-tab").forEach(function (b) { b.addEventListener("click", function () { setScreen(b.getAttribute("data-screen")); }); });
+document.getElementById("tab-seg").addEventListener("click", function (ev) {
+  var btn = ev.target.closest("button[data-tab]");
+  if (!btn) return;
+  S.tab = btn.getAttribute("data-tab"); render();
+});
+document.getElementById("group-toggle").addEventListener("click", function () { S.grouped = !S.grouped; saveState(); render(); });
+document.getElementById("mark-all-read").addEventListener("click", markAllVisibleRead);
+document.getElementById("search-input").addEventListener("input", debounce(function (ev) { S.q = ev.target.value.trim(); render(); }, 150));
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  S.theme = S.theme === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", S.theme);
+  document.getElementById("theme-toggle").innerHTML = '<i class="ph ph-' + (S.theme === "dark" ? "sun" : "moon") + '" aria-hidden="true"></i>';
+  saveState();
+});
+document.getElementById("theme-toggle").innerHTML = '<i class="ph ph-' + (S.theme === "dark" ? "sun" : "moon") + '" aria-hidden="true"></i>';
+
+document.getElementById("date-btn").addEventListener("click", function (ev) {
+  ev.stopPropagation();
+  var pop = document.getElementById("date-popover");
+  if (pop.hidden) { renderDatePopover(); pop.hidden = false; } else pop.hidden = true;
+});
+document.addEventListener("click", function (ev) {
+  var pop = document.getElementById("date-popover");
+  if (!pop.hidden && !pop.contains(ev.target) && ev.target.id !== "date-btn") pop.hidden = true;
+});
+document.getElementById("date-prev").addEventListener("click", function () { shiftDateFilter(1); });
+document.getElementById("date-next").addEventListener("click", function () { shiftDateFilter(-1); });
+function shiftDateFilter(dir) {
+  var days = bucketByDay(S.articles, null).map(function (b) { return b.date; });
+  if (!days.length) return;
+  var cur = S.dateFilter || days[0];
+  var idx = days.indexOf(cur);
+  var next = idx + dir;
+  if (next < 0 || next >= days.length) return;
+  S.dateFilter = days[next] === days[0] && dir < 0 ? null : days[next];
+  render();
+}
+
+document.getElementById("drawer-backdrop").addEventListener("click", closeDrawer);
+document.getElementById("drawer-close").addEventListener("click", closeDrawer);
+document.getElementById("drawer-prev").addEventListener("click", function () { stepDrawer(-1); });
+document.getElementById("drawer-next").addEventListener("click", function () { stepDrawer(1); });
+
+window.addEventListener("scroll", function () {
+  document.getElementById("totop").hidden = S.screen !== "feed" || window.scrollY < 900;
+}, { passive: true });
+document.getElementById("totop").addEventListener("click", function () {
+  S.dateFilter = null;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+document.addEventListener("keydown", function (ev) {
+  var tag = (document.activeElement && document.activeElement.tagName) || "";
+  if (tag === "INPUT" || tag === "TEXTAREA") {
+    if (ev.key === "Escape") document.activeElement.blur();
+    return;
   }
+  if (ev.key === "Escape") {
+    if (!document.getElementById("drawer").hidden) closeDrawer();
+    else document.getElementById("date-popover").hidden = true;
+    return;
+  }
+  if (ev.key === "/") { ev.preventDefault(); document.getElementById("search-input").focus(); return; }
+  if (S.screen !== "feed") return;
+  if (ev.key === "j" || ev.key === "J") { stepDrawer(S.sel ? 1 : 0); if (!S.sel) { var ids = orderedIds(); if (ids.length) openDrawer(ids[0]); } }
+  else if (ev.key === "k" || ev.key === "K") { if (S.sel) stepDrawer(-1); }
+  else if ((ev.key === "o" || ev.key === "O") && S.sel) { var a = findArticle(S.sel); if (a && a.link) window.open(a.link, "_blank", "noopener"); }
+  else if ((ev.key === "b" || ev.key === "B") && S.sel) { toggleBookmark(S.sel); }
+});
 
-  apply();
+boot();
 })();
 </script>
 </body>
