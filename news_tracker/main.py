@@ -15,7 +15,7 @@ from pathlib import Path
 
 import yaml
 
-from news_tracker import collect, dedupe, render
+from news_tracker import collect, dedupe, keywords_api, render
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = PROJECT_ROOT / "config.yaml"
@@ -103,12 +103,22 @@ def load_config(path: Path | None = None) -> dict:
     if not isinstance(max_article_age_days, int) or max_article_age_days <= 0:
         raise ConfigError("'max_article_age_days' must be a positive integer")
 
+    # Optional: the keywords API's origin (see news_tracker.keywords_api and
+    # worker/). When set, the live keyword list it serves (editable from
+    # the "키워드 관리" screen) is used for collection instead of the
+    # 'keywords' list above; 'keywords' still serves as the fallback if the
+    # API is unset, unreachable, or empty, and as the KV bootstrap default.
+    keywords_api_base = raw.get("keywords_api_base")
+    if keywords_api_base is not None and not isinstance(keywords_api_base, str):
+        raise ConfigError("'keywords_api_base' must be a string")
+
     return {
         "keywords": keywords,
         "naver_client_id": client_id,
         "naver_client_secret": client_secret,
         "retention_days": retention_days,
         "max_article_age_days": max_article_age_days,
+        "keywords_api_base": keywords_api_base or "",
     }
 
 
@@ -182,10 +192,15 @@ def run(today: date | None = None) -> int:
     today = today or date.today()
     date_str = today.strftime(DATE_FORMAT)
 
-    logger.info("Collecting articles for %d keyword(s) on %s", len(config["keywords"]), date_str)
-    articles = collect.collect(
-        config["keywords"], config["naver_client_id"], config["naver_client_secret"]
+    specs = keywords_api.fetch_live_keywords(config["keywords_api_base"], config["keywords"])
+    active_names = [s["name"] for s in specs if s["active"]]
+    logger.info(
+        "Collecting articles for %d active keyword(s) (of %d configured) on %s",
+        len(active_names),
+        len(specs),
+        date_str,
     )
+    articles = collect.collect(specs, config["naver_client_id"], config["naver_client_secret"])
     deduped = dedupe.dedupe(articles)
     recent = filter_recent(deduped, today, config["max_article_age_days"])
     logger.info(
@@ -208,7 +223,10 @@ def run(today: date | None = None) -> int:
         OUTPUT_DIR,
         TEMPLATES_DIR,
         config["retention_days"],
-        config["keywords"],
+        active_names,
+        keyword_specs=specs,
+        data_dir=DATA_DIR,
+        keywords_api_base=config["keywords_api_base"],
     )
     prune_old_files(today, config["retention_days"])
 
