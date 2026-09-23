@@ -5,7 +5,7 @@
 # CLOUDFLARE_ACCOUNT_ID and ADMIN_KEY in the environment.
 set -euo pipefail
 
-NS_TITLE="news-tracker-api-KEYWORDS_KV"
+NS_TITLE="KEYWORDS_KV"
 
 echo "Looking for an existing '$NS_TITLE' KV namespace..."
 LIST_JSON="$(npx --yes wrangler@4 kv namespace list 2>/tmp/kv_list.stderr || true)"
