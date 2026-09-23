@@ -20,21 +20,34 @@
 
 ## 구조
 
+디자인은 **Nocturne** 디자인 시스템 기반으로 다시 만들었습니다 (사이드바 + 카드
+그리드 + 무한 스크롤 + 기사 상세 드로어 + 같은 소식 묶기 + 키워드 관리 화면).
+프론트엔드는 여전히 빌드 도구 없는 순수 HTML/CSS/JS이고, "키워드 관리" 화면의
+실시간 저장만을 위해 작은 Cloudflare Worker(+KV) 백엔드가 하나 추가됐습니다 —
+나머지(기사 이력, 읽음/북마크, 테마)는 전부 기존처럼 정적 빌드 + localStorage로
+처리됩니다.
+
 ```
 news-tracker/
 ├── config.yaml          # (직접 생성, git에 커밋 안 됨) 로컬용: 키워드+Naver 키+보관기간
 ├── config.yaml.example  # config.yaml 작성 예시
-├── config.ci.yaml        # (커밋됨) GitHub Actions용: 키워드+보관기간만, 키 없음
-├── .github/workflows/daily.yml  # GitHub Actions: 매일 수집 + Cloudflare Pages 배포
+├── config.ci.yaml        # (커밋됨) GitHub Actions용: 키워드+보관기간+keywords_api_base
+├── .github/workflows/daily.yml  # GitHub Actions: 매 시간 수집 + Worker/Cloudflare Pages/GitHub Pages 배포
+├── worker/               # 키워드 관리 화면용 Cloudflare Worker (KV에 키워드 목록 저장)
+│   ├── src/index.js
+│   ├── wrangler.toml
+│   └── bootstrap_and_deploy.sh
 ├── news_tracker/
-│   ├── collect.py       # Naver API + Google News RSS 수집
-│   ├── dedupe.py        # 제목 정규화 기반 중복 제거
-│   ├── render.py        # Jinja2 HTML 렌더링
-│   └── main.py          # collect -> dedupe -> save -> render 오케스트레이션
-├── data/YYYY-MM-DD.json # 해당 날짜의 원본 수집 결과
+│   ├── collect.py       # Naver API + Google News RSS 수집 (키워드별 소스/제외어 지원)
+│   ├── dedupe.py        # 제목 정규화 기반 중복 제거 + 기사 id 부여
+│   ├── cluster.py        # 24시간 내 유사 제목 기사 묶기 ("같은 소식 묶기")
+│   ├── keywords_api.py   # Worker에서 실시간 키워드 목록을 읽어옴 (실패 시 config로 폴백)
+│   ├── render.py        # Jinja2 HTML 렌더링 + output/data/articles.json 생성
+│   └── main.py           # collect -> dedupe -> cluster -> save -> render 오케스트레이션
+├── data/YYYY-MM-DD.json # 해당 날짜의 원본 수집 결과 (보관기간 내 전부 output/data/articles.json으로 합쳐짐)
 ├── output/
-│   ├── index.html       # 오늘 기사 + 최근 보관 기사 링크
-│   └── archive/YYYY-MM-DD.html
+│   ├── index.html        # 클라이언트 앱 한 페이지 (더 이상 날짜별 archive HTML 없음)
+│   └── data/articles.json  # 보관기간 내 전체 기사 데이터셋 (클러스터링 결과 포함)
 ├── templates/page.html
 └── tests/                # 단위 테스트 (표준 라이브러리 unittest 사용, 추가 설치 불필요)
 ```
@@ -203,9 +216,9 @@ permissions** 에서 **"Read and write permissions"** 를 선택하고 저장하
 - Cloudflare 대시보드 **Workers 및 Pages** 목록에서도 프로젝트와 URL을
   확인할 수 있습니다.
 
-이후에는 `.github/workflows/daily.yml`에 설정된 시각(기본 매일 08:00 KST)에
-자동으로 실행됩니다. 시각을 바꾸려면 그 파일의 `cron:` 줄을 수정하세요 (UTC
-기준이므로 KST에서 9시간을 빼서 넣습니다).
+이후에는 `.github/workflows/daily.yml`에 설정된 주기(기본: 매 시간 정각)로
+자동으로 실행됩니다. 주기를 바꾸려면 그 파일의 `cron:` 줄을 수정하세요 (항상
+UTC 기준입니다).
 
 ### 로컬 cron과 같이 쓸 때 주의
 
@@ -214,7 +227,58 @@ GitHub Actions를 쓰기 시작하면 `data/`, `output/`이 git에 커밋되는 
 건드리게 되어 git 충돌이 날 수 있습니다 — 매일 자동 갱신은 둘 중 하나만
 쓰는 것을 권장합니다 (동작 확인용 수동 실행은 언제든 해도 무방).
 
-## 7. 테스트
+## 7. 키워드 관리 API (Cloudflare Worker)
+
+"키워드 관리" 화면에서 키워드를 추가/삭제/수정하면 그 내용이 브라우저에만
+남는 게 아니라 다음 수집부터 실제로 반영되어야 합니다. 이 한 가지 때문에만
+작은 백엔드(Cloudflare Worker + KV)가 있습니다 — 그 외 모든 기능(기사 이력
+탐색, 읽음/북마크, 테마)은 여전히 서버 없이 정적 빌드 + localStorage로
+동작합니다.
+
+- 키워드 목록은 Worker의 KV 네임스페이스에 JSON으로 저장됩니다.
+- `GET /api/keywords`는 누구나 읽을 수 있습니다 (수집 대상 키워드 자체가
+  민감 정보는 아니라는 판단 — 6번 섹션의 공개 방침과 같은 이유).
+- `PUT /api/keywords`(목록 전체 교체)는 `X-Admin-Key` 헤더가 `ADMIN_KEY`
+  시크릿과 일치해야만 동작합니다. 키워드 관리 화면에 이 키를 한 번 입력하면
+  그 브라우저의 세션 동안 기억합니다.
+
+### 7-1. 최초 배포
+
+`.github/workflows/daily.yml`의 "Deploy keywords API worker" 단계가 매 실행마다
+`worker/bootstrap_and_deploy.sh`를 실행합니다 — KV 네임스페이스가 없으면
+만들고, `ADMIN_KEY` 시크릿을 설정한 뒤, `wrangler deploy`로 배포합니다. 최초
+1회 KV 네임스페이스 생성이 필요할 뿐, 이후 실행은 같은 네임스페이스를
+재사용합니다 (Cloudflare Pages 프로젝트가 이미 그렇게 동작하는 것과 동일한
+방식).
+
+필요한 GitHub Secret 한 가지 추가:
+
+| Name | 값 |
+|---|---|
+| `ADMIN_KEY` | 키워드 관리 화면 쓰기 권한용 임의의 강한 문자열 |
+
+기존 `CLOUDFLARE_API_TOKEN`을 재사용합니다 — 다만 이 토큰에 **Workers
+Scripts:Edit**과 **Workers KV Storage:Edit** 권한이 없으면 이 단계가
+실패합니다 (Cloudflare Pages 편집 권한만으로는 부족할 수 있음). 실패하면
+Cloudflare 대시보드에서 토큰 권한을 넓히거나 새 토큰을 발급해 시크릿을
+갱신하세요.
+
+첫 배포가 끝나면 워크플로 로그의 "Deploy keywords API worker" 단계에 실제
+Worker URL(`https://news-tracker-api.<subdomain>.workers.dev`)이 출력됩니다.
+그 URL을 `config.ci.yaml`의 `keywords_api_base`에 넣어야 사이트가 그 API를
+쓰기 시작합니다 (비어 있으면 정적 키워드 목록만 쓰고 관리 화면은 읽기
+전용으로 동작).
+
+### 7-2. 로컬에서 Worker 테스트
+
+```bash
+cd worker
+npx wrangler@4 kv namespace create KEYWORDS_KV   # 최초 1회, 나온 id를 wrangler.toml에 입력
+npx wrangler@4 secret put ADMIN_KEY               # 로컬 개발용 값 입력
+npx wrangler@4 dev
+```
+
+## 8. 테스트
 
 추가 패키지 설치 없이 표준 라이브러리 `unittest`만으로 실행됩니다:
 
