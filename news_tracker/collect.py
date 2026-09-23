@@ -291,10 +291,45 @@ def _title_has_all_terms(title: str, terms: list[str]) -> bool:
     return all(term.lower() in lowered for term in terms)
 
 
-def collect(keywords: list[str], naver_client_id: str, naver_client_secret: str) -> list[dict]:
+def _title_has_any_term(title: str, terms: list[str]) -> bool:
+    """Case-insensitive check that at least one term appears in title --
+    used for the keyword management screen's per-keyword "제외어" (exclude
+    word) list: an article is dropped if its title contains any of them."""
+    lowered = title.lower()
+    return any(term.lower() in lowered for term in terms if term.strip())
+
+
+def _normalize_keyword_spec(spec: dict | str) -> dict:
+    """Accepts either a plain keyword string (the old config.yaml shape) or
+    a full spec dict from the keywords API ({name, exclude, naver, google,
+    active}) and returns the normalized dict form collect() uses
+    internally. A plain string becomes "search both sources, no
+    exclusions, active" -- the same behavior collect() always had."""
+    if isinstance(spec, str):
+        return {"name": spec, "exclude": [], "naver": True, "google": True, "active": True}
+    return {
+        "name": spec["name"],
+        "exclude": spec.get("exclude") or [],
+        "naver": spec.get("naver", True) is not False,
+        "google": spec.get("google", True) is not False,
+        "active": spec.get("active", True) is not False,
+    }
+
+
+def collect(
+    keywords: list[str | dict], naver_client_id: str, naver_client_secret: str
+) -> list[dict]:
     """Collect articles for every keyword from both sources and merge them
     into one flat list. Individual source failures are logged (see the
     fetchers above) and simply contribute no articles.
+
+    `keywords` accepts either plain strings (config.yaml's static list) or
+    keyword-spec dicts as produced by the keyword management screen's API
+    (see news_tracker.keywords_api) -- see _normalize_keyword_spec. An
+    inactive spec (active: False) is skipped entirely; per-spec naver/
+    google flags control which source(s) are queried; a non-empty
+    "exclude" list drops any article whose title contains one of those
+    terms, applied after the AND-of-terms filter below.
 
     A keyword made of several space-separated terms (e.g. "방사청 5G") is
     meant as "articles mentioning all of these", not just one of them. The
@@ -309,14 +344,26 @@ def collect(keywords: list[str], naver_client_id: str, naver_client_secret: str)
     unaffected -- there's nothing to filter.
     """
     articles: list[dict] = []
-    for keyword in keywords:
-        keyword_articles = fetch_naver(keyword, naver_client_id, naver_client_secret)
-        keyword_articles += fetch_google_news_rss(keyword)
+    for raw_spec in keywords:
+        spec = _normalize_keyword_spec(raw_spec)
+        if not spec["active"]:
+            continue
+        keyword = spec["name"]
+
+        keyword_articles: list[dict] = []
+        if spec["naver"]:
+            keyword_articles += fetch_naver(keyword, naver_client_id, naver_client_secret)
+        if spec["google"]:
+            keyword_articles += fetch_google_news_rss(keyword)
 
         terms = keyword.split()
         if len(terms) > 1:
             keyword_articles = [
                 a for a in keyword_articles if _title_has_all_terms(a["title"], terms)
+            ]
+        if spec["exclude"]:
+            keyword_articles = [
+                a for a in keyword_articles if not _title_has_any_term(a["title"], spec["exclude"])
             ]
 
         articles.extend(keyword_articles)
