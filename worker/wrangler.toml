@@ -1,0 +1,12 @@
+name = "news-tracker-api"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# The KV namespace id is injected by the deploy step in
+# .github/workflows/daily.yml (it creates the namespace on first run, then
+# reuses the same id on every later run) -- see that file's "Deploy Worker
+# API" step. Running `wrangler deploy` locally requires filling this in by
+# hand first (`wrangler kv namespace create KEYWORDS_KV`).
+[[kv_namespaces]]
+binding = "KEYWORDS_KV"
+id = "__KEYWORDS_KV_ID__"
