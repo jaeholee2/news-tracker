@@ -17,10 +17,20 @@ accumulate every distinct value seen for that story, in first-seen order.
 
 from __future__ import annotations
 
+import hashlib
 import re
 
 _PUNCTUATION_RE = re.compile(r"[^\w\s]", flags=re.UNICODE)
 _WHITESPACE_RE = re.compile(r"\s+")
+
+
+def _make_id(link: str, title: str) -> str:
+    """A short, stable id for an article -- used as its localStorage
+    read/bookmark key and as its cluster id, so it must stay the same
+    across runs for the same story. Keyed off the link (falling back to
+    the normalized title for the rare article with no link at all)."""
+    basis = link or normalize_title(title)
+    return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:12]
 
 
 def normalize_title(title: str) -> str:
@@ -55,6 +65,7 @@ def dedupe(articles: list[dict]) -> list[dict]:
                 entry["keywords"].append(keyword)
         else:
             entry = {
+                "id": _make_id(article.get("link", ""), article.get("title", "")),
                 "title": article.get("title", ""),
                 "link": article.get("link", ""),
                 "published_at": article.get("published_at", ""),
