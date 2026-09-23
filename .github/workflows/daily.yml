@@ -1,11 +1,15 @@
 name: Daily news update
 
-# Runs every hour on the hour, even if your laptop is off, then publishes
-# the result to Cloudflare Pages AND GitHub Pages at the same time. See
+# Runs every hour on the hour, even if your laptop is off: deploys the
+# keywords API worker (so a keyword edited from the "키워드 관리" screen is
+# live before collection runs), collects/renders, then publishes the
+# result to Cloudflare Pages AND GitHub Pages at the same time. See
 # README.md "Cloudflare Pages로 배포하기" for the Cloudflare one-time setup
-# (repo secrets, Cloudflare Pages project). GitHub Pages needs no secrets --
-# it's enabled via Settings > Pages > Source: GitHub Actions, and this
-# workflow deploys straight to it.
+# (repo secrets, Cloudflare Pages project) and worker/README.md-equivalent
+# notes in this file's "Deploy keywords API worker" step for the ADMIN_KEY
+# secret it needs. GitHub Pages needs no secrets -- it's enabled via
+# Settings > Pages > Source: GitHub Actions, and this workflow deploys
+# straight to it.
 
 on:
   schedule:
@@ -16,7 +20,7 @@ on:
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:
-  contents: write # to commit the day's data/ + output/archive/ back to the repo
+  contents: write # to commit the day's data/ + output/ (site + dataset) back to the repo
   deployments: write # for the Cloudflare Pages deploy step below
   pages: write # for the GitHub Pages deploy step below
   id-token: write # required by actions/deploy-pages to verify the deployment
@@ -36,6 +40,14 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Deploy keywords API worker
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ADMIN_KEY: ${{ secrets.ADMIN_KEY }}
+        run: bash bootstrap_and_deploy.sh
 
       - name: Collect, dedupe, render
         env:
