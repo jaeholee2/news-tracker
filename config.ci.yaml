@@ -21,4 +21,4 @@ max_article_age_days: 3
 # 키워드 관리 화면(worker/)의 배포 URL. 비워두면 위 'keywords' 목록만 쓰고
 # 관리 화면은 읽기 전용으로 동작합니다. worker를 처음 배포한 뒤 워크플로
 # 로그에 나오는 실제 URL로 채워주세요 -- README.md "7. 키워드 관리 API" 참고.
-keywords_api_base: ""
+keywords_api_base: "https://news-tracker-api.jaeholee2.workers.dev"
