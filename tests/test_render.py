@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from datetime import date
@@ -11,32 +12,54 @@ KEYWORDS = ["두두원", "5G 특화망"]
 
 SAMPLE_ARTICLES = [
     {
+        "id": "aaa111",
         "title": "두두원, 5G 코어 솔루션 공급 확대",
         "link": "https://example.com/news/1",
         "sources": ["Naver", "Google News"],
         "published_at": "2026-09-09T09:00:00+09:00",
         "keywords": ["두두원"],
+        "image": "",
     },
     {
+        "id": "bbb222",
         "title": "두두원 6G 공동개발 착수",
         "link": "https://example.com/news/2",
         "sources": ["Naver"],
         "published_at": "2026-09-09T08:00:00+09:00",
         "keywords": ["두두원"],
+        "image": "",
     },
 ]
 
 
+def _write_day(data_dir: Path, date_str: str, articles: list[dict]) -> None:
+    data_dir.mkdir(parents=True, exist_ok=True)
+    (data_dir / f"{date_str}.json").write_text(
+        json.dumps(articles, ensure_ascii=False), encoding="utf-8"
+    )
+
+
 class RenderTests(unittest.TestCase):
+    """render.render() now writes a single output/index.html (a
+    client-side app -- see templates/page.html) plus output/data/
+    articles.json, which is where actual article content lives. There is
+    no more a per-day output/archive/*.html; history browsing happens
+    client-side against the one JSON dataset. So these tests check the
+    dataset's content/filtering rather than grepping server-rendered HTML
+    for article titles."""
+
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self._tmp.cleanup)
         self.output_dir = Path(self._tmp.name) / "output"
+        self.data_dir = Path(self._tmp.name) / "data"
 
-    def test_writes_index_and_archive_with_expected_content(self):
-        # Only "두두원" here (not the full KEYWORDS list) so every keyword
-        # section has matches -- this test is about article content, not
-        # the empty-state-per-keyword behavior (covered separately below).
+    def _dataset(self):
+        return json.loads((self.output_dir / "data" / "articles.json").read_text(encoding="utf-8"))
+
+    def test_writes_index_html_and_articles_dataset(self):
+        _write_day(self.data_dir, "2026-09-09", SAMPLE_ARTICLES)
+
         render.render(
             "2026-09-09",
             SAMPLE_ARTICLES,
@@ -44,51 +67,111 @@ class RenderTests(unittest.TestCase):
             TEMPLATES_DIR,
             retention_days=90,
             keywords=["두두원"],
+            data_dir=self.data_dir,
         )
 
         index_html = (self.output_dir / "index.html").read_text(encoding="utf-8")
-        archive_html = (self.output_dir / "archive" / "2026-09-09.html").read_text(encoding="utf-8")
+        self.assertIn("<html", index_html)
+        self.assertIn("News Tracker", index_html)
+        # no more a separate per-day archive page -- history lives in the dataset
+        self.assertFalse((self.output_dir / "archive").exists())
 
-        for html in (index_html, archive_html):
-            self.assertIn("두두원, 5G 코어 솔루션 공급 확대", html)
-            self.assertIn("https://example.com/news/1", html)
-            self.assertIn("두두원 6G 공동개발 착수", html)
-            self.assertIn("https://example.com/news/2", html)
-            # The new template always emits a per-keyword-group empty-state
-            # paragraph (hidden by default) so client-side JS filtering can
-            # reveal it if a filter leaves zero visible articles in that
-            # group -- so "기사 없음" text now legitimately exists in the
-            # markup even when articles are present. What matters is that
-            # it stays hidden when the group actually has matches.
-            self.assertIn('class="empty group-empty" hidden', html)
+        dataset = self._dataset()
+        titles = {a["title"] for a in dataset}
+        self.assertEqual(titles, {a["title"] for a in SAMPLE_ARTICLES})
+        links = {a["link"] for a in dataset}
+        self.assertEqual(links, {a["link"] for a in SAMPLE_ARTICLES})
+        # every article is annotated with its collection day and cluster fields
+        for a in dataset:
+            self.assertEqual(a["date"], "2026-09-09")
+            self.assertIn("is_representative", a)
 
-        # today isn't linked to itself in its own nav
-        self.assertNotIn('href="archive/2026-09-09.html"', index_html)
-        # archive page links back up to the site root
-        self.assertIn('href="../index.html"', archive_html)
+    def test_dataset_is_empty_when_no_articles_collected(self):
+        render.render(
+            "2026-09-09",
+            [],
+            self.output_dir,
+            TEMPLATES_DIR,
+            retention_days=90,
+            keywords=KEYWORDS,
+            data_dir=self.data_dir,
+        )
 
-    def test_shows_empty_state_when_no_articles(self):
-        render.render("2026-09-09", [], self.output_dir, TEMPLATES_DIR, retention_days=90, keywords=KEYWORDS)
-
+        self.assertEqual(self._dataset(), [])
         index_html = (self.output_dir / "index.html").read_text(encoding="utf-8")
-        self.assertIn("기사 없음", index_html)
-        # every configured keyword still gets a section, even with zero results
-        self.assertIn("두두원", index_html)
-        self.assertIn("5G 특화망", index_html)
+        self.assertIn("<html", index_html)
 
-    def test_index_nav_lists_previous_archive_days_within_retention(self):
-        archive_dir = self.output_dir / "archive"
-        archive_dir.mkdir(parents=True)
-        (archive_dir / "2026-09-08.html").write_text("old page", encoding="utf-8")
-        (archive_dir / "2026-01-01.html").write_text("too old", encoding="utf-8")  # outside retention
+    def test_dataset_includes_previous_days_within_retention_only(self):
+        _write_day(self.data_dir, "2026-09-09", SAMPLE_ARTICLES)
+        _write_day(
+            self.data_dir,
+            "2026-09-08",
+            [
+                {
+                    "id": "ccc333",
+                    "title": "어제 기사",
+                    "link": "https://example.com/news/3",
+                    "sources": ["Naver"],
+                    "published_at": "2026-09-08T10:00:00+09:00",
+                    "keywords": ["두두원"],
+                    "image": "",
+                }
+            ],
+        )
+        _write_day(
+            self.data_dir,
+            "2026-01-01",
+            [
+                {
+                    "id": "ddd444",
+                    "title": "너무 오래된 기사",
+                    "link": "https://example.com/news/4",
+                    "sources": ["Naver"],
+                    "published_at": "2026-01-01T10:00:00+09:00",
+                    "keywords": ["두두원"],
+                    "image": "",
+                }
+            ],
+        )
 
         render.render(
-            "2026-09-09", SAMPLE_ARTICLES, self.output_dir, TEMPLATES_DIR, retention_days=30, keywords=KEYWORDS
+            "2026-09-09",
+            SAMPLE_ARTICLES,
+            self.output_dir,
+            TEMPLATES_DIR,
+            retention_days=30,
+            keywords=KEYWORDS,
+            data_dir=self.data_dir,
+        )
+
+        dataset = self._dataset()
+        titles = {a["title"] for a in dataset}
+        self.assertIn("어제 기사", titles)
+        self.assertNotIn("너무 오래된 기사", titles)
+
+    def test_keyword_specs_with_today_counts_are_embedded(self):
+        _write_day(self.data_dir, "2026-09-09", SAMPLE_ARTICLES)
+        specs = [
+            {"name": "두두원", "exclude": [], "naver": True, "google": True, "active": True},
+            {"name": "5G 특화망", "exclude": [], "naver": True, "google": True, "active": False},
+        ]
+
+        render.render(
+            "2026-09-09",
+            SAMPLE_ARTICLES,
+            self.output_dir,
+            TEMPLATES_DIR,
+            retention_days=90,
+            keywords=["두두원"],
+            keyword_specs=specs,
+            data_dir=self.data_dir,
         )
 
         index_html = (self.output_dir / "index.html").read_text(encoding="utf-8")
-        self.assertIn('href="archive/2026-09-08.html"', index_html)
-        self.assertNotIn("2026-01-01", index_html)
+        self.assertIn('id="nt-keyword-specs"', index_html)
+        # today's per-keyword article count is embedded for the keyword
+        # management screen's initial (pre-live-fetch) render
+        self.assertIn('"today_count": 2', index_html)
 
 
 class GroupByKeywordTests(unittest.TestCase):
