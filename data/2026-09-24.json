@@ -1,5 +1,18 @@
 [
   {
+    "id": "f9e07f30fb69",
+    "title": "'명절 택배 마감' 사라진다…'레오노믹스'가 바꿀 추석 풍경 5가지",
+    "link": "https://www.mt.co.kr/tech/2026/09/25/2026092108472516899",
+    "published_at": "2026-09-25T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=654,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026092108472516899_1.jpg"
+  },
+  {
     "id": "6365b76454a3",
     "title": "에스트래픽, LA 지하철 18개역 요금시스템 맡는다…100억원 유지보수 계...",
     "link": "https://www.venturesquare.net/1116039/",
@@ -193,7 +206,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/09/24/news-p.v1.20260923.8ad649f3d428452898dcfc378e4c9c00_Z1.png"
+    "image": ""
   },
   {
     "id": "2fdcd0bc0222",
@@ -336,7 +349,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490122_476015_917_v150.jpg"
   },
   {
     "id": "b05d70fc8596",
@@ -468,7 +481,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.korea.kr/images/event/korea_logo_actually_2024.jpg"
+    "image": ""
   },
   {
     "id": "f25bd2f6750d",
@@ -546,7 +559,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.ekn.kr/mnt/file/202609/news-p.v1.20260923.19c2343704324437848cd50a9bd34ff9_R.png"
+    "image": ""
   },
   {
     "id": "3f1779337f95",
@@ -627,19 +640,6 @@
     "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202609231635060924900ecbf9426b2112341995.jpg&nmt=23"
   },
   {
-    "id": "6772f4091773",
-    "title": "[코스피 지수선물 옵션] SK하이닉스부터 주성엔지니어링까지 상승…방산...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490098",
-    "published_at": "2026-09-23T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490098_475990_3537_v150.jpg"
-  },
-  {
     "id": "50ae5fc66707",
     "title": "[중화학 ON] SK엔무브·LG전자, 차세대 냉매·냉동기유·액침냉각 공동 ...",
     "link": "https://dealsite.co.kr/articles/169563",
@@ -651,6 +651,19 @@
       "한화시스템"
     ],
     "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/09/23/9182a4e5733d412880c8902a94d362b7/thumb.jpg"
+  },
+  {
+    "id": "6772f4091773",
+    "title": "[코스피 지수선물 옵션] SK하이닉스부터 주성엔지니어링까지 상승…방산...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490098",
+    "published_at": "2026-09-23T16:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490098_475990_3537_v150.jpg"
   },
   {
     "id": "eedadd654963",
@@ -741,7 +754,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "/2026/09/23/2026092315085526032_l.jpg"
+    "image": ""
   },
   {
     "id": "4ae404a9b361",
@@ -835,19 +848,6 @@
     "image": "https://cdn.sisajournal-e.com/news/thumbnail/202609/423932_240136_1732_v150.jpg"
   },
   {
-    "id": "017a773c9c49",
-    "title": "한화시스템 7만3300원으로 5.30% 하락…고점 대비 5300원 밀려",
-    "link": "https://www.job-post.co.kr/news/articleView.html?idxno=229095",
-    "published_at": "2026-09-23T14:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.job-post.co.kr/news/photo/202609/229095_332869_1937.png"
-  },
-  {
     "id": "ded2dadb2fd4",
     "title": "한화시스템, 필리조선소 매각 '반쪽 효과'…신용도 개선은 제한",
     "link": "http://www.press9.kr/news/articleView.html?idxno=83268",
@@ -860,6 +860,19 @@
       "한화시스템"
     ],
     "image": "http://www.press9.kr/news/thumbnail/202609/83268_95568_530_v150.jpg"
+  },
+  {
+    "id": "017a773c9c49",
+    "title": "한화시스템 7만3300원으로 5.30% 하락…고점 대비 5300원 밀려",
+    "link": "https://www.job-post.co.kr/news/articleView.html?idxno=229095",
+    "published_at": "2026-09-23T14:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.job-post.co.kr/news/photo/202609/229095_332869_1937.png"
   },
   {
     "id": "3313512920c1",
@@ -911,7 +924,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/23/bfa63125-774d-4530-9189-3ad080b77a29.jpg"
+    "image": ""
   },
   {
     "id": "5948c104a32c",
@@ -963,7 +976,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.ekn.kr/mnt/file/202609/news-p.v1.20260923.a823d20e814841c69eac3dd60226257e_R.png"
+    "image": ""
   },
   {
     "id": "5e394771737a",
@@ -1036,7 +1049,8 @@
     "link": "https://www.cbci.co.kr/news/articleView.html?idxno=609371",
     "published_at": "2026-09-23T12:48:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "CBC뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -1132,7 +1146,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.datanews.co.kr/data/photos/cdn/20260939/art_1790131330.jpg"
+    "image": ""
   },
   {
     "id": "35859517e1d8",
@@ -1267,6 +1281,19 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260922.e24d10f197454d9fa33f23243a47cbad_P1.jpg"
   },
   {
+    "id": "dbcd291a2ca3",
+    "title": "‘보라매에 국산 최강 발톱 단다’⋯ 한화·KAI, 장거리 공대공 미사일...",
+    "link": "https://www.viva100.com/article/20260923500398",
+    "published_at": "2026-09-23T11:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/23/.cache/512/20260923500394.jpg?v=20260925070146"
+  },
+  {
     "id": "fb952436c6b2",
     "title": "중랑·강북·금천도 84㎡ 기준 전세 10억 육박",
     "link": "https://biz.heraldcorp.com/article/10883269?ref=naver",
@@ -1278,32 +1305,6 @@
       "한화시스템"
     ],
     "image": "https://wimg.heraldcorp.com"
-  },
-  {
-    "id": "dbcd291a2ca3",
-    "title": "‘보라매에 국산 최강 발톱 단다’⋯ 한화·KAI, 장거리 공대공 미사일...",
-    "link": "https://www.viva100.com/article/20260923500398",
-    "published_at": "2026-09-23T11:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/23/.cache/512/20260923500394.jpg?v=20260925031536"
-  },
-  {
-    "id": "3e650317fdcd",
-    "title": "[금융권 이모저모]교보자산운용, 18년 합작 종료…ETF·퇴직연금 강화 外",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=117293",
-    "published_at": "2026-09-23T11:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202609/117293_117350_68_v150.jpg"
   },
   {
     "id": "288e9f5144bc",
@@ -1332,84 +1333,6 @@
     "image": ""
   },
   {
-    "id": "9c299430373e",
-    "title": "김승연 회장, 한화시스템 구미사업장 찾아⋯\"독보적 국방AI 역량 키워야\"",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yai1OcUh4amhZM1V5RHFaOXgtbVc1ZG4tT3J1ZGNWUmh3MW9OdEh4WnR2dDBpN2gtQ3hLbjNZT2Y3YzU0aS0tZHlOQjVKUEk?oc=5",
-    "published_at": "2026-09-22T07:04:07+00:00",
-    "sources": [
-      "v.daum.net"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "c898503a8929",
-    "title": "방산 AI 현장 찾은 김승연 회장…\"한화 방산 경쟁력, AI가 좌우\"",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1JbXFSeHpWVTJ4YlcyOWNpaXhIeEdoczI4VTRKbGxXRTRFMGh3V1lIWm14Yk9GTW9rbE52Uks1LWhKdEhXWkJ0SEhoTUs1UkRYc3pnTmY5OXRYYWJOcjh2N3FFbXNEc0ZfMjdMWERrZjFQcS1GTWYtZ01ocEdIUEZuQWh0a2pJa2tpc2Uwaw?oc=5",
-    "published_at": "2026-09-22T07:47:00+00:00",
-    "sources": [
-      "chosun.com"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "bb9f05b335bf",
-    "title": "한화 '우주 감시망' 실체 드러났다…쎄트렉아이와 'SAR+10cm급 광학위성 4기' 결합",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXTnU3bjlMdGdkVTF5UFduM3VFOEU0VHlSdDY0S1NWVGVBcTNYRmpkeTB1ekpMblg3aHZ3cjJ6aUJiTGoxSDlXaGFUS0Nwd0hrZXNCOFB3UWc4Y01KWkVrMExPRQ?oc=5",
-    "published_at": "2026-09-23T02:21:34+00:00",
-    "sources": [
-      "더구루"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "f2393846b0c4",
-    "title": "자본잠식 한화 필리조선소, 몸값 2배 뛰었다",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5QlBNUlo2M21mVGVuNXVMY2dYem5YMlRNSm1uTXNFN2N2RWJMRGNwakdyS1hxSndEMUxUME1SS0Vqa29pdFNjS3cxMDctaFFrNHFqMzlsZlhpSlRLRHhHTXlMZGRQc2xjSkVBbQ?oc=5",
-    "published_at": "2026-09-23T00:35:02+00:00",
-    "sources": [
-      "비즈워치"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "da34fda5101f",
-    "title": "한화에 방산 팔았던 삼성, ‘군 지휘통제’ 수주전서 다시 맞붙나",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5UGRDaFhPMGhrcUVCOUtiZzRoVU9YOXpDQXd4WDlwRDhqdThELS1HUHZXMk1mUlgzekJobjdqaFFMTWFKMjFiYzl5WFUzTzZhYlVaOGxjdkFhNEtURTZOZXZvd0hXeTBTZEcwSXM5VHjSAXRBVV95cUxPVzdCcEZyWUlKVE5zS0NRbU5fTW1pYXJtM21wVkEwTXlpeElDQllnSGpsMVVmNVJQSTMySkZpd2lmemFOekxCZl83Sm85cTBXUnRFQk4tYVVCeGhDNWlsRlBMV0NQRThIUHkwazRDRmRZSkdzWA?oc=5",
-    "published_at": "2026-09-21T06:16:38+00:00",
-    "sources": [
-      "이뉴스투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "97b4ed264b6c",
-    "title": "김승연 회장, 한화시스템 구미공장 찾아 '국방 AI' 경쟁력' 강조",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OVkE5dVNaQjFQYjdKTXF4QWUtX09kb1VHZ3lhbC1TYWlYcktCQ01LTlhfc0xOdzFqUF8ySlpYWWo2eGlWS0x5R3VIVFpSZGZCRmdZdzQySFZIM2lpZUlSbWptQWtGMzVPbHVqY0pJOA?oc=5",
-    "published_at": "2026-09-23T01:21:59+00:00",
-    "sources": [
-      "이코리아"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "98f08314b150",
     "title": "한화시스템에 무슨 일이…'반토막' 주가도 살아날까 [B급기자의 B급리포트]",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5X0tVNThIM0xhcUtSN2Z2ZWRicDBHa2E0X08zdHBLS0FsVXVZdm1ZcFpBSk81SzFKLV93aWMtMXhBVElaQ0loaGxJX25CRnYwcDkw?oc=5",
@@ -1417,6 +1340,20 @@
     "sources": [
       "네이트",
       "v.daum.net"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "e8431c441dfb",
+    "title": "한화, 美 방산 '컨트롤타워' 윤곽…지상 K9부터 핵잠 사업까지 통합",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fZWVPcWE1WWx2X0dpSFNQS19XQ21ESzgxNUtSdjlwVkdxRGNOdGdJZzVBMmlQLWpVVDd0QlAzS1ptWmdEVWc?oc=5",
+    "published_at": "2026-09-21T22:01:46+00:00",
+    "sources": [
+      "v.daum.net",
+      "뉴스1"
     ],
     "keywords": [
       "한화시스템"
@@ -1437,12 +1374,12 @@
     "image": ""
   },
   {
-    "id": "74a5438556a0",
-    "title": "美 방산 영토 넓히는 한화…김승연 \"독보적 국방 AI 키워라\"",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vX3Y0Vkh6QlFVRmNhbTd1NHJCdjBMVmtMdHZVc0pKS2FqWVcwX05vNXN2SGVhbVM0T3JxbVRUM1pjWHdlR1Z3TnJRdGxCelk?oc=5",
-    "published_at": "2026-09-22T09:12:07+00:00",
+    "id": "f2393846b0c4",
+    "title": "자본잠식 한화 필리조선소, 몸값 2배 뛰었다",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5QlBNUlo2M21mVGVuNXVMY2dYem5YMlRNSm1uTXNFN2N2RWJMRGNwakdyS1hxSndEMUxUME1SS0Vqa29pdFNjS3cxMDctaFFrNHFqMzlsZlhpSlRLRHhHTXlMZGRQc2xjSkVBbQ?oc=5",
+    "published_at": "2026-09-23T00:35:02+00:00",
     "sources": [
-      "v.daum.net"
+      "비즈워치"
     ],
     "keywords": [
       "한화시스템"
@@ -1450,13 +1387,25 @@
     "image": ""
   },
   {
-    "id": "f11e037ca7c4",
-    "title": "김승연 “한화시스템은 방산의 두뇌·신경망…독보적 AI 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yT0F0eEJpTEdMZW90UDhoS3hKRHVIemItN2RaZWRQUTNUQW9ESnRDZmlpSDJDTUdLUHBZU0pwY0FzMzRraTh5VUtUXzdZUm8?oc=5",
-    "published_at": "2026-09-22T06:34:00+00:00",
+    "id": "c898503a8929",
+    "title": "방산 AI 현장 찾은 김승연 회장…\"한화 방산 경쟁력, AI가 좌우\"",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1JbXFSeHpWVTJ4YlcyOWNpaXhIeEdoczI4VTRKbGxXRTRFMGh3V1lIWm14Yk9GTW9rbE52Uks1LWhKdEhXWkJ0SEhoTUs1UkRYc3pnTmY5OXRYYWJOcjh2N3FFbXNEc0ZfMjdMWERrZjFQcS1GTWYtZ01ocEdIUEZuQWh0a2pJa2tpc2Uwaw?oc=5",
+    "published_at": "2026-09-22T07:47:00+00:00",
     "sources": [
-      "v.daum.net",
-      "dt.co.kr"
+      "조선일보"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "a2adf46d51f3",
+    "title": "美 방산 영토 넓히는 한화···김승연 \"독보적 국방 AI 키워라\"",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQ19faHV5VTlQeVZXbTBwbThlYnpHRkp4UFREcXB1VWRIajhMMDRFT3c2RHBoc3doNWMwbHZZMmttSEFIbzRpeE5uQlNEZ1Z2SjZYZ0VkVkNLenFacmFmWTBSakFPbnhfR0E?oc=5",
+    "published_at": "2026-09-22T09:11:34+00:00",
+    "sources": [
+      "뉴스웨이"
     ],
     "keywords": [
       "한화시스템"
@@ -1482,7 +1431,21 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zenl4dmFTWC1mRmplMXJsSTZ5bVUtRWttMkRVQnlFSU9mdEZUblBTdGd2Z09xX3Z4RHZ5UGpuN0RpeFV0eno4bkVDcVpsWTRhM281MEZsVkdueFhTNWl3T9IBYEFVX3lxTE4zenl4dmFTWC1mRmplMXJsSTZ5bVUtRWttMkRVQnlFSU9mdEZUblBTdGd2Z09xX3Z4RHZ5UGpuN0RpeFV0eno4bkVDcVpsWTRhM281MEZsVkdueFhTNWl3Tw?oc=5",
     "published_at": "2026-09-22T07:07:00+00:00",
     "sources": [
-      "yna.co.kr"
+      "연합뉴스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "642adb9b2556",
+    "title": "김승연, 한화시스템서 현장경영…\"한화 방산 경쟁력 핵심은 AI\"",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aN2Q0Y0d2T3BILXhFNVhvSUp0RW5hWUFpSmg0cjgzTWZPdUROQUZWd01HOTdsdmJndlJLaHVJVjA0aXYzaEgwZzlTMA?oc=5",
+    "published_at": "2026-09-22T06:19:12+00:00",
+    "sources": [
+      "v.daum.net",
+      "파이낸셜뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -1495,7 +1458,7 @@
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sa0Jfa2JTNXp6WEpzNmRmcllTSkIxTmV4Z044R0phUF9JMG9zVG9wUFctLWNXeG5lbS1XR2QwV1JGQjduU3ZZSmNQc0kzemh6QnZvdlB3?oc=5",
     "published_at": "2026-09-22T06:35:11+00:00",
     "sources": [
-      "zdnet.co.kr"
+      "지디넷코리아"
     ],
     "keywords": [
       "한화시스템"
@@ -1503,13 +1466,12 @@
     "image": ""
   },
   {
-    "id": "642adb9b2556",
-    "title": "김승연, 한화시스템서 현장경영…\"한화 방산 경쟁력 핵심은 AI\"",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aN2Q0Y0d2T3BILXhFNVhvSUp0RW5hWUFpSmg0cjgzTWZPdUROQUZWd01HOTdsdmJndlJLaHVJVjA0aXYzaEgwZzlTMA?oc=5",
-    "published_at": "2026-09-22T06:19:00+00:00",
+    "id": "c2ef664b9267",
+    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…한화시스템 구미 방문",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sazQ1S1ZsR3R5c2ktU2J6UzRMV0dua3Fac29kSlBpNGhKMC1BN2ZGVTRsRG5Yd05DR2lwUWF4WnpTRlpZcHh4X083OUpFWVdRQ21sLQ?oc=5",
+    "published_at": "2026-09-22T06:10:00+00:00",
     "sources": [
-      "v.daum.net",
-      "파이낸셜뉴스"
+      "v.daum.net"
     ],
     "keywords": [
       "한화시스템"
@@ -1530,40 +1492,12 @@
     "image": ""
   },
   {
-    "id": "7980bc8527ff",
-    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…한화시스템 구미 방문",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0V0tPd2NQQ2tfd0YxY21aQXpDaWhoR2Y5R1BFSkZMcC1qUkI3TGJfdUUyQUFMUVpjbXc1TEVKZ3M4cVFfR0RaX2drWUZGMGc?oc=5",
-    "published_at": "2026-09-22T06:10:42+00:00",
+    "id": "9c299430373e",
+    "title": "김승연 회장, 한화시스템 구미사업장 찾아⋯\"독보적 국방AI 역량 키워야\"",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yai1OcUh4amhZM1V5RHFaOXgtbVc1ZG4tT3J1ZGNWUmh3MW9OdEh4WnR2dDBpN2gtQ3hLbjNZT2Y3YzU0aS0tZHlOQjVKUEk?oc=5",
+    "published_at": "2026-09-22T07:04:00+00:00",
     "sources": [
       "v.daum.net"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "6376170d737a",
-    "title": "한화시스템 구미사업장 찾은 김승연 회장 “국방 AI 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sUDdrRG8zWnFGU2dXT0lqLXRoZkRuQ1RIQ2VyT3RobEhwam9HWDA4dktKSER1VmFOWU11aFpiNklFYTlodDlHSjEyX0RmVUE?oc=5",
-    "published_at": "2026-09-22T08:33:09+00:00",
-    "sources": [
-      "v.daum.net",
-      "OSEN"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "c771db808ae5",
-    "title": "김승연 회장, 한화시스템 구미사업장 방문 “독보적 국방 AI 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSWZla19jS25IaC05RnB1TW5FMXRjdW9NWWdrRmRONDlCdHFOTzM2enZwcEdRZ0Itdm1HU0o3TW5GLUtaSXJTTzNybFJYMTg1ZDhtUTZCeFRnUdIBX0FVX3lxTE1RNDJlQ0w4bnFwc0V0NElhOG9Cc1IxRENzcWZxcDJQQjhxZThlNXBVRDRWN2k1bXdHdmJrY1pxV3E1N2NPZGJlTE8zaTJGWENaVDRzUWxScDFOejVnVlBJ?oc=5",
-    "published_at": "2026-09-22T07:39:00+00:00",
-    "sources": [
-      "경향신문",
-      "열린뉴스통신"
     ],
     "keywords": [
       "한화시스템"
@@ -1590,20 +1524,7 @@
     "published_at": "2026-09-22T06:16:00+00:00",
     "sources": [
       "v.daum.net",
-      "yna.co.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "4bb90132e3a9",
-    "title": "김승연, 한화시스템 구미사업장 점검…“방산 경쟁력 핵심은 AI”",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1McUw1Y0cwRExkTktRQjV5bS1CNml2cnBMX0RodjY0R3RJOEc5WmFXXzBwM1ExQTVGRE5yRGhyMFIyNW5WZFc0cFdaOXRWS3JNckViOG5YV0xOeTRtSEpwcg?oc=5",
-    "published_at": "2026-09-22T07:20:10+00:00",
-    "sources": [
-      "뉴스토마토"
+      "연합뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -1624,12 +1545,64 @@
     "image": ""
   },
   {
+    "id": "4bb90132e3a9",
+    "title": "김승연, 한화시스템 구미사업장 점검…“방산 경쟁력 핵심은 AI”",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1McUw1Y0cwRExkTktRQjV5bS1CNml2cnBMX0RodjY0R3RJOEc5WmFXXzBwM1ExQTVGRE5yRGhyMFIyNW5WZFc0cFdaOXRWS3JNckViOG5YV0xOeTRtSEpwcg?oc=5",
+    "published_at": "2026-09-22T07:20:10+00:00",
+    "sources": [
+      "뉴스토마토"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "4ca75ad66a44",
+    "title": "김승연 한화그룹 회장, 구미서 방산 AI 점검…“한화시스템이 두뇌이자 신경망”",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb25VdEhYQlAtLVRGNi1ZQ2RwLVlDVGJKMTduazBvTElhMDFCbkZaVWZ2WFREZkpwdDhnTkRxTUxBMFdLeXdDTE1yZGxZYjh2dWZ6Z0JLWExycnc1WmxoZ1VDNVV0VU9tUGhYUnFRakJ4MXhiU29tY3kxbWZXN3FpMHFjR2Zudw?oc=5",
+    "published_at": "2026-09-22T09:17:01+00:00",
+    "sources": [
+      "글로벌이코노믹"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "f60be5d819c2",
     "title": "왜 '한화시스템 구미사업장'이었을까…김승연 회장, 추석직전 '콕 집어' 찾아간 까닭",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wSENCakh2Z1pXU2NPSnpRNFU2enVIT3RfSllDTmZ0NDZhUW1VVFVVMXBqVUJtT2RzTWZUQkRTVW1YZURMb1liUXlaM1BwWlFla1B4cFlVQkNsNmxFUk5NMEVPa2tOcmY4Z2ttQVJjZERxejNRZGZRTtIBeEFVX3lxTE4wSENCakh2Z1pXU2NPSnpRNFU2enVIT3RfSllDTmZ0NDZhUW1VVFVVMXBqVUJtT2RzTWZUQkRTVW1YZURMb1liUXlaM1BwWlFla1B4cFlVQkNsNmxFUk5NMEVPa2tOcmY4Z2ttQVJjZERxejNRZGZRTg?oc=5",
     "published_at": "2026-09-22T07:07:04+00:00",
     "sources": [
       "뉴시스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "7614a860cf7e",
+    "title": "한화시스템 찾아 AI 강조한 김승연 회장",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6aURXZllXQXA5eWx5V0x6Y3NaTlY1c0NGakZZZFJoTlNwbjhyWDJNZXJ2TXU4VXFmRlJadWo5WEZIRm5xTEVEZF9DazZuR0tYT2JRRlZTdEJZQy1uQXlOU1VRdWE3T1FhcVpQM0EyQQ?oc=5",
+    "published_at": "2026-09-22T08:45:11+00:00",
+    "sources": [
+      "서울신문"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "b42e1c1d1682",
+    "title": "김승연 회장, 한화시스템 구미사업장 방문 “독보적 국방 AI 역량 키워야”",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RNDJlQ0w4bnFwc0V0NElhOG9Cc1IxRENzcWZxcDJQQjhxZThlNXBVRDRWN2k1bXdHdmJrY1pxV3E1N2NPZGJlTE8zaTJGWENaVDRzUWxScDFOejVnVlBJ0gFfQVVfeXFMTVE0MmVDTDhucXBzRXQ0SWE4b0JzUjFEQ3NxZnFwMlBCOHFlOGU1cFVENFY3aTVtd0d2YmtjWnFXcTU3Y09kYmVMTzNpMkZYQ1pUNHNRbFJwMU56NWdWUEk?oc=5",
+    "published_at": "2026-09-22T07:39:00+00:00",
+    "sources": [
+      "경향신문"
     ],
     "keywords": [
       "한화시스템"
@@ -1656,19 +1629,6 @@
     "published_at": "2026-09-22T06:59:00+00:00",
     "sources": [
       "Chosunbiz"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "4ca75ad66a44",
-    "title": "김승연 한화그룹 회장, 구미서 방산 AI 점검…“한화시스템이 두뇌이자 신경망”",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb25VdEhYQlAtLVRGNi1ZQ2RwLVlDVGJKMTduazBvTElhMDFCbkZaVWZ2WFREZkpwdDhnTkRxTUxBMFdLeXdDTE1yZGxZYjh2dWZ6Z0JLWExycnc1WmxoZ1VDNVV0VU9tUGhYUnFRakJ4MXhiU29tY3kxbWZXN3FpMHFjR2Zudw?oc=5",
-    "published_at": "2026-09-22T09:17:01+00:00",
-    "sources": [
-      "글로벌이코노믹"
     ],
     "keywords": [
       "한화시스템"
@@ -1741,64 +1701,12 @@
     "image": ""
   },
   {
-    "id": "74f7aa4ced8d",
-    "title": "김승연 회장, \"한화시스템, 한화 방산의 핵심 축\"",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sRjExUnBwRWFTWGxSZ0NxN0hjd0U1V2xZVm54bW45MmttYXRPdzRiOVg2cXpfSXBsbDVPX3hmQVQydGU2bGxGQlpDVmpQWUNhd21LQmlXVnk5aHlFZlFLSGVCRU1GNUto?oc=5",
-    "published_at": "2026-09-22T06:48:39+00:00",
+    "id": "db48db0406e4",
+    "title": "김승연 “한화시스템은 방산의 두뇌·신경망…독보적 AI 키워야”",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1OFBLZ1Vyc2N0RjZrX0VnSnpZank3OV81R0hUeF9DUHRHSUR3bWJZNTE1bTcxYzViSWE3c0lvR3owS1pGZksyUlNyTVozdw?oc=5",
+    "published_at": "2026-09-22T06:32:11+00:00",
     "sources": [
-      "fetv.co.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "56a595c249c2",
-    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…핵심기술 현장경영 행보",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VSC1wbW94aE45OHBHVWhjT3BvTkppVXZPNlNwSEQ0ZFA1aXRsRjB0dXpqWlpfejN6TGg5RXFabG95YklIOUkzRDZZZHc5TEU?oc=5",
-    "published_at": "2026-09-22T06:39:00+00:00",
-    "sources": [
-      "v.daum.net"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "ba8d6b0b1847",
-    "title": "김승연 회장, 한화시스템 구미 찾아…레이다·무기체계 AI 연동 점검",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zTEYwZk5ITWtEdDUxWXVmLVFJNzYtYTNRLWZPd2ZwcTVWUTRaOUFVLURvWGNqR3NDMFVmRE5xY1ZJSW1KeXVGY2Q1eXExWW02ME0wQTVyNGl4b3h3ZGFoYVlXQmfSAWhBVV95cUxObFo3ZU4wMVZhdGVKOUZpUHNMTThSbHFjVjlXR20wc3RHR1dMV2ZBT2t1MFVuSEw2aXBON2VTc3A4OS1NU2NDd21YZmM0WWptNnI3THhnY1FxUEFtakQzcDBZV1h4Z3dRVw?oc=5",
-    "published_at": "2026-09-22T07:40:41+00:00",
-    "sources": [
-      "매일일보"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "205e9908ca13",
-    "title": "김승연 회장, 한화시스템 구미사업장 찾아 국방 AI 강조",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sSGxQck9BWHlESWphMzNvRHExbFpGZEpfNVFtYkJpN2NPOVEwQi0yckJBUUFBM2ltWjNZdjZPTFRHVndDNmk5eTdpWmJRNU1VOTIwWjhOVzNzUdIBVEFVX3lxTFBVTG9TZkpjZG50R3UyNDQwNHFJSFJJc09TTGJXbDlCSmx3aEtfX2swMmd2bWg0R2FSTkp0a1VXeXVPSERHQWNRNllKRUo1Q0RuRUt3bQ?oc=5",
-    "published_at": "2026-09-22T06:29:01+00:00",
-    "sources": [
-      "더팩트"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "b429a705e634",
-    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…한화시스템 구미사업장 점검",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zRkQxOVo5bDFvZmRaOUlEbk91OGtnZWc5bEotbUdhb0ZLelRvejhOa21qaXVaNkVBTmRpbWZ2aUljdEE4bzFKZVl4Qk50WUt2TzR1M0hYZVJweldDdjQ3Y3hRTzMwa1k1?oc=5",
-    "published_at": "2026-09-22T07:03:34+00:00",
-    "sources": [
-      "ebn.co.kr"
+      "dt.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -1832,19 +1740,6 @@
     "image": ""
   },
   {
-    "id": "ded4b1d8348f",
-    "title": "한화 김승연·김동관, ‘그룹 방산 두뇌 겸 신경망’ 한화시스템 구미사업장 방문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSMWZBTEVDc0VKNXA5a2FRUXlXdXIzWmJVRXFvT000bVNNc1JiWDRjV0JIUU5Od0o1WU1hOGJKSjFtb0czeVdQNGVud21ydHljUkZvVDBRdTlhV25Wa3ZZX05HSWZVVUJlUXljZ1lYc2Y1QXBhSjc1UjVNWEY?oc=5",
-    "published_at": "2026-09-22T08:01:42+00:00",
-    "sources": [
-      "한국금융신문"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "20afda7c45e2",
     "title": "한화시스템 찾은 김승연 ＂독보적 국방 AI 역량 확보해야＂",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hNlh5Y1hUWEJYX1dEdlBoLVNlUm02SC1FdkJXR0drM1NmbVFKbkZCWFZDUlozRlgtcThPNjV2ZmNMNDQtTTZtdkhQeVNaTmpxUUlpRkd5dnUtbjRDdS1SbUFjOW1aUlg1T0xLdDJ6Q0RScDRWcjRZ?oc=5",
@@ -1858,12 +1753,12 @@
     "image": ""
   },
   {
-    "id": "1cf140f10807",
-    "title": "'현장경영' 김승연 한화 회장…한화시스템 찾아 \"독보적 국방 AI 키워야\"",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTmY1TGVPbzYxZjN5UjlXcXNaam82OEN2X1JHSHE0TzgzX09kTmVta0w3WC1YQ2ZjbnY5QXJzUV9RYnkwR2tsVHI3dFdLV2FGVzI5dEJudDRTbVNyeUJjY19sTDRnMWZzdVM2SVdZT2JDek8yeU5KSzJoU3lrT3NSLQ?oc=5",
-    "published_at": "2026-09-22T07:45:15+00:00",
+    "id": "b429a705e634",
+    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…한화시스템 구미사업장 점검",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zRkQxOVo5bDFvZmRaOUlEbk91OGtnZWc5bEotbUdhb0ZLelRvejhOa21qaXVaNkVBTmRpbWZ2aUljdEE4bzFKZVl4Qk50WUt2TzR1M0hYZVJweldDdjQ3Y3hRTzMwa1k1?oc=5",
+    "published_at": "2026-09-22T07:03:34+00:00",
     "sources": [
-      "edaily.co.kr"
+      "ebn.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -1884,65 +1779,12 @@
     "image": ""
   },
   {
-    "id": "c3f5c60ceda3",
-    "title": "김승연 회장, 한화시스템 구미行…“독보적 국방 AI 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lRkF5NGdmTjR5bjNvcVVyak9GZmQtMUpacDZvYmxyWjdEbVk4Y2k3czNWX1ozbTdabkVxZGIzb0JNUjZybnlhWDFSSTZCRHAxMUl2UDBEWVQtQTVDNDVhcmlGeXRUQ3h4MjdEaTdvSGlka1Bp?oc=5",
-    "published_at": "2026-09-22T08:18:16+00:00",
+    "id": "98f86d6ed584",
+    "title": "김승연 회장 “대체 못할 독보적 국방 AI 역량 키워야”",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wWUpoMnJVODdKY1V3S3ROYWpLVExfRGFmYzFnbUVKdm01VFJ3RUVOUjM5cGlHNkFweFc2RUwxMWo0cTgwb1RsRTBrbUdVYW95Zlh1dWhUMVR3UdIBX0FVX3lxTE9QVmQ4a25fcTJjYXF5R0JSYUtlcnBaN0loeXJzeTBHUkRVc0N0QnBRM21RdkRmQ19rNFRqSHBobmRmckpQaTA4TG5fenRWbWpEd2w2UUlGS1hsZzFLa0s4?oc=5",
+    "published_at": "2026-09-22T11:09:00+00:00",
     "sources": [
-      "부산일보"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "a0b1ab1a2f9e",
-    "title": "김승연, 한화시스템 현장경영…\"한화 방산 경쟁력 핵심은 AI\"",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VTdrZExyM3FRRWVueVFIZjFzY1JlMmVTcElZZG5vaWVjZEwxeTlsSHg5eEV0anVPMmRtOWF5VU5KN1l3UDloT1ZfRjJyNjgzUGZraFZQMjRXUQ?oc=5",
-    "published_at": "2026-09-22T06:00:00+00:00",
-    "sources": [
-      "파이낸셜뉴스"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "cb6d9f19618b",
-    "title": "김승연 한화 회장, 한화시스템 구미사업장 방문…“독보적 국방 AI 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KbW9PWkwxdC1WMDdERjhXSDlvZVRwSlA3amtyanpLVlE5TXdSOXRYTGNxaGFvcnZNb05EbC1GR1FnX0pHUkZEeTZNM1g0Nk1EUTVNQ2hIWGRINlFXVGlVX1hiVlMyT2pXcWc4ZA?oc=5",
-    "published_at": "2026-09-22T21:11:11+00:00",
-    "sources": [
-      "나눔경제뉴스",
-      "파이낸셜신문"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "ee4695b71255",
-    "title": "김승연 회장, 한화시스템 구미사업장 찾아…“AI가 한화 방산 경쟁력 좌우”",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNmluM3VzMUpvMFNFUE43Tk5OTm5nU2k0cGpUSXRjTDA4WGZtZEtkZzRHZUJ4a1UzUm4wSHRzSF9SRjNITlI0LWJyUUc1YzlIejJ3SmZBM2R3enZBSUlFdA?oc=5",
-    "published_at": "2026-09-22T08:31:31+00:00",
-    "sources": [
-      "마이데일리"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "d48deca6551a",
-    "title": "김승연 회장 \"독보적 국방 AI 역량 키워야\"…한화시스템 구미사업장 방문",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RQVFHVkFVVUhybnpWcUxHeDBJUERkcHpJMHRIUmRMcER6TW8xTy1laENtSkhwc3J1WUN0SjNiNklWVGxrV2NieVNZdzczcHRvX2gzcGcybHh5VXF0LTZvUWU0Zk43VlJ0ejg4?oc=5",
-    "published_at": "2026-09-22T15:09:51+00:00",
-    "sources": [
-      "뉴스저널리즘"
+      "경향신문"
     ],
     "keywords": [
       "한화시스템"
@@ -1976,38 +1818,12 @@
     "image": ""
   },
   {
-    "id": "097ce7ff2457",
-    "title": "김승연 한화 회장, 구미사업장서 국방 AI 기술 점검",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VbkJVTEhBeHVoU3dSWXZQSUxBdjdBWEtvVGdfMTNiN1Z2Skh4WDdTNHBwUVdBNnpuNVY3UXRWY040cWZwN1d6TUhqY2NRcDNSR0VscjZhRGF6NDU5aEhDNFZRVE5WUQ?oc=5",
-    "published_at": "2026-09-22T09:04:51+00:00",
+    "id": "bb9f05b335bf",
+    "title": "한화 '우주 감시망' 실체 드러났다…쎄트렉아이와 'SAR+10cm급 광학위성 4기' 결합",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXTnU3bjlMdGdkVTF5UFduM3VFOEU0VHlSdDY0S1NWVGVBcTNYRmpkeTB1ekpMblg3aHZ3cjJ6aUJiTGoxSDlXaGFUS0Nwd0hrZXNCOFB3UWc4Y01KWkVrMExPRQ?oc=5",
+    "published_at": "2026-09-23T02:21:34+00:00",
     "sources": [
-      "디일렉"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "0705b64b22b5",
-    "title": "구미 한화시스템 찾은 김승연 “독보적 국방 AI 키우자”",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1udnA0ckNwYkFob2dMVU1IcGp0aFhGUHNlcW45Nk1TNEpsMWdJTF91TDdTT2liVndwaXlsS19rZmFETnBuc3YyNEVBMG5ERUt2Q2NBNFdTRmtMMkU0QVJldEl1SjFwcU9rSktnRTZFNkRTOHh1ci0zMjBRWQ?oc=5",
-    "published_at": "2026-09-22T14:55:35+00:00",
-    "sources": [
-      "서울신문"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "f6a2e60cb443",
-    "title": "한화시스템 공장 찾은 김승연 회장 \"독보적 국방 AI 키워야\"",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44UFFTVnBiX0NIZ3VBWmx6WmMzM3FsUDB3N2VNUHBRUXI0djBqOFBuMFJuVWJKU0FHc3ZJU0ZTdWItMHZyUkVOVW1XaHJIcjFSZ0lZZFBxV21VeUNOVmR4dGczZjJZTENPUndHUDNkTQ?oc=5",
-    "published_at": "2026-09-22T06:29:01+00:00",
-    "sources": [
-      "뉴스웍스"
+      "더구루"
     ],
     "keywords": [
       "한화시스템"
@@ -2021,45 +1837,6 @@
     "published_at": "2026-09-22T06:51:00+00:00",
     "sources": [
       "톱데일리"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "bf59439469ef",
-    "title": "김승연 회장, 한화시스템 구미 찾아 “독보적 국방 AI로 육·해·공 묶어라”",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81ZVZnTEZFaGZmN3lBZE8xX1RJaEFIbzJLRTlpRzFXaXR5VFFNUXhTSklTeW5GcFR6WG9waDdkOVlaRzFOU0dkMDh1ZHJHdzRNUklqYXpEODhieDBvU1c3OTNvbw?oc=5",
-    "published_at": "2026-09-22T07:02:22+00:00",
-    "sources": [
-      "매일산업뉴스"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "61c45bc42fc2",
-    "title": "[기업] '방산 거점' 찾은 한화 김승연 회장 \"독보적 국방 AI 역량 키워야\"",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rbFR1UVlDYnI1RWdaYlg0dVRDUVRSZ0VnOEJUa2pEcFNGdjJGYVc4bXlmWWYxRTNCOXhxZkE4eEs1Q2d6RWJURjczdzZiOWdaX2FFaGNIU0xDU1NFcHc?oc=5",
-    "published_at": "2026-09-22T09:40:00+00:00",
-    "sources": [
-      "ytn.co.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "0e976b15c1fa",
-    "title": "김승연 회장 \"한화 방산 경쟁력 좌우하는 핵심은 AI\"",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUQ2RWpJaE9hekNZY2VLRGRWNVpHRG9RSzZiOU5ONkF3Rk0xS09Kd0xJYTJXbXdhZ2pLblRGbkFIdUF0N2dEMGdJdjZqSHd3eXhiaUFsbldnUFBCSldZT2ZtSlFFX0t5REQ1emRxaVdUMzBDVkZRdkhBTlRGcUMwUWVralE5WnpoNzVTX3pyOA?oc=5",
-    "published_at": "2026-09-22T15:33:00+00:00",
-    "sources": [
-      "chosun.com"
     ],
     "keywords": [
       "한화시스템"
@@ -2085,7 +1862,7 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5NTlFaHV2cHVVWVVUZjFRWjdaaEFTM1RHODh1QkpoMGlMOW9xNDVXc2Ezdy00OUkybnVmbzVZNm81S3pmS2RyMmI2VnFSZFZ0MEF5aFhnQ0gtbTNQSTZ2QXVIQ1VrRThaWEhzam42V0tIUHBI0gF0QVVfeXFMT2tTZEh2RGFHM1A2bXM2TEZmUkhqZGtuaXNmaTFubHNLODR3ZC1wV3VaX1BtZndabDg2ck5tQUF6Q2hSUG10cjZFSmdSdGR1YVBaVS1zRVI0bFlCYnFBZGJMRGtnQ1BFcFRjVmV4OTVMaVdSNks?oc=5",
     "published_at": "2026-09-22T07:47:34+00:00",
     "sources": [
-      "imnews.imbc.com"
+      "MBC 뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -2106,12 +1883,12 @@
     "image": ""
   },
   {
-    "id": "30f53ab92244",
-    "title": "김승연 한화 회장, 한화시스템 구미 찾아 ‘국방 AI’ 점검…“독보적 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50b1RzcnFvYVJxc3BYRDNPQ3hfUUEzOWlIamMteWZjcXNZSjFiZUJ1YXd6SXcwcWE2WU14aE51STM0aG9VS1lpVnFTMVRYVm1DY0NlQ0NTVnNSVERSN2sxSnU0ZHlXVFdzcDNlODNn?oc=5",
-    "published_at": "2026-09-22T08:40:31+00:00",
+    "id": "503b65db85ed",
+    "title": "한화시스템, 현대로템과 단일판매·공급계약 체결…2025년 연결 매출액의 2.5% 이상",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3RER6WnZzVFdvNUZyakJlX3FuRmxNYkpLRGw3cFpJemZ4bkxrTS1QRUJialc4UFJzUjZWX2tCWE1NTTczRDJRR1ZVZ1M0V2lsOXMzV1RpbHAxVjJFS0dnUW9fa2pMY2lTVHFpRHVJaG41ZzdDQjNzOFpDbw?oc=5",
+    "published_at": "2026-09-23T04:02:01+00:00",
     "sources": [
-      "이지경제"
+      "디지털투데이"
     ],
     "keywords": [
       "한화시스템"
@@ -2145,51 +1922,12 @@
     "image": ""
   },
   {
-    "id": "8ce187c83278",
-    "title": "김승연 한화 회장, 구미사업장 방문 “국방 AI는 방산 경쟁력의 핵심… 독보적 역량 갖춰야”",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsbThOVlVEVkJ4Nm5jRU1ieXlPdDJ3a3FXZVJOUUtZNUhCbjJwdmE2Z0UxQjREZzEzV0JqdnoyWll5bGpESnJGNjFZMUZsb1JLb2F1ZGVIQ1VFbzVZSkRSTjNZWWFPZDZSZHNhSFc0Nmpfdw?oc=5",
-    "published_at": "2026-09-22T07:06:29+00:00",
+    "id": "14fc1eb18f4d",
+    "title": "김승연 한화 회장, 한화시스템 구미사업장 방문…\"독보적 국방 AI 역량 키워야\"",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwSTJINzIwekRuQktiV0hzVTg1c0hGMUJSZUN2MmNDTWRQaVRHMHQzbXZscmFrb1dTVDVtTjFlRFJIMGR6aHJNRFNrbmtjX0NnSEU2OTBtc0pSLUZ5VExxU1BWd0hPNEtnNE1HTzJ3?oc=5",
+    "published_at": "2026-09-23T02:26:42+00:00",
     "sources": [
-      "인더스트리뉴스"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "747b184edb24",
-    "title": "구미 현장 방문한 한화 김승연 회장 “미래 전장 이끌 국방 AI 역량 키워라”",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tMDBYRGNORHVaYTYtdERMeUFIMXA0VVh1b0NCOXBkMmFuamdodlZZSEZHbHdlSTNGbWhJZFJhcEN3WkhMa1hweDZvaVFUMGNMMjViUFZvVThCUjBSdUdv?oc=5",
-    "published_at": "2026-09-22T07:44:00+00:00",
-    "sources": [
-      "스마트투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "c7c0994fed09",
-    "title": "한화, 美 방산 '컨트롤타워' 윤곽…지상 K9부터 핵잠 사업까지 통합",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11WGFqWUl0T3hPWmo4clpsTVBJbGg4cGpEZUxuLWVLeEg1RXNsUVg0Ni1va1REbDZNczJrSFFfVG9LRmo1TURJMFZKdFdFbTFRSWpZRnY3eDVpenM4dnJlZVdBN0jSAWpBVV95cUxNWTExdndkckZVbDRKbi0tOW9iSERNUDVMbmt3Szl4VmpBR2puNzdzbnRzSllUVHZzMFdybE15ZnZsTk1pLVZMSHA1RGRLVzFoYldrREZBNDliR3NCUkVhV2xJVWx3V0p4cEln?oc=5",
-    "published_at": "2026-09-21T22:00:00+00:00",
-    "sources": [
-      "뉴스1"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "5d60149b580a",
-    "title": "천궁-II·KF-21 레이다 점검한 김승연 회장 \"독보적 국방 AI 역량 강화\" 주문",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uZ3Y1a0M0SzZxTElDNGM3Wi0ycUtFMXB4ZG9CZTg3RTc1dmhjXy04NjNpTVlEUHNHYWJ2cDlZQmQ3czJTakhzM0VSbFRzc194UjYxRmFaWmFFaWM4?oc=5",
-    "published_at": "2026-09-22T06:49:00+00:00",
-    "sources": [
-      "뉴스핌"
+      "폴리뉴스 Polinews"
     ],
     "keywords": [
       "한화시스템"
@@ -2215,20 +1953,7 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5ajVGTTNJOUtKSVJKbi1wLVhHdGwycVVoT3Z3LTMzeTRxR1VhU1l1cVdZQzVhUVNDT0ZoS0dqc19Bd1VqcnVVNFlvb0V3Y2FBOU01X0hqSTVGZw?oc=5",
     "published_at": "2026-09-22T08:26:42+00:00",
     "sources": [
-      "한국경제"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "c1b4aa9d5d7c",
-    "title": "김승연 한화그룹 회장, 한화시스템 구미사업장 방문해 미래 방산 기술 점검",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ua3ZNVHFGMlRaV1N5M0NsWUQ4OXFXcmt2WGpwVG9rTFJDd283UXhwT3F4MFRzeFlKS0pPZGp3NlNLNHdrZ3Z0d2JJMkRqekFQVWlwdnRRcVJGX0t0VEsxc3ZfX3kyUQ?oc=5",
-    "published_at": "2026-09-22T06:57:37+00:00",
-    "sources": [
-      "이슈투데이"
+      "hankyung.com"
     ],
     "keywords": [
       "한화시스템"
@@ -2249,32 +1974,6 @@
     "image": ""
   },
   {
-    "id": "bef2904d0302",
-    "title": "김승연 한화 회장 “대체불가한 독보적 국방 AI 역량 키워야”",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pVnB1dEE1b0tCM25UYlVpcWhfZkloZm9EaWhzUU1HNVVGYldjS0VTTFpaNFlCdG9COV9zQlJIUGpPMlh3Y0RUeXBoVmJKdTM1Y2cwOHhn?oc=5",
-    "published_at": "2026-09-22T06:56:30+00:00",
-    "sources": [
-      "헤럴드경제"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "36408c6d1860",
-    "title": "한화 김승연 \"방산 경쟁력 핵심은 AI\"…구미서 통합방공·레이다 점검",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90aUxrOTQ4ZUl0RklzaWNtODdxUUpyWHBsb1RMaTBPMW80ZnFLaE5HX0RQSUc4ZmlmTHZOVUVhd29lX3YzRW0zaURFRFlPTEt1NGpGNFFBbFV5a29VRWRJR2h6ajJTOVNPeC1QNkh3VkQ?oc=5",
-    "published_at": "2026-09-22T06:21:34+00:00",
-    "sources": [
-      "신아일보"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "75302cec8804",
     "title": "새 수장 맞은 한화에어로·한화시스템…방산 수출 외연 넓히나",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FV2xpRUVuOEpvUWdlaHJKYlNCd2VuTVdNT1Jtb1pBbVFGSWRjeHRGNmNJbDIzZHJPQ29jWFVPbGphRHlYSm85YXR4QUpDRFRVcW9iNDNyYUl1T1hodzVNemxqM19YcUd5VnQtWVRmeElyMjlCM3hUR1hfc0o?oc=5",
@@ -2288,12 +1987,12 @@
     "image": ""
   },
   {
-    "id": "5e9043cbd147",
-    "title": "김승연 회장, 구미서 방산 AI 점검...독보적 역량 강화 주문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VQzNzaHROa28tZEI0eWh6d19sakFhSzhTeVJvcl9sblJSeUQzNXo4WjA3bnMwa1NfWXRHbWpmUWtfTlgtLWZSb1c1QVY4aEFiSE0xY1BJLVZGUFdkekE?oc=5",
-    "published_at": "2026-09-22T07:54:00+00:00",
+    "id": "022420c99db3",
+    "title": "방산 거점 찾은 김승연 “독보적 국방 AI 역량 키워야”",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wenpUaHk5RkpMOVhlejFndXRSSnd0QnEzQm1jVENEdmlFY1drQnZjVlE0TmdQa214TWxfdkhuS3huZ1NOaTVHTno2M2xtT2UwZ2h2OWp1ZVc4MVRlUExDOTEtQllhOVp2WG9na3VqdWlJVnozcGfSAWZBVV95cUxNWlB2UjFORG1aMTBTZU1hV0FTQTZzaV9HcVA5dTJacWl6S0M1TGM0bTkwY1R3ZFA0SEVpYUlyRWt5NkFPcmxPYVFWdGFtcFBjcTNYdnZHWnBkdm9kR3kzMnVvTkJLV0E?oc=5",
+    "published_at": "2026-09-22T15:30:00+00:00",
     "sources": [
-      "뉴스투데이"
+      "동아일보"
     ],
     "keywords": [
       "한화시스템"
@@ -2301,12 +2000,12 @@
     "image": ""
   },
   {
-    "id": "54f074d92ddd",
-    "title": "김승연 한화 회장, 구미사업장 방문…“AI가 방산 경쟁력”",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBucVFjWWhIZTVSY3U5MGU4eDR1ajlVU0RlZHJodzN5SkZtczlVY3cydm81ekpZcWVVNkhhTG9TT2lNNGZkN0hRRHFNRTRCVzBxSW0xekhUclo1RHZ1M3hzMHV6ZUY?oc=5",
-    "published_at": "2026-09-22T06:35:23+00:00",
+    "id": "a0b1ab1a2f9e",
+    "title": "김승연, 한화시스템 현장경영…\"한화 방산 경쟁력 핵심은 AI\"",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VTdrZExyM3FRRWVueVFIZjFzY1JlMmVTcElZZG5vaWVjZEwxeTlsSHg5eEV0anVPMmRtOWF5VU5KN1l3UDloT1ZfRjJyNjgzUGZraFZQMjRXUQ?oc=5",
+    "published_at": "2026-09-22T06:00:00+00:00",
     "sources": [
-      "서울경제TV"
+      "파이낸셜뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -2314,12 +2013,12 @@
     "image": ""
   },
   {
-    "id": "f5aedd333607",
-    "title": "김승연 한화 회장, 한화시스템 구미사업장 방문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxdnNnc3J6WXl4WDhhVlkwRVdNZjdDMTRoR0F0RmZSMlBXZ05jWk1BUXRVTEdsUC1FRWxEMXRXU1cxLXJhanhkc090bUxrYWlNRzBBNC1kR09SRWF1N2QzLWZSS1RmVmJNbUM5WUtmSVc1Q3pXb083TFdB?oc=5",
-    "published_at": "2026-09-22T08:23:34+00:00",
+    "id": "40636ae1c5e1",
+    "title": "김승연 회장, 현장경영 행보 지속…\"독보적 국방 AI 역량 키워야\" [Biz 포커스]",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVmxSTTBESGtaRVdmTmo3QWRXT0g4RFRNWVp2SDhWcWhLZlhUMWRlNmplU01zUkoxR3FNZUZtRHR2ZTN2VTFvQ0lyUXVpWjZ4N0t0SEEzajlldG53LXZYbzNWQUdfWW00bFE?oc=5",
+    "published_at": "2026-09-22T07:10:10+00:00",
     "sources": [
-      "로이슈"
+      "뉴시안"
     ],
     "keywords": [
       "한화시스템"
@@ -2327,12 +2026,64 @@
     "image": ""
   },
   {
-    "id": "578bba419571",
-    "title": "김승연 회장, 올해 두 번째 현장경영…\"한화그룹 방산 경쟁력 AI가 좌우\"",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03dDNya1NhWDBZRm1zYTBicnp0Q18ySGhldGxBT29lWFNmSjZ1VDRRVTZ3TzhUNUJ6M0RjVjcyQm1vZUp6SnJ5Mk9oTmlCaHNBNzVvTEExWE5HYXltRXVwLVdR?oc=5",
-    "published_at": "2026-09-22T07:42:30+00:00",
+    "id": "d3dc5e89eadf",
+    "title": "한화 방산 ‘집안 거래’… 맏형 에어로 ‘투자 쏠림’ 우려",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5RDA4dkxGLTB0b0dKU1BOR2x1OUttMVUyLVlnc1JPMS1meUFpZ0pGZjhNY0hMQUlqTUphc0pKNS0wSThSUHE1YkxmdHhmM1U1VVJ2cmRqMThOZk5RM0E?oc=5",
+    "published_at": "2026-09-22T05:29:00+00:00",
     "sources": [
-      "디지털데일리"
+      "아시아타임즈"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "187fddab06c2",
+    "title": "우리 회사로 오세요…KAI 안방서 구인 나선 한화, 방산업계 인재 쟁탈전 격화",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92YnBVc2hyc1V1T0JWaU1rWl9fdGx2d25kREpSS1JqaVhOMHV5eE9VQ3R2dExCM29DaDl0R0d3ajRiM3luTFZlZUpBMkltbWFxNWpvRjZObW0zZ9IBWEFVX3lxTFBoLUpuRnk5YVJ6TjVha0c5cUhpeDZrZmNyaHZOekNkZnQ5S3ZScnFvWXVMSWtzdXA3OG5BZWtkU3pPMnZmbWJVYVB5NDJXRTlaS3ZoUmsycFE?oc=5",
+    "published_at": "2026-09-21T21:00:00+00:00",
+    "sources": [
+      "아주경제"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "30c4bb76692d",
+    "title": "한화, 美 지상·해양방산 한데 묶는다…한화에어로 자회사로 중심축 재편",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vYkN5VVRIX1F6cTJrdkZweFVUU1FnZzFweWtEeFpOOFBGdWJySjJOZWVyS0tqamstUEJsa1NSSFpwMk9YM0h4bE94TTg3UWs?oc=5",
+    "published_at": "2026-09-21T08:37:04+00:00",
+    "sources": [
+      "v.daum.net"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "0cf4288f35b1",
+    "title": "한화, UAE 방공체계 확대…개별 무기서 ’통합대공망’으로 By EBN",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55Y0NXNk1uTC1lYmxxMVh4SlNMYlBhdnN6TE91MEJTdkR3S1M0WnJUeDA3ZUhuRW9lZnBhcWNZcS1jVmFWZ2FCUGdOUV9tNm4tOE1EeDNPNUUyQ0I3Rk91dWI3TkZNSC1WNzRBT0o5cmE?oc=5",
+    "published_at": "2026-09-21T06:12:00+00:00",
+    "sources": [
+      "Investing.com 한국어"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "463512b72312",
+    "title": "한화, 3조원 투자 … 美아칸소서 탄약 만든다",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrRVBnaUU3VzR0T1JsdDNKLVNhWHo5UmpIS3ZUQU9EbTcxeWhKajlqM0s5SGJYaFpZamF0SkJid25LRnZzTXBrLTJlLTFLMlRvVk1vbE1R?oc=5",
+    "published_at": "2026-09-22T08:51:21+00:00",
+    "sources": [
+      "매일경제"
     ],
     "keywords": [
       "한화시스템"
