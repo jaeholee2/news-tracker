@@ -40,6 +40,19 @@
     "image": ""
   },
   {
+    "id": "5f65fc1c93e1",
+    "title": "한화·KAI, 미래 우주인재 키운다…'꿈나무' 육성 한마음",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1408264",
+    "published_at": "2026-09-26T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.daily.hankooki.com/news/thumbnail/202609/1408264_1587804_1654_v150.jpg"
+  },
+  {
     "id": "516ed1b6ba20",
     "title": "[안광섭 AI 진테제] 메타 '뮤즈'가 한국기업에 시사하는 것",
     "link": "https://zdnet.co.kr/view/?no=20260926142303",
@@ -64,6 +77,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.joongangenews.com/news/photo/202609/550623_357382_5835.jpg"
+  },
+  {
+    "id": "883c392ff9c6",
+    "title": "한섬, 해외패션 키우고 사업 효율화···하반기 실적 개선 기대",
+    "link": "https://www.seoulfn.com/news/articleView.html?idxno=638567",
+    "published_at": "2026-09-26T14:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.seoulfn.com/news/photo/202609/638567_441280_4558.jpg"
   },
   {
     "id": "5aee0c59521c",
@@ -136,8 +162,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260923166300008?input=1195m",
     "published_at": "2026-09-26T11:00:00+09:00",
     "sources": [
-      "Naver",
-      "매일경제 마켓"
+      "Naver"
     ],
     "keywords": [
       "한화시스템"
@@ -197,19 +222,6 @@
     "image": "https://image.newdaily.co.kr/site/data/img/2026/09/23/2026092300177_0.jpg?u=20260926090747?u=20260926090747"
   },
   {
-    "id": "57d5a8bf22db",
-    "title": "평택지제역 생활권 ‘한화포레나 지제역’ 10월 분양",
-    "link": "https://www.seoul.co.kr/news/economy/2026/09/22/20260922500204?wlog_tag3=naver",
-    "published_at": "2026-09-26T09:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/09/22/SSC_20260922153643_O2.jpg.webp"
-  },
-  {
     "id": "74f3cb3f5907",
     "title": "삼성SDS·네이버, 공공 이어 국방 AX서도 격돌하나 [빛이나는비즈]",
     "link": "https://www.sedaily.com/article/20094861?ref=naver",
@@ -223,17 +235,17 @@
     "image": "https://wimg.sedaily.com/news/cms/2026/09/24/news-p.v1.20260923.f88a9fd733c042e4915901bc0a688117_Z1.png"
   },
   {
-    "id": "5ac41225ef69",
-    "title": "토큰증권 시대 개막, 판 커진다",
-    "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=204607",
-    "published_at": "2026-09-26T09:00:00+09:00",
+    "id": "57d5a8bf22db",
+    "title": "평택지제역 생활권 ‘한화포레나 지제역’ 10월 분양",
+    "link": "https://www.seoul.co.kr/news/economy/2026/09/22/20260922500204?wlog_tag3=naver",
+    "published_at": "2026-09-26T09:01:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.sisaon.co.kr/news/photo/202609/204607_306853_2242.png"
+    "image": "https://img.seoul.co.kr//img/upload/2026/09/22/SSC_20260922153643_O2.jpg.webp"
   },
   {
     "id": "bbf397f905d0",
@@ -247,6 +259,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.newsroad.co.kr/news/thumbnail/202609/64813_87844_1424_v150.jpg"
+  },
+  {
+    "id": "5ac41225ef69",
+    "title": "토큰증권 시대 개막, 판 커진다",
+    "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=204607",
+    "published_at": "2026-09-26T09:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sisaon.co.kr/news/photo/202609/204607_306853_2242.png"
   },
   {
     "id": "554efbbc6497",
@@ -417,7 +442,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://menu.mtn.co.kr/upload/article/2026/09/23/2026092314172673013_00_979.jpg"
   },
   {
     "id": "562af517aac4",
@@ -472,9 +497,9 @@
     "image": "https://img.hankyung.com/photo/202609/AD.45785794.1.jpg"
   },
   {
-    "id": "17ed8ef0115c",
-    "title": "한화에어로가 그리는 '무인 전장'…2035년 완전자율체계 목표",
-    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260925010009050",
+    "id": "467666244fad",
+    "title": "[뉴(NEW) 희망의시대] 증권가, '통합금융 플랫폼'으로 전환 가속화",
+    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7184673",
     "published_at": "2026-09-25T09:00:00+09:00",
     "sources": [
       "Naver"
@@ -482,7 +507,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://img.asiatoday.co.kr/file/2026y/09m/25d/2026092501001670000090501.jpg"
+    "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202609/7184673_247709_4547_v150.jpg"
   },
   {
     "id": "40101a6cb354",
@@ -498,9 +523,9 @@
     "image": "https://cdn.asiaa.co.kr/news/photo/202609/263910_285994_4811.jpg"
   },
   {
-    "id": "467666244fad",
-    "title": "[뉴(NEW) 희망의시대] 증권가, '통합금융 플랫폼'으로 전환 가속화",
-    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7184673",
+    "id": "17ed8ef0115c",
+    "title": "한화에어로가 그리는 '무인 전장'…2035년 완전자율체계 목표",
+    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260925010009050",
     "published_at": "2026-09-25T09:00:00+09:00",
     "sources": [
       "Naver"
@@ -508,7 +533,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202609/7184673_247709_4547_v150.jpg"
+    "image": "https://img.asiatoday.co.kr/file/2026y/09m/25d/2026092501001670000090501.jpg"
   },
   {
     "id": "b274e50037df",
@@ -612,7 +637,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.venturesquare.net/wp-content/uploads/2026/09/STRA.jpg"
+    "image": ""
   },
   {
     "id": "ec29f3386aca",
@@ -851,19 +876,6 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.fa0ac660cad24906b889d9d30645b51b_P2.jpg"
   },
   {
-    "id": "d97a1bd74d26",
-    "title": "'한화포레나 지제역', 평택지제역 교통망 연계 대단지 10월 공급 예정",
-    "link": "https://www.apnews.kr/news/articleView.html?idxno=3051450",
-    "published_at": "2026-09-24T09:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.apnews.kr/news/thumbnail/202609/3051450_84497_4132_v150.jpg"
-  },
-  {
     "id": "dc86d2a0974f",
     "title": "\"올 추석도 사람이 운전했다\"…휴머노이드 열풍 뒤 다시 뜨는 '로보택시...",
     "link": "http://www.popcornnews.net/news/articleView.html?idxno=134044",
@@ -875,6 +887,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.popcornnews.net/news/thumbnail/202609/134044_159843_25_v150.jpg"
+  },
+  {
+    "id": "d97a1bd74d26",
+    "title": "'한화포레나 지제역', 평택지제역 교통망 연계 대단지 10월 공급 예정",
+    "link": "https://www.apnews.kr/news/articleView.html?idxno=3051450",
+    "published_at": "2026-09-24T09:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.apnews.kr/news/thumbnail/202609/3051450_84497_4132_v150.jpg"
   },
   {
     "id": "9b18ab2800f5",
@@ -1032,7 +1057,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.imaeil.com/photos/2026/09/23/2026092310585830371_l.jpg"
+    "image": ""
   },
   {
     "id": "8a4e7bddb5f8",
@@ -1071,7 +1096,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://www.korea.kr/images/event/korea_logo_actually_2024.jpg"
   },
   {
     "id": "f25bd2f6750d",
@@ -1321,32 +1346,6 @@
     "image": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/09/23/.cache/512/20260923500301.png"
   },
   {
-    "id": "cf04a4b0edd0",
-    "title": "중국산 태양광 퇴출 격랑… OCI홀딩스, 북미 시장 수혜주로 두각",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490059",
-    "published_at": "2026-09-23T15:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490059_475956_2139_v150.jpg"
-  },
-  {
-    "id": "c8554fb64044",
-    "title": "김동선의 한화M&S, 출범 한 달…600억 투자재원·주주환원 기반 마련",
-    "link": "https://www.ceoscoredaily.com/page/view/2026092315090464603",
-    "published_at": "2026-09-23T15:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/2026/09/23/2026092315085526032_l.jpg"
-  },
-  {
     "id": "b65621de9e1e",
     "title": "\"적자 조선소 넘겼지만\" 한화시스템 매각대금 2938억, 차입 3.4조 앞에선 '제한적'",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KQnlwRWlWQ2FmS1FvMmt0U2pEYWJJTDJyM016WjI2cE95UXh4RTd3NzhxcGdfN251eHk5ZVdUNUwwNmJnWGRrYS02bUd0U3NlNDFsMTIyZ0luSlBxRzZj?oc=5",
@@ -1360,12 +1359,25 @@
     "image": ""
   },
   {
+    "id": "599e80abeec8",
+    "title": "한화-UAE 통합방공망 구축 추진에 증권가 기대감",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03Z2Y5Q0x3bUttQ0g4dlk3Q01sdUR0dVQtdUdTQ2wtdVFhWTBTV0lSSzFZNDMwbGNWTkV4MGpzVU9nSDV2aks3QXNRTjdZTGFDTFdRVEVHTkF4VlN1RGZDcTc4bE8?oc=5",
+    "published_at": "2026-09-26T09:11:32+00:00",
+    "sources": [
+      "드론매거진 뉴스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "d90826d82934",
     "title": "[총수家] 김승연 한화그룹 회장 ③ㅣ K-방산 AI 혁신부터 임직원 격려까지…현장 경영으로 그리는 한화의 미래",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFNm5mQmVqMEhERWdYVEJPSW0xYTRtOUpLVTdkWnRHUFNkbUxPZVNQNGNENDJ0czBGUk9iT0pnU2RqT0FiVFB2aUtqWmNucmhxY2JqUGN0RE1Ucjd1d2k2aW44TzJPcVpm?oc=5",
     "published_at": "2026-09-26T04:06:23+00:00",
     "sources": [
-      "cbci.co.kr"
+      "CBC뉴스"
     ],
     "keywords": [
       "한화시스템"
@@ -1386,32 +1398,6 @@
     "image": ""
   },
   {
-    "id": "033af0aed3cd",
-    "title": "게임 흐름이 끊길 때 확인하는 한화 시스템 블록 체인 연결 상태",
-    "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQdnplZnY1aEJIVGtta2t1Rzk0cDU2amR4czhLYWwtWDlFWUxWNXNLbnR3LUtXTkltcW9wRWFRbEZQLW56Yktia08xWEYwRkN3aUh1U3k4TFUzbnlMb2VPeEtDWHVyMS1ma0hSaWtUbGp0LWg4X2VnTllkM3hucE5OcVVHamQ2SFFPNy1YUU13dWxadnN3RHhFbXdGa3gxQWxiWEowSUlDaTAxYWdEQmFfX3p6SjJ4VWhXSWR2V3A5Q295ZVg5M0xUN3RyWlJUU0E0dmp4YWl5a1RZVThPVXRUX2ViVkN4NXZIU2dFNlVqcWhPakZnYTFnZ0pUcFJUZl93eVJSeVlwOHZscWhaM0RpU2VRUFQ1eGFwS0ZSMWtOdGs1eVEzeVBZdzI2V2N6c195a0R4d2FWYnBsVXJlckZqN0dGMHROVnBvT3hfZm1mT2hHeG13QjRDZko4RnRNMlRHazl4cWgyNVZiZ3lfRnBQa1J1alNGM0xJR1FFNlRFT3lWYURqakNBTzFaaHFESGc5VC1YUUduX2c1WWhfa2lyRk1zaTNHQTJ3bWRjX3pqRlpKZGZEdEN5R1UyOXFEelBJak9FWE9GQzJZWjZvajVNakJkNFBKb2xOdUd3?oc=5",
-    "published_at": "2026-09-25T19:47:22+00:00",
-    "sources": [
-      "Calgary Roughnecks"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "b67f73e668c1",
-    "title": "한화시스템, 필리조선소 매각 '반쪽 효과'…신용도 개선은 제한",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wM29MUVpjcFB3NnhDc3Fxa20yVG41Z0tXbVlQNTg1YVpuZ2xmMDFSLXFfMHZBMDNrQVVVa05KdU5BdDhsRjFQRkMwUHhTeGlmYVNxYkZvWHRJZ3VscEpfbnktX0Y?oc=5",
-    "published_at": "2026-09-23T05:18:25+00:00",
-    "sources": [
-      "PRESS9"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "8a3438ec60c7",
     "title": "방산 현장 찾은 김승연 “한화 방산 경쟁력, AI가 핵심”",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KVWFwa0RFb1Q4dHBfWnZ2LWJWZUdIRklDRU9XQjRzVUR2SlR2OEtrdXcyMkFENWtTeE5aV0ZqX1oxdDN0QnV1RVdTeWNvNng1bUh2Y3lTVQ?oc=5",
@@ -1425,12 +1411,12 @@
     "image": ""
   },
   {
-    "id": "e447f7d0079b",
-    "title": "필리조선소 지분 처분한 한화시스템···우주 AI·통합방공 키운다",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CNmhoaGZWR1ZKaXFDUG8zSEkzQndaVGkwQ1QwVHJjdy1rbUtyYnBJSXNxdkEtazJyVnNfMG1VRUxhMG4yME5KRDZZUFMwRzdpNkpHV1RGMkg0Y2d3YWQzX0ljYnNjYmp6aVE?oc=5",
-    "published_at": "2026-09-23T02:01:06+00:00",
+    "id": "033af0aed3cd",
+    "title": "게임 흐름이 끊길 때 확인하는 한화 시스템 블록 체인 연결 상태",
+    "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQdnplZnY1aEJIVGtta2t1Rzk0cDU2amR4czhLYWwtWDlFWUxWNXNLbnR3LUtXTkltcW9wRWFRbEZQLW56Yktia08xWEYwRkN3aUh1U3k4TFUzbnlMb2VPeEtDWHVyMS1ma0hSaWtUbGp0LWg4X2VnTllkM3hucE5OcVVHamQ2SFFPNy1YUU13dWxadnN3RHhFbXdGa3gxQWxiWEowSUlDaTAxYWdEQmFfX3p6SjJ4VWhXSWR2V3A5Q295ZVg5M0xUN3RyWlJUU0E0dmp4YWl5a1RZVThPVXRUX2ViVkN4NXZIU2dFNlVqcWhPakZnYTFnZ0pUcFJUZl93eVJSeVlwOHZscWhaM0RpU2VRUFQ1eGFwS0ZSMWtOdGs1eVEzeVBZdzI2V2N6c195a0R4d2FWYnBsVXJlckZqN0dGMHROVnBvT3hfZm1mT2hHeG13QjRDZko4RnRNMlRHazl4cWgyNVZiZ3lfRnBQa1J1alNGM0xJR1FFNlRFT3lWYURqakNBTzFaaHFESGc5VC1YUUduX2c1WWhfa2lyRk1zaTNHQTJ3bWRjX3pqRlpKZGZEdEN5R1UyOXFEelBJak9FWE9GQzJZWjZvajVNakJkNFBKb2xOdUd3?oc=5",
+    "published_at": "2026-09-25T19:47:22+00:00",
     "sources": [
-      "뉴스웨이"
+      "Calgary Roughnecks"
     ],
     "keywords": [
       "한화시스템"
@@ -1451,12 +1437,38 @@
     "image": ""
   },
   {
+    "id": "e447f7d0079b",
+    "title": "필리조선소 지분 처분한 한화시스템···우주 AI·통합방공 키운다",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CNmhoaGZWR1ZKaXFDUG8zSEkzQndaVGkwQ1QwVHJjdy1rbUtyYnBJSXNxdkEtazJyVnNfMG1VRUxhMG4yME5KRDZZUFMwRzdpNkpHV1RGMkg0Y2d3YWQzX0ljYnNjYmp6aVE?oc=5",
+    "published_at": "2026-09-23T02:01:06+00:00",
+    "sources": [
+      "뉴스웨이"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "f2393846b0c4",
     "title": "자본잠식 한화 필리조선소, 몸값 2배 뛰었다",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5QlBNUlo2M21mVGVuNXVMY2dYem5YMlRNSm1uTXNFN2N2RWJMRGNwakdyS1hxSndEMUxUME1SS0Vqa29pdFNjS3cxMDctaFFrNHFqMzlsZlhpSlRLRHhHTXlMZGRQc2xjSkVBbQ?oc=5",
     "published_at": "2026-09-23T00:35:02+00:00",
     "sources": [
-      "비즈워치"
+      "news.bizwatch.co.kr"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "df577799a8f1",
+    "title": "UAE發 K-방산 훈풍, 주가 상승 넘어 중장기 성장 동력 되나 : 경제",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5hdWFLRDBfTnRmMnA0Z21MSFNtQmVQT21kUUpFTGhJU2FrbXVyZFB4MzVGZldTS3o5Rll6RlVad3N4ZzRrRWFwMnln?oc=5",
+    "published_at": "2026-09-26T03:20:00+00:00",
+    "sources": [
+      "재경일보"
     ],
     "keywords": [
       "한화시스템"
@@ -1495,7 +1507,7 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3RER6WnZzVFdvNUZyakJlX3FuRmxNYkpLRGw3cFpJemZ4bkxrTS1QRUJialc4UFJzUjZWX2tCWE1NTTczRDJRR1ZVZ1M0V2lsOXMzV1RpbHAxVjJFS0dnUW9fa2pMY2lTVHFpRHVJaG41ZzdDQjNzOFpDbw?oc=5",
     "published_at": "2026-09-23T04:02:01+00:00",
     "sources": [
-      "디지털투데이"
+      "digitaltoday.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -1508,20 +1520,7 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PYVVFcWxXdmI5X2k3VTIxX3o0SEQ4RGdCMWx4THZFbnM0R1B3TzNPWVZnUS1Td3MzM3N0d1ltVzZ0VFkxUjlmVUpCQUlSaVN6WnRBcEt2S2Z3Qk44aXBNUW5CdlpRazhL?oc=5",
     "published_at": "2026-09-23T03:47:32+00:00",
     "sources": [
-      "cbci.co.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "f78e6edf0184",
-    "title": "UAE發 49조 방산 빅딜 열린다…한화-EDGE ‘통합대공망’ 합의에 L-SAM 첫 수출 ‘가시권’ · 향후 전망은?",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GSGhSV0JFVmJSS2ZneVZiSlhTNnEzMUU4QklQWm9ESW9KTnJQeV83WEZlOS16QXhVdjQ2UWVQU1dzcnJQbnBpOVNvUkpDWUcwZWlBQmdRSW9OSVpZ?oc=5",
-    "published_at": "2026-09-25T23:00:00+00:00",
-    "sources": [
-      "supple.kr"
+      "CBC뉴스"
     ],
     "keywords": [
       "한화시스템"
