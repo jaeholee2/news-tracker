@@ -6,7 +6,7 @@
     "published_at": "2026-09-25T15:56:00+09:00",
     "sources": [
       "Naver",
-      "아주경제"
+      "ajunews.com"
     ],
     "keywords": [
       "5G 특화망"
@@ -40,6 +40,84 @@
     "image": ""
   },
   {
+    "id": "596cf9cb8cf7",
+    "title": "한화, 세계 최대 美 방산시장 승부수…사업구조 재편 고삐 [비즈360]",
+    "link": "https://biz.heraldcorp.com/article/10883075?ref=naver",
+    "published_at": "2026-09-27T06:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260819.c3d0505eeadc42b4bc392e1df9a36ad1_P1.png"
+  },
+  {
+    "id": "c7f539c903b6",
+    "title": "[기고]온체인 금융, 시장 열린 뒤 준비하면 늦는다",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01095526645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-09-27T06:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092700006.jpg"
+  },
+  {
+    "id": "69599d88ba10",
+    "title": "대기업 유동성 해법 된 PRS…주가 하락 땐 정산 리스크 '부메랑'",
+    "link": "https://www.etoday.co.kr/news/view/2628858",
+    "published_at": "2026-09-27T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.etoday.co.kr/pto_db/2026/05/20260512165151_2332598_1200_815.jpg"
+  },
+  {
+    "id": "29e54a1f303f",
+    "title": "[단독] 방사청, 18년 묵은 ‘망분리’ 빗장 푼다…K-방산 클라우드 대전...",
+    "link": "https://www.ekn.kr/web/view.php?key=20260923023317757",
+    "published_at": "2026-09-27T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.ekn.kr/mnt/file/202609/news-p.v1.20260922.090e7807cf7341aa8180c50b9b1883ee_R.png"
+  },
+  {
+    "id": "bd66a3144f4f",
+    "title": "글로벌 방산 경쟁 한창인데…국감장 줄소환 위기 놓인 K-방산 수장들",
+    "link": "https://www.dailian.co.kr/news/view/1694120/?sc=Naver",
+    "published_at": "2026-09-27T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdnimage.dailian.co.kr/news/202609/news_1790139135692_1694120_m_1.jpg"
+  },
+  {
+    "id": "c8c505711e25",
+    "title": "[인터뷰] 최용준 C&W 상무 “본사 입지 기준 바뀌었다… 기업들 강남서...",
+    "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/27/GOC5YK2MDVFHHAEXE33VHDG6YQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "published_at": "2026-09-27T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://biz.chosun.com/resizer/v2/EVYSPPJILJD6PJ3IOFPW3P4GVQ.jpg?auth=1ad1707aa503e52a99009266b89e1dc2d4b7e36e616990d5b97270147802a968&width=1200&height=630&smart=true"
+  },
+  {
     "id": "252274ef09e8",
     "title": "[크립토리뷰] 원체인 밸리데이터에 '해시키 클라우드' 합류…글로벌 노...",
     "link": "https://www.theguru.co.kr/news/article.html?no=107566",
@@ -50,7 +128,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.theguru.co.kr/data/photos/20260939/art_17902595909282_aa11f0.jpg"
+    "image": ""
   },
   {
     "id": "e4191ee585c2",
@@ -276,19 +354,6 @@
     "image": "https://image.newdaily.co.kr/site/data/img/2026/09/23/2026092300177_0.jpg?u=20260926090747?u=20260926090747"
   },
   {
-    "id": "74f3cb3f5907",
-    "title": "삼성SDS·네이버, 공공 이어 국방 AX서도 격돌하나 [빛이나는비즈]",
-    "link": "https://www.sedaily.com/article/20094861?ref=naver",
-    "published_at": "2026-09-26T09:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/09/24/news-p.v1.20260923.f88a9fd733c042e4915901bc0a688117_Z1.png"
-  },
-  {
     "id": "57d5a8bf22db",
     "title": "평택지제역 생활권 ‘한화포레나 지제역’ 10월 분양",
     "link": "https://www.seoul.co.kr/news/economy/2026/09/22/20260922500204?wlog_tag3=naver",
@@ -300,6 +365,19 @@
       "한화시스템"
     ],
     "image": "https://img.seoul.co.kr//img/upload/2026/09/22/SSC_20260922153643_O2.jpg.webp"
+  },
+  {
+    "id": "74f3cb3f5907",
+    "title": "삼성SDS·네이버, 공공 이어 국방 AX서도 격돌하나 [빛이나는비즈]",
+    "link": "https://www.sedaily.com/article/20094861?ref=naver",
+    "published_at": "2026-09-26T09:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/09/24/news-p.v1.20260923.f88a9fd733c042e4915901bc0a688117_Z1.png"
   },
   {
     "id": "5ac41225ef69",
@@ -386,7 +464,7 @@
     "published_at": "2026-09-26T07:00:00+09:00",
     "sources": [
       "Naver",
-      "오늘경제"
+      "startuptoday.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -495,7 +573,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://menu.mtn.co.kr/upload/article/2026/09/23/2026092314172673013_00_979.jpg"
+    "image": ""
   },
   {
     "id": "562af517aac4",
@@ -550,9 +628,9 @@
     "image": "https://img.hankyung.com/photo/202609/AD.45785794.1.jpg"
   },
   {
-    "id": "17ed8ef0115c",
-    "title": "한화에어로가 그리는 '무인 전장'…2035년 완전자율체계 목표",
-    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260925010009050",
+    "id": "40101a6cb354",
+    "title": "\"화면 밖으로 나온 AI\" 산업계·정부, '피지컬 AI' 시장 선점 속도 낸다",
+    "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=263910",
     "published_at": "2026-09-25T09:00:00+09:00",
     "sources": [
       "Naver"
@@ -560,7 +638,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://img.asiatoday.co.kr/file/2026y/09m/25d/2026092501001670000090501.jpg"
+    "image": "https://cdn.asiaa.co.kr/news/photo/202609/263910_285994_4811.jpg"
   },
   {
     "id": "467666244fad",
@@ -576,9 +654,9 @@
     "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202609/7184673_247709_4547_v150.jpg"
   },
   {
-    "id": "40101a6cb354",
-    "title": "\"화면 밖으로 나온 AI\" 산업계·정부, '피지컬 AI' 시장 선점 속도 낸다",
-    "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=263910",
+    "id": "17ed8ef0115c",
+    "title": "한화에어로가 그리는 '무인 전장'…2035년 완전자율체계 목표",
+    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260925010009050",
     "published_at": "2026-09-25T09:00:00+09:00",
     "sources": [
       "Naver"
@@ -586,7 +664,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.asiaa.co.kr/news/photo/202609/263910_285994_4811.jpg"
+    "image": "https://img.asiatoday.co.kr/file/2026y/09m/25d/2026092501001670000090501.jpg"
   },
   {
     "id": "b274e50037df",
@@ -929,19 +1007,6 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.fa0ac660cad24906b889d9d30645b51b_P2.jpg"
   },
   {
-    "id": "dc86d2a0974f",
-    "title": "\"올 추석도 사람이 운전했다\"…휴머노이드 열풍 뒤 다시 뜨는 '로보택시...",
-    "link": "http://www.popcornnews.net/news/articleView.html?idxno=134044",
-    "published_at": "2026-09-24T09:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.popcornnews.net/news/thumbnail/202609/134044_159843_25_v150.jpg"
-  },
-  {
     "id": "d97a1bd74d26",
     "title": "'한화포레나 지제역', 평택지제역 교통망 연계 대단지 10월 공급 예정",
     "link": "https://www.apnews.kr/news/articleView.html?idxno=3051450",
@@ -953,6 +1018,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.apnews.kr/news/thumbnail/202609/3051450_84497_4132_v150.jpg"
+  },
+  {
+    "id": "dc86d2a0974f",
+    "title": "\"올 추석도 사람이 운전했다\"…휴머노이드 열풍 뒤 다시 뜨는 '로보택시...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=134044",
+    "published_at": "2026-09-24T09:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.popcornnews.net/news/thumbnail/202609/134044_159843_25_v150.jpg"
   },
   {
     "id": "9b18ab2800f5",
@@ -1056,7 +1134,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://d2k8i5ah8p7h3l.cloudfront.net/photos/d0b0fa90530c215dbf5d86d6bc7facaf/thumb.jpg"
+    "image": ""
   },
   {
     "id": "a2a5176a15cc",
@@ -1091,12 +1169,12 @@
     "published_at": "2026-09-23T22:06:00+09:00",
     "sources": [
       "Naver",
-      "kbmaeil.com"
+      "경북매일"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/09/23/.cache/512/20260923500193.jpg"
+    "image": ""
   },
   {
     "id": "5f4bc90c9ba3",
@@ -1268,84 +1346,6 @@
     "image": "https://economist.co.kr/data/ecn/image/2026/05/18/ecn20260518000046.800x.0.jpg"
   },
   {
-    "id": "ca3c1f951d0f",
-    "title": "한화-KAI, 국내 최초 '덕티드 램제트' 적용 장거리 공대공 유도탄 개발 ...",
-    "link": "http://www.lkp.news/news/articleView.html?idxno=84400",
-    "published_at": "2026-09-23T16:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.lkp.news/news/thumbnail/202609/84400_100149_639_v150.jpg"
-  },
-  {
-    "id": "812fdf5371f0",
-    "title": "공공조달 '나홀로 입찰' 성행... 4년간 수의계약 전환 5조 넘어",
-    "link": "https://www.fnnews.com/news/202609231638242813",
-    "published_at": "2026-09-23T16:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://static.fnnews.com/resources/img/logo/fnnews_og.jpg"
-  },
-  {
-    "id": "ac2f5b09f485",
-    "title": "추석 앞두고 협력사에 수조원 푸는 재계…2·3차까지 지원 확대",
-    "link": "https://www.thebigdata.co.kr/view.php?ud=2026092315375688530ecbf9426b_23",
-    "published_at": "2026-09-23T16:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202609231635060924900ecbf9426b2112341995.jpg&nmt=23"
-  },
-  {
-    "id": "50ae5fc66707",
-    "title": "[중화학 ON] SK엔무브·LG전자, 차세대 냉매·냉동기유·액침냉각 공동 ...",
-    "link": "https://dealsite.co.kr/articles/169563",
-    "published_at": "2026-09-23T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/09/23/9182a4e5733d412880c8902a94d362b7/thumb.jpg"
-  },
-  {
-    "id": "6772f4091773",
-    "title": "[코스피 지수선물 옵션] SK하이닉스부터 주성엔지니어링까지 상승…방산...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490098",
-    "published_at": "2026-09-23T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490098_475990_3537_v150.jpg"
-  },
-  {
-    "id": "eedadd654963",
-    "title": "반도체 훈풍, 코스피 '상승'...한화솔루션 & 삼전닉스 '활짝'",
-    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=171675",
-    "published_at": "2026-09-23T16:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202609/171675_131417_249_v150.jpg"
-  },
-  {
     "id": "b65621de9e1e",
     "title": "\"적자 조선소 넘겼지만\" 한화시스템 매각대금 2938억, 차입 3.4조 앞에선 '제한적'",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KQnlwRWlWQ2FmS1FvMmt0U2pEYWJJTDJyM016WjI2cE95UXh4RTd3NzhxcGdfN251eHk5ZVdUNUwwNmJnWGRrYS02bUd0U3NlNDFsMTIyZ0luSlBxRzZj?oc=5",
@@ -1385,6 +1385,19 @@
     "image": ""
   },
   {
+    "id": "b67f73e668c1",
+    "title": "한화시스템, 필리조선소 매각 '반쪽 효과'…신용도 개선은 제한",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wM29MUVpjcFB3NnhDc3Fxa20yVG41Z0tXbVlQNTg1YVpuZ2xmMDFSLXFfMHZBMDNrQVVVa05KdU5BdDhsRjFQRkMwUHhTeGlmYVNxYkZvWHRJZ3VscEpfbnktX0Y?oc=5",
+    "published_at": "2026-09-23T05:18:25+00:00",
+    "sources": [
+      "PRESS9"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "d90826d82934",
     "title": "[총수家] 김승연 한화그룹 회장 ③ㅣ K-방산 AI 혁신부터 임직원 격려까지…현장 경영으로 그리는 한화의 미래",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFNm5mQmVqMEhERWdYVEJPSW0xYTRtOUpLVTdkWnRHUFNkbUxPZVNQNGNENDJ0czBGUk9iT0pnU2RqT0FiVFB2aUtqWmNucmhxY2JqUGN0RE1Ucjd1d2k2aW44TzJPcVpm?oc=5",
@@ -1398,12 +1411,12 @@
     "image": ""
   },
   {
-    "id": "97b4ed264b6c",
-    "title": "김승연 회장, 한화시스템 구미공장 찾아 '국방 AI' 경쟁력' 강조",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OVkE5dVNaQjFQYjdKTXF4QWUtX09kb1VHZ3lhbC1TYWlYcktCQ01LTlhfc0xOdzFqUF8ySlpYWWo2eGlWS0x5R3VIVFpSZGZCRmdZdzQySFZIM2lpZUlSbWptQWtGMzVPbHVqY0pJOA?oc=5",
-    "published_at": "2026-09-23T01:21:59+00:00",
+    "id": "e447f7d0079b",
+    "title": "필리조선소 지분 처분한 한화시스템···우주 AI·통합방공 키운다",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CNmhoaGZWR1ZKaXFDUG8zSEkzQndaVGkwQ1QwVHJjdy1rbUtyYnBJSXNxdkEtazJyVnNfMG1VRUxhMG4yME5KRDZZUFMwRzdpNkpHV1RGMkg0Y2d3YWQzX0ljYnNjYmp6aVE?oc=5",
+    "published_at": "2026-09-23T02:01:06+00:00",
     "sources": [
-      "이코리아"
+      "뉴스웨이"
     ],
     "keywords": [
       "한화시스템"
@@ -1411,12 +1424,12 @@
     "image": ""
   },
   {
-    "id": "e447f7d0079b",
-    "title": "필리조선소 지분 처분한 한화시스템···우주 AI·통합방공 키운다",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CNmhoaGZWR1ZKaXFDUG8zSEkzQndaVGkwQ1QwVHJjdy1rbUtyYnBJSXNxdkEtazJyVnNfMG1VRUxhMG4yME5KRDZZUFMwRzdpNkpHV1RGMkg0Y2d3YWQzX0ljYnNjYmp6aVE?oc=5",
-    "published_at": "2026-09-23T02:01:06+00:00",
+    "id": "97b4ed264b6c",
+    "title": "김승연 회장, 한화시스템 구미공장 찾아 '국방 AI' 경쟁력' 강조",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OVkE5dVNaQjFQYjdKTXF4QWUtX09kb1VHZ3lhbC1TYWlYcktCQ01LTlhfc0xOdzFqUF8ySlpYWWo2eGlWS0x5R3VIVFpSZGZCRmdZdzQySFZIM2lpZUlSbWptQWtGMzVPbHVqY0pJOA?oc=5",
+    "published_at": "2026-09-23T01:21:59+00:00",
     "sources": [
-      "뉴스웨이"
+      "이코리아"
     ],
     "keywords": [
       "한화시스템"
@@ -1450,19 +1463,6 @@
     "image": ""
   },
   {
-    "id": "c60e3519a63b",
-    "title": "한화시스템, AI 우주상황인식체계 개발 착수… 우주 안전 지킨다",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NWHJxLTBVbVZjbHRxUUtTV1NSNHQyV3pmenB4ZjRmTVdNcFZRMTB5QjlvWHlNaGJvWTZ1N0t4bzNMWE1CRzhUQTNac1hHM1dIblNTRWVtUzhlRDNnMVBDcXNueGxlbWhuU0hjblhR?oc=5",
-    "published_at": "2026-09-23T01:41:00+00:00",
-    "sources": [
-      "koreasprint.com"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "bb9f05b335bf",
     "title": "한화 '우주 감시망' 실체 드러났다…쎄트렉아이와 'SAR+10cm급 광학위성 4기' 결합",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXTnU3bjlMdGdkVTF5UFduM3VFOEU0VHlSdDY0S1NWVGVBcTNYRmpkeTB1ekpMblg3aHZ3cjJ6aUJiTGoxSDlXaGFUS0Nwd0hrZXNCOFB3UWc4Y01KWkVrMExPRQ?oc=5",
@@ -1476,64 +1476,12 @@
     "image": ""
   },
   {
-    "id": "503b65db85ed",
-    "title": "한화시스템, 현대로템과 단일판매·공급계약 체결…2025년 연결 매출액의 2.5% 이상",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3RER6WnZzVFdvNUZyakJlX3FuRmxNYkpLRGw3cFpJemZ4bkxrTS1QRUJialc4UFJzUjZWX2tCWE1NTTczRDJRR1ZVZ1M0V2lsOXMzV1RpbHAxVjJFS0dnUW9fa2pMY2lTVHFpRHVJaG41ZzdDQjNzOFpDbw?oc=5",
-    "published_at": "2026-09-23T04:02:01+00:00",
-    "sources": [
-      "디지털투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "7b40123d8d30",
-    "title": "[속보] 한화시스템, 현대로템과 공급계약 체결…계약금액은 비공개",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PYVVFcWxXdmI5X2k3VTIxX3o0SEQ4RGdCMWx4THZFbnM0R1B3TzNPWVZnUS1Td3MzM3N0d1ltVzZ0VFkxUjlmVUpCQUlSaVN6WnRBcEt2S2Z3Qk44aXBNUW5CdlpRazhL?oc=5",
-    "published_at": "2026-09-23T03:47:32+00:00",
-    "sources": [
-      "cbci.co.kr"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "df577799a8f1",
-    "title": "UAE發 K-방산 훈풍, 주가 상승 넘어 중장기 성장 동력 되나 : 경제",
-    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5hdWFLRDBfTnRmMnA0Z21MSFNtQmVQT21kUUpFTGhJU2FrbXVyZFB4MzVGZldTS3o5Rll6RlVad3N4ZzRrRWFwMnln?oc=5",
-    "published_at": "2026-09-26T03:20:00+00:00",
-    "sources": [
-      "재경일보"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "af486d1766a3",
     "title": "한화, 미국에 22억달러 탄약공장 구축… 김승연 “국방 AI 키워라”",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CNUhaNFIwRlo0bndyYWdTdEhGZlNZeDlfNm9hRUxNMnYzekZrVVVEZlVmS245bnh0RXZzWkJzeWxWWGtvMUdheG1pOW5uc0JiZ3lreTd2bEMxRzRSS3NR?oc=5",
     "published_at": "2026-09-25T03:00:00+00:00",
     "sources": [
       "미주한국일보"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "033af0aed3cd",
-    "title": "게임 흐름이 끊길 때 확인하는 한화 시스템 블록 체인 연결 상태",
-    "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQdnplZnY1aEJIVGtta2t1Rzk0cDU2amR4czhLYWwtWDlFWUxWNXNLbnR3LUtXTkltcW9wRWFRbEZQLW56Yktia08xWEYwRkN3aUh1U3k4TFUzbnlMb2VPeEtDWHVyMS1ma0hSaWtUbGp0LWg4X2VnTllkM3hucE5OcVVHamQ2SFFPNy1YUU13dWxadnN3RHhFbXdGa3gxQWxiWEowSUlDaTAxYWdEQmFfX3p6SjJ4VWhXSWR2V3A5Q295ZVg5M0xUN3RyWlJUU0E0dmp4YWl5a1RZVThPVXRUX2ViVkN4NXZIU2dFNlVqcWhPakZnYTFnZ0pUcFJUZl93eVJSeVlwOHZscWhaM0RpU2VRUFQ1eGFwS0ZSMWtOdGs1eVEzeVBZdzI2V2N6c195a0R4d2FWYnBsVXJlckZqN0dGMHROVnBvT3hfZm1mT2hHeG13QjRDZko4RnRNMlRHazl4cWgyNVZiZ3lfRnBQa1J1alNGM0xJR1FFNlRFT3lWYURqakNBTzFaaHFESGc5VC1YUUduX2c1WWhfa2lyRk1zaTNHQTJ3bWRjX3pqRlpKZGZEdEN5R1UyOXFEelBJak9FWE9GQzJZWjZvajVNakJkNFBKb2xOdUd3?oc=5",
-    "published_at": "2026-09-25T19:47:22+00:00",
-    "sources": [
-      "Calgary Roughnecks"
     ],
     "keywords": [
       "한화시스템"
