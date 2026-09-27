@@ -1,11 +1,25 @@
 [
   {
+    "id": "3f890cf7ea3b",
+    "title": "두두건설, 포천시 내촌면 이웃사랑 나눔 릴레이 57호 동참",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85VmhWQXFOQmRINzdjbThrQ21jTElWUzltSUFRYXZTM0s2OHVvLUNDSFZPN2dQMzBFR0xiamptRW9keUtNRXVDMDFIb21VRU1FbDlIWmxWd3loX3pHMnJkeGdPRFhJOWRZMHUyQkJZa0dHeWNUd2dDOVRB?oc=5",
+    "published_at": "2026-09-27T09:09:49+00:00",
+    "sources": [
+      "koreajournal.co.kr"
+    ],
+    "keywords": [
+      "두두원"
+    ],
+    "image": ""
+  },
+  {
     "id": "4f562ebc5a32",
     "title": "[AI국가대전환=한국방송통신전파진흥원] 5G 특화망에 'AI 두뇌' 심는다",
     "link": "https://www.ajunews.com/view/20260923093533070",
     "published_at": "2026-09-25T15:56:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "ajunews.com"
     ],
     "keywords": [
       "5G 특화망"
@@ -24,6 +38,71 @@
       "5G 특화망"
     ],
     "image": "https://cdn.boannews.com/news/photo/202609/146039_128105_742.jpg"
+  },
+  {
+    "id": "f55d0125cb11",
+    "title": "[한국정보보호학회칼럼] 5G 특화망 보안, ‘전용망의 환상’을 넘어 상시 검증으로",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4X0plTFNyWE5EWTdyXzlZdnk2SEQ4d3ZjLVNLNEJPZjNsai1tY2NRVzlreUl6UHcyX0xBZ2tiZGxUV0VYUUpVWFB0QlJKTjQ?oc=5",
+    "published_at": "2026-09-25T04:40:11+00:00",
+    "sources": [
+      "v.daum.net"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "4d4ea18f742f",
+    "title": "[N2 모닝 경제 브리핑-9월 28일] 美 증시, 유가 하락에 3대 지수 일제 강...",
+    "link": "https://www.news2day.co.kr/article/20260923500299",
+    "published_at": "2026-09-28T05:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/09/23/.cache/512/20260923500298.png"
+  },
+  {
+    "id": "a48afbfa0c5d",
+    "title": "\"전 세계 발주량 75% 싹쓸이\"… 中 조선소, 대형 LNG선 '선건조 후매각'...",
+    "link": "https://www.g-enews.com/view.php?ud=2026092716115479330c8c1c064d_1",
+    "published_at": "2026-09-28T05:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20260927161321069220c8c1c064d22114611240.jpg"
+  },
+  {
+    "id": "3549999903d4",
+    "title": "곽빈이 멱살잡고 가져온 金메달→'연봉 54억' 올스타급 대표팀의 착시…...",
+    "link": "https://www.sportschosun.com/baseball/2026-09-27/202609280100182470012042",
+    "published_at": "2026-09-28T05:45:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.sportschosun.com/article/html/2026/09/27/2026092801001824700120422_w.jpg"
+  },
+  {
+    "id": "e2d31d685fd0",
+    "title": "연휴 끝난 증시, 30만전자·200만닉스 쏠린 눈…삼성전자 오늘 ‘배당 막...",
+    "link": "https://www.dt.co.kr/article/12085999?ref=naver",
+    "published_at": "2026-09-28T05:25:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.dt.co.kr/news/cms/2026/09/28/news-p.v1.20260927.aaa5bd5ca8364eed9c7c33295726902a_R.png"
   },
   {
     "id": "cf4dc2504cbb",
@@ -481,19 +560,6 @@
     "image": "https://cdn.digitaltoday.co.kr/news/photo/202609/703052_650781_125.jpg"
   },
   {
-    "id": "4e9ba113e2e6",
-    "title": "한화시스템, 필리조선소 지분 정리... 美 사업 에어로 중심 재편",
-    "link": "https://www.chosun.com/economy/industry-company/2026/09/27/CP2TAIK7WJDBNIULNVV2H7BF7I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "published_at": "2026-09-27T13:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.chosun.com/resizer/v2/GNSDEYTBMRSGGMZSHA3DCYJUMY.jpg?auth=4eeed1a969d0853f571a8c3b08de1a1319f4d7206326582bec080cb50f2dc630&width=1200&height=630&smart=true"
-  },
-  {
     "id": "66472b7032c4",
     "title": "\"삼성전자 30조 배당 막차 타자\"…레버리지도 줄줄이 '불기둥'[펀드와치...",
     "link": "https://www.edaily.co.kr/News/Read?newsId=01538326645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -505,6 +571,20 @@
       "한화시스템"
     ],
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092700255.jpg"
+  },
+  {
+    "id": "4e9ba113e2e6",
+    "title": "한화시스템, 필리조선소 지분 정리... 美 사업 에어로 중심 재편",
+    "link": "https://www.chosun.com/economy/industry-company/2026/09/27/CP2TAIK7WJDBNIULNVV2H7BF7I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "published_at": "2026-09-27T13:28:00+09:00",
+    "sources": [
+      "Naver",
+      "조선일보"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.chosun.com/resizer/v2/GNSDEYTBMRSGGMZSHA3DCYJUMY.jpg?auth=4eeed1a969d0853f571a8c3b08de1a1319f4d7206326582bec080cb50f2dc630&width=1200&height=630&smart=true"
   },
   {
     "id": "1e80f9ed2f3a",
@@ -608,7 +688,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/27/f665aaff-6010-4119-a552-39d696db5b63.jpg"
   },
   {
     "id": "984b79dcbac8",
@@ -629,7 +709,8 @@
     "link": "https://www.newspim.com/news/view/20260923000697",
     "published_at": "2026-09-27T08:33:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "뉴스핌"
     ],
     "keywords": [
       "한화시스템"
@@ -663,19 +744,6 @@
     "image": "https://d2k8i5ah8p7h3l.cloudfront.net/photos/b010deb8e52a80a95e4730d4e4efb9a6/thumb.jpg"
   },
   {
-    "id": "6ea98bb3fd36",
-    "title": "숨은 전차도 찾아낸다…'드론', 전장의 상식을 바꾸다",
-    "link": "https://www.ddaily.co.kr/page/view/2026092322492276162",
-    "published_at": "2026-09-27T08:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/photos/2026/09/23/2026092322195701409_l.jpg"
-  },
-  {
     "id": "6b6f8cf3b994",
     "title": "‘대형 LNG선 건조’ 中 조선소 6곳으로 는다…韓 조선 3사 “차세대 기...",
     "link": "https://biz.heraldcorp.com/article/10883634?ref=naver",
@@ -687,6 +755,19 @@
       "한화시스템"
     ],
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20250705.8d5aebf8229447f98062ddeed60deb77_P1.png"
+  },
+  {
+    "id": "6ea98bb3fd36",
+    "title": "숨은 전차도 찾아낸다…'드론', 전장의 상식을 바꾸다",
+    "link": "https://www.ddaily.co.kr/page/view/2026092322492276162",
+    "published_at": "2026-09-27T08:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "/photos/2026/09/23/2026092322195701409_l.jpg"
   },
   {
     "id": "a18aae016023",
@@ -715,19 +796,6 @@
     "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1186,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/09/2026092216555580640_1.jpg"
   },
   {
-    "id": "b9e714745e21",
-    "title": "내달 7일 '누리호 5차' 발사 앞둬…한화에어로 등 '민간 주도' 우주시대...",
-    "link": "https://www.newsis.com/view/NISX20260921_0003798957",
-    "published_at": "2026-09-27T07:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/09/15/NISI20260915_0002239840_web.jpg"
-  },
-  {
     "id": "6fc429d14c6b",
     "title": "스마트 시티·AI 통합 보안 수요 급증… 물리보안 관련주 '훨훨'",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490451",
@@ -739,6 +807,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202609/490451_476312_266_v150.jpg"
+  },
+  {
+    "id": "b9e714745e21",
+    "title": "내달 7일 '누리호 5차' 발사 앞둬…한화에어로 등 '민간 주도' 우주시대...",
+    "link": "https://www.newsis.com/view/NISX20260921_0003798957",
+    "published_at": "2026-09-27T07:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.newsis.com/2026/09/15/NISI20260915_0002239840_web.jpg"
   },
   {
     "id": "5c471c8cec91",
@@ -767,19 +848,6 @@
     "image": "https://nimage.newsway.co.kr/photo/2026/04/19/20260419000031_1200.jpg"
   },
   {
-    "id": "83aaa44ccc5d",
-    "title": "70조 일감 쌓였는데 사람이 없다…K방산 '인재 쟁탈전'",
-    "link": "http://www.inews24.com/view/2009036",
-    "published_at": "2026-09-27T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.inews24.com/v1/2996d1c0a149a4.jpg"
-  },
-  {
     "id": "7b622e99d9af",
     "title": "[K-방산은 지금] 전장의 눈 'SAR', 우주로 간다",
     "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=728321",
@@ -791,6 +859,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.the-biz.co.kr/news/photo/202609/728321_933988_3356.png"
+  },
+  {
+    "id": "83aaa44ccc5d",
+    "title": "70조 일감 쌓였는데 사람이 없다…K방산 '인재 쟁탈전'",
+    "link": "http://www.inews24.com/view/2009036",
+    "published_at": "2026-09-27T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.inews24.com/v1/2996d1c0a149a4.jpg"
   },
   {
     "id": "63f4aaff16fc",
@@ -832,9 +913,9 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092700006.jpg"
   },
   {
-    "id": "c8c505711e25",
-    "title": "[인터뷰] 최용준 C&W 상무 “본사 입지 기준 바뀌었다… 기업들 강남서...",
-    "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/27/GOC5YK2MDVFHHAEXE33VHDG6YQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "id": "29e54a1f303f",
+    "title": "[단독] 방사청, 18년 묵은 ‘망분리’ 빗장 푼다…K-방산 클라우드 대전...",
+    "link": "https://www.ekn.kr/web/view.php?key=20260923023317757",
     "published_at": "2026-09-27T06:00:00+09:00",
     "sources": [
       "Naver"
@@ -842,7 +923,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://biz.chosun.com/resizer/v2/EVYSPPJILJD6PJ3IOFPW3P4GVQ.jpg?auth=1ad1707aa503e52a99009266b89e1dc2d4b7e36e616990d5b97270147802a968&width=1200&height=630&smart=true"
+    "image": "https://www.ekn.kr/mnt/file/202609/news-p.v1.20260922.090e7807cf7341aa8180c50b9b1883ee_R.png"
   },
   {
     "id": "bd66a3144f4f",
@@ -871,9 +952,9 @@
     "image": "https://img.etoday.co.kr/pto_db/2026/05/20260512165151_2332598_1200_815.jpg"
   },
   {
-    "id": "29e54a1f303f",
-    "title": "[단독] 방사청, 18년 묵은 ‘망분리’ 빗장 푼다…K-방산 클라우드 대전...",
-    "link": "https://www.ekn.kr/web/view.php?key=20260923023317757",
+    "id": "c8c505711e25",
+    "title": "[인터뷰] 최용준 C&W 상무 “본사 입지 기준 바뀌었다… 기업들 강남서...",
+    "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/27/GOC5YK2MDVFHHAEXE33VHDG6YQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
     "published_at": "2026-09-27T06:00:00+09:00",
     "sources": [
       "Naver"
@@ -881,7 +962,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.ekn.kr/mnt/file/202609/news-p.v1.20260922.090e7807cf7341aa8180c50b9b1883ee_R.png"
+    "image": "https://biz.chosun.com/resizer/v2/EVYSPPJILJD6PJ3IOFPW3P4GVQ.jpg?auth=1ad1707aa503e52a99009266b89e1dc2d4b7e36e616990d5b97270147802a968&width=1200&height=630&smart=true"
   },
   {
     "id": "252274ef09e8",
@@ -915,7 +996,8 @@
     "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=359611",
     "published_at": "2026-09-26T21:20:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "비즈트리뷴"
     ],
     "keywords": [
       "한화시스템"
@@ -1058,7 +1140,8 @@
     "link": "https://www.yna.co.kr/view/AKR20260923166300008?input=1195m",
     "published_at": "2026-09-26T11:00:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "매일경제 마켓"
     ],
     "keywords": [
       "한화시스템"
@@ -1118,19 +1201,6 @@
     "image": "https://image.newdaily.co.kr/site/data/img/2026/09/23/2026092300177_0.jpg?u=20260926090747?u=20260926090747"
   },
   {
-    "id": "57d5a8bf22db",
-    "title": "평택지제역 생활권 ‘한화포레나 지제역’ 10월 분양",
-    "link": "https://www.seoul.co.kr/news/economy/2026/09/22/20260922500204?wlog_tag3=naver",
-    "published_at": "2026-09-26T09:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/09/22/SSC_20260922153643_O2.jpg.webp"
-  },
-  {
     "id": "74f3cb3f5907",
     "title": "삼성SDS·네이버, 공공 이어 국방 AX서도 격돌하나 [빛이나는비즈]",
     "link": "https://www.sedaily.com/article/20094861?ref=naver",
@@ -1144,17 +1214,17 @@
     "image": "https://wimg.sedaily.com/news/cms/2026/09/24/news-p.v1.20260923.f88a9fd733c042e4915901bc0a688117_Z1.png"
   },
   {
-    "id": "bbf397f905d0",
-    "title": "\"평택서 여기만 프리미엄?\" 5개 노선 품은 한화포레나 지제역, 지제역 생...",
-    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=64813",
-    "published_at": "2026-09-26T09:00:00+09:00",
+    "id": "57d5a8bf22db",
+    "title": "평택지제역 생활권 ‘한화포레나 지제역’ 10월 분양",
+    "link": "https://www.seoul.co.kr/news/economy/2026/09/22/20260922500204?wlog_tag3=naver",
+    "published_at": "2026-09-26T09:01:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202609/64813_87844_1424_v150.jpg"
+    "image": "https://img.seoul.co.kr//img/upload/2026/09/22/SSC_20260922153643_O2.jpg.webp"
   },
   {
     "id": "5ac41225ef69",
@@ -1170,6 +1240,19 @@
     "image": "https://cdn.sisaon.co.kr/news/photo/202609/204607_306853_2242.png"
   },
   {
+    "id": "bbf397f905d0",
+    "title": "\"평택서 여기만 프리미엄?\" 5개 노선 품은 한화포레나 지제역, 지제역 생...",
+    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=64813",
+    "published_at": "2026-09-26T09:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202609/64813_87844_1424_v150.jpg"
+  },
+  {
     "id": "554efbbc6497",
     "title": "[선제 투자와 주주환원①] 1569억 원 '역대급' 수주 LS마린솔루션… 개조...",
     "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=522955",
@@ -1180,7 +1263,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cdn.ilyoseoul.co.kr/news/photo/202609/522955_484469_1712.jpg"
   },
   {
     "id": "e120b67d0fa0",
@@ -1274,55 +1357,107 @@
     "image": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/09/22/.cache/512/20260922500387.jpg"
   },
   {
-    "id": "42415f94da95",
-    "title": "日 사회인 야구에 쩔쩔→추석날 도요하시 참사…‘노시환 연타석 병살+...",
-    "link": "https://www.mk.co.kr/article/12161470",
-    "published_at": "2026-09-25T21:09:00+09:00",
+    "id": "41603b0c08c1",
+    "title": "한화시스템, 美 필리조선소 지분 60% 전량 처분…3229억원 규모",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wUzc2UmF0Y2ltRFdBWW1sQVhBQXJHaVJtT0oyV000Zng5U0hPa1ljSTdTWjRMRXpwSDhmbi0xZEtTekU2UFhIYzhTdWNIQ3JMZXoxUk0yUGhtZkVoVnYtaG9RYWFOVGk2blQw?oc=5",
+    "published_at": "2026-09-27T12:43:06+00:00",
     "sources": [
-      "Naver"
+      "해사신문"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://wimg.mk.co.kr/news/cms/202609/27/news-p.v1.20260925.63ba307a30674ca0909cf572b7de4dcf_P1.jpg"
+    "image": ""
   },
   {
-    "id": "b07b31cc2e09",
-    "title": "[인터뷰] AI 시대 망설이는 기업들, 정부가 'AI 리더' 돼야",
-    "link": "https://zdnet.co.kr/view/?no=20260925050919",
-    "published_at": "2026-09-25T15:38:00+09:00",
+    "id": "5067e6404f3e",
+    "title": "[방산 리포트] 한화에어로·LIG·KAI 줄수혜 기대…L-SAM 사상 첫 해외 수출 가시화",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GdTJ6SG93UWlIaFRvUmljV21QSDVZbE4zMzlEcm9kV3JKYU5OUGxPOXlVeEtsdnZLNEludUs4UzdSYnBLX3FaeEszV2hXaUFxR2JwcUZST2tUdjI0anQwRkNXeEVMX2Qt?oc=5",
+    "published_at": "2026-09-27T12:05:00+00:00",
     "sources": [
-      "Naver"
+      "CBC뉴스"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://image.zdnet.co.kr/2026/09/25/190196367325a23109fd4fdcac2156e8.jpg"
+    "image": ""
   },
   {
-    "id": "082e692f5dd7",
-    "title": "[AI 열폭주 잡는 K산업]下 \"기름에 서버 풍덩\"…정유 4사 꽂힌 새 먹거리",
-    "link": "https://news.bizwatch.co.kr/article/industry/2026/09/22/0044",
-    "published_at": "2026-09-25T15:00:00+09:00",
+    "id": "5ffeb72ff064",
+    "title": "한화시스템, 필리조선소 지분 정리…적자 부담 덜고 재무 숨통",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12N1hzdjdTSmZ2MTNNWHVNQncxMjM2RmtSU1NINUJ5bmJDaWI3UVpPU0ZORnJ3TjhsNGlMenh0cWJYYU5pVjBhOHhlU0hTLVFmQmhpY3NwYVVkc05wdWNqcVZ5NmVqQVBM0gFsQVVfeXFMTkZsMlQ0WjJ3NEZfamFzRXFUblBGWXVhN1JWR1ZqYktkelFmVXJRQTBHU3VITGI1bGVPRk96OE00VUpUdm9uVGhTcjd0SE0tdDRGSkZKYVpQTU1QT3J2NF95bHRaeHFKZGlRZENf?oc=5",
+    "published_at": "2026-09-24T06:00:00+00:00",
     "sources": [
-      "Naver"
+      "블로터"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.bizwatch.co.kr/news/photo/2026/09/22/a63107641f327a3404d2d0d55cadd4f7.jpg"
+    "image": ""
   },
   {
-    "id": "b0568b86af33",
-    "title": "[K바이오 돈의 경로] 성장축마다 다른 자금조달 방식｜차바이오텍①",
-    "link": "https://www.bloter.net/news/articleView.html?idxno=674197",
-    "published_at": "2026-09-25T13:00:00+09:00",
+    "id": "b33a3534968e",
+    "title": "한화시스템, 필리조선소 지분 60% 매각…3250억원 유동성 확보",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FbDdUbHNmd3JDYzdoN0MxejBHaE9EWGdndEtnNGRaNUFHQVBwbUt2TmRKWGlIZHI4VlMtX0VmdlJ2UVFuMk5Lb1dLUDN0ZHBtYlN0RFlCYTVoclNrZXQzbTN2Y3JydjhqQVBXOQ?oc=5",
+    "published_at": "2026-09-24T08:57:04+00:00",
     "sources": [
-      "Naver"
+      "메디컬투데이"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.bloter.net/news/thumbnail/202609/674197_287922_340_v150.jpg"
+    "image": ""
+  },
+  {
+    "id": "599e80abeec8",
+    "title": "한화-UAE 통합방공망 구축 추진에 증권가 기대감",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03Z2Y5Q0x3bUttQ0g4dlk3Q01sdUR0dVQtdUdTQ2wtdVFhWTBTV0lSSzFZNDMwbGNWTkV4MGpzVU9nSDV2aks3QXNRTjdZTGFDTFdRVEVHTkF4VlN1RGZDcTc4bE8?oc=5",
+    "published_at": "2026-09-26T09:11:32+00:00",
+    "sources": [
+      "드론매거진 뉴스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "af486d1766a3",
+    "title": "한화, 미국에 22억달러 탄약공장 구축… 김승연 “국방 AI 키워라”",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CNUhaNFIwRlo0bndyYWdTdEhGZlNZeDlfNm9hRUxNMnYzekZrVVVEZlVmS245bnh0RXZzWkJzeWxWWGtvMUdheG1pOW5uc0JiZ3lreTd2bEMxRzRSS3NR?oc=5",
+    "published_at": "2026-09-25T03:00:00+00:00",
+    "sources": [
+      "미주한국일보"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "f6afff3d0dd8",
+    "title": "한화와 공정위 간 미묘한 기류...KAI 민영화 영향 미칠까",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KR19uU1RRNEdjWndmOTl1UDVGaEt6WlliQjBVZXZNcEdQUWY2aG9GbHVPRmhqN3NMODlKek5tdjlrdTY1OWpPOU1aOE5vblo2bU5hNEp0UEZIeDJOSnNYRWthMk8?oc=5",
+    "published_at": "2026-09-25T03:00:01+00:00",
+    "sources": [
+      "news.mtn.co.kr"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "033af0aed3cd",
+    "title": "게임 흐름이 끊길 때 확인하는 한화 시스템 블록 체인 연결 상태",
+    "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQdnplZnY1aEJIVGtta2t1Rzk0cDU2amR4czhLYWwtWDlFWUxWNXNLbnR3LUtXTkltcW9wRWFRbEZQLW56Yktia08xWEYwRkN3aUh1U3k4TFUzbnlMb2VPeEtDWHVyMS1ma0hSaWtUbGp0LWg4X2VnTllkM3hucE5OcVVHamQ2SFFPNy1YUU13dWxadnN3RHhFbXdGa3gxQWxiWEowSUlDaTAxYWdEQmFfX3p6SjJ4VWhXSWR2V3A5Q295ZVg5M0xUN3RyWlJUU0E0dmp4YWl5a1RZVThPVXRUX2ViVkN4NXZIU2dFNlVqcWhPakZnYTFnZ0pUcFJUZl93eVJSeVlwOHZscWhaM0RpU2VRUFQ1eGFwS0ZSMWtOdGs1eVEzeVBZdzI2V2N6c195a0R4d2FWYnBsVXJlckZqN0dGMHROVnBvT3hfZm1mT2hHeG13QjRDZko4RnRNMlRHazl4cWgyNVZiZ3lfRnBQa1J1alNGM0xJR1FFNlRFT3lWYURqakNBTzFaaHFESGc5VC1YUUduX2c1WWhfa2lyRk1zaTNHQTJ3bWRjX3pqRlpKZGZEdEN5R1UyOXFEelBJak9FWE9GQzJZWjZvajVNakJkNFBKb2xOdUd3?oc=5",
+    "published_at": "2026-09-25T19:47:22+00:00",
+    "sources": [
+      "Calgary Roughnecks"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   }
 ]
