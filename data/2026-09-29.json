@@ -5,8 +5,7 @@
     "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868256",
     "published_at": "2026-09-29T09:58:00+09:00",
     "sources": [
-      "Naver",
-      "한스경제"
+      "Naver"
     ],
     "keywords": [
       "5G 특화망"
@@ -103,7 +102,7 @@
     "keywords": [
       "5G 특화망"
     ],
-    "image": "https://cdn.fntoday.co.kr/news/thumbnail/202609/394001_317992_104_v150.jpg"
+    "image": "https://www.fntoday.co.kr/news/thumbnail/202609/394001_317992_104_v150.jpg"
   },
   {
     "id": "72edb6deb722",
@@ -113,7 +112,6 @@
     "sources": [
       "Naver",
       "IT조선",
-      "바이라인네트워크",
       "이코리아"
     ],
     "keywords": [
@@ -247,7 +245,7 @@
     "published_at": "2026-09-28T15:22:00+09:00",
     "sources": [
       "Naver",
-      "m-i.kr"
+      "매일일보"
     ],
     "keywords": [
       "5G 특화망"
@@ -340,8 +338,7 @@
     "link": "https://www.datasom.co.kr/news/articleView.html?idxno=210120",
     "published_at": "2026-09-28T14:44:00+09:00",
     "sources": [
-      "Naver",
-      "데이터솜"
+      "Naver"
     ],
     "keywords": [
       "5G 특화망"
@@ -410,11 +407,11 @@
     "published_at": "2026-09-28T13:46:00+09:00",
     "sources": [
       "Naver",
-      "paxetv.com",
+      "팍스경제TV",
       "라이센스뉴스",
       "v.daum.net",
       "더팩트",
-      "newsian.co.kr"
+      "뉴시안"
     ],
     "keywords": [
       "5G 특화망"
@@ -721,7 +718,8 @@
     "link": "http://www.finomy.com/news/articleView.html?idxno=262359",
     "published_at": "2026-09-28T10:56:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "현대경제신문"
     ],
     "keywords": [
       "5G 특화망"
@@ -768,19 +766,6 @@
     "image": ""
   },
   {
-    "id": "3903afc97698",
-    "title": "하나금융티아이·SKT, 금융권 최초 5G 특화망 업무망 구축…청라 헤드쿼터 16개 층",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5c3hQRnpiU3IyYnpSYjNVMkpMNUpWdlpTeFBSQnVLeE5hWTJaaUJ6T0IxYWVhNDdpdDBYdy1tNkZSMEd6U1lPY0FsUnFVWmVxXzBEb2FEZFkyVVYtR0lneHdKSm5pUUJ5dWVmU9IBb0FVX3lxTE1SYnQ4ekJHaS10NmFwVzhsR2xxWDl3V0NzTTVtTXZaM2FabDN1alFQbFJPcG00TUo3T0xVLUhSdFN3bmI2emo0bVY1My14Z3pDUnRXMllURHRoTzdwa28zRTFWSEZvb1E1ZzhGNVlCZw?oc=5",
-    "published_at": "2026-09-29T01:43:23+00:00",
-    "sources": [
-      "중앙뉴스"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
     "id": "b8c9c62934b0",
     "title": "SKT-하나금융-삼성전자, 금융권 최초로 ‘5G 특화망 스마트 오피스’ 구축해 AX 가속",
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44UktmamVCNnIxbTY0MEtIMnpVWElZYlBjUy16TUJ2cE40aDE0ZTg1aUgycEpMcVJCOTJEckpoTk1UN1dmaUhwVA?oc=5",
@@ -794,12 +779,12 @@
     "image": ""
   },
   {
-    "id": "dc65fe7d992b",
-    "title": "하나금융그룹, SKT·삼성과 금융권 첫 5G 특화망 스마트 오피스 구축",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WUGNWU2xVZEtHMnFETEU3SE1TZEFTMTc0ZHF2eVdxT3pVRGpBUk1Wa0hTdGFidjVwNE9XeTBYMTJJamVNWjF1VUQ5ZHh5OTZuMFJKZDhVYVpEcDRORzRhdDdtY0pKNWPSAWtBVV95cUxNbjljSWc0R1VuMTd3M1dJRWxYU1VrMmtlZVZqaTNIWW5BMmJWdnRhSThUUGZZTzNXbGNUSXE1YWZmZlJZSWdfcXFFR0xsOTlBWE5kV2ZuQ1ZrcGljbVJUT2RhcnR5LUZQTG9XMA?oc=5",
-    "published_at": "2026-09-29T04:38:41+00:00",
+    "id": "1a688f54790d",
+    "title": "하나금융, 청라 헤드쿼터에 5G 특화망 구축…10개 관계사 공동 이용",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5meE9mOVJYeGdEdGliMGVGUExZQTR5elpSRnozVEQ1SkllbmJhLUt3enc0WHZxM2Rxa0ZvMHR4U2xGZnJqYTdxcWc3V2pfSFp4TlN3dXNOY01DR1NoM1dCX2FvcWVTdUpBSmN5REFMNUtiUdIBdkFVX3lxTFA1eHd4TzBkNFZZdmNOLXpObEJfT1ZSSXhzdGhROUNnZVJMS0U5N2d1UkQ1VWFQeGlNLUhjZTlkZ1ZZY0xzMmhjbFhOdTMwSnN3SVExQ3JZcDlZXzc4UkdWNDk4ZDRFWlo5Y0FDRzhpRnl4MVVqaVE?oc=5",
+    "published_at": "2026-09-28T05:56:40+00:00",
     "sources": [
-      "금융계"
+      "포춘코리아"
     ],
     "keywords": [
       "5G 특화망"
@@ -807,12 +792,12 @@
     "image": ""
   },
   {
-    "id": "1a688f54790d",
-    "title": "하나금융, 청라 헤드쿼터에 5G 특화망 구축…10개 관계사 공동 이용",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5meE9mOVJYeGdEdGliMGVGUExZQTR5elpSRnozVEQ1SkllbmJhLUt3enc0WHZxM2Rxa0ZvMHR4U2xGZnJqYTdxcWc3V2pfSFp4TlN3dXNOY01DR1NoM1dCX2FvcWVTdUpBSmN5REFMNUtiUdIBdkFVX3lxTFA1eHd4TzBkNFZZdmNOLXpObEJfT1ZSSXhzdGhROUNnZVJMS0U5N2d1UkQ1VWFQeGlNLUhjZTlkZ1ZZY0xzMmhjbFhOdTMwSnN3SVExQ3JZcDlZXzc4UkdWNDk4ZDRFWlo5Y0FDRzhpRnl4MVVqaVE?oc=5",
-    "published_at": "2026-09-28T05:56:40+00:00",
+    "id": "3903afc97698",
+    "title": "하나금융티아이·SKT, 금융권 최초 5G 특화망 업무망 구축…청라 헤드쿼터 16개 층",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5c3hQRnpiU3IyYnpSYjNVMkpMNUpWdlpTeFBSQnVLeE5hWTJaaUJ6T0IxYWVhNDdpdDBYdy1tNkZSMEd6U1lPY0FsUnFVWmVxXzBEb2FEZFkyVVYtR0lneHdKSm5pUUJ5dWVmU9IBb0FVX3lxTE1SYnQ4ekJHaS10NmFwVzhsR2xxWDl3V0NzTTVtTXZaM2FabDN1alFQbFJPcG00TUo3T0xVLUhSdFN3bmI2emo0bVY1My14Z3pDUnRXMllURHRoTzdwa28zRTFWSEZvb1E1ZzhGNVlCZw?oc=5",
+    "published_at": "2026-09-29T01:43:23+00:00",
     "sources": [
-      "포춘코리아"
+      "중앙뉴스"
     ],
     "keywords": [
       "5G 특화망"
@@ -846,12 +831,52 @@
     "image": ""
   },
   {
+    "id": "8629d9d8d6dc",
+    "title": "하나금융, SKT·삼성전자와 손잡았다…5G 특화망 구축",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fMS1IMS1KYnYtR0ItY1lwb01vdGV4bGVIRzAza0NHZXZFUXpQN2VaMjl2Rnp5anBJWWMxcndnUDI0OHRaeXZNS0JKX2IwamJpTkZoYldMTV9NNkhCcXdlcg?oc=5",
+    "published_at": "2026-09-28T00:09:31+00:00",
+    "sources": [
+      "아시아경제",
+      "v.daum.net"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "dc65fe7d992b",
+    "title": "하나금융그룹, SKT·삼성과 금융권 첫 5G 특화망 스마트 오피스 구축",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WUGNWU2xVZEtHMnFETEU3SE1TZEFTMTc0ZHF2eVdxT3pVRGpBUk1Wa0hTdGFidjVwNE9XeTBYMTJJamVNWjF1VUQ5ZHh5OTZuMFJKZDhVYVpEcDRORzRhdDdtY0pKNWPSAWtBVV95cUxNbjljSWc0R1VuMTd3M1dJRWxYU1VrMmtlZVZqaTNIWW5BMmJWdnRhSThUUGZZTzNXbGNUSXE1YWZmZlJZSWdfcXFFR0xsOTlBWE5kV2ZuQ1ZrcGljbVJUT2RhcnR5LUZQTG9XMA?oc=5",
+    "published_at": "2026-09-29T04:38:41+00:00",
+    "sources": [
+      "금융계"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
     "id": "6b4116f9523c",
     "title": "하나금융, 금융권 최초 '5G 특화망' 적용 업무망 가동",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KcE15YksxX1lqRXRTWkc1bXhRdUhhOGdkbjVsVWplVmNYTi1aUTJEVGYxNUV3T2h4b2IyRmVBRXJlNnk2bkMzclpPT29oQUdmMzJzeWlIcjA?oc=5",
     "published_at": "2026-09-28T04:20:51+00:00",
     "sources": [
       "경제타임스"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "dbe1087f1714",
+    "title": "금융권도 5G 특화망 시대…기업 전용망 시장 커진다",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51ZUowRDd3am1rVGNZd0Fqc3NnWGVuZmVIZFYyNWozUzBGVkpYdF90QlNxd01jR2Ixd3hvS05Ea3NXSXlnVTY5Xy1OSlVIbHVjZFBlNWpQRWNLaWgtWnZqNXQ3d3BZcV9o0gFsQVVfeXFMTVlHZklISWhNb05fN3lCX1pwSFF5eE95YWNMeTlFQUIyZXYxN2pkSHBvVjJXMmFiTzR0bExxRk54TXpJVDBfOElCallXNFp4RnZwYXN5S2JfZ1JqcmtqdldEYlhXNk4zdUl1UXBS?oc=5",
+    "published_at": "2026-09-28T01:00:49+00:00",
+    "sources": [
+      "정보통신신문"
     ],
     "keywords": [
       "5G 특화망"
@@ -872,12 +897,12 @@
     "image": ""
   },
   {
-    "id": "dbe1087f1714",
-    "title": "금융권도 5G 특화망 시대…기업 전용망 시장 커진다",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51ZUowRDd3am1rVGNZd0Fqc3NnWGVuZmVIZFYyNWozUzBGVkpYdF90QlNxd01jR2Ixd3hvS05Ea3NXSXlnVTY5Xy1OSlVIbHVjZFBlNWpQRWNLaWgtWnZqNXQ3d3BZcV9o0gFsQVVfeXFMTVlHZklISWhNb05fN3lCX1pwSFF5eE95YWNMeTlFQUIyZXYxN2pkSHBvVjJXMmFiTzR0bExxRk54TXpJVDBfOElCallXNFp4RnZwYXN5S2JfZ1JqcmtqdldEYlhXNk4zdUl1UXBS?oc=5",
-    "published_at": "2026-09-28T01:00:49+00:00",
+    "id": "e8bb33f77436",
+    "title": "SKT·하나금융·삼성전자 손잡았다…금융권 첫 5G 특화망 구축 - 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02WkJkU2xlZjZBYklBNnpYNk8tLU1qS3N0VXlvUTFNMmwtWUJlMDRTTDMtU0VmeWpabVpraVRXU1ZxTVpOSGp2bjhvTXZXX21xX083MFgzT1JTRmpxREtVeE9VRWFBX3FXREpOU9IBbEFVX3lxTE02WkJkU2xlZjZBYklBNnpYNk8tLU1qS3N0VXlvUTFNMmwtWUJlMDRTTDMtU0VmeWpabVpraVRXU1ZxTVpOSGp2bjhvTXZXX21xX083MFgzT1JTRmpxREtVeE9VRWFBX3FXREpOUw?oc=5",
+    "published_at": "2026-09-27T23:52:47+00:00",
     "sources": [
-      "정보통신신문"
+      "머니투데이"
     ],
     "keywords": [
       "5G 특화망"
@@ -907,32 +932,6 @@
     "sources": [
       "v.daum.net",
       "dt.co.kr"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "e8bb33f77436",
-    "title": "SKT·하나금융·삼성전자 손잡았다…금융권 첫 5G 특화망 구축 - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02WkJkU2xlZjZBYklBNnpYNk8tLU1qS3N0VXlvUTFNMmwtWUJlMDRTTDMtU0VmeWpabVpraVRXU1ZxTVpOSGp2bjhvTXZXX21xX083MFgzT1JTRmpxREtVeE9VRWFBX3FXREpOU9IBbEFVX3lxTE02WkJkU2xlZjZBYklBNnpYNk8tLU1qS3N0VXlvUTFNMmwtWUJlMDRTTDMtU0VmeWpabVpraVRXU1ZxTVpOSGp2bjhvTXZXX21xX083MFgzT1JTRmpxREtVeE9VRWFBX3FXREpOUw?oc=5",
-    "published_at": "2026-09-27T23:52:47+00:00",
-    "sources": [
-      "머니투데이"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "2a17ca619696",
-    "title": "하나금융, SKT·삼성전자와 손잡았다…5G 특화망 구축",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OUHd1RnZXY0xtU1BCR0JxeUdKTFdoNk00RzhvelFHeVk3dmdZWXRNSzc5ZXBGQThNSzlCWjhud2MwNHBYblhUbzNtWTRQV2NvYmZlSw?oc=5",
-    "published_at": "2026-09-28T00:11:29+00:00",
-    "sources": [
-      "v.daum.net"
     ],
     "keywords": [
       "5G 특화망"
@@ -984,7 +983,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2UnI2ZnZnMExERThQS1dPZUdYd01MZks5LVlicUg5TWZlX190TFZaSjNCbHZ1U3BVYU1hVUNDRUlMMXZud2RHU3ZfeGQxQURoN3F1SExYbjlBT1IwUWNpX1hpSjXSAWhBVV95cUxOcnp6TGVZZkJjRUhRUEZmcFNHMnFxNjctT2hkZkRKYkxUUFpBNEpUblVDbEVDSmlCR2JUekJtUnpHSkdNa3ZXeVFVOTlrb3h6cXVsS1lnWU9GdFdFNWJ6aEJiWFlnQ0ZPUw?oc=5",
     "published_at": "2026-09-28T00:46:30+00:00",
     "sources": [
-      "m-i.kr"
+      "매일일보"
     ],
     "keywords": [
       "5G 특화망"
@@ -1010,7 +1009,7 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xZk10Y3lrS2czZHBxSHRwcEw4YzFjMFNmTjRUM3JPNjJMbkJMcl81aXJhUkpHbUpiRm0zWU0xa1ljQWNRRHl6Z2dncEdHRWJBOVExTzZyTE9xOS1DMUp4UGt2RUhIbDlk?oc=5",
     "published_at": "2026-09-28T01:15:39+00:00",
     "sources": [
-      "레디앙"
+      "redian.org"
     ],
     "keywords": [
       "5G 특화망"
@@ -1101,7 +1100,7 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NT3Q2WUdJMFRaU0pUejh3bkFSdWtSNzRkOGQ1NGxXV3ZKaDBBNjdFWFdtVHpVVl9NbEV4NHd2TkhqVEp4bXR3NUFfYlVLWmFDbHRUNGJwRzFrcjZaOEhv?oc=5",
     "published_at": "2026-09-28T00:55:00+00:00",
     "sources": [
-      "smarttoday.co.kr"
+      "스마트투데이"
     ],
     "keywords": [
       "5G 특화망"
@@ -1114,20 +1113,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85Szd5SEpHSHpGR00weU54SThkM3ROeWktcUNMejlJZk11NkEtS0dsVDdySmU2MzB0NktnMHB1VzlYUVQtWFBwa09wa20wNjkzSTVSODVVaFFVa1ZDS1NlSTA0dE5GX1kwdXUzTGduSdIBc0FVX3lxTE9rcjAyTjZ5ZHRyblNKbTZSZ3RaUzNsS1FFZTA3d2dtbXpVaVV5b1NJTUNFbG4tcG94aFFxR1k3Wjk3d2RKMHNJekZSQ2h6MExvdnhtOUd2ckJiaVk2VlVvREZkYXpMeWtwellhZ1hUM1R6emc?oc=5",
     "published_at": "2026-09-28T00:50:39+00:00",
     "sources": [
-      "newsworks.co.kr"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "b251b33237ad",
-    "title": "하나금융티아이, SKT·삼성전자와 금융권 최초 5G 특화망 스마트 오피스 구축",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lYTJ6X0pwdmpJUUxqRXdnbWNlc0M5RWR4U0NxMjN5NE1uUWl2cVozRmVNZjgtZjUza1pxdzk5NVFjaEJveS1lbmdHbXp6Uzh1RV8xNVZEdnIzTDdr?oc=5",
-    "published_at": "2026-09-28T14:45:14+00:00",
-    "sources": [
-      "livesnews.com"
+      "뉴스웍스"
     ],
     "keywords": [
       "5G 특화망"
@@ -1156,7 +1142,8 @@
     "published_at": "2026-09-27T23:42:00+00:00",
     "sources": [
       "v.daum.net",
-      "아시아투데이"
+      "아시아투데이",
+      "이투데이"
     ],
     "keywords": [
       "5G 특화망"
@@ -1182,33 +1169,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RakNzdzczOVdCYktvNkp0ekQ0TTRfU1pXRWt5T1lpNFozU3VHZ0FYYWMwTEozOGltbnYyeWdYNnBMTktVUW9wMU9PbEVmR0ZFRmZEaXpPeE92X1NvZUVFeGRMVWMzZUU1cWRObTR5NNIBc0FVX3lxTE9acUlIc2pSaUdKM3g5NW9DRGRka2lvQVFZLUFobURYWV95QnpqSzc4bmg2Y2E2M0Q4TWpTZzNEbTdsUnpSMnN0d2N3MmRmdWxKbFNYUVVUbzZfQ0hFdUoxeFZOMjZkWGEwY0lpcHMtZDBHUU0?oc=5",
     "published_at": "2026-09-28T01:23:12+00:00",
     "sources": [
-      "newsworks.co.kr"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "be65a73d8824",
-    "title": "하나금융, ‘새 둥지’ 청라에 금융권 첫 5G 특화망 구축",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04Qks0U0w0YWlzdUE4Zm1sdnF5X2VVc1FBbGZqWHZLeEQwdVFHN0dxT0NSRlZhUklXRzFPVml2VkV5blNrRUV5SThTUktIZlhQQUJmRWxLblgtRU9WbEFsVWtUbGI3Q3JOVHc?oc=5",
-    "published_at": "2026-09-28T05:20:00+00:00",
-    "sources": [
-      "더리브스"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "85cd199aea91",
-    "title": "하나금융지주, SKT·삼성전자와 5G 특화망 업무망 구축",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrV3hPbW1nc3BTUi1MMVBlTlFPV1RPZzRmVzRnN004OU1LcE9HR3hoYXdQMmJHamFKU2hJRjYwdUZBZThjMDhmX1FBMWRzOVBLekNodm1CRm9Pa090TXBSY2llVnlDZw?oc=5",
-    "published_at": "2026-09-27T23:44:18+00:00",
-    "sources": [
-      "press9.kr"
+      "뉴스웍스"
     ],
     "keywords": [
       "5G 특화망"
@@ -1247,7 +1208,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40STBvSk9wSFJFaHNvR1A5ZUs2czhzQm92RnF5TV9qcWVXXzJMVEY5cF9oZ1kxTkdfakNWaGRuSUNackJKOW9lTzZTdkJFU3lEcVNjcmxIdEVOUTFoVENZOWwzT2RfNmhHVzBPbU9n?oc=5",
     "published_at": "2026-09-28T00:09:29+00:00",
     "sources": [
-      "dailybrief.co.kr"
+      "데일리브리프"
     ],
     "keywords": [
       "5G 특화망"
@@ -1261,6 +1222,32 @@
     "published_at": "2026-09-28T00:54:41+00:00",
     "sources": [
       "fetv.co.kr"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "b730241623c4",
+    "title": "SK텔레콤·하나금융그룹·삼성전자, 5G 특화망 구축",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BSzBTRWdSb19GVEczUGZFSFdfTmJkNFQ1VEpXSlZ4N2cyMDN0VE9UamxsQlU4Z1lqTnl4YmxpTHNNaGU0TmQyYngtS1dLZERGcms0dzF6R2Y3ZnM3a0F4N3hmUkx0Skx6c0ZKaGd6UnBIRC12?oc=5",
+    "published_at": "2026-09-28T06:05:04+00:00",
+    "sources": [
+      "글로벌뉴스통신GNA"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "85cd199aea91",
+    "title": "하나금융지주, SKT·삼성전자와 5G 특화망 업무망 구축",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrV3hPbW1nc3BTUi1MMVBlTlFPV1RPZzRmVzRnN004OU1LcE9HR3hoYXdQMmJHamFKU2hJRjYwdUZBZThjMDhmX1FBMWRzOVBLekNodm1CRm9Pa090TXBSY2llVnlDZw?oc=5",
+    "published_at": "2026-09-27T23:44:18+00:00",
+    "sources": [
+      "PRESS9"
     ],
     "keywords": [
       "5G 특화망"
@@ -1307,12 +1294,12 @@
     "image": ""
   },
   {
-    "id": "b730241623c4",
-    "title": "SK텔레콤·하나금융그룹·삼성전자, 5G 특화망 구축",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BSzBTRWdSb19GVEczUGZFSFdfTmJkNFQ1VEpXSlZ4N2cyMDN0VE9UamxsQlU4Z1lqTnl4YmxpTHNNaGU0TmQyYngtS1dLZERGcms0dzF6R2Y3ZnM3a0F4N3hmUkx0Skx6c0ZKaGd6UnBIRC12?oc=5",
-    "published_at": "2026-09-28T06:05:04+00:00",
+    "id": "cef6febf7620",
+    "title": "하나금융그룹, SKT-삼성전자와 금융권 최초 5G 특화망 기반 업무망 구축! 그룹 청라 헤드쿼터 시작으로 ‘일하는 방식’ 혁신 본격화!!",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXJQSmw4YVFsaTFURlh1a1JfQUFlbWJrSElBUUNfSVdSUXhxaTBPbFJUYzZoTHpuRWRmckxpRHRnd3FrREpYMXNDVDU3ZGIzLTFKVm9URHFTUDJJQ2JqdGJRNjZBZlRlSDIwZmNDQ3A?oc=5",
+    "published_at": "2026-09-28T00:00:23+00:00",
     "sources": [
-      "글로벌뉴스통신GNA"
+      "프레스뉴스"
     ],
     "keywords": [
       "5G 특화망"
@@ -1320,12 +1307,25 @@
     "image": ""
   },
   {
-    "id": "cef6febf7620",
-    "title": "하나금융그룹, SKT-삼성전자와 금융권 최초 5G 특화망 기반 업무망 구축! 그룹 청라 헤드쿼터 시작으로 ‘일하는 방식’ 혁신 본격화!!",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sZXJQSmw4YVFsaTFURlh1a1JfQUFlbWJrSElBUUNfSVdSUXhxaTBPbFJUYzZoTHpuRWRmckxpRHRnd3FrREpYMXNDVDU3ZGIzLTFKVm9URHFTUDJJQ2JqdGJRNjZBZlRlSDIwZmNDQ3A?oc=5",
-    "published_at": "2026-09-28T00:00:23+00:00",
+    "id": "6d9d579ed14d",
+    "title": "‘청라 시대’ 연 하나금융, SKT·삼성전자와 ‘5G 특화망 기반 업무망’ 구축",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42QmxyQXJpZHNmdnc3NmpqSmlvR3d5aXAtZE05UnI0YUtMcEhnNkJrSHQ0aHFKNEI1QkhIZFp2Wk03NmFfZ2dkZW9BaWg5QlJxMlQ5NW91T0dTT1hpUXA2SkhZNmx0ZzdVVEhrNdIBcEFVX3lxTE45T0N0SHVnbVNpNnowV2VxUUdCTUs5Rm8wZVBBYjhpV2djeW16R2I0WndGUFpxOGxBcFY5R1JtY2ZuSEVzNmN5NlVOUTU4TGlDWUZBWm5wX05KN2lKNG5USGttTnpOU1RacGNVQi1XMUg?oc=5",
+    "published_at": "2026-09-28T00:20:31+00:00",
     "sources": [
-      "프레스뉴스"
+      "글로벌경제신문"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "b251b33237ad",
+    "title": "하나금융티아이, SKT·삼성전자와 금융권 최초 5G 특화망 스마트 오피스 구축",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lYTJ6X0pwdmpJUUxqRXdnbWNlc0M5RWR4U0NxMjN5NE1uUWl2cVozRmVNZjgtZjUza1pxdzk5NVFjaEJveS1lbmdHbXp6Uzh1RV8xNVZEdnIzTDdr?oc=5",
+    "published_at": "2026-09-28T14:45:14+00:00",
+    "sources": [
+      "livesnews.com"
     ],
     "keywords": [
       "5G 특화망"
@@ -1383,6 +1383,123 @@
       "5G 특화망"
     ],
     "image": ""
+  },
+  {
+    "id": "951880e5e753",
+    "title": "SKT, 하나금융 청라에 5G 특화망…금융권 업무환경 무선 전환",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjMDVZV0s2dTBnVktnSmc1Wmc0aVlnWDI0akJjdk1WWXlQY283VXBaLWh4ZkQ1NzJpOGNNWXQxM1V0b3BlZGhsMGFIazRtRjBXN051M3BnR25sMEw0SlNVLUl5cjB4NUU4ZlhUTnVCVFVtMFE?oc=5",
+    "published_at": "2026-09-28T00:10:00+00:00",
+    "sources": [
+      "디지털투데이"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "f5a0180aae58",
+    "title": "하나금융, 금융권 첫 '5G 특화망' 업무망 구축…청라 3000명 스마트오피스 전환",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fdk0wQ3N4NHYwVU5mSzduX043cUZUSjNXUTVJSmRpNkQ4WTg1a1FuUUozME5NU2FZS1BCc05DbjYwaEwtbU1jNWFwWjNpRHBBTzgzczVzb2l3RGx0dVJsdU1oa25tQU5zV0HSAWpBVV95cUxNX3ZNMENzeDR2MFVOZks3bl9ON3FGVEozV1E1SUpkaTZEOFk4NWtRblFKMzBOTVNhWUtQQnNOQ242MGhMLW1NYzVhcFozaURwQU84M3M1c29pd0RsdHVSbHVNaGtubUFOc1dB?oc=5",
+    "published_at": "2026-09-28T00:20:57+00:00",
+    "sources": [
+      "techm.kr"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
+  },
+  {
+    "id": "156ab5a47f88",
+    "title": "K9 넘어 공동개발로…한국·인도, 방산협력 '다음 단계' 연다",
+    "link": "https://www.goodmorningcc.com/news/articleView.html?idxno=453150",
+    "published_at": "2026-09-30T03:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.goodmorningcc.com/news/thumbnail/202609/453150_469215_544_v150.jpg"
+  },
+  {
+    "id": "a6d6b566cf20",
+    "title": "중국서 건조해도… 글로벌 선주들, K엔진 찾아",
+    "link": "https://www.chosun.com/economy/industry-company/2026/09/30/G5CJD3Q72FFP5BBXWXEBBJG7GI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "published_at": "2026-09-30T00:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.chosun.com/resizer/v2/TIM52M2IXBHHBCKK4C2X25POA4.jpg?auth=bb813c4225706f03220f7e5fea82dfa466061ae0cb4ec8f4a03ebc996dceb827&width=1200&height=630&smart=true"
+  },
+  {
+    "id": "b993cfde05d5",
+    "title": "누리호 5차 발사 앞두고 창원서 ‘국제우주항공기술대전’ 개막",
+    "link": "https://www.kukinews.com/article/view/kuk202609300002",
+    "published_at": "2026-09-30T00:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "f23faa976fb2",
+    "title": "“토큰화·스테이블코인 대토론”…오늘 솔라나서밋 코리아 개최",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01085686645585368&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-09-30T00:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26093000001.jpg"
+  },
+  {
+    "id": "dfe14dbcf659",
+    "title": "국회 '수시 먹통 사태' 유웨이(유웨이어플라이) 대표 등 국감 증인 채택",
+    "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1068518",
+    "published_at": "2026-09-30T00:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ksilbo.co.kr/news/thumbnail/202609/1068518_646777_2728_v150.jpg"
+  },
+  {
+    "id": "2149d81b4800",
+    "title": "한국도 수직이착륙 도전… 2028년 재사용 로켓 시험대 오른다",
+    "link": "https://www.newscj.com/news/articleView.html?idxno=3436622",
+    "published_at": "2026-09-29T22:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newscj.com/news/thumbnail/202609/3436622_3555283_5645_v150.jpg"
+  },
+  {
+    "id": "4af13877641b",
+    "title": "9월 5주 주요 제조업 전망",
+    "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41564",
+    "published_at": "2026-09-29T22:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.laborplus.co.kr/news/photo/202609/41564_74187_2040.jpg"
   },
   {
     "id": "6e781e17c88f",
@@ -1581,19 +1698,6 @@
     "image": "https://cdn.kfenews.co.kr/news/thumbnail/202609/665499_138947_214_v150.jpg"
   },
   {
-    "id": "33954072f9f3",
-    "title": "비호·K9 넘어 공동개발로… 뉴델리서 'K방산 동맹' 넓힌다",
-    "link": "https://www.newspim.com/news/view/20260929001144",
-    "published_at": "2026-09-29T18:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.newspim.com/news/2026/09/29/2609291826559220_t1.jpg"
-  },
-  {
     "id": "448c92be79d6",
     "title": "재사용로켓 '미니 버전' 조립 착수 \"2028년 발사\"",
     "link": "http://www.hellodd.com/news/articleView.html?idxno=113335",
@@ -1605,6 +1709,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.hellodd.com/news/thumbnail/202609/113335_338200_2332_v150.jpg"
+  },
+  {
+    "id": "33954072f9f3",
+    "title": "비호·K9 넘어 공동개발로… 뉴델리서 'K방산 동맹' 넓힌다",
+    "link": "https://www.newspim.com/news/view/20260929001144",
+    "published_at": "2026-09-29T18:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/09/29/2609291826559220_t1.jpg"
   },
   {
     "id": "0ec3c8e115a4",
@@ -1634,7 +1751,7 @@
   },
   {
     "id": "782605c19505",
-    "title": "가전제품 만들던 구미산단, 천궁Ⅱ·KF-21 두뇌 생산기지로",
+    "title": "가전제품 만들던 구미산단, 천궁Ⅱ·KF-21 두뇌 생산",
     "link": "https://www.hankyung.com/article/2026092927631",
     "published_at": "2026-09-29T18:14:00+09:00",
     "sources": [
@@ -1644,7 +1761,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://img.hankyung.com/photo/202609/AA.45872866.1.jpg"
+    "image": "https://img.hankyung.com/photo/202609/AA.45875455.1.jpg"
   },
   {
     "id": "39dea974c79f",
@@ -1696,7 +1813,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://img.hankyung.com/photo/202609/AA.45874052.1.jpg"
+    "image": "https://img.hankyung.com/photo/202609/AA.45875456.1.jpg"
   },
   {
     "id": "d69b2a4bc556",
@@ -1709,7 +1826,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/29/.cache/512/20260929501279.png?v=20260929224726"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/09/29/.cache/512/20260929501279.png?v=20260930040822"
   },
   {
     "id": "d0728259eb79",
@@ -1764,6 +1881,19 @@
     "image": "https://www.ytn.co.kr/img/comm/ytn_sns_default.jpg"
   },
   {
+    "id": "462b685f897a",
+    "title": "[2026 국감] 한화의 'KAI 경영권' 가속화, 국정감사 조명 받는다",
+    "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=192591",
+    "published_at": "2026-09-29T17:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.wikileaks-kr.org/news/thumbnail/202609/192591_208513_309_v150.jpg"
+  },
+  {
     "id": "dac4ba2c8eab",
     "title": "[CEO워치] 최성안 삼성중공업 부회장, 수주 목표 84% 채웠지만…수익성...",
     "link": "https://www.ceoscoredaily.com/page/view/2026092910560261421",
@@ -1774,21 +1904,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "/2026/09/29/2026092917200214201_l.jpg"
-  },
-  {
-    "id": "462b685f897a",
-    "title": "[2026 국감] 한화의 'KAI 경영권' 가속화, 국정감사 조명 받는다",
-    "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=192591",
-    "published_at": "2026-09-29T17:30:00+09:00",
-    "sources": [
-      "Naver",
-      "위키리크스한국"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.wikileaks-kr.org/news/thumbnail/202609/192591_208513_309_v150.jpg"
+    "image": ""
   },
   {
     "id": "c8aa53775947",
@@ -1853,7 +1969,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "//kookbang.dema.mil.kr/newspaper/tmplat/upload/20260929/thumb1/BBS_202609290510516660.jpg"
   },
   {
     "id": "faadcd08ca6c",
@@ -1905,20 +2021,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
-  },
-  {
-    "id": "e66242562239",
-    "title": "[현장] \"AI·원전·방산\"…삼성·SK·한화·두산, '미래 먹거리' 청사진 ...",
-    "link": "http://www.newswatch.kr/news/articleView.html?idxno=81333",
-    "published_at": "2026-09-29T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newswatch.kr/news/thumbnail/202609/81333_87687_2828_v150.jpg"
+    "image": "//kookbang.dema.mil.kr/newspaper/tmplat/upload/20260929/thumb1/BBS_202609290439439050.jpg"
   },
   {
     "id": "8299c79f2845",
@@ -1932,6 +2035,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.idomin.com/news/photo/202609/2015890_725010_5507.jpg"
+  },
+  {
+    "id": "e66242562239",
+    "title": "[현장] \"AI·원전·방산\"…삼성·SK·한화·두산, '미래 먹거리' 청사진 ...",
+    "link": "http://www.newswatch.kr/news/articleView.html?idxno=81333",
+    "published_at": "2026-09-29T16:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newswatch.kr/news/thumbnail/202609/81333_87687_2828_v150.jpg"
   },
   {
     "id": "7a32f7bcedb5",
@@ -2061,7 +2177,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://img.etnews.com/news/article/2026/09/29/news-p.v1.20260929.5107088e8a4243778157cbb06edd81b6_P2.jpeg"
   },
   {
     "id": "f55083722a6c",
@@ -2100,7 +2216,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://img.etnews.com/news/article/2026/09/29/news-p.v1.20260929.22a3ef1de90c44579b043284ba5630b4_P1.png"
   },
   {
     "id": "1b7ea31221e9",
@@ -2165,7 +2281,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://amenews.kr/data/cheditor4/2609/3554368046_4pekY9Lj_EC9AB0ECA3BCED95ADEAB3B5.png"
+    "image": ""
   },
   {
     "id": "c969323a9f27",
@@ -2256,7 +2372,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://img.etnews.com/news/article/2026/09/29/news-p.v1.20260929.982a80bc73c04aaaa683fd00b92af83d_P1.png"
   },
   {
     "id": "70af5328615f",
@@ -2317,7 +2433,7 @@
     "published_at": "2026-09-29T14:44:00+09:00",
     "sources": [
       "Naver",
-      "잡포스트"
+      "job-post.co.kr"
     ],
     "keywords": [
       "한화시스템"
@@ -2504,7 +2620,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/0929/L20260929.99099009310i1.jpg?31"
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/0929/L20260929.99099009310i1.jpg?27"
   },
   {
     "id": "2a09bcb97122",
@@ -2569,99 +2685,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
-  },
-  {
-    "id": "055eab645698",
-    "title": "국감 증인 채택 곳곳 충돌…JYP 채택·김승원 의혹 관련 증인 불발",
-    "link": "https://www.etnews.com/20260929000170",
-    "published_at": "2026-09-29T13:11:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "f1e84f206706",
-    "title": "국회 교육위, '수시 먹통' 유웨이 대표·일타강사 조정식 등 증인 채택",
-    "link": "https://www.newsis.com/view/NISX20260929_0003806964",
-    "published_at": "2026-09-29T12:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/09/29/NISI20260929_0021464476_web.jpg"
-  },
-  {
-    "id": "bc78314f3df2",
-    "title": "비올 때 뺏긴 우산… 4만건 터진 보험민원",
-    "link": "https://m.skyedaily.com/news_view.html?ID=312212",
-    "published_at": "2026-09-29T12:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://pds.skyedaily.com/top_image/202609/312212_p.jpg"
-  },
-  {
-    "id": "7d4e870a0701",
-    "title": "한화 방산 리밸런싱 완성...에어로 '美 현지화'·시스템 '우주 AI'",
-    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=277798",
-    "published_at": "2026-09-29T12:30:00+09:00",
-    "sources": [
-      "Naver",
-      "파이낸셜포스트"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.financialpost.co.kr/news/thumbnail/202609/277798_364668_2230_v150.jpg"
-  },
-  {
-    "id": "b4c628becb56",
-    "title": "아시안게임 대표팀 금빛 활약, 그 뒤엔 기업들 통 큰 지원",
-    "link": "https://news.tf.co.kr/read/economy/2370698.htm",
-    "published_at": "2026-09-29T12:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.tf.co.kr/article/home/newsis/2026/09/29/202685381790650482.jpg"
-  },
-  {
-    "id": "2ae210e22a9c",
-    "title": "10월 7일 우주 가는 누리호, 지난 발사와 차이점은",
-    "link": "https://www.edaily.co.kr/News/Read?newsId=03621126645585040&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-    "published_at": "2026-09-29T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/09/PS26092900713.jpg"
-  },
-  {
-    "id": "566ab9ed5860",
-    "title": "“위성 15기 싣고 우주로” 7일 누리호 5차 발사…韓 ‘민간 우주시대’...",
-    "link": "https://biz.heraldcorp.com/article/10887398?ref=naver",
-    "published_at": "2026-09-29T12:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.6161fa2729a74bf68d01b28b511a7168_P1.jpg"
+    "image": "https://img.etnews.com/news/article/2026/09/29/news-p.v1.20260929.4d052757e69b4e64ba2f1bfd2d6ad018_P1.png"
   },
   {
     "id": "41603b0c08c1",
@@ -2755,6 +2779,32 @@
     "image": ""
   },
   {
+    "id": "4b35a85daa8b",
+    "title": "한화 방산 리밸런싱 완성...에어로 '美 현지화'·시스템 '우주 AI'",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10Y21JZEZZVnU1UzZ0QXVWQTN1N0dTR0o5SXFzM3BVaXV0S1VucEVpZk5LSkhlakZTeG9fcTFoUjJtbUQtMHJpajY4b29ZNG9QcWEwcjRVYUM0bzUzVW95d0ZNcGpvbjNWRjkyYkEzLWRBN1pm?oc=5",
+    "published_at": "2026-09-29T03:30:00+00:00",
+    "sources": [
+      "파이낸셜포스트"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "bc70134333f7",
+    "title": "[핀포인트] [한화시스템] 필리조선소 털었지만…재무부담은 여전",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwMG5hYUxYVkIyMEthOFJnaExybHpaZU9NMmhYTUV3WUU1NjI3Rld4TFVOSHMyazVPeTJGWGZrb09xN0kyQWN5SVVSNjlsY1FNdXgyNWFB?oc=5",
+    "published_at": "2026-09-26T23:00:28+00:00",
+    "sources": [
+      "DealSite경제TV"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "5b338e4ba8bd",
     "title": "김승연 한화그룹 회장 “독보적 국방 AI 역량 키워야”",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sTUpoVFhBZkdlUVdsNnNRY3UyZXRheHVPbWRoY3FxWVd6WURvc3ltdGFEQTk5ZU1kaUxZVlBaMDRuNjlOaDFSdHNIczJyeGdNY0hISDNBWjBNaXEwRTZPTlM1b0QxM3RMS1pFb1hB?oc=5",
@@ -2768,12 +2818,12 @@
     "image": ""
   },
   {
-    "id": "bc70134333f7",
-    "title": "[핀포인트] [한화시스템] 필리조선소 털었지만…재무부담은 여전",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwMG5hYUxYVkIyMEthOFJnaExybHpaZU9NMmhYTUV3WUU1NjI3Rld4TFVOSHMyazVPeTJGWGZrb09xN0kyQWN5SVVSNjlsY1FNdXgyNWFB?oc=5",
-    "published_at": "2026-09-26T23:00:28+00:00",
+    "id": "a229ccbffe2b",
+    "title": "[2026 국감] 한화의 'KAI 경영권' 가속화에…국방위, 김동관 부회장 증인 신청",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QRVhJVnRzUlRqcldpSmtiMy0yVjdQV01lX2MtVlZQem9kUFFMLW5Td1MxSl90dU1BT1V1NHkxZktpMTdBdS00OUVYMVk5TEN3QW5nSTAxU3JsOVFiR3A3MnhfVXkwY2w0eHluX051Zw?oc=5",
+    "published_at": "2026-09-29T08:03:48+00:00",
     "sources": [
-      "news.dealsitetv.com"
+      "위키리크스한국"
     ],
     "keywords": [
       "한화시스템"
@@ -2799,7 +2849,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tWm5BZ2VSM29pWHZiZDVhSWVSQlFPMHJFd2stOS1XaWhNMWdHUXBHdHZfSmR0NmJHV2hRQ0FYOGJjQXk0MGtDd0tWc1JCNFl6cEJXZGc3WmhGbkpVeGJCRnVqSnRSSFNLeGpHQ1FR0gFyQVVfeXFMT250YmRJVl9VbDlVNWxBeFVZV0lwS3M3RUQyakNSaE5meldHMzRTSFB1ZFRJd05fVGhVZzJ5MlRGdWtzS3c3QkxaOEdfYUpCSm9aQVdVUlhGSWNfTUtvUVNRc0o0OHdTVnVtY0U5OHJtRnVn?oc=5",
     "published_at": "2026-09-28T05:32:41+00:00",
     "sources": [
-      "잡포스트"
+      "job-post.co.kr"
     ],
     "keywords": [
       "한화시스템"
