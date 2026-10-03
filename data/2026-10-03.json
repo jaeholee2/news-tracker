@@ -426,7 +426,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/10/02/94d97c44d33c48c387988731e4a90d47/thumb.jpg"
   },
   {
     "id": "9131c36b8103",
@@ -611,19 +611,6 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26100201085.1280x.0.jpg"
   },
   {
-    "id": "ca432e557439",
-    "title": "[위클리오늘] 이천시, 우주 태양전지 기업 '플렉셀스페이스(주)' 방문",
-    "link": "http://www.weeklytoday.com/news/articleView.html?idxno=796816",
-    "published_at": "2026-10-02T15:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.weeklytoday.com/news/thumbnail/202610/796816_988548_1149_v150.jpg"
-  },
-  {
     "id": "daaa3608760a",
     "title": "아마존, 엔비디아 AI칩 활용한 대규모 자금 조달 검토",
     "link": "https://www.jemin.com/news/articleView.html?idxno=843761",
@@ -635,6 +622,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.jemin.com/news/thumbnail/202610/843761_431258_1218_v150.jpg"
+  },
+  {
+    "id": "ca432e557439",
+    "title": "[위클리오늘] 이천시, 우주 태양전지 기업 '플렉셀스페이스(주)' 방문",
+    "link": "http://www.weeklytoday.com/news/articleView.html?idxno=796816",
+    "published_at": "2026-10-02T15:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.weeklytoday.com/news/thumbnail/202610/796816_988548_1149_v150.jpg"
   },
   {
     "id": "5316424606e3",
@@ -663,19 +663,6 @@
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/869677_894067_439_v150.jpg"
   },
   {
-    "id": "fdc541468a2a",
-    "title": "현대차·기아 美 50만대 돌파…금융은 '토큰화' 속도",
-    "link": "https://www.mstoday.co.kr/news/articleView.html?idxno=200057",
-    "published_at": "2026-10-02T15:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.mstoday.co.kr/news/photo/202610/200057_200063_5654.png"
-  },
-  {
     "id": "81388950bb6d",
     "title": "공장은 키웠는데 주문이 없다…한국콜마 美사업 '이중고'",
     "link": "http://www.inews24.com/view/2011373",
@@ -687,6 +674,19 @@
       "한화시스템"
     ],
     "image": "https://image.inews24.com/v1/9552f11e67908b.jpg"
+  },
+  {
+    "id": "fdc541468a2a",
+    "title": "현대차·기아 美 50만대 돌파…금융은 '토큰화' 속도",
+    "link": "https://www.mstoday.co.kr/news/articleView.html?idxno=200057",
+    "published_at": "2026-10-02T15:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.mstoday.co.kr/news/photo/202610/200057_200063_5654.png"
   },
   {
     "id": "4ef83c30dfad",
@@ -728,19 +728,6 @@
     "image": "https://cdn.ttlnews.com/news/photo/202610/3148974_770567_245.jpg"
   },
   {
-    "id": "b78fc5ae3094",
-    "title": "쎄트렉아이, 국가핵심기술 유출 의혹 ‘혐의 없음’",
-    "link": "https://www.mk.co.kr/article/12167076",
-    "published_at": "2026-10-02T14:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://pimg.mk.co.kr/news/cms/202610/02/news-p.v1.20261002.b61c3af93e98405f800a3ef3f3fe2139_R.png"
-  },
-  {
     "id": "f6924a41ff53",
     "title": "자사주 소각·배당 확대에도 엇갈린 주가… 밸류업 종목 희비",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492274",
@@ -752,6 +739,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/492274_478031_829_v150.jpg"
+  },
+  {
+    "id": "b78fc5ae3094",
+    "title": "쎄트렉아이, 국가핵심기술 유출 의혹 ‘혐의 없음’",
+    "link": "https://www.mk.co.kr/article/12167076",
+    "published_at": "2026-10-02T14:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202610/02/news-p.v1.20261002.b61c3af93e98405f800a3ef3f3fe2139_R.png"
   },
   {
     "id": "91df9208e6f3",
@@ -778,18 +778,5 @@
       "한화시스템"
     ],
     "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7187217_249342_517_v150.jpg"
-  },
-  {
-    "id": "77ede01365f6",
-    "title": "대전 스타트업 2곳 'K-스타트업 2026' 본선행…130개사와 경쟁",
-    "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5068281",
-    "published_at": "2026-10-02T13:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.shinailbo.co.kr/news/photo/202610/5068281_2065949_5256.jpg"
   }
 ]
