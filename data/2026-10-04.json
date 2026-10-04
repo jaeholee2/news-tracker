@@ -1,5 +1,57 @@
 [
   {
+    "id": "41ba450eee21",
+    "title": "앤트로픽, 1억달러 승부수…클로드 확산 이끌 AI 전문가 1만명 양성",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=843819",
+    "published_at": "2026-10-04T17:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/843819_431317_921_v150.jpg"
+  },
+  {
+    "id": "b22cc47bebde",
+    "title": "부동산금융 위축, 주가수익스왑 키우는 증권사",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=674935",
+    "published_at": "2026-10-04T16:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.bloter.net/news/thumbnail/202610/674935_288712_4953_v150.jpg"
+  },
+  {
+    "id": "52b484e36b61",
+    "title": "[위클립] 10월 1주",
+    "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41588",
+    "published_at": "2026-10-04T14:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.laborplus.co.kr/news/photo/202610/41588_74283_3041.jpg"
+  },
+  {
+    "id": "f26b67fa4f81",
+    "title": "베트남 바둑 대표 1인을 찾아라…제 2회 신한은행 세계 기선전 베트남 ...",
+    "link": "https://www.mk.co.kr/article/12168001",
+    "published_at": "2026-10-04T13:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202610/04/news-p.v1.20261004.cb28bdd72b804bee80173442a2d58327_R.jpg"
+  },
+  {
     "id": "2057e6ee15a1",
     "title": "현대차 중국 시장 부활 가능할까...전용 모델 아이오닉V 가격 낮춰",
     "link": "https://www.raonnews.com/news/article.html?no=61619",
@@ -127,7 +179,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://image.ichannela.com/images/channela/2026/10/03/000003149221/00000314922120261003171431642.webp"
   },
   {
     "id": "1f669c25c7a4",
@@ -335,7 +387,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "/photos/2026/09/03/2026090314332023251_l.jpeg"
   },
   {
     "id": "dade4339d2cb",
@@ -728,19 +780,6 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26100201085.1280x.0.jpg"
   },
   {
-    "id": "daaa3608760a",
-    "title": "아마존, 엔비디아 AI칩 활용한 대규모 자금 조달 검토",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=843761",
-    "published_at": "2026-10-02T15:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202610/843761_431258_1218_v150.jpg"
-  },
-  {
     "id": "ca432e557439",
     "title": "[위클리오늘] 이천시, 우주 태양전지 기업 '플렉셀스페이스(주)' 방문",
     "link": "http://www.weeklytoday.com/news/articleView.html?idxno=796816",
@@ -752,6 +791,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.weeklytoday.com/news/thumbnail/202610/796816_988548_1149_v150.jpg"
+  },
+  {
+    "id": "daaa3608760a",
+    "title": "아마존, 엔비디아 AI칩 활용한 대규모 자금 조달 검토",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=843761",
+    "published_at": "2026-10-02T15:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/843761_431258_1218_v150.jpg"
   },
   {
     "id": "5316424606e3",
@@ -780,19 +832,6 @@
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/869677_894067_439_v150.jpg"
   },
   {
-    "id": "81388950bb6d",
-    "title": "공장은 키웠는데 주문이 없다…한국콜마 美사업 '이중고'",
-    "link": "http://www.inews24.com/view/2011373",
-    "published_at": "2026-10-02T15:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.inews24.com/v1/9552f11e67908b.jpg"
-  },
-  {
     "id": "fdc541468a2a",
     "title": "현대차·기아 美 50만대 돌파…금융은 '토큰화' 속도",
     "link": "https://www.mstoday.co.kr/news/articleView.html?idxno=200057",
@@ -806,6 +845,19 @@
     "image": "https://cdn.mstoday.co.kr/news/photo/202610/200057_200063_5654.png"
   },
   {
+    "id": "81388950bb6d",
+    "title": "공장은 키웠는데 주문이 없다…한국콜마 美사업 '이중고'",
+    "link": "http://www.inews24.com/view/2011373",
+    "published_at": "2026-10-02T15:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.inews24.com/v1/9552f11e67908b.jpg"
+  },
+  {
     "id": "4ef83c30dfad",
     "title": "[CEO풍향계] '뉴욕 깐부회동' 이재용…'국방AI 강화' 김승연",
     "link": "http://www.yonhapnewstv.co.kr/news/MYH2026100117452138h",
@@ -817,32 +869,6 @@
       "한화시스템"
     ],
     "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261002/MYH2026100117452138h.jpg"
-  },
-  {
-    "id": "e1f01572675d",
-    "title": "HL디앤아이한라, 상반기 영업익 34%↑…증권가도 목표주가 상향",
-    "link": "https://www.newsis.com/view/NISX20261002_0003812656",
-    "published_at": "2026-10-02T14:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/10/02/NISI20261002_0002254473_web.jpg"
-  },
-  {
-    "id": "8228193ea3cc",
-    "title": "허재영 세종대 교수, 공격적 테크와 리스크 방어 융합한 핀테크 해법 제...",
-    "link": "http://www.ttlnews.com/news/articleView.html?idxno=3148974",
-    "published_at": "2026-10-02T14:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ttlnews.com/news/photo/202610/3148974_770567_245.jpg"
   },
   {
     "id": "5e26adcfaf28",
