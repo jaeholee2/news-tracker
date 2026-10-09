@@ -1,5 +1,83 @@
 [
   {
+    "id": "233f88f90101",
+    "title": "[국감 2026] 박성훈 의원 \"효율화 핑계…금융보안 부실 확인시 책임 물어...",
+    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=279628",
+    "published_at": "2026-10-10T07:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/279628_368464_94_v150.jpg"
+  },
+  {
+    "id": "1713d560a14b",
+    "title": "녹색 승부수 최태원·야구장 소통 김승연·남미 공급망 장인화 [재계in]",
+    "link": "https://www.dailian.co.kr/news/view/1699417/?sc=Naver",
+    "published_at": "2026-10-10T07:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdnimage.dailian.co.kr/news/202610/news_1791436133133_1699417_m_1.png"
+  },
+  {
+    "id": "bf3cdd1330ac",
+    "title": "KAI의 주인이 누가 되든, 국가가 지켜야 할 것 [주간필담]",
+    "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=205006",
+    "published_at": "2026-10-10T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sisaon.co.kr/news/photo/202610/205006_307517_5916.png"
+  },
+  {
+    "id": "391785daf61a",
+    "title": "전산장애 잦은 금융사 20곳, 보안예산 30% 넘게 안 썼다",
+    "link": "https://www.etoday.co.kr/news/view/2634191",
+    "published_at": "2026-10-10T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261007063900_2397959_1200_850.jpg"
+  },
+  {
+    "id": "942ac3cb2ee4",
+    "title": "전산장애 잦은 금융사 20곳, 작년 보안예산 집행률 70% 밑돌아",
+    "link": "https://www.yna.co.kr/view/AKR20261009021400002?input=1195m",
+    "published_at": "2026-10-10T05:51:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img8.yna.co.kr/photo/yna/YH/2026/10/05/PYH2026100505480001300_P4.jpg"
+  },
+  {
+    "id": "470951ed0566",
+    "title": "KAAN 5세대 잠재력에 맞선 KF-21 1600회 비행 완성도... 중동 전투기 시장...",
+    "link": "https://www.g-enews.com/view.php?ud=202610091955347854fbbec65dfb_1",
+    "published_at": "2026-10-10T04:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026100920061406970fbbec65dfb211211153121.jpg"
+  },
+  {
     "id": "30e23574f1f6",
     "title": "[군사·안보 백브리핑] 펜타곤 책상마다 깔렸다...미국 전쟁부 ‘초지능...",
     "link": "https://www.voakorea.com/a/military--super-intelligence-100926/8209612.html",
@@ -702,19 +780,6 @@
     "image": "https://cdn.gamemeca.com/gmdata/0001/781/573/gm210114_dr.webp"
   },
   {
-    "id": "5fe8d79d44d9",
-    "title": "경상국립대, 우주항공청 우주 고급인력 양성 본과제 선정",
-    "link": "https://www.cnbnews.com/news/articleView.html?idxno=1018754",
-    "published_at": "2026-10-08T18:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.cnbnews.com/news/photo/202610/1018754_520910_1791449618.jpg"
-  },
-  {
     "id": "7656a3f1f99f",
     "title": "[산업pick] 정부, 녹색 대전환에 1,000조 투입···수소환원제철·전고체...",
     "link": "https://www.globale.co.kr/news/articleView.html?idxno=40868",
@@ -726,6 +791,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.globale.co.kr/news/thumbnail/202610/40868_67674_2728_v150.jpg"
+  },
+  {
+    "id": "5fe8d79d44d9",
+    "title": "경상국립대, 우주항공청 우주 고급인력 양성 본과제 선정",
+    "link": "https://www.cnbnews.com/news/articleView.html?idxno=1018754",
+    "published_at": "2026-10-08T18:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.cnbnews.com/news/photo/202610/1018754_520910_1791449618.jpg"
   },
   {
     "id": "045c2f11cef3",
@@ -790,7 +868,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "/photos/2026/10/08/2026100816462078445_l.jpg"
   },
   {
     "id": "1e7fff1ff1e6",
@@ -962,84 +1040,6 @@
     "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/10/08/202610081553415398_0.jpg"
   },
   {
-    "id": "3afbbca58842",
-    "title": "[단독] TSMC, 3분기 매출 1조4942억 대만달러 '사상 최대'…AI 반도체 초...",
-    "link": "https://www.joongangenews.com/news/articleView.html?idxno=553614",
-    "published_at": "2026-10-08T15:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.joongangenews.com/news/photo/202610/553614_360650_1347.png"
-  },
-  {
-    "id": "1a41f5072fe3",
-    "title": "수영장·골프장·영화관까지···'단지 안에서 다 한다' 대단지의 진화",
-    "link": "https://www.smartbizn.com/news/articleView.html?idxno=155967",
-    "published_at": "2026-10-08T15:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.smartbizn.com/news/photo/202610/155967_262982_5252.jpg"
-  },
-  {
-    "id": "3a06a3c435b6",
-    "title": "[거래소 기관] SK스퀘어·SK이노베이션 샀다…삼성전자는 대거 매도",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=493850",
-    "published_at": "2026-10-08T15:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/493850_479510_482_v150.jpg"
-  },
-  {
-    "id": "57f4a252c62a",
-    "title": "상법 개정 후 KOSPI200 주주환원 확대…박상혁 의원 \"공시 접근성은 개선...",
-    "link": "http://www.intn.co.kr/news/articleView.html?idxno=2053915",
-    "published_at": "2026-10-08T15:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.intn.co.kr/news/thumbnail/202610/2053915_739710_2341_v150.jpg"
-  },
-  {
-    "id": "7f454e9b328e",
-    "title": "삼성전자 최대 실적에도 주가 주춤...증권가 \"관건은 메모리 호황 지속...",
-    "link": "http://www.metroseoul.co.kr/article/20261008500171",
-    "published_at": "2026-10-08T15:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "938d8d71efec",
-    "title": "재규어 새 시대 이끌 '타입 01' 공개...1030마력 전기 GT",
-    "link": "https://www.news2day.co.kr/article/20261008500214",
-    "published_at": "2026-10-08T15:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/08/.cache/512/20261008500185.jpg"
-  },
-  {
     "id": "5ab92a504190",
     "title": "위즈코어, 스마트제조 AX 플랫폼·5G 특화망 기술 공개",
     "link": "https://zdnet.co.kr/view/?no=20261008111533",
@@ -1160,7 +1160,7 @@
     "keywords": [
       "5G 특화망"
     ],
-    "image": ""
+    "image": "/photos/2026/10/06/2026100609431155636_l.jpg"
   },
   {
     "id": "f1ee84bdfeb7",
@@ -1174,6 +1174,19 @@
       "5G 특화망"
     ],
     "image": "https://cdn.kr.aving.net/news/photo/202610/1815053_781380_3455.jpg"
+  },
+  {
+    "id": "616a9c648d65",
+    "title": "HP코리아·네이블, 5G 특화망 기반 무선 스마트오피스 사업 협력",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91b1hhNEdEVlZVVnFwbWNEbUFtZ0VyX2U1YnJ2WXlXbDVreXRaNy1KMWpNVVRmUGpEamdPQ0NSRlEzY2Y5blhnV1g3THo3UVNsbFJwd2hBeDFtTXUyYTJkdlg3M2xUaFVFMU1SZ3N30gFyQVVfeXFMT3NwUGpoaC0xX1N6S0ZXNUJ2ZllOLVlsQU1HaU5Md012bjcxcG1hZXdVWDdMRkFiRXprcXZpbFhGTmJrNVY3NlZBRU9mZHlqM2t3bkVXNGN0Z3hDZHNVeGJ1Qnc1R0ZSc0RnVGllbjVWb1ZB?oc=5",
+    "published_at": "2026-10-06T20:43:53+00:00",
+    "sources": [
+      "테크데일리"
+    ],
+    "keywords": [
+      "5G 특화망"
+    ],
+    "image": ""
   },
   {
     "id": "a5e2f2303da8",
