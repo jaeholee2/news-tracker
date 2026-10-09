@@ -1,5 +1,135 @@
 [
   {
+    "id": "136a9bf333f1",
+    "title": "UAE, 패트리어트·천궁 묶는 통합 지휘망 요구…K-방산 기술 이전 시험대...",
+    "link": "https://www.g-enews.com/view.php?ud=202610091937249888fbbec65dfb_1",
+    "published_at": "2026-10-09T19:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026100919382803863fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "fa0b494ad330",
+    "title": "[2026 영상향 SoC·NPU 제품&솔루션 리포트] 더 치열해진 영상보안의 두...",
+    "link": "https://www.boannews.com/news/articleView.html?idxno=146286",
+    "published_at": "2026-10-09T18:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.boannews.com/news/photo/202610/146286_128710_4442.jpg"
+  },
+  {
+    "id": "79648724d69c",
+    "title": "[EBN 오늘(9일) 이슈 종합] 최태원 \"전력·용수 늦어져도 먼저 착공\"…호...",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727286",
+    "published_at": "2026-10-09T18:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1727286_761423_4145_v150.jpg"
+  },
+  {
+    "id": "fc77788a2742",
+    "title": "[시선+]잠실은 경기장을 넘어 '도시공간'이 될 수 있을까",
+    "link": "https://www.businessplus.kr/news/articleView.html?idxno=117952",
+    "published_at": "2026-10-09T17:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/117952_118415_425_v150.jpg"
+  },
+  {
+    "id": "121e13622e82",
+    "title": "한국 천무에 밀리더니 의식했나…美 하이마스, 호주에 2년 빨리 도착 [밀...",
+    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261009601012&wlog_tag3=naver",
+    "published_at": "2026-10-09T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/09/SSC_20261009171318.png.webp"
+  },
+  {
+    "id": "c8a269ded7b4",
+    "title": "[쇼츠뉴스] 우리는 빛으로 드론 잡는다",
+    "link": "https://www.bigtanews.co.kr/article/view/big202610090004",
+    "published_at": "2026-10-09T17:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.bigtanews.co.kr/data/big/image/2026/10/09/big20261009000005.jpg"
+  },
+  {
+    "id": "1d457b76634a",
+    "title": "[20261009]요약은 더 힘들다 뉴스공장",
+    "link": "http://www.ddanzi.com/896616447",
+    "published_at": "2026-10-09T15:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.ddanzi.com/./files/attach/images/977701/447/616/896//e2d7db3caedb744641cbc815041c063e.jpg"
+  },
+  {
+    "id": "7adb3ab41206",
+    "title": "'게임체인저' 극초음속 비행체 첫 시험발사 성공… '10년 집념' 이끈 주...",
+    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87285",
+    "published_at": "2026-10-09T14:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.industrynews.co.kr/news/photo/202610/87285_108257_526.jpg"
+  },
+  {
+    "id": "f8482a7c00b0",
+    "title": "주름 없이 찍어내는 ‘강철의 예술’ 5세대 투싼…관건은 역시 가격",
+    "link": "https://www.hani.co.kr/arti/economy/car/1281665.html",
+    "published_at": "2026-10-09T14:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://flexible.img.hani.co.kr/flexible/normal/640/427/imgdb/original/2026/1009/20261009501122.webp"
+  },
+  {
+    "id": "a22b14ce263f",
+    "title": "2700억 들인 지뢰제거 로봇, 정작 DMZ 사고 현장선 못 썼다는데",
+    "link": "http://weekly.chosun.com/news/articleView.html?idxno=55996",
+    "published_at": "2026-10-09T14:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.weekly.chosun.com/news/thumbnail/202610/55996_86332_032_v150.jpg"
+  },
+  {
     "id": "1ef62fb21063",
     "title": "평택 지제역 주변 주거지 개발…교통사업·주택 공급 계획 추진",
     "link": "https://www.polinews.co.kr/news/articleView.html?idxno=745313",
@@ -751,7 +881,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261008162959095650048b718333211177233133.jpg&nmt=18"
+    "image": ""
   },
   {
     "id": "6e0b165931b8",
@@ -923,136 +1053,6 @@
     "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/10/08/27993405aaf14fcf9b0bccc8d51bcfb5/thumb.jpg"
   },
   {
-    "id": "4e71d7ac794e",
-    "title": "'30주 연속 1위' 이강인, 스타랭킹 독주 체제... 허웅·김도영 또 제쳤다",
-    "link": "https://www.starnewskorea.com/sports/2026/10/08/2026100814560374038",
-    "published_at": "2026-10-08T15:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1560,fit=cover,q=high,sharpen=2/21/2026/10/2026100814560374038_1.jpg"
-  },
-  {
-    "id": "54089b859100",
-    "title": "대전시, 민선9기 77개 공약 실천계획 확정…8조3,244억 규모",
-    "link": "http://www.yonhapnewstv.co.kr/news/AKR20261008144323k3M",
-    "published_at": "2026-10-08T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261008/AKR20261008144323k3M_01_i.jpg"
-  },
-  {
-    "id": "53dd9457c447",
-    "title": "부산창조경제혁신센터, 열번째 ‘바운스 2026’ 개최... 동남권 창업지...",
-    "link": "https://it.donga.com/109665/",
-    "published_at": "2026-10-08T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/media/__sized__/images/2026/10/8/6acec8a8dc4f405e-thumbnail-960x540-70.jpg"
-  },
-  {
-    "id": "8d9f7eda6a23",
-    "title": "8조3244억원으로 설계한 대전 민선 9기 77개 시민 약속",
-    "link": "https://www.ccdailynews.com/news/articleView.html?idxno=2445221",
-    "published_at": "2026-10-08T14:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.ccdailynews.com/image/logo/snslogo_20200717012712.jpg"
-  },
-  {
-    "id": "f3281dff4e3e",
-    "title": "[금융권 이모저모]KB자산운용, 국민성장펀드 2호 2000억원 모집 外",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=117901",
-    "published_at": "2026-10-08T14:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/117901_118344_819_v150.jpg"
-  },
-  {
-    "id": "4efab74b704f",
-    "title": "발사대·위성·반도체까지 민간 손길…누리호, 내년 제작·관제 넓힌다",
-    "link": "https://www.newsway.co.kr/news/view?ud=2026100810562857824",
-    "published_at": "2026-10-08T14:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.newsway.co.kr/photo/2026/10/08/20261008003627_1200.jpg"
-  },
-  {
-    "id": "2899441a91dd",
-    "title": "누리호 성공 뒤에 ‘K방산 생태계’…발사체·위성 등 ‘우주 각축전’",
-    "link": "http://www.newstomato.com/ReadNews.aspx?no=1316082&inflow=N",
-    "published_at": "2026-10-08T14:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.newstomato.com/newsimg/2026/10/8/1316082/attach.jpg?v=202610081406"
-  },
-  {
-    "id": "4fee625f50c0",
-    "title": "대전시, 민선 9기 77개 공약 ‘로드맵’ 확정",
-    "link": "https://biz.heraldcorp.com/article/10896400?ref=naver",
-    "published_at": "2026-10-08T14:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.4f430c26c1914d868905ec95d137d540_P1.jpg"
-  },
-  {
-    "id": "1e5eb90c0eec",
-    "title": "대전시 민선 9기 77개 공약 사업 확정…8조3244억원 소요",
-    "link": "https://www.news1.kr/local/daejeon-chungnam/6314030",
-    "published_at": "2026-10-08T14:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "bcc6cd9d487d",
-    "title": "대전시, 온통대전 등 8조3천억원 규모 77개 공약 실천계획 확정",
-    "link": "https://www.yna.co.kr/view/AKR20261008047200063?input=1195m",
-    "published_at": "2026-10-08T14:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img6.yna.co.kr/etc/inner/KR/2026/10/08/AKR20261008047200063_01_i_P4.jpg"
-  },
-  {
     "id": "5ab92a504190",
     "title": "위즈코어, 스마트제조 AX 플랫폼·5G 특화망 기술 공개",
     "link": "https://zdnet.co.kr/view/?no=20261008111533",
@@ -1159,7 +1159,7 @@
     "keywords": [
       "5G 특화망"
     ],
-    "image": "https://biz.chosun.com/resizer/v2/DMPCABCDCNBMHBRSMDR2ROP72M.JPG?auth=b929667b582825033d4a2402390fcb5b118ed77f5927901beafb31759477a307&width=1200&height=630&smart=true"
+    "image": ""
   },
   {
     "id": "c6def1c073b2",
