@@ -1,5 +1,31 @@
 [
   {
+    "id": "30e23574f1f6",
+    "title": "[군사·안보 백브리핑] 펜타곤 책상마다 깔렸다...미국 전쟁부 ‘초지능...",
+    "link": "https://www.voakorea.com/a/military--super-intelligence-100926/8209612.html",
+    "published_at": "2026-10-10T02:05:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://gdb.voanews.com/36799403-8ea1-4812-ca1d-08df13be6519_w1200_h630.jpeg"
+  },
+  {
+    "id": "482e01758cdc",
+    "title": "대구 정비사업 95% 역외 건설사 ‘독식’ 이번엔 달라질까",
+    "link": "https://www.yeongnam.com/web/view.php?key=20261009024099976",
+    "published_at": "2026-10-09T23:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.yeongnam.com/mnt/file/202610/ams.001.photo.202610081432189121031719_R.jpg"
+  },
+  {
     "id": "136a9bf333f1",
     "title": "UAE, 패트리어트·천궁 묶는 통합 지휘망 요구…K-방산 기술 이전 시험대...",
     "link": "https://www.g-enews.com/view.php?ud=202610091937249888fbbec65dfb_1",
@@ -676,19 +702,6 @@
     "image": "https://cdn.gamemeca.com/gmdata/0001/781/573/gm210114_dr.webp"
   },
   {
-    "id": "7656a3f1f99f",
-    "title": "[산업pick] 정부, 녹색 대전환에 1,000조 투입···수소환원제철·전고체...",
-    "link": "https://www.globale.co.kr/news/articleView.html?idxno=40868",
-    "published_at": "2026-10-08T18:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.globale.co.kr/news/thumbnail/202610/40868_67674_2728_v150.jpg"
-  },
-  {
     "id": "5fe8d79d44d9",
     "title": "경상국립대, 우주항공청 우주 고급인력 양성 본과제 선정",
     "link": "https://www.cnbnews.com/news/articleView.html?idxno=1018754",
@@ -700,6 +713,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.cnbnews.com/news/photo/202610/1018754_520910_1791449618.jpg"
+  },
+  {
+    "id": "7656a3f1f99f",
+    "title": "[산업pick] 정부, 녹색 대전환에 1,000조 투입···수소환원제철·전고체...",
+    "link": "https://www.globale.co.kr/news/articleView.html?idxno=40868",
+    "published_at": "2026-10-08T18:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.globale.co.kr/news/thumbnail/202610/40868_67674_2728_v150.jpg"
   },
   {
     "id": "045c2f11cef3",
@@ -764,7 +790,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "/photos/2026/10/08/2026100816462078445_l.jpg"
+    "image": ""
   },
   {
     "id": "1e7fff1ff1e6",
@@ -881,7 +907,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261008162959095650048b718333211177233133.jpg&nmt=18"
   },
   {
     "id": "6e0b165931b8",
@@ -1014,45 +1040,6 @@
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/08/.cache/512/20261008500185.jpg"
   },
   {
-    "id": "3af7372d0ebf",
-    "title": "이재용, 젠슨 황도 눌렀다… 삼성전자, 3분기 사상 최대 실적",
-    "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=44295",
-    "published_at": "2026-10-08T15:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.s-journal.co.kr/news/photo/202610/44295_55514_5012.png"
-  },
-  {
-    "id": "1c9bf6aee34d",
-    "title": "대전시, 민선 9기 77개 공약 확정…\"총사업비 8조3244억\"",
-    "link": "https://www.newsis.com/view/NISX20261008_0003819391",
-    "published_at": "2026-10-08T15:23:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/10/08/NISI20261008_0002258888_web.jpg"
-  },
-  {
-    "id": "279862ec6e58",
-    "title": "[중화학 ON] 효성重, 국내최초 GW급 HVDC 성능 검증 설비 구축 外",
-    "link": "https://dealsite.co.kr/articles/170365",
-    "published_at": "2026-10-08T15:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/10/08/27993405aaf14fcf9b0bccc8d51bcfb5/thumb.jpg"
-  },
-  {
     "id": "5ab92a504190",
     "title": "위즈코어, 스마트제조 AX 플랫폼·5G 특화망 기술 공개",
     "link": "https://zdnet.co.kr/view/?no=20261008111533",
@@ -1159,7 +1146,7 @@
     "keywords": [
       "5G 특화망"
     ],
-    "image": ""
+    "image": "https://biz.chosun.com/resizer/v2/DMPCABCDCNBMHBRSMDR2ROP72M.JPG?auth=b929667b582825033d4a2402390fcb5b118ed77f5927901beafb31759477a307&width=1200&height=630&smart=true"
   },
   {
     "id": "c6def1c073b2",
@@ -1173,7 +1160,7 @@
     "keywords": [
       "5G 특화망"
     ],
-    "image": "/photos/2026/10/06/2026100609431155636_l.jpg"
+    "image": ""
   },
   {
     "id": "f1ee84bdfeb7",
@@ -1195,19 +1182,6 @@
     "published_at": "2026-10-06T00:56:00+00:00",
     "sources": [
       "Chosunbiz"
-    ],
-    "keywords": [
-      "5G 특화망"
-    ],
-    "image": ""
-  },
-  {
-    "id": "e21d7db8a9fc",
-    "title": "HP코리아·네이블, 5G 특화망 기반 무선 스마트오피스 사업 협력",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zcFBqaGgtMV9TektGVzVCdmZZTi1ZbEFNR2lOTHdNdm43MXBtYWV3VVg3TEZBYkV6a3F2aWxYRk5iazVWNzZWQUVPZmR5ajNrd25FVzRjdGd4Q2RzVXhidUJ3NUdGUnNEZ1RpZW41Vm9WQdIBckFVX3lxTE9zcFBqaGgtMV9TektGVzVCdmZZTi1ZbEFNR2lOTHdNdm43MXBtYWV3VVg3TEZBYkV6a3F2aWxYRk5iazVWNzZWQUVPZmR5ajNrd25FVzRjdGd4Q2RzVXhidUJ3NUdGUnNEZ1RpZW41Vm9WQQ?oc=5",
-    "published_at": "2026-10-06T20:45:45+00:00",
-    "sources": [
-      "테크데일리"
     ],
     "keywords": [
       "5G 특화망"
