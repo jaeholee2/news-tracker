@@ -1,5 +1,44 @@
 [
   {
+    "id": "7902fee56ca3",
+    "title": "\"내년에도 반도체일 줄\"…이익 증가율 1위 전망 업종[주식R]",
+    "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610110001&t=NN",
+    "published_at": "2026-10-11T00:33:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "c210d8a37e96",
+    "title": "전산장애 잦은 금융사… 보안 예산 집행률 70% 밑돌았다",
+    "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2305934",
+    "published_at": "2026-10-10T22:21:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.daejonilbo.com/news/photo/202610/2305934_741978_1835.jpg"
+  },
+  {
+    "id": "39f7f01253b6",
+    "title": "반도체 다음은 2차전지?…내년 증시 주도주 변화 '주목'",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026101020572161836",
+    "published_at": "2026-10-10T21:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.newsway.co.kr/photo/2026/04/06/20260406000006_1200.png"
+  },
+  {
     "id": "e2018f5c95c1",
     "title": "전산장애 잦은 금융사 20곳, 정보보호 예산 집행률 70%도 안 돼",
     "link": "https://www.munhwa.com/article/11622511?ref=naver",
@@ -36,7 +75,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500160.jpg?v=20261010195812"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500160.jpg?v=20261011011027"
   },
   {
     "id": "d562e2ee7422",
@@ -192,7 +231,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500085.png?v=20261010195812"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500085.png?v=20261011011028"
   },
   {
     "id": "06c3db85e1b6",
@@ -257,7 +296,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cdnimage.dailian.co.kr/news/202610/news_1791599412894_1699878_m_1.png"
   },
   {
     "id": "6188917f267e",
@@ -403,19 +442,6 @@
     "image": "https://pimg.mk.co.kr/news/cms/202610/10/rcv.YNA.20261007.PYH2026100701470001300_R.jpg"
   },
   {
-    "id": "aaae619f801e",
-    "title": "정보보호 예산 축소, 고객 신뢰 위협하는 금융사들 상황은?",
-    "link": "https://www.gokorea.kr/news/articleView.html?idxno=880969",
-    "published_at": "2026-10-10T09:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.gokorea.kr/news/thumbnail/202610/880969_158350_2542_v150.jpg"
-  },
-  {
     "id": "ddd2ecbe6212",
     "title": "금융사 정보보호 예산 삭감 논란, 고객 안전 위협 증가",
     "link": "https://www.gokorea.kr/news/articleView.html?idxno=880963",
@@ -427,6 +453,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.gokorea.kr/news/thumbnail/202610/880963_158344_249_v150.jpg"
+  },
+  {
+    "id": "aaae619f801e",
+    "title": "정보보호 예산 축소, 고객 신뢰 위협하는 금융사들 상황은?",
+    "link": "https://www.gokorea.kr/news/articleView.html?idxno=880969",
+    "published_at": "2026-10-10T09:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gokorea.kr/news/thumbnail/202610/880969_158350_2542_v150.jpg"
   },
   {
     "id": "67832fe4974a",
@@ -491,7 +530,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cdnimage.dailian.co.kr/news/202610/news_1791436133133_1699417_m_1.png"
   },
   {
     "id": "bf3cdd1330ac",
@@ -819,19 +858,6 @@
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/871412_895931_813_v150.jpg"
   },
   {
-    "id": "1b71f24084e3",
-    "title": "[정치쇼] 이해민 \"누리호, 재사용가능 발사체 구축할 것…AI 해킹? AI로 ...",
-    "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790290&plink=ORI&cooper=NAVER",
-    "published_at": "2026-10-09T10:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.sbs.co.kr/newimg/news/20261009/202229949_1280.jpg"
-  },
-  {
     "id": "947539ad0452",
     "title": "미·러 가스관 재가동 밀약 타진...독일 거부에 멈춰선 14조 원 노드스트...",
     "link": "https://www.g-enews.com/view.php?ud=202610090953148748fbbec65dfb_1",
@@ -843,6 +869,19 @@
       "한화시스템"
     ],
     "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026100910035307283fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "1b71f24084e3",
+    "title": "[정치쇼] 이해민 \"누리호, 재사용가능 발사체 구축할 것…AI 해킹? AI로 ...",
+    "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790290&plink=ORI&cooper=NAVER",
+    "published_at": "2026-10-09T10:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.sbs.co.kr/newimg/news/20261009/202229949_1280.jpg"
   },
   {
     "id": "1b2013b5f793",
@@ -1012,32 +1051,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/493928_479577_5014_v150.jpg"
-  },
-  {
-    "id": "4b928f6e50f5",
-    "title": "[주간 거래소 외국인] 이수페타시스·삼성SDI 담고 SK하이닉스 3조원 넘...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=493927",
-    "published_at": "2026-10-09T06:48:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/493927_479576_4356_v150.jpg"
-  },
-  {
-    "id": "2cacaa0a1164",
-    "title": "‘메이드 인 삼성’ 빅테크 첫 영업익 107조",
-    "link": "https://www.seoul.co.kr/news/economy/industry/2026/10/09/20261009001007?wlog_tag3=naver",
-    "published_at": "2026-10-09T05:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/10/08/SSC_20261008175657_O2.jpg.webp"
   },
   {
     "id": "5ab92a504190",
