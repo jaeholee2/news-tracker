@@ -1,5 +1,187 @@
 [
   {
+    "id": "530f0938f168",
+    "title": "[미리보는 이데일리 신문]\"美, 韓과 공유한 정보 中에 샌다고 인식\"",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=03047126645611936&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-10-11T21:41:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/content/defaultimg.jpg"
+  },
+  {
+    "id": "34e0add2dd0d",
+    "title": "금융권, 지난해 정보보호 예산 70%만 집행",
+    "link": "https://www.khan.co.kr/article/202610112133015",
+    "published_at": "2026-10-11T21:33:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.khan.co.kr/spko/company/Khan_CI_180212.jpg"
+  },
+  {
+    "id": "8650d7d757ca",
+    "title": "[영상] 증권사들이 절대 '매도'의견 안내는 이유, 집중분석",
+    "link": "https://news.ifm.kr/news/articleView.html?idxno=481329",
+    "published_at": "2026-10-11T19:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news.ifm.kr/news/thumbnail/202610/481329_156006_5140_v150.jpg"
+  },
+  {
+    "id": "9e32ff27c60d",
+    "title": "“한국, 천궁Ⅱ 빨리 달라”던 사우디, 후티에 치명상…K방산에 SOS 치나...",
+    "link": "https://www.seoul.co.kr/news/international/2026/10/11/20261011500075?wlog_tag3=naver",
+    "published_at": "2026-10-11T19:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.seoul.co.kr//img/upload/2026/10/11/SSC_20261011194602_O2.jpg.webp"
+  },
+  {
+    "id": "e37af7ec6980",
+    "title": "경상국립대, 우주 분야 고급인력 양성 박차",
+    "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=647084",
+    "published_at": "2026-10-11T18:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.gnnews.co.kr/image/logo/snslogo_20240930015916.png"
+  },
+  {
+    "id": "f36998c244b9",
+    "title": "[온누리]K빙산과 천궁-Ⅱ",
+    "link": "https://sjbnews.com/news/news.php?number=889583",
+    "published_at": "2026-10-11T18:51:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://sjbnews.com/data/data_file/thum_889583_202610_0.jpg"
+  },
+  {
+    "id": "145ceb6a0481",
+    "title": "'우주강국 대한민국' 과학도시 대전이 견인한다",
+    "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2306152",
+    "published_at": "2026-10-11T18:35:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.daejonilbo.com/news/photo/202610/2306152_742245_0442.jpg"
+  },
+  {
+    "id": "98bb84b0838a",
+    "title": "아침을 열며-인재와 기술을 바탕으로(2) 변화와 도약",
+    "link": "http://www.gndomin.com/news/articleView.html?idxno=492229",
+    "published_at": "2026-10-11T18:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.gndomin.com/news/thumbnail/202610/492229_479787_4742_v150.jpg"
+  },
+  {
+    "id": "0fa6a031ef80",
+    "title": "경상국립대 '우주기술혁신인재양성사업' 본과제 최종 선정",
+    "link": "http://www.gndomin.com/news/articleView.html?idxno=492135",
+    "published_at": "2026-10-11T18:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.gndomin.com/news/thumbnail/202610/492135_479684_0445_v150.jpg"
+  },
+  {
+    "id": "4bdd630f40e4",
+    "title": "반도체 품은 액티브 ETF… 코스닥 지수형보다 12%p 더 뛰었다",
+    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261012010002974",
+    "published_at": "2026-10-11T17:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.asiatoday.co.kr/file/2026y/10m/12d/20261012010002974_1791708298_1.jpg"
+  },
+  {
+    "id": "f84cd200c056",
+    "title": "[기획] 206억 원에 무너진 7조 그룹…중앙그룹의 '현금 절벽'",
+    "link": "http://www.rightknow.co.kr/news/articleView.html?idxno=34998",
+    "published_at": "2026-10-11T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.rightknow.co.kr/news/thumbnail/202610/34998_41970_564_v150.jpg"
+  },
+  {
+    "id": "e869e8dd5311",
+    "title": "대전시 민선 9기 공약 77개 확정… 8조 3244억 투입",
+    "link": "https://www.joongdo.co.kr/web/view.php?key=20261011010002331",
+    "published_at": "2026-10-11T17:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "fa1482bd2677",
+    "title": "국민소득 4만달러…1조달러 수출, '한국의 르네상스'는 이제 시작이다",
+    "link": "https://www.hankyung.com/article/2026101139531",
+    "published_at": "2026-10-11T16:51:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202610/AA.46009447.1.jpg"
+  },
+  {
+    "id": "8906622bc909",
+    "title": "경상국립대, 우주항공청 '우주기술혁신인재양성사업' 본과제 선정",
+    "link": "https://www.newsgn.com/news/articleView.html?idxno=578356",
+    "published_at": "2026-10-11T16:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsgn.com/news/thumbnail/202610/578356_386404_1319_v150.jpg"
+  },
+  {
     "id": "11412ae86294",
     "title": "국립창원대, AI 가스터빈 전문인재 양성…산·학·연 협력 강화",
     "link": "https://www.mhns.co.kr/news/articleView.html?idxno=763614",
@@ -78,19 +260,6 @@
     "image": "https://www.imaeil.com/photos/2026/10/11/2026101113370398040_l.png"
   },
   {
-    "id": "05c8baaf6eed",
-    "title": "김승연 회장 “낙관주의 설 자리 없다”…구미사업장 언급하며 안전경...",
-    "link": "https://www.kbmaeil.com/article/20261011500496",
-    "published_at": "2026-10-11T14:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011500492.jpg"
-  },
-  {
     "id": "d87be038babe",
     "title": "[2026 국감] 전산장애 20곳, 보안예산 30% 못 썼다…7곳은 올해 편성액 ...",
     "link": "http://www.newsian.co.kr/news/articleView.html?idxno=96825",
@@ -102,6 +271,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.newsian.co.kr/news/thumbnail/202610/96825_91470_1322_v150.jpg"
+  },
+  {
+    "id": "05c8baaf6eed",
+    "title": "김승연 회장 “낙관주의 설 자리 없다”…구미사업장 언급하며 안전경...",
+    "link": "https://www.kbmaeil.com/article/20261011500496",
+    "published_at": "2026-10-11T14:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/11/.cache/512/20261011500492.jpg"
   },
   {
     "id": "7f0cdbae83c2",
@@ -179,7 +361,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/11/news-g.v1.20261006.8fa3716a29ca453da6113d4fd5ed46f2_Z1.jpg"
+    "image": ""
   },
   {
     "id": "84f34017a0f4",
@@ -325,19 +507,6 @@
     "image": "http://www.socialvalue.kr/news/data/20261011/p1065575612926210_826_thum.jpg"
   },
   {
-    "id": "98047ae74454",
-    "title": "국립창원대 AI혁신 가스터빈 연구센터 \"석·박사급 인재 양성 속도\"",
-    "link": "https://www.newsgn.com/news/articleView.html?idxno=578070",
-    "published_at": "2026-10-11T10:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsgn.com/news/thumbnail/202610/578070_386104_1519_v150.jpg"
-  },
-  {
     "id": "f9f97e7ad5ce",
     "title": "반도체 대형주 주춤하는 사이 소부장은 강세...“글로벌 설비투자 확대...",
     "link": "https://www.chosun.com/economy/money/2026/10/11/IBMPTGIITFEG3MAWGVBF7HCNBY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
@@ -349,6 +518,19 @@
       "한화시스템"
     ],
     "image": "https://www.chosun.com/resizer/v2/YYOOQX3O5JLSNKWLOUI5E4L6MU.JPG?auth=75e775acb47e04c7a95ccc96853519b3012509cb3b4033f0f647e9e7f73c3ac5&width=1200&height=630&smart=true"
+  },
+  {
+    "id": "98047ae74454",
+    "title": "국립창원대 AI혁신 가스터빈 연구센터 \"석·박사급 인재 양성 속도\"",
+    "link": "https://www.newsgn.com/news/articleView.html?idxno=578070",
+    "published_at": "2026-10-11T10:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsgn.com/news/thumbnail/202610/578070_386104_1519_v150.jpg"
   },
   {
     "id": "857038a71b58",
@@ -388,6 +570,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.coenworks.com/Files/30/News/202610/8183_20261008230523369.jpg"
+  },
+  {
+    "id": "12d60720d9e0",
+    "title": "\"낙관주의 설 자리 없다…현실 직시해야\"",
+    "link": "https://www.dt.co.kr/article/12088280?ref=naver",
+    "published_at": "2026-10-11T09:39:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.dt.co.kr/news/cms/2026/10/11/news-p.v1.20261011.f0b3927fd37541b6a6ff55ba5925a561_R.jpg"
   },
   {
     "id": "95a3b2d0ad26",
@@ -569,7 +764,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500160.jpg?v=20261011155049"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500160.jpg?v=20261011224809"
   },
   {
     "id": "d562e2ee7422",
@@ -598,19 +793,6 @@
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/494109_479746_2417_v150.jpg"
   },
   {
-    "id": "4723ec17f29e",
-    "title": "\"정찰은 옛말, 이젠 자폭·요격\"…방산 빅4, 무인기 생태계 만든다[K드론...",
-    "link": "https://www.newsis.com/view/NISX20261008_0003819552",
-    "published_at": "2026-10-10T15:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/09/21/NISI20260921_0002245742_web.jpg"
-  },
-  {
     "id": "6888fc92f8af",
     "title": "포스코, K-철강 산업 탈탄소 생태계 구축 선봉",
     "link": "https://news.bizwatch.co.kr/article/industry/2026/10/08/0027",
@@ -622,6 +804,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.bizwatch.co.kr/news/photo/2026/02/06/8cd8e1572001377336b567f23a6e3295.jpg"
+  },
+  {
+    "id": "4723ec17f29e",
+    "title": "\"정찰은 옛말, 이젠 자폭·요격\"…방산 빅4, 무인기 생태계 만든다[K드론...",
+    "link": "https://www.newsis.com/view/NISX20261008_0003819552",
+    "published_at": "2026-10-10T15:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.newsis.com/2026/09/21/NISI20260921_0002245742_web.jpg"
   },
   {
     "id": "0d42fca0aba3",
@@ -660,7 +855,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/10/news-p.v1.20261010.7645d91495474608942943d88a56a1b6_Z1.jpg"
+    "image": ""
   },
   {
     "id": "c654134cf8f3",
@@ -687,279 +882,6 @@
       "한화시스템"
     ],
     "image": "http://www.newsfc.co.kr/news/thumbnail/202610/81654_78991_1928_v150.jpg"
-  },
-  {
-    "id": "e6ac70d6c7f9",
-    "title": "전장에서 못 쓰는 AI는 무용지물…K-방산, 벤처·스타트업에 빗장 풀어...",
-    "link": "https://www.sedaily.com/article/20099987?ref=naver",
-    "published_at": "2026-10-10T13:21:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/11/news-p.v1.20261010.c60d8bce07a34d27ac3a792b978f4eff_Z1.png"
-  },
-  {
-    "id": "d61914d3ae35",
-    "title": "금융권, 잦은 전산장애에도 정보보호 예산 삭감 심각…집행률 69% '안전...",
-    "link": "https://www.pointe.co.kr/news/articleView.html?idxno=85858",
-    "published_at": "2026-10-10T13:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pointe.co.kr/news/photo/202610/85858_116327_147.png"
-  },
-  {
-    "id": "c9619c3ad3d9",
-    "title": "경상국립대, 우주항공청 ‘우주기술혁신인재양성사업’ 본과제 최종 선...",
-    "link": "https://www.viva100.com/article/20261010500088",
-    "published_at": "2026-10-10T13:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/10/.cache/512/20261010500085.png?v=20261011155050"
-  },
-  {
-    "id": "06c3db85e1b6",
-    "title": "전산장애 빈번한 20개 금융사, '보안예산 집행률 70% 미만'…투자 축소 ...",
-    "link": "https://www.ppss.kr/news/articleView.html?idxno=314781",
-    "published_at": "2026-10-10T12:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ppss.kr/news/photo/202610/314781_137083_2457.jpg"
-  },
-  {
-    "id": "4c6c039ac45f",
-    "title": "로켓랩, 바클레이스가 성장성 주목…우주 발사 넘어 사업 다각화 속도",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=844114",
-    "published_at": "2026-10-10T12:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202610/844114_431633_5718_v150.jpg"
-  },
-  {
-    "id": "5be2e2e3e09f",
-    "title": "보안 비상인데...우리·씨티은행 등 대형금융사 7곳 올해 정보보호예산...",
-    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=65548",
-    "published_at": "2026-10-10T11:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/65548_88874_2653_v150.jpg"
-  },
-  {
-    "id": "3b463b69d57b",
-    "title": "[이슈국감] 해킹 잇따르는데···금융사 보안예산 30% 미집행",
-    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871496",
-    "published_at": "2026-10-10T11:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/871496_896064_3453_v150.jpg"
-  },
-  {
-    "id": "49da2eaec57f",
-    "title": "전산장애 잦은 금융사 20곳, 정보보호 예산 집행률 69.6% 그쳐",
-    "link": "https://www.dailian.co.kr/news/view/1699878/?sc=Naver",
-    "published_at": "2026-10-10T11:31:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "6188917f267e",
-    "title": "실소유주 '그림자 경영'에 갇힌 빗썸…IPO '첩첩산중'",
-    "link": "https://www.sisajournal.com/news/articleView.html?idxno=389470",
-    "published_at": "2026-10-10T11:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.sisajournal.com/news/thumbnail/202610/389470_398363_84_v150.jpg"
-  },
-  {
-    "id": "927c438c01f7",
-    "title": "저궤도 개척시대, K-뉴스페이스의 미래…'K-우주포럼'서 그린다",
-    "link": "https://www.mt.co.kr/tech/2026/10/10/2026101010141389633",
-    "published_at": "2026-10-10T11:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=2185,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101010141389633_1.jpg"
-  },
-  {
-    "id": "30197e77e14c",
-    "title": "경상국립대, 우주항공 인재양성 55억 투입…산학협력·인권교육 강화",
-    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87307",
-    "published_at": "2026-10-10T10:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.industrynews.co.kr/news/photo/202610/87307_108278_2216.jpg"
-  },
-  {
-    "id": "d9baabdaf5e7",
-    "title": "우리·국민은행, 정보보호 예산 집행률 50%대 그쳐",
-    "link": "https://www.g-enews.com/view.php?ud=202610101039548637e30fcb1ba8_1",
-    "published_at": "2026-10-10T10:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026101010405701494e30fcb1ba8582271579.jpg"
-  },
-  {
-    "id": "2b0b142d6431",
-    "title": "[2026 국감] 금융사 보안예산 편성하고도 30% 남겼다…우리은행 집행률...",
-    "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856071",
-    "published_at": "2026-10-10T10:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsworks.co.kr/news/thumbnail/202610/856071_819984_3333_v150.jpg"
-  },
-  {
-    "id": "a210ec4c4319",
-    "title": "은행권 해킹 잇따르는데 보안투자는 뒷걸음…우리은행 예산 21.7% 삭감",
-    "link": "http://www.intn.co.kr/news/articleView.html?idxno=2053928",
-    "published_at": "2026-10-10T10:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.intn.co.kr/news/thumbnail/202610/2053928_739731_3159_v150.jpg"
-  },
-  {
-    "id": "6b62dd428b55",
-    "title": "우리·국민은행, 지난해 보안예산 집행률 50%대 머물러",
-    "link": "https://www.jasm.co.kr/news/articleView.html?idxno=320948",
-    "published_at": "2026-10-10T10:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jasm.co.kr/news/photo/202610/320948_320992_812.jpg"
-  },
-  {
-    "id": "d5738ed17f22",
-    "title": "'정시 발사'만으론 부족…누리호 '상업서비스'의 다음 숙제[누리호 그후...",
-    "link": "https://www.newsis.com/view/NISX20261008_0003819317",
-    "published_at": "2026-10-10T10:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/10/07/NISI20261007_0021479662_web.jpg"
-  },
-  {
-    "id": "c0d6ba3d6a20",
-    "title": "\"전산장애 잦은 금융사 20곳, 작년 보안예산 집행률 70% 하회\"",
-    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=883120",
-    "published_at": "2026-10-10T09:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.getnews.co.kr/news/photo/202610/883120_540652_4713.jpg"
-  },
-  {
-    "id": "60237a6a18cc",
-    "title": "전산장애 잦은 금융사 정보보호 예산 집행률 70% 밑돌아",
-    "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4111297",
-    "published_at": "2026-10-10T09:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4111297_771275_4149_v150.jpg"
-  },
-  {
-    "id": "12ffd478b6b0",
-    "title": "“왜 내 통장 출금 안돼?”...장애 잦은 금융사 이유있네",
-    "link": "https://www.mk.co.kr/article/12172660",
-    "published_at": "2026-10-10T09:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://pimg.mk.co.kr/news/cms/202610/10/rcv.YNA.20261007.PYH2026100701470001300_R.jpg"
-  },
-  {
-    "id": "aaae619f801e",
-    "title": "정보보호 예산 축소, 고객 신뢰 위협하는 금융사들 상황은?",
-    "link": "https://www.gokorea.kr/news/articleView.html?idxno=880969",
-    "published_at": "2026-10-10T09:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.gokorea.kr/news/thumbnail/202610/880969_158350_2542_v150.jpg"
-  },
-  {
-    "id": "ddd2ecbe6212",
-    "title": "금융사 정보보호 예산 삭감 논란, 고객 안전 위협 증가",
-    "link": "https://www.gokorea.kr/news/articleView.html?idxno=880963",
-    "published_at": "2026-10-10T09:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.gokorea.kr/news/thumbnail/202610/880963_158344_249_v150.jpg"
   },
   {
     "id": "5ab92a504190",
