@@ -1,5 +1,681 @@
 [
   {
+    "id": "d70ef2b342eb",
+    "title": "'힐스테이트 거제시그니처' 356세대 1차 공급… 16일 견본주택 개관",
+    "link": "http://www.gnmaeil.com/news/articleView.html?idxno=596553",
+    "published_at": "2026-10-14T22:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.gnmaeil.com/news/thumbnail/202610/596553_598393_4655_v150.jpg"
+  },
+  {
+    "id": "b010d829fb72",
+    "title": "25년 일감 잡은 우양상선…발레와 손잡고 5800억원 선박 투자",
+    "link": "https://www.cwn.kr/news/articleView.html?idxno=59396",
+    "published_at": "2026-10-14T21:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.cwn.kr/news/photo/202610/59396_59774_4039.jpg"
+  },
+  {
+    "id": "582502eab4d6",
+    "title": "대구·경북 상장사 시총 한 달 만에 5.7조 증발",
+    "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=562363",
+    "published_at": "2026-10-14T21:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.idaegu.co.kr/image/logo/snslogo_20241121032237.png"
+  },
+  {
+    "id": "5230b9b4c4dc",
+    "title": "[뉴스인사이드 뉴스톡톡] 현대차, 인도 푸네 신공장 준공…155억달러 투...",
+    "link": "https://www.newsinside.kr/news/articleView.html?idxno=5024324",
+    "published_at": "2026-10-14T21:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsinside.kr/news/photo/202610/5024324_941488_177.jpg"
+  },
+  {
+    "id": "19f8d8492859",
+    "title": "이사회 독립성 강화… “기업 투명성 선제 대응”",
+    "link": "https://www.segye.com/newsView/20261014520253?OutUrl=naver",
+    "published_at": "2026-10-14T21:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.segye.com/content/image/2026/10/14/20261014522765.jpg"
+  },
+  {
+    "id": "1da48326c1e3",
+    "title": "K-디저트 카페 '빙수당', 인도네시아 발리점 성황리 오픈",
+    "link": "https://www.handmk.com/news/articleView.html?idxno=44099",
+    "published_at": "2026-10-14T20:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.handmk.com/news/photo/202610/44099_106813_3830.jpg"
+  },
+  {
+    "id": "76071419af91",
+    "title": "[공시] 10월 15일, 코스피 상장사 52개 종목 자사주 매수 신청",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=723021",
+    "published_at": "2026-10-14T20:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newstnt.com/news/photo/202610/723021_727481_3415.jpg"
+  },
+  {
+    "id": "0043096a89cb",
+    "title": "엔비디아, 영국 AI 안전 연구 지원…5년간 3650억 원 규모 컴퓨팅 자원 ...",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=844518",
+    "published_at": "2026-10-14T20:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/844518_432032_1512_v150.jpg"
+  },
+  {
+    "id": "44f8395d06a2",
+    "title": "광양경자청, 국제해양플랜트산업전서 기업 유치 나서",
+    "link": "http://www.netongs.com/news/articleView.html?idxno=335806",
+    "published_at": "2026-10-14T20:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.netongs.com/news/thumbnail/202610/335806_146524_4722_v150.jpg"
+  },
+  {
+    "id": "afdb072d1ec4",
+    "title": "[주식마감] '서울고터 복합 개발' 기대감에 천일고속 상한가... 유니켐,...",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1186964",
+    "published_at": "2026-10-14T19:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ggilbo.com/news/photo/202610/1186964_1039687_2852.jpg"
+  },
+  {
+    "id": "b05acf586084",
+    "title": "[게임뉴스] 조이시티 및 원스토어 소식 외",
+    "link": "https://www.gamevu.co.kr/news/articleView.html?idxno=61434",
+    "published_at": "2026-10-14T19:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gamevu.co.kr/news/photo/202610/61434_97699_4232.jpg"
+  },
+  {
+    "id": "ce0152f5152c",
+    "title": "광양경자청, 국제해양에너지플랜트산업전 참가…기업 투자유치 추진",
+    "link": "https://www.betanews.net/article/view/beta202610140158",
+    "published_at": "2026-10-14T19:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.betanews.net/data/beta/image/2026/10/14/beta20261014000152.jpg"
+  },
+  {
+    "id": "fc3f9a7b6634",
+    "title": "친환경에너지·AI기술 각축…업계 트렌드 읽고 미래로 항해",
+    "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261015.22008004110",
+    "published_at": "2026-10-14T19:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/1015/L20261015.22008004110i1.jpg?23"
+  },
+  {
+    "id": "5926ac581113",
+    "title": "[서학!스타] 엔비디아, 영국 AI 안전·보안 연구에 2억5000만 달러 지원...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=615500",
+    "published_at": "2026-10-14T18:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.cbci.co.kr/news/thumbnail/202610/615500_422862_4857_v150.jpg"
+  },
+  {
+    "id": "dcbc018a27a4",
+    "title": "[논설실의 뉴스 진단] 누리호 떠난 그을린 발사대 위… '민간 우주 시대...",
+    "link": "https://www.fnnews.com/news/202610141841211405",
+    "published_at": "2026-10-14T18:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.fnnews.com/resource/media/image/2026/10/14/202610141841226094_e.jpg"
+  },
+  {
+    "id": "72dc620f8742",
+    "title": "우양상선, 발레 25년 장기 일감 확보…2조2천억 규모 4척 발주",
+    "link": "https://www.rcast.co.kr/news/articleView.html?idxno=31814",
+    "published_at": "2026-10-14T18:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.rcast.co.kr/news/thumbnail/202610/31814_61771_4020_v150.jpg"
+  },
+  {
+    "id": "5de3b3654488",
+    "title": "라이엇게임즈, 2026 LCK 시청 지표 발표…평균 분당 시청자 수 70만 돌파",
+    "link": "https://zdnet.co.kr/view/?no=20261014175541",
+    "published_at": "2026-10-14T18:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.zdnet.co.kr/2026/10/14/1f5d72fa7e60c389e6b6866f6c680c0a.jpg"
+  },
+  {
+    "id": "1b973d280791",
+    "title": "프로드라이브, 연말~내년 초 한국 사무소 개설",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=63714",
+    "published_at": "2026-10-14T18:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.thelec.kr/news/photo/202610/63714_50122_3114.jpg"
+  },
+  {
+    "id": "e5ee464bfd19",
+    "title": "현대엔지니어링 '힐스테이트 거제시그니처' 16일 견본주택 개관",
+    "link": "http://www.gndomin.com/news/articleView.html?idxno=492824",
+    "published_at": "2026-10-14T18:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.gndomin.com/news/thumbnail/202610/492824_480433_0925_v150.jpg"
+  },
+  {
+    "id": "ab58154795ac",
+    "title": "[강현철의 뉴스 솎아내기] 주목되는 금융사 종합금융그룹화 전략",
+    "link": "https://www.dt.co.kr/article/12089167?ref=naver",
+    "published_at": "2026-10-14T18:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.dt.co.kr/news/cms/2026/10/14/news-p.v1.20261014.d5c3226f975441db96603c77f37c72b8_R.jpg"
+  },
+  {
+    "id": "7896e6fcb708",
+    "title": "유엔넷, 오픈소스 기반 '타란툴라' AI 데이터 플랫폼 공급 확대",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=63713",
+    "published_at": "2026-10-14T18:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.thelec.kr/news/photo/202610/63713_50121_2826.jpg"
+  },
+  {
+    "id": "daba611e1d99",
+    "title": "'먹튀' PEF 떠난 저축은행업계, 장기 자산운용으로 체질 전환하나",
+    "link": "https://www.goodkyung.com/news/articleView.html?idxno=292391",
+    "published_at": "2026-10-14T18:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.goodkyung.com/news/thumbnail/202610/292391_266074_3311_v150.jpg"
+  },
+  {
+    "id": "c40fd4df2c8c",
+    "title": "국감서 다시 떠오른 KAI 민영화…노조 반발 속 공급망·경쟁구도 쟁점",
+    "link": "https://www.g-enews.com/view.php?ud=202610141459461330ea14faf6f5_1",
+    "published_at": "2026-10-14T18:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026101415234208214ea14faf6f5115951676.jpg"
+  },
+  {
+    "id": "1b2f2b819158",
+    "title": "\"항공우주산업 미래, 재벌 이익에 맡겨선 안 돼\"…KAI 노조, 청와대에 결...",
+    "link": "https://www.ddaily.co.kr/page/view/2026101417111322636",
+    "published_at": "2026-10-14T17:43:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "/photos/2026/10/14/2026101416362790406_l.jpg"
+  },
+  {
+    "id": "195fa04ce1f8",
+    "title": "현대차, 인도 진출 30년 ‘제2도약’…푸네 신공장 준공",
+    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610141535223150591",
+    "published_at": "2026-10-14T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.dnews.co.kr/photo/photo/2026/10/14/202610141535223150591-2-697471.jpg"
+  },
+  {
+    "id": "9ba58b84d3ce",
+    "title": "오늘의 프리미엄9 콘텐츠 다이제스트(10월 14일)",
+    "link": "https://www.hankyung.com/article/202610142137i",
+    "published_at": "2026-10-14T17:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202610/01.46052066.1.png"
+  },
+  {
+    "id": "05dad05b308c",
+    "title": "전국 증시 상승에도 대구경북 상장사 시총 5.2% 감소",
+    "link": "https://www.kbmaeil.com/article/20261014500244",
+    "published_at": "2026-10-14T17:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/14/.cache/512/20261014500241.png"
+  },
+  {
+    "id": "d43abfde6572",
+    "title": "KTE, 오프쇼어 코리아 참가…해양플랜트 전력·제어 기술 선봬",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=872834",
+    "published_at": "2026-10-14T17:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/872834_897544_125_v150.jpg"
+  },
+  {
+    "id": "bd5b6bfff528",
+    "title": "LCK 프랜차이즈 2021년 대비 뷰어십 2배 이상 증가, 해외 시청자도 20% 상...",
+    "link": "https://gamefocus.co.kr/detail.php?number=179787",
+    "published_at": "2026-10-14T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://gamefocus.co.kr/wys2/swf_upload/2026/10/14/17919658192865_N_7_300x200_100_2_2.jpg"
+  },
+  {
+    "id": "f9872631559c",
+    "title": "'700종신' 막히자 암·연금·인출로…종신보험 생존법 바뀐다",
+    "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=367273",
+    "published_at": "2026-10-14T17:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ftoday.co.kr/news/thumbnail/202610/367273_377098_848_v150.jpg"
+  },
+  {
+    "id": "7d1bc1b59da1",
+    "title": "[A 금융가 소식②] 삼성금융, 경찰청·생명의전화와 청소년 생명존중 업...",
+    "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=266323",
+    "published_at": "2026-10-14T17:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.asiaa.co.kr/news/photo/202610/266323_288619_109.jpg"
+  },
+  {
+    "id": "1699a56f4551",
+    "title": "[SEDEX·KES 2026] 한미반도체 'TC 본더 4'·세메스 '무인화 후공정'… 장...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=753598",
+    "published_at": "2026-10-14T17:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202610/753598_730171_324_v150.jpg"
+  },
+  {
+    "id": "519bc78545e7",
+    "title": "[기자수첩] 단일종목 레버리지 ETF, 투자자 문턱만 높이면 안전한가",
+    "link": "http://www.srtimes.kr/news/articleView.html?idxno=214765",
+    "published_at": "2026-10-14T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.srtimes.kr/news/thumbnail/202610/214765_219833_253_v150.jpg"
+  },
+  {
+    "id": "3ac68a228515",
+    "title": "경남에너지, 사회복지시설 노후 가스기기 18대 무상 교체",
+    "link": "https://www.kukinews.com/article/view/kuk202610140195",
+    "published_at": "2026-10-14T16:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "65d587851f5e",
+    "title": "LCK, 프랜차이즈 도입 6년 만에 시청자 2.19배…평균 71만명",
+    "link": "https://www.sportschosun.com/entertainment/2026-10-14/202610140100091700005923",
+    "published_at": "2026-10-14T16:51:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.sportschosun.com/article/html/2026/10/14/2026101401000917000059231.jpg"
+  },
+  {
+    "id": "16a38d25b8bb",
+    "title": "라이엇게임즈, LCK 2026 시청 지표 공개, 평균 시청자 71만4,000명, 전년 ...",
+    "link": "https://www.gamechosun.co.kr/webzine/article/view.php?no=226351",
+    "published_at": "2026-10-14T16:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.gamechosun.co.kr/dataroom/article/20261014/226351/625453_1791963988.jpg"
+  },
+  {
+    "id": "66041622f497",
+    "title": "[단독] ‘CO₂ 1만배’ 온난화 냉매 수년째 줄줄…과태료 100만원 ‘역부...",
+    "link": "https://www.hani.co.kr/arti/society/environment/1282379.html",
+    "published_at": "2026-10-14T16:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://flexible.img.hani.co.kr/flexible/normal/640/369/imgdb/original/2026/1014/20261014502820.webp"
+  },
+  {
+    "id": "0bd722b955a5",
+    "title": "삼성重 '배터리 하이브리드' 선점···셔틀탱커 영토전쟁 열린다",
+    "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=713912",
+    "published_at": "2026-10-14T16:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202610/713912_762306_3138_v150.jpg"
+  },
+  {
+    "id": "5874824307b7",
+    "title": "[건설오늘] GS건설, AI 데이터센터 냉각 기술 개발 外 DL이앤씨·현대엔...",
+    "link": "https://www.newscj.com/news/articleView.html?idxno=3440265",
+    "published_at": "2026-10-14T16:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newscj.com/news/thumbnail/202610/3440265_3561426_4133_v150.jpg"
+  },
+  {
+    "id": "e3abdb41f564",
+    "title": "[오피셜]김서현 일본행은 헛되지 않았다…정우주·황준서도 넥스트 베이...",
+    "link": "https://mhnse.com/news/articleView.html?idxno=1592130",
+    "published_at": "2026-10-14T16:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.mhnse.com/mhnsports/2026/10/14164321/thumb_ccms_72625.jpg"
+  },
+  {
+    "id": "4e42b9b2d0f2",
+    "title": "[코스피 지수선물 옵션] 반도체주도 한 방향 아니었다…삼성전자 상승·...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495348",
+    "published_at": "2026-10-14T16:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495348_480898_3527_v150.jpg"
+  },
+  {
+    "id": "2644239c753a",
+    "title": "광양경자청, 해양에너지플랜트 기업 유치 나서",
+    "link": "http://www.snmnews.com/news/articleView.html?idxno=575887",
+    "published_at": "2026-10-14T16:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.snmnews.com/news/thumbnail/202610/575887_353625_1556_v150.jpg"
+  },
+  {
+    "id": "01ecab95c79e",
+    "title": "현대엔지니어링, 거제 최대 규모 '힐스테이트 거제시그니처' 16일 견본주...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=753607",
+    "published_at": "2026-10-14T16:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202610/753607_730179_3252_v150.jpg"
+  },
+  {
+    "id": "0e864e4753df",
+    "title": "라이엇게임즈 'LCK 프랜차이즈' 6년 만에 결실... 뷰어십 2배 '껑충'",
+    "link": "https://www.insight.co.kr/news/577773",
+    "published_at": "2026-10-14T16:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.insight.co.kr/static/2026/10/14/1200/img_20261014162716_t4b0t5xt.jpg"
+  },
+  {
+    "id": "545f50b90367",
+    "title": "바다 위 데이터센터부터 AI 조선까지…미래 해양기술 부산 모였다",
+    "link": "https://www.news1.kr/local/busan-gyeongnam/6320072",
+    "published_at": "2026-10-14T16:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "b6489949997d",
+    "title": "LCK 프랜차이즈 시스템 도입 6년 만 시청지표 2배 상승",
+    "link": "https://www.mk.co.kr/article/12175764",
+    "published_at": "2026-10-14T16:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202610/14/news-p.v1.20261014.78b931260d06478a94a0009e50ebedec_R.jpg"
+  },
+  {
+    "id": "b56b975f51b2",
+    "title": "광양경자청, 부산 국제해양플랜트산업전서 기업 유치 착수",
+    "link": "https://www.hankookilbo.com/news/article/A2026101414520000915?did=NA",
+    "published_at": "2026-10-14T16:21:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://newsimg.hankookilbo.com/2026/10/14/cdd6070a-cc08-4b97-9f67-5d49f4a0f172.jpg"
+  },
+  {
+    "id": "c73725959e6d",
+    "title": "코스피, 막판 '돌연 냉각'..삼성SDI·아모레퍼시픽은 '활짝'",
+    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172221",
+    "published_at": "2026-10-14T16:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202610/172221_131936_1856_v150.jpg"
+  },
+  {
+    "id": "cf9e22fb70fc",
+    "title": "광양경자청, 국제해양플랜트전서 ‘해양에너지 기업’ 유치 총력",
+    "link": "https://www.segye.com/newsView/20261014518885?OutUrl=naver",
+    "published_at": "2026-10-14T16:17:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.segye.com/content/image/2026/10/14/20261014519014.jpg"
+  },
+  {
+    "id": "bf8fb8584e5c",
+    "title": "아워홈 매각 뒤 구미현의 패션·뷰티사업 도전 녹녹치 않아 보이는 이유...",
+    "link": "https://www.huffingtonpost.kr/article/261207",
+    "published_at": "2026-10-14T16:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.huffingtonpost.kr/news/photo/202610/202610144649.png?v=261207"
+  },
+  {
+    "id": "7849597e9e37",
+    "title": "[클릭! e 게임]LCK, 평균 분당 시청자 71만 명 돌파",
+    "link": "https://www.munhwa.com/article/11623491?ref=naver",
+    "published_at": "2026-10-14T16:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.munhwa.com/news/cms/2026/10/14/news-p.v1.20261014.6d9a183b26aa46299ecbf674748dc7c7_R.jpg"
+  },
+  {
+    "id": "daba54098d5a",
+    "title": "LCK, 2026년 평균 분당 시청자 71만명 돌파…2021년 대비 2배 증가",
+    "link": "https://www.kukinews.com/article/view/kuk202610140176",
+    "published_at": "2026-10-14T16:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "ef8fc54377ff",
     "title": "코스메카코리아, 화장품 ODM 넘어 전력 판매 채비…수익성은 '글쎄'",
     "link": "https://www.bloter.net/news/articleView.html?idxno=675667",
@@ -63,500 +739,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.joongangenews.com/news/photo/202610/555050_362198_043.jpeg"
-  },
-  {
-    "id": "1cba9dee47fe",
-    "title": "LCK, 프랜차이즈 도입 6년 만에 뷰어십 2배 올랐다",
-    "link": "https://www.gamemeca.com/mv.php?inflow=naver&gid=1781762",
-    "published_at": "2026-10-14T16:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.gamemeca.com/gmdata/0001/781/762/gm570692_thumb_LCK__.webp"
-  },
-  {
-    "id": "ffd4cd5bff40",
-    "title": "조의장, 7박9일 첫 순방 마무리…'평화 외교'에 '방산 세일즈'까지",
-    "link": "https://www.news1.kr/politics/assembly/6318969",
-    "published_at": "2026-10-14T16:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "0ad9a89fe04c",
-    "title": "[거래소 기관] SK하이닉스 삼성SDI LG에너지솔루션 삼성전자 집중매수.....",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495332",
-    "published_at": "2026-10-14T15:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495332_480881_5611_v150.jpg"
-  },
-  {
-    "id": "dff4c8ceb275",
-    "title": "[거래소 외국인] HMM·SK스퀘어 사고 SK하이닉스·삼성전자 팔았다",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495329",
-    "published_at": "2026-10-14T15:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495329_480878_533_v150.jpg"
-  },
-  {
-    "id": "e5e5225330da",
-    "title": "글로벌 조선·해양기업 잡아라…광양경자청, 투자유치 전면전",
-    "link": "https://www.viva100.com/article/20261014501077",
-    "published_at": "2026-10-14T15:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/14/.cache/512/20261014501069.jpg?v=20261014161020"
-  },
-  {
-    "id": "5f52ade7b098",
-    "title": "LCK, 프랜차이즈 도입 6년 만에 시청 지표 ‘2배↑’…해외 시청자도 증...",
-    "link": "https://www.sportsworldi.com/newsView/20261014518083",
-    "published_at": "2026-10-14T15:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.sportsworldi.com/content/image/2026/10/14/20261014518081.jpg"
-  },
-  {
-    "id": "96f2fed46446",
-    "title": "외국인 1.2조 투매…코스피 6000선 위태",
-    "link": "http://www.newskr.kr/news/articleView.html?idxno=107156",
-    "published_at": "2026-10-14T15:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newskr.kr/news/thumbnail/202610/107156_96546_4829_v150.jpg"
-  },
-  {
-    "id": "c64f82dd0cdd",
-    "title": "치지직ㆍSOOP으로 옮긴 LCK, 평균 분당 시청자 71.4만⋯전년比 13%↑",
-    "link": "https://www.etoday.co.kr/news/view/2635783",
-    "published_at": "2026-10-14T15:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261014154521_2401436_799_533.jpg"
-  },
-  {
-    "id": "caf46ff05204",
-    "title": "LCK 평균 분당 시청자 71만명 돌파…프랜차이즈 도입 후 2.19배",
-    "link": "https://www.cnbizm.com/news/articleView.html?idxno=318003",
-    "published_at": "2026-10-14T15:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.cnbizm.com/news/photo/202610/318003_226097_4038.jpeg"
-  },
-  {
-    "id": "bca790e90c47",
-    "title": "LCK, 프랜차이즈 도입 이후 뷰어십 2배 증가 성장",
-    "link": "https://game.donga.com/124662/",
-    "published_at": "2026-10-14T15:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/media/__sized__/images/2026/10/14/05205f570ae14457-thumbnail-960x540-70.jpg"
-  },
-  {
-    "id": "e900541c70e9",
-    "title": "라이엇 게임즈, 'LCK' 프랜차이즈 도입 6년 만에 뷰어십 2배 증가",
-    "link": "https://www.thisisgame.com/articles/430941",
-    "published_at": "2026-10-14T15:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "cced64e6e6ee",
-    "title": "광양경자청, 15개국 170개 사 집결... '해양에너지산업전서 기업 유치' ...",
-    "link": "https://www.newsworker.co.kr/news/articleView.html?idxno=508611",
-    "published_at": "2026-10-14T15:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsworker.co.kr/news/photo/202610/508611_511523_4733.jpg"
-  },
-  {
-    "id": "b480502f7465",
-    "title": "LCK, 프랜차이즈 도입 6년 만에 뷰어십 2배 증가",
-    "link": "http://www.inews24.com/view/2015004",
-    "published_at": "2026-10-14T15:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.inews24.com/v1/b2cbb4533d1745.jpg"
-  },
-  {
-    "id": "be17698c7910",
-    "title": "구충곤 광양경자청장, ‘국제해양플랜트산업전’서 기업 유치 심혈… “...",
-    "link": "https://www.seoul.co.kr/news/publicnews/2026/10/14/20261014500164?wlog_tag3=naver",
-    "published_at": "2026-10-14T15:25:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "//imggo.seoul.co.kr/img/go_share.png"
-  },
-  {
-    "id": "915180d83693",
-    "title": "2026 LCK 평균 분당 시청자 71.4만 달성…프랜차이즈 도입 후 2배 성장",
-    "link": "https://www.fomos.kr/redirect/news_view?news_cate_id=39&entry_id=156592",
-    "published_at": "2026-10-14T15:25:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "71c87d342d1b",
-    "title": "광양경자청, 해양에너지플랜트 기업 유치전 본격화",
-    "link": "https://www.sedaily.com/article/20101540?ref=naver",
-    "published_at": "2026-10-14T15:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/14/news-p.v1.20261014.aa8449b0839e43fdb144dadae05f815a_Z1.jpg"
-  },
-  {
-    "id": "952d3be83195",
-    "title": "KTE, 해양플랜트 전력·제어 기술 공개",
-    "link": "https://www.newspim.com/news/view/20261014001089",
-    "published_at": "2026-10-14T15:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.newspim.com/news/2026/10/14/2610141509390160_t1.jpg"
-  },
-  {
-    "id": "2ffb5850cf2f",
-    "title": "광양경자청, 항만·산단 강점 내세워 투자유치 추진",
-    "link": "https://www.newspim.com/news/view/20261014001062",
-    "published_at": "2026-10-14T15:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.newspim.com/news/2026/10/14/2610141454363070_t1.jpg"
-  },
-  {
-    "id": "94da312bec44",
-    "title": "광양경자청, 국제해양플랜트산업전 기업 유치 활동 나서",
-    "link": "http://amenews.kr/news/view.php?idx=68299",
-    "published_at": "2026-10-14T15:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://amenews.kr/data/cheditor4/2610/3554368046_3t1FeqDf_EAB491EC9691EBA78CEAB68C.jpg"
-  },
-  {
-    "id": "bab83954fd04",
-    "title": "美, 해상 원자력 본격화…설계 승인 앞선 K-조선 '기회'",
-    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727799",
-    "published_at": "2026-10-14T15:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1727799_762155_3349_v150.jpg"
-  },
-  {
-    "id": "38f65552a403",
-    "title": "[삼양그룹 인사 전망] 엄태웅·김원·김량 내년 3월 임기… 계열사 대표...",
-    "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3078431",
-    "published_at": "2026-10-14T14:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3078431_120818_556_v150.jpg"
-  },
-  {
-    "id": "3097930585ab",
-    "title": "\"배터리·철강 대형주 부진에 5.7조 증발\"… 대구·경북 상장사 9월 시총...",
-    "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=313130",
-    "published_at": "2026-10-14T14:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.straightnews.co.kr/news/thumbnail/202610/313130_225285_1242_v150.jpg"
-  },
-  {
-    "id": "ab36a71a03cb",
-    "title": "[중화학노트] 효성화학, 유럽서 미래 소재 ‘포케톤’ 선봬 外",
-    "link": "https://news.dealsitetv.com/articles/176963",
-    "published_at": "2026-10-14T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "54b2658745d6",
-    "title": "[금융권 이모저모]신한자산운용, 반도체 소부장 ETF에 개인 순매수 2231억...",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=118176",
-    "published_at": "2026-10-14T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/118176_118742_3943_v150.jpg"
-  },
-  {
-    "id": "fa888243b9fa",
-    "title": "[재계 투데이] LG전자·애플, AI홈 IoT 기기 7종 선봬 外",
-    "link": "https://news.dealsitetv.com/articles/176974",
-    "published_at": "2026-10-14T14:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "c04aa98c4f49",
-    "title": "현대엔지니어링, 16일 힐스테이트 거제 시그니처 견본주택 개관",
-    "link": "https://www.betanews.net/article/view/beta202610140114",
-    "published_at": "2026-10-14T14:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.betanews.net/data/beta/image/2026/10/14/beta20261014000116.jpg"
-  },
-  {
-    "id": "dc365dd177fc",
-    "title": "엔비디아 루빈, AI '메모리 병목' 풀까…HBM4 수요 시험대",
-    "link": "https://www.junggi.co.kr/news/articleView.html?idxno=38068",
-    "published_at": "2026-10-14T14:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.junggi.co.kr/news/photo/202610/38068_44804_5057.jpg"
-  },
-  {
-    "id": "9e86836ffe72",
-    "title": "최대 512기 'K-LEO' 구축 방안은…'K-우주포럼'서 머리 맞댄다",
-    "link": "https://www.mt.co.kr/tech/2026/10/14/2026100719432727159",
-    "published_at": "2026-10-14T14:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026100719432727159_1.jpg"
-  },
-  {
-    "id": "29dc965f9a96",
-    "title": "기술력 넘어 생산성 경쟁…K조선, 스마트야드로 중국 추격 따돌린다",
-    "link": "https://www.mediapen.com/news/view/1129825",
-    "published_at": "2026-10-14T14:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.mediapen.com/news/202610/news_1129825_1791949935_m.jpg"
-  },
-  {
-    "id": "09ec4c5346e9",
-    "title": "'거제 최대 단지' 힐스테이트 거제시그니처 16일부터 견본주택 개관",
-    "link": "https://www.fnnews.com/news/202610141408424677",
-    "published_at": "2026-10-14T14:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.fnnews.com/resource/media/image/2026/10/14/202610141128546254_e.jpg"
-  },
-  {
-    "id": "67fd0932b318",
-    "title": "SK증권, 고수수료 유증 줄줄이 무산⋯'적자 기업' 베팅 부메랑",
-    "link": "http://www.inews24.com/view/2014833",
-    "published_at": "2026-10-14T14:11:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.inews24.com/v1/8ae103cc2572b5.jpg"
-  },
-  {
-    "id": "f71bc329d253",
-    "title": "\"학비만 2.7억\"... 세계 0.01% 스위스 명문학교가 227억짜리 '슈퍼요트' ...",
-    "link": "https://www.insight.co.kr/news/577697",
-    "published_at": "2026-10-14T14:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.insight.co.kr/static/2026/10/14/1200/img_20261014140317_o7hg5212.jpg"
-  },
-  {
-    "id": "84a4d1e9e62d",
-    "title": "김태형의 운명은… 유임일까 결별일까",
-    "link": "https://www.busan.com/view/busan/view.php?code=2026101409592547856",
-    "published_at": "2026-10-14T14:03:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/14/2026101412012096892_l.jpg"
-  },
-  {
-    "id": "575ba4f3d934",
-    "title": "거제 1963가구···현대엔지니어링, '힐스테이트' 1차 356가구 공급",
-    "link": "https://www.smartbizn.com/news/articleView.html?idxno=156391",
-    "published_at": "2026-10-14T14:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.smartbizn.com/news/photo/202610/156391_263488_139.jpg"
-  },
-  {
-    "id": "282bac0fa49f",
-    "title": "[금융권 이모저모]삼성운용, 국민성장펀드 2호 15일까지 선착순 판매 外",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=118164",
-    "published_at": "2026-10-14T13:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/118164_118719_4947_v150.jpg"
-  },
-  {
-    "id": "ea10f2dfc7b4",
-    "title": "로켓랩, 전자 로켓 100회 발사 도전…뉴트론 개발 일정에도 관심 집중",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=844456",
-    "published_at": "2026-10-14T13:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202610/844456_431966_5045_v150.jpg"
-  },
-  {
-    "id": "bf4974546f12",
-    "title": "현대엔지니어링, 거제 옥포동 '힐스테이트 거제시그니처' 16일 견본주택...",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=118156",
-    "published_at": "2026-10-14T13:32:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/118156_118712_3033_v150.jpg"
-  },
-  {
-    "id": "b6624107ac95",
-    "title": "현대엔지니어링, '힐스테이트 거제시그니처' 모델하우스 16일 개관",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495204",
-    "published_at": "2026-10-14T13:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495204_480758_1550_v150.jpg"
   },
   {
     "id": "f3075b921052",
