@@ -1,5 +1,45 @@
 [
   {
+    "id": "63a3a5079aff",
+    "title": "[레이저 대공무기] \"1발에 단돈 2천 원\"…레이저 대공무기 '천광' 드론 ...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616015",
+    "published_at": "2026-10-16T01:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.cbci.co.kr/news/thumbnail/202610/mn_616015_20261015210555_1_v150.jpg"
+  },
+  {
+    "id": "bbfae65e183e",
+    "title": "한국수출입은행, 방산·조선 수출금융 확대…위기청년 자립에 5억원 지...",
+    "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2335149",
+    "published_at": "2026-10-15T23:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.webeconomy.co.kr/news/photo/202610/2335149_1144924_4451.jpg"
+  },
+  {
+    "id": "190279965380",
+    "title": "위력 드러낸 천광 레이저…드론 3대 100% 요격 성공",
+    "link": "https://www.gukjenews.com/news/articleView.html?idxno=3723061",
+    "published_at": "2026-10-15T22:34:00+09:00",
+    "sources": [
+      "Naver",
+      "www.gukjenews.com"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3723061_3899715_2311_v150.jpg"
+  },
+  {
     "id": "025dddb3c279",
     "title": "“방공망 통째로 판다”…LIG D&A, K-방산 새 수출 공식 쓴다",
     "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261015010004774",
@@ -65,19 +105,6 @@
     "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/15/SSC_20261015173659.jpg.webp"
   },
   {
-    "id": "2bb61f7ca9e8",
-    "title": "[공시] 10월 16일, 코스피 상장사 54개 종목 자사주 매수 신청",
-    "link": "https://www.newstnt.com/news/articleView.html?idxno=723258",
-    "published_at": "2026-10-15T20:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newstnt.com/news/photo/202610/723258_727778_1425.jpg"
-  },
-  {
     "id": "e83f4189949d",
     "title": "[현장] ‘2026 통합방공·미사일방어 포럼’ 개최…중동 분쟁 교훈 바탕...",
     "link": "https://www.news2day.co.kr/article/20261015500329",
@@ -89,6 +116,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/15/.cache/512/20261015500328.png"
+  },
+  {
+    "id": "2bb61f7ca9e8",
+    "title": "[공시] 10월 16일, 코스피 상장사 54개 종목 자사주 매수 신청",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=723258",
+    "published_at": "2026-10-15T20:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newstnt.com/news/photo/202610/723258_727778_1425.jpg"
   },
   {
     "id": "e6d3504665f3",
@@ -260,19 +300,6 @@
     "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/15/202610151644394935.jpg"
   },
   {
-    "id": "caff19aaba62",
-    "title": "\"동탄의 반값인데 교통은 10분대\"…평택지제역 '저가 메리트' 부각",
-    "link": "https://www.fnnews.com/news/202610151551006876",
-    "published_at": "2026-10-15T16:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.fnnews.com/resource/media/image/2026/10/07/202610071832496565_e.jpg"
-  },
-  {
     "id": "8eddc0390fea",
     "title": "\"경기 아파트값 양극화, 오히려 기회로 작용\"... '동탄 반값' 평택지제역...",
     "link": "https://www.rcast.co.kr/news/articleView.html?idxno=31821",
@@ -284,6 +311,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.rcast.co.kr/news/thumbnail/202610/31821_61787_3949_v150.jpg"
+  },
+  {
+    "id": "caff19aaba62",
+    "title": "\"동탄의 반값인데 교통은 10분대\"…평택지제역 '저가 메리트' 부각",
+    "link": "https://www.fnnews.com/news/202610151551006876",
+    "published_at": "2026-10-15T16:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.fnnews.com/resource/media/image/2026/10/07/202610071832496565_e.jpg"
   },
   {
     "id": "82c6cb569979",
@@ -312,19 +352,6 @@
     "image": ""
   },
   {
-    "id": "c6b4c1074444",
-    "title": "한국 레이저 대공무기, 드론 연속 요격 성공",
-    "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4112563",
-    "published_at": "2026-10-15T16:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4112563_773362_054_v150.jpg"
-  },
-  {
     "id": "bb181d0d9f8e",
     "title": "광양경자청, 국제해양에너지플랜트산업전서 투자유치 활동",
     "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5072362",
@@ -336,6 +363,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.shinailbo.co.kr/news/photo/202610/5072362_2069985_5526.jpg"
+  },
+  {
+    "id": "c6b4c1074444",
+    "title": "한국 레이저 대공무기, 드론 연속 요격 성공",
+    "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4112563",
+    "published_at": "2026-10-15T16:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4112563_773362_054_v150.jpg"
   },
   {
     "id": "b0feb62a609e",
@@ -351,19 +391,6 @@
     "image": "https://cdn.gpkorea.com/news/photo/202610/147619_313848_5146.png"
   },
   {
-    "id": "cc587965c0df",
-    "title": "[거래소 외국인] 삼성전자·SK하이닉스 대량 매물…HD현대중공업은 샀다",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495684",
-    "published_at": "2026-10-15T15:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495684_481212_5214_v150.jpg"
-  },
-  {
     "id": "568443b08f84",
     "title": "드론 100% 요격…韓 레이저 대공무기 성능 재차 입증",
     "link": "https://www.nocutnews.co.kr/news/6592150?utm_source=naver&utm_medium=article&utm_campaign=20261015035400",
@@ -377,17 +404,17 @@
     "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/10/15/202610151533353018_6.jpg"
   },
   {
-    "id": "e59566ef769a",
-    "title": "삼성重, '부유식 데이터센터' 미래 먹거리로 '찜'…디지털 인프라 산업...",
-    "link": "https://www.econovill.com/news/articleView.html?idxno=753745",
-    "published_at": "2026-10-15T15:44:00+09:00",
+    "id": "cc587965c0df",
+    "title": "[거래소 외국인] 삼성전자·SK하이닉스 대량 매물…HD현대중공업은 샀다",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495684",
+    "published_at": "2026-10-15T15:54:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.econovill.com/news/thumbnail/202610/753745_730352_3311_v150.jpg"
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495684_481212_5214_v150.jpg"
   },
   {
     "id": "8067d776eb3e",
@@ -401,6 +428,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/495672_481204_4133_v150.jpg"
+  },
+  {
+    "id": "e59566ef769a",
+    "title": "삼성重, '부유식 데이터센터' 미래 먹거리로 '찜'…디지털 인프라 산업...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=753745",
+    "published_at": "2026-10-15T15:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202610/753745_730352_3311_v150.jpg"
   },
   {
     "id": "9d89c23e5c65",
@@ -447,8 +487,7 @@
     "link": "https://www.todayeconomic.com/news/article.html?no=32452",
     "published_at": "2026-10-15T15:24:00+09:00",
     "sources": [
-      "Naver",
-      "투데이e코노믹"
+      "Naver"
     ],
     "keywords": [
       "한화시스템"
@@ -482,19 +521,6 @@
     "image": "https://cdn.ksilbo.co.kr/news/thumbnail/202610/1069674_647813_1938_v150.jpg"
   },
   {
-    "id": "8fdec86d7682",
-    "title": "다른나라 국방부 입맛 다시는 소리 들리네…2000원으로 드론 100% 요격",
-    "link": "https://www.mk.co.kr/article/12176753",
-    "published_at": "2026-10-15T15:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://pimg.mk.co.kr/news/cms/202610/15/news-p.v1.20261015.6d82e0deb3904bdba940d6116736bab6_R.jpg"
-  },
-  {
     "id": "8f992d479364",
     "title": "[영상] 한 발에 2천원 레이저 대공무기 ‘천광’…번쩍하면 드론 격추",
     "link": "https://www.hani.co.kr/arti/economy/marketing/1282532.html",
@@ -507,6 +533,19 @@
       "한화시스템"
     ],
     "image": "https://flexible.img.hani.co.kr/flexible/normal/640/368/imgdb/original/2026/1015/20261015502296.webp"
+  },
+  {
+    "id": "8fdec86d7682",
+    "title": "다른나라 국방부 입맛 다시는 소리 들리네…2000원으로 드론 100% 요격",
+    "link": "https://www.mk.co.kr/article/12176753",
+    "published_at": "2026-10-15T15:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202610/15/news-p.v1.20261015.6d82e0deb3904bdba940d6116736bab6_R.jpg"
   },
   {
     "id": "daba611e1d99",
@@ -614,19 +653,6 @@
     "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261015113148042410b5b890e35c21123422789.jpg&nmt=18"
   },
   {
-    "id": "65f8b3ca1311",
-    "title": "원자력 추진선 '기술 선점戰'…조선 3사, 특허로 본 셈법 제각각",
-    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727966",
-    "published_at": "2026-10-15T14:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1727966_762403_039_v150.jpg"
-  },
-  {
     "id": "292adb8804e2",
     "title": "레이저 대공무기 천광,드론 요격 시연 성공…1회 발사 2천원",
     "link": "http://www.seouleconews.com/news/articleView.html?idxno=94362",
@@ -638,6 +664,19 @@
       "한화시스템"
     ],
     "image": "http://www.seouleconews.com/news/thumbnail/202610/94362_101479_5026_v150.jpg"
+  },
+  {
+    "id": "65f8b3ca1311",
+    "title": "원자력 추진선 '기술 선점戰'…조선 3사, 특허로 본 셈법 제각각",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727966",
+    "published_at": "2026-10-15T14:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1727966_762403_039_v150.jpg"
   },
   {
     "id": "4853e8510522",
@@ -666,45 +705,6 @@
     "image": "http://www.jeollailbo.com/image/logo/snslogo_20220905115506.png"
   },
   {
-    "id": "8f7aff9c059e",
-    "title": "김도영-오스틴 홈런 대결에 쏠린 시선… KIA-LG 관전포인트는",
-    "link": "https://www.seoul.co.kr/news/sport/baseball/2026/10/15/20261015500155?wlog_tag3=naver",
-    "published_at": "2026-10-15T14:45:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/10/15/SSC_20261015153800_O2.jpg.webp"
-  },
-  {
-    "id": "03db22a28623",
-    "title": "건설업계, AI 기술 활용 박차",
-    "link": "http://www.wsobi.com/news/articleView.html?idxno=319744",
-    "published_at": "2026-10-15T14:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.wsobi.com/news/photo/202610/319744_190218_585.jpg"
-  },
-  {
-    "id": "8b046a93f75e",
-    "title": "HJ중공업, 첫 미 해군 함정 MRO 성공적 완수…\"후속 수주 힘쓰겠다\"",
-    "link": "https://www.ddaily.co.kr/page/view/2026101511005648072",
-    "published_at": "2026-10-15T14:41:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/photos/2026/10/15/2026101510575615698_l.jpg"
-  },
-  {
     "id": "b65825cda08e",
     "title": "’극가성비 레이저 대공무기’ 천광, 드론 요격 선보여",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJN3p1c1RfTUpscHJYSkJCZnNoS1h6SDBjOHY1d3h2ZFZhX0VqWWNFWXFLRExKSlJvUEZYbXh5RXMyMkNjajlOdWI3REF1UXMxcWthaEJzX0YzNmJYSlRFQVFUWEloN1k?oc=5",
@@ -731,6 +731,19 @@
     "image": ""
   },
   {
+    "id": "89ec17d0689e",
+    "title": "[레이저 대공무기] \"1발에 단돈 2천 원\"…레이저 대공무기 '천광' 드론 완벽 격추",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83MGd1NWJyV2ZEN3BUX2xzY19OTFN2NGhsZk9KbFVmdWJvVUhhbjJJNUZzbzJKeXhROElHSk1zZXNGWFFPUmZ0SkRROF9BVTk4WEt1a1dTQXBCeEIwVkhiS0lvdGhNTVla?oc=5",
+    "published_at": "2026-10-15T16:01:00+00:00",
+    "sources": [
+      "CBC뉴스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "36ef4f4733f0",
     "title": "드론 100% 요격 성공… 대한민국 레이저 대공무기 성능 입증",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Db0JUc25xNWlqdUlCcGNZdGdrUUFlb2IyR1BwbmlwSEtrdXVSZ0FQX2pKUFJXVnpnTk9sTmxZa25QakVTeFRJMU1XTjNoZEhkeE9SeHh3YkF3VkJJaFd1bVZ0VzlBOWF0YnI2U3d4aw?oc=5",
@@ -750,6 +763,19 @@
     "published_at": "2026-10-15T04:19:34+00:00",
     "sources": [
       "뉴시스"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "2e3888ac4832",
+    "title": "대한민국 레이저 대공무기, 실전 훈련에서 드론 요격 성능 재확인",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9taDNGRkVoRURCdTFBS2dNRWE2WU15bXlkSF92N0lEcXExX195Ymk3MTFiZ3k1T2RoNjJvWkFaOVZMc245WDBuYnBNUllmNU9YRmxJbUpYY0V4ZzZtU0JpS2VGa0tRdw?oc=5",
+    "published_at": "2026-10-15T11:38:46+00:00",
+    "sources": [
+      "이슈투데이"
     ],
     "keywords": [
       "한화시스템"
