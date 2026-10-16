@@ -1,5 +1,96 @@
 [
   {
+    "id": "baeb665cc41b",
+    "title": "[휴온스그룹 인사 전망] 윤성태 내년 재선임… 송수영 FDA 경고장 부담",
+    "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3078901",
+    "published_at": "2026-10-17T00:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3078901_121298_1952_v150.jpg"
+  },
+  {
+    "id": "a75ace6b6152",
+    "title": "[김대호 인물] 게오르기에바 IMF의 경고 \"미국 국가부채 위험\"",
+    "link": "https://www.g-enews.com/view.php?ud=202610151927536127906806b77b_1",
+    "published_at": "2026-10-16T23:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026101519361905333906806b77b1752093689.jpg"
+  },
+  {
+    "id": "eef9db030e04",
+    "title": "[주요공시] 에코앤드림, TS트릴리온, 동운아나텍, 대양금속, 대우건설 외",
+    "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=209343",
+    "published_at": "2026-10-16T23:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.kdpress.co.kr/news/photo/202610/209343_135125_3337.png"
+  },
+  {
+    "id": "f5bdf39d3c87",
+    "title": "독수리 유니폼 입은 류지현…\"우승 문 두드린다\"",
+    "link": "http://www.yonhapnewstv.co.kr/news/MYH20261016231817CyJ",
+    "published_at": "2026-10-16T23:19:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261016/MYH20261016231817CyJ.jpeg"
+  },
+  {
+    "id": "2d32290e5c16",
+    "title": "AI 에이전트를 로컬에서, 엔비디아 RTX 스파크 노트북 출시",
+    "link": "https://www.gamemeca.com/mv.php?inflow=naver_s&gid=1781925",
+    "published_at": "2026-10-16T21:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gamemeca.com/gmdata/0001/781/925/gm424308_thumb__RTX_.webp"
+  },
+  {
+    "id": "73367e184126",
+    "title": "SK하이닉스·삼성전자 거래대금 10조 육박…상위 50종목 54.5%",
+    "link": "http://www.kjdaily.com/article.php?aid=1792150811689362276",
+    "published_at": "2026-10-16T20:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "dbcc8267168e",
+    "title": "“푸틴, 3000억 날렸다”…‘전폭기 6대’ 동시 박살낸 ‘우크라 필살 ...",
+    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261016601012&wlog_tag3=naver",
+    "published_at": "2026-10-16T20:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/16/SSC_20261016184712.jpg.webp"
+  },
+  {
     "id": "6b69630bbd31",
     "title": "“압구정동 매장 2배 커진다”…갤러리아명품관 서관 재건축 건축허가",
     "link": "https://www.munhwa.com/article/11624114?ref=naver",
@@ -156,19 +247,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46039791.1.png"
   },
   {
-    "id": "9ebe4771e585",
-    "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
-    "link": "https://www.sedaily.com/article/20102625?ref=naver",
-    "published_at": "2026-10-16T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
-  },
-  {
     "id": "364715ce69d7",
     "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
     "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
@@ -180,6 +258,19 @@
       "한화시스템"
     ],
     "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
+  },
+  {
+    "id": "9ebe4771e585",
+    "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
+    "link": "https://www.sedaily.com/article/20102625?ref=naver",
+    "published_at": "2026-10-16T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
   },
   {
     "id": "25e8184a3126",
@@ -286,19 +377,6 @@
     "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261016161620059460b372994c951211331170.jpg&nmt=18"
   },
   {
-    "id": "9ea0233c3164",
-    "title": "갤러리아명품관 서관 재건축 허가... 영업면적 2배 확대",
-    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=883813",
-    "published_at": "2026-10-16T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.getnews.co.kr/news/photo/202610/883813_541516_725.jpg"
-  },
-  {
     "id": "3f05e8f6f95c",
     "title": "대금 60% 붓고 3%만 받은 대만… 美 전투기 납품 덫에 걸렸다",
     "link": "https://www.g-enews.com/view.php?ud=202610161605116648fbbec65dfb_1",
@@ -312,17 +390,17 @@
     "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026101616181907311fbbec65dfb211211153121.jpg"
   },
   {
-    "id": "8ab053209d01",
-    "title": "검은 목요일 지나자 반등장…코스피·코스닥 급등",
-    "link": "http://www.newskr.kr/news/articleView.html?idxno=107234",
-    "published_at": "2026-10-16T16:18:00+09:00",
+    "id": "9ea0233c3164",
+    "title": "갤러리아명품관 서관 재건축 허가... 영업면적 2배 확대",
+    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=883813",
+    "published_at": "2026-10-16T16:20:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newskr.kr/news/thumbnail/202610/107234_96630_1448_v150.jpg"
+    "image": "https://cdn.getnews.co.kr/news/photo/202610/883813_541516_725.jpg"
   },
   {
     "id": "b0b4091d61cb",
@@ -336,6 +414,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.choicenews.co.kr/news/thumbnail/202610/172299_132004_169_v150.jpg"
+  },
+  {
+    "id": "8ab053209d01",
+    "title": "검은 목요일 지나자 반등장…코스피·코스닥 급등",
+    "link": "http://www.newskr.kr/news/articleView.html?idxno=107234",
+    "published_at": "2026-10-16T16:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newskr.kr/news/thumbnail/202610/107234_96630_1448_v150.jpg"
   },
   {
     "id": "8f563f4d2f50",
@@ -364,19 +455,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46078065.1.jpg"
   },
   {
-    "id": "c9353852e517",
-    "title": "7거래일 연속 하락 후 반등, 이번엔 '큰장' 열린다? [뉴스톡 웰스톡]",
-    "link": "http://www.newswell.co.kr/news/articleView.html?idxno=22780",
-    "published_at": "2026-10-16T16:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.newswell.co.kr/news/thumbnail/202610/22780_36550_5755_v150.jpg"
-  },
-  {
     "id": "a4a12f2e6350",
     "title": "갤러리아명품관 서관 재건축 건축허가…영업면적 2배 확대 계획",
     "link": "https://www.youthdaily.co.kr/news/article.html?no=228472",
@@ -390,17 +468,17 @@
     "image": "https://www.youthdaily.co.kr/data/photos/20261042/art_17921341849998_d7dce0.jpg"
   },
   {
-    "id": "2013bff8f7b2",
-    "title": "‘압구정 터줏대감’ 갤러리아명품관, 40여 년 만에 새 옷 입는다…재건...",
-    "link": "https://www.etoday.co.kr/news/view/2636772",
-    "published_at": "2026-10-16T16:02:00+09:00",
+    "id": "c9353852e517",
+    "title": "7거래일 연속 하락 후 반등, 이번엔 '큰장' 열린다? [뉴스톡 웰스톡]",
+    "link": "http://www.newswell.co.kr/news/articleView.html?idxno=22780",
+    "published_at": "2026-10-16T16:04:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261016160037_2402677_1199_705.jpg"
+    "image": "http://www.newswell.co.kr/news/thumbnail/202610/22780_36550_5755_v150.jpg"
   },
   {
     "id": "f5bd1448f315",
@@ -414,6 +492,19 @@
       "한화시스템"
     ],
     "image": "https://www.m-economynews.com/data/photos/20261042/art_17921340571401_ec574d.jpg"
+  },
+  {
+    "id": "2013bff8f7b2",
+    "title": "‘압구정 터줏대감’ 갤러리아명품관, 40여 년 만에 새 옷 입는다…재건...",
+    "link": "https://www.etoday.co.kr/news/view/2636772",
+    "published_at": "2026-10-16T16:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261016160037_2402677_1199_705.jpg"
   },
   {
     "id": "d760dde36d06",
@@ -481,136 +572,6 @@
     "image": "https://cdn.slist.kr/news/thumbnail/202610/774026_1183730_2952_v150.jpg"
   },
   {
-    "id": "2734cd09e2ca",
-    "title": "\"감독 하나에 팀이 흔들리면 안돼\" 류지현 확고한 철학, 목표는 '지속 가...",
-    "link": "https://www.starnewskorea.com/sports/2026/10/16/2026101610310985443",
-    "published_at": "2026-10-16T15:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/21/2026/10/2026101610310985443_1.jpg"
-  },
-  {
-    "id": "9cc806af71ea",
-    "title": "압구정 갤러리아명품관 서관 재건축 건축허가…“새 랜드마크로”",
-    "link": "https://biz.heraldcorp.com/article/10905269?ref=naver",
-    "published_at": "2026-10-16T15:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-p.v1.20261016.20d2156f917c46f686629516758694cb_P1.jpeg"
-  },
-  {
-    "id": "5af5b92ed459",
-    "title": "[중화학 ON] 효성重, 수출 전용 초고압차단기 신공장 준공 外",
-    "link": "https://dealsite.co.kr/articles/170823",
-    "published_at": "2026-10-16T15:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/10/16/6322b3d82421486387fdf68e455fe4b5/thumb.jpg"
-  },
-  {
-    "id": "91ae201f4bd0",
-    "title": "“투수·야수 정립 필요-수비도 시간 들여야” 류지현 신임 감독, 시작...",
-    "link": "https://www.sportsseoul.com/news/read/1641810?ref=naver",
-    "published_at": "2026-10-16T15:07:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://file.sportsseoul.com/news/cms/2026/10/16/rcv.YNA.20261016.PYH2026101610040006300_T1.jpg"
-  },
-  {
-    "id": "0f5e06dbd9f0",
-    "title": "[KAI 민영화 리포트] ①훈련기 수출 넘어 전투기로…KAI 경쟁력 어디까...",
-    "link": "https://www.smarttoday.co.kr/ko-kr/articles/112782",
-    "published_at": "2026-10-16T15:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.www.smarttoday.co.kr/w1200/q100/f_jpg/uploads/66823b10-e12a-4c46-912e-6f48ece206d9.png"
-  },
-  {
-    "id": "977912c243e5",
-    "title": "“마운드 재정립해 지속 가능한 강팀 만들겠다”",
-    "link": "https://www.chosun.com/sports/baseball/2026/10/16/2IIKSZGIIVFMHC5APOKIPZWIGU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "published_at": "2026-10-16T14:55:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.chosun.com/resizer/v2/GA3TINBSHA3TQMRXGQ4TSNBSGY.jpg?auth=30ef133ac2986b3e7840e2bbd204ee2529b646106d4f85e9d73cab38b9901c31&width=720&height=378&smart=true"
-  },
-  {
-    "id": "5f3e64427dfd",
-    "title": "SM그룹 경남기업, ‘대전 경남아너스빌 센텀스카이’ 홍보관 개관",
-    "link": "https://www.seoul.co.kr/news/economy/estate/2026/10/16/20261016500183?wlog_tag3=naver",
-    "published_at": "2026-10-16T14:53:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/10/16/SSC_20261016145201_O2.jpg.webp"
-  },
-  {
-    "id": "e2942292a2db",
-    "title": "갤러리아명품관 서관 재건축, 강남구 건축허가…사업 추진 '속도'",
-    "link": "https://www.news1.kr/industry/distribution/6322584",
-    "published_at": "2026-10-16T14:53:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "2136a04b93b9",
-    "title": "갤러리아명품관 서관 재건축 건축허가…40년 숙원사업 추진 속도",
-    "link": "https://www.yna.co.kr/view/AKR20261016104500030?input=1195m",
-    "published_at": "2026-10-16T14:37:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016104500030_01_i_P4.jpg"
-  },
-  {
-    "id": "e215ae2a3483",
-    "title": "SM그룹 건설부문, ‘대전 경남아너스빌 센텀스카이’ 홍보관 개관",
-    "link": "https://www.lawissue.co.kr/view.php?ud=20261016141706186167191f6c6e_12",
-    "published_at": "2026-10-16T14:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026101614183201744067191f6c6e219250129182.jpg&nmt=12"
-  },
-  {
     "id": "42bdde1bd447",
     "title": "[영상] 한 발에 2천원 레이저 대공무기 ‘천광’…번쩍하면 드론 격추",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GaGgwVTBUbTRuQWUxNWlVMUlmR0p1Q3RYY1JQUGFkTFdtMVJVc1UyZ2xHWTFIZTdlM2Vrd0lWV2ZBSmpKX0Z6WFFjRXNyaVJkbldNb2hwbDZzQ3JhNk9FdzcwUGdzdXYyMnc?oc=5",
@@ -624,12 +585,12 @@
     "image": ""
   },
   {
-    "id": "b65825cda08e",
-    "title": "’극가성비 레이저 대공무기’ 천광, 드론 요격 선보여",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJN3p1c1RfTUpscHJYSkJCZnNoS1h6SDBjOHY1d3h2ZFZhX0VqWWNFWXFLRExKSlJvUEZYbXh5RXMyMkNjajlOdWI3REF1UXMxcWthaEJzX0YzNmJYSlRFQVFUWEloN1k?oc=5",
-    "published_at": "2026-10-15T04:31:00+00:00",
+    "id": "59b7317429fc",
+    "title": "‘세계 최초 실전 배치’ 레이저 대공무기 천광, 육군 훈련서 성능 입증 : 경제",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tdFBFSW9oRkZkcnc5OEstUkFiajRLZS1oN0dBYzBFb0I0VHBlTDJBaW1HY3R6QkVoa2wwYUlicU9FMWxhM0hPeEVZNA?oc=5",
+    "published_at": "2026-10-16T08:38:00+00:00",
     "sources": [
-      "연합뉴스TV"
+      "재경일보"
     ],
     "keywords": [
       "한화시스템"
