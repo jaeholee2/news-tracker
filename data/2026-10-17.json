@@ -1,5 +1,18 @@
 [
   {
+    "id": "cb0883041f85",
+    "title": "드론이 현대전 바꾸는데…K-무인기 기술·신뢰성 모두 의문부호",
+    "link": "https://www.yna.co.kr/view/AKR20261017031500003?input=1195m",
+    "published_at": "2026-10-18T05:55:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img2.yna.co.kr/photo/ap/2026/10/17/PAP20261017060401009_P4.jpg"
+  },
+  {
     "id": "24d609e081f9",
     "title": "아침에 켜서 한밤중까지 스크롤만 내린다…‘전자 마약’ 논란까지 번진...",
     "link": "https://www.sedaily.com/article/20102818?ref=naver",
@@ -49,7 +62,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://file.osen.co.kr/article_thumb/2026/10/17/202610171611774458_6ad32c1d53fd5_300x.jpeg"
+    "image": ""
   },
   {
     "id": "70280467ee87",
@@ -104,19 +117,6 @@
     "image": "https://cdn.4th.kr/news/thumbnail/202610/2119922_220703_4653_v150.jpg"
   },
   {
-    "id": "19e43a5951b1",
-    "title": "[헬로즈업] 32조 원 베팅한 슈나이더… ‘전액 현금’으로 PTC 삼키고 지...",
-    "link": "https://www.hellot.net/news/article.html?no=115565",
-    "published_at": "2026-10-17T11:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.hellot.net/data/photos/20261042/art_17922023243807_37a61e.jpg"
-  },
-  {
     "id": "1653e3404641",
     "title": "토큰증권 인프라 앞섰지만…상품 공급 변수",
     "link": "https://www.bloter.net/news/articleView.html?idxno=675874",
@@ -128,6 +128,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.bloter.net/news/thumbnail/202610/675874_289846_2653_v150.jpg"
+  },
+  {
+    "id": "19e43a5951b1",
+    "title": "[헬로즈업] 32조 원 베팅한 슈나이더… ‘전액 현금’으로 PTC 삼키고 지...",
+    "link": "https://www.hellot.net/news/article.html?no=115565",
+    "published_at": "2026-10-17T11:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.hellot.net/data/photos/20261042/art_17922023243807_37a61e.jpg"
   },
   {
     "id": "1963bd20d3d8",
@@ -481,19 +494,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46039791.1.png"
   },
   {
-    "id": "9ebe4771e585",
-    "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
-    "link": "https://www.sedaily.com/article/20102625?ref=naver",
-    "published_at": "2026-10-16T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
-  },
-  {
     "id": "364715ce69d7",
     "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
     "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
@@ -507,43 +507,17 @@
     "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
   },
   {
-    "id": "25e8184a3126",
-    "title": "동탄은 22억, 평택은 9억…집값 격차에 '가성비 내 집 마련' 관심",
-    "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=44551",
-    "published_at": "2026-10-16T17:14:00+09:00",
+    "id": "9ebe4771e585",
+    "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
+    "link": "https://www.sedaily.com/article/20102625?ref=naver",
+    "published_at": "2026-10-16T17:22:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.s-journal.co.kr/news/photo/202610/44551_55765_5721.jpeg"
-  },
-  {
-    "id": "168849eda814",
-    "title": "SM그룹, 대전 '경남아너스빌 센텀스카이' 홍보관 개관...2030년 입주 예정",
-    "link": "https://www.joongangenews.com/news/articleView.html?idxno=555689",
-    "published_at": "2026-10-16T17:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.joongangenews.com/news/photo/202610/555689_362857_210.jpg"
-  },
-  {
-    "id": "7e3e4ab4960c",
-    "title": "압구정동에 연꽃이...갤러리아명품관 재건축 \"서울 랜드마크 키운다\"",
-    "link": "https://www.mt.co.kr/living/2026/10/16/2026101616320444512",
-    "published_at": "2026-10-16T17:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026101616320444512_1.jpg"
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
   },
   {
     "id": "42bdde1bd447",
@@ -552,32 +526,6 @@
     "published_at": "2026-10-15T07:47:00+00:00",
     "sources": [
       "한겨레"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "b65825cda08e",
-    "title": "’극가성비 레이저 대공무기’ 천광, 드론 요격 선보여",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJN3p1c1RfTUpscHJYSkJCZnNoS1h6SDBjOHY1d3h2ZFZhX0VqWWNFWXFLRExKSlJvUEZYbXh5RXMyMkNjajlOdWI3REF1UXMxcWthaEJzX0YzNmJYSlRFQVFUWEloN1k?oc=5",
-    "published_at": "2026-10-15T04:31:00+00:00",
-    "sources": [
-      "연합뉴스TV"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "f3232cc249d3",
-    "title": "레이저 대공무기 천광, 드론 요격 시연 성공…1회 발사 2천원",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oeGl5Q2VfRnVELWR1NGs1a05wOHIyb2Vmb2pvV2JvRks1cFd5RWVkSldFNlJwZEFBblhtY2tBNXBtaFc1dnRxb3JaeWl4Y21jTENGTzhpZDBPdFHSAWBBVV95cUxNZDFLRWFaX2RiRWtTYS1TRFo0REV4NDVvT2NYeG5VNG8yWWJfcDFNZFlNQTFoTlJna25OQjJkQ3B0SzNKLXIxZ2t6X0pGOWFzQy1NVU1DMnZWa0d4U2liY00?oc=5",
-    "published_at": "2026-10-15T02:45:32+00:00",
-    "sources": [
-      "연합뉴스"
     ],
     "keywords": [
       "한화시스템"
