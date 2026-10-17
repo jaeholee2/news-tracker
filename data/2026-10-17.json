@@ -1,5 +1,31 @@
 [
   {
+    "id": "56af4b6beed5",
+    "title": "레드와이어, 미 주방위군 무인기 공급 추가 수주…국방 기술 사업 확대",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=844695",
+    "published_at": "2026-10-17T18:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/844695_432239_1215_v150.jpg"
+  },
+  {
+    "id": "d9c44e757080",
+    "title": "LCK, 프랜차이즈 도입 6년 만에 뷰어십 ‘2배’ 폭발적 성장… 평균 분당...",
+    "link": "http://www.osen.co.kr/article/G1112894176",
+    "published_at": "2026-10-17T17:05:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://file.osen.co.kr/article_thumb/2026/10/17/202610171611774458_6ad32c1d53fd5_300x.jpeg"
+  },
+  {
     "id": "70280467ee87",
     "title": "삼성·LG, 美 타임 '올해 최고 발명품' 나란히 선정",
     "link": "https://news.bizwatch.co.kr/article/industry/2026/10/16/0007",
@@ -52,19 +78,6 @@
     "image": "https://cdn.4th.kr/news/thumbnail/202610/2119922_220703_4653_v150.jpg"
   },
   {
-    "id": "19e43a5951b1",
-    "title": "[헬로즈업] 32조 원 베팅한 슈나이더… ‘전액 현금’으로 PTC 삼키고 지...",
-    "link": "https://www.hellot.net/news/article.html?no=115565",
-    "published_at": "2026-10-17T11:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.hellot.net/data/photos/20261042/art_17922023243807_37a61e.jpg"
-  },
-  {
     "id": "1653e3404641",
     "title": "토큰증권 인프라 앞섰지만…상품 공급 변수",
     "link": "https://www.bloter.net/news/articleView.html?idxno=675874",
@@ -76,6 +89,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.bloter.net/news/thumbnail/202610/675874_289846_2653_v150.jpg"
+  },
+  {
+    "id": "19e43a5951b1",
+    "title": "[헬로즈업] 32조 원 베팅한 슈나이더… ‘전액 현금’으로 PTC 삼키고 지...",
+    "link": "https://www.hellot.net/news/article.html?no=115565",
+    "published_at": "2026-10-17T11:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.hellot.net/data/photos/20261042/art_17922023243807_37a61e.jpg"
   },
   {
     "id": "1963bd20d3d8",
@@ -429,19 +455,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46039791.1.png"
   },
   {
-    "id": "364715ce69d7",
-    "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
-    "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
-    "published_at": "2026-10-16T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
-  },
-  {
     "id": "9ebe4771e585",
     "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
     "link": "https://www.sedaily.com/article/20102625?ref=naver",
@@ -453,6 +466,19 @@
       "한화시스템"
     ],
     "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
+  },
+  {
+    "id": "364715ce69d7",
+    "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
+    "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
+    "published_at": "2026-10-16T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
   },
   {
     "id": "25e8184a3126",
@@ -552,6 +578,19 @@
     "published_at": "2026-10-15T04:31:00+00:00",
     "sources": [
       "연합뉴스TV"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "f3232cc249d3",
+    "title": "레이저 대공무기 천광, 드론 요격 시연 성공…1회 발사 2천원",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oeGl5Q2VfRnVELWR1NGs1a05wOHIyb2Vmb2pvV2JvRks1cFd5RWVkSldFNlJwZEFBblhtY2tBNXBtaFc1dnRxb3JaeWl4Y21jTENGTzhpZDBPdFHSAWBBVV95cUxNZDFLRWFaX2RiRWtTYS1TRFo0REV4NDVvT2NYeG5VNG8yWWJfcDFNZFlNQTFoTlJna25OQjJkQ3B0SzNKLXIxZ2t6X0pGOWFzQy1NVU1DMnZWa0d4U2liY00?oc=5",
+    "published_at": "2026-10-15T02:45:32+00:00",
+    "sources": [
+      "연합뉴스"
     ],
     "keywords": [
       "한화시스템"
