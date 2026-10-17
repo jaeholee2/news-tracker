@@ -1,5 +1,18 @@
 [
   {
+    "id": "24d609e081f9",
+    "title": "아침에 켜서 한밤중까지 스크롤만 내린다…‘전자 마약’ 논란까지 번진...",
+    "link": "https://www.sedaily.com/article/20102818?ref=naver",
+    "published_at": "2026-10-18T03:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/18/news-p.v1.20261016.26198a1f4b14478694c15794353ca288_Z1.jpg"
+  },
+  {
     "id": "03b0a92cfa8b",
     "title": "[증권가H] 금융위 부위원장 신진창/200배 레버리지 선물 당국 경고 등",
     "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873836",
@@ -91,19 +104,6 @@
     "image": "https://cdn.4th.kr/news/thumbnail/202610/2119922_220703_4653_v150.jpg"
   },
   {
-    "id": "1653e3404641",
-    "title": "토큰증권 인프라 앞섰지만…상품 공급 변수",
-    "link": "https://www.bloter.net/news/articleView.html?idxno=675874",
-    "published_at": "2026-10-17T11:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.bloter.net/news/thumbnail/202610/675874_289846_2653_v150.jpg"
-  },
-  {
     "id": "19e43a5951b1",
     "title": "[헬로즈업] 32조 원 베팅한 슈나이더… ‘전액 현금’으로 PTC 삼키고 지...",
     "link": "https://www.hellot.net/news/article.html?no=115565",
@@ -115,6 +115,19 @@
       "한화시스템"
     ],
     "image": "https://www.hellot.net/data/photos/20261042/art_17922023243807_37a61e.jpg"
+  },
+  {
+    "id": "1653e3404641",
+    "title": "토큰증권 인프라 앞섰지만…상품 공급 변수",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=675874",
+    "published_at": "2026-10-17T11:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.bloter.net/news/thumbnail/202610/675874_289846_2653_v150.jpg"
   },
   {
     "id": "1963bd20d3d8",
@@ -468,19 +481,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46039791.1.png"
   },
   {
-    "id": "364715ce69d7",
-    "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
-    "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
-    "published_at": "2026-10-16T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
-  },
-  {
     "id": "9ebe4771e585",
     "title": "40년 된 갤러리아 명품관, 재건축 ‘본궤도’",
     "link": "https://www.sedaily.com/article/20102625?ref=naver",
@@ -492,6 +492,19 @@
       "한화시스템"
     ],
     "image": "https://wimg.sedaily.com/news/cms/2026/10/16/news-p.v1.20261016.e80d52377fea4eb4b7a72229d12edf10_Z1.jpg"
+  },
+  {
+    "id": "364715ce69d7",
+    "title": "[밀덕텔링] 북한 지뢰 도발에 드론·로봇 투입하면 끝? DMZ에선 어려운 ...",
+    "link": "https://bizhankook.com/articles/north-korea-dmz-mum-t-development.html",
+    "published_at": "2026-10-16T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://s.bizhankook.com/attachments_og/2026/10/136497_og_b43f6fcd.jpg"
   },
   {
     "id": "25e8184a3126",
@@ -531,32 +544,6 @@
       "한화시스템"
     ],
     "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026101616320444512_1.jpg"
-  },
-  {
-    "id": "9de61ebdc00a",
-    "title": "갤러리아명품관 강남 새 '랜드마크'로…서관 '재건축' 건축허가",
-    "link": "https://www.nocutnews.co.kr/news/6592741?utm_source=naver&utm_medium=article&utm_campaign=20261016050212",
-    "published_at": "2026-10-16T17:03:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/10/16/202610161659136842_0.jpg"
-  },
-  {
-    "id": "e86e7a9ad238",
-    "title": "NH證 \"주간 코스피 예상 범위 5100~6100…반도체 비중 확대 전략\"",
-    "link": "http://www.popcornnews.net/news/articleView.html?idxno=136289",
-    "published_at": "2026-10-16T16:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.popcornnews.net/news/thumbnail/202610/136289_162428_5240_v150.jpg"
   },
   {
     "id": "42bdde1bd447",
