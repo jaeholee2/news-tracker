@@ -174,8 +174,7 @@
     "link": "https://www.mk.co.kr/article/12178800",
     "published_at": "2026-10-18T14:47:00+09:00",
     "sources": [
-      "Naver",
-      "매일경제"
+      "Naver"
     ],
     "keywords": [
       "한화시스템"
@@ -362,7 +361,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://image.ichannela.com/images/channela/2026/10/16/000003159417/00000315941720261016175529027.webp"
   },
   {
     "id": "7d6274f1ed02",
@@ -404,19 +403,6 @@
     "image": ""
   },
   {
-    "id": "926af1c74769",
-    "title": "재계 사장단 인사 시즌 돌입…안정 지향 소폭 인사 속 'AX' 키워드 부상",
-    "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856692",
-    "published_at": "2026-10-18T08:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsworks.co.kr/news/thumbnail/202610/856692_820977_298_v150.jpg"
-  },
-  {
     "id": "c530dc6dd715",
     "title": "화성시, SEDEX서 반도체 경쟁력 알려…기업 판로·투자유치 지원",
     "link": "http://www.beyondpost.co.kr/view.php?ud=2026101807522758714c878f8fa1_30",
@@ -428,6 +414,19 @@
       "한화시스템"
     ],
     "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610180757160723704c878f8fa118220943141.jpg&nmt=30"
+  },
+  {
+    "id": "926af1c74769",
+    "title": "재계 사장단 인사 시즌 돌입…안정 지향 소폭 인사 속 'AX' 키워드 부상",
+    "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856692",
+    "published_at": "2026-10-18T08:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsworks.co.kr/news/thumbnail/202610/856692_820977_298_v150.jpg"
   },
   {
     "id": "6e3532fef540",
