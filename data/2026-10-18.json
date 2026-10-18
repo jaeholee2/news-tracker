@@ -1,5 +1,83 @@
 [
   {
+    "id": "b1d30f4a7ea7",
+    "title": "지뢰 못 찾는 로봇, 엉터리 챗봇, 3000만 원어치 멀티탭, 줄줄 새는 예산...",
+    "link": "https://slownews.kr/168075",
+    "published_at": "2026-10-18T21:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://slownews.kr/wp-content/uploads/2026/10/flowing-water-from-metal-pipe-showcasing-motion-and-fluidity-in-an-industrial-setting.-11370711-scaled-533x800.jpg"
+  },
+  {
+    "id": "ee17efb86cdf",
+    "title": "경남 조선·방산 호황 속 상장기업 그늘",
+    "link": "http://www.gnmaeil.com/news/articleView.html?idxno=596743",
+    "published_at": "2026-10-18T21:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.gnmaeil.com/image/logo/snslogo_20181114053923.jpg"
+  },
+  {
+    "id": "c0c8cf28f95f",
+    "title": "[제2서울핀테크랩 스타트업 CEO] 외국인 생활·행정·금융 플랫폼 개발하...",
+    "link": "https://magazine.hankyung.com/job-joy/article/202610189077d",
+    "published_at": "2026-10-18T20:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202610/AD.46100656.1.jpg"
+  },
+  {
+    "id": "7cce0f648d97",
+    "title": "'힐스테이트 거제시그니처', 거제 최대 단지에 교육특화 '돋보여'",
+    "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=313381",
+    "published_at": "2026-10-18T19:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.straightnews.co.kr/news/thumbnail/202610/313381_225643_2713_v150.jpg"
+  },
+  {
+    "id": "7da415d3f3c8",
+    "title": "2000원? 2만원?…北 드론 잡을 ‘천광’ 한발 가격 비밀",
+    "link": "https://biz.heraldcorp.com/article/10906295?ref=naver",
+    "published_at": "2026-10-18T18:03:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261015.7da5bc058f024b5f9194e593ab3c16db_P1.jpg"
+  },
+  {
+    "id": "d04d692136a2",
+    "title": "조선업 한정 숙련공 핀셋 공급…프로젝트 단위 ‘특례’ 적용할 수도",
+    "link": "https://www.sedaily.com/article/20102984?ref=naver",
+    "published_at": "2026-10-18T17:55:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/18/news-p.v1.20261017.65ed348d13ed41a7af072aa6c2afd65e_Z1.jpg"
+  },
+  {
     "id": "45e0e2e5093c",
     "title": "항공모함이라도 만들어야하나?…잘나가다 주춤한 '이 기업'[주末머니]",
     "link": "https://view.asiae.co.kr/article/2026101611414224901",
@@ -219,7 +297,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/10/18/8a59532ebce04a9e990b1bddb2134cda/thumb.jpg"
   },
   {
     "id": "e7faf10fd818",
@@ -300,19 +378,6 @@
     "image": ""
   },
   {
-    "id": "6e3532fef540",
-    "title": "[에너지 오디세이]⑬'바람의 나라' 대한민국, 해상풍력 강국이 될 수 있...",
-    "link": "https://view.asiae.co.kr/article/2026101617002752160",
-    "published_at": "2026-10-18T08:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026020515314530572_1770273106.jpg"
-  },
-  {
     "id": "926af1c74769",
     "title": "재계 사장단 인사 시즌 돌입…안정 지향 소폭 인사 속 'AX' 키워드 부상",
     "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856692",
@@ -337,6 +402,19 @@
       "한화시스템"
     ],
     "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610180757160723704c878f8fa118220943141.jpg&nmt=30"
+  },
+  {
+    "id": "6e3532fef540",
+    "title": "[에너지 오디세이]⑬'바람의 나라' 대한민국, 해상풍력 강국이 될 수 있...",
+    "link": "https://view.asiae.co.kr/article/2026101617002752160",
+    "published_at": "2026-10-18T08:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026020515314530572_1770273106.jpg"
   },
   {
     "id": "6363f71f16fa",
@@ -688,31 +766,5 @@
       "한화시스템"
     ],
     "image": "https://cdn.gamemeca.com/gmdata/0001/781/925/gm424308_thumb__RTX_.webp"
-  },
-  {
-    "id": "73367e184126",
-    "title": "SK하이닉스·삼성전자 거래대금 10조 육박…상위 50종목 54.5%",
-    "link": "http://www.kjdaily.com/article.php?aid=1792150811689362276",
-    "published_at": "2026-10-16T20:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "42bdde1bd447",
-    "title": "[영상] 한 발에 2천원 레이저 대공무기 ‘천광’…번쩍하면 드론 격추",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GaGgwVTBUbTRuQWUxNWlVMUlmR0p1Q3RYY1JQUGFkTFdtMVJVc1UyZ2xHWTFIZTdlM2Vrd0lWV2ZBSmpKX0Z6WFFjRXNyaVJkbldNb2hwbDZzQ3JhNk9FdzcwUGdzdXYyMnc?oc=5",
-    "published_at": "2026-10-15T07:47:00+00:00",
-    "sources": [
-      "한겨레"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
   }
 ]
