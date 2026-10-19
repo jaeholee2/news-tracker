@@ -1,5 +1,57 @@
 [
   {
+    "id": "5783a39d3194",
+    "title": "\"초저궤도·초고해상도 '우주시장' 승부수\"",
+    "link": "https://www.mt.co.kr/future/2026/10/20/2026101919453092343",
+    "published_at": "2026-10-20T03:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026101919453092343_1.jpg"
+  },
+  {
+    "id": "46c924601508",
+    "title": "현대차그룹 방산 사업, 로템에 집중시킨다",
+    "link": "https://www.chosun.com/economy/industry-company/2026/10/20/YBJFUSRD6ZFBLP23Y27SJSOPLQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "published_at": "2026-10-20T00:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.chosun.com/resizer/v2/RYPOU6EBY5CDPIFAUMUIB6OI2U.png?auth=105582a02a95510171aa50e9f058caf2fd9bcad86de34a9f81182feb515e201a&width=1200&height=630&smart=true"
+  },
+  {
+    "id": "a8ff989a9352",
+    "title": "[산업 콕!] 드론 시대 마주한 K-방산",
+    "link": "http://www.00news.co.kr/news/articleView.html?idxno=107246",
+    "published_at": "2026-10-19T23:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.00news.co.kr/news/thumbnail/202610/107246_244502_1050_v150.jpg"
+  },
+  {
+    "id": "93f1bbf16a85",
+    "title": "K2 180대 폴란드에 더 팔더니…현대로템이 K9 포신 사업까지 품은 이유 ...",
+    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261019601016&wlog_tag3=naver",
+    "published_at": "2026-10-19T21:31:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/19/SSC_20261019170205.png.webp"
+  },
+  {
     "id": "0ab2c36eb982",
     "title": "민간 우주산업 완결형 밸류 체인 구축 '속도'",
     "link": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026101918240982608?feed=na",
@@ -23,7 +75,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/19_689678.jpg"
+    "image": ""
   },
   {
     "id": "b46d7319cb81",
@@ -96,13 +148,12 @@
     "link": "http://www.samdailbo.com/news/articleView.html?idxno=271498",
     "published_at": "2026-10-19T18:36:00+09:00",
     "sources": [
-      "Naver",
-      "삼다일보"
+      "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.samdailbo.com/news/thumbnail/202610/271498_196741_2419_v150.jpg"
+    "image": ""
   },
   {
     "id": "662e8b491605",
@@ -431,19 +482,6 @@
     "image": ""
   },
   {
-    "id": "9c174aba3b7d",
-    "title": "[현장] 영광, 원전·전력기기로 사업 다각화…2027년 신사업 매출 확대",
-    "link": "https://www.news2day.co.kr/article/20261019500241",
-    "published_at": "2026-10-19T16:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/19/.cache/512/20261019500341.jpg"
-  },
-  {
     "id": "c1234a2b538b",
     "title": "제주도, 우주산업 전 과정 구축…위성 양산·해상발사 구상",
     "link": "https://www.gukjenews.com/news/articleView.html?idxno=3725347",
@@ -456,6 +494,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3725347_3903197_226_v150.jpg"
+  },
+  {
+    "id": "9c174aba3b7d",
+    "title": "[현장] 영광, 원전·전력기기로 사업 다각화…2027년 신사업 매출 확대",
+    "link": "https://www.news2day.co.kr/article/20261019500241",
+    "published_at": "2026-10-19T16:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/19/.cache/512/20261019500341.jpg"
   },
   {
     "id": "632a1a053773",
@@ -523,19 +574,6 @@
     "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1019/1792390725955330.webp"
   },
   {
-    "id": "df340205bc40",
-    "title": "LS일렉트릭, 美 데이터센터 릴레이 수주…일주일 새 3500억 계약",
-    "link": "https://www.bloter.net/news/articleView.html?idxno=676011",
-    "published_at": "2026-10-19T15:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.bloter.net/news/thumbnail/202610/676011_290030_5051_v150.jpg"
-  },
-  {
     "id": "439a5afba869",
     "title": "美 육군 뚫은 K9 'XM1776'…10조 양산 기대에 방산株 '들썩'",
     "link": "https://www.g-enews.com/view.php?ud=20261019150639517923c501012_1",
@@ -547,6 +585,19 @@
       "한화시스템"
     ],
     "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026101915320508291923c501012118235581.jpg"
+  },
+  {
+    "id": "df340205bc40",
+    "title": "LS일렉트릭, 美 데이터센터 릴레이 수주…일주일 새 3500억 계약",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=676011",
+    "published_at": "2026-10-19T15:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.bloter.net/news/thumbnail/202610/676011_290030_5051_v150.jpg"
   },
   {
     "id": "a37ec3fc85a4",
@@ -654,19 +705,6 @@
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/496549_482009_416_v150.jpg"
   },
   {
-    "id": "093adac8f131",
-    "title": "[오늘의 은행] 우리은행·하나은행·IBK기업은행·Sh수협은행·제주은행...",
-    "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=45617",
-    "published_at": "2026-10-19T15:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.financialreview.co.kr/news/thumbnail/202610/45617_68338_5328_v150.jpg"
-  },
-  {
     "id": "db73e876de0a",
     "title": "현대로템, K2 주포까지 직접 만든다…3584억에 현대위아 방산사업 인수",
     "link": "https://view.asiae.co.kr/article/2026101913572916655",
@@ -680,17 +718,17 @@
     "image": "https://cphoto.asiae.co.kr/listimglink/1/2026101914525765923_1792389177.png"
   },
   {
-    "id": "dbb8436e9e7c",
-    "title": "현대엔지니어링, 거제시 옥포동에 5년만에 신규 대단지 공급",
-    "link": "https://www.newsway.co.kr/news/view?ud=2026101914464400425",
-    "published_at": "2026-10-19T15:00:00+09:00",
+    "id": "093adac8f131",
+    "title": "[오늘의 은행] 우리은행·하나은행·IBK기업은행·Sh수협은행·제주은행...",
+    "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=45617",
+    "published_at": "2026-10-19T15:02:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://nimage.newsway.co.kr/photo/2026/10/19/20261019004421_1200.jpg"
+    "image": "http://www.financialreview.co.kr/news/thumbnail/202610/45617_68338_5328_v150.jpg"
   },
   {
     "id": "44f891006980",
@@ -704,6 +742,19 @@
       "한화시스템"
     ],
     "image": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/10/19/.cache/512/20261019500312.jpg"
+  },
+  {
+    "id": "dbb8436e9e7c",
+    "title": "현대엔지니어링, 거제시 옥포동에 5년만에 신규 대단지 공급",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026101914464400425",
+    "published_at": "2026-10-19T15:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.newsway.co.kr/photo/2026/10/19/20261019004421_1200.jpg"
   },
   {
     "id": "b284adbe94a8",
@@ -862,19 +913,6 @@
     "image": ""
   },
   {
-    "id": "6550868a83ee",
-    "title": "현대로템, 현대위아 방산사업 3584억에 인수…K2·K9 포신까지 품는다",
-    "link": "https://dealsite.co.kr/articles/170900",
-    "published_at": "2026-10-19T13:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/aad2a5ad4194dd208d60544724c321bf/thumb.jpg"
-  },
-  {
     "id": "302cb6414d24",
     "title": "현대로템, 현대위아 방산사업 3584억원에 인수… K2 전차 화포까지 직접...",
     "link": "https://www.chosun.com/economy/industry-company/2026/10/19/OSXSOBNWYJGANMJGSOW3GTC2GU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
@@ -886,6 +924,19 @@
       "한화시스템"
     ],
     "image": "https://www.chosun.com/resizer/v2/XWPT2CY6Z5DYJBQNXNO4DC6YUI.jpg?auth=ad25c05af2f0af2c9927bb82d8881f017acebabc63ccb43f78c712e33da9ed36&width=1200&height=630&smart=true"
+  },
+  {
+    "id": "6550868a83ee",
+    "title": "현대로템, 현대위아 방산사업 3584억에 인수…K2·K9 포신까지 품는다",
+    "link": "https://dealsite.co.kr/articles/170900",
+    "published_at": "2026-10-19T13:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/aad2a5ad4194dd208d60544724c321bf/thumb.jpg"
   },
   {
     "id": "d36a7e67931d",
@@ -914,30 +965,30 @@
     "image": "https://img.seoul.co.kr//img/upload/2026/10/19/SSC_20261019131855_O2.jpg.webp"
   },
   {
-    "id": "4070572a902c",
-    "title": "CSA 코스믹·KBI동양철관 30% 육박…급등주 업종별 확산",
-    "link": "http://www.kjdaily.com/article.php?aid=1792383001689581276",
-    "published_at": "2026-10-19T13:12:00+09:00",
+    "id": "e93e38713c0a",
+    "title": "'3분기 실적 우려'에…방산株 일제히 하락 [종목 NOW]",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5obm05dk5Fa3JDQnhOWmxxb3RCVHU5bDZJOHBodC0ydUZ4WG83R3JUandLMW1ISW1saklsUVgwakdFUlZVejVYbDEwTjV4VXNZNFMzb3pFTFduQQ?oc=5",
+    "published_at": "2026-10-19T00:37:12+00:00",
     "sources": [
-      "Naver"
+      "파이낸셜뉴스"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/19_689581.jpg"
+    "image": ""
   },
   {
-    "id": "6d36d199e10b",
-    "title": "SK하이닉스·삼성전자 4조원 거래 넘어…반도체주에 집중",
-    "link": "http://www.kjdaily.com/article.php?aid=1792381931689580276",
-    "published_at": "2026-10-19T12:54:00+09:00",
+    "id": "fc3816fdc9f8",
+    "title": "\"초저궤도·초고해상도 '우주시장' 승부수\" - 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02RjEtRTZJbHlQTzVNTHdQVHQ1NDZxdFJnVWlmaVBpUDlRMWhVRXlNY2NIUWotZk5aNk1idHVsc2ozaHowSFlKZ0duVy1SQjQ4NkcwdlFfZGYyXzlOazVuVUJNX1NBMzYtamfSAW9BVV95cUxQbG1JWEdGOERsR196ZzVJamlRS285aGYzMGFnUTUzTk1GNHJJRkZndEVEaHlWNURyak1NcUg5VnRJSmVWeTNqNXpHZFpsdnlpS18td3lMN3lIUzRsNE9xUlpUZWs4U3FCd3JieU1lNlk?oc=5",
+    "published_at": "2026-10-19T18:00:00+00:00",
     "sources": [
-      "Naver"
+      "머니투데이"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/19_689580.jpg"
+    "image": ""
   },
   {
     "id": "c96b84dc2340",
