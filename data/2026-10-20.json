@@ -1,5 +1,70 @@
 [
   {
+    "id": "3c21126cb27c",
+    "title": "‘꼴찌해도 소용 없다!’ 새 로터리 시스템, 탱킹 방지의 특효약 될까?",
+    "link": "https://m.sports.naver.com/basketball/article/065/0000303266",
+    "published_at": "2026-10-21T01:55:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnews.pstatic.net/image/065/2026/10/21/0000303266_001_20261021015508485.jpg"
+  },
+  {
+    "id": "915c37e7c9bd",
+    "title": "'173cm인데 160km 던진다' 류현진 닮은 日 괴물 투수 MLB 도전 천명! \"매...",
+    "link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553630650",
+    "published_at": "2026-10-21T00:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sportalkorea.com/news/photo/202610/2025052909553630650_2700716_386.jpg"
+  },
+  {
+    "id": "b59a60294b5a",
+    "title": "“설계·양산만 10년… K방산 시스템을 바꿔야”",
+    "link": "https://www.chosun.com/economy/industry-company/2026/10/21/UMWS2EUNQJFNXFNQAHRCG4JC4E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "published_at": "2026-10-21T00:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.chosun.com/resizer/v2/2Y6XSW3FIJACBCUXIJH3W23QT4.jpg?auth=22429f4c32fd020c4774b2dd1594f395213969a38269fd5292d7a5d8ed29cc24&width=1200&height=630&smart=true"
+  },
+  {
+    "id": "ac19244fd91d",
+    "title": "AI무인함정 시대 열렸다… K방산, 美시장 선점 승부",
+    "link": "https://www.kmib.co.kr/article/20261020502287",
+    "published_at": "2026-10-21T00:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/20/.cache/512/20261020502289.jpg"
+  },
+  {
+    "id": "fe96010e1243",
+    "title": "[코스피 급락]\"이틀 번 것 하루 만에 다 뱉었다\"…코스피 3.7% 급락해 5,5...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=617507",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.cbci.co.kr/news/thumbnail/202610/mn_617507_20261020205638_1_v150.jpg"
+  },
+  {
     "id": "d81b892dd3de",
     "title": "[주요공시] 플리토, HD현대중공업, S-Oil, 메가스터디교육, 대원화성, 다...",
     "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=209400",
@@ -101,7 +166,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/20_689790.jpg"
+    "image": ""
   },
   {
     "id": "1cf8b73d0991",
@@ -114,7 +179,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/20_689789.jpg"
+    "image": ""
   },
   {
     "id": "cbbcb5a48721",
@@ -364,19 +429,6 @@
     "image": "https://cdn.thepublic.kr/news/photo/202610/322977_326664_1126.jpg"
   },
   {
-    "id": "b3b3e459216b",
-    "title": "제주, 소형위성시스템 거점 노린다",
-    "link": "https://www.mk.co.kr/article/12180788",
-    "published_at": "2026-10-20T17:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://pimg.mk.co.kr/news/cms/202610/21/20261021_01160128000001_L00.jpg"
-  },
-  {
     "id": "5961279dfa91",
     "title": "반도체주 또 무너졌다… 코스피 3.7%·코스닥 3.3% 동반 폭락",
     "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=395768",
@@ -388,6 +440,19 @@
       "한화시스템"
     ],
     "image": "https://www.fntoday.co.kr/news/thumbnail/202610/395768_320023_155_v150.jpg"
+  },
+  {
+    "id": "b3b3e459216b",
+    "title": "제주, 소형위성시스템 거점 노린다",
+    "link": "https://www.mk.co.kr/article/12180788",
+    "published_at": "2026-10-20T17:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202610/21/20261021_01160128000001_L00.jpg"
   },
   {
     "id": "ea0fa6e5198f",
@@ -442,9 +507,9 @@
     "image": "http://www.jejunews.com/news/photo/202610/2228372_258641_35.jpg"
   },
   {
-    "id": "f28fe1168339",
-    "title": "KAI 사장 김종출 \"국가 방위산업 이익 위해 독립경영 해야, 아무나 회사...",
-    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449828",
+    "id": "bfbe528d131c",
+    "title": "수출입은행 국감에 KAI 논란만 가득, 황기연 국감 데뷔전서 보유 지분 처...",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449823",
     "published_at": "2026-10-20T17:08:00+09:00",
     "sources": [
       "Naver"
@@ -455,9 +520,9 @@
     "image": ""
   },
   {
-    "id": "bfbe528d131c",
-    "title": "수출입은행 국감에 KAI 논란만 가득, 황기연 국감 데뷔전서 보유 지분 처...",
-    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449823",
+    "id": "f28fe1168339",
+    "title": "KAI 사장 김종출 \"국가 방위산업 이익 위해 독립경영 해야, 아무나 회사...",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449828",
     "published_at": "2026-10-20T17:08:00+09:00",
     "sources": [
       "Naver"
@@ -478,7 +543,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.kjdaily.com/upimages/gisaimg/202610/20_689710.jpg"
+    "image": ""
   },
   {
     "id": "65ea5ccb1549",
@@ -546,9 +611,9 @@
     "image": "https://www.youthdaily.co.kr/data/photos/20261043/art_17924821008157_9c190a.jpg"
   },
   {
-    "id": "24e08bbf6b21",
-    "title": "'이틀 천하' 코스피, 3.7% ↓ 5,552 마감…최근 반등분 모두 반납",
-    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=884212",
+    "id": "6abb7d4bcc70",
+    "title": "코스피, 3.7% 폭락…\"AI 수익성 우려에 반등 모멘텀 꺾였다\"",
+    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66111",
     "published_at": "2026-10-20T16:42:00+09:00",
     "sources": [
       "Naver"
@@ -556,7 +621,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.getnews.co.kr/news/photo/202610/884212_542003_405.jpg"
+    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66111_89671_4030_v150.jpg"
   },
   {
     "id": "daf9e8795259",
@@ -572,9 +637,9 @@
     "image": "https://cdn.gamemeca.com/gmdata/0001/782/071/gm343026_st.webp"
   },
   {
-    "id": "6abb7d4bcc70",
-    "title": "코스피, 3.7% 폭락…\"AI 수익성 우려에 반등 모멘텀 꺾였다\"",
-    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66111",
+    "id": "24e08bbf6b21",
+    "title": "'이틀 천하' 코스피, 3.7% ↓ 5,552 마감…최근 반등분 모두 반납",
+    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=884212",
     "published_at": "2026-10-20T16:42:00+09:00",
     "sources": [
       "Naver"
@@ -582,7 +647,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66111_89671_4030_v150.jpg"
+    "image": "https://cdn.getnews.co.kr/news/photo/202610/884212_542003_405.jpg"
   },
   {
     "id": "32c0a308416e",
@@ -611,19 +676,6 @@
     "image": "https://www.imaeil.com/photos/2026/10/14/2026101415190884302_l.jpg"
   },
   {
-    "id": "8d066789e0cc",
-    "title": "[마감] 코스피, 하루 만에 반등분 반납…현대로템 -13%",
-    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=874514",
-    "published_at": "2026-10-20T16:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/874514_899517_3645_v150.jpg"
-  },
-  {
     "id": "2180221eb607",
     "title": "코스피, 하루 만에 3.73% 급락해 5600선 붕괴…이틀 상승분 모두 반납",
     "link": "https://www.hidomin.com/news/articleView.html?idxno=725698",
@@ -635,6 +687,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.hidomin.com/news/photo/202610/725698_428538_3445.jpg"
+  },
+  {
+    "id": "8d066789e0cc",
+    "title": "[마감] 코스피, 하루 만에 반등분 반납…현대로템 -13%",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=874514",
+    "published_at": "2026-10-20T16:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/874514_899517_3645_v150.jpg"
   },
   {
     "id": "bac864d5f920",
@@ -829,7 +894,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/20/.cache/512/20261020500927.jpg?v=20261020234404"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/10/20/.cache/512/20261020500927.jpg?v=20261021035754"
   },
   {
     "id": "e09a8eb7b486",
@@ -884,56 +949,17 @@
     "image": "https://cdn.bloter.net/news/thumbnail/202610/676125_290201_4821_v150.jpg"
   },
   {
-    "id": "1a0d4720573a",
-    "title": "구미시, 3년 연속 AI 팩토리 공모 선정…첨단 제조산업 AI 전환 '속도'",
-    "link": "https://www.news1.kr/local/daegu-gyeongbuk/6326060",
-    "published_at": "2026-10-20T15:34:00+09:00",
+    "id": "e93e38713c0a",
+    "title": "'3분기 실적 우려'에…방산株 일제히 하락 [종목 NOW]",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5obm05dk5Fa3JDQnhOWmxxb3RCVHU5bDZJOHBodC0ydUZ4WG83R3JUandLMW1ISW1saklsUVgwakdFUlZVejVYbDEwTjV4VXNZNFMzb3pFTFduQQ?oc=5",
+    "published_at": "2026-10-19T00:37:12+00:00",
     "sources": [
-      "Naver"
+      "파이낸셜뉴스"
     ],
     "keywords": [
       "한화시스템"
     ],
     "image": ""
-  },
-  {
-    "id": "a2bc410ca4f6",
-    "title": "미노띠 이어 폴리폼까지...디옴, ‘Poliform Seoul’ 그랜드 오프닝 개최",
-    "link": "https://view.asiae.co.kr/article/2026102015312769754",
-    "published_at": "2026-10-20T15:31:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102015303467698_1792477835.jpg"
-  },
-  {
-    "id": "7bb0ca9333b0",
-    "title": "[사설] 제주, 민간 우주산업 전초기지 육성 '주목'",
-    "link": "http://www.jejunews.com/news/articleView.html?idxno=2228346",
-    "published_at": "2026-10-20T15:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.jejunews.com/image/logo/snslogo_20200715085456.png"
-  },
-  {
-    "id": "8cec625e504f",
-    "title": "KAI 최대주주 수출입은행 “현재 매각 계획 없다 … 향후 계획은 단정 어...",
-    "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000179.html",
-    "published_at": "2026-10-20T15:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.newdaily.co.kr/site/data/img/2026/10/20/2026102000179_0.jpg?u=20261020151905?u=20261020151905"
   },
   {
     "id": "4ec88664508a",
