@@ -1,5 +1,31 @@
 [
   {
+    "id": "53c1e9f43d22",
+    "title": "아키에이지 크로니클 얼리 액세스는 왜 3만 6000원일까?",
+    "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=112426",
+    "published_at": "2026-10-23T01:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gametoc.co.kr/news/photo/202610/112426_327017_3812.jpg"
+  },
+  {
+    "id": "cc98b8fe405b",
+    "title": "[오동룡의 밀리터리 인사이드] 방사청 LIG 제재, 엄정인가 면피인가",
+    "link": "https://www.newspim.com/news/view/20261023000006",
+    "published_at": "2026-10-23T00:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/10/22/2610222355307290_t1.jpg"
+  },
+  {
     "id": "0062684f99da",
     "title": "대기업 사업 재편·인력 유출 '경남 공동화' 우려",
     "link": "http://www.gnmaeil.com/news/articleView.html?idxno=597109",
@@ -299,9 +325,9 @@
     "image": "https://image.newstomato.com/newsimg/2026/10/22/1317634/attach.jpg?v=202610221537"
   },
   {
-    "id": "f654329bd1f0",
-    "title": "[증권브리핑] 넥스트證, 트레이딩뷰와 파트너십 체결 외",
-    "link": "https://www.seoulfn.com/news/articleView.html?idxno=640740",
+    "id": "892058518d33",
+    "title": "[조선ㆍ방산 순풍 속 숨 고르기] 방산업계 실적 시즌 개막…3분기 숨 고...",
+    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610211339292890507",
     "published_at": "2026-10-22T15:20:00+09:00",
     "sources": [
       "Naver"
@@ -309,7 +335,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.seoulfn.com/news/photo/202610/640740_444265_477.png"
+    "image": "https://image.dnews.co.kr/photo/photo/2026/10/21/202610211339292890507-2-699097.jpg"
   },
   {
     "id": "71c4b21a7684",
@@ -325,9 +351,9 @@
     "image": "https://image.dnews.co.kr/photo/photo/2026/10/21/202610211340280020508-2-699125.jpg"
   },
   {
-    "id": "892058518d33",
-    "title": "[조선ㆍ방산 순풍 속 숨 고르기] 방산업계 실적 시즌 개막…3분기 숨 고...",
-    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610211339292890507",
+    "id": "f654329bd1f0",
+    "title": "[증권브리핑] 넥스트證, 트레이딩뷰와 파트너십 체결 외",
+    "link": "https://www.seoulfn.com/news/articleView.html?idxno=640740",
     "published_at": "2026-10-22T15:20:00+09:00",
     "sources": [
       "Naver"
@@ -335,7 +361,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://image.dnews.co.kr/photo/photo/2026/10/21/202610211339292890507-2-699097.jpg"
+    "image": "https://cdn.seoulfn.com/news/photo/202610/640740_444265_477.png"
   },
   {
     "id": "908a75166058",
@@ -413,7 +439,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/22/2026102214300042653_m.png"
+    "image": ""
   },
   {
     "id": "76a45b998627",
@@ -507,19 +533,6 @@
     "image": "https://static.naeil.com/img/rect_logo.jpg"
   },
   {
-    "id": "6c8af0f96c2c",
-    "title": "드론에 뚫린 미군 최강 전차들…K2 전차 성능개량이 꼭 필요한 이유 [밀...",
-    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261022601008&wlog_tag3=naver",
-    "published_at": "2026-10-22T13:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/22/SSC_20261022103707.jpg.webp"
-  },
-  {
     "id": "4954cc7aa392",
     "title": "'형 지분 매입' 김동선, 성장 전략은?[더시그널]",
     "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=874742",
@@ -531,6 +544,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/874742_899781_553_v150.jpg"
+  },
+  {
+    "id": "6c8af0f96c2c",
+    "title": "드론에 뚫린 미군 최강 전차들…K2 전차 성능개량이 꼭 필요한 이유 [밀...",
+    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261022601008&wlog_tag3=naver",
+    "published_at": "2026-10-22T13:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnn.seoul.co.kr/img/upload/2026/10/22/SSC_20261022103707.jpg.webp"
   },
   {
     "id": "815cdc38c0ec",
@@ -585,19 +611,6 @@
     "image": "https://www.ytn.co.kr/img/comm/ytn_sns_default.jpg"
   },
   {
-    "id": "e814c91cdb47",
-    "title": "[특징주] 외국인·기관, '삼성E&A' 러브콜…신규 상장 '엠에스바이오' 순...",
-    "link": "https://www.newstnt.com/news/articleView.html?idxno=724396",
-    "published_at": "2026-10-22T12:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newstnt.com/news/photo/202610/724396_729181_5917.jpg"
-  },
-  {
     "id": "d731d72d175d",
     "title": "보험료 산출부터 보안 관리까지…보험 실무 파고드는 AI·자동화 기술",
     "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=210024",
@@ -609,6 +622,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.lcnews.co.kr/news/photo/202610/210024_213058_4939.png"
+  },
+  {
+    "id": "e814c91cdb47",
+    "title": "[특징주] 외국인·기관, '삼성E&A' 러브콜…신규 상장 '엠에스바이오' 순...",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=724396",
+    "published_at": "2026-10-22T12:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newstnt.com/news/photo/202610/724396_729181_5917.jpg"
   },
   {
     "id": "4d817b48136f",
@@ -700,32 +726,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.ppss.kr/news/photo/202610/316747_139544_2725.png"
-  },
-  {
-    "id": "f3251949c1d5",
-    "title": "치협, 통합치의학과 교육비 92억원 환급…26일부터 신청",
-    "link": "http://www.bokuennews.com/news/article.html?no=285930",
-    "published_at": "2026-10-22T10:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.bokuennews.com/data/photos/cdn/20261043/art_1792632948.jpg"
-  },
-  {
-    "id": "5e8e4904e5b1",
-    "title": "\"집값 양극화의 그늘\"…평택 지제·화성 동탄, 같은 도시 안서 3~4배 껑충",
-    "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=91530",
-    "published_at": "2026-10-22T10:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.thefairnews.co.kr/news/thumbnail/202610/91530_137809_3120_v150.jpg"
   },
   {
     "id": "c96b84dc2340",
