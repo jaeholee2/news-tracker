@@ -1,5 +1,83 @@
 [
   {
+    "id": "b4f760491fad",
+    "title": "[K-방산 AtoZ] 이란 미사일 막아낸 '천궁-II'…중동이 K-방공망 택한 이...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=108746",
+    "published_at": "2026-10-25T07:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.theguru.co.kr/data/photos/20261043/art_17928213094261_f3bddd.jpg"
+  },
+  {
+    "id": "c4d6c4a84c70",
+    "title": "사우디 영공 지킬 4조 원 방패망… 걸프 상공 연동 나선 한국 천궁-Ⅱ",
+    "link": "https://www.g-enews.com/view.php?ud=202610250658412648fbbec65dfb_1",
+    "published_at": "2026-10-25T07:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026100919382803863fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "d3450b8785ba",
+    "title": "[Who Is ?] 이향숙 이화여자대학교 총장",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449504",
+    "published_at": "2026-10-25T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "010424f7ebd6",
+    "title": "이수만 귀환, '리틀 보아' 탄생..A2O LITE의 화려한 데뷔에 드리운 그림...",
+    "link": "https://www.starnewskorea.com/music/2026/10/25/2026102315165092030",
+    "published_at": "2026-10-25T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.starnewskorea.com/21/2026/10/2026102315165092030_1.jpg"
+  },
+  {
+    "id": "a91c1f4aa050",
+    "title": "[르포] 록히드 마틴·노스롭 그루먼부터 KAEMS까지…사천서 만난 ‘다음...",
+    "link": "https://www.ekn.kr/web/view.php?key=20261023020320473",
+    "published_at": "2026-10-25T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.ekn.kr/mnt/file/202610/news-p.v1.20261023.1e53361edd82408eb2698db3d96fd8ef_R.png"
+  },
+  {
+    "id": "de26a2dabe1e",
+    "title": "[2027 산업] 내년 사업계획 시동…AI '성과내기'·중국과는 생존경쟁",
+    "link": "https://www.yna.co.kr/view/AKR20261024035400003?input=1195m",
+    "published_at": "2026-10-25T05:31:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P4.jpg"
+  },
+  {
     "id": "148fcf1b4c3e",
     "title": "롯데 감독, KIA·삼성·KT서 빼오나 → 이것도 아니면 도대체 왜? 야구계...",
     "link": "https://www.sportschosun.com/baseball/2026-10-24/202610240100153240009999",
@@ -23,7 +101,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://img.etnews.com/news/article/2026/10/24/news-p.v1.20261024.17251cf5ba214312bc06e300f171a7dc_P1.png"
   },
   {
     "id": "fa9e94cd57ff",
@@ -494,19 +572,6 @@
     "image": "https://cdn.newskr.kr/news/thumbnail/202610/107423_96828_5433_v150.jpg"
   },
   {
-    "id": "2f306e640d52",
-    "title": "국내 리츠시장 개척한 코람코 '제2전성기' 25년 만에 정상 탈환",
-    "link": "http://www.newsprime.co.kr/news/article.html?no=752200",
-    "published_at": "2026-10-23T17:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.newsprime.co.kr/data/photos/cdn/20261043/art_752200_1792745029.jpg"
-  },
-  {
     "id": "087cef14b39a",
     "title": "디지털트윈·로봇 용접 앞세워…군함 건조시장 노려",
     "link": "https://www.sedaily.com/article/20105500?ref=naver",
@@ -518,6 +583,19 @@
       "한화시스템"
     ],
     "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-g.v1.20261023.7d4b4e2141cd48d7bd25c5fb096eab7c_Z1.jpg"
+  },
+  {
+    "id": "2f306e640d52",
+    "title": "국내 리츠시장 개척한 코람코 '제2전성기' 25년 만에 정상 탈환",
+    "link": "http://www.newsprime.co.kr/news/article.html?no=752200",
+    "published_at": "2026-10-23T17:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.newsprime.co.kr/data/photos/cdn/20261043/art_752200_1792745029.jpg"
   },
   {
     "id": "97f7fb433d95",
@@ -559,19 +637,6 @@
     "image": "https://cdn.aitimes.com/news/photo/202610/216602_220701_2720.jpg"
   },
   {
-    "id": "fef3e0ed2f1e",
-    "title": "이정재 최대주주 아티스트컴퍼니, 전직 임원 등 5명 6.8억 배임 혐의 고...",
-    "link": "https://www.newspim.com/news/view/20261023001186",
-    "published_at": "2026-10-23T17:25:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.newspim.com/news/2026/10/23/261023171511142_348_tc.jpg"
-  },
-  {
     "id": "531becb6ab4b",
     "title": "롯데지주, 8년 전 PBR 회복 추진...자회사 수익성에 건 '승부수'",
     "link": "https://www.bloter.net/news/articleView.html?idxno=676606",
@@ -583,6 +648,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.bloter.net/news/thumbnail/202610/676606_290666_563_v150.jpg"
+  },
+  {
+    "id": "fef3e0ed2f1e",
+    "title": "이정재 최대주주 아티스트컴퍼니, 전직 임원 등 5명 6.8억 배임 혐의 고...",
+    "link": "https://www.newspim.com/news/view/20261023001186",
+    "published_at": "2026-10-23T17:25:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/10/23/261023171511142_348_tc.jpg"
   },
   {
     "id": "e51d622d3ea7",
@@ -751,20 +829,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://ftp.gameshot.net/article_title/2026_10/GA6adb028129fad.jpg"
-  },
-  {
-    "id": "729195e745fe",
-    "title": "테슬라, 연간 투자 계획 200억 달러로 조정…AI·로봇 사업 전략 재정비",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=845155",
-    "published_at": "2026-10-23T16:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202610/845155_432749_4244_v150.jpg"
+    "image": ""
   },
   {
     "id": "c4edb6439717",
@@ -778,6 +843,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1728992_763934_614_v150.jpg"
+  },
+  {
+    "id": "729195e745fe",
+    "title": "테슬라, 연간 투자 계획 200억 달러로 조정…AI·로봇 사업 전략 재정비",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=845155",
+    "published_at": "2026-10-23T16:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/845155_432749_4244_v150.jpg"
   },
   {
     "id": "5c2ffe95a3c6",
@@ -894,20 +972,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231508777454_6adafb1b566f1_300x.png"
-  },
-  {
-    "id": "8edf57b4b60b",
-    "title": "열에 여덟은 '성과 고민'...AWS \"AI 전사 확산 원하면 제품 중심으로 조...",
-    "link": "https://www.techm.kr/news/articleView.html?idxno=156450",
-    "published_at": "2026-10-23T15:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
+    "image": ""
   },
   {
     "id": "262f4c5c1c94",
@@ -923,6 +988,19 @@
     "image": "https://www.wikileaks-kr.org/news/thumbnail/202610/193651_210739_327_v150.jpg"
   },
   {
+    "id": "8edf57b4b60b",
+    "title": "열에 여덟은 '성과 고민'...AWS \"AI 전사 확산 원하면 제품 중심으로 조...",
+    "link": "https://www.techm.kr/news/articleView.html?idxno=156450",
+    "published_at": "2026-10-23T15:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
+  },
+  {
     "id": "408d5d4cde9d",
     "title": "HD현대, 미국에 합작 조선소 설립…마스가 프로젝트 노려",
     "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=81956",
@@ -934,84 +1012,6 @@
       "한화시스템"
     ],
     "image": "http://www.newsfc.co.kr/news/thumbnail/202610/81956_79320_5851_v150.jpg"
-  },
-  {
-    "id": "44e72a0677c7",
-    "title": "\"기업 AI, 도입보다 성과가 중요\" ··· 전사 AX 확산 전략 공유",
-    "link": "https://www.datanet.co.kr/news/articleView.html?idxno=215318",
-    "published_at": "2026-10-23T14:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.datanet.co.kr/news/thumbnail/202610/215318_139656_4013_v150.jpg"
-  },
-  {
-    "id": "47228cd0cf7e",
-    "title": "HD현대삼호, 머스크의 암모니아선 4척 개조 추진에 추가 수주 기회 얻나",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=497672",
-    "published_at": "2026-10-23T14:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/497672_483064_3158_v150.jpg"
-  },
-  {
-    "id": "133aea1e9e54",
-    "title": "'저PBR 개선공시' 참여 기업 26% 불과⋯밸류업 정책 실효성 논란",
-    "link": "http://www.inews24.com/view/2018264",
-    "published_at": "2026-10-23T14:39:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.inews24.com/v1/3a8c883e79dd0d.jpg"
-  },
-  {
-    "id": "0cae023edfde",
-    "title": "HD현대, 미국에 합작 조선소 설립‥2029년 가동 목표",
-    "link": "https://imnews.imbc.com/news/2026/econo/article/6860229_36932.html",
-    "published_at": "2026-10-23T14:37:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/10/23/jse_20261023_10.jpg"
-  },
-  {
-    "id": "d83f5bb5b550",
-    "title": "리더스인덱스 “국책銀 지분기업 8곳 매출증감률, 5년간 15%↓”",
-    "link": "https://www.joongang.co.kr/article/25472284",
-    "published_at": "2026-10-23T14:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "8f8057d0dbe7",
-    "title": "국책은행 관리 대기업 8곳 경쟁사에 뒤쳐져... KAI·HMM 심각",
-    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66335",
-    "published_at": "2026-10-23T14:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66335_89996_5421_v150.jpg"
   },
   {
     "id": "e9b7527dff56",
