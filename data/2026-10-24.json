@@ -1,5 +1,18 @@
 [
   {
+    "id": "32f74f6fb81f",
+    "title": "국방정보통신협회, AI 기반 국방 사이버보안 대응 전략 논의",
+    "link": "https://www.etnews.com/20261024000039",
+    "published_at": "2026-10-24T21:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.etnews.com/news/article/2026/10/24/news-p.v1.20261024.17251cf5ba214312bc06e300f171a7dc_P1.png"
+  },
+  {
     "id": "fa9e94cd57ff",
     "title": "[위클립] 10월 4주",
     "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41702",
@@ -260,19 +273,6 @@
     "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-p.v1.20261023.3e590a3ebb194de0884fde058a518d00_Z1.jpg"
   },
   {
-    "id": "bcce0ab9222b",
-    "title": "법조인 이사회 의장 2년 새 2 → 9곳",
-    "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228213",
-    "published_at": "2026-10-24T05:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228213_130061_3844.jpg"
-  },
-  {
     "id": "d4f4e9940844",
     "title": "[Lawyter] 러시아 \"해외 서버에 개인정보 저장 안 된다\"",
     "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228071",
@@ -284,6 +284,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228071_130059_1825.jpg"
+  },
+  {
+    "id": "bcce0ab9222b",
+    "title": "법조인 이사회 의장 2년 새 2 → 9곳",
+    "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228213",
+    "published_at": "2026-10-24T05:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228213_130061_3844.jpg"
   },
   {
     "id": "310e73028e46",
@@ -322,7 +335,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
+    "image": "https://www.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
   },
   {
     "id": "fcac492d4e50",
@@ -361,7 +374,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "http://www.catholicpress.kr/data/cheditor4/2610/3695266591_pTBWntoc_5555.jpg"
   },
   {
     "id": "2db3404d8dc6",
@@ -468,19 +481,6 @@
     "image": "https://cdn.newskr.kr/news/thumbnail/202610/107423_96828_5433_v150.jpg"
   },
   {
-    "id": "087cef14b39a",
-    "title": "디지털트윈·로봇 용접 앞세워…군함 건조시장 노려",
-    "link": "https://www.sedaily.com/article/20105500?ref=naver",
-    "published_at": "2026-10-23T17:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-g.v1.20261023.7d4b4e2141cd48d7bd25c5fb096eab7c_Z1.jpg"
-  },
-  {
     "id": "2f306e640d52",
     "title": "국내 리츠시장 개척한 코람코 '제2전성기' 25년 만에 정상 탈환",
     "link": "http://www.newsprime.co.kr/news/article.html?no=752200",
@@ -492,6 +492,19 @@
       "한화시스템"
     ],
     "image": "https://www.newsprime.co.kr/data/photos/cdn/20261043/art_752200_1792745029.jpg"
+  },
+  {
+    "id": "087cef14b39a",
+    "title": "디지털트윈·로봇 용접 앞세워…군함 건조시장 노려",
+    "link": "https://www.sedaily.com/article/20105500?ref=naver",
+    "published_at": "2026-10-23T17:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-g.v1.20261023.7d4b4e2141cd48d7bd25c5fb096eab7c_Z1.jpg"
   },
   {
     "id": "97f7fb433d95",
@@ -999,19 +1012,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66335_89996_5421_v150.jpg"
-  },
-  {
-    "id": "3cc59fe4dc7a",
-    "title": "\"성장 둔화·경쟁력 약화 직면한 KAI\"…수은 최대주주 체제 한계 '부각'",
-    "link": "https://www.newsis.com/view/NISX20261023_0003838553",
-    "published_at": "2026-10-23T14:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/02/05/NISI20260205_0002057114_web.jpg"
   },
   {
     "id": "e9b7527dff56",
