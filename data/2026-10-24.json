@@ -1,5 +1,31 @@
 [
   {
+    "id": "fa9e94cd57ff",
+    "title": "[위클립] 10월 4주",
+    "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41702",
+    "published_at": "2026-10-24T15:25:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.laborplus.co.kr/news/photo/202610/41702_74674_356.jpg"
+  },
+  {
+    "id": "7b711d3ae819",
+    "title": "AMD 주가 1.7% 반등…인공지능 반도체 성장 기대 속 투자심리 회복할까",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=845201",
+    "published_at": "2026-10-24T14:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/845201_432792_4250_v150.jpg"
+  },
+  {
     "id": "9e75ea34a52b",
     "title": "사서 고칠까, 새로 지을까…조선 '빅2' 마스가 전략",
     "link": "https://biz.sbs.co.kr/article_hub/20000341926?division=NAVER",
@@ -218,7 +244,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "/photos/2026/10/23/2026102316203346160_l.png"
   },
   {
     "id": "d3db6eb5b06b",
@@ -296,7 +322,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
+    "image": "https://cdn.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
   },
   {
     "id": "fcac492d4e50",
@@ -335,7 +361,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "http://www.catholicpress.kr/data/cheditor4/2610/3695266591_pTBWntoc_5555.jpg"
+    "image": ""
   },
   {
     "id": "2db3404d8dc6",
@@ -754,19 +780,6 @@
     "image": "https://cdn.mhnse.com/mhnsports/2026/10/23160041/thumb_ccms_77930.jpg"
   },
   {
-    "id": "e06fbe72f7a9",
-    "title": "잠실 마이스에 1,092억 투자... IPARK현대산업개발의 새 성장동력 될까",
-    "link": "https://www.insight.co.kr/news/578983",
-    "published_at": "2026-10-23T15:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.insight.co.kr/static/2026/10/23/1200/img_20261023155510_99by80q1.jpg"
-  },
-  {
     "id": "1903a65398b9",
     "title": "[거래소 기관] SK하이닉스·삼성전자 집중 매수… 삼성SDI·LG이노텍은 \"...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498043",
@@ -778,6 +791,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498043_483426_5527_v150.jpg"
+  },
+  {
+    "id": "e06fbe72f7a9",
+    "title": "잠실 마이스에 1,092억 투자... IPARK현대산업개발의 새 성장동력 될까",
+    "link": "https://www.insight.co.kr/news/578983",
+    "published_at": "2026-10-23T15:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.insight.co.kr/static/2026/10/23/1200/img_20261023155510_99by80q1.jpg"
   },
   {
     "id": "86c95ff94066",
@@ -868,7 +894,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
+    "image": "https://cdn.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
   },
   {
     "id": "408d5d4cde9d",
@@ -946,7 +972,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202610/23/64b22610-a290-4ee1-a904-632d2fc197a4.jpg"
   },
   {
     "id": "c2dd169ba74b",
@@ -986,19 +1012,6 @@
       "한화시스템"
     ],
     "image": "https://img1.newsis.com/2026/02/05/NISI20260205_0002057114_web.jpg"
-  },
-  {
-    "id": "cb47acf36f2e",
-    "title": "KAI·HMM, 실적경쟁서 맨날 '꼴찌' 신세…국책은행이 주인인 탓",
-    "link": "http://www.nongaek.com/news/articleView.html?idxno=97226",
-    "published_at": "2026-10-23T14:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.nongaek.com/news/thumbnail/202610/97226_48055_726_v150.jpg"
   },
   {
     "id": "e9b7527dff56",
