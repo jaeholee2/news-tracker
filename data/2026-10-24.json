@@ -1,5 +1,18 @@
 [
   {
+    "id": "148fcf1b4c3e",
+    "title": "롯데 감독, KIA·삼성·KT서 빼오나 → 이것도 아니면 도대체 왜? 야구계...",
+    "link": "https://www.sportschosun.com/baseball/2026-10-24/202610240100153240009999",
+    "published_at": "2026-10-25T00:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.sportschosun.com/article/html/2026/10/24/2026102401001532400099993_w.jpg"
+  },
+  {
     "id": "32f74f6fb81f",
     "title": "국방정보통신협회, AI 기반 국방 사이버보안 대응 전략 논의",
     "link": "https://www.etnews.com/20261024000039",
@@ -273,19 +286,6 @@
     "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-p.v1.20261023.3e590a3ebb194de0884fde058a518d00_Z1.jpg"
   },
   {
-    "id": "d4f4e9940844",
-    "title": "[Lawyter] 러시아 \"해외 서버에 개인정보 저장 안 된다\"",
-    "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228071",
-    "published_at": "2026-10-24T05:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228071_130059_1825.jpg"
-  },
-  {
     "id": "bcce0ab9222b",
     "title": "법조인 이사회 의장 2년 새 2 → 9곳",
     "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228213",
@@ -297,6 +297,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228213_130061_3844.jpg"
+  },
+  {
+    "id": "d4f4e9940844",
+    "title": "[Lawyter] 러시아 \"해외 서버에 개인정보 저장 안 된다\"",
+    "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228071",
+    "published_at": "2026-10-24T05:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.lawtimes.co.kr/news/photo/202610/228071_130059_1825.jpg"
   },
   {
     "id": "310e73028e46",
@@ -335,7 +348,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
+    "image": "https://cdn.greened.kr/news/thumbnail/202610/352916_404861_2221_v150.jpg"
   },
   {
     "id": "fcac492d4e50",
@@ -738,20 +751,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
-  },
-  {
-    "id": "c4edb6439717",
-    "title": "클래시스, 슈퍼벨로체 4800 유럽 인증…글로벌 공략 강화",
-    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1728992",
-    "published_at": "2026-10-23T16:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1728992_763934_614_v150.jpg"
+    "image": "https://ftp.gameshot.net/article_title/2026_10/GA6adb028129fad.jpg"
   },
   {
     "id": "729195e745fe",
@@ -765,6 +765,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.jemin.com/news/thumbnail/202610/845155_432749_4244_v150.jpg"
+  },
+  {
+    "id": "c4edb6439717",
+    "title": "클래시스, 슈퍼벨로체 4800 유럽 인증…글로벌 공략 강화",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1728992",
+    "published_at": "2026-10-23T16:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1728992_763934_614_v150.jpg"
   },
   {
     "id": "5c2ffe95a3c6",
@@ -793,19 +806,6 @@
     "image": "https://cdn.mhnse.com/mhnsports/2026/10/23160041/thumb_ccms_77930.jpg"
   },
   {
-    "id": "1903a65398b9",
-    "title": "[거래소 기관] SK하이닉스·삼성전자 집중 매수… 삼성SDI·LG이노텍은 \"...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498043",
-    "published_at": "2026-10-23T15:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498043_483426_5527_v150.jpg"
-  },
-  {
     "id": "e06fbe72f7a9",
     "title": "잠실 마이스에 1,092억 투자... IPARK현대산업개발의 새 성장동력 될까",
     "link": "https://www.insight.co.kr/news/578983",
@@ -817,6 +817,19 @@
       "한화시스템"
     ],
     "image": "https://img.insight.co.kr/static/2026/10/23/1200/img_20261023155510_99by80q1.jpg"
+  },
+  {
+    "id": "1903a65398b9",
+    "title": "[거래소 기관] SK하이닉스·삼성전자 집중 매수… 삼성SDI·LG이노텍은 \"...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498043",
+    "published_at": "2026-10-23T15:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498043_483426_5527_v150.jpg"
   },
   {
     "id": "86c95ff94066",
@@ -907,7 +920,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
+    "image": "https://www.techm.kr/news/thumbnail/202610/156450_223630_3436_v150.jpg"
   },
   {
     "id": "408d5d4cde9d",
@@ -986,19 +999,6 @@
       "한화시스템"
     ],
     "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202610/23/64b22610-a290-4ee1-a904-632d2fc197a4.jpg"
-  },
-  {
-    "id": "c2dd169ba74b",
-    "title": "HD현대, 美 키윗과 ‘새 조선소’ 짓는다...2029년 가동",
-    "link": "https://www.socialvalue.kr/news/view/1065590265801490",
-    "published_at": "2026-10-23T14:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.socialvalue.kr/news/data/20261023/p1065590265801490_329_thum.jpg"
   },
   {
     "id": "8f8057d0dbe7",
