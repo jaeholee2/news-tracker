@@ -1,5 +1,96 @@
 [
   {
+    "id": "1b311914d63c",
+    "title": "車 사고 나도 향후치료비 못 받는다고?…자동차보험 보상제도 개편에 경...",
+    "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=766655",
+    "published_at": "2026-10-26T06:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.consumernews.co.kr/news/thumbnail/202610/766655_319970_1725_v150.jpg"
+  },
+  {
+    "id": "55fdf47214b1",
+    "title": "서민들 이제 어쩌나… ‘노도강’도 아파트 300만원 월세 속출",
+    "link": "https://www.kmib.co.kr/article/20261026500025",
+    "published_at": "2026-10-26T06:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/26/.cache/512/20261026500024.jpg"
+  },
+  {
+    "id": "b05ad0047be6",
+    "title": "기술유출 막고 AI는 안전하게…기업 보안 ‘새 기준’ 찾는다",
+    "link": "https://economist.co.kr/article/view/ecn202610220008",
+    "published_at": "2026-10-26T06:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://economist.co.kr/data/ecn/image/2026/10/22/ecn20261022000063.800x.0.jpg"
+  },
+  {
+    "id": "4c3f1cd46ff7",
+    "title": "[미리보는 증시재료] 실마리 못 찾는 코스피…삼전닉스·美 빅테크 실적...",
+    "link": "https://www.newspim.com/news/view/20261023000935",
+    "published_at": "2026-10-26T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/10/23/2610231531011710_t1.jpg"
+  },
+  {
+    "id": "ff996d82dc06",
+    "title": "자동차 전용 운반선, 초대형화, 고사양, 다용도화 지향",
+    "link": "https://www.abcn.kr/news/articleView.html?idxno=93569",
+    "published_at": "2026-10-26T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.abcn.kr/news/thumbnail/202610/93569_52723_3028_v150.jpg"
+  },
+  {
+    "id": "cf41e40e05f8",
+    "title": "전세의 월세화 가속…'노도강'도 300만원 월세 수두룩[부동산 머니무브...",
+    "link": "https://www.newsis.com/view/NISX20261023_0003838739",
+    "published_at": "2026-10-26T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.newsis.com/2026/09/27/NISI20260927_0021459690_web.jpg"
+  },
+  {
+    "id": "97d2069ff953",
+    "title": "날개 속에 레이더 숨긴 중국 무인기, 서해 하늘 감시 구도 흔든다",
+    "link": "https://www.g-enews.com/view.php?ud=202610251830553333fbbec65dfb_1",
+    "published_at": "2026-10-26T03:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026102518321007944fbbec65dfb211211153121.jpg"
+  },
+  {
     "id": "29c36762dca5",
     "title": "[아주경제 오늘의 뉴스 종합] 반도체만 '맑음'…내수 부진·비용 상승에...",
     "link": "https://www.ajunews.com/view/20261025213615566",
@@ -91,19 +182,6 @@
     "image": "https://img.hankyung.com/photo/202610/01.46186040.1.png"
   },
   {
-    "id": "6631f663a32b",
-    "title": "[저PBR 망신주기 D-7]소재 0.26배·금융 0.42배…저PBR 기업은 어디?",
-    "link": "https://www.ajunews.com/view/20261025101216655",
-    "published_at": "2026-10-25T17:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.ajunews.com/content/image/2026/10/23/20261023121522569756.jpeg"
-  },
-  {
     "id": "8bc9593b637d",
     "title": "[저PBR 망신주기 D-7]대기업 투자 지표…현대제철·이마트 '낙인' 피할까",
     "link": "https://www.ajunews.com/view/20261025101113653",
@@ -115,6 +193,19 @@
       "한화시스템"
     ],
     "image": "https://image.ajunews.com/content/image/2026/10/23/20261023121101647210.jpeg"
+  },
+  {
+    "id": "6631f663a32b",
+    "title": "[저PBR 망신주기 D-7]소재 0.26배·금융 0.42배…저PBR 기업은 어디?",
+    "link": "https://www.ajunews.com/view/20261025101216655",
+    "published_at": "2026-10-25T17:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ajunews.com/content/image/2026/10/23/20261023121522569756.jpeg"
   },
   {
     "id": "e396c93e6fca",
@@ -309,7 +400,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.pressian.com/_resources/10/2026/10/25/2026102511300594966_l.JPG"
+    "image": ""
   },
   {
     "id": "aa3c31864786",
@@ -416,19 +507,6 @@
     "image": "https://cdn.newsgn.com/news/thumbnail/202610/581085_389362_359_v150.jpg"
   },
   {
-    "id": "5749da2fb2b5",
-    "title": "삼성·SK, AI 반도체 승부수…주요 그룹 내년 전략 수립 본격화",
-    "link": "https://www.news2day.co.kr/article/20261025500016",
-    "published_at": "2026-10-25T11:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/25/.cache/512/20261025500017.jpg"
-  },
-  {
     "id": "b9fd42d0812d",
     "title": "보잉·에어버스에 15개 국 무관단까지…구미서 '방산 세일즈'",
     "link": "https://www.idaegu.com/news/articleView.html?idxno=666463",
@@ -440,6 +518,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.idaegu.com/news/photo/202610/666463_375340_505.jpg"
+  },
+  {
+    "id": "5749da2fb2b5",
+    "title": "삼성·SK, AI 반도체 승부수…주요 그룹 내년 전략 수립 본격화",
+    "link": "https://www.news2day.co.kr/article/20261025500016",
+    "published_at": "2026-10-25T11:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   },
   {
     "id": "6aac755cb4f8",
@@ -520,19 +611,6 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102500504.jpg"
   },
   {
-    "id": "b8018f53c5f6",
-    "title": "구미, 방산·항공산업 거점 도약…글로벌 기업과 공급망 연결",
-    "link": "https://www.kbmaeil.com/article/20261025500120",
-    "published_at": "2026-10-25T10:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025500114.jpg"
-  },
-  {
     "id": "4e7c6d426239",
     "title": "'2026 항공방위물류 박람회' 개최...28~30일 구미코서 역대 최대 규모",
     "link": "https://www.kbsm.net/news/view.php?idx=538922",
@@ -546,17 +624,17 @@
     "image": "https://www.kbsm.net/data/newsThumb/1792892306ADD_thumb780.JPG"
   },
   {
-    "id": "e26109346e34",
-    "title": "구미코서 역대 최대 규모 항공방위물류 박람회 개최....보잉·에어버스...",
-    "link": "https://www.mhns.co.kr/news/articleView.html?idxno=765768",
-    "published_at": "2026-10-25T10:38:00+09:00",
+    "id": "b8018f53c5f6",
+    "title": "구미, 방산·항공산업 거점 도약…글로벌 기업과 공급망 연결",
+    "link": "https://www.kbmaeil.com/article/20261025500120",
+    "published_at": "2026-10-25T10:42:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.mhns.co.kr/news/thumbnail/202610/765768_900784_3559_v150.jpg"
+    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025500114.jpg"
   },
   {
     "id": "c464199e2cfa",
@@ -570,6 +648,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/875930_901117_1641_v150.jpg"
+  },
+  {
+    "id": "e26109346e34",
+    "title": "구미코서 역대 최대 규모 항공방위물류 박람회 개최....보잉·에어버스...",
+    "link": "https://www.mhns.co.kr/news/articleView.html?idxno=765768",
+    "published_at": "2026-10-25T10:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.mhns.co.kr/news/thumbnail/202610/765768_900784_3559_v150.jpg"
   },
   {
     "id": "b3df90f1094d",
@@ -754,19 +845,6 @@
     "image": ""
   },
   {
-    "id": "010424f7ebd6",
-    "title": "이수만 귀환, '리틀 보아' 탄생..A2O LITE의 화려한 데뷔에 드리운 그림...",
-    "link": "https://www.starnewskorea.com/music/2026/10/25/2026102315165092030",
-    "published_at": "2026-10-25T06:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/21/2026/10/2026102315165092030_1.jpg"
-  },
-  {
     "id": "a91c1f4aa050",
     "title": "[르포] 록히드 마틴·노스롭 그루먼부터 KAEMS까지…사천서 만난 ‘다음...",
     "link": "https://www.ekn.kr/web/view.php?key=20261023020320473",
@@ -778,6 +856,19 @@
       "한화시스템"
     ],
     "image": "https://www.ekn.kr/mnt/file/202610/news-p.v1.20261023.1e53361edd82408eb2698db3d96fd8ef_R.png"
+  },
+  {
+    "id": "010424f7ebd6",
+    "title": "이수만 귀환, '리틀 보아' 탄생..A2O LITE의 화려한 데뷔에 드리운 그림...",
+    "link": "https://www.starnewskorea.com/music/2026/10/25/2026102315165092030",
+    "published_at": "2026-10-25T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.starnewskorea.com/21/2026/10/2026102315165092030_1.jpg"
   },
   {
     "id": "de26a2dabe1e",
@@ -960,84 +1051,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.thepublic.kr/news/photo/202610/323476_327167_4554.jpg"
-  },
-  {
-    "id": "0297137f124f",
-    "title": "이탈리아, 군 현대화 위한 유럽 방산거물과 5조 원 규모 장갑차 계약 임...",
-    "link": "https://www.g-enews.com/view.php?ud=202610231015145213fda4f5ab74_1",
-    "published_at": "2026-10-24T08:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026102310333304378fda4f5ab741182354205.jpg"
-  },
-  {
-    "id": "de79421ec681",
-    "title": "[주간 거래소 외국인] 삼성전자 순매수 1위, SK하이닉스 순매도 1위",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498082",
-    "published_at": "2026-10-24T07:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/498082_483460_2329_v150.jpg"
-  },
-  {
-    "id": "2d70768b8938",
-    "title": "같은 도시인데 집값 4배 차이…수도권 아파트 ‘중심화’ 심화",
-    "link": "https://www.dailian.co.kr/news/view/1704881/?sc=Naver",
-    "published_at": "2026-10-24T07:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdnimage.dailian.co.kr/news/202610/news_1792653749712_1704881_m_1.png"
-  },
-  {
-    "id": "7b8d5c1f5c56",
-    "title": "“美 선거·피크아웃 등 과도한 패닉”…증권가, “K-방산 근거 없는 투...",
-    "link": "https://www.etoday.co.kr/news/view/2639454",
-    "published_at": "2026-10-24T07:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261023145155_2406086_1082_478.jpg"
-  },
-  {
-    "id": "df3c3f2aa296",
-    "title": "AXA가 키운 손보사 기타사업비, 메리츠 늘고 현대해상 감소…엇갈린 비...",
-    "link": "https://www.ceoscoredaily.com/page/view/2026101910051369554",
-    "published_at": "2026-10-24T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/photos/2026/10/19/2026101910050588197_l.png"
-  },
-  {
-    "id": "6609d8a690cc",
-    "title": "하루 오르면 하루 빠지고…롤러코스피 속 살아남은 종목은?[김근희의 증...",
-    "link": "https://www.mt.co.kr/stock/2026/10/24/2026102316112535259",
-    "published_at": "2026-10-24T06:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102316112535259_1.jpg"
   },
   {
     "id": "e9b7527dff56",
