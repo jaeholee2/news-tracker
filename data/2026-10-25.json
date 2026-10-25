@@ -416,19 +416,6 @@
     "image": "https://cdn.newsgn.com/news/thumbnail/202610/581085_389362_359_v150.jpg"
   },
   {
-    "id": "b9fd42d0812d",
-    "title": "보잉·에어버스에 15개 국 무관단까지…구미서 '방산 세일즈'",
-    "link": "https://www.idaegu.com/news/articleView.html?idxno=666463",
-    "published_at": "2026-10-25T11:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.idaegu.com/news/photo/202610/666463_375340_505.jpg"
-  },
-  {
     "id": "5749da2fb2b5",
     "title": "삼성·SK, AI 반도체 승부수…주요 그룹 내년 전략 수립 본격화",
     "link": "https://www.news2day.co.kr/article/20261025500016",
@@ -440,6 +427,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/25/.cache/512/20261025500017.jpg"
+  },
+  {
+    "id": "b9fd42d0812d",
+    "title": "보잉·에어버스에 15개 국 무관단까지…구미서 '방산 세일즈'",
+    "link": "https://www.idaegu.com/news/articleView.html?idxno=666463",
+    "published_at": "2026-10-25T11:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.idaegu.com/news/photo/202610/666463_375340_505.jpg"
   },
   {
     "id": "6aac755cb4f8",
@@ -520,19 +520,6 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102500504.jpg"
   },
   {
-    "id": "4e7c6d426239",
-    "title": "'2026 항공방위물류 박람회' 개최...28~30일 구미코서 역대 최대 규모",
-    "link": "https://www.kbsm.net/news/view.php?idx=538922",
-    "published_at": "2026-10-25T10:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.kbsm.net/data/newsThumb/1792892306ADD_thumb780.JPG"
-  },
-  {
     "id": "b8018f53c5f6",
     "title": "구미, 방산·항공산업 거점 도약…글로벌 기업과 공급망 연결",
     "link": "https://www.kbmaeil.com/article/20261025500120",
@@ -546,17 +533,17 @@
     "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025500114.jpg"
   },
   {
-    "id": "c464199e2cfa",
-    "title": "[국감 이 사람] 김형연 조국혁신당 의원",
-    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875930",
-    "published_at": "2026-10-25T10:38:00+09:00",
+    "id": "4e7c6d426239",
+    "title": "'2026 항공방위물류 박람회' 개최...28~30일 구미코서 역대 최대 규모",
+    "link": "https://www.kbsm.net/news/view.php?idx=538922",
+    "published_at": "2026-10-25T10:42:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/875930_901117_1641_v150.jpg"
+    "image": "https://www.kbsm.net/data/newsThumb/1792892306ADD_thumb780.JPG"
   },
   {
     "id": "e26109346e34",
@@ -570,6 +557,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.mhns.co.kr/news/thumbnail/202610/765768_900784_3559_v150.jpg"
+  },
+  {
+    "id": "c464199e2cfa",
+    "title": "[국감 이 사람] 김형연 조국혁신당 의원",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875930",
+    "published_at": "2026-10-25T10:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/875930_901117_1641_v150.jpg"
   },
   {
     "id": "b3df90f1094d",
@@ -611,19 +611,6 @@
     "image": "https://img3.yna.co.kr/photo/yna/YH/2025/09/24/PYH2025092408590005300_P4.jpg"
   },
   {
-    "id": "6c43963c0610",
-    "title": "K뷰티 시총 1위 에이피알…비결은 '애자일 DNA'",
-    "link": "https://www.mediapen.com/news/view/1132189",
-    "published_at": "2026-10-25T09:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.mediapen.com/news/202610/news_1132189_1792757553_m.png"
-  },
-  {
     "id": "78568dedf1cb",
     "title": "세계적 방산기업 총출동…구미서, ‘항공방위물류박람회’ 개최",
     "link": "https://www.munhwa.com/article/11625977?ref=naver",
@@ -635,6 +622,19 @@
       "한화시스템"
     ],
     "image": "https://wimg.munhwa.com/news/cms/2026/10/25/news-p.v1.20261025.20fd028559e54ae1bee68fe43c6f147f_R.jpg"
+  },
+  {
+    "id": "6c43963c0610",
+    "title": "K뷰티 시총 1위 에이피알…비결은 '애자일 DNA'",
+    "link": "https://www.mediapen.com/news/view/1132189",
+    "published_at": "2026-10-25T09:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.mediapen.com/news/202610/news_1132189_1792757553_m.png"
   },
   {
     "id": "e41d9c9bde50",
