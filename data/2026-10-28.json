@@ -1,5 +1,122 @@
 [
   {
+    "id": "26beacd90dda",
+    "title": "노조보다 근로자위원회에 타임오프 ‘1900시간’ 더 줘…법원 “부당노...",
+    "link": "http://www.worklaw.co.kr/view/view.asp?accessSite=Naver&accessMethod=Search&accessMenu=News&in_cate=122&in_cate2=0&gopage=1&bi_pidx=39640",
+    "published_at": "2026-10-29T07:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "a401acf0122c",
+    "title": "[Invest]방사청 제재 대응 LIG D&A, 확장 전략은 후순위로 밀린다",
+    "link": "https://www.investchosun.com/site/data/html_dir/2026/10/28/2026102880143.html",
+    "published_at": "2026-10-29T07:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.investchosun.com/site/data/img_dir/2026/10/28/2026102880141_0.png"
+  },
+  {
+    "id": "1f30c672d4a9",
+    "title": "[알림] 오늘 코엑스에 '삼전닉스'와 현대차·LG전자·포스코 모인다",
+    "link": "https://www.mt.co.kr/industry/2026/10/29/2026102903464464873",
+    "published_at": "2026-10-29T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102903464464873_1.jpg"
+  },
+  {
+    "id": "18e98028d76c",
+    "title": "KBO 15승 투수 KT 고영표, U-23 대표팀 상대로 5이닝 무실점 쾌투",
+    "link": "https://www.ftimes.kr/news/articleView.html?idxno=40720",
+    "published_at": "2026-10-29T06:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.ftimes.kr/news/thumbnail/202610/40720_49788_4355_v150.jpg"
+  },
+  {
+    "id": "d8ac89346aa3",
+    "title": "\"교섭 단계마다 '브레이크' 거는 원청, 구조 바꿔야\"",
+    "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=237457",
+    "published_at": "2026-10-29T06:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.labortoday.co.kr/news/thumbnail/202610/237457_115686_0229_v150.jpg"
+  },
+  {
+    "id": "21a26ea3777b",
+    "title": "뇌동맥류 수술·시술 경계 허문 '하이브리드'",
+    "link": "https://www.dailymedi.com/news/news_view.php?wr_id=941894",
+    "published_at": "2026-10-29T06:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.dailymedi.com/img/d_logo.jpg"
+  },
+  {
+    "id": "638939ecd112",
+    "title": "'이동욱 감독 체제' 롯데, 허문회 수석코치 영입...박승민 퓨쳐스 감독...",
+    "link": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=376949",
+    "published_at": "2026-10-29T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.thesportstimes.co.kr/news/photo/202610/376949_41977_2246.jpeg"
+  },
+  {
+    "id": "fee646deee30",
+    "title": "경북, 항공·방산 수출 거점 도약…GADLEX 개최",
+    "link": "https://www.ajunews.com/view/20261029034646949",
+    "published_at": "2026-10-29T05:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ajunews.com/content/image/2026/10/29/20261029034848175652.jpg"
+  },
+  {
+    "id": "f8ce37ba6889",
+    "title": "\"반도체만 110조 전망\" 삼성전자, 오늘 성적표 공개…'통 큰 선물' 있을...",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01633446645617840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-10-29T04:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102900142.jpg"
+  },
+  {
     "id": "182777604c31",
     "title": "롯데, 허문회 수석코치·박승민 퓨처스 감독 선임",
     "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1070867",
@@ -65,19 +182,6 @@
     "image": "https://image.ajunews.com/content/image/2026/10/25/20261025213725789965.png"
   },
   {
-    "id": "a3f10dc73ee2",
-    "title": "구미 항공·방위·물류 박람회 개막...미래 항공·방산 기술 한자리에",
-    "link": "https://www.tbc.co.kr/news/view?pno=20261028155009AE07585&id=212693",
-    "published_at": "2026-10-28T21:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.tbc.co.kr/uploads/news/2026/10/c239f584affe0b4119ede152a29116b2.png"
-  },
-  {
     "id": "41b956f94772",
     "title": "구미에 '항공·방위·물류' 첨단기술 집결",
     "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=563740",
@@ -89,6 +193,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.idaegu.co.kr/news/photo/202610/2026102901000842000048041.jpg"
+  },
+  {
+    "id": "a3f10dc73ee2",
+    "title": "구미 항공·방위·물류 박람회 개막...미래 항공·방산 기술 한자리에",
+    "link": "https://www.tbc.co.kr/news/view?pno=20261028155009AE07585&id=212693",
+    "published_at": "2026-10-28T21:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.tbc.co.kr/uploads/news/2026/10/c239f584affe0b4119ede152a29116b2.png"
   },
   {
     "id": "67e305e20570",
@@ -299,19 +416,6 @@
     "image": "https://cdn.sisaweek.com/news/thumbnail/202610/238661_257849_2039_v150.jpg"
   },
   {
-    "id": "a10f288b1e1d",
-    "title": "위성 관측부터 궤도 기동·정비까지…우주산업 이끌 'LEO 넥스트' 3곳",
-    "link": "https://www.mt.co.kr/future/2026/10/28/2026102817102831068",
-    "published_at": "2026-10-28T17:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102817102831068_1.jpg"
-  },
-  {
     "id": "b2b8076f5b1e",
     "title": "'2026 국제광융합엑스포'…통신 등 첨단기술·제품 전시",
     "link": "http://www.inews24.com/view/2019965",
@@ -323,6 +427,19 @@
       "한화시스템"
     ],
     "image": "https://image.inews24.com/v1/eff695c2bb0d34.jpg"
+  },
+  {
+    "id": "a10f288b1e1d",
+    "title": "위성 관측부터 궤도 기동·정비까지…우주산업 이끌 'LEO 넥스트' 3곳",
+    "link": "https://www.mt.co.kr/future/2026/10/28/2026102817102831068",
+    "published_at": "2026-10-28T17:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102817102831068_1.jpg"
   },
   {
     "id": "1e480f2a14a3",
@@ -413,7 +530,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://d2k8i5ah8p7h3l.cloudfront.net/photos/ceeb5ef7152bb19eaee3191747fd7fdb/thumb.jpg"
+    "image": ""
   },
   {
     "id": "69d711e0cea8",
@@ -481,19 +598,6 @@
     "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202610/257461_270008_1318_v150.jpg"
   },
   {
-    "id": "e6d459119a89",
-    "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 급등… 개별주식선물 반...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499413",
-    "published_at": "2026-10-28T16:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499413_484705_4310_v150.jpg"
-  },
-  {
     "id": "5f889f07094a",
     "title": "[오피셜]그냥 잘린게 아니라 갈등 겪은 감독 불러들였다…롯데 '허문회...",
     "link": "https://mhnse.com/news/articleView.html?idxno=1635589",
@@ -507,9 +611,22 @@
     "image": "https://cdn.mhnse.com/mhnsports/2026/10/28164540/thumb_ccms_80192.jpg"
   },
   {
-    "id": "6c36a7268750",
+    "id": "e6d459119a89",
+    "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 급등… 개별주식선물 반...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499413",
+    "published_at": "2026-10-28T16:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499413_484705_4310_v150.jpg"
+  },
+  {
+    "id": "6246de8b165e",
     "title": "\"에너지 안보가 軍안보\"..육군 '에너지 정책 포럼' 개최",
-    "link": "https://www.mt.co.kr/industry/2026/10/28/2026102814072034799",
+    "link": "https://www.mt.co.kr/industry/2026/10/29/2026102814072034799",
     "published_at": "2026-10-28T16:39:00+09:00",
     "sources": [
       "Naver"
@@ -533,9 +650,9 @@
     "image": "https://img1.newsis.com/2020/05/05/NISI20200505_0000522177_web.jpg"
   },
   {
-    "id": "d6916b09a45f",
+    "id": "4c3c39907c99",
     "title": "AI시대 생존전략 '에너지 대전환과 안보' 제시…\"민관 원팀 협력을\"",
-    "link": "https://www.mt.co.kr/industry/2026/10/28/2026102815153732696",
+    "link": "https://www.mt.co.kr/industry/2026/10/29/2026102815153732696",
     "published_at": "2026-10-28T16:29:00+09:00",
     "sources": [
       "Naver"
@@ -637,19 +754,6 @@
     "image": "https://cdn.eroun.net/news/thumbnail/202610/93671_151184_3457_v150.jpg"
   },
   {
-    "id": "c7de509a484e",
-    "title": "전현직 감독 3명이 1군에! 이동욱호 롯데, 2027 1군 코치진 완성...퓨처스...",
-    "link": "http://www.spochoo.com/news/articleView.html?idxno=131541",
-    "published_at": "2026-10-28T15:59:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.spochoo.com/news/thumbnail/202610/131541_263143_5714_v150.jpg"
-  },
-  {
     "id": "6e6f4c6af69d",
     "title": "[공식발표] '롯데 前 사령탑' 허문회, 5년 만에 수석코치로 돌아온다! 이...",
     "link": "https://www.starnewskorea.com/sports/2026/10/28/2026102815223834988",
@@ -661,6 +765,19 @@
       "한화시스템"
     ],
     "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1764,fit=cover,q=high,sharpen=2/21/2026/10/2026102815223834988_1.jpg"
+  },
+  {
+    "id": "c7de509a484e",
+    "title": "전현직 감독 3명이 1군에! 이동욱호 롯데, 2027 1군 코치진 완성...퓨처스...",
+    "link": "http://www.spochoo.com/news/articleView.html?idxno=131541",
+    "published_at": "2026-10-28T15:59:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.spochoo.com/news/thumbnail/202610/131541_263143_5714_v150.jpg"
   },
   {
     "id": "ab25b5cbbf6c",
@@ -715,19 +832,6 @@
     "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028144300007_03_i_P4.jpg"
   },
   {
-    "id": "fced86299e23",
-    "title": "[공식] 허문회 전 감독, 수석코치로 ‘롯데 컴백’…박승민 감독은 ‘2...",
-    "link": "https://www.sportsseoul.com/news/read/1644884?ref=naver",
-    "published_at": "2026-10-28T15:39:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://file.sportsseoul.com/news/cms/2026/10/28/news-p.v1.20261028.bf0d02d549fb413fb6683b45c59c8bd5_T1.jpg"
-  },
-  {
     "id": "54da24ccf5f5",
     "title": "투수 육성 전문가 박승민, 롯데 퓨처스팀 감독 선임...허문회·조원우는...",
     "link": "https://isplus.com/article/view/isp202610280180",
@@ -739,6 +843,19 @@
       "한화시스템"
     ],
     "image": "https://isplus.com/data/isp/image/2026/10/28/isp20261028000356.800x.0.jpg"
+  },
+  {
+    "id": "fced86299e23",
+    "title": "[공식] 허문회 전 감독, 수석코치로 ‘롯데 컴백’…박승민 감독은 ‘2...",
+    "link": "https://www.sportsseoul.com/news/read/1644884?ref=naver",
+    "published_at": "2026-10-28T15:39:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://file.sportsseoul.com/news/cms/2026/10/28/news-p.v1.20261028.bf0d02d549fb413fb6683b45c59c8bd5_T1.jpg"
   },
   {
     "id": "27ab873bd7cd",
@@ -791,70 +908,5 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499347_484641_2545_v150.jpg"
-  },
-  {
-    "id": "8786ce39c363",
-    "title": "유엔디로보틱스, '맥봇플랫폼' 기반 모듈러 휴머노이드로 산업 현장 본...",
-    "link": "https://www.irobotnews.com/news/articleView.html?idxno=49267",
-    "published_at": "2026-10-28T15:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.irobotnews.com/news/photo/202610/49267_105039_148.jpg"
-  },
-  {
-    "id": "cd11db30a627",
-    "title": "'신두르 작전' 실전 입증한 K9, 인도서 300문 이상 추가 잭팟…세계 최대...",
-    "link": "https://www.thepublic.kr/news/articleView.html?idxno=324094",
-    "published_at": "2026-10-28T15:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.thepublic.kr/news/photo/202610/324094_327855_4411.jpg"
-  },
-  {
-    "id": "738fec5d4892",
-    "title": "첨단 기술 한자리에…구미서 2026 항공방위물류 박람회",
-    "link": "http://www.yonhapnewstv.co.kr/news/AKR20261028151511BzE",
-    "published_at": "2026-10-28T15:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261028/AKR20261028151511BzE_01_i.jpg"
-  },
-  {
-    "id": "5bbea5081c4d",
-    "title": "미야자키 마캠+요코하마 구단 마캠+넥스트베이스 애슬레틱스랩+서산··...",
-    "link": "https://sports.khan.co.kr/article/202610281512003?pt=nv",
-    "published_at": "2026-10-28T15:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://images.khan.co.kr/article/2026/10/28/news-p.v1.20261028.422d8166b148499885a32ba1851e80b5_P1.jpg"
-  },
-  {
-    "id": "1b195a30c2f4",
-    "title": "대구보훈청, 고령 보훈가족 32명과 가을 나들이",
-    "link": "https://view.asiae.co.kr/article/2026102814542733830",
-    "published_at": "2026-10-28T15:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102814520377800_1793166723.jpg"
   }
 ]
