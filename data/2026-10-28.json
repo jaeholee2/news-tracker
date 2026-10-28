@@ -1,5 +1,135 @@
 [
   {
+    "id": "182777604c31",
+    "title": "롯데, 허문회 수석코치·박승민 퓨처스 감독 선임",
+    "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1070867",
+    "published_at": "2026-10-29T00:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ksilbo.co.kr/news/thumbnail/202610/1070867_648932_1740_v150.jpg"
+  },
+  {
+    "id": "d151d8c086d2",
+    "title": "[기업분석]LIG D&A 친족회사 채무 공시 82억 차이… 뇌물 사건에 입찰제...",
+    "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3080325",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3080325_122737_3712_v150.jpg"
+  },
+  {
+    "id": "b0fd78e5ee3d",
+    "title": "[증권가H] 맥쿼리, 가비아·KINX 인수 추진...얼라인도 합의 등",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=877403",
+    "published_at": "2026-10-28T23:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/877403_902680_5420_v150.jpg"
+  },
+  {
+    "id": "d1bc567bf6da",
+    "title": "K-방산 거점 구미서 '2026 항공방위물류박람회' 역대 최대 규모 개막",
+    "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115386",
+    "published_at": "2026-10-28T22:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4115386_778370_5015_v150.jpg"
+  },
+  {
+    "id": "13a5e6d7b53e",
+    "title": "[아주경제 오늘의 뉴스 종합] '반도체 잭팟'에… 코스피, 10거래일만에 ...",
+    "link": "https://www.ajunews.com/view/20261028213908793",
+    "published_at": "2026-10-28T21:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ajunews.com/content/image/2026/10/25/20261025213725789965.png"
+  },
+  {
+    "id": "a3f10dc73ee2",
+    "title": "구미 항공·방위·물류 박람회 개막...미래 항공·방산 기술 한자리에",
+    "link": "https://www.tbc.co.kr/news/view?pno=20261028155009AE07585&id=212693",
+    "published_at": "2026-10-28T21:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.tbc.co.kr/uploads/news/2026/10/c239f584affe0b4119ede152a29116b2.png"
+  },
+  {
+    "id": "41b956f94772",
+    "title": "구미에 '항공·방위·물류' 첨단기술 집결",
+    "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=563740",
+    "published_at": "2026-10-28T21:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.idaegu.co.kr/news/photo/202610/2026102901000842000048041.jpg"
+  },
+  {
+    "id": "67e305e20570",
+    "title": "K-방산 첨단 장비 모았다...미래 전장 '한눈에'",
+    "link": "https://www.ytn.co.kr/_ln/0115_202610282112326181",
+    "published_at": "2026-10-28T21:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ytn.co.kr/general/jpg/2026/1028/202610282112326181_t.jpg"
+  },
+  {
+    "id": "91385dadc961",
+    "title": "롯데는 시끄러워야 맞는 것이다… 초호화 코칭스태프 구성 완료, FA 영입...",
+    "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1016040",
+    "published_at": "2026-10-28T20:23:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202610/1016040_2034431_4104.jpg"
+  },
+  {
+    "id": "76f20e5d55b3",
+    "title": "'특급 타자들도 쩔쩔 매는 마구인데…' 고퀄스 실전점검 이상무! 안타 친...",
+    "link": "https://www.sportschosun.com/baseball/2026-10-28/202610280100182180012303",
+    "published_at": "2026-10-28T20:09:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.sportschosun.com/article/html/2026/10/28/2026102801001821800123036_w.jpg"
+  },
+  {
     "id": "755b6fc882f0",
     "title": "'와' 류지현 지옥 마캠 예고, 오전 7시 훈련 시작 실화인가…정우주 김...",
     "link": "https://www.mydaily.co.kr/page/view/2026102815074381042",
@@ -218,7 +348,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.greened.kr/news/thumbnail/202610/353324_405271_187_v150.jpg"
+    "image": "https://www.greened.kr/news/thumbnail/202610/353324_405271_187_v150.jpg"
   },
   {
     "id": "b5d1e0fc25fc",
@@ -726,122 +856,5 @@
       "한화시스템"
     ],
     "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102814520377800_1793166723.jpg"
-  },
-  {
-    "id": "a35da5c5a3a7",
-    "title": "데이터센터 투자 확대 기대… 네트워크·IT 서비스주 상승랠리 합류",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499323",
-    "published_at": "2026-10-28T14:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499323_484620_5652_v150.jpg"
-  },
-  {
-    "id": "c3aed06657b1",
-    "title": "첨단기술·수출·채용 한자리에...경북도 ‘2026 항공방위물류박람회(GA...",
-    "link": "https://www.kbmaeil.com/article/20261028500428",
-    "published_at": "2026-10-28T14:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/10/28/.cache/512/20261028500421.png"
-  },
-  {
-    "id": "8ac6b6c2109f",
-    "title": "현대차, 글로벌 브랜드 가치 250억 달러 돌파…세계 29위",
-    "link": "https://www.kukinews.com/article/view/kuk202610280125",
-    "published_at": "2026-10-28T14:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "7605f0b9f466",
-    "title": "하이즈항공, 흑자 전환에 밸류업 시동…방산·우주 수주 확대",
-    "link": "https://www.bloter.net/news/articleView.html?idxno=676831",
-    "published_at": "2026-10-28T14:47:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.bloter.net/news/thumbnail/202610/676831_290938_2423_v150.jpg"
-  },
-  {
-    "id": "bb081a41cec0",
-    "title": "구미코서 항공방위물류박람회.. 첨단 방산 장비 한자리",
-    "link": "https://www.tbc.co.kr/news/view?pno=20261028091956AE07566&id=212677",
-    "published_at": "2026-10-28T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.tbc.co.kr/uploads/news/2026/10/e60933b5d33a2dcd35e01376ade53de9.png"
-  },
-  {
-    "id": "401261b2879f",
-    "title": "[금융권 이모저모]KB자산운용, 스페이스X·테슬라와 미국 국채 담은 ETF ...",
-    "link": "https://www.businessplus.kr/news/articleView.html?idxno=118867",
-    "published_at": "2026-10-28T14:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.businessplus.kr/news/thumbnail/202610/118867_119914_222_v150.jpg"
-  },
-  {
-    "id": "f2c7f203ed96",
-    "title": "피에스케이홀딩스·SK하이닉스 급등…밸류업 지수 종목 러브콜 확산",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499298",
-    "published_at": "2026-10-28T14:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499298_484600_2830_v150.jpg"
-  },
-  {
-    "id": "03a1fbf48782",
-    "title": "호황 속 비리와 해킹···K-방산이 마주한 '차가운 현실'",
-    "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=716431",
-    "published_at": "2026-10-28T14:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202610/716431_765271_3657_v150.jpg"
-  },
-  {
-    "id": "138291321354",
-    "title": "[창간22주년 특집: 한국발전 시대, 동서발전의 유산]③ 한국동서발전, ...",
-    "link": "https://www.upkoreanews.kr/news/articleView.html?idxno=100858",
-    "published_at": "2026-10-28T14:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.upkoreanews.kr/news/photo/202610/100858_95398_3151.JPG"
   }
 ]
