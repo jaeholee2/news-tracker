@@ -1,5 +1,122 @@
 [
   {
+    "id": "9dbcc1c87386",
+    "title": "GDP 넘어선 美 국가부채, 우리 돈 '4경'규모…1946년 이후 부채비율 최고",
+    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=283497",
+    "published_at": "2026-10-30T06:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/283497_375576_2428_v150.jpg"
+  },
+  {
+    "id": "96a59e19707a",
+    "title": "수주잔고 120조인데 주가는 반 토막…K방산에 무슨 일이",
+    "link": "https://magazine.hankyung.com/business/article/202610281695b",
+    "published_at": "2026-10-30T06:05:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202610/AD.46225312.1.jpg"
+  },
+  {
+    "id": "4d5e895fd5b2",
+    "title": "어플라이드, 베시 지분 20%로…AI칩 '하이브리드 본딩' 경쟁 가열",
+    "link": "http://www.inews24.com/view/2020092",
+    "published_at": "2026-10-30T06:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.inews24.com/v1/39910a17b22178.jpg"
+  },
+  {
+    "id": "eb26fe83b976",
+    "title": "[분양공고 톺아보기] 확장비 2750만원 안 내면 옵션도 못 고른다",
+    "link": "http://www.newskr.kr/news/articleView.html?idxno=107564",
+    "published_at": "2026-10-30T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newskr.kr/news/thumbnail/202610/107564_96972_218_v150.jpg"
+  },
+  {
+    "id": "e8096f850c20",
+    "title": "[N2 모닝 경제 브리핑-10월 30일] 美 증시, 알파벳 실적 충격에 일제히 ...",
+    "link": "https://www.news2day.co.kr/article/20261029500074",
+    "published_at": "2026-10-30T05:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/29/.cache/512/20261029500073.png"
+  },
+  {
+    "id": "8db5a4eba3ff",
+    "title": "첨단산업 키우고 미래 인재 기른다… 경남도·교육청 ‘동반 질주’ [다...",
+    "link": "https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/10/30/20261030040001?wlog_tag3=naver",
+    "published_at": "2026-10-30T05:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "//imggo.seoul.co.kr/img/go_share.png"
+  },
+  {
+    "id": "487c644b9dbc",
+    "title": "\"원·하청, 교섭 문턱 못넘고 소송전…노동위 '사용자 자격 기준' 세워야...",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01659686645618168&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-10-30T04:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26103000071.jpg"
+  },
+  {
+    "id": "deb9d4c36458",
+    "title": "구미 찾은 해외 외교관들 “K방산 기술 배우고 싶다”",
+    "link": "https://www.donga.com/news/Society/article/all/20261029/134935085/2",
+    "published_at": "2026-10-30T04:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/29/134934271.4.jpg"
+  },
+  {
+    "id": "b92d4c4995b8",
+    "title": "포드 수장 짐 팔리가 직접 몰아본 3만 달러 미만 전기 픽업의 정체",
+    "link": "https://www.g-enews.com/view.php?ud=2026102922011473552bd56fbc3c_1",
+    "published_at": "2026-10-30T03:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261029220703002782bd56fbc3c21121419978.jpg"
+  },
+  {
     "id": "a6dda0b36bb6",
     "title": "LIG D&A, KF-21 장거리 공대공유도탄 체계종합 우선협상대상자로 선정",
     "link": "https://www.g-enews.com/view.php?ud=20261029212058529724debea800_1",
@@ -104,19 +221,6 @@
     "image": "https://www.etoday.co.kr/images/etoday_og.jpg"
   },
   {
-    "id": "286b652648fc",
-    "title": "IBK기업은행, '퇴직연금 자동모으기' 서비스 출시 外",
-    "link": "https://www.rcast.co.kr/news/articleView.html?idxno=31931",
-    "published_at": "2026-10-29T18:48:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.rcast.co.kr/news/thumbnail/202610/31931_62053_398_v150.jpg"
-  },
-  {
     "id": "646e34814f0b",
     "title": "퓨리오사AI, 8200억원 투자 유치…기업가치 3.8조원, 글로벌 AI 반도체 시...",
     "link": "https://www.aitimes.kr/news/articleView.html?idxno=42492",
@@ -128,6 +232,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.aitimes.kr/news/thumbnail/202610/42492_63867_4449_v150.jpg"
+  },
+  {
+    "id": "286b652648fc",
+    "title": "IBK기업은행, '퇴직연금 자동모으기' 서비스 출시 外",
+    "link": "https://www.rcast.co.kr/news/articleView.html?idxno=31931",
+    "published_at": "2026-10-29T18:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.rcast.co.kr/news/thumbnail/202610/31931_62053_398_v150.jpg"
   },
   {
     "id": "1ba1866eacb7",
@@ -364,19 +481,6 @@
     "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1560,fit=cover,q=high,sharpen=2/21/2026/10/2026102916392647094_1.jpg"
   },
   {
-    "id": "8404c5e6374d",
-    "title": "[코스피 지수선물 옵션] 이차전지·전자부품주 줄줄이 하락…반도체·금...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499809",
-    "published_at": "2026-10-29T16:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499809_485078_4032_v150.jpg"
-  },
-  {
     "id": "d28f52c32172",
     "title": "멈춰 선 기차역에 피어난 추억…보훈가족의 특별한 가을 나들이",
     "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4088941",
@@ -390,16 +494,29 @@
     "image": "https://cdn.kyongbuk.co.kr/news/photo/202610/4088941_827641_0036.jpeg"
   },
   {
-    "id": "48e3930a83c6",
-    "title": "LIG D&A, 장거리공대공유도탄 체계완성품 우선협상대상 선정",
-    "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66733",
-    "published_at": "2026-10-29T16:34:00+09:00",
+    "id": "8404c5e6374d",
+    "title": "[코스피 지수선물 옵션] 이차전지·전자부품주 줄줄이 하락…반도체·금...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=499809",
+    "published_at": "2026-10-29T16:42:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66733_90580_2412_v150.jpg"
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/499809_485078_4032_v150.jpg"
+  },
+  {
+    "id": "b217133950d5",
+    "title": "AI가 위성영상 실시간 분석… SAR 위성 한계 보완",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPakdnWHBKMmtMTXdYLUlkLUdOV0duTlREZVhQYjdEMmVPeHh1cHVTZnd1NXlNbTVnN0VVWThGbHA4czBSbVZxd1lBWVo1LTN1Y2VXLUFjeFpEbEk0THlyeVlnTHY0cTdiXzZxVkdmUldwUndhZmfSAWZBVV95cUxNNDd4ZXRWVGIwMnRSWjFFV1pES2hKNmpHLUhINVRXV1BUVEMwSFhXZmRhaFZLQTlrUlIyZ3E0M2F5ZmJjNi1uNjJJVFhmMUVXdkwyOGFZcVNVWTIxLU1MUG1KeFE3UFE?oc=5",
+    "published_at": "2026-10-29T19:30:00+00:00",
+    "sources": [
+      "동아일보"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   }
 ]
