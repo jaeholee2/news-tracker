@@ -1,5 +1,44 @@
 [
   {
+    "id": "d3dff44b3edd",
+    "title": "방산시장 문턱 낮춘다… 대기업·스타트업 만남의 장 마련",
+    "link": "https://www.goodmorningcc.com/news/articleView.html?idxno=454969",
+    "published_at": "2026-10-31T03:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.goodmorningcc.com/news/thumbnail/202610/454969_471874_1022_v150.jpg"
+  },
+  {
+    "id": "5892f08eac0a",
+    "title": "[오동룡의 밀리터리 인사이드] LIG D&A 제재 '도미노'… 1.9조 KF-21 미사...",
+    "link": "https://www.newspim.com/news/view/20261029001404",
+    "published_at": "2026-10-31T01:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/10/29/2610292016236650_t1.jpg"
+  },
+  {
+    "id": "2819351bb6da",
+    "title": "조종사·GPS 없이 난다…‘게임 체인저’ AI 무인기, K항공업계 도전장",
+    "link": "https://www.joongang.co.kr/article/25474563",
+    "published_at": "2026-10-31T00:57:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
     "id": "d68ad662205a",
     "title": "머스크, 바이낸스 63억 달러 해킹 사태에 섬뜩한 경고…AI가 인간 몰래 ...",
     "link": "https://www.cbci.co.kr/news/articleView.html?idxno=621607",
@@ -273,19 +312,6 @@
     "image": "https://cdn.news.unn.net/news/thumbnail/202610/599669_426349_2543_v150.jpg"
   },
   {
-    "id": "cb06221010a6",
-    "title": "美 빅테크 쇼크, 코스피 '요동'...하이트진로 · 농심은 '활짝'",
-    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172781",
-    "published_at": "2026-10-30T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202610/172781_132442_1925_v150.jpg"
-  },
-  {
     "id": "f44214fd6cbd",
     "title": "방산 제조에 AI 입힌다…금오공대, 석박사급 'AI 융합인재' 양성 시동",
     "link": "https://news.tf.co.kr/read/national/2383141.htm",
@@ -297,6 +323,19 @@
       "한화시스템"
     ],
     "image": "https://img.tf.co.kr/article/home/2026/10/30/20268071793343865.jpg"
+  },
+  {
+    "id": "cb06221010a6",
+    "title": "美 빅테크 쇼크, 코스피 '요동'...하이트진로 · 농심은 '활짝'",
+    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172781",
+    "published_at": "2026-10-30T16:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202610/172781_132442_1925_v150.jpg"
   },
   {
     "id": "c20f6a802a9f",
@@ -351,19 +390,6 @@
     "image": "https://cdn.industrynews.co.kr/news/photo/202610/88531_109912_424.jpg"
   },
   {
-    "id": "80b72ece3a9a",
-    "title": "[코스닥 기관] RFHIC·원익홀딩스 담았다…심텍은 매도 1위",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500113",
-    "published_at": "2026-10-30T15:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/500113_485361_5253_v150.jpg"
-  },
-  {
     "id": "ee5a8643ed72",
     "title": "금오공대 'AI혁신대학원사업단' 발대식…방산 AX 인재 270명 육성",
     "link": "https://www.news1.kr/local/daegu-gyeongbuk/6338052",
@@ -375,6 +401,19 @@
       "한화시스템"
     ],
     "image": ""
+  },
+  {
+    "id": "80b72ece3a9a",
+    "title": "[코스닥 기관] RFHIC·원익홀딩스 담았다…심텍은 매도 1위",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500113",
+    "published_at": "2026-10-30T15:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/500113_485361_5253_v150.jpg"
   },
   {
     "id": "66a2f84874f2",
@@ -427,44 +466,5 @@
       "한화시스템"
     ],
     "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202610/2486614_1332506_3345_v150.jpg"
-  },
-  {
-    "id": "2ab0d0e84efd",
-    "title": "세계 최대 코인거래소 8조 5,000억 원 털렸다…美보안업체 \"배후는 北 해...",
-    "link": "https://www.ikbc.co.kr/article/view/kbc202610300048",
-    "published_at": "2026-10-30T15:29:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.ikbc.co.kr/data/kbc/image/2026/10/30/kbc202610300140.jpg"
-  },
-  {
-    "id": "e19258113507",
-    "title": "증권사, 디지털자산 사업 확대… 글로벌 협력 구축 속도전",
-    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173214",
-    "published_at": "2026-10-30T15:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.it.chosun.com/news/thumbnail/202610/2023092173214_456027_1630_v150.jpg"
-  },
-  {
-    "id": "a57a4c734e02",
-    "title": "이지스자산운용, 삼송데이터센터 친환경 인증 획득",
-    "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=324351",
-    "published_at": "2026-10-30T15:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pointdaily.co.kr/news/thumbnail/202610/324351_321320_2520_v150.jpg"
   }
 ]
