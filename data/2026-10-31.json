@@ -1,5 +1,109 @@
 [
   {
+    "id": "1da584e15d72",
+    "title": "[뉴스 속 무기] 레이저 대공무기 ‘천광’에서 ‘50㎾ 레이저 장갑차’...",
+    "link": "https://www.news2day.co.kr/article/20261031500021",
+    "published_at": "2026-10-31T15:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/31/.cache/512/20261031500018.png"
+  },
+  {
+    "id": "815f10545d64",
+    "title": "대구보훈청, 고령 보훈가족 나들이 행사...\"따뜻한 추억 선사\"",
+    "link": "https://www.gukjenews.com/news/articleView.html?idxno=3738385",
+    "published_at": "2026-10-31T15:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3738385_3917971_432_v150.jpg"
+  },
+  {
+    "id": "0efb6ce0f4a3",
+    "title": "이더리움, 바이낸스 보안 사고 충격에 두 달 만의 저점…가상자산 시장...",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=845815",
+    "published_at": "2026-10-31T14:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202610/845815_433424_3856_v150.jpg"
+  },
+  {
+    "id": "862a305b0b47",
+    "title": "한국 기업 최다 타격 랜섬웨어 '논', 공격 위한 AI에만 월 1000만원 썼다",
+    "link": "https://www.boannews.com/news/articleView.html?idxno=146900",
+    "published_at": "2026-10-31T14:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.boannews.com/news/photo/202610/146900_129563_5625.png"
+  },
+  {
+    "id": "9ff8547cd229",
+    "title": "[VC's Pick]'반도체·에너지·항공우주'…첨단산업에 투자 집중",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01994246645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-10-31T11:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26103100347.600x.0.jpg"
+  },
+  {
+    "id": "200ebce592e3",
+    "title": "북한 바이낸스 해킹 8조원…내 코인도 사라지나, 업비트·빗썸 투자자 피...",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16264517",
+    "published_at": "2026-10-31T11:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.topstarnews.net/news/photo/202610/16264517_2073324_1839_crop.jpg"
+  },
+  {
+    "id": "d3aec6e65a02",
+    "title": "바이낸스서 가상화폐 8.4조 원 해킹... 사상 최대 규모",
+    "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280395&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "published_at": "2026-10-31T11:11:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://ojsfile.ohmynews.com/CT_T_IMG/2026/1031/IE003692098_LT.jpg"
+  },
+  {
+    "id": "5c79fb9a8d88",
+    "title": "[프로야구] NC, 김강민과 외야 코디네이터 계약…KBO리그 최초",
+    "link": "https://www.newspim.com/news/view/20261031000041",
+    "published_at": "2026-10-31T10:03:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.newspim.com/news/2026/10/31/2610311001365740_821_tc.jpg"
+  },
+  {
     "id": "821a9f949623",
     "title": "46조 시장 잡아라... 삼성바이오에피스, 키트루다 바이오시밀러 美 허가...",
     "link": "https://www.insight.co.kr/news/580003",
@@ -36,7 +140,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.headlinejeju.co.kr/news/photo/202610/601372_498423_3151.jpg"
+    "image": "https://www.headlinejeju.co.kr/news/photo/202610/601372_498424_3159.jpg"
   },
   {
     "id": "f4c85dc51abd",
@@ -427,135 +531,5 @@
       "한화시스템"
     ],
     "image": "https://img.hankyung.com/photo/202610/01.46139517.1.png"
-  },
-  {
-    "id": "dfe1a7368063",
-    "title": "금오공대, 방산 분야 AI 혁신대학원 출범…석·박사 270명 양성",
-    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1420353",
-    "published_at": "2026-10-30T16:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1420353_1599147_3745_v150.jpg"
-  },
-  {
-    "id": "a669a89f8c9d",
-    "title": "[공매도 브리핑] 10월 30일 SK하이닉스 3,488억·157% 급증",
-    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16263933",
-    "published_at": "2026-10-30T16:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.topstarnews.net/news/photo/202610/16263933_2072664_3717_crop.jpg"
-  },
-  {
-    "id": "a86626c08bfc",
-    "title": "\"에너지 사용량 절반으로\"…이지스, 고양 삼송 데이터센터 LEED '골드'",
-    "link": "https://www.edaily.co.kr/News/Read?newsId=05254566645618168&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-    "published_at": "2026-10-30T16:37:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26103001444.1280x.0.png"
-  },
-  {
-    "id": "6e921d366b74",
-    "title": "한국방위산업진흥회, 중소·스타트업 방산시장 진입 지원",
-    "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4115887",
-    "published_at": "2026-10-30T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202610/4115887_779086_3340_v150.jpg"
-  },
-  {
-    "id": "36dd1f35743e",
-    "title": "[초점] 산업 탄소중립 '전력 넘어 열'로…MW급 고온 히트펌프 개발·실증...",
-    "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=204591",
-    "published_at": "2026-10-30T16:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.energydaily.co.kr/news/photo/202610/204591_204211_312.jpg"
-  },
-  {
-    "id": "b78415dcf227",
-    "title": "포수 출신 감독 ‘0명’시대…류지현-이동욱 선임으로 ‘내야수 감독 전...",
-    "link": "https://www.donga.com/news/Sports/article/all/20261030/134939694/1",
-    "published_at": "2026-10-30T16:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/30/134939954.1.jpg"
-  },
-  {
-    "id": "3e5df7617371",
-    "title": "국립금오공대, 방위산업 제조 분야 AI 전환 이끌 석·박사급 AX 융합인재...",
-    "link": "https://news.unn.net/news/articleView.html?idxno=599669",
-    "published_at": "2026-10-30T16:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news.unn.net/news/thumbnail/202610/599669_426349_2543_v150.jpg"
-  },
-  {
-    "id": "cb06221010a6",
-    "title": "美 빅테크 쇼크, 코스피 '요동'...하이트진로 · 농심은 '활짝'",
-    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172781",
-    "published_at": "2026-10-30T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202610/172781_132442_1925_v150.jpg"
-  },
-  {
-    "id": "f44214fd6cbd",
-    "title": "방산 제조에 AI 입힌다…금오공대, 석박사급 'AI 융합인재' 양성 시동",
-    "link": "https://news.tf.co.kr/read/national/2383141.htm",
-    "published_at": "2026-10-30T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.tf.co.kr/article/home/2026/10/30/20268071793343865.jpg"
-  },
-  {
-    "id": "c20f6a802a9f",
-    "title": "\"2027년 제도화 앞두고 인프라 구축 사활\"…STO 테마, 보안·플랫폼주 중...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500129",
-    "published_at": "2026-10-30T16:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/500129_485372_1741_v150.jpg"
   }
 ]
