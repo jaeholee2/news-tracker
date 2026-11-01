@@ -1,5 +1,70 @@
 [
   {
+    "id": "262fecc38173",
+    "title": "“주주가치 높여라”…롯데쇼핑·이마트도 ‘저PBR 딱지’ 붙었다",
+    "link": "https://www.seoul.co.kr/news/economy/securities/2026/11/02/20261102029004?wlog_tag3=naver",
+    "published_at": "2026-11-02T05:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.seoul.co.kr//img/upload/2026/11/01/SSC_20261101181958_O2.jpg.webp"
+  },
+  {
+    "id": "4b4566f09d4a",
+    "title": "오늘부터 종목명에 ‘저PBR’ 꼬리표…롯데쇼핑·이마트 등 151곳",
+    "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8700904&ref=A",
+    "published_at": "2026-11-02T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "//news.kbs.co.kr/resource/image/common/img_meta.png"
+  },
+  {
+    "id": "97be6429ef0a",
+    "title": "우주로 올라간 중국 레이저 총구…별들의 전쟁터서 미군 위성 흔든다",
+    "link": "https://www.g-enews.com/view.php?ud=202611011658515258fbbec65dfb_1",
+    "published_at": "2026-11-02T03:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110117112901436fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "d066a5de4c0b",
+    "title": "[김지수의 파워 인터뷰 | 인도 국민 앱 '트루밸런스' 창업자 이철원 어...",
+    "link": "https://economychosun.com/site/data/html_dir/2026/10/26/2026102600039.html",
+    "published_at": "2026-11-02T02:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://economychosun.com/site/data/img_dir/2026/10/26/2026102600039_0.jpg"
+  },
+  {
+    "id": "cdf6c658c714",
+    "title": "‘저PBR 기업’ 첫 공개… 시총 조 단위 대기업도 못 피했다",
+    "link": "https://www.kmib.co.kr/article/20261101501513",
+    "published_at": "2026-11-02T02:29:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/11/01/.cache/512/20261101501515.png"
+  },
+  {
     "id": "9ba96e9f4aad",
     "title": "순자산 대비 주가 낮은 151곳 첫 공개… 대기업 계열사도 40곳",
     "link": "https://www.donga.com/news/Economy/article/all/20261101/134945992/2",
@@ -26,9 +91,9 @@
     "image": "https://cdn.newsquest.co.kr/news/photo/202611/303902_204685_02.png"
   },
   {
-    "id": "c2334c50a6e3",
-    "title": "[IN PLUS People] 보험 넘어 재무·세금까지… 고객 '평생 관리' 지향",
-    "link": "https://www.insnews.co.kr/news/articleView.html?idxno=93531",
+    "id": "db4eb58f0c8c",
+    "title": "STO 공동 인프라냐, 독자 플랫폼이냐…발행 넘어 연결성 관건 [토큰증권...",
+    "link": "https://www.fntimes.com/html/view.php?ud=202610302202416897dd55077bc2_18",
     "published_at": "2026-11-02T00:02:00+09:00",
     "sources": [
       "Naver"
@@ -36,20 +101,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.insnews.co.kr/news/photo/202611/93531_58711_334.jpg"
-  },
-  {
-    "id": "b27d78f37bf1",
-    "title": "롯데쇼핑·이마트·현대제철…거래소, 저PBR 기업 151곳 공개",
-    "link": "https://www.joongang.co.kr/article/25474801",
-    "published_at": "2026-11-02T00:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://assets.joongang.co.kr/images/share/ja-opengraph-img.png"
+    "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261030220338092890dd55077bc212411124362.jpg&nmt=18"
   },
   {
     "id": "d53d7be77c74",
@@ -65,9 +117,9 @@
     "image": "https://cdn.newsverse.kr/news/thumbnail/202611/11815_20244_1957_v150.jpg"
   },
   {
-    "id": "db4eb58f0c8c",
-    "title": "STO 공동 인프라냐, 독자 플랫폼이냐…발행 넘어 연결성 관건 [토큰증권...",
-    "link": "https://www.fntimes.com/html/view.php?ud=202610302202416897dd55077bc2_18",
+    "id": "b27d78f37bf1",
+    "title": "롯데쇼핑·이마트·현대제철…거래소, 저PBR 기업 151곳 공개",
+    "link": "https://www.joongang.co.kr/article/25474801",
     "published_at": "2026-11-02T00:02:00+09:00",
     "sources": [
       "Naver"
@@ -75,7 +127,20 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261030220338092890dd55077bc212411124362.jpg&nmt=18"
+    "image": "https://assets.joongang.co.kr/images/share/ja-opengraph-img.png"
+  },
+  {
+    "id": "c2334c50a6e3",
+    "title": "[IN PLUS People] 보험 넘어 재무·세금까지… 고객 '평생 관리' 지향",
+    "link": "https://www.insnews.co.kr/news/articleView.html?idxno=93531",
+    "published_at": "2026-11-02T00:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.insnews.co.kr/news/photo/202611/93531_58711_334.jpg"
   },
   {
     "id": "999207456f85",
@@ -244,7 +309,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/1102/L20261102.22014000205i1.jpg?58"
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/1102/L20261102.22014000205i1.jpg?30"
   },
   {
     "id": "d7504cb7f8fb",
@@ -296,7 +361,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/11/01/2026110118165275305_l.png"
+    "image": ""
   },
   {
     "id": "c5c693ce073d",
@@ -452,7 +517,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/1101/L20261101.99099000145i1.jpg?0"
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/1101/L20261101.99099000145i1.jpg?32"
   },
   {
     "id": "e8b51ea1bc6a",
@@ -481,19 +546,6 @@
     "image": "https://img.khan.co.kr/news/2026/11/01/rcv.YNA.20261028.PYH2026102819950001300_P1.jpg"
   },
   {
-    "id": "54a4a7bd2eb5",
-    "title": "이재용, 미래 반도체 패키징 기술 일본 현장 점검",
-    "link": "https://www.busan.com/view/busan/view.php?code=2026110114521791311",
-    "published_at": "2026-11-01T16:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/11/01/2026110116110980578_l.jpg"
-  },
-  {
     "id": "a91a88d0c882",
     "title": "\"AI 첨단 패키징 기술 확보\"..이재용, 日 미래 반도체 패키징랩 현장 점...",
     "link": "https://www.fnnews.com/news/202611011533148763",
@@ -505,6 +557,19 @@
       "한화시스템"
     ],
     "image": "https://image.fnnews.com/resource/media/image/2026/11/01/202611011604355799_e.jpg"
+  },
+  {
+    "id": "54a4a7bd2eb5",
+    "title": "이재용, 미래 반도체 패키징 기술 일본 현장 점검",
+    "link": "https://www.busan.com/view/busan/view.php?code=2026110114521791311",
+    "published_at": "2026-11-01T16:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   },
   {
     "id": "50c9cb08e673",
@@ -832,19 +897,6 @@
     "image": "https://cdn.joongangenews.com/news/photo/202611/560102_367564_2429.jpg"
   },
   {
-    "id": "be8a4e1bbf25",
-    "title": "이마트·롯데쇼핑·현대차證 등 151곳 ‘저PBR’ 첫 공표…증권가 “주...",
-    "link": "https://www.kukinews.com/article/view/kuk202611010014",
-    "published_at": "2026-11-01T12:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "6837f6dbd1d9",
     "title": "[ZD브리핑] 반도체·로봇·수소 산업 행사 풍성…통신·게임 등 실적 주...",
     "link": "https://zdnet.co.kr/view/?no=20261101115152",
@@ -856,6 +908,19 @@
       "한화시스템"
     ],
     "image": "https://image.zdnet.co.kr/2026/11/01/155026442ef539e98dbadcb47c9319fc.png"
+  },
+  {
+    "id": "be8a4e1bbf25",
+    "title": "이마트·롯데쇼핑·현대차證 등 151곳 ‘저PBR’ 첫 공표…증권가 “주...",
+    "link": "https://www.kukinews.com/article/view/kuk202611010014",
+    "published_at": "2026-11-01T12:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   },
   {
     "id": "cd3c44ac1c51",
@@ -884,9 +949,9 @@
     "image": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1420417_1599205_4845_v150.jpg"
   },
   {
-    "id": "d362f0042984",
-    "title": "롯데쇼핑·이마트 등 151곳 '저PBR 기업' 첫 공개",
-    "link": "https://www.ajunews.com/view/20261101101419253",
+    "id": "61e08c4e1d8b",
+    "title": "현대제철부터 이마트까지…거래소, 저PBR 151곳 첫 공표",
+    "link": "http://www.metroseoul.co.kr/article/20261031500060",
     "published_at": "2026-11-01T12:02:00+09:00",
     "sources": [
       "Naver"
@@ -894,72 +959,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://image.ajunews.com/content/image/2026/11/01/20261101102522303170.jpeg"
-  },
-  {
-    "id": "570166a092b3",
-    "title": "낮은 주가 방치 ‘저PBR’ 기업 151곳…이마트·태광산업·현대제철 포함",
-    "link": "https://www.hani.co.kr/arti/economy/finance/1285171.html",
-    "published_at": "2026-11-01T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://flexible.img.hani.co.kr/flexible/normal/700/466/imgdb/original/2026/1101/20261101500958.webp"
-  },
-  {
-    "id": "e2a0bd30b30a",
-    "title": "저PBR 공표가 가른 상장사 희비…단기 면제보다 실질 실행력 시험대 [저...",
-    "link": "https://www.etoday.co.kr/news/view/2642495",
-    "published_at": "2026-11-01T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.etoday.co.kr/pto_db/2026/10/20261030220535_2410049_1199_669.png"
-  },
-  {
-    "id": "c46d5dc8d3a6",
-    "title": "거래소, 저PBR기업 151곳 첫 공개…MTS·HTS에 '저평가' 표시",
-    "link": "https://theviewers.co.kr/View.aspx?No=4291281",
-    "published_at": "2026-11-01T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.coenworks.com/Files/30/News/202602/8183_20260203151243344.jpg"
-  },
-  {
-    "id": "0a73220e82a1",
-    "title": "거래소, 저PBR 상장사 151곳 첫 공표…현대제철·이마트 등 포함",
-    "link": "https://www.hankyung.com/article/2026103177206",
-    "published_at": "2026-11-01T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.hankyung.com/photo/202610/01.45246691.1.jpg"
-  },
-  {
-    "id": "786af8e582ff",
-    "title": "롯데쇼핑·이마트·현대제철 '저평가' 불명예…151곳 명단 첫 공개",
-    "link": "https://www.newsway.co.kr/news/view?ud=2026103118025420338",
-    "published_at": "2026-11-01T12:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.newsway.co.kr/photo/2026/07/29/20260729000032_1200.png"
+    "image": ""
   },
   {
     "id": "3f1f389d521e",
@@ -975,9 +975,9 @@
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/10/31/.cache/512/20261031500049.png"
   },
   {
-    "id": "61e08c4e1d8b",
-    "title": "현대제철부터 이마트까지…거래소, 저PBR 151곳 첫 공표",
-    "link": "http://www.metroseoul.co.kr/article/20261031500060",
+    "id": "786af8e582ff",
+    "title": "롯데쇼핑·이마트·현대제철 '저평가' 불명예…151곳 명단 첫 공개",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026103118025420338",
     "published_at": "2026-11-01T12:02:00+09:00",
     "sources": [
       "Naver"
@@ -985,7 +985,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://nimage.newsway.co.kr/photo/2026/07/29/20260729000032_1200.png"
   },
   {
     "id": "2e70ab7dc6ba",
@@ -1001,16 +1001,16 @@
     "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4442358_353504_14_v150.jpg"
   },
   {
-    "id": "1fff83de463f",
-    "title": "이마트·롯데쇼핑 등 151곳 '저PBR' 첫 공표…MTS에도 꼬리표",
-    "link": "https://www.fnnews.com/news/202610312307180192",
-    "published_at": "2026-11-01T12:01:00+09:00",
+    "id": "0a73220e82a1",
+    "title": "거래소, 저PBR 상장사 151곳 첫 공표…현대제철·이마트 등 포함",
+    "link": "https://www.hankyung.com/article/2026103177206",
+    "published_at": "2026-11-01T12:02:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://image.fnnews.com/resource/media/image/2026/10/31/202610310901539331_e.jpg"
+    "image": "https://img.hankyung.com/photo/202610/01.45246691.1.jpg"
   }
 ]
