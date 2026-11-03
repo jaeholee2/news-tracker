@@ -1,5 +1,122 @@
 [
   {
+    "id": "2084b428438e",
+    "title": "미군 떠난 하늘 메우려 사업 당긴 이라크…한국 천궁-II 전력화 속도전",
+    "link": "https://www.g-enews.com/view.php?ud=202611040607108291fbbec65dfb_1",
+    "published_at": "2026-11-04T06:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110406171804085fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "476b973ed68a",
+    "title": "美 전투기와 나란히 뜬 KF-21…‘연합 전력승수’ 주변국이 먼저 짚은 이...",
+    "link": "https://www.g-enews.com/view.php?ud=202611040604554167fbbec65dfb_1",
+    "published_at": "2026-11-04T06:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110406064208360fbbec65dfb211211153121.jpg"
+  },
+  {
+    "id": "cfb43662b8c8",
+    "title": "게임사들, 로봇 AI에 빠지다",
+    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=885887",
+    "published_at": "2026-11-04T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.getnews.co.kr/news/photo/202611/885887_544104_525.jpg"
+  },
+  {
+    "id": "8e98cc7c43bf",
+    "title": "한중엔시에스 최대주주 측 담보·공탁 주식 127만6597주로 증가",
+    "link": "https://www.vegannews.co.kr/news/article.html?no=400178",
+    "published_at": "2026-11-04T05:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.vegannews.co.kr/data/photos/aimaker/20261103c4afe4.gif"
+  },
+  {
+    "id": "26176aba2e6d",
+    "title": "[여전한 비상경영, 롯데 인사 방향은] ① 상반기 실적 반등에도 비상경...",
+    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611031017481540344",
+    "published_at": "2026-11-04T05:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.dnews.co.kr/photo/photo/2026/11/03/202611031017481540344-2-702615.jpg"
+  },
+  {
+    "id": "5ebdefba1a46",
+    "title": "[N2 포커스] 증권가 덮친 해킹 공포…금감원, CEO 책임 묻고 징벌적 과징...",
+    "link": "https://www.news2day.co.kr/article/20261104500005",
+    "published_at": "2026-11-04T05:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/04/.cache/512/20261104500006.png"
+  },
+  {
+    "id": "cb6a564b3837",
+    "title": "메가 히트 예상 빗나갔다…12→8단 낮아지는 HBM 단수",
+    "link": "https://www.etoday.co.kr/news/view/2642183",
+    "published_at": "2026-11-04T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.etoday.co.kr/pto_db/2026/11/20261101124634_2410299_1200_1224.jpg"
+  },
+  {
+    "id": "f2e509ce17dc",
+    "title": "'307억 포기' 노시환, 이 팀과 또 연결됐다…\"헛스윙 우려 존재\" 약점 지...",
+    "link": "https://www.xportsnews.com/article/2215168",
+    "published_at": "2026-11-04T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.xportsnews.com/contents/images/upload/article/2026/1104/1793724131733450.webp"
+  },
+  {
+    "id": "a9b8ba2b48f9",
+    "title": "20만 원 상당 보상·무료 의상! 넷이즈 '연운' 1주년 축제...14일 '호타',...",
+    "link": "https://www.gamechosun.co.kr/webzine/article/view.php?no=227166",
+    "published_at": "2026-11-04T01:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.gamechosun.co.kr/dataroom/article/20261104/227166/808482_1793724417.jpg"
+  },
+  {
     "id": "fc3f9e754920",
     "title": "[데스크의 눈] ‘KAI 민영화’ 논란, 뭣이 중헌디",
     "link": "https://www.segye.com/newsView/20261103517116?OutUrl=naver",
@@ -403,19 +520,6 @@
     "image": "https://img.newspim.com/news/2026/11/03/2611031615507400_562_tc.jpg"
   },
   {
-    "id": "e02d754de1c3",
-    "title": "[K-조선 호황속 위기-3] 고부가 선박 선별 수주 정책이 경쟁력 떨어뜨려",
-    "link": "https://www.thebigdata.co.kr/view.php?ud=202611031546537772570d99e4c8_23",
-    "published_at": "2026-11-03T16:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261103160949058540570d99e4c818221145140.jpg&nmt=23"
-  },
-  {
     "id": "c5dccefc2cb7",
     "title": "[K-조선 호황속 위기-1] ‘가스’ 마신 K-조선 빅3, 메이저 빅3 해운사 외...",
     "link": "https://www.thebigdata.co.kr/view.php?ud=202611031542469406570d99e4c8_23",
@@ -427,6 +531,19 @@
       "한화시스템"
     ],
     "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261103160256060160570d99e4c818221145140.jpg&nmt=23"
+  },
+  {
+    "id": "e02d754de1c3",
+    "title": "[K-조선 호황속 위기-3] 고부가 선박 선별 수주 정책이 경쟁력 떨어뜨려",
+    "link": "https://www.thebigdata.co.kr/view.php?ud=202611031546537772570d99e4c8_23",
+    "published_at": "2026-11-03T16:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261103160949058540570d99e4c818221145140.jpg&nmt=23"
   },
   {
     "id": "4dea61da4832",
@@ -637,19 +754,6 @@
     "image": "https://cdn.safetimes.co.kr/news/thumbnail/202611/247136_158062_4244_v150.jpg"
   },
   {
-    "id": "1887302c430b",
-    "title": "이익 수준 높인 현대건설…더딘 현금 회수는 과제",
-    "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5078851",
-    "published_at": "2026-11-03T14:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5078851_2076341_264.jpg"
-  },
-  {
     "id": "7f9eda80f907",
     "title": "발행 넘어 유통까지… 증권사 STO 사업 확장 본격화",
     "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=730546",
@@ -663,95 +767,30 @@
     "image": "https://cdn.the-biz.co.kr/news/photo/202611/730546_937309_3819.jpg"
   },
   {
-    "id": "2f671d229ab5",
-    "title": "\"노시환, 양키스가 데려갈 가치 있다!\"…ML 최고 명문 한국산 거포 노린...",
-    "link": "https://www.xportsnews.com/article/2214636",
-    "published_at": "2026-11-03T14:45:00+09:00",
+    "id": "1887302c430b",
+    "title": "이익 수준 높인 현대건설…더딘 현금 회수는 과제",
+    "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5078851",
+    "published_at": "2026-11-03T14:46:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://www.xportsnews.com/contents/images/upload/article/2026/1103/1793684629994053.webp"
+    "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5078851_2076341_264.jpg"
   },
   {
-    "id": "5be30162e776",
-    "title": "[기획] 저PBR 151곳 공개 첫날 76% 상승…효과 지속될까",
-    "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=667445",
-    "published_at": "2026-11-03T14:36:00+09:00",
+    "id": "3c6a21ef6938",
+    "title": "단 2명이 항해·전투·기관제어까지… ‘군함 조종석’ 국산화",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0cHlDUnBIek92c1dUem9wd0hXNExBNjFPakY4eXpSYXFVUnNRMl9McEFCMzc5NFhKV2xCSDNrWVlBbi14WmlYNHA2YnZMWkxhU2tnTTk1VnrSAVRBVV95cUxQdTM0TGluakR3eHQ5Q3hwdHkxd3Jfd1FrT2JjMWdpZDV2akE2TDRLM0l5SlY1OS1aYnRpU2o1UnNiVGdmMjF5dU5qQ0lrMm9ldm5PXzc?oc=5",
+    "published_at": "2026-11-02T11:45:00+00:00",
     "sources": [
-      "Naver"
+      "세계일보"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.kfenews.co.kr/news/thumbnail/202611/667445_140790_4727_v150.jpg"
-  },
-  {
-    "id": "5bad1e7199c4",
-    "title": "미국 무대 도전장 내민 노시환이 일본에서 주목받는 이유는?",
-    "link": "https://sports.khan.co.kr/article/202611031415003?pt=nv",
-    "published_at": "2026-11-03T14:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20260619.32ebe57a5cd94ce88b628ade4a4978c4_P1.jpg"
-  },
-  {
-    "id": "c55d76667ac7",
-    "title": "AI 영상분석 수요 확대…보안주(물리) 관련주 인텔리빅스 파죽지세",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500925",
-    "published_at": "2026-11-03T14:04:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/500925_486099_142_v150.jpg"
-  },
-  {
-    "id": "c4c3ba1eb94c",
-    "title": "[LS증권 인사 전망] 위험관리 위반 '주의' 홍원식 복귀… 제재 임원 3명...",
-    "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3081181",
-    "published_at": "2026-11-03T13:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3081181_123664_059_v150.jpg"
-  },
-  {
-    "id": "375d7f898925",
-    "title": "'MLB 도전' 노시환, 30개 구단과 본격 협상 돌입…다음달 2일까지 협상 ...",
-    "link": "https://www.newsis.com/view/NISX20261103_0003852661",
-    "published_at": "2026-11-03T13:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/10/06/NISI20261006_0002256897_web.jpg"
-  },
-  {
-    "id": "232b57728ccf",
-    "title": "\"월세 내다 연봉 날릴 판\"…서울 외곽도 月 300만원 넘었다 [시장톡]",
-    "link": "https://www.hankyung.com/article/2026110296326",
-    "published_at": "2026-11-03T13:31:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.hankyung.com/photo/202611/ZN.45395109.1.jpg"
+    "image": ""
   },
   {
     "id": "d2ff51409d04",
