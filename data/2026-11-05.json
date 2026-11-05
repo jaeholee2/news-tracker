@@ -1,5 +1,44 @@
 [
   {
+    "id": "cfcf2e7b0074",
+    "title": "SWOT로 본 K방산 성장의 명암",
+    "link": "https://www.mk.co.kr/article/12191277",
+    "published_at": "2026-11-05T21:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://static.mk.co.kr/2025/economy/images/economy600600.png"
+  },
+  {
+    "id": "55710ee7a979",
+    "title": "원태인, 연장 혈투 끝 \"절반의 성공\"…노시환 직관에 힘 얻어",
+    "link": "https://www.imaeil.com/page/view/2026110519510634849",
+    "published_at": "2026-11-05T21:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.imaeil.com/photos/2026/11/05/2026110520545963706_l.jpg"
+  },
+  {
+    "id": "793ccc0a6002",
+    "title": "그래파이, 정보보호 인증 획득",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880423",
+    "published_at": "2026-11-05T20:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/880423_906070_410_v150.jpg"
+  },
+  {
     "id": "9aa3c1e32b3a",
     "title": "한국 ‘천광’은 이미 전력화했는데…中 “레이저로 드론 요격 성공” ...",
     "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261105601016&wlog_tag3=naver",
@@ -36,7 +75,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/1106/L20261106.22009001872i1.jpg?11"
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/1106/L20261106.22009001872i1.jpg?50"
   },
   {
     "id": "bb2f9063f1f8",
@@ -192,7 +231,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://d2k8i5ah8p7h3l.cloudfront.net/covers/ab2506fa42fbc640af87edfa643fc486/thumb.jpg"
+    "image": ""
   },
   {
     "id": "213a2be550c7",
@@ -273,6 +312,19 @@
     "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202611/258185_270942_1858_v150.jpg"
   },
   {
+    "id": "bc6f1641837b",
+    "title": "'로봇 부트캠프' 경북대·대구가톨릭대 학생들, 기업 현직자와 취업 상...",
+    "link": "https://news.unn.net/news/articleView.html?idxno=600064",
+    "published_at": "2026-11-05T16:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.news.unn.net/news/thumbnail/202611/600064_426915_2033_v150.jpg"
+  },
+  {
     "id": "c80defff69e9",
     "title": "[오늘의 증권] 하나증권·한국투자증권·NH투자증권·신한투자증권",
     "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=46066",
@@ -297,19 +349,6 @@
       "한화시스템"
     ],
     "image": ""
-  },
-  {
-    "id": "bc6f1641837b",
-    "title": "'로봇 부트캠프' 경북대·대구가톨릭대 학생들, 기업 현직자와 취업 상...",
-    "link": "https://news.unn.net/news/articleView.html?idxno=600064",
-    "published_at": "2026-11-05T16:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news.unn.net/news/thumbnail/202611/600064_426915_2033_v150.jpg"
   },
   {
     "id": "f0df801172d3",
@@ -377,19 +416,6 @@
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/501661_486793_5750_v150.jpg"
   },
   {
-    "id": "411a2f50ae7f",
-    "title": "[IPO] 美 헬기 명가 'Bell' 업고 영업이익률 23%, 하나에어로다이내믹스...",
-    "link": "https://www.cnbizm.com/news/articleView.html?idxno=320482",
-    "published_at": "2026-11-05T15:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.cnbizm.com/news/photo/202611/320482_229937_3740.jpg"
-  },
-  {
     "id": "c5191a94a5c9",
     "title": "상아매니지먼트컨설팅, 여수에코에너지 'LNG 집단에너지 사업' 첨단 EPC-...",
     "link": "http://www.ikld.kr/news/articleView.html?idxno=343605",
@@ -401,6 +427,19 @@
       "한화시스템"
     ],
     "image": "http://www.ikld.kr/news/thumbnail/202611/343605_190843_4947_v150.jpg"
+  },
+  {
+    "id": "411a2f50ae7f",
+    "title": "[IPO] 美 헬기 명가 'Bell' 업고 영업이익률 23%, 하나에어로다이내믹스...",
+    "link": "https://www.cnbizm.com/news/articleView.html?idxno=320482",
+    "published_at": "2026-11-05T15:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.cnbizm.com/news/photo/202611/320482_229937_3740.jpg"
   },
   {
     "id": "9fb43d420423",
@@ -416,19 +455,6 @@
     "image": "http://www.legaltimes.co.kr/news/thumbnail/202611/96801_34626_4417_v150.jpg"
   },
   {
-    "id": "4bebbf9c3a94",
-    "title": "베트남서 中 컨소시엄 입찰 탈락… 현대로템, 100조 원 규모 고속철 사...",
-    "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=524676",
-    "published_at": "2026-11-05T15:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ilyoseoul.co.kr/news/photo/202611/524676_487209_300.jpg"
-  },
-  {
     "id": "6fc591bf2b26",
     "title": "[더밸류 브리핑] 오늘의 증권사 소식...하나증권·유안타증권·SK증권",
     "link": "http://www.thevaluenews.co.kr/news/view.php?idx=203012",
@@ -440,6 +466,19 @@
       "한화시스템"
     ],
     "image": ""
+  },
+  {
+    "id": "4bebbf9c3a94",
+    "title": "베트남서 中 컨소시엄 입찰 탈락… 현대로템, 100조 원 규모 고속철 사...",
+    "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=524676",
+    "published_at": "2026-11-05T15:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ilyoseoul.co.kr/news/photo/202611/524676_487209_300.jpg"
   },
   {
     "id": "ba993ea2bfbc",
@@ -507,6 +546,19 @@
     "image": ""
   },
   {
+    "id": "3995fce4d028",
+    "title": "LIG D&A '2년 입찰 제한' 운명은…KF-21 유도탄 사업 향방도 주목",
+    "link": "https://www.ddaily.co.kr/page/view/2026110514435234556",
+    "published_at": "2026-11-05T14:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "/photos/2026/11/05/2026110514340496526_l.JPG"
+  },
+  {
     "id": "4a960ed7eaec",
     "title": "삼성물산 주거플랫폼 '홈닉', 금성백조 단지에 도입",
     "link": "https://www.cnbizm.com/news/articleView.html?idxno=320478",
@@ -520,32 +572,6 @@
     "image": "https://cdn.cnbizm.com/news/photo/202611/320478_229931_5428.jpg"
   },
   {
-    "id": "3995fce4d028",
-    "title": "LIG D&A '2년 입찰 제한' 운명은…KF-21 유도탄 사업 향방도 주목",
-    "link": "https://www.ddaily.co.kr/page/view/2026110514435234556",
-    "published_at": "2026-11-05T14:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "5378d6525d7a",
-    "title": "[기획]美 블루 쓰나미 속 K-전력·친환경 '새 기회'",
-    "link": "https://www.m-i.kr/news/articleView.html?idxno=2014848",
-    "published_at": "2026-11-05T14:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.m-i.kr/news/photo/202611/2014848_2015292_3235.jpg"
-  },
-  {
     "id": "a67d83b7940d",
     "title": "하나에어로다이내믹스, 코스닥 상장 출사표…\"치공구부터 Bell 동체까지...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501612",
@@ -557,32 +583,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/501612_486740_469_v150.jpg"
-  },
-  {
-    "id": "b953b9476981",
-    "title": "[건설업계 10월 동향] GS건설, 오스넷과 에너지-인프라 분야 공동사업 발...",
-    "link": "http://www.wsobi.com/news/articleView.html?idxno=321139",
-    "published_at": "2026-11-05T14:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.wsobi.com/news/photo/202611/321139_190851_3133.jpg"
-  },
-  {
-    "id": "dc0e89fe253a",
-    "title": "프랑스 지방은행 해킹에 1500억 털려…코인으로 자금세탁",
-    "link": "https://www.sedaily.com/article/20110674?ref=naver",
-    "published_at": "2026-11-05T14:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/11/05/news-p.v1.20261105.47352adc7bf947d19e2f38e0593f0d8c_Z1.jpg"
   },
   {
     "id": "3c6a21ef6938",
