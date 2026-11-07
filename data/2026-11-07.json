@@ -1,5 +1,96 @@
 [
   {
+    "id": "0d0363ab2c92",
+    "title": "연구개발특구진흥재단, 첨단소재 해외 공급·55억원 투자 연계…기술사...",
+    "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2365549",
+    "published_at": "2026-11-07T16:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.webeconomy.co.kr/news/photo/202611/2365549_1176146_4417.jpg"
+  },
+  {
+    "id": "3c77bc53ff6f",
+    "title": "\"1년이면 5400만원 나가요\"…'노도강·금관구'마저 세입자 지옥",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=02633846645643424&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-11-07T14:37:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110700606.jpg"
+  },
+  {
+    "id": "532246327373",
+    "title": "“강남도 아닌데 월세가 300만원 속출”…노도강·금관구 집주인도 놀랄...",
+    "link": "https://www.mk.co.kr/article/12201448",
+    "published_at": "2026-11-07T14:25:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://pimg.mk.co.kr/news/cms/202611/07/rcv.NEWSIS.NEWSIS.20261027.NISI20261027_0021506604_R.jpg"
+  },
+  {
+    "id": "94dc0e50da44",
+    "title": "노도강·금관구도 월세 300만원 속출…서울 외곽 주거비 비명",
+    "link": "https://www.newsis.com/view/NISX20261106_0003858038",
+    "published_at": "2026-11-07T12:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.newsis.com/2026/11/06/NISI20261106_0002285141_web.jpg"
+  },
+  {
+    "id": "f72188c951c4",
+    "title": "SK네트웍스, 3분기 영업이익 201억원…전사 AI 전환 속도",
+    "link": "https://wemakenews.co.kr/news/view.php?no=26775",
+    "published_at": "2026-11-07T12:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "f57caac50499",
+    "title": "[뉴스락 특별기획] LNG선까지 넘보는 中…K조선 호황, 계속될까",
+    "link": "http://www.newslock.co.kr/news/articleView.html?idxno=139481",
+    "published_at": "2026-11-07T11:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newslock.co.kr/news/thumbnail/202611/139481_126808_2853_v150.jpg"
+  },
+  {
+    "id": "ebbe819b8e5a",
+    "title": "블루쓰나미에 막힌 AI데이터센터, \"우주로 사막으로\"",
+    "link": "http://www.4th.kr/news/articleView.html?idxno=2121362",
+    "published_at": "2026-11-07T11:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.4th.kr/news/thumbnail/202611/2121362_223197_5916_v150.jpg"
+  },
+  {
     "id": "232c6ff9a020",
     "title": "기금형 퇴직연금 시대 열린다…노사정 합의 안착 위한 민관 머리 맞대",
     "link": "https://www.pointe.co.kr/news/articleView.html?idxno=87330",
@@ -273,19 +364,6 @@
     "image": ""
   },
   {
-    "id": "0a6838612b22",
-    "title": "美 '블루웨이브' 쇼크에 코스피 6% 폭락...반도체 넘어 전력·증권주까지...",
-    "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=320157",
-    "published_at": "2026-11-06T18:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.wolyo.co.kr/news/photo/202611/320157_229276_022.png"
-  },
-  {
     "id": "4a656ba3cc48",
     "title": "SK네트웍스, 3Q 'AI 전환' 기반 다져…워커힐 영업익 57%↑",
     "link": "https://www.econovill.com/news/articleView.html?idxno=756351",
@@ -297,6 +375,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.econovill.com/news/thumbnail/202611/756351_733807_4942_v150.jpg"
+  },
+  {
+    "id": "0a6838612b22",
+    "title": "美 '블루웨이브' 쇼크에 코스피 6% 폭락...반도체 넘어 전력·증권주까지...",
+    "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=320157",
+    "published_at": "2026-11-06T18:06:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.wolyo.co.kr/news/photo/202611/320157_229276_022.png"
   },
   {
     "id": "a61eb91fcc56",
@@ -507,6 +598,19 @@
     "image": "https://image.fnnews.com/resource/media/image/2026/11/04/202611041815050320_e.jpg"
   },
   {
+    "id": "ca0ebe7828ec",
+    "title": "SK네트웍스 3분기 영업이익 201억, 전년比 9.9%↓…AI 전환 본격화",
+    "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304453",
+    "published_at": "2026-11-06T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsquest.co.kr/news/photo/202611/304453_205277_209.jpg"
+  },
+  {
     "id": "1069e6eae59c",
     "title": "SK네트웍스, 3분기 영업익 201억원 9.9%↓..\"AI 전환 비용\"",
     "link": "http://www.4th.kr/news/articleView.html?idxno=2121335",
@@ -531,19 +635,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.energy-news.co.kr/news/thumbnail/202611/229586_105495_194_v150.jpg"
-  },
-  {
-    "id": "ca0ebe7828ec",
-    "title": "SK네트웍스 3분기 영업이익 201억, 전년比 9.9%↓…AI 전환 본격화",
-    "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304453",
-    "published_at": "2026-11-06T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsquest.co.kr/news/photo/202611/304453_205277_209.jpg"
   },
   {
     "id": "2c55fd1d921a",
@@ -572,19 +663,6 @@
     "image": "https://cdn.smartbizn.com/news/photo/202611/158734_266405_5716.jpg"
   },
   {
-    "id": "57c95a0ed2d2",
-    "title": "SK네트웍스, 3Q 영업익 201억원…'AI 지주사' 전환 속도",
-    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730781",
-    "published_at": "2026-11-06T17:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1730781_766482_558_v150.jpg"
-  },
-  {
     "id": "5a1d2475d69e",
     "title": "SK네트웍스, 3분기 영업익 201억···전년比 9.87%↓",
     "link": "http://www.popcornnews.net/news/articleView.html?idxno=139077",
@@ -596,6 +674,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139077_165628_1353_v150.jpg"
+  },
+  {
+    "id": "57c95a0ed2d2",
+    "title": "SK네트웍스, 3Q 영업익 201억원…'AI 지주사' 전환 속도",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730781",
+    "published_at": "2026-11-06T17:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1730781_766482_558_v150.jpg"
   },
   {
     "id": "04cf035b4c06",
@@ -791,162 +882,6 @@
       "한화시스템"
     ],
     "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026110616272202450067191f6c6e219250129182.jpg&nmt=12"
-  },
-  {
-    "id": "5065fd2b600f",
-    "title": "美 반도체 쇼크, 코스피 '휘청'...GS건설·삼성SDS는 '껑충'",
-    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172976",
-    "published_at": "2026-11-06T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.choicenews.co.kr/news/thumbnail/202611/172976_132632_188_v150.jpg"
-  },
-  {
-    "id": "14db75f9d990",
-    "title": "망분리 규제 완화 2차 통보…농협·기업은행 등 13곳 선정",
-    "link": "https://www.mt.co.kr/finance/2026/11/06/2026110615485430166",
-    "published_at": "2026-11-06T16:19:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110615485430166_1.jpg"
-  },
-  {
-    "id": "aab3dee433ed",
-    "title": "카뱅·케뱅, 사장님 담보대출 확대 경쟁",
-    "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=718076",
-    "published_at": "2026-11-06T16:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202611/718076_767277_648_v150.jpg"
-  },
-  {
-    "id": "121c1823e560",
-    "title": "고려아연, 흔들린 수익성… 내년 주총에 영향 미치나",
-    "link": "https://www.sisaweek.com/news/articleView.html?idxno=238834",
-    "published_at": "2026-11-06T16:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.sisaweek.com/news/thumbnail/202611/238834_258217_5430_v150.jpg"
-  },
-  {
-    "id": "126f79f96675",
-    "title": "실적은 ‘역대 최대’, 주가는 급락… 과거 폭락장과 다른 점은?",
-    "link": "https://biz.chosun.com/stock/stock_general/2026/11/06/VBSYODVSC5DZXJDTE5OEY2LU7M/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-    "published_at": "2026-11-06T16:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://biz.chosun.com/resizer/v2/3QFSNZHQ5JDEPMFFMXPXWZUZXM.jpg?auth=798d1f5d5174e8cdbfa22c80e8472d590d2499cfbd78269e211e1af8d5ff9416&width=640&height=336&smart=true"
-  },
-  {
-    "id": "e52e9151e8d1",
-    "title": "[거래소 외국인] 삼성전자· SK하이닉스 대거 팔고 NAVER·LS ELECTRIC 담았...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501966",
-    "published_at": "2026-11-06T15:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/501966_487065_5518_v150.jpg"
-  },
-  {
-    "id": "edd5629862cf",
-    "title": "[국내증시 마감] 코스피 6.02% 폭락 5059.69…외국인 2.77조 매도, 삼성전...",
-    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16270053",
-    "published_at": "2026-11-06T15:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.topstarnews.net/news/photo/202611/16270053_2079747_5726_crop.jpg"
-  },
-  {
-    "id": "96f8a66a7716",
-    "title": "[데일리픽] 美 중간선거 후 비트코인 반등 공식…오픈AI, 데이터센터 반...",
-    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713391",
-    "published_at": "2026-11-06T15:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.digitaltoday.co.kr/news/photo/202611/713391_660805_953.jpg"
-  },
-  {
-    "id": "23ecda5c48ce",
-    "title": "충남TP, 지역 방산社 공급망 진입·기술사업화 지원 확대",
-    "link": "http://amenews.kr/news/view.php?idx=68597",
-    "published_at": "2026-11-06T15:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://amenews.kr/data/cheditor4/2611/3554368046_Hk12QYI5_ed.jpg"
-  },
-  {
-    "id": "da4983163fbe",
-    "title": "[온실가스 100만톤클럽 시즌4] '7천만톤' 탄소거인 포스코, 감축 안 하면...",
-    "link": "https://www.newspenguin.com/news/articleView.html?idxno=22397",
-    "published_at": "2026-11-06T15:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newspenguin.com/news/thumbnail/202611/22397_65613_3250_v150.jpg"
-  },
-  {
-    "id": "be6b8da1fb79",
-    "title": "전기산업진흥회, 전력시스템 디지털화 표준·기술 동향 세미나 개최",
-    "link": "https://www.todayenergy.kr/news/articleView.html?idxno=305232",
-    "published_at": "2026-11-06T15:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.todayenergy.kr/news/thumbnail/202611/305232_178289_1649_v150.jpg"
-  },
-  {
-    "id": "e5c3e8a6f71e",
-    "title": "\"충남 방산기업 기술력 한눈에\"…충남TP, 공급망 참여 초석 다졌다",
-    "link": "https://www.econovill.com/news/articleView.html?idxno=756322",
-    "published_at": "2026-11-06T15:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.econovill.com/news/thumbnail/202611/756322_733757_332_v150.jpg"
   },
   {
     "id": "253c2a50d384",
