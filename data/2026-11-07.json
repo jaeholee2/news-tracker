@@ -728,19 +728,6 @@
     "image": "https://cdn.smartbizn.com/news/photo/202611/158734_266405_5716.jpg"
   },
   {
-    "id": "57c95a0ed2d2",
-    "title": "SK네트웍스, 3Q 영업익 201억원…'AI 지주사' 전환 속도",
-    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730781",
-    "published_at": "2026-11-06T17:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1730781_766482_558_v150.jpg"
-  },
-  {
     "id": "5a1d2475d69e",
     "title": "SK네트웍스, 3분기 영업익 201억···전년比 9.87%↓",
     "link": "http://www.popcornnews.net/news/articleView.html?idxno=139077",
@@ -752,6 +739,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139077_165628_1353_v150.jpg"
+  },
+  {
+    "id": "57c95a0ed2d2",
+    "title": "SK네트웍스, 3Q 영업익 201억원…'AI 지주사' 전환 속도",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730781",
+    "published_at": "2026-11-06T17:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1730781_766482_558_v150.jpg"
   },
   {
     "id": "04cf035b4c06",
