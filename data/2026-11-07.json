@@ -1,5 +1,109 @@
 [
   {
+    "id": "b5b5f17b1001",
+    "title": "부지·냉각 난제에 데이터센터 바다로…조선 3사 'FDC' 경쟁",
+    "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=314810",
+    "published_at": "2026-11-08T08:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.straightnews.co.kr/news/thumbnail/202611/314810_227682_2635_v150.jpg"
+  },
+  {
+    "id": "07df7ae33439",
+    "title": "이재용의 ‘뉴삼성’ 방정식은 AI [비즈앤피플]",
+    "link": "https://www.busan.com/view/busan/view.php?code=2026110517384037494",
+    "published_at": "2026-11-08T08:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/11/05/2026110517383935455_l.jpg"
+  },
+  {
+    "id": "b9aef0874770",
+    "title": "공화당 침몰시킨 이란전 종식론…美 패트리어트 고갈 속 한국 유도무기...",
+    "link": "https://www.g-enews.com/view.php?ud=202611080718359143fbbec65dfb_1",
+    "published_at": "2026-11-08T07:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110421223504215cd0bfacc1c122413114.jpg"
+  },
+  {
+    "id": "041f2dcaa009",
+    "title": "[K-방산은 지금] 곳간 찼는데 실속 줄었다… 방산 4사 영업익 '뚝'",
+    "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=730895",
+    "published_at": "2026-11-08T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.the-biz.co.kr/news/photo/202611/730895_937794_2342.png"
+  },
+  {
+    "id": "2c6091aa500d",
+    "title": "[단독] K9 서유럽 첫 수출 스페인서 '수의계약' 논란…\"탁월하나 경쟁 평...",
+    "link": "https://www.the-today.com/news/articleView.html?idxno=93261",
+    "published_at": "2026-11-08T06:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.the-today.com/news/photo/202611/93261_114780_5259.png"
+  },
+  {
+    "id": "97bfae83fcef",
+    "title": "\"'미미삼'이냐, '상계주공'이냐\" 노원 재건축 대장은?…추가 분담금 보...",
+    "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110602274.html",
+    "published_at": "2026-11-08T06:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.chosun.com/sitedata/image/202611/06/2026110602271_0.jpg"
+  },
+  {
+    "id": "4e655984285b",
+    "title": "쇄빙선 핵심 설비 개발해 본고장 유럽에 공급하는 中… “韓도 국산화 ...",
+    "link": "https://biz.chosun.com/industry/company/2026/11/08/DZYAJEXKEZEXDB2LTQYJOM5ZDU/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "published_at": "2026-11-08T06:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://biz.chosun.com/resizer/v2/ND7CUHYMLVD2RMAU5P5K23SZOE.png?auth=198a2260a124c1de2450bbb698707693df59c6ba633f8e87c398545ae250d6bd&width=574&height=300&smart=true"
+  },
+  {
+    "id": "1d675de44784",
+    "title": "갤럭시 별거 아니라며? 계속된 하자에 역대급 위기 봉착한 아이폰 듀오",
+    "link": "https://www.segye.com/newsView/20261106510803?OutUrl=naver",
+    "published_at": "2026-11-08T05:51:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.segye.com/content/image/2026/11/06/20261106510801.jpg"
+  },
+  {
     "id": "5d6e068c6747",
     "title": "\"한국 잠수함 제쳐놓더니\"…캐나다, 독일과 계약에 변수",
     "link": "https://www.hankyung.com/article/2026110723987",
@@ -663,19 +767,6 @@
     "image": "https://image.fnnews.com/resource/media/image/2026/11/04/202611041815050320_e.jpg"
   },
   {
-    "id": "053e4330c114",
-    "title": "AI 중심 사업 전환에 속도…SK네트웍스, 3분기 영업이익 201억원",
-    "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=229586",
-    "published_at": "2026-11-06T17:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.energy-news.co.kr/news/thumbnail/202611/229586_105495_194_v150.jpg"
-  },
-  {
     "id": "1069e6eae59c",
     "title": "SK네트웍스, 3분기 영업익 201억원 9.9%↓..\"AI 전환 비용\"",
     "link": "http://www.4th.kr/news/articleView.html?idxno=2121335",
@@ -687,6 +778,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.4th.kr/news/thumbnail/202611/2121335_223148_1627_v150.jpg"
+  },
+  {
+    "id": "053e4330c114",
+    "title": "AI 중심 사업 전환에 속도…SK네트웍스, 3분기 영업이익 201억원",
+    "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=229586",
+    "published_at": "2026-11-06T17:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.energy-news.co.kr/news/thumbnail/202611/229586_105495_194_v150.jpg"
   },
   {
     "id": "ca0ebe7828ec",
@@ -767,19 +871,6 @@
     "image": "https://cdnimage.dailian.co.kr/news/202611/news_1793952765343_1711933_m_1.jpg"
   },
   {
-    "id": "33a9dee2639d",
-    "title": "SK네트웍스, 3분기 영업익 201억원…전년 대비 9.9%↓",
-    "link": "https://biz.heraldcorp.com/article/10928869?ref=naver",
-    "published_at": "2026-11-06T17:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/news-p.v1.20261106.919f7d963a594522859ed4f14e84e1e4_P1.jpg"
-  },
-  {
     "id": "4b34f6236d09",
     "title": "SK네트웍스, 3분기 영업익 201억 원…\"AX 비용 반영\"",
     "link": "http://www.iminju.net/news/articleView.html?idxno=172100",
@@ -791,6 +882,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.iminju.net/news/thumbnail/202611/172100_184136_715_v150.jpg"
+  },
+  {
+    "id": "33a9dee2639d",
+    "title": "SK네트웍스, 3분기 영업익 201억원…전년 대비 9.9%↓",
+    "link": "https://biz.heraldcorp.com/article/10928869?ref=naver",
+    "published_at": "2026-11-06T17:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/news-p.v1.20261106.919f7d963a594522859ed4f14e84e1e4_P1.jpg"
   },
   {
     "id": "6b0b10afd382",
@@ -817,97 +921,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.issuenbiz.com/news/thumbnail/202611/81353_81943_5932_v150.jpg"
-  },
-  {
-    "id": "825dcbbded2e",
-    "title": "[분석과 전망] '청정수소' 공급망, 탄소중립 시대 여는 궁극의 열쇠",
-    "link": "https://www.todayenergy.kr/news/articleView.html?idxno=305224",
-    "published_at": "2026-11-06T17:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.todayenergy.kr/news/thumbnail/202611/305224_178276_318_v150.jpg"
-  },
-  {
-    "id": "f9243dbd8a15",
-    "title": "아파트 선택 기준도 '디자인'…건설사들 특화설계 경쟁 치열",
-    "link": "https://www.gpkorea.com/news/articleView.html?idxno=148354",
-    "published_at": "2026-11-06T16:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.gpkorea.com/news/photo/202611/148354_315512_1445.jpg"
-  },
-  {
-    "id": "16918c43f831",
-    "title": "‘반짝 흑자’ 끝…석화 4사 3분기 손실만 5200억, ‘역래깅 늪’에 빠졌...",
-    "link": "https://www.mydaily.co.kr/page/view/2026110616110787769",
-    "published_at": "2026-11-06T16:49:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://mydaily.co.kr/photos/2026/11/06/2026110616481224569_l.jpg"
-  },
-  {
-    "id": "03dd794280a9",
-    "title": "코앞에 다가온 '죽음의 천사', 룩 업! [이브닝 브리핑]",
-    "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834446&plink=ORI&cooper=NAVER",
-    "published_at": "2026-11-06T16:48:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.sbs.co.kr/newimg/news/20261105/202238384_1280.jpg"
-  },
-  {
-    "id": "9f73ed135732",
-    "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 동반 하락… 대형주...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501997",
-    "published_at": "2026-11-06T16:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/501997_487088_4344_v150.jpg"
-  },
-  {
-    "id": "01886bb8ef08",
-    "title": "900V 시스템 장착한 지커 7X 신형 中서 공개… 향상된 성능과 안전성 눈...",
-    "link": "https://www.starnewskorea.com/business-life/2026/11/06/2026110616241799287",
-    "published_at": "2026-11-06T16:39:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/21/2026/11/2026110616241799287_1.jpg"
-  },
-  {
-    "id": "13c061e6f59e",
-    "title": "美 AI 데이터센터 규제 강화 우려···K조선 FDC 사업 탄력받을까",
-    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424844",
-    "published_at": "2026-11-06T16:38:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.sisajournal-e.com/news/thumbnail/202611/424844_241900_3416_v150.jpg"
   },
   {
     "id": "253c2a50d384",
