@@ -1,5 +1,70 @@
 [
   {
+    "id": "5d6e068c6747",
+    "title": "\"한국 잠수함 제쳐놓더니\"…캐나다, 독일과 계약에 변수",
+    "link": "https://www.hankyung.com/article/2026110723987",
+    "published_at": "2026-11-07T21:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202611/01.46344400.1.jpg"
+  },
+  {
+    "id": "c7d817489ec8",
+    "title": "시험대 선 K방산, 다음 승부처는",
+    "link": "https://www.mk.co.kr/article/12191283",
+    "published_at": "2026-11-07T21:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://static.mk.co.kr/2025/economy/images/economy600600.png"
+  },
+  {
+    "id": "ae402750d8a6",
+    "title": "韓 야구 대치욕!…김하성, MLB FA '최하위' 등급 평가→노시환은 아예 이...",
+    "link": "https://www.xportsnews.com/article/2216815",
+    "published_at": "2026-11-07T20:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1107/1794034835095585.webp"
+  },
+  {
+    "id": "2bba696a724c",
+    "title": "'307억 포기+MLB 도전' 노시환 향한 냉정 평가! \"장타력 확실하지만, 헛...",
+    "link": "https://www.xportsnews.com/article/2216872",
+    "published_at": "2026-11-07T18:45:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1107/1794041595437201.webp"
+  },
+  {
+    "id": "471fca40e2c3",
+    "title": "'충격 전망' 노시환 307억 포기할까...\"장타력 있지만, 한국 잔류 확률 ...",
+    "link": "http://www.osen.co.kr/article/G1112905750",
+    "published_at": "2026-11-07T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://file.osen.co.kr/article_thumb/2026/11/07/202611071146770767_6aee91cc3b2b7_300x.jpg"
+  },
+  {
     "id": "0d0363ab2c92",
     "title": "연구개발특구진흥재단, 첨단소재 해외 공급·55억원 투자 연계…기술사...",
     "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2365549",
@@ -364,19 +429,6 @@
     "image": ""
   },
   {
-    "id": "4a656ba3cc48",
-    "title": "SK네트웍스, 3Q 'AI 전환' 기반 다져…워커힐 영업익 57%↑",
-    "link": "https://www.econovill.com/news/articleView.html?idxno=756351",
-    "published_at": "2026-11-06T18:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.econovill.com/news/thumbnail/202611/756351_733807_4942_v150.jpg"
-  },
-  {
     "id": "0a6838612b22",
     "title": "美 '블루웨이브' 쇼크에 코스피 6% 폭락...반도체 넘어 전력·증권주까지...",
     "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=320157",
@@ -390,17 +442,17 @@
     "image": "https://cdn.wolyo.co.kr/news/photo/202611/320157_229276_022.png"
   },
   {
-    "id": "a61eb91fcc56",
-    "title": "SK네트웍스, 3분기 영업이익 201억원…조직 개편에 전년比 9.9% 감소",
-    "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=369149",
-    "published_at": "2026-11-06T18:02:00+09:00",
+    "id": "4a656ba3cc48",
+    "title": "SK네트웍스, 3Q 'AI 전환' 기반 다져…워커힐 영업익 57%↑",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=756351",
+    "published_at": "2026-11-06T18:06:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.ftoday.co.kr/news/thumbnail/202611/369149_379226_4259_v150.jpg"
+    "image": "https://cdn.econovill.com/news/thumbnail/202611/756351_733807_4942_v150.jpg"
   },
   {
     "id": "ff663bc362d7",
@@ -416,6 +468,19 @@
     "image": "https://pimg.mk.co.kr/news/cms/202611/06/news-p.v1.20261105.61f357fbf87a4279bb4052764d6657b1_R.jpg"
   },
   {
+    "id": "a61eb91fcc56",
+    "title": "SK네트웍스, 3분기 영업이익 201억원…조직 개편에 전년比 9.9% 감소",
+    "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=369149",
+    "published_at": "2026-11-06T18:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ftoday.co.kr/news/thumbnail/202611/369149_379226_4259_v150.jpg"
+  },
+  {
     "id": "e4bc2fc94f29",
     "title": "SK네트웍스, 3분기 영업익 201억…전년比 9.9%↓",
     "link": "http://www.newslock.co.kr/news/articleView.html?idxno=139554",
@@ -429,19 +494,6 @@
     "image": "https://cdn.newslock.co.kr/news/thumbnail/202611/139554_126805_5727_v150.jpg"
   },
   {
-    "id": "2f55120708a0",
-    "title": "석유화학街, 3Q '역래깅'에 수익성 악화…연말 반등도 불투명",
-    "link": "http://www.newsdream.kr/news/articleView.html?idxno=121630",
-    "published_at": "2026-11-06T17:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsdream.kr/news/thumbnail/202611/121630_94680_5016_v150.jpg"
-  },
-  {
     "id": "d53e71a73225",
     "title": "SK네트웍스, 3분기 영업익 9.9% 감소…호텔·광고는 선방",
     "link": "https://www.m-i.kr/news/articleView.html?idxno=2015643",
@@ -453,6 +505,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.m-i.kr/news/photo/202611/2015643_2016066_5336.jpg"
+  },
+  {
+    "id": "2f55120708a0",
+    "title": "석유화학街, 3Q '역래깅'에 수익성 악화…연말 반등도 불투명",
+    "link": "http://www.newsdream.kr/news/articleView.html?idxno=121630",
+    "published_at": "2026-11-06T17:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsdream.kr/news/thumbnail/202611/121630_94680_5016_v150.jpg"
   },
   {
     "id": "f5b56e2533f6",
@@ -494,19 +559,6 @@
     "image": "https://cdn.polinews.co.kr/news/photo/202611/747918_572458_434.jpg"
   },
   {
-    "id": "78021a9abc6e",
-    "title": "SK네트웍스, AX 체질 개선 속 3분기 영업익 201억원 기록",
-    "link": "https://www.pointe.co.kr/news/articleView.html?idxno=87318",
-    "published_at": "2026-11-06T17:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pointe.co.kr/news/photo/202611/87318_118349_236.png"
-  },
-  {
     "id": "d2239da62095",
     "title": "한국형 핵잠 ‘장보고 N’ 내년 경쟁입찰…2030년대 중반 진수 목표",
     "link": "http://www.newstomato.com/ReadNews.aspx?no=1319591&inflow=N",
@@ -518,6 +570,19 @@
       "한화시스템"
     ],
     "image": "https://image.newstomato.com/newsimg/2026/11/6/1319591/attach.jpg?v=202611061740"
+  },
+  {
+    "id": "78021a9abc6e",
+    "title": "SK네트웍스, AX 체질 개선 속 3분기 영업익 201억원 기록",
+    "link": "https://www.pointe.co.kr/news/articleView.html?idxno=87318",
+    "published_at": "2026-11-06T17:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pointe.co.kr/news/photo/202611/87318_118349_236.png"
   },
   {
     "id": "36048656cf13",
@@ -556,7 +621,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.greened.kr/news/thumbnail/202611/354086_406146_3134_v150.jpg"
+    "image": "https://www.greened.kr/news/thumbnail/202611/354086_406146_3134_v150.jpg"
   },
   {
     "id": "0d388ed20360",
@@ -598,9 +663,9 @@
     "image": "https://image.fnnews.com/resource/media/image/2026/11/04/202611041815050320_e.jpg"
   },
   {
-    "id": "ca0ebe7828ec",
-    "title": "SK네트웍스 3분기 영업이익 201억, 전년比 9.9%↓…AI 전환 본격화",
-    "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304453",
+    "id": "053e4330c114",
+    "title": "AI 중심 사업 전환에 속도…SK네트웍스, 3분기 영업이익 201억원",
+    "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=229586",
     "published_at": "2026-11-06T17:22:00+09:00",
     "sources": [
       "Naver"
@@ -608,7 +673,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newsquest.co.kr/news/photo/202611/304453_205277_209.jpg"
+    "image": "https://cdn.energy-news.co.kr/news/thumbnail/202611/229586_105495_194_v150.jpg"
   },
   {
     "id": "1069e6eae59c",
@@ -624,9 +689,9 @@
     "image": "https://cdn.4th.kr/news/thumbnail/202611/2121335_223148_1627_v150.jpg"
   },
   {
-    "id": "053e4330c114",
-    "title": "AI 중심 사업 전환에 속도…SK네트웍스, 3분기 영업이익 201억원",
-    "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=229586",
+    "id": "ca0ebe7828ec",
+    "title": "SK네트웍스 3분기 영업이익 201억, 전년比 9.9%↓…AI 전환 본격화",
+    "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304453",
     "published_at": "2026-11-06T17:22:00+09:00",
     "sources": [
       "Naver"
@@ -634,7 +699,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.energy-news.co.kr/news/thumbnail/202611/229586_105495_194_v150.jpg"
+    "image": "https://cdn.newsquest.co.kr/news/photo/202611/304453_205277_209.jpg"
   },
   {
     "id": "2c55fd1d921a",
@@ -663,19 +728,6 @@
     "image": "https://cdn.smartbizn.com/news/photo/202611/158734_266405_5716.jpg"
   },
   {
-    "id": "5a1d2475d69e",
-    "title": "SK네트웍스, 3분기 영업익 201억···전년比 9.87%↓",
-    "link": "http://www.popcornnews.net/news/articleView.html?idxno=139077",
-    "published_at": "2026-11-06T17:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139077_165628_1353_v150.jpg"
-  },
-  {
     "id": "57c95a0ed2d2",
     "title": "SK네트웍스, 3Q 영업익 201억원…'AI 지주사' 전환 속도",
     "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730781",
@@ -687,6 +739,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1730781_766482_558_v150.jpg"
+  },
+  {
+    "id": "5a1d2475d69e",
+    "title": "SK네트웍스, 3분기 영업익 201억···전년比 9.87%↓",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=139077",
+    "published_at": "2026-11-06T17:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139077_165628_1353_v150.jpg"
   },
   {
     "id": "04cf035b4c06",
@@ -843,45 +908,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.sisajournal-e.com/news/thumbnail/202611/424844_241900_3416_v150.jpg"
-  },
-  {
-    "id": "1eda47fa737c",
-    "title": "미래에셋 \"미국 중간선거 이후 S&P500·빅테크 ETF 주목\"",
-    "link": "http://www.4th.kr/news/articleView.html?idxno=2121330",
-    "published_at": "2026-11-06T16:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.4th.kr/news/thumbnail/202611/2121330_223120_052_v150.jpg"
-  },
-  {
-    "id": "654ebce3c322",
-    "title": "한·폴란드, 유도로켓 현지 생산 추진 [외신에 비친 한국]",
-    "link": "https://www.ktv.go.kr/content/view?content_id=763632",
-    "published_at": "2026-11-06T16:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.ktv.go.kr/media/contents/image/2026/11/06/QjnPhNUYyn.jpg"
-  },
-  {
-    "id": "5a3401e1662c",
-    "title": "“디테일이 곧 가치”…건설사 특화 디자인이 주거 경쟁력 가른다",
-    "link": "https://www.lawissue.co.kr/view.php?ud=20261106162649104067191f6c6e_12",
-    "published_at": "2026-11-06T16:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026110616272202450067191f6c6e219250129182.jpg&nmt=12"
   },
   {
     "id": "253c2a50d384",
