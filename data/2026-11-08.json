@@ -1,5 +1,70 @@
 [
   {
+    "id": "bb710e1f920e",
+    "title": "'307억 포기→ML 도전' 노시환 \"감독님 죄송합니다\" 문자 보냈다…류지...",
+    "link": "http://www.osen.co.kr/article/G1112906742",
+    "published_at": "2026-11-09T01:21:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://file.osen.co.kr/article_thumb/2026/11/08/202611081733776745_6af0394c10d98_300x.jpg"
+  },
+  {
+    "id": "19b822c29dc8",
+    "title": "'11년 307억' 포기하고 'MLB 도전' 노시환! 美 현지 평가 엇갈렸다…\"한...",
+    "link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553683258",
+    "published_at": "2026-11-09T01:13:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sportalkorea.com/news/photo/202611/2025052909553683258_2772039_727.jpg"
+  },
+  {
+    "id": "984b637df8d4",
+    "title": "'307억 포기' 노시환 초대형 경사! 양키스 또 연결됐다…\"한국 돌아갈 것...",
+    "link": "https://www.xportsnews.com/article/2217385",
+    "published_at": "2026-11-09T01:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1109/1794150824198105.webp"
+  },
+  {
+    "id": "41a86c44ce92",
+    "title": "“노시환 ML에서 중요한 역할 할 것 같지 않다…韓돌아갈 가능성 크다”...",
+    "link": "https://www.mydaily.co.kr/page/view/2026110813563899846",
+    "published_at": "2026-11-09T00:10:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://mydaily.co.kr/photos/2026/08/18/2026081821030110179_l.jpg"
+  },
+  {
+    "id": "8a8543681057",
+    "title": "SK네트웍스, 3분기 영업익 201억원…AI 투자 확대·체질 개선 속도",
+    "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=362118",
+    "published_at": "2026-11-08T21:38:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.biztribune.co.kr/news/thumbnail/202611/362118_268143_125_v150.jpg"
+  },
+  {
     "id": "d1e917c33e01",
     "title": "독자 성장 기반 마련한 카카오페이손보…장영근 대표 연임 청신호",
     "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261106010002609",
@@ -468,19 +533,6 @@
     "image": "https://cdn.the-today.com/news/photo/202611/93261_114780_5259.png"
   },
   {
-    "id": "97bfae83fcef",
-    "title": "\"'미미삼'이냐, '상계주공'이냐\" 노원 재건축 대장은?…추가 분담금 보...",
-    "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110602274.html",
-    "published_at": "2026-11-08T06:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.chosun.com/sitedata/image/202611/06/2026110602271_0.jpg"
-  },
-  {
     "id": "4e655984285b",
     "title": "쇄빙선 핵심 설비 개발해 본고장 유럽에 공급하는 中… “韓도 국산화 ...",
     "link": "https://biz.chosun.com/industry/company/2026/11/08/DZYAJEXKEZEXDB2LTQYJOM5ZDU/?utm_source=naver&utm_medium=original&utm_campaign=biz",
@@ -492,6 +544,19 @@
       "한화시스템"
     ],
     "image": "https://biz.chosun.com/resizer/v2/ND7CUHYMLVD2RMAU5P5K23SZOE.png?auth=198a2260a124c1de2450bbb698707693df59c6ba633f8e87c398545ae250d6bd&width=574&height=300&smart=true"
+  },
+  {
+    "id": "97bfae83fcef",
+    "title": "\"'미미삼'이냐, '상계주공'이냐\" 노원 재건축 대장은?…추가 분담금 보...",
+    "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110602274.html",
+    "published_at": "2026-11-08T06:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.chosun.com/sitedata/image/202611/06/2026110602271_0.jpg"
   },
   {
     "id": "1d675de44784",
@@ -843,32 +908,6 @@
       "한화시스템"
     ],
     "image": "http://www.worktoday.co.kr/news/thumbnail/202611/91633_131881_3610_v150.jpg"
-  },
-  {
-    "id": "98dbe567318d",
-    "title": "“지하수 오염 우려에 제주 군사화” 환경평가 부동의 촉구",
-    "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8706395&ref=A",
-    "published_at": "2026-11-06T21:59:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://news.kbs.co.kr/data/news/title_image/newsmp4/jeju/news9/2026/11/06/80_8706395.jpg"
-  },
-  {
-    "id": "777057d94fb1",
-    "title": "한국모니터링시스템, 용접 품질을 읽는 기술에서 공정을 제어하는 AI로",
-    "link": "https://www.venturesquare.net/1126482/",
-    "published_at": "2026-11-06T20:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.venturesquare.net/wp-content/uploads/2026/11/Monisys.png"
   },
   {
     "id": "253c2a50d384",
