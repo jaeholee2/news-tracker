@@ -1,5 +1,96 @@
 [
   {
+    "id": "9140f8becd80",
+    "title": "\"서울에선 엄두 못 내\"…경기 남부 소형 아파트 신고가 행진",
+    "link": "https://www.newsis.com/view/NISX20261110_0003862594",
+    "published_at": "2026-11-11T04:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img1.newsis.com/2026/11/02/NISI20261102_0021515371_web.jpg"
+  },
+  {
+    "id": "9ec95f1dfde3",
+    "title": "'매출은 역대 최대, 수익성은 새로운 시험대' 넥슨 2026년 3분기 실적발...",
+    "link": "https://www.gamechosun.co.kr/webzine/article/view.php?no=227417",
+    "published_at": "2026-11-11T02:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.gamechosun.co.kr/dataroom/article/20261111/227417/918771_1794328283.jpg"
+  },
+  {
+    "id": "e7512dd9ad02",
+    "title": "\"노시환, 결국 한국으로 돌아올 가능성 높다\" 美 현지 냉정한 전망…MLB...",
+    "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019102",
+    "published_at": "2026-11-11T01:35:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019102_2040083_3767.jpg"
+  },
+  {
+    "id": "fbe704edbf03",
+    "title": "[인더리포트] 미국 ‘블루웨이브’에 한국 산업계 희비…반도체·전력기...",
+    "link": "https://www.inthenews.co.kr/news/article.html?no=94297",
+    "published_at": "2026-11-11T01:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.inthenews.co.kr/data/photos/20261146/art_17942998108693_7ea725.jpg"
+  },
+  {
+    "id": "a7375d455000",
+    "title": "11월 2주 주요 제조업 전망",
+    "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41789",
+    "published_at": "2026-11-11T00:39:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.laborplus.co.kr/news/photo/202611/41789_74924_5731.jpg"
+  },
+  {
+    "id": "48b52dafde12",
+    "title": "ESS는 비싸기만 하고 돈이 안 된다?",
+    "link": "https://www.danbinews.com/news/articleView.html?idxno=34117",
+    "published_at": "2026-11-10T21:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.danbinews.com/news/photo/202611/34117_44679_3349.png"
+  },
+  {
+    "id": "5fc4caff3c2a",
+    "title": "TK 상장사, 3개월 만에 시총 100조 붕괴",
+    "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=564984",
+    "published_at": "2026-11-10T21:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.idaegu.co.kr/image/logo/snslogo_20241121032237.png"
+  },
+  {
     "id": "a5488fd32942",
     "title": "\"연봉 2억에 달에서 일하실 분?\"…NASA, 우주비행사 모집",
     "link": "https://www.ikbc.co.kr/article/view/kbc202611100086",
@@ -140,7 +231,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": ""
+    "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026111017443700964074925877365829148192.jpg&nmt=18"
   },
   {
     "id": "6fa952b13f5d",
@@ -455,19 +546,6 @@
     "image": ""
   },
   {
-    "id": "dd93fe7a2301",
-    "title": "[김대호 인물] 위기의 젠슨황 \"엔비디아 주주 집단소송\"",
-    "link": "https://www.g-enews.com/view.php?ud=202611101226253333906806b77b_1",
-    "published_at": "2026-11-10T16:20:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111012300701059906806b77b211118227131.jpg"
-  },
-  {
     "id": "646f56dcceef",
     "title": "美 반도체 훈풍, 코스피 '질주'...대한항공·삼성SDI·효성 '껑충'",
     "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=173066",
@@ -479,6 +557,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.choicenews.co.kr/news/thumbnail/202611/173066_132711_1932_v150.jpg"
+  },
+  {
+    "id": "dd93fe7a2301",
+    "title": "[김대호 인물] 위기의 젠슨황 \"엔비디아 주주 집단소송\"",
+    "link": "https://www.g-enews.com/view.php?ud=202611101226253333906806b77b_1",
+    "published_at": "2026-11-10T16:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111012300701059906806b77b211118227131.jpg"
   },
   {
     "id": "600243d81139",
@@ -507,19 +598,6 @@
     "image": "https://static.mk.co.kr/facebook_mknews.jpg"
   },
   {
-    "id": "f124d368b893",
-    "title": "[의료기기업계 소식] 11월 10일",
-    "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240984",
-    "published_at": "2026-11-10T16:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.doctorstimes.com/news/thumbnail/202611/240984_114596_3956_v150.jpg"
-  },
-  {
     "id": "00add5f5ee6e",
     "title": "넥슨 3분기 매출 1조2312억원 잭팟 \"메이플·FC 온라인 사랑해\"",
     "link": "https://www.econovill.com/news/articleView.html?idxno=756709",
@@ -531,6 +609,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.econovill.com/news/thumbnail/202611/756709_734275_1444_v150.jpg"
+  },
+  {
+    "id": "f124d368b893",
+    "title": "[의료기기업계 소식] 11월 10일",
+    "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240984",
+    "published_at": "2026-11-10T16:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.doctorstimes.com/news/thumbnail/202611/240984_114596_3956_v150.jpg"
   },
   {
     "id": "863a6b3a950d",
@@ -804,57 +895,5 @@
       "한화시스템"
     ],
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111001629.jpg"
-  },
-  {
-    "id": "fedd594c6856",
-    "title": "워커힐·인크로스가 받친 SK네트웍스, 3분기 매출 1조9357억원",
-    "link": "http://www.koreastocknews.com/news/articleView.html?idxno=122193",
-    "published_at": "2026-11-10T14:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.koreastocknews.com/news/thumbnail/202611/122193_102437_651_v150.jpg"
-  },
-  {
-    "id": "90e23fbdb7ae",
-    "title": "중국에 전투기 부품 넘어갔는데…“美 F-35 부품 1만 7000개 행방 묘연”...",
-    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261110601010&wlog_tag3=naver",
-    "published_at": "2026-11-10T14:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://imgnn.seoul.co.kr/img/upload/2026/11/10/SSC_20261110130513.jpg.webp"
-  },
-  {
-    "id": "1a02bcb518ef",
-    "title": "삼성은 FA 구자욱, 원태인 잡을 수 있을까",
-    "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003283503&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-    "published_at": "2026-11-10T13:51:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://ojsfile.ohmynews.com/BIG_IMG_FILE/2026/1108/IE003695778_BIG.jpg"
-  },
-  {
-    "id": "bee5fbe4444d",
-    "title": "AI 반도체가 부른 장비 투자 확대…소부장주 상승 탄력 '눈에 띄네'",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=502706",
-    "published_at": "2026-11-10T13:48:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/502706_487718_476_v150.jpg"
   }
 ]
