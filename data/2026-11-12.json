@@ -1,5 +1,96 @@
 [
   {
+    "id": "a6b83c2f7c43",
+    "title": "[Invest]발행어음 역마진까지 우려되는데...대기업 딜 놓칠 수 없는 증권...",
+    "link": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280162.html",
+    "published_at": "2026-11-13T07:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.investchosun.com/site/data/img_dir/2026/11/12/2026111280160_0.png"
+  },
+  {
+    "id": "2ed0ff7e0568",
+    "title": "[Who Is ?] 유진수 STX엔진 대표이사",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=450849",
+    "published_at": "2026-11-13T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "0efd1df1e841",
+    "title": "‘포스트 젠슨 황’ 시대, 반도체 패권 어디로…삼성·SK하이닉스에 기...",
+    "link": "http://kor.theasian.asia/archives/421616",
+    "published_at": "2026-11-13T05:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://kor.theasian.asia/wp-content/uploads/2026/11/image-141-960x540.png"
+  },
+  {
+    "id": "fe41c8027348",
+    "title": "[서울광장] 대마불벌의 K방산",
+    "link": "https://www.seoul.co.kr/news/editOpinion/seoul-plaza/2026/11/13/20261113026001?wlog_tag3=naver",
+    "published_at": "2026-11-13T05:15:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.seoul.co.kr//img/upload/2026/10/22/SSC_20261022015208_O2.png.webp"
+  },
+  {
+    "id": "409dd8afb1de",
+    "title": "홍합 접착력 연구해 年400억 실적…매출 꽃 피우는 '공공기술'",
+    "link": "https://www.mt.co.kr/future/2026/11/13/2026111215033877451",
+    "published_at": "2026-11-13T05:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026111215033877451_1.jpg"
+  },
+  {
+    "id": "f4c403295f6f",
+    "title": "미국부터 유럽까지 뿌리내린 팬덤…컴투스 ‘서머너즈 워’가 12년을 달...",
+    "link": "https://www.gamechosun.co.kr/webzine/article/view.php?no=227508",
+    "published_at": "2026-11-13T04:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.gamechosun.co.kr/dataroom/article/20261112/227508/418672_1794453715.jpg"
+  },
+  {
+    "id": "bc3a1c698a97",
+    "title": "울산무협·화주물류협 '2026 물류개선경진대회'",
+    "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1072432",
+    "published_at": "2026-11-13T00:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ksilbo.co.kr/news/thumbnail/202611/1072432_650269_0903_v150.jpg"
+  },
+  {
     "id": "1e776ba4d920",
     "title": "솔디펜스 전술다련장 부품 계약 종료일 연장",
     "link": "https://www.vegannews.co.kr/news/article.html?no=404232",
@@ -117,19 +208,6 @@
     "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/882844_908763_4851_v150.jpg"
   },
   {
-    "id": "f4d7ebe31370",
-    "title": "KF-21 호위할 대한항공 무인기 로우스, 연말 첫 비행 나서는 진짜 이유",
-    "link": "https://www.g-enews.com/view.php?ud=202611121839015978fbbec65dfb_1",
-    "published_at": "2026-11-12T18:50:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111218472902251fbbec65dfb211211153121.jpg"
-  },
-  {
     "id": "0db0a286ea9f",
     "title": "[게임뉴스] 크래프톤 및 플레이위드코리아 소식 외",
     "link": "https://www.gamevu.co.kr/news/articleView.html?idxno=62248",
@@ -141,6 +219,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.gamevu.co.kr/news/photo/202611/62248_101963_5558.jpg"
+  },
+  {
+    "id": "f4d7ebe31370",
+    "title": "KF-21 호위할 대한항공 무인기 로우스, 연말 첫 비행 나서는 진짜 이유",
+    "link": "https://www.g-enews.com/view.php?ud=202611121839015978fbbec65dfb_1",
+    "published_at": "2026-11-12T18:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111218472902251fbbec65dfb211211153121.jpg"
   },
   {
     "id": "485d4a5b2db9",
@@ -328,19 +419,6 @@
     "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202611/4118285_783179_2314_v150.jpg"
   },
   {
-    "id": "bf50710cd0f2",
-    "title": "이 대통령, 상원의장 접견···한·우즈벡 협력 강화 [외신에 비친 한국...",
-    "link": "https://www.ktv.go.kr/content/view?content_id=763916",
-    "published_at": "2026-11-12T16:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.ktv.go.kr/media/contents/image/2026/11/12/XrdtCU8iSU.jpg"
-  },
-  {
     "id": "49b2786a162a",
     "title": "[유통 상권 격전지]③신세계 우세 굳힌 대전…타임월드 주인 바뀔까",
     "link": "https://www.bloter.net/news/articleView.html?idxno=678414",
@@ -354,17 +432,17 @@
     "image": "https://cdn.bloter.net/news/thumbnail/202611/678414_293165_2531_v150.jpg"
   },
   {
-    "id": "7219f63540b6",
-    "title": "김재형 유캐스트 대표 \"기술력은 자신 있다…해외 방산시장 정조준\"",
-    "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48986",
-    "published_at": "2026-11-12T16:14:00+09:00",
+    "id": "bf50710cd0f2",
+    "title": "이 대통령, 상원의장 접견···한·우즈벡 협력 강화 [외신에 비친 한국...",
+    "link": "https://www.ktv.go.kr/content/view?content_id=763916",
+    "published_at": "2026-11-12T16:30:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.newstopkorea.com/news/photo/202611/48986_50372_2615.jpeg"
+    "image": "https://www.ktv.go.kr/media/contents/image/2026/11/12/XrdtCU8iSU.jpg"
   },
   {
     "id": "8721c059fc39",
@@ -378,6 +456,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1424611_1603020_1035_v150.jpg"
+  },
+  {
+    "id": "7219f63540b6",
+    "title": "김재형 유캐스트 대표 \"기술력은 자신 있다…해외 방산시장 정조준\"",
+    "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48986",
+    "published_at": "2026-11-12T16:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newstopkorea.com/news/photo/202611/48986_50372_2615.jpeg"
   },
   {
     "id": "22ec9cd9c8a8",
@@ -431,7 +522,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/12/822be509e35a4ea7b4a3e6768c2e97c1/thumb.jpg"
+    "image": ""
   },
   {
     "id": "b0f4bce76551",
@@ -499,19 +590,6 @@
     "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111201359.jpg"
   },
   {
-    "id": "a676cecb8c05",
-    "title": "[건설브리핑] 포스코이앤씨, 고창 해상풍력 사업 착수 외",
-    "link": "https://www.seoulfn.com/news/articleView.html?idxno=642641",
-    "published_at": "2026-11-12T15:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.seoulfn.com/news/photo/202611/642641_446837_2449.jpg"
-  },
-  {
     "id": "d6adc872d644",
     "title": "[더벨][IR Briefing | 유캐스트 IPO] 김재형 대표 \"중소형 특화망 공략, ...",
     "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611121447152240109665",
@@ -523,6 +601,19 @@
       "한화시스템"
     ],
     "image": ""
+  },
+  {
+    "id": "a676cecb8c05",
+    "title": "[건설브리핑] 포스코이앤씨, 고창 해상풍력 사업 착수 외",
+    "link": "https://www.seoulfn.com/news/articleView.html?idxno=642641",
+    "published_at": "2026-11-12T15:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.seoulfn.com/news/photo/202611/642641_446837_2449.jpg"
   },
   {
     "id": "5db4623dc680",
@@ -603,19 +694,6 @@
     "image": "https://www.newsprime.co.kr/data/photos/cdn/20261146/art_754733_1794460689.jpg"
   },
   {
-    "id": "892f30b382aa",
-    "title": "금호건설, 3Q 영업익 222억원…전년比 44%↑ [건설·분양오늘]",
-    "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=206011",
-    "published_at": "2026-11-12T14:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.sisaon.co.kr/news/photo/202611/206011_309177_99.jpg"
-  },
-  {
     "id": "1fe30128bf43",
     "title": "싸이터-플레인비트, 해양 사이버 사고조사·대응 역량 강화 위한 업무협...",
     "link": "https://www.dailysecu.com/news/articleView.html?idxno=209465",
@@ -629,6 +707,19 @@
     "image": "https://cdn.dailysecu.com/news/photo/202611/209465_210503_2121.jpg"
   },
   {
+    "id": "892f30b382aa",
+    "title": "금호건설, 3Q 영업익 222억원…전년比 44%↑ [건설·분양오늘]",
+    "link": "https://www.sisaon.co.kr/news/articleView.html?idxno=206011",
+    "published_at": "2026-11-12T14:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sisaon.co.kr/news/photo/202611/206011_309177_99.jpg"
+  },
+  {
     "id": "1f96584a3567",
     "title": "中 스마트 선박 상업화…신조시장 주도권 경쟁 ‘치열’",
     "link": "https://dealsite.co.kr/articles/172584",
@@ -639,20 +730,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/d7a1af673fee7fd342d5270473c2f881/thumb.jpg"
-  },
-  {
-    "id": "d8b44c614da4",
-    "title": "AP위성, UAE 차세대 하이브리드 위성 스마트폰 사업 수주",
-    "link": "https://www.mt.co.kr/stock/2026/11/12/2026111209334680798",
-    "published_at": "2026-11-12T14:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=604,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111209334680798_1.jpg"
+    "image": ""
   },
   {
     "id": "795d72f03c26",
@@ -666,6 +744,19 @@
       "한화시스템"
     ],
     "image": "https://img.newspim.com/news/2026/11/12/2611121127424160_978_tc.jpg"
+  },
+  {
+    "id": "d8b44c614da4",
+    "title": "AP위성, UAE 차세대 하이브리드 위성 스마트폰 사업 수주",
+    "link": "https://www.mt.co.kr/stock/2026/11/12/2026111209334680798",
+    "published_at": "2026-11-12T14:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=604,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111209334680798_1.jpg"
   },
   {
     "id": "71fc717a7676",
@@ -837,19 +928,6 @@
     "image": "https://cdn.newspost.kr/news/thumbnail/202611/227321_229859_3532_v150.jpg"
   },
   {
-    "id": "0f1f237f91d9",
-    "title": "\"산학연 협력 빛났다\"...성균관대, 고교생 대상 'AI 심화연구반 멘토링...",
-    "link": "http://www.popcornnews.net/news/articleView.html?idxno=139796",
-    "published_at": "2026-11-12T11:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139796_166442_5659_v150.jpg"
-  },
-  {
     "id": "52731f5306e8",
     "title": "“장보기도 대용량 시대”...식생활 변화에 아파트 주방·수납 설계 진화",
     "link": "https://www.thebigdata.co.kr/view.php?ud=202611121128382460df3c2a17b7_23",
@@ -876,17 +954,17 @@
     "image": "https://cdn.rcast.co.kr/news/thumbnail/202611/32049_62330_527_v150.jpg"
   },
   {
-    "id": "c82e6ab1850a",
-    "title": "'민생·AI·청년' 대전시 내년도 본예산 8조 85억 편성",
-    "link": "http://www.dtnews24.com/news/articleView.html?idxno=817118",
-    "published_at": "2026-11-12T11:52:00+09:00",
+    "id": "0f1f237f91d9",
+    "title": "\"산학연 협력 빛났다\"...성균관대, 고교생 대상 'AI 심화연구반 멘토링...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=139796",
+    "published_at": "2026-11-12T11:58:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.dtnews24.com/news/thumbnail/202611/817118_443338_2232_v150.jpg"
+    "image": "https://cdn.popcornnews.net/news/thumbnail/202611/139796_166442_5659_v150.jpg"
   },
   {
     "id": "a5efb52d4726",
@@ -900,110 +978,6 @@
       "한화시스템"
     ],
     "image": "https://www.headlinejeju.co.kr/news/photo/202611/602024_499283_4859.jpg"
-  },
-  {
-    "id": "ca078e8275b3",
-    "title": "성균관대 영재학교/과학고생 대상 'AI 심화연구반 멘토링 캠프'.. '삼성...",
-    "link": "https://www.veritas-a.com/news/articleView.html?idxno=636728",
-    "published_at": "2026-11-12T11:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.veritas-a.com/news/thumbnail/202611/636728_550867_5120_v150.jpg"
-  },
-  {
-    "id": "cb1944cedc3b",
-    "title": "부산 벡스코 프랜차이즈 창업박람회 개최… 14일까지 참가업체는?",
-    "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5082637",
-    "published_at": "2026-11-12T11:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5082637_2080127_3333.jpg"
-  },
-  {
-    "id": "23c6b6da4cd7",
-    "title": "[특징주] 외국인 '삼성전자·모아라이프플러스', 기관 '심텍홀딩스·티...",
-    "link": "https://www.newstnt.com/news/articleView.html?idxno=728079",
-    "published_at": "2026-11-12T11:36:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newstnt.com/news/photo/202611/728079_733687_349.jpg"
-  },
-  {
-    "id": "ee5d8fc1e1eb",
-    "title": "성균관대, 고교생·대학·기업 잇는 AI 인재양성 캠프 개최",
-    "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491614",
-    "published_at": "2026-11-12T11:35:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2491614_1338273_266_v150.jpg"
-  },
-  {
-    "id": "f6038b4c682e",
-    "title": "\"고교생과 대학·첨단 대기업의 만남\"… 성균관대, 미래 AI 인재 양성 위...",
-    "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=132438",
-    "published_at": "2026-11-12T11:32:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.dailysmart.co.kr/news/photo/202611/132438_131725_2939.png"
-  },
-  {
-    "id": "2a64420c6611",
-    "title": "한전, 자사 보유 발전·에너지·환경 분야 기술·연구 인프라 산업계에...",
-    "link": "http://www.e-platform.net/news/articleView.html?idxno=106919",
-    "published_at": "2026-11-12T11:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.e-platform.net/news/thumbnail/202611/106919_78905_2130_v150.jpg"
-  },
-  {
-    "id": "6daa289023f6",
-    "title": "정부추진 제주 실증사업 효과 없는 이유는?",
-    "link": "https://www.jejudomin.co.kr/news/articleView.html?idxno=402271",
-    "published_at": "2026-11-12T11:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jejudomin.co.kr/news/photo/202611/402271_402382_371.jpeg"
-  },
-  {
-    "id": "5b4c35c6e952",
-    "title": "제주 우주산업단지 하원테크노파크 밑그림 그린다",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54R1d4LWI2ZXdJRFNVWjVvVzFFcFZXQ1YtbTh6VnlFeFBmeUs2azlGanRBWXdTbUozNEdmYnZNZTUtNUM1b0h3WGV0TEpraWhW?oc=5",
-    "published_at": "2026-11-12T00:10:11+00:00",
-    "sources": [
-      "매일경제 마켓"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
   },
   {
     "id": "baf833d1136a",
