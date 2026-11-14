@@ -1,5 +1,96 @@
 [
   {
+    "id": "42147ca6889c",
+    "title": "LIG D&A 방산업체 지정취소 검토에 여야 “신중 검토” 주문…김정관 “...",
+    "link": "https://www.munhwa.com/article/11631308?ref=naver",
+    "published_at": "2026-11-14T23:43:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.munhwa.com/news/cms/2026/11/14/news-p.v1.20261114.0dedef38d6e0499f91c2cafc78db0aec_R.jpg"
+  },
+  {
+    "id": "f52ee8ac92fa",
+    "title": "주주환원 정책이 주가 갈랐다…밸류업 종목별 차별화 뚜렷",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504095",
+    "published_at": "2026-11-14T19:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504095_489013_2142_v150.jpg"
+  },
+  {
+    "id": "a0941b4f0646",
+    "title": "'땅볼-뜬공-삼진-삼진' 한일전 무안타에도…\"남은 경기 다 이겨야죠\" 신...",
+    "link": "https://www.xportsnews.com/article/2219501",
+    "published_at": "2026-11-14T18:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1114/1794646080246080.webp"
+  },
+  {
+    "id": "1eb18b774d9c",
+    "title": "전력 부족에 데이터센터까지…지엔씨에너지·케이아이엔엑스 주목",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504071",
+    "published_at": "2026-11-14T16:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504071_488990_547_v150.jpg"
+  },
+  {
+    "id": "91f7161d0621",
+    "title": "켄코아에어로스페이스 상승률 선두…UAM 관련주 투자 열기 확산",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504070",
+    "published_at": "2026-11-14T16:50:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504070_488989_4735_v150.jpg"
+  },
+  {
+    "id": "749a5b7fc736",
+    "title": "엔진주는 주춤했지만 특화 기자재는 상승… 조선기자재주 온도차 뚜렷",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504068",
+    "published_at": "2026-11-14T16:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504068_488987_3217_v150.jpg"
+  },
+  {
+    "id": "d66b24ebfd45",
+    "title": "SNT모티브·원익머트리얼즈 강세… 수소 관련주 무슨 이슈 있나",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504067",
+    "published_at": "2026-11-14T16:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504067_488986_2232_v150.jpg"
+  },
+  {
     "id": "8f9f444723bb",
     "title": "중국 AI 인프라의 역설…미국 제재 속 엔비디아 칩 수요 여전",
     "link": "https://www.jemin.com/news/articleView.html?idxno=847264",
@@ -234,19 +325,6 @@
     "image": "https://nimage.newsway.co.kr/photo/2026/10/15/20261015004186_1200.png"
   },
   {
-    "id": "ce222aa75870",
-    "title": "노시환 경사 났네, FA 타자 탑10에 없지만 득표 성공…307억원 포기하고...",
-    "link": "https://www.mydaily.co.kr/page/view/2026111400535859627",
-    "published_at": "2026-11-14T06:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://mydaily.co.kr/photos/2026/07/02/2026070222201379653_l.jpg"
-  },
-  {
     "id": "b624c0f9c0e7",
     "title": "[N2 포커스] 외국인 SK하이닉스 팔고 NAVER 샀다…기관·개인은 반도체 ...",
     "link": "https://www.news2day.co.kr/article/20261114500003",
@@ -258,6 +336,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/14/.cache/512/20261114500001.png"
+  },
+  {
+    "id": "ce222aa75870",
+    "title": "노시환 경사 났네, FA 타자 탑10에 없지만 득표 성공…307억원 포기하고...",
+    "link": "https://www.mydaily.co.kr/page/view/2026111400535859627",
+    "published_at": "2026-11-14T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://mydaily.co.kr/photos/2026/07/02/2026070222201379653_l.jpg"
   },
   {
     "id": "209acc0eff34",
@@ -442,6 +533,19 @@
     "image": "https://cdn.stnsports.co.kr/news/photo/202611/325492_333443_131.jpg"
   },
   {
+    "id": "760710e8e416",
+    "title": "어플라이드, ’26년 매출 344억 5천만불…역대 최대",
+    "link": "http://amenews.kr/news/view.php?idx=68708",
+    "published_at": "2026-11-13T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://amenews.kr/data/cheditor4/2611/3554368046_1VS8DjaZ_5BEC9DB4EBAFB8ECA7805D_EC96B4ED948CEB9DBCEC9DB4EB939C_EBA19CEAB3A0_28329.jpg"
+  },
+  {
     "id": "d13517ab0e6d",
     "title": "[A 주간 서머리] 경제·산업계 \"공정위, 배민·쿠팡에 과징금 6319억원.....",
     "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=270835",
@@ -466,19 +570,6 @@
       "한화시스템"
     ],
     "image": "https://www.ekn.kr/mnt/file/202611/news-p.v1.20261113.d95a1731148c484ab5e2d5a4dd02bd05_R.png"
-  },
-  {
-    "id": "760710e8e416",
-    "title": "어플라이드, ’26년 매출 344억 5천만불…역대 최대",
-    "link": "http://amenews.kr/news/view.php?idx=68708",
-    "published_at": "2026-11-13T17:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://amenews.kr/data/cheditor4/2611/3554368046_1VS8DjaZ_5BEC9DB4EBAFB8ECA7805D_EC96B4ED948CEB9DBCEC9DB4EB939C_EBA19CEAB3A0_28329.jpg"
   },
   {
     "id": "78353932c08c",
@@ -650,6 +741,19 @@
     "image": "https://cdn.cnbizm.com/news/photo/202611/321416_231228_029.jpg"
   },
   {
+    "id": "e3c75972e440",
+    "title": "네카오부터 디토닉까지...소버린 국방 AI 승부수, 전장 데이터부터 '두...",
+    "link": "https://www.techm.kr/news/articleView.html?idxno=157329",
+    "published_at": "2026-11-13T15:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.techm.kr/news/thumbnail/202611/157329_225515_3025_v150.jpg"
+  },
+  {
     "id": "91e736f81e56",
     "title": "CCTV 넘어 AI 영상관제 시대…물리보안주 매수세 '활활'",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503911",
@@ -661,19 +765,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/503911_488840_3221_v150.jpg"
-  },
-  {
-    "id": "e3c75972e440",
-    "title": "네카오부터 디토닉까지...소버린 국방 AI 승부수, 전장 데이터부터 '두...",
-    "link": "https://www.techm.kr/news/articleView.html?idxno=157329",
-    "published_at": "2026-11-13T15:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.techm.kr/news/thumbnail/202611/157329_225515_3025_v150.jpg"
   },
   {
     "id": "4db4604ab2a4",
@@ -868,85 +959,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/1113/L20261113.99099004044i1.jpg?14"
-  },
-  {
-    "id": "c07c8a8bfd13",
-    "title": "\"최대5만원 매수쿠폰·주식 증정\" 하나증권, 12월31일까지 신규계좌개설...",
-    "link": "https://www.catchnews.kr/news/articleView.html?idxno=130487",
-    "published_at": "2026-11-13T14:09:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.catchnews.kr/news/thumbnail/202611/130487_169584_5742_v150.jpg"
-  },
-  {
-    "id": "0876fad431fa",
-    "title": "하나증권, 연말까지 신규 고객 대상 계좌개설 이벤트 진행",
-    "link": "https://www.newsmap.co.kr/news/articleView.html?idxno=5207",
-    "published_at": "2026-11-13T13:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.newsmap.co.kr/news/photo/202611/5207_7880_5713.jpg"
-  },
-  {
-    "id": "dcf6c2d71282",
-    "title": "DL케미칼, '알짜' 카리플렉스 매각 추진...배경은",
-    "link": "https://www.smarttoday.co.kr/ko-kr/articles/113717",
-    "published_at": "2026-11-13T13:52:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.www.smarttoday.co.kr/w1200/q100/f_jpg/article-images/2026-11-13/16db9c36-c7cd-4da6-8962-8f6cd2ee1a2f.png"
-  },
-  {
-    "id": "653d469184cc",
-    "title": "“인간은 비싸지만 아름답다”…AI 시대, 위작 사건 ‘로스코’로 던진...",
-    "link": "https://biz.heraldcorp.com/article/10936317?ref=naver",
-    "published_at": "2026-11-13T13:29:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-p.v1.20261113.240a4d138ea7407db59c89122cf92f06_P1.jpg"
-  },
-  {
-    "id": "8cd89952cedf",
-    "title": "하나증권, 신규 고객에 국내주식 매수쿠폰 최대 5만원",
-    "link": "http://www.metroseoul.co.kr/article/20261113500097",
-    "published_at": "2026-11-13T13:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "4f149f62ae08",
-    "title": "‘초대박’ FA 최대어 ML 도전 선언! 구자욱 해외 에이전트 전격 선임→...",
-    "link": "http://www.osen.co.kr/article/G1112909402",
-    "published_at": "2026-11-13T13:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://file.osen.co.kr/article_thumb/2026/11/13/202611131226771573_6af686a607808_300x.jpg"
+    "image": "https://db.kookje.co.kr/news2000/photo/2026/1113/L20261113.99099004044i1.jpg?53"
   },
   {
     "id": "f4140cbceb8b",
@@ -967,8 +980,7 @@
     "link": "https://www.ddaily.co.kr/page/view/2026111216364290655",
     "published_at": "2026-11-12T16:43:00+09:00",
     "sources": [
-      "Naver",
-      "디지털데일리"
+      "Naver"
     ],
     "keywords": [
       "5G 특화망"
