@@ -1,5 +1,18 @@
 [
   {
+    "id": "c746e2fed85d",
+    "title": "'쇼크' “구자욱에 마이너리그 계약 제안할 수도” 200억 포기하고 미국...",
+    "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019880",
+    "published_at": "2026-11-15T01:11:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1019880_2041803_9501.jpg"
+  },
+  {
     "id": "42147ca6889c",
     "title": "LIG D&A 방산업체 지정취소 검토에 여야 “신중 검토” 주문…김정관 “...",
     "link": "https://www.munhwa.com/article/11631308?ref=naver",
@@ -265,25 +278,13 @@
     "link": "https://www.mt.co.kr/industry/2026/11/14/2026111313533139204",
     "published_at": "2026-11-14T08:00:00+09:00",
     "sources": [
-      "Naver"
+      "Naver",
+      "머니투데이"
     ],
     "keywords": [
       "한화시스템"
     ],
     "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1318,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111313533139204_1.jpg"
-  },
-  {
-    "id": "e5787d87a733",
-    "title": "\"투자 넘어 성장까지\"···카카오벤처스, 美 AI 힉스필드와 맞손 잡고 ...",
-    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425027",
-    "published_at": "2026-11-14T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.sisajournal-e.com/news/thumbnail/202611/425027_242206_2432_v150.jpg"
   },
   {
     "id": "8810b668c9fc",
@@ -297,6 +298,19 @@
       "한화시스템"
     ],
     "image": "https://economist.co.kr/data/ecn/image/2026/11/02/ecn20261102000008.800x.0.jpg"
+  },
+  {
+    "id": "e5787d87a733",
+    "title": "\"투자 넘어 성장까지\"···카카오벤처스, 美 AI 힉스필드와 맞손 잡고 ...",
+    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425027",
+    "published_at": "2026-11-14T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sisajournal-e.com/news/thumbnail/202611/425027_242206_2432_v150.jpg"
   },
   {
     "id": "aaf1e58489c0",
@@ -374,7 +388,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135021875.4.jpg"
+    "image": ""
   },
   {
     "id": "924fd958dbc8",
@@ -546,19 +560,6 @@
     "image": "http://amenews.kr/data/cheditor4/2611/3554368046_1VS8DjaZ_5BEC9DB4EBAFB8ECA7805D_EC96B4ED948CEB9DBCEC9DB4EB939C_EBA19CEAB3A0_28329.jpg"
   },
   {
-    "id": "d13517ab0e6d",
-    "title": "[A 주간 서머리] 경제·산업계 \"공정위, 배민·쿠팡에 과징금 6319억원.....",
-    "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=270835",
-    "published_at": "2026-11-13T17:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.asiaa.co.kr/news/photo/202611/270835_293442_2042.jpg"
-  },
-  {
     "id": "1ac595de94c5",
     "title": "[보험·카드사 풍향계] 삼성화재, ‘착!한 우리집진단’ 서비스 선봬 外",
     "link": "https://www.ekn.kr/web/view.php?key=20261113025449508",
@@ -570,6 +571,19 @@
       "한화시스템"
     ],
     "image": "https://www.ekn.kr/mnt/file/202611/news-p.v1.20261113.d95a1731148c484ab5e2d5a4dd02bd05_R.png"
+  },
+  {
+    "id": "d13517ab0e6d",
+    "title": "[A 주간 서머리] 경제·산업계 \"공정위, 배민·쿠팡에 과징금 6319억원.....",
+    "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=270835",
+    "published_at": "2026-11-13T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.asiaa.co.kr/news/photo/202611/270835_293442_2042.jpg"
   },
   {
     "id": "78353932c08c",
@@ -751,7 +765,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.techm.kr/news/thumbnail/202611/157329_225515_3025_v150.jpg"
+    "image": "https://www.techm.kr/news/thumbnail/202611/157329_225515_3025_v150.jpg"
   },
   {
     "id": "91e736f81e56",
@@ -947,32 +961,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.econovill.com/news/thumbnail/202611/757173_734884_1046_v150.jpg"
-  },
-  {
-    "id": "2eeda106f294",
-    "title": "정부 “구글, 국내 고정밀 지도 보안 조건 모두 충족… 위반 때는 회수...",
-    "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261113.99099004044",
-    "published_at": "2026-11-13T14:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://db.kookje.co.kr/news2000/photo/2026/1113/L20261113.99099004044i1.jpg?53"
-  },
-  {
-    "id": "f4140cbceb8b",
-    "title": "수㎞ 밖 드론도 '펑'...'한 발에 2000원' 한국 하늘 지키는 '레이저포' - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTWs5eTBobjE3V3Y2TjB3QkNUQ1c4ekhuamhoMkpzNXZna1V3VjZpSmt4YkNWMHRlaUx4TG1xZmpYYkw5cG1vT2l0THFWX3ZWdFZoNVJ0YU5zb2dKTmRQSUdoMXlUSlNLYmdRRtIBckFVX3lxTE8tYXYwdjNBTldickhUdGRNcUZGbWZieFlIaWhDOFR6S1ZRWHM0NE9GWV9zT3FXeE1uUFlEQy01OURtakFrTEVfVk42aWFITUpNOHVXYzdoZ0tub1NEV3drbWZ4Qzh3VG9HNURBblZaZHF4Zw?oc=5",
-    "published_at": "2026-11-13T23:00:00+00:00",
-    "sources": [
-      "머니투데이"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
   },
   {
     "id": "d7f381323a83",
