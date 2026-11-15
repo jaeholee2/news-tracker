@@ -1,5 +1,18 @@
 [
   {
+    "id": "a2fd295a43db",
+    "title": "HD현대, 안두릴 합작 ‘무인 군함’ 1년 만에 건조",
+    "link": "https://www.chosun.com/economy/industry-company/2026/11/16/WABQ5KWZ7VGA7MJSIYASDPRHC4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "published_at": "2026-11-16T00:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.chosun.com/resizer/v2/2EAUL2KQS5AF3KXB6U4ULMID6Q.gif?auth=36b12b3855d9e053bc3f4f00cd57ce35ec67b8f6bc2d5053c86c3bce818bce6c&width=480&height=252&smart=true"
+  },
+  {
     "id": "d28707b07764",
     "title": "키움증권, HK이노엔 '컨디션'과 퇴직연금 팝업스토어 개최 外",
     "link": "https://www.rcast.co.kr/news/articleView.html?idxno=32066",
@@ -143,19 +156,6 @@
     "image": "https://cdn.coenworks.com/Files/4/News/202611/8674_20261115155432314.jpg"
   },
   {
-    "id": "e91e72c51d45",
-    "title": "대전대 군사학과, '국방혁신 AI·유무인복합체계 발전 세미나' 진행",
-    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1193254",
-    "published_at": "2026-11-15T15:32:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ggilbo.com/news/photo/202611/1193254_1046460_1654.jpg"
-  },
-  {
     "id": "5cf8522a8b7e",
     "title": "경북대 3대 융합연구원, 지역 산업과 공동연구 확대",
     "link": "https://www.kbmaeil.com/article/20261115500596",
@@ -167,6 +167,19 @@
       "한화시스템"
     ],
     "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/11/15/.cache/512/20261115500594.jpg"
+  },
+  {
+    "id": "e91e72c51d45",
+    "title": "대전대 군사학과, '국방혁신 AI·유무인복합체계 발전 세미나' 진행",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1193254",
+    "published_at": "2026-11-15T15:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ggilbo.com/news/photo/202611/1193254_1046460_1654.jpg"
   },
   {
     "id": "b5c26842cb02",
@@ -296,7 +309,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/11/15/.cache/512/20261115500341.jpg?v=20261115223115"
+    "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/11/15/.cache/512/20261115500341.jpg?v=20261116043432"
   },
   {
     "id": "ced2af3107d3",
@@ -921,32 +934,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.econovill.com/news/thumbnail/202611/757214_734956_719_v150.jpg"
-  },
-  {
-    "id": "7db9ebfe412d",
-    "title": "KBO, 10개 구단 총 28인 선수 FA 공시... 협상 17일부터",
-    "link": "https://www.stnsports.co.kr/news/articleView.html?idxno=325492",
-    "published_at": "2026-11-13T17:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.stnsports.co.kr/news/photo/202611/325492_333443_131.jpg"
-  },
-  {
-    "id": "760710e8e416",
-    "title": "어플라이드, ’26년 매출 344억 5천만불…역대 최대",
-    "link": "http://amenews.kr/news/view.php?idx=68708",
-    "published_at": "2026-11-13T17:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://amenews.kr/data/cheditor4/2611/3554368046_1VS8DjaZ_5BEC9DB4EBAFB8ECA7805D_EC96B4ED948CEB9DBCEC9DB4EB939C_EBA19CEAB3A0_28329.jpg"
   },
   {
     "id": "f4140cbceb8b",
