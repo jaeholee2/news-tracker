@@ -1,5 +1,161 @@
 [
   {
+    "id": "2abad16fcef7",
+    "title": "대기업들, AI 안경 정보유출 우려에 '비상'…반입 금지 등 강경 대응",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505273",
+    "published_at": "2026-11-18T08:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505273_490119_3715_v150.jpg"
+  },
+  {
+    "id": "91e245321156",
+    "title": "LS일렉트릭, 베트남 '박닌 사업장 생산동 증축식' 개최...빅테크 기업에...",
+    "link": "http://www.wsobi.com/news/articleView.html?idxno=321991",
+    "published_at": "2026-11-18T08:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "http://www.wsobi.com/news/photo/202611/321991_191252_112.jpg"
+  },
+  {
+    "id": "742dfa11e2a2",
+    "title": "현대오토에버, GPU 공급 넘어 AI 인프라 운영까지…사업 영역 넓힌다",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505090",
+    "published_at": "2026-11-18T08:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505090_489951_3754_v150.jpg"
+  },
+  {
+    "id": "75201c63a8bf",
+    "title": "[2026 기후환경 대상] [기후에너지환경부 장관상] DS단석 군산2공장, 재...",
+    "link": "https://dealsite.co.kr/articles/172947",
+    "published_at": "2026-11-18T08:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/17/78fac9755e6b408dada3c27c2d8497c0/thumb.jpg"
+  },
+  {
+    "id": "0237dff672d3",
+    "title": "북한 해킹조직 라자루스, 비트코인 믹싱 '크루' 최대 고객이었다… 2000...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505235",
+    "published_at": "2026-11-18T07:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505235_490081_2654_v150.jpg"
+  },
+  {
+    "id": "0f1284af17f0",
+    "title": "엔비디아, 3분기 매출 154조원…14분기 연속 최대 실적",
+    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=301573",
+    "published_at": "2026-11-18T07:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.financialpost.co.kr/news/photo/202611/301573_403023_5054.jpg"
+  },
+  {
+    "id": "7978368b8f71",
+    "title": "넥슨 오너 일가, NXC 지분 2900억 추가 현금화…배경은",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026111716051172833",
+    "published_at": "2026-11-18T07:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.newsway.co.kr/photo/2026/11/17/20261117007068_1200.png"
+  },
+  {
+    "id": "9ea677bc2e59",
+    "title": "AI 안경이 산업기밀 훔칠라…삼성·SK·현대차·LG ‘철통 보안’",
+    "link": "https://www.sedaily.com/article/20115635?ref=naver",
+    "published_at": "2026-11-18T06:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/11/17/news-p.v1.20261113.c45ccfaddc1748c7b17400d50034b56d_Z1.jpg"
+  },
+  {
+    "id": "dd206da83052",
+    "title": "중동발 유가 쇼크 현실화하나…항공·화학 울고 정유·방산 웃나",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505209",
+    "published_at": "2026-11-18T06:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505209_490058_2940_v150.jpg"
+  },
+  {
+    "id": "9fd195cb35c5",
+    "title": "엔비디아 실적 앞두고 월가 촉각…시가총액 447조 원 규모 변동 가능성",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=847546",
+    "published_at": "2026-11-18T05:28:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202611/847546_434988_2623_v150.jpg"
+  },
+  {
+    "id": "bd02779b0c81",
+    "title": "[Lawyter] 러, 대출받아도 최대 48시간 돈 안 준다",
+    "link": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228717",
+    "published_at": "2026-11-18T04:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.lawtimes.co.kr/news/photo/202611/228717_131082_3536.jpg"
+  },
+  {
+    "id": "a2c81f042071",
+    "title": "인도 육군, ‘날개 달린 포탄’ 검토…100km 밖 타격 추진",
+    "link": "https://www.g-enews.com/view.php?ud=202611180303115742fbbec65dfb_1",
+    "published_at": "2026-11-18T03:22:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111803202807324fbbec65dfb211211153121.jpg"
+  },
+  {
     "id": "972d90005abf",
     "title": "라온시큐어, 구글 '디바이스 트러스트' 연동... 제로트러스트 보안 강화",
     "link": "http://www.newsbrite.net/news/articleView.html?idxno=201556",
@@ -260,19 +416,6 @@
     "image": "https://cdn.gamevu.co.kr/news/photo/202611/62387_102653_024.jpg"
   },
   {
-    "id": "8d5c4af0a93d",
-    "title": "[LIG D&A 제재의 비용] 입찰 제한 멈췄지만, 군 드론 방어 생산은 여전히...",
-    "link": "https://dealsite.co.kr/articles/173012",
-    "published_at": "2026-11-17T17:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/17/9e605c4c76334ab2a56f3bea203f3e34/thumb.png"
-  },
-  {
     "id": "4e59af011c0f",
     "title": "충남대 '2026 GDI 포럼' 열어… 민간 AI·드론 국방 활용 방안 모색",
     "link": "https://daily.hankooki.com/news/articleView.html?idxno=1426130",
@@ -286,17 +429,17 @@
     "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1426130_1604455_510_v150.jpg"
   },
   {
-    "id": "692fadd4d365",
-    "title": "SK오션플랜트, 내년이 더 기대되는 이유…해상풍력·조선 '쌍끌이' 성장...",
-    "link": "https://www.econovill.com/news/articleView.html?idxno=757573",
-    "published_at": "2026-11-17T17:40:00+09:00",
+    "id": "8d5c4af0a93d",
+    "title": "[LIG D&A 제재의 비용] 입찰 제한 멈췄지만, 군 드론 방어 생산은 여전히...",
+    "link": "https://dealsite.co.kr/articles/173012",
+    "published_at": "2026-11-17T17:42:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.econovill.com/news/thumbnail/202611/757573_735420_206_v150.jpg"
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/17/9e605c4c76334ab2a56f3bea203f3e34/thumb.png"
   },
   {
     "id": "ba1edb4c8e03",
@@ -310,6 +453,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.datanet.co.kr/news/photo/202611/300252_200246_3742.png"
+  },
+  {
+    "id": "692fadd4d365",
+    "title": "SK오션플랜트, 내년이 더 기대되는 이유…해상풍력·조선 '쌍끌이' 성장...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=757573",
+    "published_at": "2026-11-17T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202611/757573_735420_206_v150.jpg"
   },
   {
     "id": "85c10a17345b",
@@ -494,19 +650,6 @@
     "image": "https://image.zdnet.co.kr/2026/11/17/311685abb4fafc09320cbb6980eb8c4a.jpg"
   },
   {
-    "id": "4d41ce9b8362",
-    "title": "[거래소 기관] 삼성전자·SK하이닉스 쓸어 담았다…삼성전기·삼성SDI는...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505123",
-    "published_at": "2026-11-17T16:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505123_489978_1236_v150.jpg"
-  },
-  {
     "id": "57fed3c2328a",
     "title": "담합 제재 기업 절반 이상 준법시스템 보유…공정위 CP 등급제 실효성 ...",
     "link": "https://www.tfmedia.co.kr/news/article.html?no=208963",
@@ -518,6 +661,19 @@
       "한화시스템"
     ],
     "image": "https://www.tfmedia.co.kr/data/photos/20261147/art_17948981784463_1fa48b.jpg"
+  },
+  {
+    "id": "4d41ce9b8362",
+    "title": "[거래소 기관] 삼성전자·SK하이닉스 쓸어 담았다…삼성전기·삼성SDI는...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505123",
+    "published_at": "2026-11-17T16:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505123_489978_1236_v150.jpg"
   },
   {
     "id": "a25bd8468f4a",
@@ -819,19 +975,6 @@
     "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1425916_1604250_256_v150.jpg"
   },
   {
-    "id": "2090efe81e44",
-    "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여...",
-    "link": "https://www.ajunews.com/view/20261117134049017",
-    "published_at": "2026-11-17T13:44:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.ajunews.com/content/image/2026/11/17/20261117134156929423.png"
-  },
-  {
     "id": "ad745ec2e591",
     "title": "AMD, 월드랩스 품고 AI 연구 지평 넓힌다…페이페이 리 합류로 기술 경쟁...",
     "link": "https://www.jemin.com/news/articleView.html?idxno=847460",
@@ -843,6 +986,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.jemin.com/news/thumbnail/202611/847460_434904_617_v150.jpg"
+  },
+  {
+    "id": "2090efe81e44",
+    "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여...",
+    "link": "https://www.ajunews.com/view/20261117134049017",
+    "published_at": "2026-11-17T13:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ajunews.com/content/image/2026/11/17/20261117134156929423.png"
   },
   {
     "id": "15178bf42733",
@@ -884,251 +1040,17 @@
     "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202611/7193734_254996_953_v150.jpg"
   },
   {
-    "id": "ba91c477defa",
-    "title": "삼성·SK 등 4대 그룹, 보안 강화… AI 안경·카메라 반입 차단",
-    "link": "https://www.newscj.com/news/articleView.html?idxno=3449378",
-    "published_at": "2026-11-17T12:56:00+09:00",
+    "id": "4297e7d17f46",
+    "title": "‘5G 특화망 전문기업’ 유캐스트, 일반청약 돌입[오늘청약]",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=01925366645647032&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+    "published_at": "2026-11-18T08:18:00+09:00",
     "sources": [
       "Naver"
     ],
     "keywords": [
-      "한화시스템"
+      "5G 특화망"
     ],
-    "image": "https://cdn.newscj.com/news/thumbnail/202611/3449378_3576183_5428_v150.jpg"
-  },
-  {
-    "id": "bea29aaefd10",
-    "title": "경비에서 AI 영상분석으로…물리보안 산업 변화에 투자자 주목",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504975",
-    "published_at": "2026-11-17T12:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/504975_489837_5117_v150.jpg"
-  },
-  {
-    "id": "b86830c65065",
-    "title": "퀄컴, 증시 급락 속 낙폭 방어했지만…주가 168달러대로 후퇴",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=847455",
-    "published_at": "2026-11-17T12:42:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202611/847455_434900_296_v150.jpg"
-  },
-  {
-    "id": "5e87ff4406fd",
-    "title": "‘1호 FA 경쟁부터 후끈’ 양의지 55억-오태곤 11억, FA 첫 날부터 66억 ...",
-    "link": "http://www.osen.co.kr/article/G1112911300",
-    "published_at": "2026-11-17T12:41:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://file.osen.co.kr/article_thumb/2026/11/17/202611171155775210_6afbc2a84c7f3_300x.jpeg"
-  },
-  {
-    "id": "cce8e5eaecf9",
-    "title": "'FA로만 295억!' 양의지, 그런데 누적 1위 아니다?…'307억' 노시환 ML 진...",
-    "link": "https://www.xportsnews.com/article/2220288",
-    "published_at": "2026-11-17T12:31:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1117/1794883125946662.webp"
-  },
-  {
-    "id": "14926cffbbf9",
-    "title": "엠게임 '나이트 온라인' 글로벌 신서버 하루만에 매출 35억",
-    "link": "https://game.donga.com/125155/",
-    "published_at": "2026-11-17T12:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "/media/__sized__/images/2026/11/17/ced854e840d1421a-thumbnail-960x540-70.jpg"
-  },
-  {
-    "id": "ced200a2761c",
-    "title": "미국의 반도체 규제 확대에 흔들린 마이크론…AI 메모리 성장 전략에도...",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=847453",
-    "published_at": "2026-11-17T12:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202611/847453_434899_1926_v150.jpg"
-  },
-  {
-    "id": "adaf4033ab9e",
-    "title": "진천군,첨단·친환경 산업 기반 강화",
-    "link": "http://www.cctimes.kr/news/articleView.html?idxno=937564",
-    "published_at": "2026-11-17T11:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.cctimes.kr/news/thumbnail/202611/937564_420282_3228_v150.jpg"
-  },
-  {
-    "id": "365c6dc5627f",
-    "title": "성균관대, 영재·과학고생 대상 'AI 심화연구반 멘토링 캠프' 개최",
-    "link": "https://www.newsis.com/view/NISX20261117_0003871248",
-    "published_at": "2026-11-17T11:43:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0002294038_web.jpg"
-  },
-  {
-    "id": "7b20ed445304",
-    "title": "[재계 인사이드] SK스퀘어가 증명하는 중간 지주회사의 가치",
-    "link": "https://www.news2day.co.kr/article/20261117500154",
-    "published_at": "2026-11-17T11:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/17/.cache/512/20261117500153.png"
-  },
-  {
-    "id": "4c84d4f89bc0",
-    "title": "AI 안경·초소형 렌즈 등 우려 확산…조선·방산업계 보안 대응은?",
-    "link": "https://news.tf.co.kr/read/economy/2389650.htm",
-    "published_at": "2026-11-17T11:21:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.tf.co.kr/article/home/2026/11/17/202678371794877006.jpg"
-  },
-  {
-    "id": "d49622bde680",
-    "title": "\"담합 제재 기업, 준법제도 더 갖췄다…도입보다 실효성 검증해야\"",
-    "link": "https://www.newsway.co.kr/news/view?ud=2026111710591840939",
-    "published_at": "2026-11-17T11:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.newsway.co.kr/photo/2026/11/17/20261117007002_1200.png"
-  },
-  {
-    "id": "82053d523dca",
-    "title": "케이티이, KDDX 전력시스템 국산화",
-    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883984",
-    "published_at": "2026-11-17T11:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/883984_910102_5211_v150.jpg"
-  },
-  {
-    "id": "57f35e4b0bc4",
-    "title": "30대 그룹 AI 투자 1위는 LG…카카오ㆍLS 순",
-    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611170954419630388",
-    "published_at": "2026-11-17T11:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.dnews.co.kr/photo/photo/2026/11/17/202611170954419630388-2-706220.jpg"
-  },
-  {
-    "id": "24772106e7ae",
-    "title": "일상용품 위장 초소형 카메라에 '긴장'…방산업계, 보안 탐지망 고도화",
-    "link": "https://www.widedaily.com/news/articleView.html?idxno=303870",
-    "published_at": "2026-11-17T10:58:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.widedaily.com/news/thumbnail/202611/303870_311300_5634_v150.jpg"
-  },
-  {
-    "id": "97981b333e9c",
-    "title": "기업이 찾고 미래가 성장하는 진천 ··· 첨단·친환경 산업 기반 강화",
-    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1193601",
-    "published_at": "2026-11-17T10:56:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ggilbo.com/news/photo/202611/1193601_1046832_2759.jpg"
-  },
-  {
-    "id": "1f5f6bd44a2c",
-    "title": "‘타케다 네가 왜 거기서 나와!’ 한일전 13연패 이유 조목조목 짚은 日...",
-    "link": "https://www.sportsseoul.com/news/read/1650265?ref=naver",
-    "published_at": "2026-11-17T10:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://file.sportsseoul.com/news/cms/2026/11/17/news-p.v1.20260408.03e42adf30874642952b217dfea00919_T1.jpeg"
-  },
-  {
-    "id": "a717f2f0c87e",
-    "title": "[ET특징주] 옵토닉스, 코스닥 데뷔 첫날 '따블'… 111%↑",
-    "link": "https://www.etnews.com/20261117000164",
-    "published_at": "2026-11-17T10:51:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.etnews.com/news/article/2024/02/07/mcp.v1.20240207.ea70534bb56a47819986713ff0b3937c_P1.gif"
-  },
-  {
-    "id": "0f9ad249e372",
-    "title": "엠게임 '나이트 온라인', 글로벌 신규 서버 오픈 첫날 매출 263만달러",
-    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1425881",
-    "published_at": "2026-11-17T10:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1425881_1604206_398_v150.jpg"
+    "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111800360.jpg"
   },
   {
     "id": "3f361401aee2",
