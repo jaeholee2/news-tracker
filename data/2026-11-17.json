@@ -1,5 +1,590 @@
 [
   {
+    "id": "972d90005abf",
+    "title": "라온시큐어, 구글 '디바이스 트러스트' 연동... 제로트러스트 보안 강화",
+    "link": "http://www.newsbrite.net/news/articleView.html?idxno=201556",
+    "published_at": "2026-11-18T01:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsbrite.net/news/thumbnail/202611/201556_108165_3654_v150.jpg"
+  },
+  {
+    "id": "3999c11af94c",
+    "title": "경상국립대, 'S등급·AI 동맹·IP 인재' 삼각축으로 대학혁신 가속",
+    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=89732",
+    "published_at": "2026-11-18T01:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.industrynews.co.kr/news/photo/202611/89732_111454_5039.jpg"
+  },
+  {
+    "id": "9df28326d5f6",
+    "title": "한샘 공매도 비중 40.54% 코스피 1위",
+    "link": "http://www.kjdaily.com/article.php?aid=1794929020692716276",
+    "published_at": "2026-11-18T00:26:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
+  },
+  {
+    "id": "2a057a89d6ff",
+    "title": "[Space Tech Expo Europe 2026] 메카티엔에스, 우주환경 시험장비를 장비...",
+    "link": "https://kr.aving.net/news/articleView.html?idxno=1817151",
+    "published_at": "2026-11-18T00:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.kr.aving.net/news/photo/202611/1817151_786954_655.jpg"
+  },
+  {
+    "id": "e03ff1588d88",
+    "title": "‘선출’ 단장의 퇴조와 ‘비선출’ 단장의 약진…KBO리그 내의 보이지...",
+    "link": "https://news.tf.co.kr/read/baseball/2390096.htm",
+    "published_at": "2026-11-18T00:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.tf.co.kr/article/home/newsis/2026/11/17/20261511179491009500.jpg"
+  },
+  {
+    "id": "dc8323b4e19b",
+    "title": "[경북대] 5급 공채 5명 합격·무선 뇌자극 기술 개발…7개국 인문학 교류...",
+    "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2379199",
+    "published_at": "2026-11-17T23:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.webeconomy.co.kr/news/photo/202611/2379199_1190189_1027.jpg"
+  },
+  {
+    "id": "3dfa905faf50",
+    "title": "'한반도 위협' 운운하며 '북한팔이' 되풀이하는 젤렌스키",
+    "link": "https://monthly.chosun.com/news/articleView.html?idxno=72009",
+    "published_at": "2026-11-17T20:48:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.monthly.chosun.com/news/photo/202611/72009_204492_215.jpg"
+  },
+  {
+    "id": "cc790ef1db3d",
+    "title": "KF-21의 ‘미국산 심장’, 수출 발목 잡나…부품 공급 지연되는 이유 [밀...",
+    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261117601019&wlog_tag3=naver",
+    "published_at": "2026-11-17T20:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://imgnn.seoul.co.kr/img/upload/2026/11/17/SSC_20261117155233.jpg.webp"
+  },
+  {
+    "id": "9899cbfaee89",
+    "title": "'도깨비의세계' 400억 흥행, 카카오게임즈 우상향 신호탄",
+    "link": "https://www.gameple.co.kr/news/articleView.html?idxno=217001",
+    "published_at": "2026-11-17T20:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gameple.co.kr/news/photo/202611/217001_250850_211.jpg"
+  },
+  {
+    "id": "f6f5d41a439a",
+    "title": "11월 3주 주요 제조업 전망",
+    "link": "https://www.laborplus.co.kr/news/articleView.html?idxno=41817",
+    "published_at": "2026-11-17T19:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.laborplus.co.kr/news/photo/202611/41817_75038_2815.jpg"
+  },
+  {
+    "id": "848d2d836f78",
+    "title": "경남 채용·산업현장까지…‘AI 안경’ 비상",
+    "link": "https://www.knnews.co.kr/news/articleView.php?idxno=1555323",
+    "published_at": "2026-11-17T19:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.knnews.co.kr/edb/nimages/2026/11/2026111715344504696.jpg"
+  },
+  {
+    "id": "0cab0a20baa9",
+    "title": "중형사 중 유안타만 영업익 늘어…수수료 수익 확 늘은 덕[증권3Q]",
+    "link": "https://www.ekn.kr/web/view.php?key=20261117021410935",
+    "published_at": "2026-11-17T19:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.ekn.kr/mnt/file/202611/news-p.v1.20261117.a50ebcfcaf36411fb4c45d0e92e431f4_R.png"
+  },
+  {
+    "id": "bafee1012726",
+    "title": "[주식마감] 'AI 시험 부정행위 논란'에 지슨 이틀 연속 상한가… 인디에...",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1193787",
+    "published_at": "2026-11-17T19:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ggilbo.com/news/photo/202611/1193787_1047034_5253.jpg"
+  },
+  {
+    "id": "f75c2ebcc6e6",
+    "title": "K방산 4사, 3분기 실적 주춤…4분기 반등 열쇠는?",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=757590",
+    "published_at": "2026-11-17T19:30:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202611/757590_735440_2353_v150.jpg"
+  },
+  {
+    "id": "0b9b45a9c53b",
+    "title": "“기업별 데이터 연결로 경남 제조 경쟁력 확보”",
+    "link": "https://www.knnews.co.kr/news/articleView.php?idxno=1555321",
+    "published_at": "2026-11-17T19:08:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.knnews.co.kr/edb/nimages/2026/11/2026111719035429827.jpg"
+  },
+  {
+    "id": "a40292a45dce",
+    "title": "[사설] 경남 제조업, 표준화 AI 데이터 연결 구축을",
+    "link": "https://www.knnews.co.kr/news/articleView.php?idxno=1555317",
+    "published_at": "2026-11-17T19:04:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.knnews.co.kr/images/logo-1.gif"
+  },
+  {
+    "id": "f5d024057157",
+    "title": "충남대서 AI·드론 국제포럼 개막…군·방산기업 기술 협력 모색",
+    "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1111725",
+    "published_at": "2026-11-17T18:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.ccdn.co.kr/news/thumbnail/202611/1111725_624697_3504_v150.jpg"
+  },
+  {
+    "id": "0d7166948084",
+    "title": "쇼핑백 들고 피 흘리는 예수... 이 '거리 화가'가 던진 질문",
+    "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003284318&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "published_at": "2026-11-17T18:21:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://ojsfile.ohmynews.com/CRI_T_IMG/2026/1112/A0003284318_T.jpg"
+  },
+  {
+    "id": "50ec8850fda5",
+    "title": "충남대, AI·드론 국제포럼 개최…글로벌 방산기업 참여",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=728962",
+    "published_at": "2026-11-17T18:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newstnt.com/news/photo/202611/728962_734717_142.jpg"
+  },
+  {
+    "id": "db9fc750c67e",
+    "title": "[게임뉴스] 웹젠 및 네오위즈 소식 외",
+    "link": "https://www.gamevu.co.kr/news/articleView.html?idxno=62387",
+    "published_at": "2026-11-17T18:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gamevu.co.kr/news/photo/202611/62387_102653_024.jpg"
+  },
+  {
+    "id": "8d5c4af0a93d",
+    "title": "[LIG D&A 제재의 비용] 입찰 제한 멈췄지만, 군 드론 방어 생산은 여전히...",
+    "link": "https://dealsite.co.kr/articles/173012",
+    "published_at": "2026-11-17T17:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dtd31o1ybbmk8.cloudfront.net/photos/2026/11/17/9e605c4c76334ab2a56f3bea203f3e34/thumb.png"
+  },
+  {
+    "id": "4e59af011c0f",
+    "title": "충남대 '2026 GDI 포럼' 열어… 민간 AI·드론 국방 활용 방안 모색",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1426130",
+    "published_at": "2026-11-17T17:42:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1426130_1604455_510_v150.jpg"
+  },
+  {
+    "id": "692fadd4d365",
+    "title": "SK오션플랜트, 내년이 더 기대되는 이유…해상풍력·조선 '쌍끌이' 성장...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=757573",
+    "published_at": "2026-11-17T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.econovill.com/news/thumbnail/202611/757573_735420_206_v150.jpg"
+  },
+  {
+    "id": "ba1edb4c8e03",
+    "title": "유캐스트, 공모가 1만9000원 … 기관 수요예측 경쟁률 173대 1 기록",
+    "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300252",
+    "published_at": "2026-11-17T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.datanet.co.kr/news/photo/202611/300252_200246_3742.png"
+  },
+  {
+    "id": "85c10a17345b",
+    "title": "AI 기기에 핵심 기술 털릴라…'커닝사태'에 산업계도 보안 강화",
+    "link": "https://www.nocutnews.co.kr/news/6608349?utm_source=naver&utm_medium=article&utm_campaign=20261117172640",
+    "published_at": "2026-11-17T17:27:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/11/17/202611171725152031_0.jpg"
+  },
+  {
+    "id": "3ea0b32d681e",
+    "title": "[기업인사이드] 실적 좋아지자 재무도 탄탄…10대 그룹 대표기업 9곳 부...",
+    "link": "https://www.thebigdata.co.kr/view.php?ud=2026111717014565340ecbf9426b_23",
+    "published_at": "2026-11-17T17:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611171705240492400ecbf9426b22339213223.jpg&nmt=23"
+  },
+  {
+    "id": "f8312a0c74a5",
+    "title": "이스라엘관광청, '2026 파트너 송년회' 성료…2027년 한국 시장 마케팅 ...",
+    "link": "https://www.gukjenews.com/news/articleView.html?idxno=3754890",
+    "published_at": "2026-11-17T17:24:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3754890_3937557_1156_v150.jpg"
+  },
+  {
+    "id": "00d34774ac7e",
+    "title": "땅 대신 바다로 가는 AI 데이터센터…K-조선, 해양플랜트 승부수",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026111716033269751",
+    "published_at": "2026-11-17T17:20:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.newsway.co.kr/photo/2026/01/13/20260113000049_1200.png"
+  },
+  {
+    "id": "de1173af25a7",
+    "title": "3분기 중소형 증권사 순이익 68% 급감···90% 감소 증권사 속출",
+    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425111",
+    "published_at": "2026-11-17T17:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sisajournal-e.com/news/thumbnail/202611/425111_242338_930_v150.jpg"
+  },
+  {
+    "id": "5dde22936518",
+    "title": "[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소...",
+    "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083079",
+    "published_at": "2026-11-17T16:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3083079_125606_5157_v150.jpg"
+  },
+  {
+    "id": "b4a121c37768",
+    "title": "\"에기평, 차세대 태양광 상용화 모색했다\"",
+    "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=205198",
+    "published_at": "2026-11-17T16:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.energydaily.co.kr/news/photo/202611/205198_204801_5310.jpg"
+  },
+  {
+    "id": "b09b9d85767f",
+    "title": "민선9기 '혁신성장 진격' 시동… 첨단·친환경 산단으로 미래 먹거리 확...",
+    "link": "https://www.dynews.co.kr/news/articleView.html?idxno=874393",
+    "published_at": "2026-11-17T16:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.dynews.co.kr/news/thumbnail/202611/874393_409717_5235_v150.jpg"
+  },
+  {
+    "id": "da5fd4bcd074",
+    "title": "SK AX, AI 전환 수요 타고 매출 '우상향'…증권가 \"4분기 9000억 돌파 전...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=140427",
+    "published_at": "2026-11-17T16:54:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.popcornnews.net/news/thumbnail/202611/140427_167196_3640_v150.jpg"
+  },
+  {
+    "id": "c073e733fe8f",
+    "title": "30대 그룹, 타법인 투자 줄이고 AI에 집중…2년 반 새 1.1조원 투입",
+    "link": "http://www.4th.kr/news/articleView.html?idxno=2122061",
+    "published_at": "2026-11-17T16:46:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.4th.kr/news/thumbnail/202611/2122061_224443_4218_v150.jpg"
+  },
+  {
+    "id": "859beb2802ca",
+    "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 동반 하락… 알테오...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505142",
+    "published_at": "2026-11-17T16:44:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505142_489996_4252_v150.jpg"
+  },
+  {
+    "id": "3c6004b488fa",
+    "title": "해외서 팔아야 산다···라면 3사, 생산기지 확충 속도",
+    "link": "https://www.seoulfn.com/news/articleView.html?idxno=643101",
+    "published_at": "2026-11-17T16:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.seoulfn.com/news/photo/202611/643101_447483_4454.jpg"
+  },
+  {
+    "id": "83040cd83a6c",
+    "title": "[증시 인사이트] 국내증시 동반 하락…코스피 5000선도 내줘",
+    "link": "https://biz.sbs.co.kr/article_hub/20000347073?division=NAVER",
+    "published_at": "2026-11-17T16:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.biz.sbs.co.kr/upload/2026/11/17/vwC1794900707947.jpg"
+  },
+  {
+    "id": "db2dcb94ad20",
+    "title": "[유미's 픽] 코히어 CEO, 韓·日·싱가포르 정부 고위층 잇단 접촉…亞 ...",
+    "link": "https://zdnet.co.kr/view/?no=20261117152912",
+    "published_at": "2026-11-17T16:32:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.zdnet.co.kr/2026/11/17/311685abb4fafc09320cbb6980eb8c4a.jpg"
+  },
+  {
+    "id": "4d41ce9b8362",
+    "title": "[거래소 기관] 삼성전자·SK하이닉스 쓸어 담았다…삼성전기·삼성SDI는...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505123",
+    "published_at": "2026-11-17T16:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505123_489978_1236_v150.jpg"
+  },
+  {
+    "id": "57fed3c2328a",
+    "title": "담합 제재 기업 절반 이상 준법시스템 보유…공정위 CP 등급제 실효성 ...",
+    "link": "https://www.tfmedia.co.kr/news/article.html?no=208963",
+    "published_at": "2026-11-17T16:14:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.tfmedia.co.kr/data/photos/20261147/art_17948981784463_1fa48b.jpg"
+  },
+  {
+    "id": "a25bd8468f4a",
+    "title": "[거래소 외국인] 매도 폭탄 반도체에 집중…매수 바구니엔 에이피알·방...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505121",
+    "published_at": "2026-11-17T16:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505121_489977_950_v150.jpg"
+  },
+  {
+    "id": "2d1dc99852fb",
+    "title": "K방산, 수출 양산 앞두고 설비투자 확대…3분기에도 추가 증액",
+    "link": "https://www.g-enews.com/view.php?ud=202611171521179876ea14faf6f5_1",
+    "published_at": "2026-11-17T16:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111715233403673ea14faf6f5591018158.jpg"
+  },
+  {
+    "id": "02a299bbf38c",
+    "title": "AI 안경 금지령 내린 SK…KAI는 탐지시스템 도입 검토",
+    "link": "https://www.hankyung.com/article/202611172288i",
+    "published_at": "2026-11-17T16:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.hankyung.com/photo/202611/ZN.46453548.1.jpg"
+  },
+  {
+    "id": "2170854dd882",
+    "title": "코스피 5,000선 붕괴…외국인 1.4조 매도, 삼성전자·SK하이닉스 또 하락",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16279036",
+    "published_at": "2026-11-17T15:56:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.topstarnews.net/news/photo/202611/16279036_2091233_5514_crop.jpg"
+  },
+  {
+    "id": "c8ae89b54521",
+    "title": "유캐스트, 공모가 1만9000원 확정…기관 경쟁률 173대 1",
+    "link": "http://www.newsprime.co.kr/news/article.html?no=755323",
+    "published_at": "2026-11-17T15:52:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.newsprime.co.kr/data/photos/cdn/20261147/art_755323_1794896752.png"
+  },
+  {
     "id": "4bf141a872aa",
     "title": "[심층분석] CJ올리브영, 3Q 매출 두 자릿수 성장세… 글로벌 확장에 CJ 주...",
     "link": "https://www.mediawatch.kr/news/article.html?no=261772",
@@ -400,7 +985,7 @@
     "keywords": [
       "한화시스템"
     ],
-    "image": "https://cdn.cctimes.kr/news/thumbnail/202611/937564_420282_3228_v150.jpg"
+    "image": "http://www.cctimes.kr/news/thumbnail/202611/937564_420282_3228_v150.jpg"
   },
   {
     "id": "365c6dc5627f",
@@ -544,487 +1129,6 @@
       "한화시스템"
     ],
     "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1425881_1604206_398_v150.jpg"
-  },
-  {
-    "id": "fef98545c3d5",
-    "title": "생보사 보험금, 예상보다 더 나갔다…12곳 중 8곳 예실차 손실",
-    "link": "https://www.raonnews.com/news/article.html?no=62825",
-    "published_at": "2026-11-17T10:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.raonnews.com/data/photos/20261147/art_17948784990952_10e02f.jpg"
-  },
-  {
-    "id": "ecb13d0ee5b2",
-    "title": "AI 안경 확산에 방산업계 긴장 ... \"임직원 상시 통제 한계\"",
-    "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/17/2026111750083.html",
-    "published_at": "2026-11-17T10:28:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.newdaily.co.kr/site/data/img/2026/11/17/2026111750083_0.jpg?u=20261117102731?u=20261117102731"
-  },
-  {
-    "id": "f15f7b82f607",
-    "title": "공모가 2.3배 뛴 옵토닉스…코스닥 데뷔 첫날 126%↑[코주부]",
-    "link": "https://www.sedaily.com/article/20115265?ref=naver",
-    "published_at": "2026-11-17T10:09:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://wimg.sedaily.com/news/cms/2026/11/17/news-p.v1.20261117.5445ddd65d754ab1b966f98e179b62fa_Z1.jpg"
-  },
-  {
-    "id": "14a25d2fc7fc",
-    "title": "AI 안경·카메라 반입 차단…삼성·SK·현대차·LG 4대 그룹도 보안 초비...",
-    "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/17/2026111750052.html",
-    "published_at": "2026-11-17T10:08:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.newdaily.co.kr/site/data/img/2026/11/17/2026111750052_0.jpg?u=20261117100756?u=20261117100756"
-  },
-  {
-    "id": "7c5d8a34bf98",
-    "title": "[52주 최저가] 221개 종목 장중 신저가",
-    "link": "https://www.itooza.com/common/iview.php?no=2026111709340202878",
-    "published_at": "2026-11-17T10:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://itooza.com/images/og_itooza.png"
-  },
-  {
-    "id": "c6588b3d682a",
-    "title": "30대 그룹 타법인 출자액 상반기 1.5조원 … AI 분야가 27%",
-    "link": "http://www.efnews.co.kr/news/articleView.html?idxno=134042",
-    "published_at": "2026-11-17T09:54:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.efnews.co.kr/news/photo/202611/134042_121965_4341.jpg"
-  },
-  {
-    "id": "d3d40a32da5e",
-    "title": "한투운용, ACE 글로벌반도체TOP4 Plus ETF 리밸런싱 진행",
-    "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211501",
-    "published_at": "2026-11-17T09:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.lcnews.co.kr/news/photo/202611/211501_215043_4211.jpg"
-  },
-  {
-    "id": "8b5557bad778",
-    "title": "[특징주] 옵토닉스, 코스닥 상장 첫날.. '따블' 성공",
-    "link": "https://www.g-enews.com/view.php?ud=20261117091717312444093b5d4e_1",
-    "published_at": "2026-11-17T09:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=202611170931540720744093b5d4e11513817197.jpg"
-  },
-  {
-    "id": "de4dc42ecffe",
-    "title": "[TOP's Pick] 스피어, 3분기 최대 매출 달성…2조 수주 실적 견인",
-    "link": "https://www.topdaily.kr/articles/112948",
-    "published_at": "2026-11-17T09:43:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://assets.repress.co.kr/photos/881bb5dce3f10177c87548577cdad963/thumb.jpg"
-  },
-  {
-    "id": "ea86765e302f",
-    "title": "[특징주] 옵토닉스, 코스닥 상장 첫날 140%대 급등…공모가 두 배 훌쩍",
-    "link": "https://www.widedaily.com/news/articleView.html?idxno=303820",
-    "published_at": "2026-11-17T09:22:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.widedaily.com/news/thumbnail/202611/303820_311252_1822_v150.jpg"
-  },
-  {
-    "id": "e2d06737c502",
-    "title": "'파격, 또 파격' KBO에 부는 파격 인사의 빛과 그림자...해설위원이 단장...",
-    "link": "https://www.maniareport.com/view.php?ud=20261117075507589491b55a0d56_19",
-    "published_at": "2026-11-17T09:18:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026111707552904353091b55a0d5621122710579.jpg&nmt=19"
-  },
-  {
-    "id": "81306aef9082",
-    "title": "30대 그룹, 투자 줄여도 AI는 키웠다 … 2년 반 동안 1조원 투입",
-    "link": "http://www.worktoday.co.kr/news/articleView.html?idxno=92138",
-    "published_at": "2026-11-17T09:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.worktoday.co.kr/news/thumbnail/202611/92138_132641_1255_v150.jpg"
-  },
-  {
-    "id": "197f3376c072",
-    "title": "[Epic Why] 은행-보험사 퇴직연금 유치전략 왜 다른가",
-    "link": "https://www.globalepic.co.kr/view.php?ud=2026111709004124347cc35ccc5c_29",
-    "published_at": "2026-11-17T09:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611170902340623607cc35ccc5c112222163195.jpg&nmt=29"
-  },
-  {
-    "id": "4920bf40aad8",
-    "title": "국내 30대 그룹 지분투자 감소에도 AI에는 1조 넘게 썼다",
-    "link": "http://www.srtimes.kr/news/articleView.html?idxno=217782",
-    "published_at": "2026-11-17T09:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.srtimes.kr/news/thumbnail/202611/217782_222869_033_v150.jpg"
-  },
-  {
-    "id": "8bb82cafc093",
-    "title": "11월 16일 주식시장 주요공시",
-    "link": "https://www.catchnews.kr/news/articleView.html?idxno=130589",
-    "published_at": "2026-11-17T08:55:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.catchnews.kr/news/thumbnail/202611/130589_169755_4736_v150.jpg"
-  },
-  {
-    "id": "a048109cbbd9",
-    "title": "첫날 115곳 올랐는데 일주일 뒤 93곳 하락…저PBR 명단 공개 물음표",
-    "link": "https://economist.co.kr/article/view/ecn202611100049",
-    "published_at": "2026-11-17T08:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://economist.co.kr/data/ecn/image/2026/11/10/ecn20261110000084.800x.0.jpg"
-  },
-  {
-    "id": "4366fb5af74e",
-    "title": "방산 4사 3분기 성적표, KAI만 날았다",
-    "link": "https://www.smartbizn.com/news/articleView.html?idxno=159634",
-    "published_at": "2026-11-17T08:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.smartbizn.com/news/photo/202611/159634_267493_215.jpg"
-  },
-  {
-    "id": "f99248c3bcd1",
-    "title": "테슬라, 독일에 대규모 승부수…사이버캡 연간 100만 대 생산 청사진",
-    "link": "https://www.jemin.com/news/articleView.html?idxno=847439",
-    "published_at": "2026-11-17T07:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.jemin.com/news/thumbnail/202611/847439_434890_4512_v150.jpg"
-  },
-  {
-    "id": "0ee97c8f91a5",
-    "title": "\"다카하시는 日 타자들도 치기 힘든 투수, 꼭 이기고 싶었는데 죄송\" 고...",
-    "link": "https://www.fnnews.com/news/202611170728290994",
-    "published_at": "2026-11-17T07:31:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.fnnews.com/resource/media/image/2026/11/16/202611161731440533_e.jpg"
-  },
-  {
-    "id": "6c90bd7de012",
-    "title": "손보사 3분기 투자손익 일제히 감소…현대·KB 적자, 삼성·DB 누적은 증...",
-    "link": "https://www.socialvalue.kr/news/view/1065598917972437",
-    "published_at": "2026-11-17T07:06:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.socialvalue.kr/news/data/20261116/p1065598917972437_499_thum.jpg"
-  },
-  {
-    "id": "949c576108bf",
-    "title": "[Who Is ?] 조영철 HD현대 대표이사 부회장",
-    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451569",
-    "published_at": "2026-11-17T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "d25d70ac2705",
-    "title": "[Who Is ?] 최교진 교육부 장관",
-    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451367",
-    "published_at": "2026-11-17T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "cafa2890f388",
-    "title": "[보험사의 AI 활용법] 보험설계ㆍ상담서비스 AI가 주도",
-    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611151131091200098",
-    "published_at": "2026-11-17T06:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.dnews.co.kr/photo/photo/2026/11/15/202611151131091200098-2-705659.jpg"
-  },
-  {
-    "id": "c7d7c6612ff8",
-    "title": "중소형 증권사 8곳 중 6곳 이익 '반토막'…평가손실에 비용 부담 겹쳐",
-    "link": "http://www.metroseoul.co.kr/article/20261117500001",
-    "published_at": "2026-11-17T06:26:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "d4be7bb8d34b",
-    "title": "[총수 신년공약 성적표②] 정의선 회장, AI 협력·현장경영 'A+'…자율주...",
-    "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=768392",
-    "published_at": "2026-11-17T06:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.consumernews.co.kr/news/thumbnail/202611/768392_321220_1540_v150.jpg"
-  },
-  {
-    "id": "ecf65fba4341",
-    "title": "그리스 나프토마르, 6년 만에 韓 조선소 복귀… HD현대에 'LPG 운반선 4척...",
-    "link": "https://www.g-enews.com/view.php?ud=2026111622082897000c8c1c064d_1",
-    "published_at": "2026-11-17T06:16:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261116220923029250c8c1c064d22114611240.jpg"
-  },
-  {
-    "id": "ee3958f48e30",
-    "title": "선박엔진 빅2 수주 '훨훨'…HD현대중공업 3분기 만에 연간 목표 150% 달성...",
-    "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=768393",
-    "published_at": "2026-11-17T06:10:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "http://www.consumernews.co.kr/news/thumbnail/202611/768393_321215_934_v150.jpg"
-  },
-  {
-    "id": "b00a626ce7c6",
-    "title": "SK디스커버리는 4179억 회수했다는데…대기업 희비 갈리는 PRS",
-    "link": "https://biz.chosun.com/industry/company/2026/11/17/6ZGCK6VWYRGWXIFV6N62DC2J7U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-    "published_at": "2026-11-17T06:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://biz.chosun.com/resizer/v2/GA2WGMZRMM3DCYLEGUYDMYZUGI.jpg?auth=541e0e312cd76ec5f6bafbac7ae6cc7f2d1139a64fc222736b5e056bc2c3d827&width=1200&height=630&smart=true"
-  },
-  {
-    "id": "508d0451bb09",
-    "title": "[산업 직썰] AI 시대, 반도체만큼 중요한 건 전력…4대 그룹, '에너지 주...",
-    "link": "https://www.ziksir.com/news/articleView.html?idxno=153438",
-    "published_at": "2026-11-17T06:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.ziksir.com/news/thumbnail/202611/153438_172737_5217_v150.jpg"
-  },
-  {
-    "id": "b925ce68c38d",
-    "title": "육상 막히자 바다로…美 '블루 쓰나미'에 FDC 시장 열리나",
-    "link": "https://www.mt.co.kr/industry/2026/11/17/2026111614041866626",
-    "published_at": "2026-11-17T05:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026111614041866626_1.jpg"
-  },
-  {
-    "id": "47a0abf0635d",
-    "title": "삼성 평택캠퍼스 ‘직주근접’… 5개 노선 교통 호재",
-    "link": "https://www.seoul.co.kr/news/economy/estate/2026/11/17/20261117023004?wlog_tag3=naver",
-    "published_at": "2026-11-17T05:05:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img.seoul.co.kr//img/upload/2026/11/16/SSC_20261116203034_O2.jpg.webp"
-  },
-  {
-    "id": "3155e53829ba",
-    "title": "겹겹이 막아도 안경·단추형엔 '긴장'…방산업계, 초소형 카메라 경계 ...",
-    "link": "https://www.newsis.com/view/NISX20261116_0003870243",
-    "published_at": "2026-11-17T05:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://img1.newsis.com/2026/11/16/NISI20261116_0021534194_web.jpg"
-  },
-  {
-    "id": "502fa365f1c5",
-    "title": "'214억 포기한 40세 상남자' 日다르빗슈 \"못 던지면, 돈 받을 수 없어\" 발...",
-    "link": "https://www.starnewskorea.com/sports/2026/11/17/2026111619190427237",
-    "published_at": "2026-11-17T03:33:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=828,fit=cover,q=high,sharpen=2/21/2026/11/2026111619190427237_1.jpg"
-  },
-  {
-    "id": "9ce353cfe6d5",
-    "title": "[뉴스이슈&비즈] 삼성SDI, 미국 ESS에 16GWh 공급…\"수조원 규모 3년짜리...",
-    "link": "http://www.issuenbiz.com/news/articleView.html?idxno=81649",
-    "published_at": "2026-11-17T02:30:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.issuenbiz.com/news/thumbnail/202611/81649_82267_3834_v150.jpg"
-  },
-  {
-    "id": "091d24357c0e",
-    "title": "\"초기 구축 이어 확장 물량도 싹쓸이\"… LS일렉트릭, 美 AI 데이터센터 ...",
-    "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92617",
-    "published_at": "2026-11-17T02:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.woodkorea.co.kr/image/logo/snslogo_20220718041630.png"
-  },
-  {
-    "id": "37887df5d048",
-    "title": "스테이블코인 결제 계좌·인허가 기준 재검토 제언",
-    "link": "https://www.tokenpost.kr/news/policy/439218",
-    "published_at": "2026-11-17T01:32:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://f1.tokenpost.kr/2026/11/10batlf5uj_th_1600x900.webp"
-  },
-  {
-    "id": "45125d34501f",
-    "title": "“일본과 비교땐 믿을 투수 없다”… 韓 야구의 민낯",
-    "link": "https://www.kmib.co.kr/article/20261116502029",
-    "published_at": "2026-11-17T01:21:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://3f3bm4nnaefgwrtq8izg16625.edge.naverncp.com/data2/content/image/2026/11/16/.cache/512/20261116502030.jpg"
   },
   {
     "id": "3f361401aee2",
