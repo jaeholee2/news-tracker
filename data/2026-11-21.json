@@ -1,5 +1,96 @@
 [
   {
+    "id": "0861c45c8f8e",
+    "title": "보험업 ESG 공시, 소비자 신뢰 회복 계기 활용 논의 본격화",
+    "link": "http://www.finomy.com/news/articleView.html?idxno=267488",
+    "published_at": "2026-11-21T21:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.finomy.com/news/thumbnail/202611/267488_261210_5124_v150.jpg"
+  },
+  {
+    "id": "612d62d7d07b",
+    "title": "노시환 언급 점점 늘어난다! GG 3루수 떠나보낸 캔자스시티와 연결 \"KBO서...",
+    "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021127",
+    "published_at": "2026-11-21T18:17:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1021127_2044752_1710.jpg"
+  },
+  {
+    "id": "865c79aa473c",
+    "title": "'류현진 절친' 푸이그 끝내 방출! 키움 2번 OUT→캐나다 홈런왕→또 쫓...",
+    "link": "https://www.xportsnews.com/article/2221770",
+    "published_at": "2026-11-21T17:41:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1121/1795248792162378.webp"
+  },
+  {
+    "id": "51e2573df45b",
+    "title": "(사)한국보험연구원, '2028년 ESG 공시와 보험업의 과제' 세미나 개최",
+    "link": "https://www.insnews.co.kr/news/articleView.html?idxno=93975",
+    "published_at": "2026-11-21T17:36:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.insnews.co.kr/news/photo/202611/93975_59145_2855.png"
+  },
+  {
+    "id": "4cd0fc0b5a1f",
+    "title": "대형 건설사들, 협력사들과 상생 통해 동반 성장 도모",
+    "link": "https://sports.hankooki.com/news/articleView.html?idxno=6943910",
+    "published_at": "2026-11-21T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.sports.hankooki.com/news/thumbnail/202611/6943910_1222134_1334_v150.jpg"
+  },
+  {
+    "id": "66f9ec8ed654",
+    "title": "반도체부터 금융·소비재까지 매물 출회…기업가치 제고주 '흔들'",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506599",
+    "published_at": "2026-11-21T14:58:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/506599_491346_5536_v150.jpg"
+  },
+  {
+    "id": "f4587383047c",
+    "title": "마이크론 반등 열쇠는 49조원 자사주 매입…월가가 주목한 세 가지 변화",
+    "link": "https://www.jemin.com/news/articleView.html?idxno=847984",
+    "published_at": "2026-11-21T14:16:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.jemin.com/news/thumbnail/202611/847984_435498_1419_v150.jpg"
+  },
+  {
     "id": "5139bc2587df",
     "title": "노시환, MLB와 협상 중… 1000만 달러 이상 가능하다고? 3루수 시장 어떻...",
     "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021092",
@@ -234,19 +325,6 @@
     "image": "https://nimage.newsway.co.kr/photo/2026/06/09/20260609000052_1200.jpg"
   },
   {
-    "id": "d8517d5cd788",
-    "title": "'MLB 도전' 노시환, 양키스 영입 후보 언급…\"KBO 최고 선수 중 한 명\"",
-    "link": "https://www.news1.kr/sports/overseas-baseball/6361366",
-    "published_at": "2026-11-21T07:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "79fb89db6894",
     "title": "[마켓人] IT 접목해 주주운동 뒷받침하는 이상목 컨두잇 대표",
     "link": "https://www.yna.co.kr/view/AKR20261120137900008?input=1195m",
@@ -258,6 +336,19 @@
       "한화시스템"
     ],
     "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120137900008_01_i_P4.jpg"
+  },
+  {
+    "id": "d8517d5cd788",
+    "title": "'MLB 도전' 노시환, 양키스 영입 후보 언급…\"KBO 최고 선수 중 한 명\"",
+    "link": "https://www.news1.kr/sports/overseas-baseball/6361366",
+    "published_at": "2026-11-21T07:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": ""
   },
   {
     "id": "1b268d6c5d13",
@@ -351,19 +442,6 @@
     "image": ""
   },
   {
-    "id": "a1ff1312fbab",
-    "title": "美 암페라, MMR 연료교체 없이 30년 가동...나스닥 시장 입성",
-    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=302311",
-    "published_at": "2026-11-20T17:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.financialpost.co.kr/news/photo/202611/302311_404478_3725.jpg"
-  },
-  {
     "id": "b375a41ffc1c",
     "title": "대전청년의회 95명 출범…정책 제안 넘어 예산 편성·평가까지 참여",
     "link": "https://www.nocutnews.co.kr/news/6610422?utm_source=naver&utm_medium=article&utm_campaign=20261120173915",
@@ -375,6 +453,19 @@
       "한화시스템"
     ],
     "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/11/20/202611201720295104_0.jpg"
+  },
+  {
+    "id": "a1ff1312fbab",
+    "title": "美 암페라, MMR 연료교체 없이 30년 가동...나스닥 시장 입성",
+    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=302311",
+    "published_at": "2026-11-20T17:40:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.financialpost.co.kr/news/photo/202611/302311_404478_3725.jpg"
   },
   {
     "id": "da9bd6b20aac",
@@ -442,19 +533,6 @@
     "image": "https://cdn.econovill.com/news/thumbnail/202611/758015_736033_3236_v150.jpg"
   },
   {
-    "id": "a64086f14943",
-    "title": "[오주석의 이심戰심] 승승장구 K방산이 맞닥뜨린 암초…기업 제재·무기...",
-    "link": "https://www.ajunews.com/view/20261120162540326",
-    "published_at": "2026-11-20T17:00:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.ajunews.com/content/image/2026/11/20/20261120163921569449.png"
-  },
-  {
     "id": "c62310f6efbf",
     "title": "[A 주간 서머리] 경제·산업계 \"삼성전자, 정기 사장단 인사 단행...롯데...",
     "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=272087",
@@ -466,6 +544,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.asiaa.co.kr/news/photo/202611/272087_294804_2458.jpg"
+  },
+  {
+    "id": "a64086f14943",
+    "title": "[오주석의 이심戰심] 승승장구 K방산이 맞닥뜨린 암초…기업 제재·무기...",
+    "link": "https://www.ajunews.com/view/20261120162540326",
+    "published_at": "2026-11-20T17:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.ajunews.com/content/image/2026/11/20/20261120163921569449.png"
   },
   {
     "id": "caa3cff21175",
@@ -533,19 +624,6 @@
     "image": "https://image.inews24.com/v1/64af05f847832c.jpg"
   },
   {
-    "id": "dedb7fb8fe21",
-    "title": "'테루아키-알렉 봄에게 없는 것' 양키스에 노시환이 딱이야! MLB닷컴 \"강...",
-    "link": "https://www.starnewskorea.com/sports/2026/11/20/2026112013352844658",
-    "published_at": "2026-11-20T15:02:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=802,fit=cover,q=high,sharpen=2/21/2026/11/2026112013352844658_1.jpg"
-  },
-  {
     "id": "6808816186a2",
     "title": "덩치는 한금서, 수익성은 인카 … GA 양강 엇갈리 성적표",
     "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050212.html",
@@ -557,6 +635,19 @@
       "한화시스템"
     ],
     "image": "https://image.newdaily.co.kr/site/data/img/2026/11/20/2026112050212_0.png?u=20261120150023?u=20261120150023"
+  },
+  {
+    "id": "dedb7fb8fe21",
+    "title": "'테루아키-알렉 봄에게 없는 것' 양키스에 노시환이 딱이야! MLB닷컴 \"강...",
+    "link": "https://www.starnewskorea.com/sports/2026/11/20/2026112013352844658",
+    "published_at": "2026-11-20T15:02:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=802,fit=cover,q=high,sharpen=2/21/2026/11/2026112013352844658_1.jpg"
   },
   {
     "id": "11b5acefa37e",
@@ -624,19 +715,6 @@
     "image": "https://cdn.kfenews.co.kr/news/thumbnail/202611/668458_141752_4835_v150.jpg"
   },
   {
-    "id": "93cfd3732f15",
-    "title": "[기획] 방산 레버리지 88% 급락…개인 143억 순매수",
-    "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=668425",
-    "published_at": "2026-11-20T14:12:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.kfenews.co.kr/news/thumbnail/202611/668425_141728_540_v150.jpg"
-  },
-  {
     "id": "d23810aae75a",
     "title": "유락, 오만서 ‘AI 디지털 포렌식’ 사업 확대…중동 공략 본격화",
     "link": "https://www.news2day.co.kr/article/20261120500196",
@@ -648,6 +726,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/20/.cache/512/20261120500194.png"
+  },
+  {
+    "id": "93cfd3732f15",
+    "title": "[기획] 방산 레버리지 88% 급락…개인 143억 순매수",
+    "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=668425",
+    "published_at": "2026-11-20T14:12:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.kfenews.co.kr/news/thumbnail/202611/668425_141728_540_v150.jpg"
   },
   {
     "id": "437cf9e7744c",
@@ -754,65 +845,12 @@
     "image": ""
   },
   {
-    "id": "2083901e70f6",
-    "title": "부산창경, 스마트해양 스타트업 6개사와 전문기관 협력 확대 추진",
-    "link": "https://www.inthenews.co.kr/news/article.html?no=94789",
-    "published_at": "2026-11-20T11:24:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://www.inthenews.co.kr/data/photos/20261147/art_17951411359141_69da1b.jpg"
-  },
-  {
-    "id": "f54ff3b16fc9",
-    "title": "유락, 중동 AI 디지털 포렌식' 사업 확대... '사이섹 오만 2026' 참가",
-    "link": "https://www.boannews.com/news/articleView.html?idxno=147408",
-    "published_at": "2026-11-20T11:14:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.boannews.com/news/photo/202611/147408_130231_117.png"
-  },
-  {
-    "id": "61d38c72bd3c",
-    "title": "‘충격’ 노시환 FA 랭킹 105등 안에도 없다니… MLB 구단과 협상 중인데...",
-    "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020855",
-    "published_at": "2026-11-20T11:01:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1020855_2044183_4305.jpg"
-  },
-  {
-    "id": "87456878c8d4",
-    "title": "AESA 레이더-전투기 디스플레이, 美에 역수출",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KNU1JQk9hTGIxeVNMWXV1MDJqd1Z3X0ZVdTE2bmZkQ0tIVldxSEdBNnJieG4zSFY5NHR6cDUzUDZubVp4YzNQTjAxYktoMDMzbEdQSkpLTVVVSVBIdWc?oc=5",
-    "published_at": "2026-11-18T19:30:00+00:00",
-    "sources": [
-      "동아비즈니스리뷰"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
     "id": "0a8490a2d74a",
     "title": "피지컬 AI 확산에 5G 특화망 부상…비용·주파수 제도 개선 과제",
     "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716442",
     "published_at": "2026-11-18T16:40:00+09:00",
     "sources": [
-      "Naver",
-      "디지털투데이"
+      "Naver"
     ],
     "keywords": [
       "5G 특화망"
