@@ -1,5 +1,83 @@
 [
   {
+    "id": "50c836a025a7",
+    "title": "인사는 앞당기고 CEO 교체는 최소화…재계, 기술 인재 전면 배치 [biz-플...",
+    "link": "https://www.sedaily.com/article/20117473?ref=naver",
+    "published_at": "2026-11-23T06:01:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://wimg.sedaily.com/news/cms/2026/11/22/news-p.v1.20260826.93859db427864021af46bb0a29172138_Z1.png"
+  },
+  {
+    "id": "3ad631c277b7",
+    "title": "2023년 전세 5억, 내년엔 7억? ‘전세 급등 청구서’ 날아온다",
+    "link": "https://www.khan.co.kr/article/202611230600081",
+    "published_at": "2026-11-23T06:00:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://img.khan.co.kr/news/2026/11/23/news-p.v1.20260715.7f905571e4cc41cdb995958cf0f47e0f_P1.jpeg"
+  },
+  {
+    "id": "b0fcd7d78326",
+    "title": "고우석 끝으로 멈춘 투수 포스팅…2027시즌 이후 곽빈·2028시즌 이후 안...",
+    "link": "https://sports.donga.com/sports/article/all/20261122/135067902/1",
+    "published_at": "2026-11-23T04:37:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/22/135067945.1.jpg"
+  },
+  {
+    "id": "75a43e037d57",
+    "title": "AI 군집드론 만든 대한항공, 임무 나눠 표적 타격 시연",
+    "link": "https://www.donga.com/news/Economy/article/all/20261123/135070025/2",
+    "published_at": "2026-11-23T04:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135070689.1.jpg"
+  },
+  {
+    "id": "9bcfcc4d2087",
+    "title": "한계를 넘어라! 두 번의 '1000개 데이'도 무사히 마쳤다…'류지현호' 첫...",
+    "link": "https://www.sportschosun.com/baseball/2026-11-23/202611230100138730012974",
+    "published_at": "2026-11-23T01:37:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://www.sportschosun.com/article/html/2026/11/23/2026112301001387300129741_w.jpg"
+  },
+  {
+    "id": "282e1d276698",
+    "title": "[살집 말집] 도심 한복판에 49층 '아르뮤제자이' 984가구 전량 분양",
+    "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=315910",
+    "published_at": "2026-11-23T01:18:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://cdn.straightnews.co.kr/news/thumbnail/202611/315910_229106_1418_v150.jpg"
+  },
+  {
     "id": "96505a19a774",
     "title": "2023년 전세 계약한 서울 6만4000가구…내년 이사 땐 보증금 평균 36% 더...",
     "link": "https://www.khan.co.kr/article/202611222116015",
@@ -325,19 +403,6 @@
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/506675_491412_4147_v150.jpg"
   },
   {
-    "id": "361a7e2c2579",
-    "title": "친환경 선박 시장 커지는데…기자재 시험·인증은 해외 의존",
-    "link": "https://www.newsway.co.kr/news/view?ud=2026112018051289798",
-    "published_at": "2026-11-22T09:34:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://nimage.newsway.co.kr/photo/2026/03/06/20260306000046_1200.png"
-  },
-  {
     "id": "203bdd17eafc",
     "title": "HBM 투자 기대 꺾였나…원익IPS·HPSP 등 전공정주도 '된서리'",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506673",
@@ -349,6 +414,19 @@
       "한화시스템"
     ],
     "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/506673_491411_3125_v150.jpg"
+  },
+  {
+    "id": "361a7e2c2579",
+    "title": "친환경 선박 시장 커지는데…기자재 시험·인증은 해외 의존",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026112018051289798",
+    "published_at": "2026-11-22T09:34:00+09:00",
+    "sources": [
+      "Naver"
+    ],
+    "keywords": [
+      "한화시스템"
+    ],
+    "image": "https://nimage.newsway.co.kr/photo/2026/03/06/20260306000046_1200.png"
   },
   {
     "id": "608033027b48",
@@ -895,44 +973,5 @@
       "한화시스템"
     ],
     "image": "https://static.inven.co.kr/column/2026/11/20/news/i1326141936.jpg"
-  },
-  {
-    "id": "747011ca41ec",
-    "title": "천궁-Ⅱ 산 UAE, 이번엔 ‘1발 2000원’ 韓 레이저포에 관심 [밀리터리+...",
-    "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261120601011&wlog_tag3=naver",
-    "published_at": "2026-11-20T19:48:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://imgnn.seoul.co.kr/img/upload/2026/11/20/SSC_20261120164112.png.webp"
-  },
-  {
-    "id": "a0429853abc9",
-    "title": "코스피·코스닥 주요 공시(20일)",
-    "link": "http://www.kjdaily.com/article.php?aid=1795167904693002276",
-    "published_at": "2026-11-20T18:46:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": ""
-  },
-  {
-    "id": "a1ff1312fbab",
-    "title": "美 암페라, MMR 연료교체 없이 30년 가동...나스닥 시장 입성",
-    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=302311",
-    "published_at": "2026-11-20T17:40:00+09:00",
-    "sources": [
-      "Naver"
-    ],
-    "keywords": [
-      "한화시스템"
-    ],
-    "image": "https://cdn.financialpost.co.kr/news/photo/202611/302311_404478_3725.jpg"
   }
 ]
